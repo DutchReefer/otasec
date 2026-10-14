@@ -1,0 +1,27 @@
+{% macro feed_item(i, t, plural) %}
+<li class="item" data-cat="{{ i.category }}">
+  <div class="item__meta">
+    <time datetime="{{ i.published }}">{{ i.time }}</time>
+    <span class="item__source">{{ i.source }}</span>
+  </div>
+  <div class="item__body">
+    <h3 class="item__title">{% if i.url %}<a href="{{ i.url }}" rel="noopener noreferrer" target="_blank">{{ i.title }}</a>{% else %}{{ i.title }}{% endif %}</h3>
+    {% if i.summary %}<p class="item__summary">{{ i.summary }}</p>{% endif %}
+    <ul class="tags">
+      {% if i.category %}<li class="tag tag--cat tag--{{ i.category }}">{{ t.categories[i.category] }}</li>{% endif %}
+      {% for s in i.sectors %}<li class="tag">{{ t.sectors[s] }}</li>{% endfor %}
+      {% for vnd in i.vendors %}<li class="tag tag--vendor">{{ vnd }}</li>{% endfor %}
+      {% for c in i.cves %}<li class="tag tag--cve">{{ c }}</li>{% endfor %}
+      {% if i.x %}<li class="tag tag--x">{{ plural('x_mentions', i.x) }}</li>{% endif %}
+    </ul>
+  </div>
+</li>
+{% endmacro %}
+
+{% macro source_list(sources) %}
+<ul class="srcs">
+  {% for s in sources %}
+  <li><a href="{{ s.url }}" rel="noopener noreferrer" target="_blank" title="{{ s.title }}">{{ s.name }}</a></li>
+  {% endfor %}
+</ul>
+{% endmacro %}

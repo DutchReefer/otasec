@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Example Advisories</title>
+<entry><title>SSA-000001: Example advisory for SCADA server</title>
+<link rel="alternate" href="https://cert.example.com/ssa-000001.html"/>
+<updated>2026-10-12T10:00:00Z</updated><summary>Fixes CVE-2026-22222.</summary></entry>
+</feed>

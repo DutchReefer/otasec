@@ -1,0 +1,123 @@
+# OTASEC — news sources.
+#
+# focus: ot      -> dedicated OT/ICS source; every item is kept (Claude still tags it)
+# focus: broad   -> general security press; only items Claude marks as OT/ICS-relevant
+#                   are published (keyword pre-filter when no API key is set)
+# kind:  news | advisory | vendor
+# lang:  language the source publishes in (en / nl)
+# verified: date the feed URL was last confirmed to return a valid feed.
+#           Feeds without a date were not reachable from the build environment
+#           at setup time; check data/health.json after the first GitHub run.
+
+feeds:
+  # --- Dedicated OT / ICS --------------------------------------------------
+  - id: industrialcyber
+    name: Industrial Cyber
+    url: https://industrialcyber.co/feed/
+    focus: ot
+    kind: news
+    lang: en
+    verified: 2026-10-14
+  - id: securityweek-ics
+    name: SecurityWeek ICS/OT
+    url: https://www.securityweek.com/category/ics-ot/feed/
+    focus: ot
+    kind: news
+    lang: en
+    verified: 2026-10-14
+  - id: securityaffairs-ics
+    name: Security Affairs ICS-SCADA
+    url: https://securityaffairs.com/category/security/ics-scada/feed
+    focus: ot
+    kind: news
+    lang: en
+    verified: 2026-10-14
+  - id: cisa-ics
+    name: CISA ICS Advisories
+    url: https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml
+    focus: ot
+    kind: advisory
+    lang: en
+  - id: siemens-productcert
+    name: Siemens ProductCERT
+    url: https://cert-portal.siemens.com/productcert/rss/advisories.atom
+    focus: ot
+    kind: advisory
+    lang: en
+  - id: dragos
+    name: Dragos
+    url: https://www.dragos.com/feed/
+    focus: ot
+    kind: vendor
+    lang: en
+  - id: nozomi
+    name: Nozomi Networks
+    url: https://www.nozominetworks.com/blog/rss.xml
+    focus: ot
+    kind: vendor
+    lang: en
+
+  # --- Broad security press (filtered to OT/ICS) ---------------------------
+  - id: thehackernews
+    name: The Hacker News
+    url: https://feeds.feedburner.com/TheHackersNews
+    focus: broad
+    kind: news
+    lang: en
+    verified: 2026-10-14
+  - id: bleepingcomputer
+    name: BleepingComputer
+    url: https://www.bleepingcomputer.com/feed/
+    focus: broad
+    kind: news
+    lang: en
+    verified: 2026-10-14
+  - id: therecord
+    name: The Record
+    url: https://therecord.media/feed/
+    focus: broad
+    kind: news
+    lang: en
+    verified: 2026-10-14
+  - id: helpnetsecurity
+    name: Help Net Security
+    url: https://www.helpnetsecurity.com/feed/
+    focus: broad
+    kind: news
+    lang: en
+    verified: 2026-10-14
+
+  # --- Dutch ------------------------------------------------------------------
+  - id: ncsc-nl
+    name: NCSC-NL Advisories
+    url: https://advisories.ncsc.nl/rss/advisories
+    focus: broad
+    kind: advisory
+    lang: nl
+    verified: 2026-10-14
+  - id: securitynl
+    name: Security.NL
+    url: https://www.security.nl/rss/headlines.xml
+    focus: broad
+    kind: news
+    lang: nl
+    verified: 2026-10-14
+
+# X (Twitter) recent search — optional, needs X_BEARER_TOKEN.
+# X API is pay-per-use (about $0.005 per post read in 2026), so this is
+# deliberately throttled: at most `max_posts_per_run` posts every
+# `min_interval_hours`, and `since_id` is tracked so the same post is
+# never paid for twice.
+x:
+  enabled: true
+  min_interval_hours: 6
+  max_posts_per_run: 50
+  queries:
+    - id: keywords
+      query: >-
+        ("ICS security" OR "OT security" OR SCADA OR "operational technology"
+        OR "IEC 62443" OR "industrial control" OR PLC vulnerability)
+        has:links -is:retweet -is:reply lang:en
+  # Optional: accounts to follow, e.g. ["CISAgov", "SecurityWeek"].
+  # Added as a second query: (from:a OR from:b) has:links -is:retweet
+  accounts: []

@@ -1,0 +1,28 @@
+<table class="sources">
+  <thead><tr><th scope="col">{{ t.sources }}</th><th scope="col">Focus</th><th scope="col">Lang</th><th scope="col">Status</th></tr></thead>
+  <tbody>
+  {% for s in sources %}
+    <tr>
+      <td><a href="{{ s.url }}" rel="noopener noreferrer">{{ s.name }}</a></td>
+      <td>{{ 'OT/ICS' if s.focus == 'ot' else 'filtered' }}</td>
+      <td>{{ s.lang|upper }}</td>
+      <td>
+        {% if s.ok %}<span class="status status--ok">{{ t.status_ok }}</span>
+        {% elif s.ok is none %}<span class="status">–</span>
+        {% else %}<span class="status status--fail">{{ t.status_fail }}</span>{% endif %}
+        {% if s.checked %}<span class="muted small">{{ t.last_checked }} {{ s.checked }}</span>{% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  {% if x_enabled %}
+    <tr>
+      <td>X (recent search)</td><td>filtered</td><td>EN</td>
+      <td>
+        {% if x_status.ok %}<span class="status status--ok">{{ t.status_ok }}</span>
+        {% elif x_status.ok is sameas false %}<span class="status status--fail">{{ t.status_fail }}</span>
+        {% else %}<span class="status">{{ t.status_off if 'not set' in (x_status.error or 'not set') else '–' }}</span>{% endif %}
+      </td>
+    </tr>
+  {% endif %}
+  </tbody>
+</table>

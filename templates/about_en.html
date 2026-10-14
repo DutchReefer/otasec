@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ t.about_title }}{% endblock %}
+{% block main %}
+<div class="article prose">
+  <h1 class="article__title">{{ t.about_title }}</h1>
+  <p class="article__intro">OTASEC — <em>OT Asset Security</em> — collects operational-technology and industrial-control-system security news in one place, for the people who own, run and protect industrial assets.</p>
+
+  <h2>How it works</h2>
+  <ol>
+    <li><strong>Collect.</strong> Every hour OTASEC reads dedicated OT/ICS outlets, vendor and government advisories, the broader security press and selected posts on X.</li>
+    <li><strong>Filter and tag.</strong> Claude, Anthropic's AI model, checks each item for a real OT/ICS or critical-infrastructure angle and tags it by type (advisory, incident, regulation…), sector and vendor. It also writes a one-line summary in English and Dutch. General IT news without an industrial angle is left out.</li>
+    <li><strong>Brief.</strong> Every morning the day's stories are clustered. The ones covered by the most independent sources lead the briefing, each with a short summary, a practical takeaway for asset owners and links to every source.</li>
+  </ol>
+
+  <h2>Editorial safeguards</h2>
+  <ul>
+    <li>Every link points to an article that was actually fetched. The AI can't add links of its own.</li>
+    <li>Summaries are machine-generated from each source's own title and excerpt. Always read the original before acting, especially on advisories.</li>
+    <li>OTASEC republishes no full articles. It links to them.</li>
+  </ul>
+
+  <h2>{{ t.source_status }}</h2>
+  {% include "_sources.html" %}
+
+  <h2>Follow</h2>
+  <p><a href="/rss.xml">{{ t.rss_briefings }}</a> · <a href="/news.xml">{{ t.rss_news }}</a> · <a href="{{ others['nl'] }}/" hreflang="nl">Nederlandse versie</a></p>
+</div>
+{% endblock %}

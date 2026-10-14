@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_macros.html" import source_list %}
+{% block title %}{{ b.title }} — {{ site.site_name }}{% endblock %}
+{% block description %}{{ b.intro }}{% endblock %}
+{% block main %}
+<article class="article">
+  <p class="eyebrow">{{ t.nav_briefings }} · <time datetime="{{ b.date }}">{{ b.date_label }}</time></p>
+  <h1 class="article__title">{{ b.title }}</h1>
+  <p class="article__intro">{{ b.intro }}</p>
+
+  {% for s in b.stories %}
+  <section class="story" id="story-{{ loop.index }}">
+    <h2><span class="story__n">{{ loop.index }}</span>{{ s.heading }}</h2>
+    <p class="story__meta">
+      <span class="pill">{{ plural('source_count', s.source_count) }}</span>
+      {% if s.x %}<span class="pill pill--x">{{ plural('x_mentions', s.x) }}</span>{% endif %}
+      {% for c in s.cves %}<span class="tag tag--cve">{{ c }}</span>{% endfor %}
+    </p>
+    <p>{{ s.summary }}</p>
+    {% if s.takeaway %}
+    <p class="takeaway"><strong>{{ t.takeaway }}:</strong> {{ s.takeaway }}</p>
+    {% endif %}
+    <div class="story__sources">
+      <span class="muted">{{ t.sources }}:</span>
+      {{ source_list(s.sources) }}
+    </div>
+  </section>
+  {% endfor %}
+
+  <nav class="pager" aria-label="Briefings">
+    {% if older %}<a href="{{ older.path }}">← {{ t.previous }}: {{ older.date_label }}</a>{% else %}<span></span>{% endif %}
+    {% if newer %}<a href="{{ newer.path }}">{{ t.next }}: {{ newer.date_label }} →</a>{% endif %}
+  </nav>
+</article>
+{% endblock %}

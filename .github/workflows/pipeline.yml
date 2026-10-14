@@ -1,0 +1,88 @@
+name: OTASEC pipeline
+
+# Hourly: fetch sources -> classify with Claude -> (once each morning) write the
+# daily briefing -> build both sites -> commit data/ -> deploy over FTP(S)/SFTP.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      force_briefing:
+        description: "Regenerate today's briefing now"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: otasec-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      FTP_HOST: ${{ secrets.FTP_HOST }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          FORCE: ${{ inputs.force_briefing && '--force-briefing' || '' }}
+        run: python -m otasec run $FORCE
+
+      - name: Commit data
+        run: |
+          git config user.name "otasec-bot"
+          git config user.email "otasec-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -q -m "data: update $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+            git pull -q --rebase origin "${GITHUB_REF_NAME}"
+            git push -q
+          fi
+
+      - name: Deploy
+        if: env.FTP_HOST != ''
+        env:
+          FTP_USER: ${{ secrets.FTP_USER }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PROTOCOL: ${{ vars.FTP_PROTOCOL || 'ftp' }}
+          FTP_DIR_EN: ${{ vars.FTP_DIR_EN }}
+          FTP_DIR_NL: ${{ vars.FTP_DIR_NL }}
+          FTP_DELETE: ${{ vars.FTP_DELETE || 'false' }}
+        run: |
+          set -euo pipefail
+          sudo apt-get -qq update && sudo apt-get -qq install -y lftp >/dev/null
+          test -n "$FTP_DIR_EN" && test -n "$FTP_DIR_NL" || { echo "Set repo variables FTP_DIR_EN and FTP_DIR_NL"; exit 1; }
+          DEL=""; [ "$FTP_DELETE" = "true" ] && DEL="--delete"
+          lftp --env-password -u "$FTP_USER" "$FTP_PROTOCOL://$FTP_HOST" -e "
+            set ftp:ssl-allow yes;
+            set net:max-retries 3;
+            set net:timeout 30;
+            set sftp:auto-confirm yes;
+            mirror -R $DEL --parallel=4 --exclude-glob .well-known/ --exclude-glob cgi-bin/ dist/en '$FTP_DIR_EN';
+            mirror -R $DEL --parallel=4 --exclude-glob .well-known/ --exclude-glob cgi-bin/ dist/nl '$FTP_DIR_NL';
+            bye"
+
+      - name: Keep built site as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: dist
+          retention-days: 3
+          include-hidden-files: true

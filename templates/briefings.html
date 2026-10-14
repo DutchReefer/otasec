@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}{{ t.briefing_archive }} — {{ site.site_name }}{% endblock %}
+{% block main %}
+<div class="article">
+  <h1 class="article__title">{{ t.briefing_archive }}</h1>
+  <p class="article__intro">{{ t.briefing_archive_sub }}</p>
+  {% if briefings %}
+  <ul class="archive">
+    {% for b in briefings %}
+    <li>
+      <a href="{{ b.path }}">
+        <time datetime="{{ b.date }}">{{ b.date_label }}</time>
+        <span class="archive__title">{{ b.title }}</span>
+        <span class="muted">{{ plural('stories', b.stories|length) }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>{{ t.no_briefing }}</p>
+  {% endif %}
+</div>
+{% endblock %}

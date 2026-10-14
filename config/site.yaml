@@ -1,0 +1,39 @@
+# OTASEC — site and pipeline settings.
+#
+# One codebase builds two static sites: dist/en (otasec.com) and dist/nl
+# (otasec.nl). Each is uploaded to its own document root (see README).
+
+site_name: OTASEC
+expansion: OT Asset Security
+timezone: Europe/Amsterdam
+
+languages:
+  en:
+    base_url: https://otasec.com
+    name: English
+  nl:
+    base_url: https://otasec.nl
+    name: Nederlands
+
+# Live feed
+feed:
+  retention_days: 60     # items kept in data/items.json
+  window_days: 30        # items shown in the live feed
+  homepage_items: 40     # items rendered server-side on the homepage (rest load via JSON)
+
+# Claude models (see https://platform.claude.com/docs/en/models/overview).
+# Override per run with env vars OTASEC_CLASSIFY_MODEL / OTASEC_BRIEFING_MODEL.
+models:
+  classify: claude-haiku-5-5     # high-volume tagging + one-line summaries
+  briefing: claude-sonnet-5-5    # once-a-day editorial briefing
+
+classify:
+  batch_size: 20
+  max_items_per_run: 200   # cost guard
+
+briefing:
+  publish_hour_local: 7    # first pipeline run at/after this hour publishes the day's briefing
+  lookback_hours: 24
+  fallback_lookback_hours: 48   # used when fewer than min_items were found
+  min_items: 3
+  max_stories: 7

@@ -1,0 +1,36 @@
+# OTASEC static site — Apache settings (ignored by non-Apache hosts).
+ErrorDocument 404 /404.html
+DirectoryIndex index.html
+Options -Indexes
+
+# Old PHP version of the site: keep its files unreachable if they're still on the host.
+<FilesMatch "\.(php|env)$">
+  Require all denied
+</FilesMatch>
+RedirectMatch 404 ^/(app/|bin/|data/digests\.json)
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "DENY"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header always set Content-Security-Policy "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Drop www. (HTTPS forcing is usually a hosting-panel setting; enabling it here
+  # behind a proxy/CDN can cause redirect loops.)
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 5 minutes"
+  ExpiresByType application/json "access plus 5 minutes"
+  ExpiresByType application/rss+xml "access plus 30 minutes"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 month"
+</IfModule>

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ t.about_title }}{% endblock %}
+{% block main %}
+<div class="article prose">
+  <h1 class="article__title">{{ t.about_title }}</h1>
+  <p class="article__intro">OTASEC — <em>OT Asset Security</em> — brengt securitynieuws over operationele technologie en industriële besturingssystemen samen op één plek, voor iedereen die industriële assets bezit, beheert of beveiligt.</p>
+
+  <h2>Hoe het werkt</h2>
+  <ol>
+    <li><strong>Verzamelen.</strong> Elk uur leest OTASEC gespecialiseerde OT/ICS-media, advisories van leveranciers en overheden (waaronder het NCSC), de bredere securitypers en geselecteerde berichten op X.</li>
+    <li><strong>Filteren en labelen.</strong> Claude, het AI-model van Anthropic, beoordeelt elk bericht op een echte OT/ICS- of vitale-infrastructuurhoek en labelt het naar type (advisory, incident, regelgeving…), sector en leverancier. Daarbij schrijft het een samenvatting van één zin in het Nederlands en Engels. Algemeen IT-nieuws zonder industriële hoek valt af.</li>
+    <li><strong>Briefen.</strong> Elke ochtend worden de verhalen van de dag geclusterd. Wat door de meeste onafhankelijke bronnen wordt gebracht, opent de briefing, met een korte samenvatting, een praktisch aandachtspunt voor asset owners en links naar alle bronnen.</li>
+  </ol>
+
+  <h2>Redactionele waarborgen</h2>
+  <ul>
+    <li>Elke link verwijst naar een artikel dat echt is opgehaald. De AI kan zelf geen links toevoegen.</li>
+    <li>Samenvattingen worden automatisch gemaakt op basis van de titel en introtekst van de bron. Lees altijd het origineel voordat je handelt, zeker bij advisories.</li>
+    <li>OTASEC publiceert geen volledige artikelen opnieuw. Het linkt ernaar.</li>
+  </ul>
+
+  <h2>{{ t.source_status }}</h2>
+  {% include "_sources.html" %}
+
+  <h2>Volgen</h2>
+  <p><a href="/rss.xml">{{ t.rss_briefings }}</a> · <a href="/news.xml">{{ t.rss_news }}</a> · <a href="{{ others['en'] }}/" hreflang="en">English version</a></p>
+</div>
+{% endblock %}

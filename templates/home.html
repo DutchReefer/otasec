@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% from "_macros.html" import feed_item %}
+{% block main %}
+<section class="brief" aria-labelledby="brief-h">
+  {% if latest %}
+  <p class="eyebrow"><span class="pulse" aria-hidden="true"></span>{{ t.todays_briefing if is_today else t.latest_briefing }} · {{ latest.date_label }}</p>
+  <h1 id="brief-h" class="brief__title"><a href="{{ latest.path }}">{{ latest.title }}</a></h1>
+  <p class="brief__intro">{{ latest.intro }}</p>
+  <ol class="brief__list">
+    {% for s in latest.stories %}
+    <li>
+      <a href="{{ latest.path }}#story-{{ loop.index }}">{{ s.heading }}</a>
+      <span class="pill">{{ plural('source_count', s.source_count) }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+  <p><a class="cta" href="{{ latest.path }}">{{ t.read_briefing }} →</a></p>
+  {% else %}
+  <p class="eyebrow">{{ t.todays_briefing }}</p>
+  <h1 id="brief-h" class="brief__title">{{ t.tagline }}</h1>
+  <p class="brief__intro">{{ t.no_briefing }}</p>
+  {% endif %}
+</section>
+
+<section class="feed" aria-labelledby="feed-h">
+  <div class="feed__head">
+    <h2 id="feed-h">{{ t.live_feed }}</h2>
+    <p class="muted">{{ t.live_feed_sub.format(n=feed_count) }}</p>
+  </div>
+
+  <form class="filters" id="filters" role="search" hidden>
+    <input type="search" name="q" placeholder="{{ t.filter_search }}" aria-label="{{ t.filter_search }}" autocomplete="off">
+    <div class="chips" role="group" aria-label="Category">
+      <button type="button" class="chip" data-cat="" aria-pressed="true">{{ t.filter_all }}</button>
+      {% for key, label in categories.items() %}
+      <button type="button" class="chip chip--{{ key }}" data-cat="{{ key }}" aria-pressed="false">{{ label }}</button>
+      {% endfor %}
+    </div>
+    <div class="selects">
+      <select name="sector" aria-label="{{ t.filter_sector }}">
+        <option value="">{{ t.filter_sector }}</option>
+        {% for key, label in sectors.items() %}<option value="{{ key }}">{{ label }}</option>{% endfor %}
+      </select>
+      <select name="source" aria-label="{{ t.filter_source }}">
+        <option value="">{{ t.filter_source }}</option>
+        {% for s in sources %}<option value="{{ s }}">{{ s }}</option>{% endfor %}
+      </select>
+    </div>
+  </form>
+
+  <ul class="items" id="items">
+    {% for i in items %}{{ feed_item(i, t, plural) }}{% endfor %}
+  </ul>
+  <p class="empty" id="empty" {% if items %}hidden{% endif %}>{{ t.no_items }}</p>
+  <p class="more"><button type="button" class="btn" id="more" hidden>{{ t.load_more }}</button></p>
+</section>
+<script type="application/json" id="i18n">{{ {"categories": categories, "sectors": sectors, "x": t.x_mentions, "lang": lang}|tojson }}</script>
+{% endblock %}
+{% block scripts %}<script src="/assets/app.js?v={{ v }}" defer></script>{% endblock %}

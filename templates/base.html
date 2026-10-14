@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.site_name }} — {{ t.tagline }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ t.tagline }}{% endblock %}">
+<link rel="canonical" href="{{ base_url }}{{ path }}">
+{% for l, u in others.items() %}
+<link rel="alternate" hreflang="{{ 'nl-NL' if l == 'nl' else 'en' }}" href="{{ u }}{{ path }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ others['en'] }}{{ path }}">
+<link rel="alternate" type="application/rss+xml" title="{{ t.rss_briefings }}" href="/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="{{ t.rss_news }}" href="/news.xml">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css?v={{ v }}">
+<meta property="og:site_name" content="{{ site.site_name }}">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:url" content="{{ base_url }}{{ path }}">
+<meta name="theme-color" content="#0f1720">
+</head>
+<body>
+<a class="skip" href="#main">{{ t.skip }}</a>
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="brand" href="/" aria-label="{{ site.site_name }} — {{ site.expansion }}">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 4 7v8c0 7.2 5 13.2 12 15 7-1.8 12-7.8 12-15V7L16 2Z" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="16" cy="15" r="4.2" fill="currentColor"/><path d="M16 6.5v4.3M16 19.2v4.3M8.5 15h3.3M20.2 15h3.3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      <span class="brand__name">{{ site.site_name }}</span>
+      <span class="brand__exp">{{ site.expansion }}</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="/" {% if path == '/' %}aria-current="page"{% endif %}>{{ t.nav_home }}</a>
+      <a href="/briefings/" {% if path.startswith('/briefing') %}aria-current="page"{% endif %}>{{ t.nav_briefings }}</a>
+      <a href="/about/" {% if path == '/about/' %}aria-current="page"{% endif %}>{{ t.nav_about }}</a>
+    </nav>
+    <div class="langs" role="group" aria-label="Language">
+      {% for l, cfg in languages.items() %}
+        {% if l == lang %}<span class="langs__on" aria-current="true">{{ l|upper }}</span>
+        {% else %}<a href="{{ others[l] }}{{ path if path != '/404.html' else '/' }}" hreflang="{{ l }}" lang="{{ l }}" title="{{ cfg.name }}">{{ l|upper }}</a>{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</header>
+<main id="main" class="wrap">
+{% block main %}{% endblock %}
+</main>
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p class="footer__note">{{ t.footer_note }}</p>
+    <p class="footer__links">
+      <a href="/rss.xml">{{ t.rss_briefings }}</a>
+      <a href="/news.xml">{{ t.rss_news }}</a>
+      <span>{{ t.updated }} {{ updated }}</span>
+    </p>
+    <p class="footer__copy">© {{ now.year }} {{ site.site_name }} · {{ site.expansion }}</p>
+  </div>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>
