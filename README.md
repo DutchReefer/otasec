@@ -132,3 +132,12 @@ Add an entry to `config/sources.yaml`:
 - Posting each briefing to an OTASEC account on X or LinkedIn
 - Matching advisories to an asset inventory (vendor/product watch-lists)
 - A weekly digest, plus tags for IEC 62443 zones and conduits and the Purdue level each item affects
+
+## License
+
+The code in this repository is licensed under the [Apache License 2.0](LICENSE).
+
+**The license doesn't cover third-party content.** `data/` and the published
+sites contain headlines, excerpts and links from the original publishers.
+Those stay the property of their respective owners and are used only to link
+to and summarise their reporting.
