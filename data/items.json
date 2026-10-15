@@ -1,5 +1,84 @@
 [
  {
+  "id": "c5cb3c9094bd",
+  "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+  "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
+  "excerpt": "The incident, which involved a government contractor, has halted all production of bankruptcy notices.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-15T20:46:00Z",
+  "fetched": "2026-10-15T23:42:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-15T23:42:06Z"
+  }
+ },
+ {
+  "id": "8286590df2f4",
+  "url": "https://bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers",
+  "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+  "excerpt": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-15T20:25:04Z",
+  "fetched": "2026-10-15T23:42:04Z",
+  "cves": [
+   "CVE-2026-110447"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-15T23:42:06Z"
+  }
+ },
+ {
+  "id": "222e66a51003",
+  "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+  "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+  "excerpt": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-15T20:24:36Z",
+  "fetched": "2026-10-15T23:42:04Z",
+  "cves": [
+   "CVE-2026-99999"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-15T23:42:06Z"
+  }
+ },
+ {
   "id": "112528776124",
   "url": "https://bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls",
   "title": "Android gets AI defenses against messaging scams, fake calls",
