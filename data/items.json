@@ -1,5 +1,32 @@
 [
  {
+  "id": "de5aa76878ce",
+  "url": "https://bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks",
+  "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+  "excerpt": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-14T22:56:47Z",
+  "fetched": "2026-10-15T00:33:39Z",
+  "cves": [
+   "CVE-2026-0322"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-15T00:33:40Z"
+  }
+ },
+ {
   "id": "e634a1670f02",
   "url": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
   "title": "North Macedonian police arrest alleged administrator behind OLVX cybercrime market",
