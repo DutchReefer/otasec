@@ -1,5 +1,32 @@
 [
  {
+  "id": "a499524cbdd3",
+  "url": "https://bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers",
+  "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+  "excerpt": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T20:00:59Z",
+  "fetched": "2026-10-16T22:06:34Z",
+  "cves": [
+   "CVE-2026-103849"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-16T22:06:35Z"
+  }
+ },
+ {
   "id": "2f67e7ff74fc",
   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
   "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
