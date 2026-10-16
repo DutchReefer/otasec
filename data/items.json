@@ -1,5 +1,105 @@
 [
  {
+  "id": "2f67e7ff74fc",
+  "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+  "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+  "excerpt": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T17:48:45Z",
+  "fetched": "2026-10-16T18:49:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-16T18:49:46Z"
+  }
+ },
+ {
+  "id": "91462b9d60ba",
+  "url": "https://bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware",
+  "title": "Zero-click attacks used targeted ads to deliver Candiru spyware",
+  "excerpt": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T17:20:03Z",
+  "fetched": "2026-10-16T18:49:44Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-16T18:49:46Z"
+  }
+ },
+ {
+  "id": "2f6312b7767d",
+  "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+  "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+  "excerpt": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor. Google Threat Intelligence Group, Mandiant, and ManageEngine's Threat Analysis",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T16:43:39Z",
+  "fetched": "2026-10-16T18:49:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-16T18:49:46Z"
+  }
+ },
+ {
+  "id": "7ca539292393",
+  "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+  "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+  "excerpt": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes. The activity is being tracked by",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T16:16:44Z",
+  "fetched": "2026-10-16T18:49:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-16T18:49:46Z"
+  }
+ },
+ {
   "id": "6c93682bf288",
   "url": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
   "title": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
@@ -22,6 +122,31 @@
    "summary": {},
    "model": "heuristic",
    "at": "2026-10-16T14:54:00Z"
+  }
+ },
+ {
+  "id": "82bd71e8965d",
+  "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+  "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+  "excerpt": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task. The incident, the AI company said, involved an internal research model part",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T14:03:04Z",
+  "fetched": "2026-10-16T18:49:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-16T18:49:46Z"
   }
  },
  {
