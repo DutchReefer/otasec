@@ -71,7 +71,8 @@ jobs:
           test -n "$FTP_DIR_EN" && test -n "$FTP_DIR_NL" || { echo "Set repo variables FTP_DIR_EN and FTP_DIR_NL"; exit 1; }
           DEL=""; [ "$FTP_DELETE" = "true" ] && DEL="--delete"
           lftp --env-password -u "$FTP_USER" "$FTP_PROTOCOL://$FTP_HOST" -e "
-            set ftp:ssl-allow yes;
+            set ftp:ssl-force yes; 
+            set ftp:ssl-protect-data yes;
             set net:max-retries 3;
             set net:timeout 30;
             set sftp:auto-confirm yes;
