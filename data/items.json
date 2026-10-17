@@ -1,5 +1,30 @@
 [
  {
+  "id": "1fae9cde44bf",
+  "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+  "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+  "excerpt": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T11:11:56Z",
+  "fetched": "2026-10-17T14:13:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-17T14:13:49Z"
+  }
+ },
+ {
   "id": "1378bb537acb",
   "url": "https://security.nl/posting/957998/Albert+Heijn%3A+onderzoek+naar+oorzaak+cybersecurity-incident+loopt+nog?channel=rss",
   "title": "Albert Heijn: onderzoek naar oorzaak cybersecurity-incident loopt nog",
