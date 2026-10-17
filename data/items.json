@@ -1,5 +1,55 @@
 [
  {
+  "id": "1378bb537acb",
+  "url": "https://security.nl/posting/957998/Albert+Heijn%3A+onderzoek+naar+oorzaak+cybersecurity-incident+loopt+nog?channel=rss",
+  "title": "Albert Heijn: onderzoek naar oorzaak cybersecurity-incident loopt nog",
+  "excerpt": "Het onderzoek naar de aard en oorzaak van het cybersecurity-incident bij Albert Heijn is nog altijd gaande, zo heeft de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T08:22:35Z",
+  "fetched": "2026-10-17T10:49:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-17T10:49:16Z"
+  }
+ },
+ {
+  "id": "b3dabcb4d0c0",
+  "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+  "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+  "excerpt": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T06:16:46Z",
+  "fetched": "2026-10-17T10:49:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {},
+   "model": "heuristic",
+   "at": "2026-10-17T10:49:16Z"
+  }
+ },
+ {
   "id": "a499524cbdd3",
   "url": "https://bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers",
   "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
