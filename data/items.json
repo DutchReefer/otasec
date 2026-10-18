@@ -1,5 +1,61 @@
 [
  {
+  "id": "952b3a6c7b9c",
+  "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+  "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+  "excerpt": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-18T08:23:02Z",
+  "fetched": "2026-10-18T11:12:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ConnectWise disabled seven application identities after unknown attackers gained unauthorized access to them and compromised Microsoft 365 tenants.",
+    "nl": "ConnectWise heeft zeven applicatie-identiteiten uitgeschakeld nadat onbekende aanvallers daar ongeautoriseerde toegang toe kregen en Microsoft 365-tenants compromitteerden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T11:12:31Z"
+  }
+ },
+ {
+  "id": "0fb31ace88c8",
+  "url": "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed/",
+  "title": "Week in review: Hidden implant in Ledger wallets linked to $93M theft, 1,500+ npm packages exposed",
+  "excerpt": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Strands Box: Open-source sandbox for AI agents AWS released Strands Box, an open source sandbox for AI agents that pairs operating-system isolation with rules that can weigh what an agent has already done before letting it act again. Box is in developer preview and runs on Macs with Apple silicon, with Linux support planned. Geopolitics and the cyber resilience gap … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-18T08:00:30Z",
+  "fetched": "2026-10-18T11:12:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup covering a hidden implant in Ledger wallets linked to a $93M theft, exposed npm packages, and AWS's Strands Box sandbox for AI agents.",
+    "nl": "Een wekelijks overzicht over een verborgen implant in Ledger-wallets gekoppeld aan een diefstal van $93 miljoen, blootgestelde npm-pakketten en AWS' Strands Box sandbox voor AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T11:12:31Z"
+  }
+ },
+ {
   "id": "09b8ae247912",
   "url": "https://security.nl/posting/958045/Supplychain-aanval+via+ConnectWise+Cloud+Backup+raakt+tal+van+bedrijven?channel=rss",
   "title": "Supplychain-aanval via ConnectWise Cloud Backup raakt tal van bedrijven",
