@@ -651,7 +651,21 @@
   "x_handles": [
    "marry_atscada"
   ],
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [
+    "ATSCADA"
+   ],
+   "summary": {
+    "en": "ATSCADA publishes a training book covering SCADA system architecture, installation, tools, deployment and troubleshooting.",
+    "nl": "ATSCADA publiceert een trainingsboek over SCADA-systeemarchitectuur, installatie, tools, implementatie en probleemoplossing."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "0ea3712fa9b8",
@@ -670,7 +684,21 @@
   "x_handles": [
    "HUYUElectric"
   ],
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "HUYU Electric"
+   ],
+   "summary": {
+    "en": "HUYU Electric advertises factory-direct low-voltage protection equipment for solar, storage, EV charging and industrial power distribution.",
+    "nl": "HUYU Electric adverteert met fabrieksrechtstreekse laagspanningsbeveiligingsapparatuur voor zonne-energie, opslag, laadpalen en industriële stroomverdeling."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "74a2269b4f1a",
@@ -689,7 +717,21 @@
   "x_handles": [
    "three_cube"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A one-year online SCADA/ICS/OT hacking and security training course with video content and community access is promoted.",
+    "nl": "Een online opleiding van één jaar over SCADA/ICS/OT-hacking en -beveiliging met video's en communitytoegang wordt aangeprezen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "b89b42c10d8c",
@@ -708,7 +750,21 @@
   "x_handles": [
    "BoozAllen"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CIRCIA's 72-hour incident reporting rule raises the challenge of proving OT data integrity as AI drives industrial decisions.",
+    "nl": "De 72-uurs meldplicht van CIRCIA maakt het bewijzen van OT-datintegriteit een uitdaging nu AI industriële beslissingen aanstuurt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "a499524cbdd3",
@@ -728,13 +784,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T22:06:35Z"
+   "summary": {
+    "en": "A maximum-severity BlockStrap flaw (CVE-2026-103849) affects Magento and Adobe Commerce, potentially allowing PHP code execution.",
+    "nl": "Een BlockStrap-kwetsbaarheid (CVE-2026-103849) met maximale ernst treft Magento en Adobe Commerce en kan PHP-code-uitvoering mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
   }
  },
  {
@@ -754,7 +813,19 @@
   "x_handles": [
    "jvrjobs"
   ],
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A job vacancy for an instrumentation technician in Vereeniging is listed on JVR Jobs.",
+    "nl": "Een vacature voor instrumentatietechnicus in Vereeniging staat op JVR Jobs."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "9f547f0e2ac0",
@@ -773,7 +844,21 @@
   "x_handles": [
    "gtango"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Booz Allen argues Zero Trust helps critical infrastructure prevent OT disruption, noting adversaries are already inside OT networks.",
+    "nl": "Booz Allen stelt dat Zero Trust kritieke infrastructuur helpt OT-verstoringen te voorkomen, omdat tegenstanders al in OT-netwerken zitten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "024fdc5e8368",
@@ -792,7 +877,21 @@
   "x_handles": [
    "opto22"
   ],
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Opto 22"
+   ],
+   "summary": {
+    "en": "Opto 22's OptoBlog digest highlights a cloud SCADA case study and details on Node-RED Con 2026.",
+    "nl": "De OptoBlog-samenvatting van Opto 22 belicht een casestudy over cloud-SCADA en details over Node-RED Con 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "2f67e7ff74fc",
@@ -810,13 +909,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T18:49:46Z"
+   "summary": {
+    "en": "A public exploit chains a 37-year-old integer overflow with a kernel flaw to gain root on OpenBSD 7.9.",
+    "nl": "Een openbaar exploit combineert een 37 jaar oude integer-overflow met een kernelfout om root te krijgen op OpenBSD 7.9."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
   }
  },
  {
@@ -837,7 +939,23 @@
    "vallumsoftware",
    "Lance_Edelman"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Forescout"
+   ],
+   "summary": {
+    "en": "Forescout research finds only 13% of OT network segments are fully isolated, with OT and medical devices often sharing segments with enterprise assets.",
+    "nl": "Onderzoek van Forescout toont dat slechts 13% van de OT-netwerksegmenten volledig geïsoleerd is; OT- en medische apparaten delen vaak segmenten met bedrijfsmiddelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "b9e79d5f6210",
@@ -856,7 +974,21 @@
   "x_handles": [
    "FSFG"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "BALLAST is a research proposal for physics-aware moving target defense in ICS, shuffling network addresses to hinder attacker mapping.",
+    "nl": "BALLAST is een onderzoeksvoorstel voor fysica-bewuste moving target defense in ICS, dat netwerkadressen verschuift om aanvallers te hinderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "91462b9d60ba",
@@ -874,13 +1006,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T18:49:46Z"
+   "summary": {
+    "en": "Candiru spyware was delivered to Al Jazeera Media Network devices through zero-click targeted ads.",
+    "nl": "Candiru-spyware werd via gerichte advertenties zonder klik naar apparaten van Al Jazeera Media Network gestuurd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
   }
  },
  {
@@ -899,13 +1034,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T18:49:46Z"
+   "vendors": [
+    "AOMEI Backupper"
+   ],
+   "summary": {
+    "en": "Attackers tampered with AOMEI Backupper update servers for minutes at a time to deliver a backdoor between May and July 2026.",
+    "nl": "Aanvallers manipuleerden de updateservers van AOMEI Backupper enkele minuten per keer om tussen mei en juli 2026 een backdoor te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
   }
  },
  {
@@ -925,7 +1065,21 @@
   "x_handles": [
    "barlazyjb"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Booz Allen argues Zero Trust helps critical infrastructure prevent OT disruption, noting adversaries are already inside OT networks.",
+    "nl": "Booz Allen stelt dat Zero Trust kritieke infrastructuur helpt OT-verstoringen te voorkomen, omdat tegenstanders al in OT-netwerken zitten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "7ca539292393",
@@ -943,13 +1097,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T18:49:46Z"
+   "summary": {
+    "en": "APT activity UAT-11985 uses fake event invites and AitM phishing to steal Google credentials and MFA codes from Taiwan research affiliates.",
+    "nl": "APT-activiteit UAT-11985 gebruikt nep-evenementuitnodigingen en AitM-phishing om Google-inloggegevens en MFA-codes van Taiwanese onderzoeksaffiliaties te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
   }
  },
  {
@@ -969,7 +1126,19 @@
   "x_handles": [
    "vaibhavtandon"
   ],
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article titled 'What Maritime Cyberattacks Reveal About Your Network' is listed without excerpt content.",
+    "nl": "Een artikel met de titel 'What Maritime Cyberattacks Reveal About Your Network' staat vermeld zonder inhoud in de samenvatting."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "ab5cf332acbf",
@@ -988,7 +1157,21 @@
   "x_handles": [
    "survalent"
   ],
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Survalent"
+   ],
+   "summary": {
+    "en": "Survalent promotes SurvalentONE Helix, a high-resolution SCADA data capture product that reduces ADMS server load.",
+    "nl": "Survalent promoot SurvalentONE Helix, een SCADA-dataregistratieproduct dat de belasting van de ADMS-server verlaagt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "83bf4878cd23",
@@ -1007,7 +1190,21 @@
   "x_handles": [
    "TennBuckNut"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Booz Allen argues Zero Trust helps critical infrastructure prevent OT disruption, noting adversaries are already inside OT networks.",
+    "nl": "Booz Allen stelt dat Zero Trust kritieke infrastructuur helpt OT-verstoringen te voorkomen, omdat tegenstanders al in OT-netwerken zitten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "eb0940dddc36",
@@ -1026,7 +1223,25 @@
   "x_handles": [
    "sh3ll_c0d3"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "industry",
+   "sectors": [
+    "energy",
+    "water"
+   ],
+   "vendors": [
+    "Dragos",
+    "Nozomi Networks"
+   ],
+   "summary": {
+    "en": "Anthropic, Dragos and Nozomi Networks announce a defensive alliance applying frontier AI to grid and water SCADA defense.",
+    "nl": "Anthropic, Dragos en Nozomi Networks kondigen een defensief partnerschap aan dat frontier-AI inzet voor SCADA-verdediging van net en water."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "31b36cc781a9",
@@ -1045,7 +1260,22 @@
   "x_handles": [
    "MADSecurityLLC"
   ],
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "water",
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers exploit exposed industrial controllers with weak passwords and remote access to disrupt US water utilities and critical infrastructure.",
+    "nl": "Hackers misbruiken blootgestelde industriële controllers met zwakke wachtwoorden en externe toegang om Amerikaanse waterbedrijven en kritieke infrastructuur te verstoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:08:42Z"
+  }
  },
  {
   "id": "8696ee64c6fb",
@@ -5823,13 +6053,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 12,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "SolarWinds"
+   ],
+   "summary": {
+    "en": "SolarWinds launched Avior, an agentic AI system for IT operations that uses goal definition, specialized agents and human approval.",
+    "nl": "SolarWinds heeft Avior gelanceerd, een agentic AI-systeem voor IT-operaties met doelgerichte aansturing, gespecialiseerde agents en menselijke goedkeuring."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -5848,13 +6083,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Chainguard"
+   ],
+   "summary": {
+    "en": "Chainguard announced Chainguard Harness, which uses frontier AI models to find and verify exploitable vulnerabilities in application code.",
+    "nl": "Chainguard heeft Chainguard Harness aangekondigd, die AI-modellen gebruikt om uitbuitbare kwetsbaarheden in applicatiecode te vinden en te verifiëren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -5873,13 +6113,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Scytale"
+   ],
+   "summary": {
+    "en": "Scytale released an MCP server that gives AI tools scoped, read-only access to customer compliance data.",
+    "nl": "Scytale heeft een MCP-server uitgebracht die AI-tools gescopeerde, alleen-lezen toegang geeft tot compliancegegevens van klanten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -5898,13 +6143,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Multiple critical vulnerabilities in Google Chrome allow code execution when a user merely visits a malicious page.",
+    "nl": "Meerdere kritieke kwetsbaarheden in Google Chrome maken code-uitvoering mogelijk wanneer een gebruiker alleen een kwaadaardige pagina bezoekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -5923,13 +6173,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 3,
+   "category": "guidance",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "A legal question asks whether Apple's Siri Recap feature on Apple Watch can be used in business settings to summarize conversations.",
+    "nl": "Een juridische vraag gaat over of Apple's Siri Recap op de Apple Watch zakelijk gebruikt mag worden om gesprekken samen te vatten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -5947,14 +6202,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": true,
-   "score": 50,
+   "relevant": false,
+   "score": 10,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "GitHub"
+   ],
+   "summary": {
+    "en": "GitHub trained a cheaper credential classifier that cut post-push secret scan time by 86% and serving costs by over 98%.",
+    "nl": "GitHub heeft een goedkopere credential-classifier getraind die de scantijd na push met 86% en de kosten met meer dan 98% heeft verlaagd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -5972,14 +6232,20 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 40,
+   "category": "regulation",
+   "sectors": [
+    "government",
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The Dutch cabinet will not publish its risk assessment of the country's digital infrastructure, citing national security.",
+    "nl": "Het Nederlandse kabinet maakt de risicobeoordeling van de digitale infrastructuur niet openbaar vanwege de nationale veiligheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -5999,12 +6265,19 @@
   "cls": {
    "relevant": true,
    "score": 50,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "UTA0576 chained three Ivanti Connect Secure zero-days to gain root on fully patched VPN appliances, enabling credential theft and reconnaissance.",
+    "nl": "Dreigingsactor UTA0576 combineerde drie zero-days in Ivanti Connect Secure om root te krijgen op volledig gepatchte VPN-apparaten, voor credentialdiefstal en verkenning."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6023,13 +6296,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "OpenAI"
+   ],
+   "summary": {
+    "en": "US authorities charged an OpenAI engineer with planting a listening device in an executive meeting room in San Francisco.",
+    "nl": "Amerikaanse autoriteiten hebben een OpenAI-medewerker aangeklaagd voor het plaatsen van een afluisterapparaat in een vergaderzaal in San Francisco."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6048,13 +6326,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "OpenAI"
+   ],
+   "summary": {
+    "en": "An OpenAI engineer was arrested for allegedly using a concealed recording device to eavesdrop on executive meetings in San Francisco.",
+    "nl": "Een OpenAI-ingenieur is gearresteerd wegens vermoedelijk gebruik van een verborgen opnameapparaat om vergaderingen van het management af te luisteren in San Francisco."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6072,14 +6355,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "relevant": true,
+   "score": 50,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "Attackers combined three Ivanti VPN vulnerabilities to fully compromise servers during recent attacks, and are reportedly seeking BitLocker keys.",
+    "nl": "Aanvallers combineerden drie kwetsbaarheden in Ivanti vpn-servers om deze volledig te compromitteren, en zoeken naar BitLocker-sleutels."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6100,13 +6390,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 35,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "An AI-found Linux vhost flaw, CVE-2026-74580, lets local users become root and lets a guest VM write to host memory.",
+    "nl": "Een door AI gevonden Linux vhost-fout, CVE-2026-74580, laat lokale gebruikers root worden en laat een gast-VM schrijven naar het geheugen van de host."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6125,13 +6418,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 3,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple launched a campaign to move Google Chrome users to Safari, citing Safari's features.",
+    "nl": "Apple is een campagne gestart om Google Chrome-gebruikers naar Safari te krijgen, met verwijzing naar de functies van Safari."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6150,13 +6448,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Albert Heijn has no indications yet that customer or employee data was stolen in a cybersecurity incident.",
+    "nl": "Albert Heijn heeft nog geen aanwijzingen dat klant- of medewerkersgegevens zijn gestolen bij een cybersecurity-incident."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6175,13 +6478,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 40,
+   "category": "guidance",
+   "sectors": [
+    "healthcare"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The HSCC published a playbook to help healthcare organizations manage patient safety and cybersecurity risks from clinical AI.",
+    "nl": "De HSCC heeft een playbook gepubliceerd die zorginstellingen helpt patiëntveiligheid en cyberrisico's van klinische AI te beheersen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6200,13 +6508,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 30,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "ECSO calls for a dedicated European industrial policy for space cybersecurity, including secure-by-design and threat intelligence sharing.",
+    "nl": "ECSO pleit voor een specifiek Europees industriebeleid voor cybersecurity van ruimtevaart, met secure-by-design en het delen van dreigingsinformatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6225,13 +6538,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft patched over 1400 vulnerabilities in its October Patch Tuesday, including an actively exploited one.",
+    "nl": "Microsoft heeft tijdens de Patch Tuesday van oktober ruim 1400 kwetsbaarheden gepatcht, waaronder een actief misbruikte."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6250,13 +6568,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 35,
    "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "ThinkLabs AI",
+    "Dragos"
+   ],
+   "summary": {
+    "en": "ThinkLabs AI appointed Dragos' Robert Lee to its board to advance AI-driven grid planning and modernization.",
+    "nl": "ThinkLabs AI heeft Dragos' Robert Lee in de raad van bestuur benoemd om AI-gedreven netplanning en modernisering te versnellen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6275,13 +6601,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 55,
+   "category": "guidance",
+   "sectors": [
+    "energy"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The US DOE and Idaho National Laboratory launched a weekly series on cyber-informed engineering for energy infrastructure security.",
+    "nl": "Het Amerikaanse DOE en Idaho National Laboratory zijn een wekelijkse reeks over cyber-informed engineering voor energie-infrastructuur gestart."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6300,13 +6631,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "research",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Researchers used a four-byte write and timing bug to run their own code inside a Windows SmartScreen VBS enclave in a lab.",
+    "nl": "Onderzoekers gebruikten een fout met een schrijfactie van vier bytes en een timingbug om in een lab eigen code uit te voeren in een Windows SmartScreen VBS-enclave."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:01Z"
   }
  },
  {
@@ -6325,13 +6661,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Microsoft shipped patches for a record 1,413 vulnerabilities in its Patch Tuesday, one reportedly under active exploitation.",
+    "nl": "Microsoft heeft in zijn Patch Tuesday een record van 1.413 kwetsbaarheden verholpen, waarvan één naar verluidt actief wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6350,13 +6689,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A Saudi OpenAI employee was arrested for allegedly planting a hidden recording device in an executive conference room in San Francisco.",
+    "nl": "Een Saudische medewerker van OpenAI is gearresteerd wegens het vermoedelijk plaatsen van een verborgen opnameapparaat in een vergaderruimte in San Francisco."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6375,13 +6717,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A Saudi OpenAI engineer was arrested for allegedly placing a hidden recording device in an executive conference room in San Francisco.",
+    "nl": "Een Saudische OpenAI-ingenieur is gearresteerd wegens het vermoedelijk plaatsen van een verborgen opnameapparaat in een vergaderruimte in San Francisco."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6402,13 +6747,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 20,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A critical heap buffer overflow in Ghostscript, CVE-2026-39919, could allow remote code execution via specially crafted PDF files.",
+    "nl": "Een kritieke heap buffer overflow in Ghostscript, CVE-2026-39919, kan via speciaal samengestelde PDF-bestanden remote code execution mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6427,13 +6775,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Anthropic warns small AI models could soon self-replicate across consumer IoT devices, forming distributed botnets without data centers.",
+    "nl": "Anthropic waarschuwt dat kleine AI-modellen binnenkort zichzelf over consumenten-IoT-apparaten kunnen repliceren en gedistribueerde botnets kunnen vormen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6452,13 +6803,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Microsoft's October 2026 Patch Tuesday fixes 1,411 flaws, including one actively exploited and two publicly disclosed zero-days.",
+    "nl": "Microsoft's Patch Tuesday van oktober 2026 verhelpt 1.411 kwetsbaarheden, waaronder één actief misbruikte en twee publiek bekende zero-days."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6477,13 +6831,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Microsoft released the Windows 10 KB5126657 extended security update, including the October 2026 Patch Tuesday fixes and some bug fixes.",
+    "nl": "Microsoft heeft Windows 10 update KB5126657 uitgebracht, met de Patch Tuesday-fixes van oktober 2026 en enkele bugfixes."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6502,13 +6859,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Microsoft says Windows 11 24H2 Home and Pro editions have reached end of support and will no longer receive monthly updates.",
+    "nl": "Microsoft meldt dat Windows 11 24H2 Home en Pro het einde van de ondersteuning hebben bereikt en geen maandelijkse updates meer ontvangen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6532,13 +6892,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports Microsoft fixed vulnerabilities in Developer Tools including .NET and Visual Studio, with impacts such as denial-of-service.",
+    "nl": "NCSC-NL meldt dat Microsoft kwetsbaarheden in Developer Tools, waaronder .NET en Visual Studio, heeft verholpen, met onder meer denial-of-service als gevolg."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6559,13 +6922,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports Microsoft fixed Configuration Manager and Defender vulnerabilities enabling local privilege escalation, including CVE-2026-88075.",
+    "nl": "NCSC-NL meldt dat Microsoft kwetsbaarheden in Configuration Manager en Defender heeft verholpen die lokale rechtenverhoging mogelijk maken, waaronder CVE-2026-88075."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6586,13 +6952,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports Microsoft fixed Dynamics vulnerabilities, including CVE-2026-88131 with CVSS 9.8 allowing arbitrary code execution.",
+    "nl": "NCSC-NL meldt dat Microsoft kwetsbaarheden in Dynamics-componenten heeft verholpen, waaronder CVE-2026-88131 met CVSS 9.8 voor willekeurige codeuitvoering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6611,13 +6980,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports Microsoft fixed 1159 Windows vulnerabilities, including 53 with CVSS 9 or higher enabling impersonation and code execution.",
+    "nl": "NCSC-NL meldt dat Microsoft 1159 kwetsbaarheden in Windows heeft verholpen, waaronder 53 met CVSS 9 of hoger voor imitatie en codeuitvoering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6636,13 +7008,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports Microsoft fixed Office vulnerabilities in Word, Excel, Outlook and SharePoint, enabling denial-of-service and code execution.",
+    "nl": "NCSC-NL meldt dat Microsoft kwetsbaarheden in Office-producten zoals Word, Excel, Outlook en SharePoint heeft verholpen, met onder meer denial-of-service en codeuitvoering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6666,13 +7041,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports Microsoft fixed Azure vulnerabilities in Key Vault, DevOps and Storage, enabling security bypass and code execution.",
+    "nl": "NCSC-NL meldt dat Microsoft kwetsbaarheden in Azure-componenten zoals Key Vault, DevOps en Storage heeft verholpen, met mogelijke omzeiling van beveiliging en codeuitvoering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6691,13 +7069,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports Microsoft fixed SQL Server vulnerabilities enabling denial-of-service, privilege escalation and arbitrary code execution.",
+    "nl": "NCSC-NL meldt dat Microsoft kwetsbaarheden in SQL Server heeft verholpen die denial-of-service, rechtenverhoging en codeuitvoering mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6718,13 +7099,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports Microsoft fixed Exchange vulnerabilities allowing impersonation and code execution, including CVE-2026-96940 fixed earlier out-of-band.",
+    "nl": "NCSC-NL meldt dat Microsoft kwetsbaarheden in Exchange heeft verholpen die imitatie en codeuitvoering mogelijk maken, inclusief CVE-2026-96940."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6743,13 +7127,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Anthropic warns small AI models may within months self-replicate on IoT devices such as smart ovens and Android TV boxes, forming hard-to-stop botnets.",
+    "nl": "Anthropic waarschuwt dat kleine AI-modellen over enkele maanden zichzelf op IoT-apparaten zoals slimme ovens en Android-tvboxen kunnen repliceren tot moeilijk te stoppen botnets."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6768,13 +7155,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Docker fixed a two-year-old Docker Hub flaw that let one user push, pull or delete images as another; no exploitation was found.",
+    "nl": "Docker heeft een twee jaar oude kwetsbaarheid in Docker Hub verholpen waarmee een gebruiker images van een ander kon pushen, pullen of verwijderen; geen misbruik gevonden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6792,14 +7182,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "Volexity reports an attacker chained three Ivanti Connect Secure zero-days for unauthenticated root access; fixes exist for two, the third is pending.",
+    "nl": "Volexity meldt dat een aanvaller drie zero-days in Ivanti Connect Secure combineerde voor root-toegang zonder authenticatie; voor twee is een fix, de derde volgt nog."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6818,13 +7215,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "SAP disclosed a CVSS 10 flaw in its Cloud SDK for Python that can leak OAuth2 client credentials to attacker-controlled servers.",
+    "nl": "SAP heeft een CVSS 10-kwetsbaarheid in zijn Cloud SDK for Python gemeld die OAuth2-clientgegevens naar door aanvallers beheerde servers kan sturen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:27Z"
   }
  },
  {
@@ -6843,13 +7243,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 15,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "GitHub now expires unvalidated npm trusted publishing configurations after 48 hours, following research showing attackers could publish new versions of other users' packages without credentials.",
+    "nl": "GitHub laat niet-gevalideerde npm trusted publishing-configuraties na 48 uur verlopen, nadat onderzoekers aantoonden dat aanvallers versies van andermans pakketten konden publiceren zonder inloggegevens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -6867,14 +7270,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "Ivanti warns customers of active exploitation of a vulnerability in Ivanti Connect Secure VPN servers.",
+    "nl": "Ivanti waarschuwt klanten voor actief misbruik van een kwetsbaarheid in Ivanti Connect Secure vpn-servers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -6892,14 +7302,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
+   "relevant": true,
+   "score": 85,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "NCSC reports Ivanti fixed a Connect Secure flaw allowing unauthenticated command execution, reportedly exploited as a zero-day, with public PoC expected soon.",
+    "nl": "NCSC meldt dat Ivanti een kwetsbaarheid in Connect Secure heeft verholpen waarmee zonder authenticatie commando's kunnen worden uitgevoerd, mogelijk als zero-day misbruikt, met naar verwachting snel een publieke PoC."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -6918,13 +7335,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 65,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "French supermarket chain Intermarché was hit by a cyberattack that manipulated connected refrigeration systems, disrupting operations at several French retailers.",
+    "nl": "Supermarktketen Intermarché is getroffen door een cyberaanval die verbonden koelsystemen manipuleerde, wat meerdere Franse supermarkten operationeel ontwrichtte."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -6943,13 +7365,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "European privacy regulators state that camera glasses must clearly indicate to bystanders when they are recording.",
+    "nl": "Europese privacytoezichthouders stellen dat camerabrillen omstanders duidelijk moeten laten weten wanneer er wordt gefilmd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -6968,13 +7393,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 3,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Hudson reports an increase in physical robberies targeting cryptocurrency holders following data breaches.",
+    "nl": "Hudson meldt een toename van fysieke overvallen op cryptobezitters als gevolg van datalekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -6993,13 +7421,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 8,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Dutch banks and companies are developing a digital identity wallet called MyCheck.",
+    "nl": "Nederlandse banken en bedrijven ontwikkelen een digitale identiteitswallet genaamd MyCheck."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7018,13 +7449,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The Norwegian Data Protection Authority fined Xandr 8.6 million euros for unlawfully relaying sensitive Grindr user data to advertisers.",
+    "nl": "De Noorse privacytoezichthouder heeft Xandr een boete van 8,6 miljoen euro opgelegd voor het onrechtmatig doorgeven van gevoelige Grindr-gebruikersdata aan adverteerders."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7042,14 +7476,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 40,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The Dutch NCSC sees no link between the cybersecurity incident at Ahold Delhaize and the attacks on French supermarkets.",
+    "nl": "Het NCSC ziet geen verband tussen het cybersecurity-incident bij Ahold Delhaize en de aanvallen op Franse supermarkten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7068,13 +7507,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 25,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The UK government announced measures to expand AI-powered cyber defense pilots and prepare incident response against autonomous AI risks.",
+    "nl": "De Britse regering kondigde maatregelen aan om AI-gestuurde cyberverdediging uit te breiden en incidentrespons voor autonome AI-risico's voor te bereiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7093,13 +7537,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
+   "score": 20,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "An ETH Zurich researcher identifies satellite cybersecurity gaps and calls for better threat intelligence and information sharing in the space sector.",
+    "nl": "Een onderzoeker van ETH Zurich constateert lacunes in de cyberbeveiliging van satellieten en pleit voor betere dreigingsinformatie en informatiedeling in de ruimtevaartsector."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7118,13 +7565,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Privacy First warns that the Dutch government's new intelligence law could enable large-scale mass surveillance.",
+    "nl": "Privacy First waarschuwt dat de nieuwe Nederlandse inlichtingenwet tot grootschalige massasurveillance kan leiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7143,13 +7593,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 3,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A webinar promotes runtime identity controls to stop AI-driven privilege escalation.",
+    "nl": "Een webinar promoot runtime-identiteitscontroles om AI-gedreven privilege escalation te stoppen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7167,14 +7620,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 70,
+   "category": "guidance",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The French government advises supermarkets and other businesses to take refrigeration systems offline after some were hacked.",
+    "nl": "De Franse overheid adviseert supermarkten en andere bedrijven hun koelsystemen offline te halen na gevallen van hacking."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7193,13 +7651,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 25,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "LG"
+   ],
+   "summary": {
+    "en": "Three LG webOS vulnerabilities can be chained to give local network attackers root access to certain smart TVs, and LG has issued a fix.",
+    "nl": "Drie kwetsbaarheden in LG webOS kunnen worden gecombineerd om via het lokale netwerk root-toegang te krijgen tot bepaalde smart-tv's; LG heeft een fix uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7218,13 +7681,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Bitdefender"
+   ],
+   "summary": {
+    "en": "Bitdefender presents a product walkthrough of its AI visibility and control features.",
+    "nl": "Bitdefender presenteert een productrondleiding van zijn AI-zichtbaarheids- en controlefuncties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7242,14 +7710,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 40,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Albert Heijn has restored regular prices on its digital price tags, following an incident that altered them.",
+    "nl": "Albert Heijn heeft de reguliere prijzen op de digitale prijskaartjes hersteld na een incident waarbij deze waren gewijzigd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7268,13 +7741,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 30,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "GitLab"
+   ],
+   "summary": {
+    "en": "GitLab warns of a critical vulnerability with a CVSS impact score of 10.0 in its software.",
+    "nl": "GitLab waarschuwt voor een kritieke kwetsbaarheid met een CVSS-impactscore van 10.0 in zijn software."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7293,13 +7771,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 80,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "NCSC reports Siemens fixed vulnerabilities in Desigo, Industrial Plus, RUGGEDCOM, SIMATIC and SIPLUS products that could enable DoS, code execution and privilege escalation.",
+    "nl": "NCSC meldt dat Siemens kwetsbaarheden heeft verholpen in Desigo, Industrial Plus, RUGGEDCOM, SIMATIC en SIPLUS, met mogelijke DoS, code-executie en rechtenverhoging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7318,13 +7803,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 2,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The Dutch cabinet plans a public AI environment for schools and teachers by 2028.",
+    "nl": "Het Nederlandse kabinet wil in 2028 een publieke AI-omgeving voor scholen en leraren realiseren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:09:49Z"
   }
  },
  {
@@ -7345,13 +7833,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports GitLab vulnerabilities fixed in CE and EE versions before 19.2.8, 19.3.5 and 19.4.2, affecting code execution and unauthorized access risks.",
+    "nl": "NCSC-NL meldt dat GitLab kwetsbaarheden in CE- en EE-versies vóór 19.2.8, 19.3.5 en 19.4.2 heeft verholpen, met risico's op codeuitvoering en ongeautoriseerde toegang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7370,13 +7861,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Albert Heijn, Etos and Gall & Gall systems remain offline following a cybersecurity incident, according to an update.",
+    "nl": "Systemen van Albert Heijn, Etos en Gall & Gall zijn nog offline na een cybersecurity-incident, volgens een update."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7394,14 +7888,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "relevant": true,
+   "score": 80,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Attackers remotely took control of refrigeration controllers at hundreds of French supermarkets and warmed fridges and freezers, forcing food disposal.",
+    "nl": "Aanvallers namen op afstand de besturing van koelsystemen in honderden Franse supermarkten over en verwarmden koelkasten en vriezers, waardoor voedsel moest worden weggegooid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7420,13 +7921,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Progress disclosed 31 MarkLogic Server flaws, two of which could let delegated managers gain administrator control; fixes are available.",
+    "nl": "Progress heeft 31 kwetsbaarheden in MarkLogic Server gepubliceerd, waarvan twee delegated managers administratorrechten kunnen geven; fixes zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7445,13 +7949,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "IonQ agreed to acquire Elisity in a $1.3 billion stock deal to expand zero trust and post-quantum security offerings.",
+    "nl": "IonQ heeft overeenstemming bereikt over de overname van Elisity voor 1,3 miljard dollar in aandelen om zero trust- en post-quantumaanbod uit te breiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7470,13 +7977,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "GitLab patched a CVSS 10.0 flaw that could let unauthenticated users execute code on the server via a crafted regular expression in CI/CD.",
+    "nl": "GitLab heeft een CVSS 10.0-kwetsbaarheid gepatcht waarmee ongeauthenticeerde gebruikers via een speciaal opgestelde reguliere expressie code op de server konden uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7494,14 +8004,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "relevant": true,
+   "score": 70,
+   "category": "threat",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Thousands of internet-exposed Danfoss cooling systems reportedly use the date as password, leaving them easily accessible to attackers.",
+    "nl": "Duizenden online koelsystemen van Danfoss zouden de datum als wachtwoord gebruiken, waardoor ze eenvoudig toegankelijk zijn voor aanvallers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7520,13 +8037,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Mozilla launched Firefox Enterprise, a browser aimed at business environments.",
+    "nl": "Mozilla heeft Firefox Enterprise gelanceerd, een browser voor zakelijke omgevingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7545,13 +8065,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Meta continues selling camera glasses in the Netherlands despite a demand letter, and foundations start summary proceedings.",
+    "nl": "Meta blijft camerabrillen in Nederland verkopen ondanks een sommatie, en stichtingen starten een kort geding."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7570,13 +8093,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Low-cost Android phones with MediaTek platforms were shipped with preinstalled malware that turns devices into residential proxies, per Bitdefender.",
+    "nl": "Goedkope Android-telefoons met MediaTek-platforms zijn met vooraf geïnstalleerde malware geleverd die toestellen in residential proxies verandert, aldus Bitdefender."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7595,13 +8121,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 70,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Industrial Edge App Publisher"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-968435 describes a vulnerability chain in Industrial Edge App Publisher allowing network attackers to impersonate the server and execute code; update released.",
+    "nl": "Siemens-advies SSA-968435 beschrijft een kwetsbaarheidsketen in Industrial Edge App Publisher waarmee netwerkaanvallers de server kunnen imiteren en code uitvoeren; update beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7620,13 +8154,22 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "RUGGEDCOM APE1808",
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-967325 lists PAN-OS vulnerabilities affecting RUGGEDCOM APE1808 devices; a new version is released and workarounds are provided.",
+    "nl": "Siemens-advies SSA-967325 somt PAN-OS-kwetsbaarheden op die RUGGEDCOM APE1808-apparaten treffen; een nieuwe versie is uitgebracht en workarounds zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7645,13 +8188,22 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Nozomi Networks",
+    "RUGGEDCOM APE1808"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-911336 reports multiple vulnerabilities in Nozomi Guardian/CMC on RUGGEDCOM APE1808 devices; Siemens advises contacting support for patches.",
+    "nl": "Siemens-advies SSA-911336 meldt meerdere kwetsbaarheden in Nozomi Guardian/CMC op RUGGEDCOM APE1808-apparaten; Siemens adviseert contact op te nemen met support voor patches."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7670,13 +8222,22 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Fortinet",
+    "RUGGEDCOM APE1808"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-864900 lists FortiOS vulnerabilities affecting RUGGEDCOM APE1808 devices; a new version is released for update.",
+    "nl": "Siemens-advies SSA-864900 somt FortiOS-kwetsbaarheden op die RUGGEDCOM APE1808-apparaten treffen; een nieuwe versie is beschikbaar voor update."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7695,13 +8256,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 70,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-858251 reports two OPC UA authentication bypass vulnerabilities allowing access to server-managed data; updates or countermeasures are provided.",
+    "nl": "Siemens-advies SSA-858251 meldt twee OPC UA-authenticatiebypasskwetsbaarheden waarmee toegang tot door de server beheerde data mogelijk is; updates of tegenmaatregelen zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7720,13 +8288,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-832641 reports path traversal vulnerabilities in Industrial Edge Devices that could expose sensitive internal information to authenticated attackers.",
+    "nl": "Siemens-advies SSA-832641 meldt path traversal-kwetsbaarheden in Industrial Edge Devices die gevoelige interne informatie kunnen blootleggen aan geauthenticeerde aanvallers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7747,13 +8322,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 70,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-800126 describes a deserialization flaw in engineering platforms before V20 that could allow arbitrary code execution; updates are released.",
+    "nl": "Siemens-advies SSA-800126 beschrijft een deserialisatiefout in engineeringplatforms vóór V20 die codeuitvoering mogelijk maakt; updates zijn uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7774,11 +8356,19 @@
    "relevant": true,
    "score": 50,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC S7-1500 TM MFP"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-794697 reports vulnerabilities in the GNU/Linux subsystem of SIMATIC S7-1500 TM MFP V1.0, which is no longer maintained; updating to V1.1 is advised.",
+    "nl": "Siemens-advies SSA-794697 meldt kwetsbaarheden in het GNU/Linux-subsysteem van SIMATIC S7-1500 TM MFP V1.0, dat niet meer wordt onderhouden; update naar V1.1 wordt geadviseerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7799,13 +8389,22 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIPROTEC",
+    "SICAM"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-794185 documents the impact of RADIUS forgery vulnerability CVE-2024-3596 on SIPROTEC, SICAM and related products.",
+    "nl": "Siemens-advies SSA-794185 documenteert de impact van RADIUS-vervalsingskwetsbaarheid CVE-2024-3596 op SIPROTEC, SICAM en gerelateerde producten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7826,11 +8425,19 @@
    "relevant": true,
    "score": 50,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC S7-1500 TM MFP"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-784472 reports vulnerabilities in the GNU/Linux subsystem of SIMATIC S7-1500 TM MFP V1.1.1; Siemens is preparing fixes and recommends mitigations.",
+    "nl": "Siemens-advies SSA-784472 meldt kwetsbaarheden in het GNU/Linux-subsysteem van SIMATIC S7-1500 TM MFP V1.1.1; Siemens werkt aan fixes en adviseert mitigaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:07Z"
   }
  },
  {
@@ -7849,13 +8456,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 65,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "RUGGEDCOM CROSSBOW Station Access Controller"
+   ],
+   "summary": {
+    "en": "Siemens reports multiple SQLite vulnerabilities in RUGGEDCOM CROSSBOW Station Access Controller that could enable code execution, denial of service or information disclosure; a fixed version is available.",
+    "nl": "Siemens meldt meerdere SQLite-kwetsbaarheden in de RUGGEDCOM CROSSBOW Station Access Controller die code-uitvoering, denial of service of informatielekken mogelijk maken; een gepatchte versie is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -7874,13 +8489,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens engineering platforms have a deserialization flaw via a local Windows Named Pipe that lets an authenticated local attacker execute arbitrary code; updates are released for several products.",
+    "nl": "Siemens engineeringplatformen hebben een deserialisatiefout via een lokale Windows Named Pipe waarmee een geauthenticeerde lokale aanvaller willekeurige code kan uitvoeren; updates zijn voor meerdere producten beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -7901,11 +8523,18 @@
    "relevant": true,
    "score": 50,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens lists several products with an out-of-bound read vulnerability in TPM 2.0 that could cause information disclosure or denial of service; fixes are partly available.",
+    "nl": "Siemens meldt een out-of-bound read-kwetsbaarheid in TPM 2.0 bij meerdere producten, die informatielekken of denial of service kan veroorzaken; fixes zijn deels beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -7924,13 +8553,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC S7-1500"
+   ],
+   "summary": {
+    "en": "Siemens reports multiple web server vulnerabilities in SIMATIC S7-1500 PLCs that could let attackers run malicious code in a user's browser session and perform PLC operations; fixes are pending.",
+    "nl": "Siemens meldt meerdere webserverkwetsbaarheden in SIMATIC S7-1500 PLC's waarmee aanvallers kwaadaardige code in de browsersessie van een gebruiker kunnen draaien en PLC-handelingen kunnen uitvoeren; fixes volgen nog."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -7949,13 +8586,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 40,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMOTION"
+   ],
+   "summary": {
+    "en": "Siemens reports a local privilege escalation in several SIMOTION tools that applies only during setup and installation, allowing SYSTEM-level code execution; a fixed version is available.",
+    "nl": "Siemens meldt een lokale privilege-escalatie in meerdere SIMOTION-tools die alleen tijdens installatie speelt en codeuitvoering met SYSTEM-rechten mogelijk maakt; een gepatchte versie is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -7974,13 +8619,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC WinCC"
+   ],
+   "summary": {
+    "en": "Siemens reports a database privilege escalation in multiple SIMATIC WinCC versions that lets an authenticated database user execute commands on the host system; updates are released for several versions.",
+    "nl": "Siemens meldt een privilege-escalatie in de database van meerdere SIMATIC WinCC-versies waarmee een geauthenticeerde gebruiker commando's op het hostsysteem kan uitvoeren; updates zijn voor meerdere versies beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -7999,13 +8652,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 70,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "KACO new energy",
+    "blueplanet inverters"
+   ],
+   "summary": {
+    "en": "Multiple vulnerabilities in KACO blueplanet inverters could allow attackers to derive credentials from the device serial number and gain unauthorized access; updates are released for several products.",
+    "nl": "Meerdere kwetsbaarheden in KACO blueplanet-omvormers kunnen aanvallers in staat stellen inloggegevens af te leiden van het serienummer en ongeautoriseerde toegang te krijgen; updates zijn voor meerdere producten beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8024,13 +8685,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 70,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "RUGGEDCOM CROSSBOW"
+   ],
+   "summary": {
+    "en": "Siemens reports multiple RUGGEDCOM CROSSBOW vulnerabilities allowing SQL command execution, retrieval of admin credentials and privilege escalation; a new version is available.",
+    "nl": "Siemens meldt meerdere RUGGEDCOM CROSSBOW-kwetsbaarheden die SQL-commando's, het ophalen van beheerdersgegevens en privilege-escalatie mogelijk maken; een nieuwe versie is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8049,13 +8718,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens engineering platforms fail to sanitize input when parsing project files, allowing a crafted file to trigger type confusion and arbitrary code execution; updates are released for several products.",
+    "nl": "Siemens engineeringplatformen valideren invoer niet bij het verwerken van projectbestanden, waardoor een kwaadaardig bestand type confusion en willekeurige codeuitvoering kan veroorzaken; updates zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8076,11 +8752,19 @@
    "relevant": true,
    "score": 50,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC S7-1500"
+   ],
+   "summary": {
+    "en": "Siemens reports multiple vulnerabilities in the GNU/Linux subsystem of the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP firmware V3.1.7; fixes are not yet available and mitigations are recommended.",
+    "nl": "Siemens meldt meerdere kwetsbaarheden in het GNU/Linux-subsysteem van de firmware V3.1.7 van de SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP; fixes zijn nog niet beschikbaar en mitigaties worden aanbevolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8099,13 +8783,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 70,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens products are affected by a stack-based buffer overflow in OpenSSL that allows remote denial of service or potentially remote code execution; updates are released for several products.",
+    "nl": "Siemens-producten zijn getroffen door een stack-based buffer overflow in OpenSSL die externe denial of service of mogelijk externe codeuitvoering toestaat; updates zijn voor meerdere producten beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8124,13 +8815,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 45,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC S7-1500"
+   ],
+   "summary": {
+    "en": "Siemens reports GNU/Linux subsystem vulnerabilities in SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP firmware V3.1.0 to V3.1.5, which is no longer maintained; updating to a newer version is advised.",
+    "nl": "Siemens meldt kwetsbaarheden in het GNU/Linux-subsysteem van de SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP firmware V3.1.0 tot V3.1.5, die niet meer wordt onderhouden; updaten naar een nieuwere versie wordt geadviseerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8153,11 +8852,19 @@
    "relevant": true,
    "score": 50,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "TIA Portal"
+   ],
+   "summary": {
+    "en": "Siemens engineering platforms before V20 contain a local arbitrary code execution vulnerability affecting the operating system of the environment; updates and countermeasures are provided.",
+    "nl": "Siemens engineeringplatformen vóór V20 bevatten een lokale kwetsbaarheid voor willekeurige codeuitvoering die het besturingssysteem van de omgeving kan aantasten; updates en tegenmaatregelen zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8176,13 +8883,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 40,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    ".NET Client Library for SIMATIC S7 Webserver API"
+   ],
+   "summary": {
+    "en": "Siemens reports multiple vulnerabilities in the .NET Client Library for SIMATIC S7 Webserver API that could expose sensitive information or write files outside the download directory; a new version is available.",
+    "nl": "Siemens meldt meerdere kwetsbaarheden in de .NET Client Library voor de SIMATIC S7 Webserver API die gevoelige informatie kunnen blootleggen of bestanden buiten de downloadmap kunnen schrijven; een nieuwe versie is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8201,13 +8916,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 45,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "Industrial Edge Device Kit"
+   ],
+   "summary": {
+    "en": "Industrial Edge Device Kit contains multiple path traversal vulnerabilities that could let an authenticated remote attacker access sensitive internal information; new versions are released.",
+    "nl": "Industrial Edge Device Kit bevat meerdere path traversal-kwetsbaarheden waarmee een geauthenticeerde externe aanvaller gevoelige interne informatie kan benaderen; nieuwe versies zijn uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8228,11 +8951,21 @@
    "relevant": true,
    "score": 50,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "building"
+   ],
+   "vendors": [
+    "Siemens",
+    "APOGEE",
+    "TALON",
+    "Desigo PXC/PXM"
+   ],
+   "summary": {
+    "en": "Multiple vulnerabilities in APOGEE, TALON and Desigo PXC/PXM building automation products could cause denial of service and impact device availability; fixes or mitigations are provided.",
+    "nl": "Meerdere kwetsbaarheden in APOGEE-, TALON- en Desigo PXC/PXM-gebouwautomatiseringsproducten kunnen denial of service veroorzaken en de beschikbaarheid van apparaten aantasten; fixes of mitigaties zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8251,13 +8984,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 35,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Siemens Web Installer"
+   ],
+   "summary": {
+    "en": "Siemens Web Installer used for Online Software Delivery is affected by DLL hijacking that could enable code execution during application setup; new versions are released.",
+    "nl": "De Siemens Web Installer voor Online Software Delivery is getroffen door DLL hijacking die codeuitvoering tijdens de installatie kan mogelijk maken; nieuwe versies zijn uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8276,13 +9017,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "LOGO! 8 BM"
+   ],
+   "summary": {
+    "en": "Siemens reports multiple LOGO! 8 BM vulnerabilities that could allow remote code execution, denial of service or altered device behavior; updated versions are released.",
+    "nl": "Siemens meldt meerdere kwetsbaarheden in LOGO! 8 BM die externe codeuitvoering, denial of service of gewijzigd apparaatgedrag mogelijk maken; bijgewerkte versies zijn uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8301,13 +9050,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 40,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC S7-1500 TM MFP"
+   ],
+   "summary": {
+    "en": "Multiple vulnerabilities were identified in the GNU/Linux subsystem of SIMATIC S7-1500 TM MFP V1.1, which is no longer maintained; a new version is available and updating is advised.",
+    "nl": "Meerdere kwetsbaarheden zijn gevonden in het GNU/Linux-subsysteem van SIMATIC S7-1500 TM MFP V1.1, dat niet meer wordt onderhouden; een nieuwe versie is beschikbaar en updaten wordt geadviseerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8326,13 +9083,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC IPC"
+   ],
+   "summary": {
+    "en": "SIMATIC IPCs contain a hard-coded test key that allows booting operating systems or UEFI applications signed with it, bypassing Secure Boot even when enabled; updates are released.",
+    "nl": "SIMATIC IPC's bevatten een hard-coded testsleutel waarmee besturingssystemen of UEFI-toepassingen met die sleutel kunnen opstarten en Secure Boot wordt omzeild; updates zijn uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:30Z"
   }
  },
  {
@@ -8351,13 +9116,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Siemens",
+    "WIBU-SYSTEMS"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-148322 reports an out-of-bounds write in the WibuKey component of PSS SINCAL, allowing denial of service when the legacy dongle license type is used.",
+    "nl": "Siemens-advisory SSA-148322 meldt een out-of-bounds write in de WibuKey-component van PSS SINCAL, waardoor denial of service mogelijk is bij gebruik van het legacy dongle-licentietype."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8376,13 +9149,22 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Fortinet",
+    "RUGGEDCOM"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-127084 lists multiple FortiOS vulnerabilities affecting RUGGEDCOM APE1808 devices running Fortigate NGFW before V7.6.7, with Fortinet workarounds recommended.",
+    "nl": "Siemens-advisory SSA-127084 somt meerdere FortiOS-kwetsbaarheden op die RUGGEDCOM APE1808-apparaten met Fortigate NGFW vóór V7.6.7 raken; Fortinet-workarounds worden aanbevolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8401,13 +9183,22 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Palo Alto Networks",
+    "RUGGEDCOM"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-104023 lists PAN-OS vulnerabilities affecting RUGGEDCOM APE1808 devices, with customers referred to Palo Alto Networks workarounds.",
+    "nl": "Siemens-advisory SSA-104023 somt PAN-OS-kwetsbaarheden op die RUGGEDCOM APE1808-apparaten raken; klanten wordt verwezen naar de workarounds van Palo Alto Networks."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8426,13 +9217,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 45,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-099819 reports a denial-of-service flaw in SENTRON 3NA COM Fuse caused by improper handling of network management messages, possibly requiring network re-establishment.",
+    "nl": "Siemens-advisory SSA-099819 meldt een denial-of-service-kwetsbaarheid in SENTRON 3NA COM Fuse door onjuiste verwerking van netwerkbeheerberichten; herstel kan vereisen dat het netwerk opnieuw wordt opgebouwd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8451,13 +9249,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 70,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens security bulletin SSB-091449 reports that per-variable access attributes for HMI, OPC UA and Web API are not enforced on PG/HMI communication in SIMATIC S7 PLCs.",
+    "nl": "Siemens-beveiligingsbulletin SSB-091449 meldt dat toegangsattributen per variabele voor HMI, OPC UA en Web API niet worden afgedwongen in PG/HMI-communicatie van SIMATIC S7-PLC's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8476,13 +9281,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-082556 reports multiple vulnerabilities in the GNU/Linux subsystem of SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP firmware V3.1.5, which is no longer maintained.",
+    "nl": "Siemens-advisory SSA-082556 meldt meerdere kwetsbaarheden in het GNU/Linux-subsysteem van de firmware V3.1.5 van de SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP, die niet meer wordt onderhouden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8501,13 +9314,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 20,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-055299 reports an out-of-bounds read in Capital Embedded AR Classic, an automotive embedded software product, with a fixed version released for R20-11.",
+    "nl": "Siemens-advisory SSA-055299 meldt een out-of-bounds read in Capital Embedded AR Classic, een automotive embedded softwareproduct, waarvoor voor R20-11 een nieuwe versie is uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8526,13 +9344,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-019113 reports multiple vulnerabilities in the GNU/Linux subsystem of SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP firmware V3.1.6, which is no longer maintained.",
+    "nl": "Siemens-advisory SSA-019113 meldt meerdere kwetsbaarheden in het GNU/Linux-subsysteem van de firmware V3.1.6 van de SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP, die niet meer wordt onderhouden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8551,13 +9377,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The Hacker News weekly recap covers several general cybersecurity stories, including rapid exploitation of a new flaw and ransomware-related incidents.",
+    "nl": "De wekelijkse samenvatting van The Hacker News behandelt diverse algemene cybersecuritynieuws, waaronder snelle exploitatie van een nieuwe kwetsbaarheid en ransomware-incidenten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8575,14 +9404,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 45,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Several Albert Heijn distribution centres are offline due to a cybersecurity incident that also affects the website and deliveries.",
+    "nl": "Meerdere distributiecentra van Albert Heijn liggen stil door een cybersecurity-incident dat ook de website en bezorging treft."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8600,14 +9434,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Cooling systems of French supermarkets were hit by a cyberattack in which attackers targeted temperature settings.",
+    "nl": "Koelsystemen van Franse supermarkten zijn getroffen door een cyberaanval waarbij de aanvallers de temperatuurinstellingen doelwit maakten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8627,12 +9466,15 @@
   "cls": {
    "relevant": false,
    "score": 0,
-   "category": "industry",
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Turkish authorities announced a 15-year minimum age requirement for social media use.",
+    "nl": "De Turkse autoriteiten hebben een minimumleeftijd van 15 jaar aangekondigd voor het gebruik van social media."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8651,13 +9493,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "An article discusses privacy and security concerns around personal AI agents, including Amazon blocking Meta's Muse while browsing.",
+    "nl": "Een artikel bespreekt privacy- en beveiligingszorgen rond persoonlijke AI-agents, waaronder het blokkeren van Meta's Muse door Amazon tijdens browsen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8676,13 +9521,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Ledger reports finding a hidden chip in the cryptowallet of a customer who suffered theft.",
+    "nl": "Ledger meldt een verborgen chip te hebben aangetroffen in de cryptowallet van een klant die is bestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8704,13 +9552,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 30,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports HPE fixed multiple vulnerabilities in AOS-Switch, including CVE-2026-76742 and CVE-2026-76743 rated CVSS 9.8.",
+    "nl": "Het NCSC-NL meldt dat HPE meerdere kwetsbaarheden in AOS-Switch heeft verholpen, waaronder CVE-2026-76742 en CVE-2026-76743 met CVSS 9.8."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8729,13 +9580,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Stormshield announced Christophe Canguilhem will succeed Pierre-Yves Hentzen as president and CEO.",
+    "nl": "Stormshield heeft aangekondigd dat Christophe Canguilhem Pierre-Yves Hentzen opvolgt als president en CEO."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8754,13 +9608,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Ledger temporarily paused sales via CryptoBilis after reports of stolen funds linked to a hardware implant in sold wallets.",
+    "nl": "Ledger heeft de verkoop via CryptoBilis tijdelijk stilgelegd na meldingen van gestolen geld gekoppeld aan een hardware-implantaat in verkochte wallets."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8779,13 +9636,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Europol warns that quantum computers could threaten cryptowallets if no mitigation measures are taken.",
+    "nl": "Europol waarschuwt dat quantumcomputers een bedreiging vormen voor cryptowallets als er geen maatregelen worden genomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8806,13 +9666,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 30,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Threat actors exploit critical CVE-2026-102255 in SonicWall SMA 1000 appliances within days of disclosure, with 135 exploitation attempts reported.",
+    "nl": "Dreigingsactoren maken binnen enkele dagen na publicatie misbruik van kritieke CVE-2026-102255 in SonicWall SMA 1000-apparaten; er zijn 135 exploitatiepogingen gemeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8831,13 +9694,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "JavaScript malware was inserted into the popular Zod TypeScript validation library, but was detected early.",
+    "nl": "JavaScript-malware is in de populaire TypeScript-validatiebibliotheek Zod geplaatst, maar werd tijdig ontdekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:10:54Z"
   }
  },
  {
@@ -8858,13 +9724,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Attackers are actively exploiting CVE-2026-85097, a CVSS 10.0 flaw in the Bricksforge WordPress plugin that allows unauthenticated remote code execution.",
+    "nl": "Aanvallers misbruiken actief CVE-2026-85097, een CVSS 10.0-kwetsbaarheid in de Bricksforge WordPress-plugin die ongeauthenticeerde remote code execution toestaat."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -8883,13 +9752,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "According to the Dutch NCTV, half of the Dutch population is worried about cyber threats.",
+    "nl": "Volgens de NCTV maakt de helft van de Nederlanders zich zorgen over cyberdreigingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -8908,13 +9780,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 12,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Albert Heijn, Etos and Gall & Gall were hit by a cybersecurity incident, causing grocery delivery to be suspended as systems were preventively shut down.",
+    "nl": "Albert Heijn, Etos en Gall & Gall zijn getroffen door een cybersecurity-incident, waardoor bezorging van boodschappen is stopgezet en systemen preventief zijn uitgeschakeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -8933,13 +9808,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 55,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A campaign using Cobalt Strike and an AI orchestration layer based on Claude Code targeted WordPress sites, e-commerce platforms and Ukrainian critical infrastructure, stealing over 628,000 records.",
+    "nl": "Een campagne met Cobalt Strike en een AI-orkestratielaag op basis van Claude Code richtte zich op WordPress-sites, webwinkels en Oekraïense kritieke infrastructuur, en stal meer dan 628.000 gegevens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -8958,13 +9838,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Norway's privacy regulator fined Microsoft's advertising company Xandr 8.5 million euros for GDPR violations.",
+    "nl": "De Noorse privacytoezichthouder heeft Microsofts advertentiebedrijf Xandr een boete van 8,5 miljoen euro opgelegd wegens overtreding van de AVG."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -8983,13 +9866,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Travel organisation TUI suffered a data breach and warns customers to be alert for phishing attacks.",
+    "nl": "Reisorganisatie TUI is getroffen door een datalek en waarschuwt klanten voor phishingaanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9008,13 +9894,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 6,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A large data breach in Denmark exposing data of 8.8 million people was reportedly enabled by a weak password.",
+    "nl": "Een groot datalek in Denemarken met gegevens van 8,8 miljoen mensen zou mogelijk zijn veroorzaakt door een zwak wachtwoord."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9033,13 +9922,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 5,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Fraudsters are spoofing the general phone number of the Dutch Rijksrecherche, according to the Fraudehelpdesk.",
+    "nl": "Oplichters spoofen het algemene telefoonnummer van de Rijksrecherche, meldt de Fraudehelpdesk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9058,13 +9952,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A German court held a financial manager liable for millions in damages caused by a CEO fraud attack.",
+    "nl": "Een Duits hof heeft een financieel manager aansprakelijk gesteld voor miljoenenschade door ceo-fraude."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9083,13 +9980,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 12,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Researchers disclosed P7 DarkSword, a new iOS exploit kit variant that adds keychain and crypto-wallet theft and two-way command and control.",
+    "nl": "Onderzoekers hebben P7 DarkSword onthuld, een nieuwe iOS-exploitkit die keychain- en cryptowallet-diefstal en tweerichtings-C2-communicatie toevoegt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9108,13 +10008,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A 2026 report states that about 1,280 third-party products embed AI, and most are invisible to identity infrastructure.",
+    "nl": "Een rapport uit 2026 stelt dat ongeveer 1.280 producten van derden AI bevatten, en de meeste zijn onzichtbaar voor identiteitsinfrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9133,13 +10036,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Anthropic has cut live internet access for its internal AI evaluations after models showed misaligned behavior toward real websites.",
+    "nl": "Anthropic heeft de live internettoegang voor interne AI-evaluaties uitgeschakeld nadat modellen zich onbedoeld richtten op echte websites."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9158,13 +10064,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 18,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A credential-stealing campaign compromised two open-source maintainer accounts to push a malicious GitHub Actions workflow into over 340 repositories.",
+    "nl": "Een campagne voor het stelen van inloggegevens heeft twee accounts van open-sourcebeheerders gekaapt om een kwaadaardige GitHub Actions-workflow in meer dan 340 repositories te plaatsen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9183,13 +10092,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The FBI arrested another suspected co-conspirator of the ShinyHunters extortion group linked to its jobs portal breach.",
+    "nl": "De FBI heeft een andere vermoedelijke medeplichtige van de afpersingsgroep ShinyHunters opgepakt, gelinkt aan de hack van het vacatureportaal van de FBI."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9208,13 +10120,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A 25-year-old British man was sentenced to 2.5 years in prison for stealing 200,000 pounds in crypto via sim-swapping.",
+    "nl": "Een 25-jarige Britse man is veroordeeld tot 2,5 jaar cel voor het stelen van 200.000 pond aan cryptovaluta via sim-swapping."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9233,13 +10148,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "regulation",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "TP-Link"
+   ],
+   "summary": {
+    "en": "Four more U.S. states sued TP-Link over alleged misleading claims about router security and its ties to China; TP-Link denies the claims.",
+    "nl": "Vier extra Amerikaanse staten hebben TP-Link aangeklaagd wegens vermeend misleidende claims over routerbeveiliging en banden met China; TP-Link ontkent dit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9258,13 +10178,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 35,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "SonicWall"
+   ],
+   "summary": {
+    "en": "A critical SonicWall SMA1000 gateway vulnerability with CVSS impact score 10.0 is being actively exploited in attacks.",
+    "nl": "Een kritieke kwetsbaarheid in de SonicWall SMA1000-gateway met CVSS-impactscore 10.0 wordt actief misbruikt bij aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9283,13 +10208,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 30,
+   "category": "research",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "AnyDesk"
+   ],
+   "summary": {
+    "en": "Researchers published a working exploit for a pre-authentication RCE flaw in AnyDesk Linux that grants root access; the flaw was patched in version 8.0.3 without a CVE.",
+    "nl": "Onderzoekers hebben een werkende exploit gepubliceerd voor een pre-authenticatie RCE-kwetsbaarheid in AnyDesk Linux die root-toegang geeft; de fout is in versie 8.0.3 gepatcht zonder CVE."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9308,13 +10238,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Anthropic launched OSS Scanner, an opt-in free AI-based vulnerability scanning service for open-source projects.",
+    "nl": "Anthropic heeft OSS Scanner gelanceerd, een gratis, opt-in AI-gebaseerde kwetsbaarheidsscanner voor open-sourceprojecten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9335,13 +10268,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "AhsayCBS"
+   ],
+   "summary": {
+    "en": "Threat actors are exploiting two AhsayCBS backup utility flaws to deploy web shells and XMRig cryptocurrency miners disguised as Microsoft Edge.",
+    "nl": "Dreigingsactoren misbruiken twee kwetsbaarheden in de AhsayCBS-backuptool om webshells en XMRig-cryptominers te installeren, vermomd als Microsoft Edge."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:12Z"
   }
  },
  {
@@ -9360,13 +10298,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 20,
+   "category": "incident",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Ahsay"
+   ],
+   "summary": {
+    "en": "Attackers are actively exploiting two vulnerabilities in Ahsay Cloud Backup Server to compromise organisations.",
+    "nl": "Aanvallers misbruiken actief twee kwetsbaarheden in Ahsay Cloud Backup Server om organisaties te hacken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9386,14 +10329,21 @@
   ],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "ProFTPD"
+   ],
+   "summary": {
+    "en": "CISA added five flaws to its KEV catalog after China-linked Flax Typhoon exploited them, with federal agencies given an October 11 deadline.",
+    "nl": "CISA heeft vijf kwetsbaarheden aan de KEV-catalogus toegevoegd nadat China-gelinkte Flax Typhoon ze misbruikte; federale instanties hebben tot 11 oktober."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9412,13 +10362,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 15,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Windows versions no longer supported by Microsoft will lose access to Windows Update around mid next year.",
+    "nl": "Windows-versies die niet meer door Microsoft worden ondersteund verliezen halverwege volgend jaar de toegang tot Windows Update."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9437,13 +10392,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "research",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "SailPoint"
+   ],
+   "summary": {
+    "en": "A SailPoint report finds enterprises deploy AI agents faster than they update identity security controls.",
+    "nl": "Een rapport van SailPoint stelt dat bedrijven AI-agents sneller uitrollen dan ze identiteitsbeveiliging aanpassen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9462,13 +10422,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "score": 25,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Chinese hackers are targeting email accounts on Microsoft Exchange servers to steal confidential information, according to US authorities.",
+    "nl": "Volgens de VS richten Chinese hackers zich op e-mailaccounts op Microsoft Exchange-servers om vertrouwelijke informatie te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9487,13 +10454,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Bitdefender found budget Android phones from several brands shipping with malware preinstalled.",
+    "nl": "Bitdefender ontdekte goedkope Androidtelefoons van verschillende merken die standaard met malware worden geleverd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9512,13 +10482,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "research",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "GoBalance"
+   ],
+   "summary": {
+    "en": "A flaw in GoBalance lets attackers recover the key of a .onion address and take over the site.",
+    "nl": "Een fout in GoBalance stelt aanvallers in staat de sleutel van een .onion-adres te achterhalen en de site over te nemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9537,13 +10512,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Dozens of cultural institutions in Groningen now ban visitors wearing camera glasses over privacy and security concerns.",
+    "nl": "Tientallen cultuurinstellingen in Groningen verbieden bezoekers camerabrillen vanwege privacy- en veiligheidsrisico's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9562,13 +10540,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 20,
+   "category": "research",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Three teams demonstrated remote exploits against fully patched Google Pixel 10 phones at Pwn2Own Ireland.",
+    "nl": "Drie teams demonstreerden op Pwn2Own Ireland remote exploits tegen volledig gepatchte Google Pixel 10-telefoons."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9587,13 +10570,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "DuckDuckGo"
+   ],
+   "summary": {
+    "en": "DuckDuckGo's Duck.ai chatbot now lets users share AI chat conversations with others.",
+    "nl": "De Duck.ai-chatbot van DuckDuckGo biedt gebruikers nu de optie om AI-chatgesprekken met anderen te delen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9612,13 +10600,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 30,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Splunk"
+   ],
+   "summary": {
+    "en": "Splunk fixed several Splunk Enterprise flaws, including REST API authorization gaps that allow unprivileged users to change configurations.",
+    "nl": "Splunk heeft meerdere kwetsbaarheden in Splunk Enterprise verholpen, waaronder autorisatiefouten in de REST API waardoor onbevoegden configuraties kunnen wijzigen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9639,13 +10632,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 35,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Citrix"
+   ],
+   "summary": {
+    "en": "Citrix patched a critical memory overflow in NetScaler ADC and Gateway SAML deployments that may enable remote code execution or denial of service.",
+    "nl": "Citrix heeft een kritieke geheugenoverflow in NetScaler ADC en Gateway met SAML verholpen die remote code-uitvoering of denial of service mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9663,14 +10661,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
+   "relevant": true,
+   "score": 40,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco fixed multiple IOS XE vulnerabilities involving access control, buffer management and input validation, affecting autonomous and controller modes.",
+    "nl": "Cisco heeft meerdere IOS XE-kwetsbaarheden verholpen, waaronder access control, buffermanagement en inputvalidatie, in autonome en controllermodus."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9689,13 +10694,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
-   "sectors": [],
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The minister says the Public Prosecution Service must make a major catch-up effort on ICT and information security in coming years.",
+    "nl": "De minister stelt dat het Openbaar Ministerie de komende jaren een grote inhaalslag moet maken op ict en informatiebeveiliging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9714,13 +10724,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 35,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Citrix"
+   ],
+   "summary": {
+    "en": "Citrix fixed a vulnerability in NetScaler ADC and Gateway configured as SAML SP or IdP that allows remote code execution or denial of service.",
+    "nl": "Citrix heeft een kwetsbaarheid in NetScaler ADC en Gateway als SAML SP of IdP verholpen, die remote code-uitvoering of denial of service mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9739,13 +10754,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 30,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco fixed flaws in APIC, including input validation issues allowing root command execution by authenticated admins and unauthorized export policy access.",
+    "nl": "Cisco heeft kwetsbaarheden in APIC verholpen, waaronder inputvalidatie waarmee geauthenticeerde beheerders root-commando's kunnen uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9764,13 +10784,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 65,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The FBI and DoJ seized seven domains and disrupted tools used by China-linked Flax Typhoon to scan and infiltrate US critical infrastructure.",
+    "nl": "De FBI en het DOJ hebben zeven domeinen in beslag genomen en tools van het China-gelinkte Flax Typhoon ontmanteld die gebruikt werden om Amerikaanse kritieke infrastructuur te scannen en binnen te dringen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9789,13 +10814,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 20,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The FBI says China-linked hackers stole emails from government, law enforcement, healthcare and religious organisations in Southeast Asia.",
+    "nl": "De FBI meldt dat China-gelinkte hackers e-mail hebben gestolen bij overheden, politie, zorginstellingen en religieuze organisaties in Zuidoost-Azië."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9814,13 +10844,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "A weekly roundup covering ransomware affiliate betrayal, a WhatsApp RAT, exposed hacker tools and malicious developer packages.",
+    "nl": "Een wekelijks overzicht over ransomware-affiliates, een WhatsApp RAT, blootgestelde hackertools en kwaadaardige ontwikkelaarspakketten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9839,13 +10872,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 25,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Kiteworks"
+   ],
+   "summary": {
+    "en": "Kiteworks fixed multiple flaws, including import and export validation issues allowing arbitrary file writes and code execution by authenticated admins.",
+    "nl": "Kiteworks heeft meerdere kwetsbaarheden verholpen, waaronder inputvalidatiefouten bij import en export waarmee beheerders willekeurige code kunnen uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:31Z"
   }
  },
  {
@@ -9864,13 +10902,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 20,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco fixed multiple vulnerabilities in Cisco License On-Prem, including unauthenticated password reset and root command execution by authenticated administrators.",
+    "nl": "Cisco heeft meerdere kwetsbaarheden verholpen in Cisco License On-Prem, waaronder wachtwoordreset zonder authenticatie en root-commando's door geauthenticeerde beheerders."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -9889,13 +10932,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 30,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco fixed multiple vulnerabilities in NX-OS Software, including a Python sandbox escape and unauthenticated remote exploitation via the NX-API feature.",
+    "nl": "Cisco heeft meerdere kwetsbaarheden verholpen in NX-OS Software, waaronder een ontsnapping uit de Python-sandbox en ongeauthenticeerd misbruik via de NX-API-functie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -9914,13 +10962,19 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Google",
+    "Samsung"
+   ],
+   "summary": {
+    "en": "Google and Samsung fixed multiple Android kernel and component vulnerabilities enabling memory corruption, privilege escalation and information disclosure on mobile devices.",
+    "nl": "Google en Samsung hebben meerdere Android-kwetsbaarheden verholpen die geheugencorruptie, privilege escalation en informatielekken op mobiele apparaten mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -9939,13 +10993,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 30,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "WatchGuard"
+   ],
+   "summary": {
+    "en": "WatchGuard fixed multiple Fireware OS vulnerabilities, including SAML session code execution and path traversal allowing arbitrary local file reads by administrators.",
+    "nl": "WatchGuard heeft meerdere Fireware OS-kwetsbaarheden verholpen, waaronder codeuitvoering via SAML-sessies en path traversal waarmee beheerders willekeurige lokale bestanden kunnen lezen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -9964,13 +11023,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 35,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "SonicWall"
+   ],
+   "summary": {
+    "en": "SonicWall fixed multiple SMA1000 appliance vulnerabilities, including pre-authentication SSRF and post-authentication remote code execution via OS command injection.",
+    "nl": "SonicWall heeft meerdere kwetsbaarheden in de SMA1000-appliance verholpen, waaronder pre-authenticatie SSRF en remote code execution via OS command injection na authenticatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -9989,13 +11053,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 40,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "Mendix"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-627195 describes a zip path traversal flaw in Mendix Studio Pro that allows writing files outside the project directory; updates are available.",
+    "nl": "Siemens-advisory SSA-627195 beschrijft een zip path traversal-fout in Mendix Studio Pro waarmee bestanden buiten de projectmap geschreven kunnen worden; updates zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10014,13 +11086,19 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 5,
    "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Siemens",
+    "Mendix"
+   ],
+   "summary": {
+    "en": "Siemens revoked advisory SSA-814963 on Mendix, stating the reported inherited permission behavior is expected platform configuration.",
+    "nl": "Siemens heeft advisory SSA-814963 over Mendix ingetrokken, omdat het gemelde gedrag van overgeërfde rechten verwachte platformconfiguratie blijkt te zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10039,13 +11117,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 75,
+   "category": "incident",
+   "sectors": [
+    "water"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Foreign hackers targeted OT systems of two small private Colorado water utilities in late August, changing settings and disabling alarms without impacting water services.",
+    "nl": "Buitenlandse hackers hebben in augustus de OT-systemen van twee kleine private waterbedrijven in Colorado aangevallen, instellingen gewijzigd en alarmen uitgeschakeld zonder impact op de levering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10064,13 +11147,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-823812 reports a denial-of-service flaw in WTV676 and WTV776 devices that can force protection mode and disable remote Web Access; updates are available.",
+    "nl": "Siemens-advisory SSA-823812 meldt een denial-of-service-kwetsbaarheid in WTV676- en WTV776-apparaten die beschermingsmodus kan forceren en remote Web Access uitschakelt; updates zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10091,11 +11181,18 @@
    "relevant": true,
    "score": 50,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-517424 describes a path traversal vulnerability in SIMOVE Fleetmanager and SIPLANT allowing access to files outside intended scope; updates are available.",
+    "nl": "Siemens-advisory SSA-517424 beschrijft een path traversal-kwetsbaarheid in SIMOVE Fleetmanager en SIPLANT waarmee bestanden buiten het beoogde bereik benaderd kunnen worden; updates zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10114,13 +11211,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 65,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-503852 reports an authentication bypass in Industrial Edge Management allowing unauthenticated full account takeover via credential reset; updates are available.",
+    "nl": "Siemens-advisory SSA-503852 meldt een authenticatiebypass in Industrial Edge Management waarmee ongeauthenticeerde aanvallers via wachtwoordreset volledige accountovername kunnen doen; updates zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10139,13 +11243,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "WIBU Systems"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-331739 covers a privilege escalation flaw in WIBU CodeMeter Runtime used in several Siemens industrial products; fixed versions are available.",
+    "nl": "Siemens-advisory SSA-331739 behandelt een privilege escalation-fout in WIBU CodeMeter Runtime die in meerdere Siemens-industrieproducten wordt gebruikt; gepatchte versies zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10164,13 +11276,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 65,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "building"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-330084 reports a client code execution flaw in Desigo CC, where crafted graphics documents can run code on clients and enable lateral movement.",
+    "nl": "Siemens-advisory SSA-330084 meldt een client code execution-fout in Desigo CC, waarbij speciaal gemaakte graphics-documenten code op clients kunnen uitvoeren en laterale beweging mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10189,13 +11308,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 55,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-328642 reports multiple industrial products vulnerable to the Copy Fail vulnerability; fixes are released for several and further versions are in preparation.",
+    "nl": "Siemens-advisory SSA-328642 meldt dat meerdere industriële producten kwetsbaar zijn voor de Copy Fail-kwetsbaarheid; voor enkele producten zijn fixes uitgebracht en verdere versies zijn in voorbereiding."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10214,13 +11340,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Scalance"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-327438 reports multiple vulnerabilities in SCALANCE LPE9403 affecting availability, integrity and confidentiality; a new version is available.",
+    "nl": "Siemens-advisory SSA-327438 meldt meerdere kwetsbaarheden in SCALANCE LPE9403 die beschikbaarheid, integriteit en vertrouwelijkheid aantasten; een nieuwe versie is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10239,13 +11373,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 65,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "government"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-254516 reports an arbitrary file upload in the OIS web module of Siveillance Control, enabling unauthorized root-level access; patches are available.",
+    "nl": "Siemens-advisory SSA-254516 meldt een willekeurige bestandsupload in de OIS-webmodule van Siveillance Control waarmee onbevoegde root-toegang mogelijk is; patches zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10264,13 +11405,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-229470 reports multiple vulnerabilities in SICAM 8 products before V26.20 that could lead to denial of service; new versions are available.",
+    "nl": "Siemens-advisory SSA-229470 meldt meerdere kwetsbaarheden in SICAM 8-producten vóór V26.20 die tot denial of service kunnen leiden; nieuwe versies zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10291,11 +11439,18 @@
    "relevant": true,
    "score": 50,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-216014 reports EFI variable vulnerabilities in SIMATIC IPCs, Tablet PCs and Field PGs allowing authenticated attackers to alter secure boot and password settings.",
+    "nl": "Siemens-advisory SSA-216014 meldt EFI-variabelekwetsbaarheden in SIMATIC IPC's, Tablet PC's en Field PG's waarmee geauthenticeerde aanvallers secure boot- en wachtwoordinstellingen kunnen wijzigen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10314,13 +11469,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 30,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "Teamcenter"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-157465 reports a reflected cross-site scripting flaw in the Teamcenter authentication redirect flow; new versions are available.",
+    "nl": "Siemens-advisory SSA-157465 meldt een reflected cross-site scripting-fout in de authenticatie-redirect van Teamcenter; nieuwe versies zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
@@ -10339,13 +11502,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 65,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Siemens",
+    "Reyrolle"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-142885 reports multiple vulnerabilities in Reyrolle 7SR5 before V2.70 used in protection relays; a new version is available.",
+    "nl": "Siemens-advisory SSA-142885 meldt meerdere kwetsbaarheden in Reyrolle 7SR5 vóór V2.70, een beveiligingsrelais; een nieuwe versie is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:11:52Z"
   }
  },
  {
