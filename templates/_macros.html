@@ -18,10 +18,36 @@
 </li>
 {% endmacro %}
 
+{% macro feed_group(g, t) %}
+<li class="item item--group" data-cat="{{ g.category }}">
+  <div class="item__meta">
+    <time datetime="{{ g.published }}">{{ g.day_label }}</time>
+    <span class="item__source">{{ g.source }}</span>
+  </div>
+  <div class="item__body">
+    <h3 class="item__title">{{ t.group_title.format(n=g.count, source=g.source) }}</h3>
+    <details class="group">
+      <summary>{{ t.group_show.format(n=g.count) }}</summary>
+      <ul class="group__list">
+        {% for i in g["items"] %}
+        <li>{% if i.url %}<a href="{{ i.url }}" rel="noopener noreferrer" target="_blank">{{ i.title }}</a>{% else %}{{ i.title }}{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </details>
+    <ul class="tags">
+      {% if g.category %}<li class="tag tag--cat tag--{{ g.category }}">{{ t.categories[g.category] }}</li>{% endif %}
+      {% for c in g.cves[:6] %}<li class="tag tag--cve">{{ c }}</li>{% endfor %}
+      {% if g.cves|length > 6 %}<li class="tag tag--x">+{{ g.cves|length - 6 }} CVE</li>{% endif %}
+    </ul>
+  </div>
+</li>
+{% endmacro %}
+
 {% macro source_list(sources) %}
 <ul class="srcs">
   {% for s in sources %}
-  <li><a href="{{ s.url }}" rel="noopener noreferrer" target="_blank" title="{{ s.title }}">{{ s.name }}</a></li>
+  <li><a href="{{ s.links[0].url }}" rel="noopener noreferrer" target="_blank" title="{{ s.links[0].title }}">{{ s.name }}</a>
+    {%- for l in s.links[1:] %} <a class="srcs__more" href="{{ l.url }}" rel="noopener noreferrer" target="_blank" title="{{ l.title }}">[{{ loop.index + 1 }}]</a>{% endfor %}</li>
   {% endfor %}
 </ul>
 {% endmacro %}

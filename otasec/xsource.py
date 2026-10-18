@@ -18,7 +18,7 @@ from urllib.parse import urlsplit
 
 import httpx
 
-from .normalize import canonical_url, clean_text, extract_cves, item_id
+from .normalize import clean_url, clean_text, extract_cves, item_id
 from .store import iso, parse_iso, utcnow
 
 log = logging.getLogger(__name__)
@@ -65,10 +65,10 @@ def posts_to_signals(payload: dict) -> list[dict]:
         author = users.get(post.get("author_id"), {})
         metrics = post.get("public_metrics", {})
         for u in post.get("entities", {}).get("urls", []):
-            link = canonical_url(u.get("unwound_url") or u.get("expanded_url") or "")
+            link = clean_url(u.get("unwound_url") or u.get("expanded_url") or "")
             host = urlsplit(link).netloc.removeprefix("www.") if link else ""
-            if not link or host in _SKIP_HOSTS:
-                continue
+            if not link or host in _SKIP_HOSTS or urlsplit(link).path in ("", "/"):
+                continue  # social links and bare homepages aren't articles
             out.append({
                 "post_id": post["id"],
                 "url": link,
@@ -98,6 +98,14 @@ def trusted_domains(cfg: dict, items: list[dict]) -> set[str]:
 def is_trusted(host: str, trusted: set[str]) -> bool:
     host = host.lower().removeprefix("www.")
     return any(host == d or host.endswith("." + d) for d in trusted)
+
+
+def rename_sources(items: list[dict]) -> None:
+    """X items pointing at a site we follow by RSS get that feed's name (in place)."""
+    names = {_host(i["url"]): i["source"] for i in items if i.get("source_id") != "x"}
+    for i in items:
+        if i.get("source_id") == "x":
+            i["source"] = names.get(_host(i["url"]), i["source"])
 
 
 def prune_untrusted(items: list[dict], trusted: set[str]) -> list[dict]:

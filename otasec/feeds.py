@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 import feedparser
 import httpx
 
-from .normalize import canonical_url, clean_text, extract_cves, item_id
+from .normalize import clean_url, clean_text, extract_cves, item_id
 from .store import iso, utcnow
 
 log = logging.getLogger(__name__)
@@ -43,7 +43,7 @@ def parse_feed(content: bytes, feed: dict, now: datetime | None = None) -> list[
     parsed = feedparser.parse(content)
     items = []
     for entry in parsed.entries:
-        url = canonical_url(entry.get("link", ""))
+        url = clean_url(entry.get("link", ""))
         title = clean_text(entry.get("title", ""), 300)
         if not url or not title:
             continue
@@ -96,6 +96,14 @@ def fetch_one(client: httpx.Client, feed: dict) -> tuple[dict, list[dict], dict]
         return feed, [], status
 
 
+def _dispatch(client: httpx.Client, feed: dict) -> tuple[dict, list[dict], dict]:
+    if feed.get("type") == "cisa_csaf":
+        from . import csaf
+        items, status = csaf.fetch(client, feed)
+        return feed, items, status
+    return fetch_one(client, feed)
+
+
 def fetch_all(feeds: list[dict], max_workers: int = 8) -> tuple[list[dict], dict]:
     """Fetch every enabled feed concurrently. Returns (items, health-by-source)."""
     enabled = [f for f in feeds if f.get("enabled", True)]
@@ -103,7 +111,7 @@ def fetch_all(feeds: list[dict], max_workers: int = 8) -> tuple[list[dict], dict
     items: list[dict] = []
     with httpx.Client(headers=HEADERS, follow_redirects=True, timeout=25) as client, \
             ThreadPoolExecutor(max_workers=max_workers) as pool:
-        for feed, got, status in pool.map(lambda f: fetch_one(client, f), enabled):
+        for feed, got, status in pool.map(lambda f: _dispatch(client, f), enabled):
             health[feed["id"]] = status
             items.extend(got)
             log.info("%-28s %s", feed["name"], f"{len(got)} items" if status.get("ok") else status.get("error"))

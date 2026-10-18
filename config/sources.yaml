@@ -18,13 +18,15 @@ feeds:
     kind: news
     lang: en
     verified: 2026-10-14
+  # SecurityWeek blocks GitHub's runners (HTTP 403, also with a bot User-Agent).
+  # Its articles still arrive via X (securityweek.com is a trusted domain).
   - id: securityweek-ics
     name: SecurityWeek ICS/OT
     url: https://www.securityweek.com/category/ics-ot/feed/
     focus: ot
     kind: news
     lang: en
-    verified: 2026-10-14
+    enabled: false
   - id: securityaffairs-ics
     name: Security Affairs ICS-SCADA
     url: https://securityaffairs.com/category/security/ics-scada/feed
@@ -32,9 +34,17 @@ feeds:
     kind: news
     lang: en
     verified: 2026-10-14
+  # cisa.gov blocks GitHub's runners, so CISA ICS advisories are read from
+  # CISA's official CSAF repository on GitHub instead (see otasec/csaf.py).
   - id: cisa-ics
     name: CISA ICS Advisories
-    url: https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml
+    type: cisa_csaf
+    url: https://github.com/cisagov/CSAF
+    repo: cisagov/CSAF
+    branch: develop
+    path: csaf_files/OT/white
+    lookback_days: 7
+    max_files: 40
     focus: ot
     kind: advisory
     lang: en

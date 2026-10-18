@@ -59,6 +59,8 @@ For each item return:
   advisories for industrial vendors/products ARE.
   Product marketing, webinars, company/product pages, job postings, training
   or book ads and event listings are NOT relevant, even if they mention SCADA or OT.
+  Index, overview or category pages (e.g. "ICS Advisories | CISA", a site's
+  news overview) are NOT relevant: only individual articles and advisories are.
 - score: 0-100 importance for an OT security professional (active exploitation,
   real-world disruption, widely deployed products and new regulation score high;
   marketing and minor updates score low).

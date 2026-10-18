@@ -152,6 +152,12 @@ main.wrap { padding: 32px 20px 56px; }
 .tag--vendor { font-weight: 600; }
 .tag--x { background: transparent; color: var(--muted); padding-left: 0; }
 .empty { color: var(--muted); padding: 24px 4px; }
+.group { margin: 2px 0 8px; font-size: .92rem; }
+.group summary { cursor: pointer; color: var(--accent-ink); font-weight: 600; width: fit-content; }
+.group__list { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; color: var(--ink-2); }
+.group__list a { text-decoration: none; }
+.group__list a:hover { text-decoration: underline; }
+.srcs__more { font: 600 .78rem var(--mono); color: var(--muted); }
 .more { text-align: center; margin: 22px 0 0; }
 .btn { font: 600 .92rem var(--sans); padding: 10px 18px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
 .btn:hover { border-color: var(--muted); }

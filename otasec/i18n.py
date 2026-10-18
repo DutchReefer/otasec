@@ -45,6 +45,8 @@ STRINGS = {
         "previous": "Previous",
         "next": "Next",
         "skip": "Skip to content",
+        "group_title": "{n} advisories from {source}",
+        "group_show": "Show all {n}",
         "categories": {
             "advisory": "Advisory", "incident": "Incident", "threat": "Threat intel",
             "regulation": "Regulation", "research": "Research", "industry": "Industry",
@@ -98,6 +100,8 @@ STRINGS = {
         "previous": "Vorige",
         "next": "Volgende",
         "skip": "Naar de inhoud",
+        "group_title": "{n} advisories van {source}",
+        "group_show": "Toon alle {n}",
         "categories": {
             "advisory": "Advisory", "incident": "Incident", "threat": "Dreiging",
             "regulation": "Regelgeving", "research": "Onderzoek", "industry": "Markt",
@@ -136,6 +140,11 @@ def plural(lang: str, key: str, n: int) -> str:
 def fmt_short(dt: datetime, lang: str) -> str:
     """'14 Oct, 09:12' / '14 okt, 09:12'."""
     return f"{dt.day} {_MONTHS[lang][dt.month - 1]}, {dt:%H:%M}"
+
+
+def fmt_day(dt: datetime, lang: str) -> str:
+    """'14 Oct' / '14 okt'."""
+    return f"{dt.day} {_MONTHS[lang][dt.month - 1]}"
 
 
 def fmt_long_date(dt: datetime, lang: str) -> str:

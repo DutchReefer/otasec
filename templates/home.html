@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import feed_item %}
+{% from "_macros.html" import feed_item, feed_group %}
 {% block main %}
 <section class="brief" aria-labelledby="brief-h">
   {% if latest %}
@@ -49,11 +49,11 @@
   </form>
 
   <ul class="items" id="items">
-    {% for i in items %}{{ feed_item(i, t, plural) }}{% endfor %}
+    {% for r in rows %}{% if r.group %}{{ feed_group(r, t) }}{% else %}{{ feed_item(r, t, plural) }}{% endif %}{% endfor %}
   </ul>
-  <p class="empty" id="empty" {% if items %}hidden{% endif %}>{{ t.no_items }}</p>
+  <p class="empty" id="empty" {% if rows %}hidden{% endif %}>{{ t.no_items }}</p>
   <p class="more"><button type="button" class="btn" id="more" hidden>{{ t.load_more }}</button></p>
 </section>
-<script type="application/json" id="i18n">{{ {"categories": categories, "sectors": sectors, "x": t.x_mentions, "lang": lang}|tojson }}</script>
+<script type="application/json" id="i18n">{{ {"categories": categories, "sectors": sectors, "x": t.x_mentions, "lang": lang, "group_title": t.group_title, "group_show": t.group_show}|tojson }}</script>
 {% endblock %}
 {% block scripts %}<script src="/assets/app.js?v={{ v }}" defer></script>{% endblock %}

@@ -67,6 +67,73 @@
     return li;
   }
 
+  function fmt(tpl, vars) {
+    return tpl.replace(/\{(\w+)\}/g, function (_, k) { return vars[k] != null ? vars[k] : ""; });
+  }
+
+  // Same rule as build.py collapse(): >= 4 advisories from one source on one
+  // day become one expandable row (e.g. Siemens patch day).
+  function collapse(list) {
+    var key = function (i) { return i.kind === "advisory" ? i.source_id + "|" + i.day : ""; };
+    var counts = {};
+    list.forEach(function (i) { var k = key(i); if (k) counts[k] = (counts[k] || 0) + 1; });
+    var rows = [], groups = {};
+    list.forEach(function (i) {
+      var k = key(i);
+      if (k && counts[k] >= 4) {
+        if (!groups[k]) {
+          groups[k] = { group: true, source: i.source, day_label: i.day_label, published: i.published,
+                        category: i.category, items: [] };
+          rows.push(groups[k]);
+        }
+        groups[k].items.push(i);
+      } else {
+        rows.push(i);
+      }
+    });
+    return rows;
+  }
+
+  function renderGroup(g) {
+    var li = el("li", "item item--group");
+    var meta = el("div", "item__meta");
+    var time = el("time", null, g.day_label);
+    time.setAttribute("datetime", g.published || "");
+    meta.appendChild(time);
+    meta.appendChild(el("span", "item__source", g.source));
+    li.appendChild(meta);
+    var body = el("div", "item__body");
+    body.appendChild(el("h3", "item__title", fmt(L.group_title, { n: g.items.length, source: g.source })));
+    var det = el("details", "group");
+    det.appendChild(el("summary", null, fmt(L.group_show, { n: g.items.length })));
+    var ul = el("ul", "group__list");
+    g.items.forEach(function (i) {
+      var row = el("li");
+      var url = safeUrl(i.url);
+      if (url) {
+        var a = el("a", null, i.title);
+        a.href = url; a.rel = "noopener noreferrer"; a.target = "_blank";
+        row.appendChild(a);
+      } else {
+        row.textContent = i.title;
+      }
+      ul.appendChild(row);
+    });
+    det.appendChild(ul);
+    body.appendChild(det);
+    var tags = el("ul", "tags");
+    if (g.category && L.categories[g.category]) {
+      tags.appendChild(el("li", "tag tag--cat tag--" + g.category, L.categories[g.category]));
+    }
+    var cves = [];
+    g.items.forEach(function (i) { (i.cves || []).forEach(function (c) { if (cves.indexOf(c) === -1) cves.push(c); }); });
+    cves.sort().slice(0, 6).forEach(function (c) { tags.appendChild(el("li", "tag tag--cve", c)); });
+    if (cves.length > 6) tags.appendChild(el("li", "tag tag--x", "+" + (cves.length - 6) + " CVE"));
+    body.appendChild(tags);
+    li.appendChild(body);
+    return li;
+  }
+
   function matches(i) {
     if (state.cat && i.category !== state.cat) return false;
     if (state.sector && (i.sectors || []).indexOf(state.sector) === -1) return false;
@@ -81,8 +148,10 @@
 
   function render() {
     var hits = items.filter(matches);
+    // Searching or picking a source shows every advisory individually.
+    if (!state.q && !state.source) hits = collapse(hits);
     var frag = document.createDocumentFragment();
-    hits.slice(0, shown).forEach(function (i) { frag.appendChild(renderItem(i)); });
+    hits.slice(0, shown).forEach(function (r) { frag.appendChild(r.group ? renderGroup(r) : renderItem(r)); });
     list.replaceChildren(frag);
     empty.hidden = hits.length > 0;
     more.hidden = hits.length <= shown;

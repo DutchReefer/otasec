@@ -15,7 +15,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .classify import publishable
 from .config import STATIC_DIR, TEMPLATE_DIR, Config
-from .i18n import STRINGS, fmt_long_date, fmt_short, plural
+from .i18n import STRINGS, fmt_day, fmt_long_date, fmt_short, plural
 from .normalize import safe_url
 from .store import Store, parse_iso, utcnow
 
@@ -55,6 +55,8 @@ def view_item(it: dict, lang: str, tz: ZoneInfo) -> dict:
         "published": it.get("published"),
         "time": fmt_short(published, lang),
         "day": published.date().isoformat(),
+        "day_label": fmt_day(published, lang),
+        "kind": it.get("kind", "news"),
         "summary": summary,
         "category": cls.get("category", ""),
         "sectors": cls.get("sectors", []),
@@ -66,6 +68,47 @@ def view_item(it: dict, lang: str, tz: ZoneInfo) -> dict:
     }
 
 
+GROUP_MIN = 4  # advisories from one source on one day collapse into one row from this count
+
+
+def group_key(i: dict) -> str:
+    return f"{i['source_id']}|{i['day']}" if i.get("kind") == "advisory" else ""
+
+
+def collapse(items: list[dict], min_size: int = GROUP_MIN) -> list[dict]:
+    """Rows for the live feed: batches of same-day advisories from one source
+    (e.g. Siemens patch day) become a single group row at the newest item's place."""
+    counts: dict[str, int] = {}
+    for i in items:
+        k = group_key(i)
+        if k:
+            counts[k] = counts.get(k, 0) + 1
+    rows, groups = [], {}
+    for i in items:
+        k = group_key(i)
+        if k and counts[k] >= min_size:
+            if k not in groups:
+                groups[k] = {"group": True, "source": i["source"], "day_label": i["day_label"],
+                             "published": i["published"], "category": i["category"], "items": []}
+                rows.append(groups[k])
+            groups[k]["items"].append(i)
+        else:
+            rows.append(i)
+    for g in groups.values():
+        g["count"] = len(g["items"])
+        g["cves"] = sorted({c for i in g["items"] for c in i["cves"]})
+    return rows
+
+
+def dedupe_sources(sources: list[dict]) -> list[dict]:
+    """One entry per outlet; extra articles from the same outlet become numbered links."""
+    out: dict[str, dict] = {}
+    for s in sources:
+        entry = out.setdefault(s["name"], {"name": s["name"], "links": []})
+        entry["links"].append({"url": s["url"], "title": s.get("title", "")})
+    return list(out.values())
+
+
 def view_briefing(b: dict, lang: str, tz: ZoneInfo) -> dict:
     loc = b["i18n"].get(lang) or b["i18n"].get("en", {})
     date = parse_iso(b["date"] + "T12:00:00+00:00")
@@ -74,7 +117,7 @@ def view_briefing(b: dict, lang: str, tz: ZoneInfo) -> dict:
         sl = s["i18n"].get(lang) or s["i18n"].get("en", {})
         stories.append({
             **sl,
-            "sources": [{**x, "url": safe_url(x["url"])} for x in s["sources"] if safe_url(x["url"])],
+            "sources": dedupe_sources([{**x, "url": safe_url(x["url"])} for x in s["sources"] if safe_url(x["url"])]),
             "source_count": s.get("source_count", len(s["sources"])),
             "x": s.get("x_mentions", 0),
             "cves": s.get("cves", []),
@@ -159,7 +202,7 @@ def build_site(cfg: Config, store: Store) -> None:
             _write(target, html)
 
         # Live feed page (homepage)
-        render("home.html", "/", items=vitems[: site["feed"]["homepage_items"]], total=len(vitems),
+        render("home.html", "/", rows=collapse(vitems)[: site["feed"]["homepage_items"]], total=len(vitems),
                latest=latest, is_today=is_today, sources=active_sources, feed_count=feed_count,
                categories=t["categories"], sectors=t["sectors"])
 

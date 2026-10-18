@@ -28,6 +28,7 @@ def test_parse_rss():
     assert "Example: PLC firmware flaw patched" in titles
     assert "Bad scheme" not in titles  # javascript: link dropped
     assert all(i["url"].startswith("https://") for i in items)
+    assert any(i["url"] == "https://www.example.com/news/plc-flaw/?id=7" for i in items)  # www kept, utm dropped
     first = next(i for i in items if "PLC" in i["title"])
     assert first["cves"] == ["CVE-2026-12345", "CVE-2026-0001"]
     assert "appeared first" not in first["excerpt"]

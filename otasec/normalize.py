@@ -33,8 +33,20 @@ def truncate(text: str, limit: int) -> str:
     return cut.rstrip(",;:.- ") + "…"
 
 
+def clean_url(url: str) -> str:
+    """The link we publish: tracking params and fragment removed, host kept as-is
+    (some sites don't serve the bare domain without www.)."""
+    url = (url or "").strip()
+    parts = urlsplit(url)
+    if parts.scheme not in ("http", "https") or not parts.netloc:
+        return ""
+    query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+             if k.lower() not in _TRACKING_PARAMS]
+    return urlunsplit((parts.scheme, parts.netloc.lower(), parts.path, urlencode(query), ""))
+
+
 def canonical_url(url: str) -> str:
-    """Strip tracking params and fragments so the same article from two feeds dedupes."""
+    """Dedupe key: also ignores http/https, www. and trailing slashes. Used for ids, not links."""
     url = (url or "").strip()
     if not url:
         return ""

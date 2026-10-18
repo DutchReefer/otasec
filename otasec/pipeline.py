@@ -51,6 +51,7 @@ def ingest(cfg: Config, store: Store) -> list[dict]:
     trusted = xsource.trusted_domains(x_cfg, items)
     before = len(items)
     items = xsource.prune_untrusted(items, trusted)
+    xsource.rename_sources(items)
     if len(items) < before:
         log.info("X: removed %d stored items from untrusted domains", before - len(items))
     x_items, x_status = xsource.collect(cfg.x_bearer, x_cfg, state, items, trusted)
@@ -58,7 +59,7 @@ def ingest(cfg: Config, store: Store) -> list[dict]:
 
     health["sources"] = {**health.get("sources", {}), **feed_health, "x": x_status}
     # Drop health rows for feeds removed from config.
-    known = {f["id"] for f in cfg.feeds} | {"x"}
+    known = {f["id"] for f in cfg.feeds if f.get("enabled", True)} | {"x"}
     health["sources"] = {k: v for k, v in health["sources"].items() if k in known}
     state["last_ingest"] = iso(utcnow())
     state["last_ingest_added"] = added + x_added
