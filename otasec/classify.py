@@ -57,6 +57,8 @@ For each item return:
   unless it directly affects industrial operations or critical infrastructure.
   NCSC-style advisories for office software (Microsoft, browsers) are NOT relevant;
   advisories for industrial vendors/products ARE.
+  Product marketing, webinars, company/product pages, job postings, training
+  or book ads and event listings are NOT relevant, even if they mention SCADA or OT.
 - score: 0-100 importance for an OT security professional (active exploitation,
   real-world disruption, widely deployed products and new regulation score high;
   marketing and minor updates score low).
@@ -68,6 +70,15 @@ For each item return:
   technical terms, product names and CVE ids unchanged. No hype.
 
 Return one result per input id, using the exact id."""
+
+
+def publishable(it: dict, min_score: int = 0) -> bool:
+    """Shown on the site / eligible for the briefing: relevant, and for broad
+    sources (press, X) important enough. Dedicated OT sources always pass."""
+    cls = it.get("cls") or {}
+    if not cls.get("relevant"):
+        return False
+    return it.get("focus") == "ot" or int(cls.get("score") or 0) >= min_score
 
 
 def _payload(batch: list[dict]) -> str:

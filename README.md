@@ -29,6 +29,12 @@ config/sources.yaml ─┐
   Claude judges them to have a real OT/ICS or critical-infrastructure angle.
 - **Popularity.** RSS has no view counts, so the briefing ranks stories by
   **how many independent sources cover the same event**, then by X shares, then by impact.
+- **X is a signal, not a source of truth.** A post linking to an article we already
+  have raises its "shared on X" count. A link to a new article only becomes an item
+  when the site is on `x.trusted_domains` in `config/sources.yaml`, or is a site
+  our RSS feeds already link to. Shops, job boards, SEO pages and unknown blogs are ignored.
+- **Importance threshold.** Items from broad sources (press, X) with an importance
+  score under `feed.min_score` (default 25) are hidden. Dedicated OT sources are always shown.
 - **No invented links.** The briefing model refers to items by id. Links are then
   attached from the real fetched items, so it can't add or alter a URL. Every link
   is also restricted to http(s), and all text is HTML-escaped.

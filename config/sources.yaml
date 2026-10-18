@@ -44,18 +44,31 @@ feeds:
     focus: ot
     kind: advisory
     lang: en
+    verified: 2026-10-17   # publishes its full archive; old entries are dropped at ingest
+  - id: waterfall
+    name: Waterfall Security
+    url: https://www.waterfall-security.com/feed/
+    focus: ot
+    kind: vendor
+    lang: en
+    verified: 2026-10-18
+  # Dragos and Nozomi Networks no longer publish RSS feeds (404, Oct 2026).
+  # Their research still reaches OTASEC through Industrial Cyber, SecurityWeek
+  # and X (both domains are on the X allowlist below).
   - id: dragos
     name: Dragos
     url: https://www.dragos.com/feed/
     focus: ot
     kind: vendor
     lang: en
+    enabled: false
   - id: nozomi
     name: Nozomi Networks
     url: https://www.nozominetworks.com/blog/rss.xml
     focus: ot
     kind: vendor
     lang: en
+    enabled: false
 
   # --- Broad security press (filtered to OT/ICS) ---------------------------
   - id: thehackernews
@@ -121,3 +134,65 @@ x:
   # Optional: accounts to follow, e.g. ["CISAgov", "SecurityWeek"].
   # Added as a second query: (from:a OR from:b) has:links -is:retweet
   accounts: []
+  # X links only become new items when they point to one of these domains
+  # (subdomains included) or to a domain our RSS feeds already link to.
+  # Everything else only counts as a "shared on X" signal for known articles.
+  trusted_domains:
+    # Government, CERTs, standards bodies
+    - cisa.gov
+    - nist.gov
+    - ncsc.nl
+    - ncsc.gov.uk
+    - digitaltrustcenter.nl
+    - enisa.europa.eu
+    - cert.europa.eu
+    - bsi.bund.de
+    - cert.ssi.gouv.fr
+    - certvde.com
+    - isa.org
+    - isagca.org
+    - iec.ch
+    - energy.gov
+    - epa.gov
+    # OT security vendors and research labs
+    - dragos.com
+    - nozominetworks.com
+    - claroty.com
+    - armis.com
+    - forescout.com
+    - tenable.com
+    - txone.com
+    - waterfall-security.com
+    - mandiant.com
+    - cloud.google.com
+    - unit42.paloaltonetworks.com
+    - microsoft.com
+    - blog.talosintelligence.com
+    - ics-cert.kaspersky.com
+    - welivesecurity.com
+    - trendmicro.com
+    - sans.org
+    - siemens.com
+    - se.com
+    - rockwellautomation.com
+    # News
+    - industrialcyber.co
+    - securityweek.com
+    - therecord.media
+    - darkreading.com
+    - cyberscoop.com
+    - theregister.com
+    - arstechnica.com
+    - wired.com
+    - reuters.com
+    - apnews.com
+    - bloomberg.com
+    - ft.com
+    - controlglobal.com
+    - automationworld.com
+    - controleng.com
+    - utilitydive.com
+    - nos.nl
+    - tweakers.net
+    - computable.nl
+    - fd.nl

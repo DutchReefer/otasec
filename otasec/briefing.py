@@ -12,6 +12,7 @@ import logging
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+from .classify import publishable
 from .llm import LLMError, complete_json
 from .store import Store, iso, parse_iso, utcnow
 
@@ -83,10 +84,10 @@ def due(store: Store, site: dict, force: bool = False) -> str | None:
     return date
 
 
-def select_items(items: list[dict], hours: int) -> list[dict]:
+def select_items(items: list[dict], hours: int, min_score: int = 0) -> list[dict]:
     cutoff = utcnow() - timedelta(hours=hours)
     return [i for i in items
-            if i.get("cls", {}) and i["cls"].get("relevant")
+            if publishable(i, min_score)
             and (parse_iso(i.get("published")) or utcnow()) >= cutoff]
 
 
@@ -153,9 +154,10 @@ def generate(store: Store, items: list[dict], site: dict, api_key: str, model: s
         return None
 
     cfg = site["briefing"]
-    selected = select_items(items, cfg["lookback_hours"])
+    min_score = site["feed"].get("min_score", 0)
+    selected = select_items(items, cfg["lookback_hours"], min_score)
     if len(selected) < cfg["min_items"]:
-        selected = select_items(items, cfg["fallback_lookback_hours"])
+        selected = select_items(items, cfg["fallback_lookback_hours"], min_score)
     if not selected:
         log.warning("no relevant items for briefing %s", date)
         return None

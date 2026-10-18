@@ -20,6 +20,8 @@ feed:
   retention_days: 60     # items kept in data/items.json
   window_days: 30        # items shown in the live feed
   homepage_items: 40     # items rendered server-side on the homepage (rest load via JSON)
+  min_score: 25          # broad-press and X items below this importance score are hidden
+                         # (dedicated OT sources are always shown)
 
 # Claude models (see https://platform.claude.com/docs/en/models/overview).
 # Override per run with env vars OTASEC_CLASSIFY_MODEL / OTASEC_BRIEFING_MODEL.
@@ -34,6 +36,6 @@ classify:
 briefing:
   publish_hour_local: 7    # first pipeline run at/after this hour publishes the day's briefing
   lookback_hours: 24
-  fallback_lookback_hours: 48   # used when fewer than min_items were found
-  min_items: 3
+  fallback_lookback_hours: 72   # quiet days/weekends: look back to the last working day
+  min_items: 8
   max_stories: 7

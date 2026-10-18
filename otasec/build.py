@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from .classify import publishable
 from .config import STATIC_DIR, TEMPLATE_DIR, Config
 from .i18n import STRINGS, fmt_long_date, fmt_short, plural
 from .normalize import safe_url
@@ -123,8 +124,9 @@ def build_site(cfg: Config, store: Store) -> None:
     now_local = utcnow().astimezone(tz)
 
     window = utcnow() - timedelta(days=site["feed"]["window_days"])
+    min_score = site["feed"].get("min_score", 0)
     relevant = [i for i in items_all
-                if (i.get("cls") or {}).get("relevant")
+                if publishable(i, min_score)
                 and (parse_iso(i.get("published")) or utcnow()) >= window]
     relevant.sort(key=lambda i: i.get("published") or "", reverse=True)
 
@@ -174,7 +176,7 @@ def build_site(cfg: Config, store: Store) -> None:
 
         # About + source health
         sources_view = []
-        for f in cfg.feeds:
+        for f in (f for f in cfg.feeds if f.get("enabled", True)):
             h = health.get("sources", {}).get(f["id"], {})
             sources_view.append({"name": f["name"], "url": f["url"], "focus": f.get("focus"),
                                  "lang": f.get("lang"), "ok": h.get("ok"),

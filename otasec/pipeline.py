@@ -2,12 +2,13 @@
 from __future__ import annotations
 
 import logging
+from datetime import timedelta
 
 from . import briefing as briefing_mod
 from . import feeds, xsource
 from .classify import classify_items
 from .config import Config
-from .store import Store, iso, utcnow
+from .store import Store, iso, parse_iso, utcnow
 
 log = logging.getLogger(__name__)
 
@@ -24,17 +25,36 @@ def merge_items(existing: list[dict], fetched: list[dict]) -> tuple[list[dict], 
     return list(by_id.values()), added
 
 
+def recent_only(items: list[dict], days: int) -> list[dict]:
+    """Drop items older than the retention window *before* they enter the store.
+
+    Some feeds (e.g. Siemens ProductCERT) publish their entire archive on every
+    request; without this, old entries would be re-added and re-classified on
+    every run.
+    """
+    cutoff = utcnow() - timedelta(days=days)
+    return [i for i in items if (parse_iso(i.get("published")) or utcnow()) >= cutoff]
+
+
 def ingest(cfg: Config, store: Store) -> list[dict]:
+    retention = cfg.site["feed"]["retention_days"]
     items = store.load_items()
     health = store.load_health()
     state = health.setdefault("state", {})
 
     fetched, feed_health = feeds.fetch_all(cfg.feeds)
+    fetched = recent_only(fetched, retention)
     items, added = merge_items(items, fetched)
-    log.info("feeds: %d fetched, %d new", len(fetched), added)
+    log.info("feeds: %d recent items fetched, %d new", len(fetched), added)
 
-    x_items, x_status = xsource.collect(cfg.x_bearer, cfg.sources.get("x", {}), state, items)
-    items, x_added = merge_items(items, x_items)
+    x_cfg = cfg.sources.get("x", {})
+    trusted = xsource.trusted_domains(x_cfg, items)
+    before = len(items)
+    items = xsource.prune_untrusted(items, trusted)
+    if len(items) < before:
+        log.info("X: removed %d stored items from untrusted domains", before - len(items))
+    x_items, x_status = xsource.collect(cfg.x_bearer, x_cfg, state, items, trusted)
+    items, x_added = merge_items(items, recent_only(x_items, retention))
 
     health["sources"] = {**health.get("sources", {}), **feed_health, "x": x_status}
     # Drop health rows for feeds removed from config.

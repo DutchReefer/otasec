@@ -2,8 +2,9 @@
 
 Posts that link to an article we already have raise that item's `x_mentions`
 count (a popularity signal used by the briefing). Posts linking to articles we
-don't have yet become their own items, attributed to the linked site and the
-X account that shared them — Claude then decides whether they're OT-relevant.
+don't have yet become their own items only if the linked site is trusted
+(config `x.trusted_domains` plus every domain our RSS feeds link to); links to
+anything else (SEO pages, job boards, shops, unknown blogs) are ignored.
 
 Cost control (X is pay-per-use): runs at most every `min_interval_hours`,
 reads at most `max_posts_per_run` posts, and keeps `since_id` per query so a
@@ -82,9 +83,33 @@ def posts_to_signals(payload: dict) -> list[dict]:
     return out
 
 
-def merge_signals(items: list[dict], signals: list[dict]) -> list[dict]:
-    """Raise x_mentions on known items; return new items for unknown links."""
+def _host(url: str) -> str:
+    return urlsplit(url).netloc.lower().removeprefix("www.")
+
+
+def trusted_domains(cfg: dict, items: list[dict]) -> set[str]:
+    """Domains X links may introduce as new items: the configured allowlist plus
+    every domain our RSS feeds already link to."""
+    domains = {d.lower().removeprefix("www.") for d in cfg.get("trusted_domains", []) if d}
+    domains |= {_host(i["url"]) for i in items if i.get("source_id") != "x"}
+    return {d for d in domains if d}
+
+
+def is_trusted(host: str, trusted: set[str]) -> bool:
+    host = host.lower().removeprefix("www.")
+    return any(host == d or host.endswith("." + d) for d in trusted)
+
+
+def prune_untrusted(items: list[dict], trusted: set[str]) -> list[dict]:
+    """Remove previously stored X-sourced items whose site isn't trusted (any more)."""
+    return [i for i in items if i.get("source_id") != "x" or is_trusted(_host(i["url"]), trusted)]
+
+
+def merge_signals(items: list[dict], signals: list[dict], trusted: set[str] | None = None) -> list[dict]:
+    """Raise x_mentions on known items; return new items for unknown links on trusted sites."""
     by_id = {i["id"]: i for i in items}
+    # Links to a site we already follow by RSS keep that feed's name.
+    names = {_host(i["url"]): i["source"] for i in items if i.get("source_id") != "x"}
     new: dict[str, dict] = {}
     now = iso(utcnow())
     for s in signals:
@@ -96,6 +121,8 @@ def merge_signals(items: list[dict], signals: list[dict]) -> list[dict]:
             if s["handle"] and s["handle"] not in handles:
                 handles.append(s["handle"])
             continue
+        if trusted is not None and not is_trusted(s["host"], trusted):
+            continue  # SEO pages, job boards, shops, unknown blogs: signal only
         title = s["title"] or s["text"]
         if not title:
             continue
@@ -106,7 +133,7 @@ def merge_signals(items: list[dict], signals: list[dict]) -> list[dict]:
             "title": title,
             "excerpt": excerpt,
             "source_id": "x",
-            "source": s["host"],
+            "source": names.get(s["host"], s["host"]),
             "lang": "en",
             "kind": "news",
             "focus": "broad",
@@ -120,7 +147,8 @@ def merge_signals(items: list[dict], signals: list[dict]) -> list[dict]:
     return list(new.values())
 
 
-def collect(bearer: str, cfg: dict, state: dict, items: list[dict]) -> tuple[list[dict], dict]:
+def collect(bearer: str, cfg: dict, state: dict, items: list[dict],
+            trusted: set[str] | None = None) -> tuple[list[dict], dict]:
     """Run all configured queries within budget. Returns (new_items, status)."""
     status = {"name": "X recent search", "checked": iso(utcnow())}
     if not cfg.get("enabled") or not bearer:
@@ -151,7 +179,7 @@ def collect(bearer: str, cfg: dict, state: dict, items: list[dict]) -> tuple[lis
         return [], status
 
     state["x_last_run"] = iso(utcnow())
-    new_items = merge_signals(items, signals)
+    new_items = merge_signals(items, signals, trusted)
     status.update(ok=True, posts_read=reads, links=len(signals), new_items=len(new_items))
     log.info("X: %d posts read, %d links, %d new items", reads, len(signals), len(new_items))
     return new_items, status

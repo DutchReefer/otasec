@@ -75,3 +75,55 @@ def test_x_signals_merge():
 def test_x_collect_respects_missing_token():
     items, status = xsource.collect("", {"enabled": True}, {}, [])
     assert items == [] and status["ok"] is None
+
+
+def test_recent_only_drops_archive_entries():
+    from datetime import timedelta
+    from otasec.pipeline import recent_only
+    from otasec.store import iso, utcnow
+    old = make_item(1, published=iso(utcnow() - timedelta(days=400)))
+    new = make_item(2)
+    assert [i["id"] for i in recent_only([old, new], 60)] == ["id2"]
+
+
+def test_x_untrusted_links_are_signal_only():
+    feed_item = make_item(1, url="https://industrialcyber.co/a/1", id=item_id("https://industrialcyber.co/a/1"))
+    trusted = xsource.trusted_domains({"trusted_domains": ["nist.gov", "www.Dragos.com"]}, [feed_item])
+    assert {"nist.gov", "dragos.com", "industrialcyber.co"} <= trusted
+    assert xsource.is_trusted("csrc.nist.gov", trusted)
+    assert not xsource.is_trusted("evilnist.gov", trusted)
+    signals = [
+        {"post_id": "1", "url": "https://csrc.nist.gov/pubs/sp/800/82/r4/ipd", "host": "csrc.nist.gov",
+         "title": "SP 800-82r4", "description": "", "text": "", "created_at": None, "handle": "a", "engagement": 0},
+        {"post_id": "2", "url": "https://scada-shop.example/buy", "host": "scada-shop.example",
+         "title": "Buy SCADA", "description": "", "text": "", "created_at": None, "handle": "b", "engagement": 0},
+        {"post_id": "3", "url": "https://industrialcyber.co/other", "host": "industrialcyber.co",
+         "title": "Other IC story", "description": "", "text": "", "created_at": None, "handle": "c", "engagement": 0},
+    ]
+    new = xsource.merge_signals([feed_item], signals, trusted)
+    assert sorted(i["source"] for i in new) == ["Source 1", "csrc.nist.gov"]  # feed name reused
+    stored = [feed_item, dict(new[0]), make_item(9, source_id="x", url="https://scada-shop.example/x")]
+    assert len(xsource.prune_untrusted(stored, trusted)) == 2
+
+
+def test_403_retries_with_bot_user_agent():
+    import httpx
+    from otasec.feeds import fetch_one
+    body = (FIXTURES / "atom_sample.xml").read_bytes()
+
+    def handler(request):
+        if "Chrome" in request.headers.get("user-agent", ""):
+            return httpx.Response(403)
+        return httpx.Response(200, content=body)
+
+    client = httpx.Client(transport=httpx.MockTransport(handler), headers={"User-Agent": "Mozilla Chrome"})
+    _, items, status = fetch_one(client, dict(FEED, url="https://cert.example.com/feed"))
+    assert status["ok"] and status["ua"] == "bot" and len(items) == 1
+
+
+def test_publishable_min_score():
+    from otasec.classify import publishable
+    low_broad = make_item(1, focus="broad", cls=dict(make_item(1)["cls"], score=10))
+    low_ot = make_item(2, focus="ot", cls=dict(make_item(2)["cls"], score=10))
+    assert not publishable(low_broad, 25) and publishable(low_ot, 25)
+    assert not publishable(make_item(3, cls=None), 0)

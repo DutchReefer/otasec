@@ -24,6 +24,10 @@ HEADERS = {
     "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
     "Accept-Language": "en-US,en;q=0.9,nl;q=0.8",
 }
+BOT_HEADERS = {
+    "User-Agent": "OTASEC/2.0 (+https://otasec.com/about/; RSS reader)",
+    "Accept": HEADERS["Accept"],
+}
 
 
 def _entry_time(entry) -> datetime | None:
@@ -71,6 +75,12 @@ def fetch_one(client: httpx.Client, feed: dict) -> tuple[dict, list[dict], dict]
     status = {"name": feed["name"], "url": feed["url"], "checked": iso(utcnow())}
     try:
         resp = client.get(feed["url"])
+        if resp.status_code in (401, 403):
+            # Some WAFs (Akamai, Cloudflare) reject a browser UA whose TLS
+            # fingerprint isn't a browser's; an honest bot UA often passes.
+            resp = client.get(feed["url"], headers=BOT_HEADERS)
+            if resp.status_code < 400:
+                status["ua"] = "bot"
         status["http"] = resp.status_code
         if resp.status_code >= 400:
             status.update(ok=False, error=f"HTTP {resp.status_code}")
