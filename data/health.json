@@ -3,63 +3,38 @@
   "industrialcyber": {
    "name": "Industrial Cyber",
    "url": "https://industrialcyber.co/feed/",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 9
   },
-  "securityweek-ics": {
-   "name": "SecurityWeek ICS/OT",
-   "url": "https://www.securityweek.com/category/ics-ot/feed/",
-   "checked": "2026-10-18T00:28:04Z",
-   "http": 403,
-   "ok": false,
-   "error": "HTTP 403"
-  },
   "securityaffairs-ics": {
    "name": "Security Affairs ICS-SCADA",
    "url": "https://securityaffairs.com/category/security/ics-scada/feed",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 10
   },
   "cisa-ics": {
    "name": "CISA ICS Advisories",
-   "url": "https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml",
-   "checked": "2026-10-18T00:28:04Z",
-   "http": 403,
-   "ok": false,
-   "error": "HTTP 403"
+   "url": "https://github.com/cisagov/CSAF",
+   "checked": "2026-10-18T00:45:12Z",
+   "ok": true,
+   "entries": 4
   },
   "siemens-productcert": {
    "name": "Siemens ProductCERT",
    "url": "https://cert-portal.siemens.com/productcert/rss/advisories.atom",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 2465
   },
-  "dragos": {
-   "name": "Dragos",
-   "url": "https://www.dragos.com/feed/",
-   "checked": "2026-10-18T00:08:14Z",
-   "http": 404,
-   "ok": false,
-   "error": "HTTP 404"
-  },
-  "nozomi": {
-   "name": "Nozomi Networks",
-   "url": "https://www.nozominetworks.com/blog/rss.xml",
-   "checked": "2026-10-18T00:08:14Z",
-   "http": 404,
-   "ok": false,
-   "error": "HTTP 404"
-  },
   "thehackernews": {
    "name": "The Hacker News",
    "url": "https://feeds.feedburner.com/TheHackersNews",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 50
@@ -67,7 +42,7 @@
   "bleepingcomputer": {
    "name": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/feed/",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 15
@@ -75,7 +50,7 @@
   "therecord": {
    "name": "The Record",
    "url": "https://therecord.media/feed/",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 5
@@ -83,7 +58,7 @@
   "helpnetsecurity": {
    "name": "Help Net Security",
    "url": "https://www.helpnetsecurity.com/feed/",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 10
@@ -91,7 +66,7 @@
   "ncsc-nl": {
    "name": "NCSC-NL Advisories",
    "url": "https://advisories.ncsc.nl/rss/advisories",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 25
@@ -99,14 +74,14 @@
   "securitynl": {
    "name": "Security.NL",
    "url": "https://www.security.nl/rss/headlines.xml",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 50
   },
   "x": {
    "name": "X recent search",
-   "checked": "2026-10-18T00:28:07Z",
+   "checked": "2026-10-18T00:45:16Z",
    "ok": null,
    "error": "skipped (interval)",
    "last": "2026-10-17T23:56:35Z"
@@ -114,15 +89,15 @@
   "waterfall": {
    "name": "Waterfall Security",
    "url": "https://www.waterfall-security.com/feed/",
-   "checked": "2026-10-18T00:28:04Z",
+   "checked": "2026-10-18T00:45:12Z",
    "http": 200,
    "ok": true,
    "entries": 10
   }
  },
  "state": {
-  "last_ingest": "2026-10-18T00:28:07Z",
-  "last_ingest_added": 7,
+  "last_ingest": "2026-10-18T00:45:16Z",
+  "last_ingest_added": 4,
   "x_since_id": {
    "keywords": "2111563037626769495"
   },

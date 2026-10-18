@@ -624,7 +624,7 @@
   "title": "How decades of disconnected modernization created OT security debt manufacturers can't escape - Industrial Cyber",
   "excerpt": "Manufacturers face an OT security debt crisis as modernization adds connectivity without addressing architectural weaknesses.",
   "source_id": "x",
-  "source": "industrialcyber.co",
+  "source": "Industrial Cyber",
   "lang": "en",
   "kind": "news",
   "focus": "broad",
@@ -1720,7 +1720,7 @@
   "title": "ICS Advisories | CISA",
   "excerpt": "ICS Advisory DefinitionsAll Alerts and Advisories",
   "source_id": "x",
-  "source": "cisa.gov",
+  "source": "CISA ICS Advisories",
   "lang": "en",
   "kind": "news",
   "focus": "broad",
@@ -3395,6 +3395,86 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:59:18Z"
+  }
+ },
+ {
+  "id": "cc3b7cd61609",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+  "title": "ICSA-26-288-02: Guangzhou Juan IoT Technology EseeCloud",
+  "excerpt": "Successful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras. Sectors: Energy, Communications, Transportation Systems, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-15T06:00:00Z",
+  "fetched": "2026-10-18T00:45:13Z",
+  "cves": [
+   "CVE-2026-107617",
+   "CVE-2026-97858",
+   "CVE-2026-105664"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "energy",
+    "transport",
+    "government"
+   ],
+   "vendors": [
+    "Guangzhou Juan IoT Technology EseeCloud"
+   ],
+   "summary": {
+    "en": "CISA published advisory ICSA-26-288-02 on Guangzhou Juan IoT EseeCloud vulnerabilities that could let attackers gain control of affected IP cameras.",
+    "nl": "CISA publiceerde advisory ICSA-26-288-02 over kwetsbaarheden in Guangzhou Juan IoT EseeCloud waardoor aanvallers getroffen IP-camera's zouden kunnen overnemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:45:22Z"
+  }
+ },
+ {
+  "id": "093b66f08af6",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+  "title": "ICSA-26-288-01: Eclipse Foundation Eclipse Milo",
+  "excerpt": "Successful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients. Sectors: Chemical, Critical Manufacturing, Energy, Water and Wastewater Systems.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-15T06:00:00Z",
+  "fetched": "2026-10-18T00:45:13Z",
+  "cves": [
+   "CVE-2026-62927",
+   "CVE-2026-63252",
+   "CVE-2026-58080",
+   "CVE-2026-63248",
+   "CVE-2026-60007",
+   "CVE-2026-61387"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "chemical",
+    "manufacturing",
+    "energy",
+    "water"
+   ],
+   "vendors": [
+    "Eclipse Foundation Eclipse Milo"
+   ],
+   "summary": {
+    "en": "CISA published advisory ICSA-26-288-01 on Eclipse Milo vulnerabilities that could allow data deletion, credential theft, impersonation, or server unresponsiveness.",
+    "nl": "CISA publiceerde advisory ICSA-26-288-01 over kwetsbaarheden in Eclipse Milo die dataverwijdering, diefstal van inloggegevens, imitatie of een onbereikbare server mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:45:22Z"
   }
  },
  {
@@ -6757,6 +6837,77 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:10:07Z"
+  }
+ },
+ {
+  "id": "4d435f7c22a1",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
+  "title": "ICSA-26-286-02: Swann Communications SWIFI-SE2KIC",
+  "excerpt": "Successful exploitation of these vulnerabilities could allow an attacker to view video information without authentication. Sectors: Commercial Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T06:00:00Z",
+  "fetched": "2026-10-18T00:45:13Z",
+  "cves": [
+   "CVE-2026-107605",
+   "CVE-2026-107606",
+   "CVE-2026-107607"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [
+    "building"
+   ],
+   "vendors": [
+    "Swann Communications SWIFI-SE2KIC"
+   ],
+   "summary": {
+    "en": "CISA published advisory on Swann SWIFI-SE2KIC vulnerabilities that could allow video information to be viewed without authentication.",
+    "nl": "CISA publiceerde een advisory over kwetsbaarheden in Swann SWIFI-SE2KIC waardoor videobeelden zonder authenticatie bekeken kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:45:22Z"
+  }
+ },
+ {
+  "id": "d48f7e0fef4a",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+  "title": "ICSA-26-286-01: Inductive Automation Ignition Software",
+  "excerpt": "Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level. Sectors: Critical Manufacturing, Energy, Information Technology.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T06:00:00Z",
+  "fetched": "2026-10-18T00:45:13Z",
+  "cves": [
+   "CVE-2026-92817"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "energy"
+   ],
+   "vendors": [
+    "Inductive Automation Ignition"
+   ],
+   "summary": {
+    "en": "CISA published advisory ICSA-26-286-01 on an Inductive Automation Ignition vulnerability allowing authenticated low-level users to escalate privileges.",
+    "nl": "CISA publiceerde advisory ICSA-26-286-01 over een kwetsbaarheid in Inductive Automation Ignition waardoor geauthenticeerde gebruikers met lage rechten hogere rechten kunnen verkrijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:45:22Z"
   }
  },
  {
