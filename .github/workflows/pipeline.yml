@@ -73,6 +73,7 @@ jobs:
           lftp --env-password -u "$FTP_USER" "$FTP_PROTOCOL://$FTP_HOST" -e "
             set ftp:ssl-force yes; 
             set ftp:ssl-protect-data yes;
+            set ssl:verify-certificate/AB:53:C4:34:26:DE:BD:C8:7F:F1:B9:A3:27:0E:28:6B:E2:20:77:35 no;
             set net:max-retries 3;
             set net:timeout 30;
             set sftp:auto-confirm yes;
