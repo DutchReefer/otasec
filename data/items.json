@@ -1,5 +1,35 @@
 [
  {
+  "id": "103fb8daac92",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+  "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+  "excerpt": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-18T14:23:16Z",
+  "fetched": "2026-10-18T14:38:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "SiteGuard"
+   ],
+   "summary": {
+    "en": "Attackers are exploiting an OS command injection flaw in SiteGuard Server Edition to run commands as root or SYSTEM on affected servers.",
+    "nl": "Aanvallers misbruiken een OS command injection-kwetsbaarheid in SiteGuard Server Edition om commando's als root of SYSTEM uit te voeren op getroffen servers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T14:38:12Z"
+  }
+ },
+ {
   "id": "952b3a6c7b9c",
   "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
   "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
