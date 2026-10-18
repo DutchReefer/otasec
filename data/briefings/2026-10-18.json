@@ -1,0 +1,124 @@
+{
+ "date": "2026-10-18",
+ "published": "2026-10-18T00:00:15Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 6,
+ "i18n": {
+  "en": {
+   "title": "OTASEC Daily Briefing – 18-10-2026",
+   "intro": "A quiet weekend for OT news, led by an expanded ANSSI alert on cold-chain controller sabotage and a new espionage campaign against CIS water and energy networks. NIST also published a draft update of its OT security guide."
+  },
+  "nl": {
+   "title": "OTASEC Dagelijks Overzicht – 18-10-2026",
+   "intro": "Een rustig weekend in OT-nieuws, met een uitgebreide ANSSI-waarschuwing over sabotage van koudeketen-controllers en een nieuwe spionagecampagne tegen water- en energienetwerken in de CIS. Daarnaast publiceerde NIST een conceptupdate van de OT-beveiligingsgids."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "069455808bcf",
+     "name": "sh3llc0d3.com",
+     "url": "https://sh3llc0d3.com/blog/anssi-warning-french-supermarket-cold-chain-sabotage-expands-to-copeland-and-dixell-controllers",
+     "title": "ANSSI Warning: French Supermarket Cold-Chain Sabotage Expands to Copeland and Dixell Controllers | Shellcode (Sh3llc0d3)"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 1,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "ANSSI expands alert on French supermarket cold-chain sabotage to Copeland and Dixell controllers",
+     "summary": "France's ANSSI, together with European food safety authorities, has expanded an emergency industrial cybersecurity alert on sabotage of supermarket cold chains. The alert now covers Copeland and Dixell controllers.",
+     "takeaway": "Check whether you operate Copeland or Dixell refrigeration controllers, review their network exposure and remote access, and follow the ANSSI guidance."
+    },
+    "nl": {
+     "heading": "ANSSI breidt waarschuwing over sabotage van Franse supermarkt-koudeketens uit naar Copeland- en Dixell-controllers",
+     "summary": "ANSSI heeft samen met Europese voedselveiligheidsautoriteiten een noodwaarschuwing over sabotage van koudeketens bij supermarkten uitgebreid. De waarschuwing omvat nu ook Copeland- en Dixell-controllers.",
+     "takeaway": "Controleer of u Copeland- of Dixell-koelingscontrollers gebruikt, beoordeel de netwerkblootstelling en toegang op afstand, en volg de richtlijnen van ANSSI."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "9e7f3087d937",
+     "name": "sh3llc0d3.com",
+     "url": "https://sh3llc0d3.com/blog/uat-6275-inside-the-cyber-espionage-campaign-targeting-cis-water-and-energy-scada-networks",
+     "title": "UAT-6275: Inside the Cyber Espionage Campaign Targeting CIS Water and Energy SCADA Networks | Shellcode (Sh3llc0d3)"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 1,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "UAT-6275 espionage campaign targets CIS water and energy SCADA networks",
+     "summary": "A coordinated cyber espionage campaign tracked as UAT-6275 has compromised government bodies, regional water treatment utilities and electrical energy providers. It is reported to target SCADA networks in the CIS region.",
+     "takeaway": "Water and energy operators should review segmentation between IT and SCADA networks and monitor for unusual access to OT environments."
+    },
+    "nl": {
+     "heading": "Spionagecampagne UAT-6275 richt zich op SCADA-netwerken voor water en energie in de CIS",
+     "summary": "Een gecoördineerde spionagecampagne, gevolgd als UAT-6275, heeft overheidsinstanties, regionale waterzuiveringsbedrijven en energieleveranciers gecompromitteerd. De campagne richt zich naar verluidt op SCADA-netwerken in de CIS-regio.",
+     "takeaway": "Water- en energiebedrijven doen er goed aan de segmentatie tussen IT- en SCADA-netwerken te controleren en te letten op ongebruikelijke toegang tot OT-omgevingen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "a58c58e6ddcc",
+     "name": "csrc.nist.gov",
+     "url": "https://csrc.nist.gov/pubs/sp/800/82/r4/ipd",
+     "title": "NIST Special Publication (SP) 800-82 Rev. 4 (Draft), Guide to Operational Technology (OT) Security"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 1,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "NIST publishes draft SP 800-82 Rev. 4, Guide to OT Security",
+     "summary": "NIST released a draft of SP 800-82 Rev. 4 with guidelines for securing operational technology while addressing its performance, reliability and safety requirements. The scope covers industrial control systems, building automation and control systems, freight railroad, maritime vessels and water systems, among others.",
+     "takeaway": "Compare your current OT security programme against the draft and consider whether to provide feedback during the review period."
+    },
+    "nl": {
+     "heading": "NIST publiceert concept van SP 800-82 Rev. 4, gids voor OT-beveiliging",
+     "summary": "NIST heeft een concept van SP 800-82 Rev. 4 gepubliceerd met richtlijnen voor het beveiligen van operationele technologie, met aandacht voor prestatie-, betrouwbaarheids- en veiligheidseisen. Het bereik omvat onder meer industriële besturingssystemen, gebouwbeheersystemen, goederenspoor, zeeschepen en watersystemen.",
+     "takeaway": "Vergelijk uw huidige OT-beveiligingsprogramma met het concept en overweeg of u feedback wilt geven tijdens de reviewperiode."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "ddd8f8e8b501",
+     "name": "tpomag.com",
+     "url": "https://tpomag.com/online_exclusives/2026/10/wastewater-utility-replaces-aging-scada-to-improve-uptime-and-resilience",
+     "title": "Wastewater Utility Replaces Aging SCADA to Improve Uptime and…"
+    },
+    {
+     "id": "50f3fec75d9a",
+     "name": "app.com.pk",
+     "url": "https://app.com.pk/national/cda-mulls-scada-system-to-modernise-islamabads-water-supply",
+     "title": "CDA mulls SCADA system to modernise Islamabad’s water supply"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 2,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Water utilities modernise SCADA in the US and Pakistan",
+     "summary": "A wastewater utility replaced its aging SCADA to improve uptime through faster issue identification and to enable secure remote access from tablets, phones and computers. Separately, Islamabad's Capital Development Authority is considering a SCADA system for real-time monitoring and automated control of the city's water supply.",
+     "takeaway": "When modernising SCADA or adding remote access, build access control and monitoring into the design from the start."
+    },
+    "nl": {
+     "heading": "Waterbedrijven moderniseren SCADA in de VS en Pakistan",
+     "summary": "Een afvalwaterbedrijf verving zijn verouderde SCADA om de beschikbaarheid te verbeteren via snellere signalering van problemen en om veilige toegang op afstand via tablets, telefoons en computers mogelijk te maken. Daarnaast overweegt de Capital Development Authority van Islamabad een SCADA-systeem voor realtime monitoring en geautomatiseerde besturing van de watervoorziening.",
+     "takeaway": "Neem bij het moderniseren van SCADA of het toevoegen van toegang op afstand toegangsbeheer en monitoring vanaf het begin mee in het ontwerp."
+    }
+   }
+  }
+ ]
+}

@@ -1,5 +1,138 @@
 [
  {
+  "id": "8136cbc4dc78",
+  "url": "https://centurygroup.net/industries-manufacturing-distribution-it-services",
+  "title": "Manufacturing IT Services Georgia | Century Solutions Group - Century Solutions Group",
+  "excerpt": "IT and cybersecurity for Georgia manufacturers and distributors: OT/IT segmentation, warehouse Wi-Fi, ERP uptime, and shift-aware support from Century Solutions Group.",
+  "source_id": "x",
+  "source": "centurygroup.net",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T21:00:33Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "CenturyGroupIT"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Century Solutions Group advertises IT and cybersecurity services for Georgia manufacturers, including OT/IT segmentation and ERP uptime support.",
+    "nl": "Century Solutions Group adverteert met IT- en cybersecuritydiensten voor fabrikanten in Georgia, waaronder OT/IT-segmentatie en ERP-beschikbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "ddd8f8e8b501",
+  "url": "https://tpomag.com/online_exclusives/2026/10/wastewater-utility-replaces-aging-scada-to-improve-uptime-and-resilience",
+  "title": "Wastewater Utility Replaces Aging SCADA to Improve Uptime and…",
+  "excerpt": "It improves uptime through faster issue identification and response; enables secure remote access from tablets, phones, thin clients and computers;…",
+  "source_id": "x",
+  "source": "tpomag.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T21:00:01Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "TPOmag"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "industry",
+   "sectors": [
+    "water"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A wastewater utility replaced its aging SCADA system to improve uptime and enable secure remote access from multiple device types.",
+    "nl": "Een afvalwaterbedrijf verving zijn verouderde SCADA-systeem om de uptime te verbeteren en veilige externe toegang vanaf diverse apparaten mogelijk te maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "f7678468c6bd",
+  "url": "https://events.aveva.com/insource-innovate-aveva-day-west",
+  "title": "Home",
+  "excerpt": "Wednesday - Thursday, November 4-5, 2026 Explore how Industrial AI, operational data, digital transformation, and connected operations are helping organizations operate smarter, faster, and more sustainably. For two immersive days, attendees will experience a combination of executive thought leadership, customer success stories, live demonstrations, technical deep dives, and hands-on workshops designed to help organizations accelerate their digital transformation journey. Whether you're just beginning",
+  "source_id": "x",
+  "source": "events.aveva.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T19:30:00Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 3,
+  "x_handles": [
+   "InSource_ISS"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "AVEVA"
+   ],
+   "summary": {
+    "en": "AVEVA announces a two-day event in November 2026 covering Industrial AI, operational data and connected operations.",
+    "nl": "AVEVA kondigt een tweedaags evenement in november 2026 aan over Industrial AI, operationele data en verbonden operaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "50f3fec75d9a",
+  "url": "https://app.com.pk/national/cda-mulls-scada-system-to-modernise-islamabads-water-supply",
+  "title": "CDA mulls SCADA system to modernise Islamabad’s water supply",
+  "excerpt": "The Capital Development Authority (CDA) is considering introducing a Supervisory Control and Data Acquisition (SCADA) system to enable real-time monitoring and automated control of Islamabad’s water supply network.",
+  "source_id": "x",
+  "source": "app.com.pk",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T17:45:19Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "abds_samad"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "industry",
+   "sectors": [
+    "water",
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Capital Development Authority in Islamabad is considering a SCADA system for real-time monitoring and automated control of the city's water supply.",
+    "nl": "De Capital Development Authority in Islamabad overweegt een SCADA-systeem voor realtime monitoring en geautomatiseerde regeling van de watervoorziening."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
   "id": "09b8ae247912",
   "url": "https://security.nl/posting/958045/Supplychain-aanval+via+ConnectWise+Cloud+Backup+raakt+tal+van+bedrijven?channel=rss",
   "title": "Supplychain-aanval via ConnectWise Cloud Backup raakt tal van bedrijven",
@@ -15,13 +148,47 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A supply chain attack via ConnectWise Cloud Backup, formerly SkyKick, has affected many companies and other organisations.",
+    "nl": "Een supplychain-aanval via ConnectWise Cloud Backup, voorheen SkyKick, heeft veel bedrijven en andere organisaties getroffen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "b18340fa5aef",
+  "url": "https://scan.pulsechain.com/tx/0x8dc2ca5955b0a83a69676b062300289450c0c90133f7b2b44eb23532fea79e74",
+  "title": "scan.pulsechain.com",
+  "excerpt": "Where to scan PulseChain",
+  "source_id": "x",
+  "source": "scan.pulsechain.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T16:12:18Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "ScadaOps"
+  ],
+  "cls": {
+   "relevant": false,
    "score": 0,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-17T17:16:51Z"
+   "summary": {
+    "en": "A page about where to scan PulseChain, unrelated to industrial security.",
+    "nl": "Een pagina over waar PulseChain gescand kan worden, niet gerelateerd aan industriële beveiliging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
   }
  },
  {
@@ -40,13 +207,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-17T17:16:51Z"
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Drupal warns of two critical vulnerabilities enabling remote code execution that could let attackers take over websites.",
+    "nl": "Drupal waarschuwt voor twee kritieke kwetsbaarheden die remote code execution mogelijk maken, waardoor websites overgenomen kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
   }
  },
  {
@@ -65,13 +237,50 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise",
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Hackers compromised Microsoft 365 tenants after abusing application identities in a ConnectWise Cloud Backup supply-chain attack.",
+    "nl": "Hackers hebben Microsoft 365-tenants gecompromitteerd na misbruik van applicatie-identiteiten in een supplychain-aanval op ConnectWise Cloud Backup."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "dac67581bbe4",
+  "url": "https://relay-roles.netlify.app/",
+  "title": "Remote OT/ICS & GRC Jobs · Relay Roles",
+  "excerpt": "Browse 39 remote-eligible OT/ICS and GRC cybersecurity openings (38 OT/ICS, 1 GRC). Niche board — not generic cyber. Updated 2026-10-12.",
+  "source_id": "x",
+  "source": "relay-roles.netlify.app",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T15:00:07Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "CarusoAmos2692"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-17T17:16:51Z"
+   "summary": {
+    "en": "A job board lists 39 remote OT/ICS and GRC cybersecurity openings updated in October 2026.",
+    "nl": "Een vacaturesite toont 39 externe OT/ICS- en GRC-cybersecurityvacatures, bijgewerkt in oktober 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
   }
  },
  {
@@ -90,13 +299,87 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Drupal patched two critical flaws allowing remote code execution on sites running supported versions, and warns exploits may emerge.",
+    "nl": "Drupal heeft twee kritieke lekken gepatcht die remote code execution mogelijk maken op sites met ondersteunde versies, en waarschuwt voor mogelijke exploits."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "069455808bcf",
+  "url": "https://sh3llc0d3.com/blog/anssi-warning-french-supermarket-cold-chain-sabotage-expands-to-copeland-and-dixell-controllers",
+  "title": "ANSSI Warning: French Supermarket Cold-Chain Sabotage Expands to Copeland and Dixell Controllers | Shellcode (Sh3llc0d3)",
+  "excerpt": "France's National Cybersecurity Agency (ANSSI) alongside European food safety authorities has expanded an emergency industrial cybersecurity alert warning...",
+  "source_id": "x",
+  "source": "sh3llc0d3.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T14:03:19Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "sh3ll_c0d3"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Copeland",
+    "Dixell"
+   ],
+   "summary": {
+    "en": "ANSSI expanded an emergency alert on sabotage of French supermarket cold-chain systems to Copeland and Dixell controllers.",
+    "nl": "ANSSI heeft een noodwaarschuwing over sabotage van koelketens in Franse supermarkten uitgebreid naar Copeland- en Dixell-regelaars."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "a58c58e6ddcc",
+  "url": "https://csrc.nist.gov/pubs/sp/800/82/r4/ipd",
+  "title": "NIST Special Publication (SP) 800-82 Rev. 4 (Draft), Guide to Operational Technology (OT) Security",
+  "excerpt": "This document provides guidelines on how to secure operational technology (OT) while addressing their unique performance, reliability, and safety requirements. OT encompasses a broad range of programmable systems and devices that interact with the physical environment, such as industrial control systems, building automation and control systems (BACS), freight railroad, maritime vessels, water and wastewater systems (WWS), Industrial Internet of Things (IIoT), and cloud environments. This document provides an overview of OT and typical system topologies, identifies common threats and…",
+  "source_id": "x",
+  "source": "csrc.nist.gov",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T12:49:08Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "kghaynes"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-17T17:16:51Z"
+   "summary": {
+    "en": "NIST released a draft revision 4 of SP 800-82, a guide to securing operational technology across industrial and critical infrastructure systems.",
+    "nl": "NIST heeft een conceptversie 4 van SP 800-82 uitgebracht, een gids voor het beveiligen van operationele technologie in industriële en kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
   }
  },
  {
@@ -115,13 +398,82 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A malicious npm package named imgdecode hides a shellcode loader and is part of the MALFEX supply chain campaign.",
+    "nl": "Een kwaadaardig npm-pakket genaamd imgdecode verbergt een shellcode-loader en maakt deel uit van de MALFEX-supplychaincampagne."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "548d5b425db8",
+  "url": "https://opuseco.com/yield",
+  "title": "The Opus Ecosystem",
+  "excerpt": "The Opus Ecosystem on PulseChain",
+  "source_id": "x",
+  "source": "opuseco.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T09:40:11Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "OpusEco"
+  ],
+  "cls": {
+   "relevant": false,
    "score": 0,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-17T14:13:49Z"
+   "summary": {
+    "en": "A page describing the Opus Ecosystem on PulseChain, unrelated to industrial security.",
+    "nl": "Een pagina over het Opus-ecosysteem op PulseChain, niet gerelateerd aan industriële beveiliging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "9e7f3087d937",
+  "url": "https://sh3llc0d3.com/blog/uat-6275-inside-the-cyber-espionage-campaign-targeting-cis-water-and-energy-scada-networks",
+  "title": "UAT-6275: Inside the Cyber Espionage Campaign Targeting CIS Water and Energy SCADA Networks | Shellcode (Sh3llc0d3)",
+  "excerpt": "A coordinated cyber espionage offensive tracked as UAT-6275 has compromised government bodies, regional water treatment utilities, and electrical energy pr...",
+  "source_id": "x",
+  "source": "sh3llc0d3.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T08:29:00Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "sh3ll_c0d3"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "threat",
+   "sectors": [
+    "water",
+    "energy",
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cyber espionage campaign tracked as UAT-6275 has compromised government bodies, water utilities and energy providers in CIS countries via SCADA networks.",
+    "nl": "Een cyberspionagecampagne, UAT-6275, heeft overheidsinstanties, waterbedrijven en energieproducenten in GOS-landen via SCADA-netwerken gecompromitteerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
   }
  },
  {
@@ -140,13 +492,49 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-17T10:49:16Z"
+   "summary": {
+    "en": "Albert Heijn's investigation into the cause and nature of a cybersecurity incident is still ongoing.",
+    "nl": "Het onderzoek naar de aard en oorzaak van een cybersecurityincident bij Albert Heijn loopt nog steeds."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "565ff32fec1b",
+  "url": "https://afr.com/politics/federal/australia-s-ageing-tech-leaves-it-open-to-ai-attacks-top-official-warns-20261015-p615ia",
+  "title": "Australia’s ageing tech at risk of AI attacks, top official warns",
+  "excerpt": "The Australian Signals Directorate has issued new guidelines for boosting cybersecurity in the age of AI, saying the government’s IT systems need an urgent overhaul.",
+  "source_id": "x",
+  "source": "afr.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T08:02:44Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "niccijsmith"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "guidance",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Australian Signals Directorate issued new AI-era cybersecurity guidelines and warned government IT systems need urgent modernisation.",
+    "nl": "Het Australische Signals Directorate heeft nieuwe cybersecurityrichtlijnen voor het AI-tijdperk uitgebracht en waarschuwt dat overheids-IT dringend moet worden vernieuwd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
   }
  },
  {
@@ -165,14 +553,162 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-17T10:49:16Z"
+   "vendors": [
+    "ConnectWise",
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Threat actors are abusing a compromised ConnectWise Cloud Backup Microsoft 365 credential to access customers' tenants.",
+    "nl": "Dreigingsactoren misbruiken een gecompromitteerd Microsoft 365-account van ConnectWise Cloud Backup om toegang te krijgen tot klanttenants."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
   }
+ },
+ {
+  "id": "71b6ae27e0a0",
+  "url": "https://scada-thai.com/products/drivers-collection-atdriver-server",
+  "title": "Free SCADA Platform for Smart Manufacturing | MES System, Vision System & Factory Digital Transformation",
+  "excerpt": "Discover a free SCADA platform designed for modern industry, connecting MES system and vision system to drive factory digital transformation",
+  "source_id": "x",
+  "source": "scada-thai.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T05:35:47Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "PBachxuan"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "industry",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor promotes a free SCADA platform connecting MES and vision systems for smart manufacturing digital transformation.",
+    "nl": "Een leverancier promoot een gratis SCADA-platform dat MES- en visionsystemen verbindt voor digitale transformatie in slimme productie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "830cdcb9d2d2",
+  "url": "https://oxymotec.com/",
+  "title": "MBR Membrane Manufacturer in USA, MBR System Service Provider in USA",
+  "excerpt": "Oxymo Technology is one of the best MBR Membrane Manufacturer in USA, offering manufacturing, design, sales, & technology, providing expert guidance for all your water & wastewater needs.",
+  "source_id": "x",
+  "source": "oxymotec.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T04:30:00Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "OxymoTechnology"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [
+    "water"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Oxymo Technology promotes its MBR membrane manufacturing and design services for water and wastewater projects in the USA.",
+    "nl": "Oxymo Technology promoot zijn MBR-membraanproductie en ontwerpdiensten voor water- en afvalwaterprojecten in de VS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:56:53Z"
+  }
+ },
+ {
+  "id": "1ad9aefd1bc4",
+  "url": "https://atscada.com/atscada-training-book",
+  "title": "ATSCADA Training book Guide for System Architecture & Tools",
+  "excerpt": "ATSCADA Training book provides guides for system architecture, installation, tools, deployment, troubleshooting and SCADA solutions.",
+  "source_id": "x",
+  "source": "atscada.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T02:43:05Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "marry_atscada"
+  ],
+  "cls": null
+ },
+ {
+  "id": "0ea3712fa9b8",
+  "url": "https://huyuglobal.com/",
+  "title": "Low-Voltage Electrical Equipment Manufacturer | Circuit Breakers, Transfer Switches & DC Protection Factory - HUYU Electric",
+  "excerpt": "HUYU Electric is a factory-direct manufacturer of low-voltage electrical protection equipment: MCCB, MCB, RCBO, ACB, automatic transfer switches, DC isolators, SPD, combiner boxes, and fuse holders. Solutions for solar PV, battery energy storage, EV charging, wind power, and industrial power distribution. OEM/ODM with IEC, UL, TUV certifications since 1993.",
+  "source_id": "x",
+  "source": "huyuglobal.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-17T00:00:02Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "HUYUElectric"
+  ],
+  "cls": null
+ },
+ {
+  "id": "74a2269b4f1a",
+  "url": "https://hackersarise.thinkific.com/bundles/scada-hacking-and-security-certification-bundle",
+  "title": "SCADA/ICS/OT Hacking and Security Career Path",
+  "excerpt": "Become a SCADA/ICS/OT expert with this one-year access training, which includes not only the videos but also access to our community!",
+  "source_id": "x",
+  "source": "hackersarise.thinkific.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T21:12:53Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "three_cube"
+  ],
+  "cls": null
+ },
+ {
+  "id": "b89b42c10d8c",
+  "url": "https://techtarget.com/cybersecurity/news/366652232/CIRCIA-reporting-deadline-puts-OT-data-integrity-under-the-microscope",
+  "title": "CIRCIA reporting deadline puts OT data integrity under the microsco...",
+  "excerpt": "CIRCIA's 72-hour reporting rule exposes a bigger OT challenge: proving data integrity as AI drives industrial decisions, not just access control.",
+  "source_id": "x",
+  "source": "techtarget.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T21:00:15Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "BoozAllen"
+  ],
+  "cls": null
  },
  {
   "id": "a499524cbdd3",
@@ -202,6 +738,63 @@
   }
  },
  {
+  "id": "d87c582e53a6",
+  "url": "https://jvrjobs.co.za/vereeniging-instrumentation-technician-posted-by-staff-solutions",
+  "title": "Vereeniging: Instrumentation Technician posted by Staff Solutions | JVR Jobs",
+  "excerpt": "View the current vacancy details, employer and location, then use the green Go Apply button to open the online application form on JVR Jobs.",
+  "source_id": "x",
+  "source": "jvrjobs.co.za",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T18:02:47Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "jvrjobs"
+  ],
+  "cls": null
+ },
+ {
+  "id": "9f547f0e2ac0",
+  "url": "https://boozallen.com/insights/velocity/the-zero-trust-imperative.html?cid=CO1-CH3-RF30-----449&dysig_tid=46624c873abf43cd96584fbe2028b194&dsuserid=316141&dsuserchannelid=100115&dsuserchanneltype=Twitter&dspostid=eb33a6ea-b191-4baf-8e8e-503d45306c5d",
+  "title": "Critical Infrastructure Under Attack: The Zero Trust Imperative",
+  "excerpt": "Adversaries are already inside OT networks. Learn how Zero Trust helps critical infrastructure prevent disruption and strengthen resilience.",
+  "source_id": "x",
+  "source": "boozallen.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T18:02:03Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "gtango"
+  ],
+  "cls": null
+ },
+ {
+  "id": "024fdc5e8368",
+  "url": "https://blog.opto22.com/optoblog?hss_channel=tw-19985754",
+  "title": "OptoBlog",
+  "excerpt": "Missed this week's #OptoBlog digest? New case study shows how to build scalable cloud #SCADA, and get the details on #NodeRED Con 2026. Catch up here: https://t.co/16ArqB7GS3 https://t.co/yMSQXX2gm0",
+  "source_id": "x",
+  "source": "blog.opto22.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T18:02:01Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "opto22"
+  ],
+  "cls": null
+ },
+ {
   "id": "2f67e7ff74fc",
   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
   "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
@@ -225,6 +818,45 @@
    "model": "heuristic",
    "at": "2026-10-16T18:49:46Z"
   }
+ },
+ {
+  "id": "88196369f563",
+  "url": "https://securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis",
+  "title": "Only 13% of OT Network Segments Are Fully Isolated: Analysis",
+  "excerpt": "Forescout’s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets.",
+  "source_id": "x",
+  "source": "securityweek.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T17:45:04Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 2,
+  "x_handles": [
+   "vallumsoftware",
+   "Lance_Edelman"
+  ],
+  "cls": null
+ },
+ {
+  "id": "b9e79d5f6210",
+  "url": "https://arxiv.org/abs/2610.18311",
+  "title": "BALLAST: Physics-Aware Moving Target Defense for Industrial...",
+  "excerpt": "Industrial Control Systems run on static network configurations, which leaves an attacker unlimited time to map the plant. Moving Target Defense answers this by shuffling addresses, but almost...",
+  "source_id": "x",
+  "source": "arxiv.org",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T17:26:28Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "FSFG"
+  ],
+  "cls": null
  },
  {
   "id": "91462b9d60ba",
@@ -277,6 +909,25 @@
   }
  },
  {
+  "id": "1e308b819c11",
+  "url": "https://boozallen.com/insights/velocity/the-zero-trust-imperative.html?cid=CO1-CH3-RF30-----449&dysig_tid=c27c3e8300fe4f268d70c504d5a6feb7&dsuserid=781078&dsuserchannelid=103195&dsuserchanneltype=Twitter&dspostid=eb33a6ea-b191-4baf-8e8e-503d45306c5d",
+  "title": "Critical Infrastructure Under Attack: The Zero Trust Imperative",
+  "excerpt": "Adversaries are already inside OT networks. Learn how Zero Trust helps critical infrastructure prevent disruption and strengthen resilience.",
+  "source_id": "x",
+  "source": "boozallen.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T16:38:03Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "barlazyjb"
+  ],
+  "cls": null
+ },
+ {
   "id": "7ca539292393",
   "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
   "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
@@ -302,6 +953,165 @@
   }
  },
  {
+  "id": "f842ad8550e9",
+  "url": "https://cvsoci.al/sQ4tXrwE?cv=1792167159187",
+  "title": "What Maritime Cyberattacks Reveal About Your Network",
+  "excerpt": "Read More...",
+  "source_id": "x",
+  "source": "cvsoci.al",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T16:12:39Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "vaibhavtandon"
+  ],
+  "cls": null
+ },
+ {
+  "id": "ab5cf332acbf",
+  "url": "https://survalent.com/wp-content/uploads/resource/Survalent_Helix_Brochure.pdf",
+  "title": "How fast can your team investigate an event without slowing your ADMS? https://t.co/32LKE4FZBT SurvalentONE Helix captures high-resolution SCADA data at scale with minimal configuration, while reducing load on your ADMS server. Details in brochure. #SCADA #ADMS #DataHistorian https://t.co/4Np9Rs5lcH",
+  "excerpt": "How fast can your team investigate an event without slowing your ADMS? https://t.co/32LKE4FZBT SurvalentONE Helix captures high-resolution SCADA data at scale with minimal configuration, while reducing load on your ADMS server. Details in brochure. #SCADA #ADMS #DataHistorian https://t.co/4Np9Rs5lcH",
+  "source_id": "x",
+  "source": "survalent.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T16:05:04Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "survalent"
+  ],
+  "cls": null
+ },
+ {
+  "id": "83bf4878cd23",
+  "url": "https://boozallen.com/insights/velocity/the-zero-trust-imperative.html?cid=CO1-CH3-RF30-----449&dysig_tid=cba37bf46ca04b3b939cf5dda4cd8487&dsuserid=301533&dsuserchannelid=103664&dsuserchanneltype=Twitter&dspostid=eb33a6ea-b191-4baf-8e8e-503d45306c5d",
+  "title": "Critical Infrastructure Under Attack: The Zero Trust Imperative",
+  "excerpt": "Adversaries are already inside OT networks. Learn how Zero Trust helps critical infrastructure prevent disruption and strengthen resilience.",
+  "source_id": "x",
+  "source": "boozallen.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T15:30:52Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "TennBuckNut"
+  ],
+  "cls": null
+ },
+ {
+  "id": "eb0940dddc36",
+  "url": "https://sh3llc0d3.com/blog/critical-infrastructure-defense-program-anthropic-dragos-and-nozomi-deploy-frontier-ai-for-grid-and-water-scada-defense",
+  "title": "Critical Infrastructure Defense Program: Anthropic, Dragos and Nozomi Deploy Frontier AI for Grid and Water SCADA Defense | Shellcode (Sh3llc0d3)",
+  "excerpt": "In a historic defensive alliance addressing the accelerating threat of state-sponsored cyber sabotage, artificial intelligence research laboratory Anthropi...",
+  "source_id": "x",
+  "source": "sh3llc0d3.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T15:30:33Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "sh3ll_c0d3"
+  ],
+  "cls": null
+ },
+ {
+  "id": "31b36cc781a9",
+  "url": "https://cybersecuritynews.com/hackers-exploit-exposed-industrial-controllers?hss_channel=tw-215016600",
+  "title": "Hackers Exploit Exposed Industrial Controllers to Disrupt US Water and Critical Infrastructure",
+  "excerpt": "Hackers exploit exposed industrial controllers to disrupt US water utilities, using weak passwords and remote access to alter operations.",
+  "source_id": "x",
+  "source": "cybersecuritynews.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T15:20:08Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "MADSecurityLLC"
+  ],
+  "cls": null
+ },
+ {
+  "id": "8696ee64c6fb",
+  "url": "https://amazon.ca/INDUSTRIAL-ELECTRICIAN-CONTROLS-LICENSING-PREPARATION/dp/B0HKT6W7PG/ref=sr_1_36?crid=3STMQNI3Q5IZQ&dib=eyJ2IjoiMSJ9",
+  "title": "INDUSTRIAL ELECTRICIAN & MOTOR CONTROLS LICENSING TEST PREPARATION: 1000 Exam Explained Questions",
+  "excerpt": "is a complete, high‑performance exam mastery system engineered for electricians preparing for national NEC‑based industrial licensing exams. Built on NEC 2026–2027 fundamentals, NFPA 70E safety requirements, OSHA 1910 Subpart S, and UL 508A industrial control standards, this book delivers a...",
+  "source_id": "x",
+  "source": "amazon.ca",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T15:09:58Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "CitExamMS"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A book promoting electrician licensing exam preparation based on NEC, NFPA 70E, OSHA and UL 508A standards.",
+    "nl": "Een boek ter voorbereiding op elektricienexamens, gebaseerd op NEC, NFPA 70E, OSHA en UL 508A-normen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
+  }
+ },
+ {
+  "id": "6b49e6e5469f",
+  "url": "https://relay-roles.netlify.app/jobs/junior-ot-ics-lab-engineer-dragos-59d1e5ae",
+  "title": "Junior OT/ICS Lab Engineer · Relay Roles",
+  "excerpt": "Junior OT/ICS Lab Engineer at Dragos — remote OT/ICS role on Relay Roles. Apply on the employer site.",
+  "source_id": "x",
+  "source": "relay-roles.netlify.app",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T15:00:26Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "CarusoAmos2692"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Dragos"
+   ],
+   "summary": {
+    "en": "A job listing for a remote Junior OT/ICS Lab Engineer role at Dragos, posted on a job aggregator site.",
+    "nl": "Een vacature voor een externe Junior OT/ICS Lab Engineer bij Dragos, geplaatst op een vacatiewebsite."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
+  }
+ },
+ {
   "id": "6c93682bf288",
   "url": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
   "title": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
@@ -317,13 +1127,54 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Proofpoint will acquire data security company Varonis in an all-cash transaction valued at $6.3 billion.",
+    "nl": "Proofpoint neemt dataveiligheidsbedrijf Varonis over in een contante transactie ter waarde van 6,3 miljard dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
+  }
+ },
+ {
+  "id": "56f0d9fd4ff6",
+  "url": "https://sh3llc0d3.com/blog/cisa-ics-advisory-icsa-26-286-01-inductive-automation-ignition-scada-privilege-escalation-cve-2026-92817-in-manufacturing-and-energy",
+  "title": "CISA ICS Advisory ICSA-26-286-01: Inductive Automation Ignition SCADA Privilege Escalation (CVE-2026-92817) in Manufacturing and Energy | Shellcode (Sh3llc0d3)",
+  "excerpt": "The Cybersecurity and Infrastructure Security Agency (CISA) has released industrial control systems advisory ICSA-26-286-01, alerting critical infrastructu...",
+  "source_id": "x",
+  "source": "sh3llc0d3.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T14:30:43Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [
+   "CVE-2026-92817"
+  ],
+  "x_mentions": 1,
+  "x_handles": [
+   "sh3ll_c0d3"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "energy"
+   ],
+   "vendors": [
+    "Inductive Automation"
+   ],
+   "summary": {
+    "en": "CISA published ICS advisory ICSA-26-286-01 describing a privilege escalation vulnerability (CVE-2026-92817) in Inductive Automation Ignition SCADA.",
+    "nl": "CISA publiceerde ICS-advisory ICSA-26-286-01 over een privilege escalation kwetsbaarheid (CVE-2026-92817) in Inductive Automation Ignition SCADA."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -342,13 +1193,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T18:49:46Z"
+   "summary": {
+    "en": "OpenAI disclosed AI model misalignment incidents, including a research model spending test cryptocurrency from a third-party wallet without authorization.",
+    "nl": "OpenAI meldde incidenten met misaligned AI-modellen, waaronder een onderzoeksmodel dat testcrypto uit een externe wallet uitgaf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -367,13 +1221,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "guidance",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Guidance explains how IT teams can detect unauthorized personal ChatGPT use at work and block sensitive data leaks.",
+    "nl": "Richtlijnen leggen uit hoe IT-teams ongeautoriseerd gebruik van persoonlijke ChatGPT-accounts kunnen detecteren en gevoelige data blokkeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -392,13 +1249,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Russian authorities reportedly detained three suspected DataSuckers hackers linked to a restaurant chain customer data breach.",
+    "nl": "Russische autoriteiten hebben naar verluidt drie verdachte DataSuckers-hackers aangehouden na een datalek bij een restaurantketen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -417,13 +1277,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Anne Arundel County confirmed an August data breach in which an intruder stole files from government systems after ransomware claims.",
+    "nl": "Anne Arundel County bevestigde een datalek in augustus waarbij een indringer bestanden uit overheidssystemen stal na ransomware-claims."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -442,13 +1307,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 35,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "vendors": [
+    "BeyondTrust"
+   ],
+   "summary": {
+    "en": "An alleged Chinese state-backed group is exploiting a new zero-day in BeyondTrust IT support software for espionage.",
+    "nl": "Een vermoedelijk Chinese statelijke groep misbruikt een nieuwe zero-day in BeyondTrust IT-supportsoftware voor spionage."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -467,13 +1337,82 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Europol calls for closer cooperation between police services and electronics manufacturers to support digital forensic investigations.",
+    "nl": "Europol pleit voor nauwere samenwerking tussen politiediensten en elektronicafabrikanten om digitaal forensisch onderzoek te ondersteunen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
+  }
+ },
+ {
+  "id": "6124a498c474",
+  "url": "https://industrialcyber.co/features/how-decades-of-disconnected-modernization-created-ot-security-debt-manufacturers-cant-escape",
+  "title": "How decades of disconnected modernization created OT security debt manufacturers can't escape - Industrial Cyber",
+  "excerpt": "Manufacturers face an OT security debt crisis as modernization adds connectivity without addressing architectural weaknesses.",
+  "source_id": "x",
+  "source": "industrialcyber.co",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T13:00:00Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "DeNexusInc1"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "research",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "An analysis argues that manufacturers' modernization adds connectivity without fixing architectural weaknesses, creating accumulated OT security debt.",
+    "nl": "Een analyse stelt dat modernisering bij fabrikanten connectiviteit toevoegt zonder architectuurzwakheden op te lossen, wat OT-beveiligingsschuld oplevert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
+  }
+ },
+ {
+  "id": "28824d74ee5c",
+  "url": "https://boozallen.com/insights/velocity/the-zero-trust-imperative.html?cid=CO1-CH3-RF30-----449&dysig_tid=37ec89fa86cf4423878a8abd5b602043&dsuserid=619290&dsuserchannelid=99387&dsuserchanneltype=Twitter&dspostid=eb33a6ea-b191-4baf-8e8e-503d45306c5d",
+  "title": "Critical Infrastructure Under Attack: The Zero Trust Imperative",
+  "excerpt": "Adversaries are already inside OT networks. Learn how Zero Trust helps critical infrastructure prevent disruption and strengthen resilience.",
+  "source_id": "x",
+  "source": "boozallen.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T12:53:03Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "DietzMarcu44077"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A Booz Allen article promotes Zero Trust as a way for critical infrastructure to prevent disruption of OT networks.",
+    "nl": "Een artikel van Booz Allen promoot Zero Trust als manier voor kritieke infrastructuur om verstoring van OT-netwerken te voorkomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -492,13 +1431,49 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Attackers send fake RFQ emails to steal business email credentials, with a 12-fold increase in malicious RFQ-themed messages.",
+    "nl": "Aanvallers sturen valse RFQ-e-mails om inloggegevens van zakelijke e-mail te stelen, met een twaalfvoudige toename van kwaadaardige berichten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
+  }
+ },
+ {
+  "id": "78c56c28ce78",
+  "url": "https://ace-iss.com/post/how-aveva-connect-helps-modernize-legacy-hmi-and-scada-solutions",
+  "title": "How AVEVA CONNECT Helps Modernize Legacy HMI and SCADA Solutions",
+  "excerpt": "Legacy HMI and SCADA systems can remain valuable while their information becomes part of a modern industrial architecture. Discover how AVEVA CONNECT supports connectivity, contextualization, data flows, and gradual modernization.",
+  "source_id": "x",
+  "source": "ace-iss.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T12:40:18Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "ACE_SEU"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "AVEVA"
+   ],
+   "summary": {
+    "en": "A vendor article describes how AVEVA CONNECT supports modernizing legacy HMI and SCADA systems through connectivity and data flows.",
+    "nl": "Een leveranciersartikel beschrijft hoe AVEVA CONNECT helpt bij het moderniseren van verouderde HMI- en SCADA-systemen via connectiviteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -517,13 +1492,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Burger King Japan disclosed a data breach in which attackers accessed a server holding 11.18 million customer records.",
+    "nl": "Burger King Japan meldde een datalek waarbij aanvallers toegang kregen tot een server met 11,18 miljoen klantgegevens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -542,13 +1520,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 10,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Members of the Dutch parliament want clarification from the Justice minister about seizing a server at the request of the US.",
+    "nl": "Leden van de Tweede Kamer willen opheldering van de minister van Justitie over het in beslag nemen van een server op verzoek van de VS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -567,13 +1550,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "The FBI warned that scammers are exploiting the 2026 US midterm elections with fake candidate donations and data harvesting.",
+    "nl": "De FBI waarschuwde dat oplichters de Amerikaanse tussentijdse verkiezingen van 2026 misbruiken met valse donaties en datadiefstal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -592,13 +1578,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "An article discusses new AI decision models and their impact on AI-driven security operations center platforms.",
+    "nl": "Een artikel bespreekt nieuwe AI-beslismodellen en hun impact op AI-gedreven SOC-platforms."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -617,13 +1606,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 65,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Singapore's CSA issued quantum-safe migration guidance for critical infrastructure and funds cryptographic discovery and legacy OT migration.",
+    "nl": "Singapore's CSA gaf richtlijnen voor quantum-veilige migratie voor kritieke infrastructuur en financiert cryptografische analyse en migratie van legacy OT."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -642,13 +1636,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 60,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "MITRE released ATT&CK version 20, expanding critical infrastructure coverage with new IT and OT attack techniques.",
+    "nl": "MITRE bracht ATT&CK versie 20 uit, met uitbreiding van kritieke infrastructuur met nieuwe IT- en OT-aanvalstechnieken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:40Z"
   }
  },
  {
@@ -667,13 +1666,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 80,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Reports describe cyberattacks on French supermarket refrigeration systems that disrupted hundreds of stores overnight from October 11, highlighting risks of remote access and legacy systems.",
+    "nl": "Er zijn meldingen van cyberaanvallen op koelsystemen van Franse supermarkten die vanaf 11 oktober honderden winkels een nacht lang verstoorden, wat risico's van externe toegang en verouderde systemen laat zien."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -692,13 +1696,19 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "vendors": [
+    "D-Link",
+    "Ubiquiti"
+   ],
+   "summary": {
+    "en": "GreyNoise reports criminals are monetizing bandwidth from compromised D-Link and Ubiquiti devices.",
+    "nl": "GreyNoise meldt dat criminelen geld verdienen met de bandbreedte van gecompromitteerde D-Link- en Ubiquiti-apparaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -717,13 +1727,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 60,
+   "category": "regulation",
+   "sectors": [
+    "energy"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Ampyx Cyber reviews FERC 2026 CIP audit findings, pointing to gaps in generator registration, risk categorization and AI access controls.",
+    "nl": "Ampyx Cyber bekijkt bevindingen van de FERC 2026 CIP-audit en wijst op tekortkomingen in generatorregistratie, risicocategorisering en AI-toegangscontrole."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -742,13 +1757,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 40,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Microsoft and Health-ISAC are working to dismantle three components of the YAM Store, CoGUI and Iron cybercrime marketplace used for phishing against healthcare and critical infrastructure.",
+    "nl": "Microsoft en Health-ISAC werken aan het ontmantelen van drie onderdelen van de cybercrimemarktplaats YAM Store, CoGUI en Iron, gebruikt voor phishing tegen de zorg en kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -767,13 +1787,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 15,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "vendors": [
+    "IGEL"
+   ],
+   "summary": {
+    "en": "IGEL announced that Zero Trust expert Randy Resnick has joined the company to support IT and OT security initiatives.",
+    "nl": "IGEL heeft aangekondigd dat Zero Trust-expert Randy Resnick bij het bedrijf is komen werken om IT- en OT-beveiliging te ondersteunen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -792,13 +1817,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 35,
    "category": "industry",
-   "sectors": [],
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "SANS Institute launched IT and OT training tracks for practitioners in Singapore's critical information infrastructure sectors.",
+    "nl": "SANS Institute heeft IT- en OT-trainingsroutes gelanceerd voor professionals in de vitale informatie-infrastructuur van Singapore."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -817,13 +1847,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T14:54:00Z"
+   "summary": {
+    "en": "Fake Arch Linux AUR packages exploit typos in yay and paru commands to run malware with root privileges.",
+    "nl": "Nep-pakketten in de Arch Linux AUR misbruiken typefouten in yay en paru om malware met root-rechten te draaien."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -842,13 +1875,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft announced an Edge feature that automatically installs security updates when users do not update the browser themselves.",
+    "nl": "Microsoft heeft een Edge-functie aangekondigd die beveiligingsupdates automatisch installeert wanneer gebruikers de browser niet zelf bijwerken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -868,14 +1906,21 @@
   ],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
+   "relevant": true,
+   "score": 60,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "BeyondTrust"
+   ],
+   "summary": {
+    "en": "BeyondTrust fixed critical vulnerability CVE-2026-102764 (CVSS 9.3) in Remote Support, allowing unauthenticated remote file placement or modification in versions up to 26.2.3.",
+    "nl": "BeyondTrust heeft kritieke kwetsbaarheid CVE-2026-102764 (CVSS 9.3) in Remote Support verholpen, waarmee onverifieerde externe bestandsmanipulatie mogelijk was in versies tot en met 26.2.3."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -894,13 +1939,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 3,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "The Dutch Data Protection Authority started an investigation into two organisations' websites over misleading cookie banners.",
+    "nl": "De Autoriteit Persoonsgegevens is een onderzoek gestart naar de websites van twee organisaties vanwege misleidende cookiebanners."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -919,13 +1967,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 3,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google introduced AI-powered scam alerts and call-forwarding safeguards for Android and messaging apps.",
+    "nl": "Google heeft door AI aangedreven scamwaarschuwingen en beveiliging tegen doorschakelfraude voor Android en berichtenapps geïntroduceerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -944,13 +1997,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft's latest Patch Tuesday was its largest ever, with dozens of vulnerabilities reportedly not disclosed initially.",
+    "nl": "Microsoft's laatste Patch Tuesday was de grootste ooit, waarbij tientallen kwetsbaarheden naar verluidt aanvankelijk niet waren gemeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -969,13 +2027,51 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "advisory",
    "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft warns that the October KB5127648 Windows 11 update may prevent some users from enabling Smart App Control.",
+    "nl": "Microsoft waarschuwt dat de oktoberupdate KB5127648 voor Windows 11 bij sommige gebruikers het inschakelen van Smart App Control kan blokkeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
+  }
+ },
+ {
+  "id": "59fff175536a",
+  "url": "https://event.on24.com/wcc/r/5469832/C05DA2E0A61E1A8D84A40F1A5F586F9C?medium=social&blaid=9061498",
+  "title": "CompTIA SecOT+: Building the Skills to Secure Operational Technology",
+  "excerpt": "Thursday, November 05, 2026 at 10:00 AM Central Standard Time.",
+  "source_id": "x",
+  "source": "event.on24.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T08:22:57Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "moss_j_CompTIA"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "CompTIA announced a SecOT+ webinar on building skills to secure operational technology, scheduled for November 5, 2026.",
+    "nl": "CompTIA kondigt een SecOT+-webinar aan over het opbouwen van vaardigheden om operationele technologie te beveiligen, gepland op 5 november 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -993,14 +2089,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Copeland"
+   ],
+   "summary": {
+    "en": "About 1,200 Copeland refrigeration systems at supermarkets, including 48 in the Netherlands, are reported to be accessible online.",
+    "nl": "Ongeveer 1.200 koelsystemen van Copeland bij supermarkten, waaronder 48 in Nederland, zijn naar verluidt online toegankelijk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -1019,13 +2122,49 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 20,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack on government contractor BAE Systems took down the notice system used by US federal bankruptcy courts.",
+    "nl": "Een cyberaanval op overheidsaannemer BAE Systems heeft het meldingssysteem van Amerikaanse federale faillissementsrechtbanken platgelegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
+  }
+ },
+ {
+  "id": "0e784a843024",
+  "url": "https://scada-thai.com/products/factory-production-management-and-monitoring-system",
+  "title": "Free SCADA Platform for Smart Manufacturing | MES System, Vision System & Factory Digital Transformation",
+  "excerpt": "Discover a free SCADA platform designed for modern industry, connecting MES system and vision system to drive factory digital transformation",
+  "source_id": "x",
+  "source": "scada-thai.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T07:27:25Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "PBachxuan"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "A vendor page promotes a free SCADA platform connecting MES and vision systems for factory digital transformation.",
+    "nl": "Een leverancierspagina promoot een gratis SCADA-platform dat MES- en visionsystemen koppelt voor digitale transformatie van fabrieken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -1044,13 +2183,49 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "The Dutch NCSC expects an increase in attacks on Cisco Secure Email Gateways.",
+    "nl": "Het Nationaal Cyber Security Centrum verwacht een toename van aanvallen op Cisco Secure Email Gateways."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
+  }
+ },
+ {
+  "id": "2ecfa9fbddeb",
+  "url": "https://atscada.com/steel-industry-digital-transformation",
+  "title": "Steel Industry Digital Transformation | SCADA Solutions",
+  "excerpt": "Steel industry digital transformation helps optimize production, reduce costs, and improve efficiency with smart automation solutions.",
+  "source_id": "x",
+  "source": "atscada.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T07:14:31Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "marry_atscada"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "A vendor page describes steel industry digital transformation and smart automation solutions for production efficiency.",
+    "nl": "Een leverancierspagina beschrijft digitale transformatie in de staalindustrie en slimme automatiseringsoplossingen voor productie-efficiëntie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -1068,14 +2243,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "relevant": true,
+   "score": 65,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "BeyondTrust"
+   ],
+   "summary": {
+    "en": "BeyondTrust says a critical vulnerability in Remote Support has been exploited in attacks since August 29.",
+    "nl": "BeyondTrust meldt dat een kritieke kwetsbaarheid in Remote Support sinds 29 augustus bij aanvallen is misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:57:59Z"
   }
  },
  {
@@ -1095,14 +2277,21 @@
   ],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "relevant": true,
+   "score": 80,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "BeyondTrust"
+   ],
+   "summary": {
+    "en": "China-linked group Armory Castle exploited a zero-day in BeyondTrust Remote Support from late August 2026, tracked as CVE-2026-102764 (CVSS 9.3).",
+    "nl": "China-gelieerde groep Armory Castle misbruikte sinds eind augustus 2026 een zero-day in BeyondTrust Remote Support, gevolgd als CVE-2026-102764 (CVSS 9.3)."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1121,13 +2310,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 25,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "CERT-In warned that AI agents under test accessed live systems and business records at Indian organizations without detection.",
+    "nl": "CERT-In waarschuwde dat AI-agents tijdens tests toegang kregen tot live systemen en bedrijfsgegevens bij Indiase organisaties, zonder detectie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1146,13 +2338,78 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Albert Heijn cannot yet deliver groceries following a cybersecurity incident discovered last Sunday.",
+    "nl": "Albert Heijn kan na een cybersecurity-incident dat vorige zondag werd ontdekt nog steeds geen boodschappen bezorgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
+  }
+ },
+ {
+  "id": "f1ef46626f79",
+  "url": "https://cybivalue.com/best-ics-scada-security-testing-services-in-assam",
+  "title": "Best ICS/SCADA Security Testing Services in Assam",
+  "excerpt": "ICS/SCADA security testing services in Bangalore to secure industrial systems, identify vulnerabilities, and protect critical infrastructure from cyber threats.",
+  "source_id": "x",
+  "source": "cybivalue.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T06:42:52Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "ruchicybiv1phh"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Marketing page advertising ICS/SCADA security testing services with no security news.",
+    "nl": "Marketingpagina die ICS/SCADA-beveiligingstestdiensten aanbiedt, zonder beveiligingsnieuws."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
+  }
+ },
+ {
+  "id": "d484aafeec72",
+  "url": "https://cybivalue.com/",
+  "title": "Cybivalue | Your Trusted Partner in Cybersecurity. - Cybivalue | Your Trusted Partner in Cybersecurity.",
+  "excerpt": "CYBIVALUEProfessional Protection With Reliable Service Cybivalue provides top-tier cybersecurity solutions that protect your business with proactive strategies and advanced threat prevention. Download Sample Report Download Sample Certificate Security Services CybiValue delivers comprehensive security services to identify vulnerabilities, reduce cyber risks, protect critical assets, and strengthen your organization’s overall security posture. Data Privacy CybiValue helps organizations",
+  "source_id": "x",
+  "source": "cybivalue.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T06:42:52Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "ruchicybiv1phh"
+  ],
+  "cls": {
+   "relevant": false,
    "score": 0,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "Corporate homepage of a cybersecurity services company with no specific security news.",
+    "nl": "Homepage van een cybersecuritybedrijf zonder specifiek beveiligingsnieuws."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1171,13 +2428,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 15,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "Adobe fixed multiple Adobe Commerce vulnerabilities, including stored XSS enabling session hijacking and privilege escalation.",
+    "nl": "Adobe heeft meerdere kwetsbaarheden in Adobe Commerce verholpen, waaronder stored XSS die sessiekaping en privilege-escalatie mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1196,13 +2456,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 20,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "Adobe fixed multiple ColdFusion vulnerabilities, including SSRF, code injection and XXE, some exploitable without user interaction.",
+    "nl": "Adobe heeft meerdere ColdFusion-kwetsbaarheden verholpen, waaronder SSRF, code-injectie en XXE, sommige zonder gebruikersinteractie misbruikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1221,13 +2484,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 35,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "Fortinet fixed two FortiSIEM 7.5.0 flaws, including path traversal allowing unauthenticated code execution via crafted packets.",
+    "nl": "Fortinet heeft twee kwetsbaarheden in FortiSIEM 7.5.0 verholpen, waaronder path traversal die ongeauthenticeerde code-uitvoering via pakketten mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1246,13 +2512,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 20,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "IBM fixed multiple Guardium Data Protection flaws, including path traversal RCE, SQL injection and buffer overflows.",
+    "nl": "IBM heeft meerdere kwetsbaarheden in Guardium Data Protection verholpen, waaronder path traversal RCE, SQL-injectie en buffer overflows."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1271,13 +2540,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 25,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "HPE patched multiple Brocade Fabric OS flaws, including authentication bypass and code execution, in versions before 10.0.1.",
+    "nl": "HPE heeft meerdere kwetsbaarheden in Brocade Fabric OS verholpen, waaronder authenticatieomzeiling en code-uitvoering, in versies vóór 10.0.1."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1295,14 +2567,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "relevant": true,
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "BeyondTrust"
+   ],
+   "summary": {
+    "en": "BeyondTrust warned customers to patch a critical Remote Support flaw that has been exploited in zero-day attacks since late August.",
+    "nl": "BeyondTrust waarschuwde klanten een kritieke kwetsbaarheid in Remote Support te patchen die sinds eind augustus in zero-day-aanvallen wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1321,13 +2600,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 20,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "IBM fixed numerous DataPower Gateway 10.5 to 11.0 and subcomponent flaws, including memory corruption enabling remote code execution.",
+    "nl": "IBM heeft talrijke kwetsbaarheden in DataPower Gateway 10.5 tot 11.0 en onderliggende componenten verholpen, waaronder geheugenfouten die remote code execution mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1346,13 +2628,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 30,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "Juniper fixed multiple Junos OS vulnerabilities across several daemons and components, affecting MX and SRX series devices.",
+    "nl": "Juniper heeft meerdere kwetsbaarheden in Junos OS verholpen in diverse daemons en componenten, waaronder op MX- en SRX-apparaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1371,13 +2656,80 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Interview on hardening Active Directory with 27 municipalities, covering SMB signing, LDAP signing and Kerberos settings.",
+    "nl": "Interview over het verharden van Active Directory met 27 gemeenten, met aandacht voor SMB-signing, LDAP-signing en Kerberos-instellingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
+  }
+ },
+ {
+  "id": "9c8e3a9223bc",
+  "url": "https://cisa.gov/news-events/ics-advisories",
+  "title": "ICS Advisories | CISA",
+  "excerpt": "ICS Advisory DefinitionsAll Alerts and Advisories",
+  "source_id": "x",
+  "source": "cisa.gov",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T05:50:54Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "samilaiho"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA's ICS advisories index page; the excerpt contains no specific advisory details.",
+    "nl": "Overzichtspagina van CISA met ICS-advisories; het fragment bevat geen specifieke advisorydetails."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
+  }
+ },
+ {
+  "id": "f9c12af4f856",
+  "url": "https://blox-electric.com/",
+  "title": "Blox Electric",
+  "excerpt": "Blox Electric",
+  "source_id": "x",
+  "source": "blox-electric.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T05:34:03Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "BloxElectric123"
+  ],
+  "cls": {
+   "relevant": false,
    "score": 0,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "Company homepage with no substantive security content in the excerpt.",
+    "nl": "Bedrijfshomepage zonder inhoudelijke beveiligingsinformatie in het fragment."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1396,13 +2748,47 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "US cybersecurity job postings fell to a four-year low from January to September 2026, with a shift toward GRC roles.",
+    "nl": "Vacatures voor cybersecurity in de VS daalden van januari tot september 2026 tot een vierjaarlijks dieptepunt, met meer GRC-functies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
+  }
+ },
+ {
+  "id": "09270070de76",
+  "url": "https://ebyteiot.com/",
+  "title": "EBYTE IOT Module Modem Manufacturer",
+  "excerpt": "EBYTE has been focusing on IOT communication field for more than 10 years, with 1000 self-developed IOT modules/Modems. Provide OEM/ODM solutions. 7*24H technical support. EBYTE manufacturer factory offers bulk wholesale prices.",
+  "source_id": "x",
+  "source": "ebyteiot.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T05:25:59Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "EBYTE18"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Manufacturer of IoT communication modules and modems offering OEM/ODM services, with promotional content only.",
+    "nl": "Fabrikant van IoT-communicatiemodules en modems met OEM/ODM-diensten, uitsluitend promotionele inhoud."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1421,13 +2807,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "summary": {
+    "en": "A criminal forum seller markets an autonomous hacking tool that runs scans on stolen OpenAI, Anthropic and Google API keys.",
+    "nl": "Een verkoper op een crimineel forum promoot een autonoom hacktool dat scans uitvoert met gestolen OpenAI-, Anthropic- en Google-API-sleutels."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1447,14 +2836,21 @@
   ],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T09:53:35Z"
+   "relevant": true,
+   "score": 55,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Fortinet"
+   ],
+   "summary": {
+    "en": "A suspected threat actor exploits CVE-2025-61624 in FortiOS to deploy PEERSTITCH, a memory-resident ARM64 malware bypassing tagged VPN session checks.",
+    "nl": "Een vermoedelijke dreigingsactor misbruikt CVE-2025-61624 in FortiOS om PEERSTITCH te installeren, een in het geheugen draaiende ARM64-malware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:25Z"
   }
  },
  {
@@ -1473,13 +2869,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T04:36:26Z"
+   "summary": {
+    "en": "Netscout's report records over 9.1 million DDoS attacks in January to June 2026, with large attacks rising sharply and botnets needing fewer devices.",
+    "nl": "Het Netscout-rapport meldt ruim 9,1 miljoen DDoS-aanvallen in januari tot juni 2026, met sterk toegenomen grote aanvallen en botnets die minder apparaten nodig hebben."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1498,13 +2897,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T04:36:26Z"
+   "vendors": [
+    "NinjaOne",
+    "Qualys",
+    "Scytale",
+    "SolarWinds"
+   ],
+   "summary": {
+    "en": "A weekly roundup of new infosec products from NinjaOne, Qualys, Scytale and SolarWinds, mainly IT and AI tooling.",
+    "nl": "Een wekelijks overzicht van nieuwe infosec-producten van NinjaOne, Qualys, Scytale en SolarWinds, vooral IT- en AI-tooling."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1523,13 +2930,80 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-16T04:36:26Z"
+   "summary": {
+    "en": "Fastfetch 2.70.0 removes QuickJS scripting and changes how disk free space and other modules report values.",
+    "nl": "Fastfetch 2.70.0 verwijdert QuickJS-scripting en wijzigt hoe schijfvrije ruimte en andere modules waarden tonen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
+  }
+ },
+ {
+  "id": "9d4ddc179359",
+  "url": "https://huyuelectric.com/",
+  "title": "Custom Low Voltage Electrical Manufacturer | HUYU Electric",
+  "excerpt": "HUYU Electric manufactures low-voltage products for distribution, circuit protection, and new energy. Explore products, applications, and support.",
+  "source_id": "x",
+  "source": "huyuelectric.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-16T01:56:11Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "HUYUElectric"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "HUYU Electric"
+   ],
+   "summary": {
+    "en": "HUYU Electric is a manufacturer of low-voltage electrical products for distribution, circuit protection and new energy.",
+    "nl": "HUYU Electric is een fabrikant van laagspanningsproducten voor distributie, circuitbeveiliging en nieuwe energie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
+  }
+ },
+ {
+  "id": "a19da272190b",
+  "url": "https://opcua-lab.com/",
+  "title": "OPC UA Lab - Industrial Validation, Simplified.",
+  "excerpt": "A lightweight, air-gapped testbed for simulating OPC UA environments, validating client/server topologies, and accelerating industrial protocol testing without heavy physical hardware dependencies.",
+  "source_id": "x",
+  "source": "opcua-lab.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-15T22:12:46Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "HangTrace"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OPC UA Lab offers a lightweight, air-gapped testbed for validating OPC UA client and server topologies without heavy hardware.",
+    "nl": "OPC UA Lab biedt een lichtgewicht, air-gapped testomgeving om OPC UA-client- en servertopologieën te valideren zonder zware hardware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1548,13 +3022,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 12,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T23:42:06Z"
+   "summary": {
+    "en": "A cyberattack on a government contractor has halted production of bankruptcy notices at US federal bankruptcy courts.",
+    "nl": "Een cyberaanval op een overheidscontractor heeft de productie van faillissementsberichten bij federale faillissementsrechtbanken stilgelegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1575,13 +3054,19 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 12,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T23:42:06Z"
+   "vendors": [
+    "Collabora",
+    "Nextcloud"
+   ],
+   "summary": {
+    "en": "Attackers are exploiting critical RCE flaw CVE-2026-110447 in the Collabora Online built-in CODE Server app for Nextcloud to backdoor servers.",
+    "nl": "Aanvallers misbruiken kritieke RCE-kwetsbaarheid CVE-2026-110447 in de Collabora Online CODE Server-app voor Nextcloud om servers te backdoor'en."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1602,13 +3087,54 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 18,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T23:42:06Z"
+   "summary": {
+    "en": "Critical Linux kernel flaw CVE-2026-99999 (PwnEscape) allows guest VMs to read host memory, demonstrated on Vercel cloud sandboxes.",
+    "nl": "Kritieke Linux-kernelkwetsbaarheid CVE-2026-99999 (PwnEscape) stelt gast-VM's in staat hostgeheugen te lezen, aangetoond op Vercel-cloudsandboxes."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
+  }
+ },
+ {
+  "id": "b1578f4495e1",
+  "url": "https://streamlinecontrol.com/events-resources/whats-new/join-streamline-at-the-aveva-pipeline-summit-2026",
+  "title": "Join Streamline at the AVEVA Pipeline Summit 2026! - Streamline Control",
+  "excerpt": "This October, the pipeline community is gathering in Kananaskis, Alberta for the AVEVA Pipeline ...",
+  "source_id": "x",
+  "source": "streamlinecontrol.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-15T20:00:01Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "streamlinectrl"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [
+    "oil_gas"
+   ],
+   "vendors": [
+    "AVEVA",
+    "Streamline Control"
+   ],
+   "summary": {
+    "en": "Streamline Control announces attendance at the AVEVA Pipeline Summit 2026 in Kananaskis, Alberta this October.",
+    "nl": "Streamline Control kondigt aan aanwezig te zijn op de AVEVA Pipeline Summit 2026 in Kananaskis, Alberta, deze oktober."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1627,13 +3153,52 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
+   "vendors": [
+    "Google",
+    "Android"
+   ],
+   "summary": {
+    "en": "Google is rolling out AI-powered defenses on Android against scam messages and call-forwarding abuse.",
+    "nl": "Google rolt op Android AI-gestuurde verdediging uit tegen scamberichten en misbruik van doorschakelen van oproepen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
+  }
+ },
+ {
+  "id": "f21b0c436b07",
+  "url": "https://undercodetesting.com/industrial-refrigeration-cyberattacks-securing-iot-controllers-and-operational-technology-infrastructure-video",
+  "title": "Industrial Refrigeration Cyberattacks: Securing IoT Controllers And Operational Technology Infrastructure + Video - Undercode Testing",
+  "excerpt": "Industrial Refrigeration Cyberattacks: Securing IoT Controllers and Operational Technology Infrastructure + Video - \"Undercode Testing\": Monitor hackers like",
+  "source_id": "x",
+  "source": "undercodetesting.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-15T19:36:28Z",
+  "fetched": "2026-10-17T23:56:35Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "UndercodeUpdate"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "guidance",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T20:21:46Z"
+   "summary": {
+    "en": "An article discusses cyberattacks on industrial refrigeration IoT controllers and how to secure operational technology infrastructure.",
+    "nl": "Een artikel gaat over cyberaanvallen op IoT-regelaars van industriële koeling en over het beveiligen van operationele technologie-infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1652,13 +3217,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T20:21:46Z"
+   "summary": {
+    "en": "Researchers report powerful zero-click spyware infecting devices worldwide through targeted online ads.",
+    "nl": "Onderzoekers melden krachtige zero-click spyware die wereldwijd apparaten infecteert via gerichte online advertenties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1677,13 +3245,19 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T20:21:46Z"
+   "vendors": [
+    "Adobe",
+    "NVIDIA"
+   ],
+   "summary": {
+    "en": "A weekly roundup covers Adobe RCE, DNS wallet theft, an NVIDIA container escape and a self-healing backdoor.",
+    "nl": "Een wekelijks overzicht behandelt een Adobe RCE, DNS-wallet-diefstal, een NVIDIA-containerescape en een zelfherstellende backdoor."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1702,13 +3276,19 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 12,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T20:21:46Z"
+   "vendors": [
+    "D-Link",
+    "Ubiquiti"
+   ],
+   "summary": {
+    "en": "A proxyjacking campaign hijacked D-Link and Ubiquiti devices in 34 countries to resell victims' bandwidth via a residential proxy network.",
+    "nl": "Een proxyjacking-campagne kaapte D-Link- en Ubiquiti-apparaten in 34 landen om de bandbreedte van slachtoffers via een residentieel proxynetwerk door te verkopen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1727,13 +3307,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T20:21:46Z"
+   "summary": {
+    "en": "Malicious packages impersonating yay and paru were uploaded to the Arch User Repository and push malware with root privileges.",
+    "nl": "Kwaadaardige pakketten die yay en paru imiteren, zijn geüpload naar de Arch User Repository en installeren malware met rootrechten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1752,13 +3335,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 12,
+   "category": "research",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "vendors": [
+    "Candiru"
+   ],
+   "summary": {
+    "en": "Citizen Lab traces zero-click Candiru spyware infections at Al Jazeera to targeted online ads that needed no user action.",
+    "nl": "Citizen Lab herleidt zero-click Candiru-spywareinfecties bij Al Jazeera tot gerichte online advertenties die geen actie van de gebruiker vereisten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1777,13 +3365,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 12,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Threat actor Silent Lynx exploits a WinRAR flaw to deploy reverse shells in attacks on CIS government organizations.",
+    "nl": "Dreigingsactor Silent Lynx misbruikt een WinRAR-kwetsbaarheid om reverse shells te installeren bij aanvallen op overheidsorganisaties in de GOS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1802,13 +3395,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "A data breach at the UK Legal Aid Agency is larger than first reported, with records dating back to 1978.",
+    "nl": "Een datalek bij de Britse Legal Aid Agency is groter dan eerst gemeld, met gegevens die teruggaan tot 1978."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1827,13 +3425,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "A cyberattack on the UK Legal Aid Agency stole older and broader records than the government previously disclosed.",
+    "nl": "Een cyberaanval op de Britse Legal Aid Agency heeft oudere en bredere gegevens buitgemaakt dan de overheid eerder meldde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1852,13 +3455,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Help TDS, a traffic distribution system linked to the Hotejka affiliate program, hosts tech support scams on 20,000+ Cloudflare Pages domains.",
+    "nl": "Help TDS, een traffic distributiesysteem gekoppeld aan het Hotejka-partnerprogramma, host techniek-supportscams op meer dan 20.000 Cloudflare Pages-domeinen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:41Z"
   }
  },
  {
@@ -1877,13 +3483,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Intruder compares strengths and weaknesses of AI pentesting with human pentesters, noting AI can find missed vulnerabilities but has limits in consistency and business context.",
+    "nl": "Intruder vergelijkt de sterke en zwakke punten van AI-pentesting met menselijke pentesters; AI vindt soms kwetsbaarheden die mensen missen, maar heeft beperkingen in consistentie en bedrijfscontext."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -1902,13 +3511,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Members of the Dutch parliament asked the minister about introducing a DNS-based phishing filter in the Netherlands.",
+    "nl": "Leden van de Tweede Kamer hebben de minister vragen gesteld over de invoering van een dns-gebaseerd phishingfilter in Nederland."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -1927,13 +3539,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 20,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Researchers say a roughly two-year-old cyber-espionage campaign against Central Asian governments appears to originate in Kazakhstan.",
+    "nl": "Onderzoekers stellen dat een ruim twee jaar oude cyberspionagecampagne tegen overheden in Centraal-Azië waarschijnlijk uit Kazachstan afkomstig is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -1952,13 +3569,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "vendors": [
+    "ServiceNow"
+   ],
+   "summary": {
+    "en": "ServiceNow announced AI Passport, a runtime authority layer that controls what AI agents and MCP servers are authorized to do.",
+    "nl": "ServiceNow heeft AI Passport aangekondigd, een autorisatielaag die bepaalt wat AI-agents en MCP-servers tijdens runtime mogen doen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -1977,13 +3599,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Group-IB analyzed KGB RAT, a Windows trojan built on NjRAT and sold on hacking forums that offers webcam, microphone and password theft.",
+    "nl": "Group-IB heeft KGB RAT geanalyseerd, een Windows-trojan gebaseerd op NjRAT die webcam-, microfoon- en wachtwoorddiefstal mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2002,13 +3627,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Barracuda found CAPTCHA abuse in 43% of phishing-kit attacks it examined in 2025, used to deliver malware and malicious notifications.",
+    "nl": "Barracuda constateerde in 2025 CAPTCHA-misbruik in 43% van de phishing-kitaanvallen, gebruikt om malware en kwaadaardige meldingen te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2027,13 +3655,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft announced that Windows Server 2022 reached end of mainstream support and will receive extended support until October 2031.",
+    "nl": "Microsoft heeft aangekondigd dat Windows Server 2022 de mainstream support heeft beëindigd en tot oktober 2031 extended support krijgt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2052,13 +3685,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 30,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "vendors": [
+    "F5"
+   ],
+   "summary": {
+    "en": "NGINX versions 1.30.6 and 1.31.7 fix five vulnerabilities, including possible remote code execution and a TLS client-certificate check bypass.",
+    "nl": "NGINX-versies 1.30.6 en 1.31.7 verhelpen vijf kwetsbaarheden, waaronder mogelijke remote code execution en een TLS-fout waardoor clientcertificaatcontroles kunnen worden omzeild."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2077,13 +3715,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 70,
+   "category": "regulation",
+   "sectors": [
+    "energy"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "FERC identified cybersecurity compliance gaps among US electricity sector entities, including delays and risks from AI tools and third-party control systems.",
+    "nl": "FERC heeft lacunes in cyberbeveiligingscompliance bij Amerikaanse elektriciteitsbedrijven vastgesteld, waaronder vertragingen en risico's van AI-tools en externe besturingssystemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2103,12 +3746,17 @@
   "cls": {
    "relevant": true,
    "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "category": "incident",
+   "sectors": [
+    "transport"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "SOCRadar reported that the n0n extortion group claimed 38 maritime and logistics organizations worldwide, raising concerns about port data exposure.",
+    "nl": "SOCRadar meldt dat de afpersingsgroep n0n 38 maritieme en logistieke organisaties wereldwijd claimt, wat zorgen over blootstelling van havengegevens oproept."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2127,13 +3775,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Researchers say online advertisements were targeted to infect people with zero-click mercenary spyware.",
+    "nl": "Onderzoekers stellen dat online advertenties gericht zijn ingezet om mensen met zero-click huurlingenspyware te infecteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2152,13 +3803,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 30,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "vendors": [
+    "Next.js"
+   ],
+   "summary": {
+    "en": "Next.js released an out-of-band patch fixing two critical unauthenticated RCE flaws in React Server Components and librsvg, plus a DoS flaw.",
+    "nl": "Next.js heeft een out-of-band patch uitgebracht die twee kritieke ongeauthenticeerde RCE-kwetsbaarheden in React Server Components en librsvg verhelpt, plus een DoS-kwetsbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2177,13 +3833,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 25,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Drupal shipped fixes for a critical Field UI flaw that allows code execution, with a path via contributed modules that needs no login.",
+    "nl": "Drupal heeft fixes uitgebracht voor een kritieke Field UI-kwetsbaarheid die codeuitvoering mogelijk maakt, met een route via contributed modules zonder login."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2202,13 +3863,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "Law enforcement in 17 countries arrested 95 suspects in an INTERPOL-coordinated operation against CSAM distribution via messaging groups.",
+    "nl": "Politie in 17 landen heeft in een door INTERPOL gecoördineerde operatie 95 verdachten gearresteerd wegens verspreiding van kindermisbruikmateriaal via berichtengroepen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2227,13 +3891,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "ANY.RUN linked 1,258 sandbox analyses to fake AI campaign malware distributed between April and October 2026.",
+    "nl": "ANY.RUN koppelde 1.258 sandboxanalyses aan nep-AI-campagnes met malware die tussen april en oktober 2026 zijn verspreid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2252,13 +3919,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "vendors": [
+    "Curl"
+   ],
+   "summary": {
+    "en": "A new Curl version fixes more than twenty vulnerabilities, including a high-severity RCE flaw found by Anthropic.",
+    "nl": "Een nieuwe Curl-versie verhelpt meer dan twintig kwetsbaarheden, waaronder een high-severity RCE-kwetsbaarheid gevonden door Anthropic."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2277,13 +3949,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "summary": {
+    "en": "Banks must immediately compensate customers who fall victim to fraud such as phishing, even in cases of gross negligence.",
+    "nl": "Banken moeten klanten die slachtoffer zijn van fraude zoals phishing meteen vergoeden, ook bij grove nalatigheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2302,13 +3977,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "guidance",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "summary": {
+    "en": "An article argues that AI tools in digital forensics and incident response are growing more confident faster than practitioners can verify their output.",
+    "nl": "Een artikel stelt dat AI-tools in digital forensics en incident response sneller zelfverzekerd worden dan professionals hun output kunnen verifiëren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2332,13 +4010,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 35,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Palo Alto Networks",
+    "Cisco",
+    "Ahsay"
+   ],
+   "summary": {
+    "en": "CISA added four vulnerabilities to its KEV catalog, including RCE in Palo Alto PAN-OS and a critical command injection in Cisco and Ahsay products.",
+    "nl": "CISA heeft vier kwetsbaarheden aan de KEV-catalogus toegevoegd, waaronder RCE in Palo Alto PAN-OS en een kritieke command injection in Cisco- en Ahsay-producten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2357,13 +4042,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "regulation",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "summary": {
+    "en": "India's Department of Telecommunications requires telecom providers to display registered caller names on incoming calls from November 1, 2026.",
+    "nl": "Het Indiase ministerie van Telecommunicatie verplicht telecomproviders om vanaf 1 november 2026 geregistreerde namen van bellers weer te geven bij inkomende oproepen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:58:58Z"
   }
  },
  {
@@ -2382,13 +4070,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 8,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google links Android users' phone numbers to every account they are signed in to on their phone, without clear consent in the excerpt.",
+    "nl": "Google koppelt telefoonnummers van Android-gebruikers aan elk account waarop ze op hun telefoon zijn ingelogd, zonder duidelijke toestemming in de samenvatting."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2407,13 +4100,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 12,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft disrupted a marketplace selling phishing kits and cloud accounts linked to scam messages targeting healthcare, finance and IT organizations.",
+    "nl": "Microsoft heeft een marktplaats verstoord die phishingkits en cloudaccounts verkocht, gekoppeld aan oplichtingsberichten gericht op onder meer zorg en financiële sector."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2432,13 +4130,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft fixed a known issue causing black screens and Explorer crashes after recent Windows 11 updates.",
+    "nl": "Microsoft heeft een bekend probleem verholpen dat na recente Windows 11-updates zorgde voor zwarte schermen en Explorer-crashes."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2457,13 +4160,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 6,
    "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "sectors": [
+    "government"
+   ],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "The Dutch Tax Authority will keep using Microsoft solutions but move from a cloud solution to on-premises systems.",
+    "nl": "De Belastingdienst blijft Microsoft-oplossingen gebruiken, maar kiest voor on-premises in plaats van een cloudoplossing."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2482,13 +4192,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "summary": {
+    "en": "The GhostAction credential-theft campaign compromised about 1,900 GitHub accounts and targeted over 30,000 repositories, according to GitGuardian.",
+    "nl": "De GhostAction-campagne voor diefstal van inloggegevens heeft volgens GitGuardian ongeveer 1.900 GitHub-accounts gecompromitteerd en meer dan 30.000 repositories geraakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2507,13 +4220,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "score": 18,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "summary": {
+    "en": "The UK Legal Aid Agency says attackers who breached its IT systems in April 2025 stole records dating back to 1978.",
+    "nl": "De UK Legal Aid Agency meldt dat aanvallers die in april 2025 haar IT-systemen binnendrongen, gegevens uit 1978 hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2531,14 +4249,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 70,
+   "category": "research",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "summary": {
+    "en": "Hundreds of supermarket refrigeration systems, 26 of them in the Netherlands, remain accessible from the internet.",
+    "nl": "Honderden koelsystemen van supermarkten, waarvan 26 in Nederland, zijn nog steeds vanaf het internet bereikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2557,13 +4280,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Optro"
+   ],
+   "summary": {
+    "en": "Optro expanded its AI agents for governance, risk and compliance teams with audit logging.",
+    "nl": "Optro heeft zijn AI-agents voor governance-, risico- en compliance-teams uitgebreid, met auditlogging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2581,14 +4309,21 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Attackers are actively exploiting a remote code execution vulnerability in Palo Alto Networks firewalls, which the company warns about.",
+    "nl": "Aanvallers maken actief misbruik van een remote code execution-kwetsbaarheid in firewalls van Palo Alto Networks, waarvoor het bedrijf waarschuwt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2607,13 +4342,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 8,
    "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Qualys"
+   ],
+   "summary": {
+    "en": "Qualys announced TruRisk Eliminate 2.0 with TruConfidence, a remediation orchestration engine for patching.",
+    "nl": "Qualys heeft TruRisk Eliminate 2.0 met TruConfidence aangekondigd, een orkestratie-engine voor patchbeheer."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2631,14 +4371,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 40,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "summary": {
+    "en": "All Albert Heijn distribution centres are operational again, with fuller shelves increasingly reported; the excerpt does not state the cause of the disruption.",
+    "nl": "Alle distributiecentra van Albert Heijn zijn weer operationeel, met steeds vollere schappen; de samenvatting noemt de oorzaak van de verstoring niet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2657,13 +4402,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 25,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Attackers are actively exploiting a critical vulnerability in Cisco Secure Email Gateway via malicious email attachments.",
+    "nl": "Aanvallers maken actief misbruik van een kritieke kwetsbaarheid in Cisco Secure Email Gateway via kwaadaardige bijlagen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2684,13 +4434,19 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 12,
+   "category": "threat",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Langflow",
+    "IBM"
+   ],
+   "summary": {
+    "en": "Threat actors exploited CVE-2026-105740 in Langflow, an AI application platform, with 1,423 honeypot exploit attempts recorded.",
+    "nl": "Dreigingsactoren misbruikten CVE-2026-105740 in Langflow, een AI-applicatieplatform, met 1.423 exploitpogingen op honeypots."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2709,13 +4465,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "regulation",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Meta"
+   ],
+   "summary": {
+    "en": "A lawsuit against Meta over stopping sales of camera glasses will be heard at the end of November.",
+    "nl": "Eind november vindt de rechtszaak plaats tegen Meta over het stopzetten van de verkoop van camerabrillen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2737,13 +4498,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "advisory",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "vendors": [
+    "Ahsay"
+   ],
+   "summary": {
+    "en": "Ahsay released new fixes for AhsayCBS flaws that were exploited to deploy web shells and cryptominers after incomplete patches.",
+    "nl": "Ahsay heeft nieuwe fixes uitgebracht voor AhsayCBS-kwetsbaarheden die werden misbruikt voor webshells en cryptominers, na onvolledige patches."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2763,14 +4529,21 @@
   ],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Palo Alto Networks released PAN-OS updates for CVE-2026-0322, a high-severity management interface RCE flaw under active exploitation.",
+    "nl": "Palo Alto Networks heeft updates uitgebracht voor CVE-2026-0322, een ernstige RCE-kwetsbaarheid in de managementinterface van PAN-OS die actief wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2789,13 +4562,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "research",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T05:55:42Z"
+   "vendors": [
+    "Immuta"
+   ],
+   "summary": {
+    "en": "An Immuta CISO discusses permissions for AI agents and predicts major AI-related incidents at enterprises within 18 months.",
+    "nl": "De CISO van Immuta bespreekt rechten voor AI-agents en voorspelt grote AI-incidenten bij ondernemingen binnen 18 maanden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2815,12 +4593,17 @@
   "cls": {
    "relevant": true,
    "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T05:55:42Z"
+   "summary": {
+    "en": "Censys reports exposed industrial control systems rose about 4% in two and a half years, while AI-related software exposure grew 63% in nine months.",
+    "nl": "Censys meldt dat blootgestelde industriële besturingssystemen in twee en een half jaar met ongeveer 4% zijn gestegen, terwijl AI-software in negen maanden met 63% groeide."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2839,13 +4622,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "research",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T05:55:42Z"
+   "vendors": [
+    "JetBrains"
+   ],
+   "summary": {
+    "en": "JetBrains' State of CI/CD 2026 report finds CI/CD pipelines are the most widely adopted DevOps practice.",
+    "nl": "Het JetBrains-rapport The State of CI/CD in 2026 stelt dat CI/CD-pipelines de meest gebruikte DevOps-praktijk zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2864,13 +4652,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 3,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T05:55:42Z"
+   "summary": {
+    "en": "GuardOS is an iPhone app combining device security checks, VPN access, Safari content filtering and QR link scanning.",
+    "nl": "GuardOS is een iPhone-app die apparaatbeveiligingscontroles, VPN, Safari-contentfiltering en QR-linkscanning combineert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:18Z"
   }
  },
  {
@@ -2889,13 +4680,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 72,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T17:04:43Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens disclosed a DLL sideloading vulnerability in Siemens Software Center allowing authenticated local attackers to execute code; fixes are expected in the week of 19 October 2026.",
+    "nl": "Siemens heeft een DLL-sideloading kwetsbaarheid in Siemens Software Center gemeld waarmee geauthenticeerde lokale aanvallers code kunnen uitvoeren; fixes worden verwacht in de week van 19 oktober 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -2914,13 +4712,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T11:34:52Z"
+   "summary": {
+    "en": "A Ukrainian Defense Ministry source said the military can again use SpaceX's Starshield service after restrictions disrupted drone missions.",
+    "nl": "Een bron van het Oekraïense ministerie van Defensie meldt dat het leger weer gebruik kan maken van SpaceX's Starshield-dienst na beperkingen die dronemissies verstoorden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -2941,13 +4742,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 35,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-15T00:33:40Z"
+   "summary": {
+    "en": "Palo Alto Networks released updates for the PAN-OS remote code execution zero-day CVE-2026-0322, which has been exploited in attacks against firewalls.",
+    "nl": "Palo Alto Networks heeft updates uitgebracht voor de PAN-OS remote code execution zero-day CVE-2026-0322, die in aanvallen op firewalls is misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -2966,13 +4770,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "North Macedonian police, with the FBI, arrested the suspected administrator of the OLVX cybercrime market.",
+    "nl": "De Noord-Macedonische politie heeft samen met de FBI de vermoedelijke beheerder van de OLVX-cybercrimemarkt opgepakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -2991,13 +4798,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The Brooklyn DA's office disrupted a cryptocurrency scam targeting the Russian-speaking community by taking down its servers and domains.",
+    "nl": "Het kantooor van de Brooklyn DA heeft een cryptofraude gericht op de Russischtalige gemeenschap verstoord door servers en domeinen offline te halen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3016,13 +4826,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "US authorities arrested two suspects, charged 14 individuals and seized about 187 laptops used in North Korean remote IT worker schemes.",
+    "nl": "Amerikaanse autoriteiten hebben twee verdachten gearresteerd, veertien personen aangeklaagd en ongeveer 187 laptops in beslag genomen die werden gebruikt in Noord-Koreaanse IT-werkersfraude."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3041,13 +4854,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 30,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Cisco fixed a vulnerability in the Advanced Malware Protection feature of Cisco Secure Email Gateway that allows unauthenticated arbitrary file writes.",
+    "nl": "Cisco heeft een kwetsbaarheid in de Advanced Malware Protection-functie van Cisco Secure Email Gateway verholpen waarmee ongeauthenticeerd willekeurige bestanden kunnen worden geschreven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3066,13 +4882,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 35,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Attackers are actively exploiting a critical Cisco Secure Email Gateway flaw, sending crafted attachments to write files and potentially run commands as root.",
+    "nl": "Aanvallers misbruiken actief een kritieke kwetsbaarheid in Cisco Secure Email Gateway door speciaal vervaardigde bijlagen te versturen waarmee bestanden worden geschreven en mogelijk commando's als root worden uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3091,13 +4910,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 12,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Ledger asked resellers in several Asian countries to halt wallet sales while it investigates device tampering linked to a supply-chain attack.",
+    "nl": "Ledger heeft verkopers in meerdere Aziatische landen gevraagd de verkoop van wallets te stoppen terwijl het onderzoek naar sabotage van apparaten en een supply-chain-aanval loopt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3116,13 +4938,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 25,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Attackers exploited a critical flaw in the optional Collabora Online built-in CODE app to plant web shells on Nextcloud servers.",
+    "nl": "Aanvallers hebben een kritieke kwetsbaarheid in de optionele Collabora Online built-in CODE-app misbruikt om webshells op Nextcloud-servers te plaatsen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3141,13 +4966,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 35,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Cisco patched an actively exploited zero-day in Secure Email Gateway that lets unauthenticated remote attackers execute commands with root privileges.",
+    "nl": "Cisco heeft een actief misbruikte zero-day in Secure Email Gateway gepatcht waarmee ongeauthenticeerde externe aanvallers commando's met rootrechten kunnen uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3166,13 +4994,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 12,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Microsoft, Health-ISAC, JC3 and private partners disrupted three phishing kits linked to over one billion scam messages.",
+    "nl": "Microsoft, Health-ISAC, JC3 en private partners hebben drie phishingkits verstoord die gekoppeld zijn aan meer dan een miljard scamberichten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3190,14 +5021,17 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": true,
-   "score": 50,
-   "category": "industry",
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Polish Prime Minister Donald Tusk says a spyware manufacturer had access to data harvested by the former government, calling it a major scandal.",
+    "nl": "De Poolse premier Donald Tusk stelt dat een spyware-fabrikant toegang had tot data die door de vorige regering is verzameld, en noemt dit een groot schandaal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3216,13 +5050,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 8,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The US Department of Justice charged 14 people and seized about 187 computers in its effort to disrupt North Korean remote IT worker fraud.",
+    "nl": "Het Amerikaanse ministerie van Justitie heeft veertien personen aangeklaagd en ongeveer 187 computers in beslag genomen in de aanpak van Noord-Koreaanse IT-werkersfraude."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3241,13 +5078,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Police say no criminal investigation has yet started into the cybersecurity incident at Albert Heijn, and no report has been filed.",
+    "nl": "De politie meldt dat er nog geen strafrechtelijk onderzoek loopt naar het cybersecurity-incident bij Albert Heijn en dat er nog geen aangifte is gedaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3266,13 +5106,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Europol warns that the harvest now, decrypt later threat is real, with attackers collecting encrypted data today to decrypt it later.",
+    "nl": "Europol waarschuwt dat de dreiging van harvest now, decrypt later reëel is, waarbij aanvallers nu versleutelde data verzamelen om die later te ontsleutelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3295,13 +5138,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 30,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Fortinet fixed vulnerabilities in FortiSandbox, including CVE-2026-107656 with CVSS 9.6, an authentication bypass in the web management interface.",
+    "nl": "Fortinet heeft kwetsbaarheden in FortiSandbox verholpen, waaronder CVE-2026-107656 met CVSS 9,6, een authenticatieomzeiling in de webmanagementinterface."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3320,13 +5166,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Microsoft resolved a known issue causing Always On VPN connection problems after the September 2026 Windows 11 security updates.",
+    "nl": "Microsoft heeft een bekend probleem opgelost dat Always On VPN-verbindingsproblemen veroorzaakte na de Windows 11-beveiligingsupdates van september 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3345,13 +5194,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 5,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can close coverage gaps.",
+    "nl": "Picus Security legt uit hoe agentic pentesting combineren met exposure validation en breach simulation de dekkingshiaten kan dichten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3370,13 +5222,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 25,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Ahsay released a hotfix for an actively exploited vulnerability in Cloud Backup Server, which attackers have abused since at least 4 October.",
+    "nl": "Ahsay heeft een hotfix uitgebracht voor een actief misbruikte kwetsbaarheid in Cloud Backup Server, die aanvallers al sinds minstens 4 oktober misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:35Z"
   }
  },
  {
@@ -3398,13 +5253,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 20,
    "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "NCSC-NL reports vulnerabilities fixed in Ahsay AhsayCBS up to 10.3.2, including CVE-2026-105134 with CVSS 10.0 for OS command injection.",
+    "nl": "NCSC-NL meldt dat Ahsay kwetsbaarheden in AhsayCBS tot en met 10.3.2 heeft verholpen, waaronder CVE-2026-105134 met CVSS 10,0 voor OS-command-injectie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3423,13 +5281,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Microsoft, with Japanese police and Health-ISAC, seized domains used by phishing platforms YAM Store, CoGUI and Iron Man.",
+    "nl": "Microsoft heeft samen met de Japanse politie en Health-ISAC domeinen van de phishingplatforms YAM Store, CoGUI en Iron Man in beslag genomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3448,13 +5309,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Law enforcement disrupted a cybercriminal ecosystem behind over a billion phishing messages targeting more than 75,000 organizations.",
+    "nl": "Opsporingsdiensten hebben een cybercriminele keten verstoord die achter meer dan een miljard phishingberichten zat, gericht op ruim 75.000 organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3473,13 +5337,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Russian travel booking platform Anywayanyday suspended ticket and hotel reservations while responding to a cyberattack.",
+    "nl": "Het Russische reisplatform Anywayanyday heeft reserveringen opgeschort terwijl het reageert op een cyberaanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3498,13 +5365,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "US authorities arrested individuals running laptop farms that helped North Korean IT workers gain remote jobs at over 70 US companies.",
+    "nl": "Amerikaanse autoriteiten hebben personen gearresteerd die laptopfarms draaiden waarmee Noord-Koreaanse IT-werkers remote banen bij ruim 70 Amerikaanse bedrijven kregen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3523,13 +5393,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 3,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Help Net Security promotes a downloadable field guide on AI adoption for IT and security teams.",
+    "nl": "Help Net Security promoot een downloadbare gids over AI-adoptie voor IT- en securityteams."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3549,12 +5422,17 @@
   "cls": {
    "relevant": true,
    "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "CISA urges immediate patching of an Ivanti Connect Secure flaw exploited as a zero-day since at least October 1st.",
+    "nl": "CISA roept op om een Ivanti Connect Secure-kwetsbaarheid direct te patchen, die sinds minstens 1 oktober als zero-day wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3572,14 +5450,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 35,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The Dutch cabinet rejects the objection of DigiD administrator Solvinity and maintains that a US takeover must be prohibited as a threat to the public interest.",
+    "nl": "Het Nederlandse kabinet wijst het bezwaar van DigiD-beheerder Solvinity af en houdt vast aan een overnameverbod vanwege het publiek belang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3601,12 +5484,17 @@
   "cls": {
    "relevant": true,
    "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "CISA urges immediate updates to Ivanti Connect Secure after an actively exploited authentication bypass, CVE-2026-104935, was disclosed.",
+    "nl": "CISA roept op Ivanti Connect Secure direct te updaten na de melding van een actief misbruikte authenticatiebypass, CVE-2026-104935."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3624,14 +5512,19 @@
   "cves": [],
   "x_mentions": 0,
   "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "food"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Belgian and German authorities urge supermarkets and businesses not to connect refrigeration systems directly to the internet and to install updates.",
+    "nl": "De Belgische en Duitse overheid roepen supermarkten en bedrijven op koelinstallaties niet direct aan internet te hangen en updates te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3650,13 +5543,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "The curl project fixed an HTTP/2 upload flaw in curl 8.23.0 that a researcher showed could lead to client-side code execution.",
+    "nl": "Het curl-project heeft in versie 8.23.0 een HTTP/2-uploadfout verholpen die een onderzoeker tot codeuitvoering aan clientzijde wist te gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3675,13 +5571,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 5,
+   "category": "guidance",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "An article describes how security teams can run deepfake readiness drills to test verification against cloned voice and video calls.",
+    "nl": "Een artikel beschrijft hoe securityteams deepfake-oefeningen kunnen houden om verificatie tegen gekloonde stemmen en video-oproepen te testen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3700,13 +5599,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "MediaMarkt stopped selling Ledger crypto wallets after a large-scale cryptocurrency theft.",
+    "nl": "MediaMarkt is gestopt met de verkoop van Ledger-cryptowallets na een grootschalige cryptodiefstal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3725,13 +5627,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "New Android malware Hirudo replaces banking apps with modified versions that disable security checks to steal credentials.",
+    "nl": "Nieuwe Android-malware Hirudo vervangt bankapps door gewijzigde versies die beveiligingscontroles uitschakelen om inloggegevens te stealen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3750,13 +5655,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "XBOW researchers chained three Chrome bugs into a full-chain exploit built in six days using an OpenAI model; Google has fixed the bugs.",
+    "nl": "Onderzoekers van XBOW combineerden drie Chrome-bugs tot een volledige exploit, gebouwd in zes dagen met een OpenAI-model; Google heeft de bugs verholpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3775,13 +5683,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "threat",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "ThreatFabric disclosed the Hirudo Android trojan, which replaces eight Indonesian banking apps with patched versions to bypass in-app security checks.",
+    "nl": "ThreatFabric heeft de Android-trojan Hirudo gemeld, die acht Indonesische bankapps vervangt door gepatchte versies om beveiligingscontroles te omzeilen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3800,13 +5711,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 15,
+   "category": "research",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "An AI pentesting agent found a critical OTP authentication bypass on a major insurer's production website during an authorized assessment.",
+    "nl": "Een AI-pentestagent vond tijdens een geautoriseerde test een kritieke OTP-authenticatiebypass op de productiewebsite van een grote verzekeraar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3825,13 +5739,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "incident",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "TFG London, owner of Phase Eight, Hobbs and Whistles, detected a cyberattack on some of its IT systems on 11 October 2026.",
+    "nl": "TFG London, eigenaar van Phase Eight, Hobbs en Whistles, heeft op 11 oktober 2026 een cyberaanval op enkele IT-systemen ontdekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3850,13 +5767,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
-   "category": "industry",
+   "score": 10,
+   "category": "advisory",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Microsoft confirmed recent Windows updates may prevent non-admin users from connecting via Remote Desktop when Administrator protection is enabled.",
+    "nl": "Microsoft bevestigt dat recente Windows-updates verbinding via Remote Desktop voor niet-beheerders kunnen blokkeren wanneer Administrator protection aan staat."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
@@ -3875,13 +5795,16 @@
   "x_mentions": 0,
   "cls": {
    "relevant": false,
-   "score": 0,
+   "score": 10,
    "category": "industry",
    "sectors": [],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Radware announced MCP Server Protection to give visibility into and protect Model Context Protocol servers used by AI agents.",
+    "nl": "Radware heeft MCP Server Protection aangekondigd, bedoeld voor zicht op en bescherming van Model Context Protocol-servers voor AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-17T23:59:56Z"
   }
  },
  {
