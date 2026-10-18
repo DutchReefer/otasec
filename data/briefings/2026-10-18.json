@@ -1,66 +1,156 @@
 {
  "date": "2026-10-18",
- "published": "2026-10-18T00:00:15Z",
+ "published": "2026-10-18T00:28:53Z",
  "model": "claude-sonnet-5-5",
- "item_count": 6,
+ "item_count": 24,
  "i18n": {
   "en": {
-   "title": "OTASEC Daily Briefing – 18-10-2026",
-   "intro": "A quiet weekend for OT news, led by an expanded ANSSI alert on cold-chain controller sabotage and a new espionage campaign against CIS water and energy networks. NIST also published a draft update of its OT security guide."
+   "title": "OTASEC Briefing – 18-10-2026",
+   "intro": "A BeyondTrust Remote Support zero-day exploited since late August leads the news, followed by exposed supermarket refrigeration systems and actively exploited firewall flaws. Guidance from NIST and new segmentation research round out the day."
   },
   "nl": {
-   "title": "OTASEC Dagelijks Overzicht – 18-10-2026",
-   "intro": "Een rustig weekend in OT-nieuws, met een uitgebreide ANSSI-waarschuwing over sabotage van koudeketen-controllers en een nieuwe spionagecampagne tegen water- en energienetwerken in de CIS. Daarnaast publiceerde NIST een conceptupdate van de OT-beveiligingsgids."
+   "title": "OTASEC-briefing – 18-10-2026",
+   "intro": "Een sinds eind augustus misbruikte zero-day in BeyondTrust Remote Support voert het nieuws aan, gevolgd door online bereikbare koelsystemen van supermarkten en actief misbruikte firewalllekken. Nieuwe richtlijnen van NIST en onderzoek naar netwerksegmentatie completeren de dag."
   }
  },
  "stories": [
   {
    "sources": [
     {
-     "id": "069455808bcf",
-     "name": "sh3llc0d3.com",
-     "url": "https://sh3llc0d3.com/blog/anssi-warning-french-supermarket-cold-chain-sabotage-expands-to-copeland-and-dixell-controllers",
-     "title": "ANSSI Warning: French Supermarket Cold-Chain Sabotage Expands to Copeland and Dixell Controllers | Shellcode (Sh3llc0d3)"
+     "id": "ec520d18786a",
+     "name": "BleepingComputer",
+     "url": "https://bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august",
+     "title": "BeyondTrust patches zero-day exploited in attacks since August"
+    },
+    {
+     "id": "1fd194e19c3d",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+     "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers"
+    },
+    {
+     "id": "f594b10a4251",
+     "name": "Security.NL",
+     "url": "https://security.nl/posting/957878/Kritiek+lek+in+BeyondTrust+Remote+Support+sinds+augustus+misbruikt+bij+aanvallen?channel=rss",
+     "title": "Kritiek lek in BeyondTrust Remote Support sinds augustus misbruikt bij aanvallen"
+    },
+    {
+     "id": "b2439be1a491",
+     "name": "NCSC-NL Advisories",
+     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0437",
+     "title": "NCSC-2026-0437 [1.00] [H/H] Kwetsbaarheid verholpen in BeyondTrust Remote Support"
     }
    ],
-   "source_count": 1,
-   "x_mentions": 1,
-   "cves": [],
+   "source_count": 4,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-102764"
+   ],
    "i18n": {
     "en": {
-     "heading": "ANSSI expands alert on French supermarket cold-chain sabotage to Copeland and Dixell controllers",
-     "summary": "France's ANSSI, together with European food safety authorities, has expanded an emergency industrial cybersecurity alert on sabotage of supermarket cold chains. The alert now covers Copeland and Dixell controllers.",
-     "takeaway": "Check whether you operate Copeland or Dixell refrigeration controllers, review their network exposure and remote access, and follow the ANSSI guidance."
+     "heading": "BeyondTrust Remote Support zero-day (CVE-2026-102764) exploited since August",
+     "summary": "BeyondTrust has patched a critical flaw in Remote Support, CVE-2026-102764 (CVSS 9.3), caused by improper origin validation in an internal messaging component. It has been exploited as a zero-day since late August (at least 29 August per BeyondTrust), and The Hacker News attributes the attacks to the China-nexus group Armory Castle. NCSC-NL rates the issue H/H and notes it can be exploited remotely without authentication.",
+     "takeaway": "Patch BeyondTrust Remote Support now and, given the exploitation window since August, review appliances and remote-access logs for signs of compromise."
     },
     "nl": {
-     "heading": "ANSSI breidt waarschuwing over sabotage van Franse supermarkt-koudeketens uit naar Copeland- en Dixell-controllers",
-     "summary": "ANSSI heeft samen met Europese voedselveiligheidsautoriteiten een noodwaarschuwing over sabotage van koudeketens bij supermarkten uitgebreid. De waarschuwing omvat nu ook Copeland- en Dixell-controllers.",
-     "takeaway": "Controleer of u Copeland- of Dixell-koelingscontrollers gebruikt, beoordeel de netwerkblootstelling en toegang op afstand, en volg de richtlijnen van ANSSI."
+     "heading": "Zero-day in BeyondTrust Remote Support (CVE-2026-102764) sinds augustus misbruikt",
+     "summary": "BeyondTrust heeft een kritieke kwetsbaarheid in Remote Support verholpen, CVE-2026-102764 (CVSS 9.3), veroorzaakt door onvoldoende validatie van de herkomst van berichten in een interne component. Het lek is sinds eind augustus (volgens BeyondTrust zeker sinds 29 augustus) als zero-day misbruikt; The Hacker News koppelt de aanvallen aan de China-gelieerde groep Armory Castle. NCSC-NL beoordeelt het lek als H/H en meldt dat het op afstand zonder authenticatie te misbruiken is.",
+     "takeaway": "Patch BeyondTrust Remote Support direct en controleer, gezien het misbruik sinds augustus, appliances en logs van remote toegang op tekenen van compromittering."
     }
    }
   },
   {
    "sources": [
     {
-     "id": "9e7f3087d937",
-     "name": "sh3llc0d3.com",
-     "url": "https://sh3llc0d3.com/blog/uat-6275-inside-the-cyber-espionage-campaign-targeting-cis-water-and-energy-scada-networks",
-     "title": "UAT-6275: Inside the Cyber Espionage Campaign Targeting CIS Water and Energy SCADA Networks | Shellcode (Sh3llc0d3)"
+     "id": "351b55202c4a",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/control-device-security/french-supermarket-cyberattack-exposes-risks-of-unsecured-remote-access-and-legacy-refrigeration-systems",
+     "title": "French supermarket cyberattack exposes risks of unsecured remote access and legacy refrigeration systems"
+    },
+    {
+     "id": "23310a1cc660",
+     "name": "Security.NL",
+     "url": "https://security.nl/posting/957887/Twaalfhonderd+Copeland-koelsystemen+supermarkten+online+toegankelijk?channel=rss",
+     "title": "Twaalfhonderd Copeland-koelsystemen supermarkten online toegankelijk"
+    },
+    {
+     "id": "cea651ef1002",
+     "name": "Security.NL",
+     "url": "https://security.nl/posting/957699/Honderden+koelsystemen+supermarkten+toegankelijk+vanaf+internet?channel=rss",
+     "title": "Honderden koelsystemen supermarkten toegankelijk vanaf internet"
     }
    ],
-   "source_count": 1,
-   "x_mentions": 1,
+   "source_count": 2,
+   "x_mentions": 0,
    "cves": [],
    "i18n": {
     "en": {
-     "heading": "UAT-6275 espionage campaign targets CIS water and energy SCADA networks",
-     "summary": "A coordinated cyber espionage campaign tracked as UAT-6275 has compromised government bodies, regional water treatment utilities and electrical energy providers. It is reported to target SCADA networks in the CIS region.",
-     "takeaway": "Water and energy operators should review segmentation between IT and SCADA networks and monitor for unusual access to OT environments."
+     "heading": "Supermarket refrigeration systems hit and exposed online",
+     "summary": "Industrial Cyber reports cyberattacks on French supermarket refrigeration systems that disrupted hundreds of stores overnight from 11 October, pointing to unsecured remote access and legacy systems. Security.NL reports that around 1,200 Copeland refrigeration systems, 48 of them in the Netherlands, are accessible online, up from the several hundred (26 in the Netherlands) reported a day earlier.",
+     "takeaway": "Check whether refrigeration and other building or facility control systems are reachable from the internet, and remove or secure that remote access."
     },
     "nl": {
-     "heading": "Spionagecampagne UAT-6275 richt zich op SCADA-netwerken voor water en energie in de CIS",
-     "summary": "Een gecoördineerde spionagecampagne, gevolgd als UAT-6275, heeft overheidsinstanties, regionale waterzuiveringsbedrijven en energieleveranciers gecompromitteerd. De campagne richt zich naar verluidt op SCADA-netwerken in de CIS-regio.",
-     "takeaway": "Water- en energiebedrijven doen er goed aan de segmentatie tussen IT- en SCADA-netwerken te controleren en te letten op ongebruikelijke toegang tot OT-omgevingen."
+     "heading": "Koelsystemen van supermarkten getroffen en online bereikbaar",
+     "summary": "Industrial Cyber meldt cyberaanvallen op koelsystemen van Franse supermarkten die vanaf 11 oktober 's nachts honderden winkels ontregelden, met onbeveiligde toegang op afstand en verouderde systemen als aandachtspunten. Security.NL meldt dat zo'n 1.200 koelsystemen van Copeland, waarvan 48 in Nederland, online toegankelijk zijn; een dag eerder ging het nog om honderden systemen (26 in Nederland).",
+     "takeaway": "Controleer of koel- en andere facilitaire besturingssystemen vanaf internet bereikbaar zijn en verwijder of beveilig die toegang op afstand."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "0501cbc46265",
+     "name": "Security.NL",
+     "url": "https://security.nl/posting/957698/Palo+Alto+Networks+waarschuwt+voor+misbruik+van+beveiligingslek+in+firewalls?channel=rss",
+     "title": "Palo Alto Networks waarschuwt voor misbruik van beveiligingslek in firewalls"
+    },
+    {
+     "id": "fc3053d7e094",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+     "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-0322"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Palo Alto Networks patches actively exploited PAN-OS RCE (CVE-2026-0322)",
+     "summary": "Palo Alto Networks issued updates for CVE-2026-0322 (CVSS 8.6), a remote code execution flaw in the PAN-OS management interface. The flaw is under active exploitation, and The Hacker News describes it as requiring authentication.",
+     "takeaway": "Apply the PAN-OS updates and make sure firewall management interfaces are not exposed to untrusted networks."
+    },
+    "nl": {
+     "heading": "Palo Alto Networks verhelpt actief misbruikt PAN-OS RCE-lek (CVE-2026-0322)",
+     "summary": "Palo Alto Networks heeft updates uitgebracht voor CVE-2026-0322 (CVSS 8.6), een remote code execution-kwetsbaarheid in de beheerinterface van PAN-OS. Het lek wordt actief misbruikt; The Hacker News omschrijft het als een lek waarvoor authenticatie nodig is.",
+     "takeaway": "Installeer de PAN-OS-updates en zorg dat beheerinterfaces van firewalls niet bereikbaar zijn vanaf onbetrouwbare netwerken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "88196369f563",
+     "name": "securityweek.com",
+     "url": "https://securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis",
+     "title": "Only 13% of OT Network Segments Are Fully Isolated: Analysis"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 2,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Forescout: only 13% of OT network segments fully isolated",
+     "summary": "New Forescout research on network segmentation finds that OT and medical devices often share network segments with other enterprise assets. Only 13% of OT network segments are fully isolated, according to the analysis.",
+     "takeaway": "Review how well your OT segments are separated from enterprise IT and prioritise isolating shared segments."
+    },
+    "nl": {
+     "heading": "Forescout: slechts 13% van de OT-netwerksegmenten volledig geïsoleerd",
+     "summary": "Nieuw onderzoek van Forescout naar netwerksegmentatie laat zien dat OT- en medische apparaten vaak segmenten delen met andere bedrijfsmiddelen. Volgens de analyse is slechts 13% van de OT-netwerksegmenten volledig geïsoleerd.",
+     "takeaway": "Beoordeel hoe goed uw OT-segmenten gescheiden zijn van de zakelijke IT en geef prioriteit aan het isoleren van gedeelde segmenten."
     }
    }
   },
@@ -78,45 +168,72 @@
    "cves": [],
    "i18n": {
     "en": {
-     "heading": "NIST publishes draft SP 800-82 Rev. 4, Guide to OT Security",
-     "summary": "NIST released a draft of SP 800-82 Rev. 4 with guidelines for securing operational technology while addressing its performance, reliability and safety requirements. The scope covers industrial control systems, building automation and control systems, freight railroad, maritime vessels and water systems, among others.",
-     "takeaway": "Compare your current OT security programme against the draft and consider whether to provide feedback during the review period."
+     "heading": "NIST releases draft SP 800-82 Rev. 4 on OT security",
+     "summary": "NIST has published a draft of Special Publication 800-82 Rev. 4, Guide to Operational Technology (OT) Security. It gives guidelines for securing OT while addressing its performance, reliability and safety requirements, covering systems such as ICS and building automation.",
+     "takeaway": "Have your OT security team read the draft and compare it with your current security programme."
     },
     "nl": {
-     "heading": "NIST publiceert concept van SP 800-82 Rev. 4, gids voor OT-beveiliging",
-     "summary": "NIST heeft een concept van SP 800-82 Rev. 4 gepubliceerd met richtlijnen voor het beveiligen van operationele technologie, met aandacht voor prestatie-, betrouwbaarheids- en veiligheidseisen. Het bereik omvat onder meer industriële besturingssystemen, gebouwbeheersystemen, goederenspoor, zeeschepen en watersystemen.",
-     "takeaway": "Vergelijk uw huidige OT-beveiligingsprogramma met het concept en overweeg of u feedback wilt geven tijdens de reviewperiode."
+     "heading": "NIST publiceert conceptversie SP 800-82 Rev. 4 over OT-beveiliging",
+     "summary": "NIST heeft een conceptversie gepubliceerd van Special Publication 800-82 Rev. 4, Guide to Operational Technology (OT) Security. De richtlijn beschrijft hoe OT beveiligd kan worden met oog voor prestaties, betrouwbaarheid en veiligheid, en omvat onder meer ICS en gebouwautomatisering.",
+     "takeaway": "Laat uw OT-securityteam de conceptversie lezen en vergelijk die met uw huidige securityprogramma."
     }
    }
   },
   {
    "sources": [
     {
-     "id": "ddd8f8e8b501",
-     "name": "tpomag.com",
-     "url": "https://tpomag.com/online_exclusives/2026/10/wastewater-utility-replaces-aging-scada-to-improve-uptime-and-resilience",
-     "title": "Wastewater Utility Replaces Aging SCADA to Improve Uptime and…"
+     "id": "6ca4ff2a3d7f",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/ferc-identifies-cybersecurity-compliance-gaps-in-us-power-sector-flags-risks-from-ai-tools-and-third-party-control-systems",
+     "title": "FERC identifies cybersecurity compliance gaps in US power sector, flags risks from AI tools and third-party control systems"
     },
     {
-     "id": "50f3fec75d9a",
-     "name": "app.com.pk",
-     "url": "https://app.com.pk/national/cda-mulls-scada-system-to-modernise-islamabads-water-supply",
-     "title": "CDA mulls SCADA system to modernise Islamabad’s water supply"
+     "id": "4397993c866d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/ampyx-cyber-examines-ferc-2026-cip-audit-findings-on-generator-registration-shared-control-and-ai-access-risks",
+     "title": "Ampyx Cyber examines FERC 2026 CIP audit findings on generator registration, shared control and AI access risks"
     }
    ],
-   "source_count": 2,
-   "x_mentions": 2,
+   "source_count": 1,
+   "x_mentions": 0,
    "cves": [],
    "i18n": {
     "en": {
-     "heading": "Water utilities modernise SCADA in the US and Pakistan",
-     "summary": "A wastewater utility replaced its aging SCADA to improve uptime through faster issue identification and to enable secure remote access from tablets, phones and computers. Separately, Islamabad's Capital Development Authority is considering a SCADA system for real-time monitoring and automated control of the city's water supply.",
-     "takeaway": "When modernising SCADA or adding remote access, build access control and monitoring into the design from the start."
+     "heading": "FERC flags cybersecurity compliance gaps in US power sector",
+     "summary": "FERC identified cybersecurity compliance gaps among US electricity entities, including delays, and flagged risks from AI tools and third-party control systems. Ampyx Cyber's analysis of the CIP audit findings highlights gaps in generator registration, cyber risk categorisation and AI access controls.",
+     "takeaway": "Review how asset categorisation, third-party control system access and AI tool access are handled in your compliance programme."
     },
     "nl": {
-     "heading": "Waterbedrijven moderniseren SCADA in de VS en Pakistan",
-     "summary": "Een afvalwaterbedrijf verving zijn verouderde SCADA om de beschikbaarheid te verbeteren via snellere signalering van problemen en om veilige toegang op afstand via tablets, telefoons en computers mogelijk te maken. Daarnaast overweegt de Capital Development Authority van Islamabad een SCADA-systeem voor realtime monitoring en geautomatiseerde besturing van de watervoorziening.",
-     "takeaway": "Neem bij het moderniseren van SCADA of het toevoegen van toegang op afstand toegangsbeheer en monitoring vanaf het begin mee in het ontwerp."
+     "heading": "FERC signaleert tekortkomingen in cybersecuritynaleving in Amerikaanse energiesector",
+     "summary": "FERC constateerde tekortkomingen in de naleving van cybersecurityregels bij Amerikaanse elektriciteitsbedrijven, waaronder vertragingen, en wees op risico's van AI-tools en besturingssystemen van derden. Een analyse van Ampyx Cyber van de CIP-auditbevindingen benadrukt gaten rond registratie van opwekkers, indeling van cyberrisico's en toegangscontrole voor AI.",
+     "takeaway": "Controleer hoe assetcategorisering, toegang van derden tot besturingssystemen en toegang voor AI-tools zijn geregeld in uw compliance-programma."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "5fc8c6dd8c54",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+     "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2025-61624"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "PEERSTITCH malware delivered via FortiOS flaw CVE-2025-61624",
+     "summary": "A suspected advanced threat actor is exploiting CVE-2025-61624 (CVSS 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy and FortiSwitchManager. The attack delivers PEERSTITCH, a previously unreported memory-resident ARM64 malware.",
+     "takeaway": "Confirm that Fortinet devices are patched for CVE-2025-61624, even though the CVSS score is moderate, since it is being exploited."
+    },
+    "nl": {
+     "heading": "PEERSTITCH-malware verspreid via FortiOS-lek CVE-2025-61624",
+     "summary": "Een vermoedelijk geavanceerde dreigingsactor misbruikt CVE-2025-61624 (CVSS 5.4), een path traversal-lek in de command line interpreter van FortiOS, FortiPAM, FortiProxy en FortiSwitchManager. Daarmee wordt PEERSTITCH geïnstalleerd, een niet eerder gemelde ARM64-malware die in het geheugen draait.",
+     "takeaway": "Controleer of Fortinet-apparaten zijn gepatcht voor CVE-2025-61624; de CVSS-score is bescheiden, maar het lek wordt wel misbruikt."
     }
    }
   }

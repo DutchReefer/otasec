@@ -1,138 +1,5 @@
 [
  {
-  "id": "8136cbc4dc78",
-  "url": "https://centurygroup.net/industries-manufacturing-distribution-it-services",
-  "title": "Manufacturing IT Services Georgia | Century Solutions Group - Century Solutions Group",
-  "excerpt": "IT and cybersecurity for Georgia manufacturers and distributors: OT/IT segmentation, warehouse Wi-Fi, ERP uptime, and shift-aware support from Century Solutions Group.",
-  "source_id": "x",
-  "source": "centurygroup.net",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T21:00:33Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "CenturyGroupIT"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 10,
-   "category": "industry",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Century Solutions Group advertises IT and cybersecurity services for Georgia manufacturers, including OT/IT segmentation and ERP uptime support.",
-    "nl": "Century Solutions Group adverteert met IT- en cybersecuritydiensten voor fabrikanten in Georgia, waaronder OT/IT-segmentatie en ERP-beschikbaarheid."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "ddd8f8e8b501",
-  "url": "https://tpomag.com/online_exclusives/2026/10/wastewater-utility-replaces-aging-scada-to-improve-uptime-and-resilience",
-  "title": "Wastewater Utility Replaces Aging SCADA to Improve Uptime and…",
-  "excerpt": "It improves uptime through faster issue identification and response; enables secure remote access from tablets, phones, thin clients and computers;…",
-  "source_id": "x",
-  "source": "tpomag.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T21:00:01Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "TPOmag"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 40,
-   "category": "industry",
-   "sectors": [
-    "water"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "A wastewater utility replaced its aging SCADA system to improve uptime and enable secure remote access from multiple device types.",
-    "nl": "Een afvalwaterbedrijf verving zijn verouderde SCADA-systeem om de uptime te verbeteren en veilige externe toegang vanaf diverse apparaten mogelijk te maken."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "f7678468c6bd",
-  "url": "https://events.aveva.com/insource-innovate-aveva-day-west",
-  "title": "Home",
-  "excerpt": "Wednesday - Thursday, November 4-5, 2026 Explore how Industrial AI, operational data, digital transformation, and connected operations are helping organizations operate smarter, faster, and more sustainably. For two immersive days, attendees will experience a combination of executive thought leadership, customer success stories, live demonstrations, technical deep dives, and hands-on workshops designed to help organizations accelerate their digital transformation journey. Whether you're just beginning",
-  "source_id": "x",
-  "source": "events.aveva.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T19:30:00Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 3,
-  "x_handles": [
-   "InSource_ISS"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 10,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "AVEVA"
-   ],
-   "summary": {
-    "en": "AVEVA announces a two-day event in November 2026 covering Industrial AI, operational data and connected operations.",
-    "nl": "AVEVA kondigt een tweedaags evenement in november 2026 aan over Industrial AI, operationele data en verbonden operaties."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "50f3fec75d9a",
-  "url": "https://app.com.pk/national/cda-mulls-scada-system-to-modernise-islamabads-water-supply",
-  "title": "CDA mulls SCADA system to modernise Islamabad’s water supply",
-  "excerpt": "The Capital Development Authority (CDA) is considering introducing a Supervisory Control and Data Acquisition (SCADA) system to enable real-time monitoring and automated control of Islamabad’s water supply network.",
-  "source_id": "x",
-  "source": "app.com.pk",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T17:45:19Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "abds_samad"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 35,
-   "category": "industry",
-   "sectors": [
-    "water",
-    "government"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "The Capital Development Authority in Islamabad is considering a SCADA system for real-time monitoring and automated control of the city's water supply.",
-    "nl": "De Capital Development Authority in Islamabad overweegt een SCADA-systeem voor realtime monitoring en geautomatiseerde regeling van de watervoorziening."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
   "id": "09b8ae247912",
   "url": "https://security.nl/posting/958045/Supplychain-aanval+via+ConnectWise+Cloud+Backup+raakt+tal+van+bedrijven?channel=rss",
   "title": "Supplychain-aanval via ConnectWise Cloud Backup raakt tal van bedrijven",
@@ -155,37 +22,6 @@
    "summary": {
     "en": "A supply chain attack via ConnectWise Cloud Backup, formerly SkyKick, has affected many companies and other organisations.",
     "nl": "Een supplychain-aanval via ConnectWise Cloud Backup, voorheen SkyKick, heeft veel bedrijven en andere organisaties getroffen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "b18340fa5aef",
-  "url": "https://scan.pulsechain.com/tx/0x8dc2ca5955b0a83a69676b062300289450c0c90133f7b2b44eb23532fea79e74",
-  "title": "scan.pulsechain.com",
-  "excerpt": "Where to scan PulseChain",
-  "source_id": "x",
-  "source": "scan.pulsechain.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T16:12:18Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "ScadaOps"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "A page about where to scan PulseChain, unrelated to industrial security.",
-    "nl": "Een pagina over waar PulseChain gescand kan worden, niet gerelateerd aan industriële beveiliging."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:56:53Z"
@@ -253,37 +89,6 @@
   }
  },
  {
-  "id": "dac67581bbe4",
-  "url": "https://relay-roles.netlify.app/",
-  "title": "Remote OT/ICS & GRC Jobs · Relay Roles",
-  "excerpt": "Browse 39 remote-eligible OT/ICS and GRC cybersecurity openings (38 OT/ICS, 1 GRC). Niche board — not generic cyber. Updated 2026-10-12.",
-  "source_id": "x",
-  "source": "relay-roles.netlify.app",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T15:00:07Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "CarusoAmos2692"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "A job board lists 39 remote OT/ICS and GRC cybersecurity openings updated in October 2026.",
-    "nl": "Een vacaturesite toont 39 externe OT/ICS- en GRC-cybersecurityvacatures, bijgewerkt in oktober 2026."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
   "id": "344516473c75",
   "url": "https://bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon",
   "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
@@ -308,42 +113,6 @@
    "summary": {
     "en": "Drupal patched two critical flaws allowing remote code execution on sites running supported versions, and warns exploits may emerge.",
     "nl": "Drupal heeft twee kritieke lekken gepatcht die remote code execution mogelijk maken op sites met ondersteunde versies, en waarschuwt voor mogelijke exploits."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "069455808bcf",
-  "url": "https://sh3llc0d3.com/blog/anssi-warning-french-supermarket-cold-chain-sabotage-expands-to-copeland-and-dixell-controllers",
-  "title": "ANSSI Warning: French Supermarket Cold-Chain Sabotage Expands to Copeland and Dixell Controllers | Shellcode (Sh3llc0d3)",
-  "excerpt": "France's National Cybersecurity Agency (ANSSI) alongside European food safety authorities has expanded an emergency industrial cybersecurity alert warning...",
-  "source_id": "x",
-  "source": "sh3llc0d3.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T14:03:19Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "sh3ll_c0d3"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 85,
-   "category": "advisory",
-   "sectors": [
-    "food"
-   ],
-   "vendors": [
-    "Copeland",
-    "Dixell"
-   ],
-   "summary": {
-    "en": "ANSSI expanded an emergency alert on sabotage of French supermarket cold-chain systems to Copeland and Dixell controllers.",
-    "nl": "ANSSI heeft een noodwaarschuwing over sabotage van koelketens in Franse supermarkten uitgebreid naar Copeland- en Dixell-regelaars."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:56:53Z"
@@ -411,72 +180,6 @@
   }
  },
  {
-  "id": "548d5b425db8",
-  "url": "https://opuseco.com/yield",
-  "title": "The Opus Ecosystem",
-  "excerpt": "The Opus Ecosystem on PulseChain",
-  "source_id": "x",
-  "source": "opuseco.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T09:40:11Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "OpusEco"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "A page describing the Opus Ecosystem on PulseChain, unrelated to industrial security.",
-    "nl": "Een pagina over het Opus-ecosysteem op PulseChain, niet gerelateerd aan industriële beveiliging."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "9e7f3087d937",
-  "url": "https://sh3llc0d3.com/blog/uat-6275-inside-the-cyber-espionage-campaign-targeting-cis-water-and-energy-scada-networks",
-  "title": "UAT-6275: Inside the Cyber Espionage Campaign Targeting CIS Water and Energy SCADA Networks | Shellcode (Sh3llc0d3)",
-  "excerpt": "A coordinated cyber espionage offensive tracked as UAT-6275 has compromised government bodies, regional water treatment utilities, and electrical energy pr...",
-  "source_id": "x",
-  "source": "sh3llc0d3.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T08:29:00Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "sh3ll_c0d3"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 85,
-   "category": "threat",
-   "sectors": [
-    "water",
-    "energy",
-    "government"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "A cyber espionage campaign tracked as UAT-6275 has compromised government bodies, water utilities and energy providers in CIS countries via SCADA networks.",
-    "nl": "Een cyberspionagecampagne, UAT-6275, heeft overheidsinstanties, waterbedrijven en energieproducenten in GOS-landen via SCADA-netwerken gecompromitteerd."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
   "id": "1378bb537acb",
   "url": "https://security.nl/posting/957998/Albert+Heijn%3A+onderzoek+naar+oorzaak+cybersecurity-incident+loopt+nog?channel=rss",
   "title": "Albert Heijn: onderzoek naar oorzaak cybersecurity-incident loopt nog",
@@ -499,39 +202,6 @@
    "summary": {
     "en": "Albert Heijn's investigation into the cause and nature of a cybersecurity incident is still ongoing.",
     "nl": "Het onderzoek naar de aard en oorzaak van een cybersecurityincident bij Albert Heijn loopt nog steeds."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "565ff32fec1b",
-  "url": "https://afr.com/politics/federal/australia-s-ageing-tech-leaves-it-open-to-ai-attacks-top-official-warns-20261015-p615ia",
-  "title": "Australia’s ageing tech at risk of AI attacks, top official warns",
-  "excerpt": "The Australian Signals Directorate has issued new guidelines for boosting cybersecurity in the age of AI, saying the government’s IT systems need an urgent overhaul.",
-  "source_id": "x",
-  "source": "afr.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T08:02:44Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "niccijsmith"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 20,
-   "category": "guidance",
-   "sectors": [
-    "government"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "The Australian Signals Directorate issued new AI-era cybersecurity guidelines and warned government IT systems need urgent modernisation.",
-    "nl": "Het Australische Signals Directorate heeft nieuwe cybersecurityrichtlijnen voor het AI-tijdperk uitgebracht en waarschuwt dat overheids-IT dringend moet worden vernieuwd."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:56:53Z"
@@ -569,204 +239,6 @@
   }
  },
  {
-  "id": "71b6ae27e0a0",
-  "url": "https://scada-thai.com/products/drivers-collection-atdriver-server",
-  "title": "Free SCADA Platform for Smart Manufacturing | MES System, Vision System & Factory Digital Transformation",
-  "excerpt": "Discover a free SCADA platform designed for modern industry, connecting MES system and vision system to drive factory digital transformation",
-  "source_id": "x",
-  "source": "scada-thai.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T05:35:47Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "PBachxuan"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 15,
-   "category": "industry",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "A vendor promotes a free SCADA platform connecting MES and vision systems for smart manufacturing digital transformation.",
-    "nl": "Een leverancier promoot een gratis SCADA-platform dat MES- en visionsystemen verbindt voor digitale transformatie in slimme productie."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "830cdcb9d2d2",
-  "url": "https://oxymotec.com/",
-  "title": "MBR Membrane Manufacturer in USA, MBR System Service Provider in USA",
-  "excerpt": "Oxymo Technology is one of the best MBR Membrane Manufacturer in USA, offering manufacturing, design, sales, & technology, providing expert guidance for all your water & wastewater needs.",
-  "source_id": "x",
-  "source": "oxymotec.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T04:30:00Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "OxymoTechnology"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [
-    "water"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Oxymo Technology promotes its MBR membrane manufacturing and design services for water and wastewater projects in the USA.",
-    "nl": "Oxymo Technology promoot zijn MBR-membraanproductie en ontwerpdiensten voor water- en afvalwaterprojecten in de VS."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:56:53Z"
-  }
- },
- {
-  "id": "1ad9aefd1bc4",
-  "url": "https://atscada.com/atscada-training-book",
-  "title": "ATSCADA Training book Guide for System Architecture & Tools",
-  "excerpt": "ATSCADA Training book provides guides for system architecture, installation, tools, deployment, troubleshooting and SCADA solutions.",
-  "source_id": "x",
-  "source": "atscada.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T02:43:05Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "marry_atscada"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "guidance",
-   "sectors": [],
-   "vendors": [
-    "ATSCADA"
-   ],
-   "summary": {
-    "en": "ATSCADA publishes a training book covering SCADA system architecture, installation, tools, deployment and troubleshooting.",
-    "nl": "ATSCADA publiceert een trainingsboek over SCADA-systeemarchitectuur, installatie, tools, implementatie en probleemoplossing."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "0ea3712fa9b8",
-  "url": "https://huyuglobal.com/",
-  "title": "Low-Voltage Electrical Equipment Manufacturer | Circuit Breakers, Transfer Switches & DC Protection Factory - HUYU Electric",
-  "excerpt": "HUYU Electric is a factory-direct manufacturer of low-voltage electrical protection equipment: MCCB, MCB, RCBO, ACB, automatic transfer switches, DC isolators, SPD, combiner boxes, and fuse holders. Solutions for solar PV, battery energy storage, EV charging, wind power, and industrial power distribution. OEM/ODM with IEC, UL, TUV certifications since 1993.",
-  "source_id": "x",
-  "source": "huyuglobal.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-17T00:00:02Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "HUYUElectric"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 3,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "HUYU Electric"
-   ],
-   "summary": {
-    "en": "HUYU Electric advertises factory-direct low-voltage protection equipment for solar, storage, EV charging and industrial power distribution.",
-    "nl": "HUYU Electric adverteert met fabrieksrechtstreekse laagspanningsbeveiligingsapparatuur voor zonne-energie, opslag, laadpalen en industriële stroomverdeling."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "74a2269b4f1a",
-  "url": "https://hackersarise.thinkific.com/bundles/scada-hacking-and-security-certification-bundle",
-  "title": "SCADA/ICS/OT Hacking and Security Career Path",
-  "excerpt": "Become a SCADA/ICS/OT expert with this one-year access training, which includes not only the videos but also access to our community!",
-  "source_id": "x",
-  "source": "hackersarise.thinkific.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T21:12:53Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "three_cube"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 15,
-   "category": "guidance",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "A one-year online SCADA/ICS/OT hacking and security training course with video content and community access is promoted.",
-    "nl": "Een online opleiding van één jaar over SCADA/ICS/OT-hacking en -beveiliging met video's en communitytoegang wordt aangeprezen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "b89b42c10d8c",
-  "url": "https://techtarget.com/cybersecurity/news/366652232/CIRCIA-reporting-deadline-puts-OT-data-integrity-under-the-microscope",
-  "title": "CIRCIA reporting deadline puts OT data integrity under the microsco...",
-  "excerpt": "CIRCIA's 72-hour reporting rule exposes a bigger OT challenge: proving data integrity as AI drives industrial decisions, not just access control.",
-  "source_id": "x",
-  "source": "techtarget.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T21:00:15Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "BoozAllen"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 55,
-   "category": "regulation",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "CIRCIA's 72-hour incident reporting rule raises the challenge of proving OT data integrity as AI drives industrial decisions.",
-    "nl": "De 72-uurs meldplicht van CIRCIA maakt het bewijzen van OT-datintegriteit een uitdaging nu AI industriële beslissingen aanstuurt."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
   "id": "a499524cbdd3",
   "url": "https://bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers",
   "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
@@ -791,103 +263,6 @@
    "summary": {
     "en": "A maximum-severity BlockStrap flaw (CVE-2026-103849) affects Magento and Adobe Commerce, potentially allowing PHP code execution.",
     "nl": "Een BlockStrap-kwetsbaarheid (CVE-2026-103849) met maximale ernst treft Magento en Adobe Commerce en kan PHP-code-uitvoering mogelijk maken."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "d87c582e53a6",
-  "url": "https://jvrjobs.co.za/vereeniging-instrumentation-technician-posted-by-staff-solutions",
-  "title": "Vereeniging: Instrumentation Technician posted by Staff Solutions | JVR Jobs",
-  "excerpt": "View the current vacancy details, employer and location, then use the green Go Apply button to open the online application form on JVR Jobs.",
-  "source_id": "x",
-  "source": "jvrjobs.co.za",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T18:02:47Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "jvrjobs"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "A job vacancy for an instrumentation technician in Vereeniging is listed on JVR Jobs.",
-    "nl": "Een vacature voor instrumentatietechnicus in Vereeniging staat op JVR Jobs."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "9f547f0e2ac0",
-  "url": "https://boozallen.com/insights/velocity/the-zero-trust-imperative.html?cid=CO1-CH3-RF30-----449&dysig_tid=46624c873abf43cd96584fbe2028b194&dsuserid=316141&dsuserchannelid=100115&dsuserchanneltype=Twitter&dspostid=eb33a6ea-b191-4baf-8e8e-503d45306c5d",
-  "title": "Critical Infrastructure Under Attack: The Zero Trust Imperative",
-  "excerpt": "Adversaries are already inside OT networks. Learn how Zero Trust helps critical infrastructure prevent disruption and strengthen resilience.",
-  "source_id": "x",
-  "source": "boozallen.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T18:02:03Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "gtango"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 30,
-   "category": "industry",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Booz Allen argues Zero Trust helps critical infrastructure prevent OT disruption, noting adversaries are already inside OT networks.",
-    "nl": "Booz Allen stelt dat Zero Trust kritieke infrastructuur helpt OT-verstoringen te voorkomen, omdat tegenstanders al in OT-netwerken zitten."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "024fdc5e8368",
-  "url": "https://blog.opto22.com/optoblog?hss_channel=tw-19985754",
-  "title": "OptoBlog",
-  "excerpt": "Missed this week's #OptoBlog digest? New case study shows how to build scalable cloud #SCADA, and get the details on #NodeRED Con 2026. Catch up here: https://t.co/16ArqB7GS3 https://t.co/yMSQXX2gm0",
-  "source_id": "x",
-  "source": "blog.opto22.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T18:02:01Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "opto22"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "Opto 22"
-   ],
-   "summary": {
-    "en": "Opto 22's OptoBlog digest highlights a cloud SCADA case study and details on Node-RED Con 2026.",
-    "nl": "De OptoBlog-samenvatting van Opto 22 belicht een casestudy over cloud-SCADA en details over Node-RED Con 2026."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:08:42Z"
@@ -958,39 +333,6 @@
   }
  },
  {
-  "id": "b9e79d5f6210",
-  "url": "https://arxiv.org/abs/2610.18311",
-  "title": "BALLAST: Physics-Aware Moving Target Defense for Industrial...",
-  "excerpt": "Industrial Control Systems run on static network configurations, which leaves an attacker unlimited time to map the plant. Moving Target Defense answers this by shuffling addresses, but almost...",
-  "source_id": "x",
-  "source": "arxiv.org",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T17:26:28Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "FSFG"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 40,
-   "category": "research",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "BALLAST is a research proposal for physics-aware moving target defense in ICS, shuffling network addresses to hinder attacker mapping.",
-    "nl": "BALLAST is een onderzoeksvoorstel voor fysica-bewuste moving target defense in ICS, dat netwerkadressen verschuift om aanvallers te hinderen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
   "id": "91462b9d60ba",
   "url": "https://bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware",
   "title": "Zero-click attacks used targeted ads to deliver Candiru spyware",
@@ -1049,39 +391,6 @@
   }
  },
  {
-  "id": "1e308b819c11",
-  "url": "https://boozallen.com/insights/velocity/the-zero-trust-imperative.html?cid=CO1-CH3-RF30-----449&dysig_tid=c27c3e8300fe4f268d70c504d5a6feb7&dsuserid=781078&dsuserchannelid=103195&dsuserchanneltype=Twitter&dspostid=eb33a6ea-b191-4baf-8e8e-503d45306c5d",
-  "title": "Critical Infrastructure Under Attack: The Zero Trust Imperative",
-  "excerpt": "Adversaries are already inside OT networks. Learn how Zero Trust helps critical infrastructure prevent disruption and strengthen resilience.",
-  "source_id": "x",
-  "source": "boozallen.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T16:38:03Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "barlazyjb"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 30,
-   "category": "industry",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Booz Allen argues Zero Trust helps critical infrastructure prevent OT disruption, noting adversaries are already inside OT networks.",
-    "nl": "Booz Allen stelt dat Zero Trust kritieke infrastructuur helpt OT-verstoringen te voorkomen, omdat tegenstanders al in OT-netwerken zitten."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
   "id": "7ca539292393",
   "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
   "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
@@ -1110,238 +419,6 @@
   }
  },
  {
-  "id": "f842ad8550e9",
-  "url": "https://cvsoci.al/sQ4tXrwE?cv=1792167159187",
-  "title": "What Maritime Cyberattacks Reveal About Your Network",
-  "excerpt": "Read More...",
-  "source_id": "x",
-  "source": "cvsoci.al",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T16:12:39Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "vaibhavtandon"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 10,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "An article titled 'What Maritime Cyberattacks Reveal About Your Network' is listed without excerpt content.",
-    "nl": "Een artikel met de titel 'What Maritime Cyberattacks Reveal About Your Network' staat vermeld zonder inhoud in de samenvatting."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "ab5cf332acbf",
-  "url": "https://survalent.com/wp-content/uploads/resource/Survalent_Helix_Brochure.pdf",
-  "title": "How fast can your team investigate an event without slowing your ADMS? https://t.co/32LKE4FZBT SurvalentONE Helix captures high-resolution SCADA data at scale with minimal configuration, while reducing load on your ADMS server. Details in brochure. #SCADA #ADMS #DataHistorian https://t.co/4Np9Rs5lcH",
-  "excerpt": "How fast can your team investigate an event without slowing your ADMS? https://t.co/32LKE4FZBT SurvalentONE Helix captures high-resolution SCADA data at scale with minimal configuration, while reducing load on your ADMS server. Details in brochure. #SCADA #ADMS #DataHistorian https://t.co/4Np9Rs5lcH",
-  "source_id": "x",
-  "source": "survalent.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T16:05:04Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "survalent"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "Survalent"
-   ],
-   "summary": {
-    "en": "Survalent promotes SurvalentONE Helix, a high-resolution SCADA data capture product that reduces ADMS server load.",
-    "nl": "Survalent promoot SurvalentONE Helix, een SCADA-dataregistratieproduct dat de belasting van de ADMS-server verlaagt."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "83bf4878cd23",
-  "url": "https://boozallen.com/insights/velocity/the-zero-trust-imperative.html?cid=CO1-CH3-RF30-----449&dysig_tid=cba37bf46ca04b3b939cf5dda4cd8487&dsuserid=301533&dsuserchannelid=103664&dsuserchanneltype=Twitter&dspostid=eb33a6ea-b191-4baf-8e8e-503d45306c5d",
-  "title": "Critical Infrastructure Under Attack: The Zero Trust Imperative",
-  "excerpt": "Adversaries are already inside OT networks. Learn how Zero Trust helps critical infrastructure prevent disruption and strengthen resilience.",
-  "source_id": "x",
-  "source": "boozallen.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T15:30:52Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "TennBuckNut"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 30,
-   "category": "industry",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Booz Allen argues Zero Trust helps critical infrastructure prevent OT disruption, noting adversaries are already inside OT networks.",
-    "nl": "Booz Allen stelt dat Zero Trust kritieke infrastructuur helpt OT-verstoringen te voorkomen, omdat tegenstanders al in OT-netwerken zitten."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "eb0940dddc36",
-  "url": "https://sh3llc0d3.com/blog/critical-infrastructure-defense-program-anthropic-dragos-and-nozomi-deploy-frontier-ai-for-grid-and-water-scada-defense",
-  "title": "Critical Infrastructure Defense Program: Anthropic, Dragos and Nozomi Deploy Frontier AI for Grid and Water SCADA Defense | Shellcode (Sh3llc0d3)",
-  "excerpt": "In a historic defensive alliance addressing the accelerating threat of state-sponsored cyber sabotage, artificial intelligence research laboratory Anthropi...",
-  "source_id": "x",
-  "source": "sh3llc0d3.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T15:30:33Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "sh3ll_c0d3"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 60,
-   "category": "industry",
-   "sectors": [
-    "energy",
-    "water"
-   ],
-   "vendors": [
-    "Dragos",
-    "Nozomi Networks"
-   ],
-   "summary": {
-    "en": "Anthropic, Dragos and Nozomi Networks announce a defensive alliance applying frontier AI to grid and water SCADA defense.",
-    "nl": "Anthropic, Dragos en Nozomi Networks kondigen een defensief partnerschap aan dat frontier-AI inzet voor SCADA-verdediging van net en water."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "31b36cc781a9",
-  "url": "https://cybersecuritynews.com/hackers-exploit-exposed-industrial-controllers?hss_channel=tw-215016600",
-  "title": "Hackers Exploit Exposed Industrial Controllers to Disrupt US Water and Critical Infrastructure",
-  "excerpt": "Hackers exploit exposed industrial controllers to disrupt US water utilities, using weak passwords and remote access to alter operations.",
-  "source_id": "x",
-  "source": "cybersecuritynews.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T15:20:08Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "MADSecurityLLC"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 85,
-   "category": "incident",
-   "sectors": [
-    "water",
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Hackers exploit exposed industrial controllers with weak passwords and remote access to disrupt US water utilities and critical infrastructure.",
-    "nl": "Hackers misbruiken blootgestelde industriële controllers met zwakke wachtwoorden en externe toegang om Amerikaanse waterbedrijven en kritieke infrastructuur te verstoren."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:08:42Z"
-  }
- },
- {
-  "id": "8696ee64c6fb",
-  "url": "https://amazon.ca/INDUSTRIAL-ELECTRICIAN-CONTROLS-LICENSING-PREPARATION/dp/B0HKT6W7PG/ref=sr_1_36?crid=3STMQNI3Q5IZQ&dib=eyJ2IjoiMSJ9",
-  "title": "INDUSTRIAL ELECTRICIAN & MOTOR CONTROLS LICENSING TEST PREPARATION: 1000 Exam Explained Questions",
-  "excerpt": "is a complete, high‑performance exam mastery system engineered for electricians preparing for national NEC‑based industrial licensing exams. Built on NEC 2026–2027 fundamentals, NFPA 70E safety requirements, OSHA 1910 Subpart S, and UL 508A industrial control standards, this book delivers a...",
-  "source_id": "x",
-  "source": "amazon.ca",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T15:09:58Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "CitExamMS"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "guidance",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "A book promoting electrician licensing exam preparation based on NEC, NFPA 70E, OSHA and UL 508A standards.",
-    "nl": "Een boek ter voorbereiding op elektricienexamens, gebaseerd op NEC, NFPA 70E, OSHA en UL 508A-normen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:57:40Z"
-  }
- },
- {
-  "id": "6b49e6e5469f",
-  "url": "https://relay-roles.netlify.app/jobs/junior-ot-ics-lab-engineer-dragos-59d1e5ae",
-  "title": "Junior OT/ICS Lab Engineer · Relay Roles",
-  "excerpt": "Junior OT/ICS Lab Engineer at Dragos — remote OT/ICS role on Relay Roles. Apply on the employer site.",
-  "source_id": "x",
-  "source": "relay-roles.netlify.app",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T15:00:26Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "CarusoAmos2692"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 10,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "Dragos"
-   ],
-   "summary": {
-    "en": "A job listing for a remote Junior OT/ICS Lab Engineer role at Dragos, posted on a job aggregator site.",
-    "nl": "Een vacature voor een externe Junior OT/ICS Lab Engineer bij Dragos, geplaatst op een vacatiewebsite."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:57:40Z"
-  }
- },
- {
   "id": "6c93682bf288",
   "url": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
   "title": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
@@ -1364,44 +441,6 @@
    "summary": {
     "en": "Proofpoint will acquire data security company Varonis in an all-cash transaction valued at $6.3 billion.",
     "nl": "Proofpoint neemt dataveiligheidsbedrijf Varonis over in een contante transactie ter waarde van 6,3 miljard dollar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:57:40Z"
-  }
- },
- {
-  "id": "56f0d9fd4ff6",
-  "url": "https://sh3llc0d3.com/blog/cisa-ics-advisory-icsa-26-286-01-inductive-automation-ignition-scada-privilege-escalation-cve-2026-92817-in-manufacturing-and-energy",
-  "title": "CISA ICS Advisory ICSA-26-286-01: Inductive Automation Ignition SCADA Privilege Escalation (CVE-2026-92817) in Manufacturing and Energy | Shellcode (Sh3llc0d3)",
-  "excerpt": "The Cybersecurity and Infrastructure Security Agency (CISA) has released industrial control systems advisory ICSA-26-286-01, alerting critical infrastructu...",
-  "source_id": "x",
-  "source": "sh3llc0d3.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T14:30:43Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [
-   "CVE-2026-92817"
-  ],
-  "x_mentions": 1,
-  "x_handles": [
-   "sh3ll_c0d3"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 80,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing",
-    "energy"
-   ],
-   "vendors": [
-    "Inductive Automation"
-   ],
-   "summary": {
-    "en": "CISA published ICS advisory ICSA-26-286-01 describing a privilege escalation vulnerability (CVE-2026-92817) in Inductive Automation Ignition SCADA.",
-    "nl": "CISA publiceerde ICS-advisory ICSA-26-286-01 over een privilege escalation kwetsbaarheid (CVE-2026-92817) in Inductive Automation Ignition SCADA."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:57:40Z"
@@ -1613,39 +652,6 @@
   }
  },
  {
-  "id": "28824d74ee5c",
-  "url": "https://boozallen.com/insights/velocity/the-zero-trust-imperative.html?cid=CO1-CH3-RF30-----449&dysig_tid=37ec89fa86cf4423878a8abd5b602043&dsuserid=619290&dsuserchannelid=99387&dsuserchanneltype=Twitter&dspostid=eb33a6ea-b191-4baf-8e8e-503d45306c5d",
-  "title": "Critical Infrastructure Under Attack: The Zero Trust Imperative",
-  "excerpt": "Adversaries are already inside OT networks. Learn how Zero Trust helps critical infrastructure prevent disruption and strengthen resilience.",
-  "source_id": "x",
-  "source": "boozallen.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T12:53:03Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "DietzMarcu44077"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 25,
-   "category": "guidance",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "A Booz Allen article promotes Zero Trust as a way for critical infrastructure to prevent disruption of OT networks.",
-    "nl": "Een artikel van Booz Allen promoot Zero Trust als manier voor kritieke infrastructuur om verstoring van OT-netwerken te voorkomen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:57:40Z"
-  }
- },
- {
   "id": "2e0517ddc3f3",
   "url": "https://helpnetsecurity.com/2026/10/16/rfq-phishing-emails-sales-procurement-staff",
   "title": "Hackers disguise phishing as promising business opportunities",
@@ -1668,39 +674,6 @@
    "summary": {
     "en": "Attackers send fake RFQ emails to steal business email credentials, with a 12-fold increase in malicious RFQ-themed messages.",
     "nl": "Aanvallers sturen valse RFQ-e-mails om inloggegevens van zakelijke e-mail te stelen, met een twaalfvoudige toename van kwaadaardige berichten."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:57:40Z"
-  }
- },
- {
-  "id": "78c56c28ce78",
-  "url": "https://ace-iss.com/post/how-aveva-connect-helps-modernize-legacy-hmi-and-scada-solutions",
-  "title": "How AVEVA CONNECT Helps Modernize Legacy HMI and SCADA Solutions",
-  "excerpt": "Legacy HMI and SCADA systems can remain valuable while their information becomes part of a modern industrial architecture. Discover how AVEVA CONNECT supports connectivity, contextualization, data flows, and gradual modernization.",
-  "source_id": "x",
-  "source": "ace-iss.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T12:40:18Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "ACE_SEU"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 15,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "AVEVA"
-   ],
-   "summary": {
-    "en": "A vendor article describes how AVEVA CONNECT supports modernizing legacy HMI and SCADA systems through connectivity and data flows.",
-    "nl": "Een leveranciersartikel beschrijft hoe AVEVA CONNECT helpt bij het moderniseren van verouderde HMI- en SCADA-systemen via connectiviteit."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:57:40Z"
@@ -2272,39 +1245,6 @@
   }
  },
  {
-  "id": "59fff175536a",
-  "url": "https://event.on24.com/wcc/r/5469832/C05DA2E0A61E1A8D84A40F1A5F586F9C?medium=social&blaid=9061498",
-  "title": "CompTIA SecOT+: Building the Skills to Secure Operational Technology",
-  "excerpt": "Thursday, November 05, 2026 at 10:00 AM Central Standard Time.",
-  "source_id": "x",
-  "source": "event.on24.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T08:22:57Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "moss_j_CompTIA"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 30,
-   "category": "industry",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "CompTIA announced a SecOT+ webinar on building skills to secure operational technology, scheduled for November 5, 2026.",
-    "nl": "CompTIA kondigt een SecOT+-webinar aan over het opbouwen van vaardigheden om operationele technologie te beveiligen, gepland op 5 november 2026."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:57:59Z"
-  }
- },
- {
   "id": "23310a1cc660",
   "url": "https://security.nl/posting/957887/Twaalfhonderd+Copeland-koelsystemen+supermarkten+online+toegankelijk?channel=rss",
   "title": "Twaalfhonderd Copeland-koelsystemen supermarkten online toegankelijk",
@@ -2367,37 +1307,6 @@
   }
  },
  {
-  "id": "0e784a843024",
-  "url": "https://scada-thai.com/products/factory-production-management-and-monitoring-system",
-  "title": "Free SCADA Platform for Smart Manufacturing | MES System, Vision System & Factory Digital Transformation",
-  "excerpt": "Discover a free SCADA platform designed for modern industry, connecting MES system and vision system to drive factory digital transformation",
-  "source_id": "x",
-  "source": "scada-thai.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T07:27:25Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "PBachxuan"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "A vendor page promotes a free SCADA platform connecting MES and vision systems for factory digital transformation.",
-    "nl": "Een leverancierspagina promoot een gratis SCADA-platform dat MES- en visionsystemen koppelt voor digitale transformatie van fabrieken."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:57:59Z"
-  }
- },
- {
   "id": "0bae4e03635c",
   "url": "https://security.nl/posting/957881/NCSC+verwacht+toename+van+aanvallen+op+Cisco+Secure+Email+Gateways?channel=rss",
   "title": "NCSC verwacht toename van aanvallen op Cisco Secure Email Gateways",
@@ -2422,37 +1331,6 @@
    "summary": {
     "en": "The Dutch NCSC expects an increase in attacks on Cisco Secure Email Gateways.",
     "nl": "Het Nationaal Cyber Security Centrum verwacht een toename van aanvallen op Cisco Secure Email Gateways."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:57:59Z"
-  }
- },
- {
-  "id": "2ecfa9fbddeb",
-  "url": "https://atscada.com/steel-industry-digital-transformation",
-  "title": "Steel Industry Digital Transformation | SCADA Solutions",
-  "excerpt": "Steel industry digital transformation helps optimize production, reduce costs, and improve efficiency with smart automation solutions.",
-  "source_id": "x",
-  "source": "atscada.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T07:14:31Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "marry_atscada"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "A vendor page describes steel industry digital transformation and smart automation solutions for production efficiency.",
-    "nl": "Een leverancierspagina beschrijft digitale transformatie in de staalindustrie en slimme automatiseringsoplossingen voor productie-efficiëntie."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:57:59Z"
@@ -2575,68 +1453,6 @@
    "summary": {
     "en": "Albert Heijn cannot yet deliver groceries following a cybersecurity incident discovered last Sunday.",
     "nl": "Albert Heijn kan na een cybersecurity-incident dat vorige zondag werd ontdekt nog steeds geen boodschappen bezorgen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:58:25Z"
-  }
- },
- {
-  "id": "f1ef46626f79",
-  "url": "https://cybivalue.com/best-ics-scada-security-testing-services-in-assam",
-  "title": "Best ICS/SCADA Security Testing Services in Assam",
-  "excerpt": "ICS/SCADA security testing services in Bangalore to secure industrial systems, identify vulnerabilities, and protect critical infrastructure from cyber threats.",
-  "source_id": "x",
-  "source": "cybivalue.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T06:42:52Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "ruchicybiv1phh"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "Marketing page advertising ICS/SCADA security testing services with no security news.",
-    "nl": "Marketingpagina die ICS/SCADA-beveiligingstestdiensten aanbiedt, zonder beveiligingsnieuws."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:58:25Z"
-  }
- },
- {
-  "id": "d484aafeec72",
-  "url": "https://cybivalue.com/",
-  "title": "Cybivalue | Your Trusted Partner in Cybersecurity. - Cybivalue | Your Trusted Partner in Cybersecurity.",
-  "excerpt": "CYBIVALUEProfessional Protection With Reliable Service Cybivalue provides top-tier cybersecurity solutions that protect your business with proactive strategies and advanced threat prevention. Download Sample Report Download Sample Certificate Security Services CybiValue delivers comprehensive security services to identify vulnerabilities, reduce cyber risks, protect critical assets, and strengthen your organization’s overall security posture. Data Privacy CybiValue helps organizations",
-  "source_id": "x",
-  "source": "cybivalue.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T06:42:52Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "ruchicybiv1phh"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "Corporate homepage of a cybersecurity services company with no specific security news.",
-    "nl": "Homepage van een cybersecuritybedrijf zonder specifiek beveiligingsnieuws."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:58:25Z"
@@ -2932,37 +1748,6 @@
   }
  },
  {
-  "id": "f9c12af4f856",
-  "url": "https://blox-electric.com/",
-  "title": "Blox Electric",
-  "excerpt": "Blox Electric",
-  "source_id": "x",
-  "source": "blox-electric.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T05:34:03Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "BloxElectric123"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 0,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "Company homepage with no substantive security content in the excerpt.",
-    "nl": "Bedrijfshomepage zonder inhoudelijke beveiligingsinformatie in het fragment."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:58:25Z"
-  }
- },
- {
   "id": "19c99528aea4",
   "url": "https://helpnetsecurity.com/2026/10/16/cybersecurity-job-postings-talent-shortage",
   "title": "The cyber talent shortage? Job postings just hit a four-year low",
@@ -2985,37 +1770,6 @@
    "summary": {
     "en": "US cybersecurity job postings fell to a four-year low from January to September 2026, with a shift toward GRC roles.",
     "nl": "Vacatures voor cybersecurity in de VS daalden van januari tot september 2026 tot een vierjaarlijks dieptepunt, met meer GRC-functies."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:58:25Z"
-  }
- },
- {
-  "id": "09270070de76",
-  "url": "https://ebyteiot.com/",
-  "title": "EBYTE IOT Module Modem Manufacturer",
-  "excerpt": "EBYTE has been focusing on IOT communication field for more than 10 years, with 1000 self-developed IOT modules/Modems. Provide OEM/ODM solutions. 7*24H technical support. EBYTE manufacturer factory offers bulk wholesale prices.",
-  "source_id": "x",
-  "source": "ebyteiot.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T05:25:59Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "EBYTE18"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "Manufacturer of IoT communication modules and modems offering OEM/ODM services, with promotional content only.",
-    "nl": "Fabrikant van IoT-communicatiemodules en modems met OEM/ODM-diensten, uitsluitend promotionele inhoud."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:58:25Z"
@@ -3173,70 +1927,6 @@
   }
  },
  {
-  "id": "9d4ddc179359",
-  "url": "https://huyuelectric.com/",
-  "title": "Custom Low Voltage Electrical Manufacturer | HUYU Electric",
-  "excerpt": "HUYU Electric manufactures low-voltage products for distribution, circuit protection, and new energy. Explore products, applications, and support.",
-  "source_id": "x",
-  "source": "huyuelectric.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-16T01:56:11Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "HUYUElectric"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "HUYU Electric"
-   ],
-   "summary": {
-    "en": "HUYU Electric is a manufacturer of low-voltage electrical products for distribution, circuit protection and new energy.",
-    "nl": "HUYU Electric is een fabrikant van laagspanningsproducten voor distributie, circuitbeveiliging en nieuwe energie."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:58:41Z"
-  }
- },
- {
-  "id": "a19da272190b",
-  "url": "https://opcua-lab.com/",
-  "title": "OPC UA Lab - Industrial Validation, Simplified.",
-  "excerpt": "A lightweight, air-gapped testbed for simulating OPC UA environments, validating client/server topologies, and accelerating industrial protocol testing without heavy physical hardware dependencies.",
-  "source_id": "x",
-  "source": "opcua-lab.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-15T22:12:46Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "HangTrace"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 8,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "OPC UA Lab offers a lightweight, air-gapped testbed for validating OPC UA client and server topologies without heavy hardware.",
-    "nl": "OPC UA Lab biedt een lichtgewicht, air-gapped testomgeving om OPC UA-client- en servertopologieën te valideren zonder zware hardware."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:58:41Z"
-  }
- },
- {
   "id": "c5cb3c9094bd",
   "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
   "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
@@ -3332,42 +2022,6 @@
   }
  },
  {
-  "id": "b1578f4495e1",
-  "url": "https://streamlinecontrol.com/events-resources/whats-new/join-streamline-at-the-aveva-pipeline-summit-2026",
-  "title": "Join Streamline at the AVEVA Pipeline Summit 2026! - Streamline Control",
-  "excerpt": "This October, the pipeline community is gathering in Kananaskis, Alberta for the AVEVA Pipeline ...",
-  "source_id": "x",
-  "source": "streamlinecontrol.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-15T20:00:01Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "streamlinectrl"
-  ],
-  "cls": {
-   "relevant": false,
-   "score": 5,
-   "category": "industry",
-   "sectors": [
-    "oil_gas"
-   ],
-   "vendors": [
-    "AVEVA",
-    "Streamline Control"
-   ],
-   "summary": {
-    "en": "Streamline Control announces attendance at the AVEVA Pipeline Summit 2026 in Kananaskis, Alberta this October.",
-    "nl": "Streamline Control kondigt aan aanwezig te zijn op de AVEVA Pipeline Summit 2026 in Kananaskis, Alberta, deze oktober."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:58:41Z"
-  }
- },
- {
   "id": "112528776124",
   "url": "https://bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls",
   "title": "Android gets AI defenses against messaging scams, fake calls",
@@ -3393,39 +2047,6 @@
    "summary": {
     "en": "Google is rolling out AI-powered defenses on Android against scam messages and call-forwarding abuse.",
     "nl": "Google rolt op Android AI-gestuurde verdediging uit tegen scamberichten en misbruik van doorschakelen van oproepen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-17T23:58:41Z"
-  }
- },
- {
-  "id": "f21b0c436b07",
-  "url": "https://undercodetesting.com/industrial-refrigeration-cyberattacks-securing-iot-controllers-and-operational-technology-infrastructure-video",
-  "title": "Industrial Refrigeration Cyberattacks: Securing IoT Controllers And Operational Technology Infrastructure + Video - Undercode Testing",
-  "excerpt": "Industrial Refrigeration Cyberattacks: Securing IoT Controllers and Operational Technology Infrastructure + Video - \"Undercode Testing\": Monitor hackers like",
-  "source_id": "x",
-  "source": "undercodetesting.com",
-  "lang": "en",
-  "kind": "news",
-  "focus": "broad",
-  "published": "2026-10-15T19:36:28Z",
-  "fetched": "2026-10-17T23:56:35Z",
-  "cves": [],
-  "x_mentions": 1,
-  "x_handles": [
-   "UndercodeUpdate"
-  ],
-  "cls": {
-   "relevant": true,
-   "score": 45,
-   "category": "guidance",
-   "sectors": [
-    "food"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "An article discusses cyberattacks on industrial refrigeration IoT controllers and how to secure operational technology infrastructure.",
-    "nl": "Een artikel gaat over cyberaanvallen op IoT-regelaars van industriële koeling en over het beveiligen van operationele technologie-infrastructuur."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:58:41Z"
@@ -7990,6 +6611,39 @@
   }
  },
  {
+  "id": "5e95e91c3259",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/ot-visibility-waterfall-siemens-energy",
+  "title": "OT Visibility Without the Trade-Off: How Waterfall & Siemens Energy are Securing Critical Infrastructure together",
+  "excerpt": "Lior Frenkel on the joint Waterfall and Siemens Energy MDR solution: real-time OT visibility through Unidirectional Gateways, with no path back into the systems.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-10-13T08:38:46Z",
+  "fetched": "2026-10-18T00:28:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Waterfall Security",
+    "Siemens Energy"
+   ],
+   "summary": {
+    "en": "Waterfall and Siemens Energy present a joint MDR solution offering OT visibility through unidirectional gateways.",
+    "nl": "Waterfall en Siemens Energy presenteren een gezamenlijke MDR-oplossing die OT-zichtbaarheid biedt via unidirectionele gateways."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
   "id": "71b95bd9d755",
   "url": "https://security.nl/posting/957310/%27Duizenden+online+koelsystemen+gebruiken+datum+als+wachtwoord%27?channel=rss",
   "title": "'Duizenden online koelsystemen gebruiken datum als wachtwoord'",
@@ -11038,6 +9692,64 @@
   }
  },
  {
+  "id": "02f7996d1933",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/consequence-based-risk-matrices-iec-62443-3-2",
+  "title": "Consequence-Based Risk Matrices for IEC 62443-3-2",
+  "excerpt": "Andrew Ginter shares a proposed IEC 62443-3-2 Appendix C: consequence-based risk matrices that replace likelihood with credibility for high-impact OT cyber attacks.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-10-06T05:55:38Z",
+  "fetched": "2026-10-18T00:28:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A proposed IEC 62443-3-2 Appendix C introduces consequence-based risk matrices that replace likelihood with credibility for high-impact OT cyber attacks.",
+    "nl": "Een voorgestelde IEC 62443-3-2 Appendix C introduceert op gevolgen gebaseerde risicomatrices, waarbij waarschijnlijkheid wordt vervangen door geloofwaardigheid van high-impact OT-aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
+  "id": "b7d0a22a1215",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/new-attack-visualizations",
+  "title": "New Attack Visualizations, AI Attack Insights & Threat Data",
+  "excerpt": "This webinar reviews recent government directives, clears up the controversy, and introduces practical approaches to islanding. We evaluate islanding advice in the context of the emerging era of AI-based zero-day exploits.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-10-04T14:13:39Z",
+  "fetched": "2026-10-18T00:28:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Waterfall webinar covers government directives, islanding approaches and AI-based zero-day exploits affecting OT.",
+    "nl": "Een webinar van Waterfall behandelt overheidsrichtlijnen, islanding-benaderingen en AI-gebaseerde zero-day-exploits voor OT."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
   "id": "218dd02811c6",
   "url": "https://cert-portal.siemens.com/productcert/html/ssa-627195.html",
   "title": "SSA-627195 V1.2 (Last Update: 2026-09-28): Zip Path Traversal Vulnerability in Mendix Studio Pro's Module Installation Process",
@@ -11068,6 +9780,38 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:52Z"
+  }
+ },
+ {
+  "id": "e56c22ed05e6",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/ot-isolation-self-assessment",
+  "title": "Is Your OT Actually Isolated?A 5-Minute Self-Assessment",
+  "excerpt": "The CI-Fortify guidance asks critical infrastructure operators to prepare to isolate vital OT during a cyber emergency. Answer seven questions to get a clear picture of your isolation readiness — and the gaps worth investigating next.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-09-23T07:13:17Z",
+  "fetched": "2026-10-18T00:28:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Waterfall Security"
+   ],
+   "summary": {
+    "en": "A Waterfall self-assessment asks seven questions to gauge OT isolation readiness under the CI-Fortify guidance.",
+    "nl": "Een zelfbeoordeling van Waterfall stelt zeven vragen over de isolatiegereedheid van OT volgens de CI-Fortify-richtlijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
   }
  },
  {
@@ -11129,6 +9873,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:52Z"
+  }
+ },
+ {
+  "id": "a423bba88af1",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/offshore-norge-104-network-engineering-for-ot-cybersecurity",
+  "title": "Offshore Norge 104: Network Engineering for OT Cybersecurity",
+  "excerpt": "Recommended guidelines on cyber security baseline requirements for Operational Technology (OT) systems were published in June 2026. I reviewed them...",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-09-16T13:53:17Z",
+  "fetched": "2026-10-18T00:28:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "guidance",
+   "sectors": [
+    "oil_gas"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A review of newly published June 2026 OT cyber security baseline guidelines for offshore operations, focusing on network engineering.",
+    "nl": "Een beoordeling van OT-cyberbeveiligingsbaseline-richtlijnen die in juni 2026 zijn gepubliceerd, met focus op netwerkengineering voor offshore."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
   }
  },
  {
@@ -11535,13 +10309,21 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 15,
    "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Mendix"
+   ],
+   "summary": {
+    "en": "Siemens advises updating the Mendix SAML module to fix an account hijacking vulnerability in specific SSO configurations.",
+    "nl": "Siemens adviseert de Mendix SAML-module te updaten om een account-kaapvulnerability in specifieke SSO-configuraties te verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
   }
  },
  {
@@ -11560,13 +10342,48 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 60,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "Forescout researchers used AI to port a PLC exploit to a different model for $536 and 8 hours, though a later payload destroyed hardware.",
+    "nl": "Forescout-onderzoekers gebruikten AI om een PLC-exploit naar een ander model te porten voor 536 dollar en 8 uur, maar een latere payload vernielde hardware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
+  "id": "0fa961856e0f",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/multi-national-ci-fortify-guidance-at-a-glance",
+  "title": "Multi-national CI Fortify Guidance at a Glance",
+  "excerpt": "Four governments just advised critical infrastructure operators to prepare to isolate their most important OT systems. Here’s what that means, who should care, and what to do about it.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-08-27T11:16:43Z",
+  "fetched": "2026-10-18T00:28:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Four governments advised critical infrastructure operators to prepare to isolate their most important OT systems during a cyber emergency.",
+    "nl": "Vier overheden adviseerden exploitanten van kritieke infrastructuur zich voor te bereiden op het isoleren van hun belangrijkste OT-systemen bij een cybernoodsituatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
   }
  },
  {
@@ -11585,13 +10402,18 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "water"
+   ],
    "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "summary": {
+    "en": "CISA urges US water utilities to find and secure internet-exposed PLCs after over 100 such systems were attacked in July 2026.",
+    "nl": "CISA roept Amerikaanse waterbedrijven op internet-blootgestelde PLC's te identificeren en te beveiligen, nadat er in juli 2026 meer dan 100 zulke systemen werden aangevallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
   }
  },
  {
@@ -11610,13 +10432,50 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
+   "score": 30,
    "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens released fixed versions of the @siemens/maps-ng package to address a cross-site scripting vulnerability in Element Maps.",
+    "nl": "Siemens heeft nieuwe versies van het @siemens/maps-ng-pakket uitgebracht om een cross-site scripting-kwetsbaarheid in Element Maps te verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
+  "id": "e15e4ed45c32",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/keeping-ot-going-when-it-goes-dark-failsafe-designs-for-cyber-emergencies",
+  "title": "Keeping OT Going When IT Goes Dark",
+  "excerpt": "This webinar reviews recent government directives, clears up the controversy, and introduces practical approaches to islanding. We evaluate islanding advice in the context of the emerging era of AI-based zero-day exploits.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-08-23T10:20:48Z",
+  "fetched": "2026-10-18T00:28:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
    "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "vendors": [
+    "Waterfall Security"
+   ],
+   "summary": {
+    "en": "A Waterfall webinar covers government directives, islanding approaches and AI-based zero-day exploits affecting OT.",
+    "nl": "Een webinar van Waterfall behandelt overheidsrichtlijnen, islanding-benaderingen en AI-gebaseerde zero-day-exploits voor OT."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
   }
  },
  {
@@ -11635,13 +10494,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "score": 60,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens updated its security bulletin on increasing cyber threats to industrial control systems on 2026-08-21.",
+    "nl": "Siemens heeft op 21-08-2026 zijn beveiligingsbulletin over toenemende cyberdreigingen voor industriële besturingssystemen bijgewerkt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
   }
  },
  {
@@ -11660,13 +10526,20 @@
   "x_mentions": 0,
   "cls": {
    "relevant": true,
-   "score": 50,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [],
-   "summary": {},
-   "model": "heuristic",
-   "at": "2026-10-14T21:44:17Z"
+   "score": 95,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "NSA, CISA, FBI, DOE and EPA issued advisory CISA AA26-231A warning of an active AI-assisted campaign against Siemens S7 PLCs in US critical infrastructure.",
+    "nl": "NSA, CISA, FBI, DOE en EPA hebben advies AA26-231A uitgebracht over een actieve, AI-ondersteunde campagne tegen Siemens S7-PLC's in Amerikaanse kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-18T00:28:22Z"
   }
  }
 ]
