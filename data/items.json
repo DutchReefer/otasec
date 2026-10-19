@@ -1,5 +1,201 @@
 [
  {
+  "id": "ef9106e46e0d",
+  "url": "https://www.security.nl/posting/957963/Gebruikers+AOMEI+Backupper+via+update-servers+besmet+met+malware?channel=rss",
+  "title": "Gebruikers AOMEI Backupper via update-servers besmet met malware",
+  "excerpt": "Aanvallers hebben de update-servers van AOMEI Backupper meerdere keren misbruikt om gebruikers met malware te infecteren, zo ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T07:34:45Z",
+  "fetched": "2026-10-19T07:50:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers repeatedly abused the update servers of AOMEI Backupper to infect users with malware, according to the report.",
+    "nl": "Aanvallers hebben de update-servers van AOMEI Backupper meerdere keren misbruikt om gebruikers met malware te infecteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T07:50:54Z"
+  }
+ },
+ {
+  "id": "f519e0b522d7",
+  "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+  "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+  "excerpt": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T06:29:44Z",
+  "fetched": "2026-10-19T07:50:44Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researcher Quentin Kaiser disclosed an unpatched Broadcom Wi-Fi setup software flaw allowing root code execution on Broadcom-based home routers within radio range.",
+    "nl": "Onderzoeker Quentin Kaiser heeft een ongepatchte Broadcom Wi-Fi-kwetsbaarheid onthuld waarmee op thuisrouters root-code kan worden uitgevoerd vanuit radiobereik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T07:50:54Z"
+  }
+ },
+ {
+  "id": "1de1c48ce23b",
+  "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+  "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+  "excerpt": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T06:07:08Z",
+  "fetched": "2026-10-19T07:50:44Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An intruder may have exposed OpenAI, Anthropic and Google API keys stored in OpenCode Console after reaching a legacy system.",
+    "nl": "Een indringer heeft mogelijk OpenAI-, Anthropic- en Google-API-sleutels blootgesteld die in OpenCode Console waren opgeslagen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T07:50:54Z"
+  }
+ },
+ {
+  "id": "3f560c489533",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/bearer-cli-free-code-security-scanning-tool-sast/",
+  "title": "Bearer CLI: Free, source-available code security scanning tool (SAST)",
+  "excerpt": "Bearer CLI is a free static application security testing (SAST) tool that scans source code for vulnerabilities and prioritizes them by the sensitive data they touch. SAST means the tool reads code without running it. Organizations can use it freely, with a license restriction covered below. Bearer’s complaint is that SAST tools can hand developers hundreds of findings with no sense of which to fix first. Its fix is to follow sensitive data through the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T05:30:38Z",
+  "fetched": "2026-10-19T07:50:44Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bearer CLI is a free source-available SAST tool that prioritizes code vulnerabilities by the sensitive data they touch.",
+    "nl": "Bearer CLI is een gratis, source-available SAST-tool die codekwetsbaarheden prioriteert op basis van de gevoelige data die ze raken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T07:50:54Z"
+  }
+ },
+ {
+  "id": "1a9a6bd554f4",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/rpo-rto-video/",
+  "title": "RPO and RTO explained with a real disaster recovery example",
+  "excerpt": "In this Help Net Security video, Matthew Burden, CEO of BlackBox Hosting, explains RPO and RTO and how they differ in practice. RPO, the recovery point objective, is the most data you can lose, measured in time. RTO, the recovery time objective, is the longest your business can stay down. A backup does not guarantee quick recovery, and quick recovery does not help if the data is days old. Burden says every application needs its … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T05:00:21Z",
+  "fetched": "2026-10-19T07:50:44Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A video explains the difference between recovery point objective and recovery time objective in disaster recovery planning.",
+    "nl": "Een video legt het verschil uit tussen recovery point objective en recovery time objective in disaster recovery-planning."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T07:50:54Z"
+  }
+ },
+ {
+  "id": "1ec25ddec91e",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/datadome-ai-agent-traffic-report/",
+  "title": "Half the AI bot traffic hammering your website comes from Meta",
+  "excerpt": "AI agent traffic across DataDome’s network grew 41.5% quarter over quarter to nearly 25 billion requests in Q3 2026, according to the company’s AI Traffic Report Q3 2026. Meta’s Muse generated 29.1 million requests between September 22 and October 3, its first 12 days of full availability. In a sample of Muse traffic, 99.3% of requests came from cloud and CDN infrastructure. Nearly half of the AI agent traffic recorded in 2026 through September occurred … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T04:30:52Z",
+  "fetched": "2026-10-19T07:50:44Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "DataDome's report shows AI agent traffic grew 41.5% quarter over quarter, with Meta accounting for about half of AI bot traffic.",
+    "nl": "Het DataDome-rapport toont dat AI-agentverkeer met 41,5% groeide per kwartaal, waarbij Meta ongeveer de helft van het AI-bottraffic veroorzaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T07:50:54Z"
+  }
+ },
+ {
+  "id": "18e0f0293606",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/",
+  "title": "Ransomware pressure now reaches employees’ homes and families",
+  "excerpt": "Ransomware attackers threatened employees’ family members or friends at 37% of organizations surveyed for Semperis’ 2026 Ransomware Risk Report. The survey covered 1,200 IT and security professionals at organizations that had experienced at least one successful ransomware attack. “Ransomware has proven to be a great cash-generating activity for criminal syndicates, which have no hesitation about inflicting both cyber and physical harm,” said Mickey Bresman, Semperis CEO. Threats reach beyond the workplace Respondents described threatening messages, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T04:00:22Z",
+  "fetched": "2026-10-19T07:50:44Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Semperis' 2026 Ransomware Risk Report found that 37% of surveyed organizations had employees' family members or friends threatened by ransomware attackers.",
+    "nl": "Het Semperis 2026 Ransomware Risk Report meldt dat 37% van de organisaties te maken had met bedreigingen van familieleden of vrienden van medewerkers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T07:50:54Z"
+  }
+ },
+ {
   "id": "103fb8daac92",
   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
   "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
