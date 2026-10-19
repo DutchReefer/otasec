@@ -1,82 +1,26 @@
 {
  "date": "2026-10-19",
- "published": "2026-10-19T07:51:21Z",
+ "published": "2026-10-19T09:39:17Z",
  "model": "claude-sonnet-5-5",
- "item_count": 12,
+ "item_count": 6,
  "i18n": {
   "en": {
    "title": "OTASEC Briefing – 19-10-2026",
-   "intro": "Unsecured remote access to refrigeration systems at French supermarkets leads the day, alongside a new draft of NIST's OT security guide and fresh data on weak OT network segmentation. A critical BeyondTrust fix and updates to MITRE ATT&CK also deserve attention."
+   "intro": "A quiet day with no new exploited vulnerabilities or advisories. The news is about guidance and frameworks: MITRE ATT&CK v20, Singapore's quantum-safe push, and the OT security debt in manufacturing."
   },
   "nl": {
    "title": "OTASEC-briefing – 19-10-2026",
-   "intro": "Onbeveiligde toegang op afstand tot koelsystemen bij Franse supermarkten staat vandaag voorop, naast een nieuw concept van de NIST-gids voor OT-beveiliging en nieuwe cijfers over zwakke netwerksegmentatie in OT. Ook een kritieke BeyondTrust-fix en updates van MITRE ATT&CK verdienen aandacht."
+   "intro": "Een rustige dag zonder nieuwe actief misbruikte kwetsbaarheden of advisories. Het nieuws gaat over richtlijnen en raamwerken: MITRE ATT&CK v20, de quantum-safe aanpak van Singapore en de OT-securityschuld in de maakindustrie."
   }
  },
  "stories": [
   {
    "sources": [
     {
-     "id": "351b55202c4a",
+     "id": "6124a498c474",
      "name": "Industrial Cyber",
-     "url": "https://industrialcyber.co/control-device-security/french-supermarket-cyberattack-exposes-risks-of-unsecured-remote-access-and-legacy-refrigeration-systems",
-     "title": "French supermarket cyberattack exposes risks of unsecured remote access and legacy refrigeration systems"
-    },
-    {
-     "id": "23310a1cc660",
-     "name": "Security.NL",
-     "url": "https://security.nl/posting/957887/Twaalfhonderd+Copeland-koelsystemen+supermarkten+online+toegankelijk?channel=rss",
-     "title": "Twaalfhonderd Copeland-koelsystemen supermarkten online toegankelijk"
-    }
-   ],
-   "source_count": 2,
-   "x_mentions": 0,
-   "cves": [],
-   "i18n": {
-    "en": {
-     "heading": "Supermarket refrigeration systems hit by cyberattacks and found exposed online",
-     "summary": "Cyberattacks on refrigeration systems disrupted hundreds of French supermarkets overnight from Oct. 11, with commentary pointing to unsecured remote access and legacy refrigeration systems. Separately, Security.NL reports that around 1,200 Copeland refrigeration systems, 48 of them in the Netherlands, are accessible online and therefore at risk.",
-     "takeaway": "Check whether any refrigeration or building-related control systems, including supplier-managed ones, are reachable from the internet, and close or secure that remote access."
-    },
-    "nl": {
-     "heading": "Koelsystemen van supermarkten getroffen door cyberaanvallen en online blootgesteld",
-     "summary": "Cyberaanvallen op koelsystemen verstoorden vanaf 11 oktober 's nachts honderden Franse supermarkten, waarbij gewezen wordt op onbeveiligde toegang op afstand en verouderde koelsystemen. Security.NL meldt daarnaast dat zo'n 1.200 koelsystemen van Copeland, waarvan 48 in Nederland, online toegankelijk zijn en daardoor risico lopen.",
-     "takeaway": "Controleer of koel- en andere gebouwgebonden besturingssystemen, ook die door leveranciers worden beheerd, vanaf internet bereikbaar zijn, en sluit of beveilig die toegang op afstand."
-    }
-   }
-  },
-  {
-   "sources": [
-    {
-     "id": "88196369f563",
-     "name": "securityweek.com",
-     "url": "https://securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis",
-     "title": "Only 13% of OT Network Segments Are Fully Isolated: Analysis"
-    }
-   ],
-   "source_count": 1,
-   "x_mentions": 2,
-   "cves": [],
-   "i18n": {
-    "en": {
-     "heading": "Forescout: only 13% of OT network segments fully isolated",
-     "summary": "New network segmentation research from Forescout finds that only 13% of OT network segments are fully isolated. OT and medical devices often share segments with other enterprise assets.",
-     "takeaway": "Review how your OT segments are separated from enterprise assets and verify that the segmentation actually works as designed."
-    },
-    "nl": {
-     "heading": "Forescout: slechts 13% van de OT-netwerksegmenten volledig geïsoleerd",
-     "summary": "Nieuw onderzoek van Forescout naar netwerksegmentatie laat zien dat slechts 13% van de OT-netwerksegmenten volledig geïsoleerd is. OT- en medische apparaten delen vaak segmenten met andere bedrijfsmiddelen.",
-     "takeaway": "Beoordeel hoe uw OT-segmenten gescheiden zijn van bedrijfsmiddelen en controleer of de segmentatie in de praktijk werkt zoals bedoeld."
-    }
-   }
-  },
-  {
-   "sources": [
-    {
-     "id": "a58c58e6ddcc",
-     "name": "csrc.nist.gov",
-     "url": "https://csrc.nist.gov/pubs/sp/800/82/r4/ipd",
-     "title": "NIST Special Publication (SP) 800-82 Rev. 4 (Draft), Guide to Operational Technology (OT) Security"
+     "url": "https://industrialcyber.co/features/how-decades-of-disconnected-modernization-created-ot-security-debt-manufacturers-cant-escape",
+     "title": "How decades of disconnected modernization created OT security debt manufacturers can't escape - Industrial Cyber"
     }
    ],
    "source_count": 1,
@@ -84,41 +28,14 @@
    "cves": [],
    "i18n": {
     "en": {
-     "heading": "NIST publishes draft SP 800-82 Rev. 4 on OT security",
-     "summary": "NIST released a draft of Special Publication 800-82 Rev. 4, Guide to Operational Technology (OT) Security. It gives guidelines for securing OT while addressing its performance, reliability and safety requirements, and covers industrial control systems, building automation, rail, maritime and more.",
-     "takeaway": "Have your OT security team read the draft and compare it with your current security programme and controls."
+     "heading": "Disconnected modernization has built up OT security debt in manufacturing",
+     "summary": "Industrial Cyber reports that manufacturers face an OT security debt crisis. Modernization has added connectivity without addressing underlying architectural weaknesses.",
+     "takeaway": "Check whether recent connectivity or modernization projects in your plants were accompanied by an architecture and segmentation review, and plan remediation where they were not."
     },
     "nl": {
-     "heading": "NIST publiceert concept van SP 800-82 Rev. 4 over OT-beveiliging",
-     "summary": "NIST heeft een concept van Special Publication 800-82 Rev. 4, Guide to Operational Technology (OT) Security, gepubliceerd. De gids geeft richtlijnen om OT te beveiligen met oog voor prestatie-, betrouwbaarheids- en veiligheidseisen, en omvat onder meer industriële besturingssystemen, gebouwautomatisering, spoor en scheepvaart.",
-     "takeaway": "Laat uw OT-securityteam het concept doornemen en vergelijk het met uw huidige beveiligingsprogramma en maatregelen."
-    }
-   }
-  },
-  {
-   "sources": [
-    {
-     "id": "b2439be1a491",
-     "name": "NCSC-NL Advisories",
-     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0437",
-     "title": "NCSC-2026-0437 [1.00] [H/H] Kwetsbaarheid verholpen in BeyondTrust Remote Support"
-    }
-   ],
-   "source_count": 1,
-   "x_mentions": 0,
-   "cves": [
-    "CVE-2026-102764"
-   ],
-   "i18n": {
-    "en": {
-     "heading": "Critical BeyondTrust Remote Support flaw fixed (CVE-2026-102764)",
-     "summary": "BeyondTrust has fixed a critical vulnerability, CVE-2026-102764 (CVSS 9.3), in Remote Support. Insufficient validation of message origin between internal components lets an unauthenticated attacker exploit it remotely to affect files on an affected appliance.",
-     "takeaway": "If you use BeyondTrust Remote Support, including for vendor or OT access, apply the fix promptly."
-    },
-    "nl": {
-     "heading": "Kritieke kwetsbaarheid in BeyondTrust Remote Support verholpen (CVE-2026-102764)",
-     "summary": "BeyondTrust heeft een kritieke kwetsbaarheid, CVE-2026-102764 (CVSS 9.3), in Remote Support verholpen. Onvoldoende validatie van de herkomst van berichten tussen interne componenten maakt het mogelijk dat een niet-geauthenticeerde aanvaller de kwetsbaarheid op afstand misbruikt om bestanden op een getroffen appliance te raken.",
-     "takeaway": "Gebruikt u BeyondTrust Remote Support, ook voor toegang door leveranciers of tot OT, pas dan snel de fix toe."
+     "heading": "Losse moderniseringsslagen hebben OT-securityschuld in de maakindustrie opgebouwd",
+     "summary": "Industrial Cyber meldt dat fabrikanten kampen met een OT-securityschuld. Modernisering heeft extra connectiviteit toegevoegd zonder de onderliggende architectuurzwaktes aan te pakken.",
+     "takeaway": "Controleer of recente connectiviteits- of moderniseringsprojecten in uw fabrieken gepaard gingen met een architectuur- en segmentatiereview, en plan verbeteringen waar dat niet het geval was."
     }
    }
   },
@@ -137,13 +54,13 @@
    "i18n": {
     "en": {
      "heading": "MITRE ATT&CK v20 expands critical infrastructure coverage",
-     "summary": "MITRE has released version 20 of its ATT&CK framework. It expands coverage of critical infrastructure threats with new IT and OT attack techniques.",
-     "takeaway": "Update your threat models and detection coverage mapping to the new ATT&CK version."
+     "summary": "MITRE has released version 20 of its ATT&CK framework. It broadens coverage of critical infrastructure threats with new IT and OT attack techniques.",
+     "takeaway": "Have your security team map current detection and response coverage against the new OT techniques to find gaps."
     },
     "nl": {
      "heading": "MITRE ATT&CK v20 breidt dekking voor kritieke infrastructuur uit",
-     "summary": "MITRE heeft versie 20 van het ATT&CK-framework uitgebracht. Die breidt de dekking van dreigingen voor kritieke infrastructuur uit met nieuwe IT- en OT-aanvalstechnieken.",
-     "takeaway": "Werk uw dreigingsmodellen en de mapping van detectiedekking bij naar de nieuwe ATT&CK-versie."
+     "summary": "MITRE heeft versie 20 van het ATT&CK-framework uitgebracht. Die vergroot de dekking van dreigingen voor kritieke infrastructuur met nieuwe IT- en OT-aanvalstechnieken.",
+     "takeaway": "Laat uw securityteam de huidige detectie- en responsdekking afzetten tegen de nieuwe OT-technieken om hiaten te vinden."
     }
    }
   },
@@ -161,24 +78,24 @@
    "cves": [],
    "i18n": {
     "en": {
-     "heading": "Singapore issues quantum-safe migration guidance for critical infrastructure",
-     "summary": "The Cyber Security Agency of Singapore (CSA) issued quantum-safe migration guidance for organizations exposed to quantum-related cybersecurity risks. Critical infrastructure is prioritized, with funding for cryptographic discovery and legacy OT migration.",
-     "takeaway": "Start taking inventory of the cryptography used in long-lived OT assets so migration planning has a baseline."
+     "heading": "Singapore's CSA issues quantum-safe migration guidance with focus on critical infrastructure",
+     "summary": "The Cyber Security Agency of Singapore has issued quantum-safe migration guidance. It prioritizes critical infrastructure and backs cryptographic discovery and the migration of legacy OT.",
+     "takeaway": "Start inventorying the cryptography used in long-lived OT assets, since legacy systems are the hardest to migrate later."
     },
     "nl": {
-     "heading": "Singapore publiceert quantum-safe migratiegids voor kritieke infrastructuur",
-     "summary": "De Cyber Security Agency of Singapore (CSA) heeft een quantum-safe migratiegids uitgebracht voor organisaties die blootstaan aan quantumgerelateerde cyberrisico's. Kritieke infrastructuur krijgt prioriteit, met financiering voor cryptografische inventarisatie en migratie van legacy-OT.",
-     "takeaway": "Begin met het inventariseren van de cryptografie in langlevende OT-assets, zodat migratieplanning een uitgangspunt heeft."
+     "heading": "CSA Singapore publiceert quantum-safe migratiegids met focus op kritieke infrastructuur",
+     "summary": "De Cyber Security Agency of Singapore heeft een gids voor quantum-safe migratie uitgebracht. Die geeft prioriteit aan kritieke infrastructuur en ondersteunt cryptografische inventarisatie en de migratie van legacy-OT.",
+     "takeaway": "Begin met het inventariseren van de cryptografie in OT-assets met een lange levensduur, want legacy-systemen zijn later het moeilijkst te migreren."
     }
    }
   },
   {
    "sources": [
     {
-     "id": "4397993c866d",
+     "id": "79000086a8ca",
      "name": "Industrial Cyber",
-     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/ampyx-cyber-examines-ferc-2026-cip-audit-findings-on-generator-registration-shared-control-and-ai-access-risks",
-     "title": "Ampyx Cyber examines FERC 2026 CIP audit findings on generator registration, shared control and AI access risks"
+     "url": "https://industrialcyber.co/medical/microsoft-health-isac-dismantle-phishing-infrastructure-targeting-critical-infrastructure-healthcare-sector",
+     "title": "Microsoft, Health-ISAC dismantle phishing infrastructure targeting critical infrastructure, healthcare sector"
     }
    ],
    "source_count": 1,
@@ -186,14 +103,14 @@
    "cves": [],
    "i18n": {
     "en": {
-     "heading": "FERC 2026 CIP audit findings: registration, shared control, AI access",
-     "summary": "Ampyx Cyber examined FERC's 2026 CIP audit findings. It highlights gaps in generator registration, cyber risk categorization and artificial intelligence (AI) access controls.",
-     "takeaway": "Energy operators should check their own asset registration, risk categorization and AI access controls against these audit themes."
+     "heading": "Microsoft and Health-ISAC move against phishing infrastructure aimed at critical infrastructure",
+     "summary": "Microsoft and Health-ISAC are working to dismantle three components of a cybercrime marketplace: YAM Store, CoGUI and Iron. The infrastructure targeted critical infrastructure and the healthcare sector.",
+     "takeaway": "Remind staff, especially in healthcare and critical operations, to stay alert to phishing, and review email filtering and reporting procedures."
     },
     "nl": {
-     "heading": "FERC CIP-auditbevindingen 2026: registratie, gedeelde controle, AI-toegang",
-     "summary": "Ampyx Cyber analyseerde de CIP-auditbevindingen van FERC voor 2026. Het wijst op tekortkomingen in de registratie van generatoren, de categorisering van cyberrisico's en toegangsbeheer voor kunstmatige intelligentie (AI).",
-     "takeaway": "Energiebedrijven doen er goed aan hun eigen assetregistratie, risicocategorisering en AI-toegangsbeheer te toetsen aan deze auditthema's."
+     "heading": "Microsoft en Health-ISAC pakken phishinginfrastructuur voor kritieke sectoren aan",
+     "summary": "Microsoft en Health-ISAC werken aan het ontmantelen van drie onderdelen van een cybercriminele marktplaats: YAM Store, CoGUI en Iron. De infrastructuur richtte zich op kritieke infrastructuur en de zorgsector.",
+     "takeaway": "Attendeer medewerkers, zeker in de zorg en kritieke processen, op phishing en controleer e-mailfiltering en meldprocedures."
     }
    }
   }

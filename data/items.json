@@ -1,5 +1,149 @@
 [
  {
+  "id": "ff0b0261df9a",
+  "url": "https://www.security.nl/posting/958122/Bezorging+Albert+Heijn+pas+eind+van+deze+week+weer+op+gang?channel=rss",
+  "title": "Bezorging Albert Heijn pas eind van deze week weer op gang",
+  "excerpt": "Vanaf vrijdag 23 oktober wil Albert Heijn zijn bezorgservice geleidelijk weer opstarten, volgens de laatste update van de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T09:22:32Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Albert Heijn plans to gradually restart its delivery service from Friday 23 October.",
+    "nl": "Albert Heijn wil zijn bezorgservice vanaf vrijdag 23 oktober geleidelijk weer opstarten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "fbb9474e586e",
+  "url": "https://www.security.nl/posting/958007/Onderzoekers+verwachten+aanvallen+op+webwinkels+via+kritiek+Magento-lek?channel=rss",
+  "title": "Onderzoekers verwachten aanvallen op webwinkels via kritiek Magento-lek",
+  "excerpt": "Onderzoekers verwachten dat aanvallers snel misbruik zullen maken van een kritieke kwetsbaarheid in webshopsoftware Adobe ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T09:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers expect attackers to soon exploit a critical Adobe Commerce vulnerability in webshop software.",
+    "nl": "Onderzoekers verwachten dat aanvallers snel misbruik maken van een kritieke kwetsbaarheid in Adobe-webshopsoftware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "b629dd8a951e",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+  "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+  "excerpt": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T08:58:41Z",
+  "fetched": "2026-10-19T09:38:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft confirmed October Windows Server security updates cause OWA sign-in and mail delivery issues on some Exchange systems.",
+    "nl": "Microsoft bevestigde dat de Windows Server-beveiligingsupdates van oktober OWA-inlog- en mailproblemen veroorzaken op sommige Exchange-systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "40536e7944da",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0438",
+  "title": "NCSC-2026-0438 [1.00] [M/H] Kwetsbaarheden verholpen in Drupal Core en modules door Drupal",
+  "excerpt": "Drupal heeft kwetsbaarheden verholpen in de Drupal core Field UI module, Entity List module, Navigation module, Link module en het Gin administratie thema. De kwetsbaarheden betreffen meerdere modules binnen Drupal. In de Field UI module en de Entity List module is een remote code execution kwetsbaarheid aanwezig die kan worden misbruikt via contributed modules of custom code, waarbij sommige aanvalspaden geen authenticatie vereisen. De Navigation module, Link module en het Gin administratie thema bevatten cross-site scripting (XSS) kwetsbaarheden veroorzaakt door onvoldoende sanitatie van…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-19T08:08:49Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Drupal fixed vulnerabilities in Drupal core and several modules, including a remote code execution flaw in Field UI and Entity List.",
+    "nl": "Drupal heeft kwetsbaarheden verholpen in Drupal core en meerdere modules, waaronder een remote code execution-kwetsbaarheid in Field UI en Entity List."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "e00da81fd0d8",
+  "url": "https://www.security.nl/posting/958001/Verdachte+grootschalige+bankhelpdeskfraude+krijgt+42+maanden+cel?channel=rss",
+  "title": "Verdachte grootschalige bankhelpdeskfraude krijgt 42 maanden cel",
+  "excerpt": "Een 26-jarige man is wegens grootschalige bankhelpdeskfraude door de rechtbank Limburg veroordeeld tot een gevangenisstraf van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T08:04:54Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A 26-year-old man was sentenced to 42 months in prison for large-scale bank helpdesk fraud.",
+    "nl": "Een 26-jarige man is veroordeeld tot 42 maanden cel wegens grootschalige bankhelpdeskfraude."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
   "id": "ef9106e46e0d",
   "url": "https://www.security.nl/posting/957963/Gebruikers+AOMEI+Backupper+via+update-servers+besmet+met+malware?channel=rss",
   "title": "Gebruikers AOMEI Backupper via update-servers besmet met malware",
@@ -2981,6 +3125,62 @@
   }
  },
  {
+  "id": "b1556f7746e0",
+  "url": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
+  "title": "Using TLS to protect data",
+  "excerpt": "Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-10-15T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC published recommended profiles for securely configuring TLS and guidance for older versions.",
+    "nl": "Het NCSC publiceerde aanbevolen profielen voor veilige TLS-configuratie en advies voor oudere versies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "69c3fe79cf7f",
+  "url": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
+  "title": "Post-quantum updates to our TLS guidance",
+  "excerpt": "The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-10-15T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC published recommendations for configuring post-quantum cryptography in TLS and urged organisations to migrate.",
+    "nl": "Het NCSC publiceerde aanbevelingen voor post-quantum cryptografie in TLS en riep organisaties op tot migratie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
   "id": "0f1564d344e2",
   "url": "https://bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown",
   "title": "Police arrests 95 suspects in international CSAM crackdown action",
@@ -3307,6 +3507,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:59:18Z"
+  }
+ },
+ {
+  "id": "d6e15895c313",
+  "url": "https://ics-cert.kaspersky.com/publications/reports/2026/10/15/cybersecurity-of-over-the-air-update-mechanisms-for-vehicles/",
+  "title": "Cybersecurity of over-the-air update mechanisms for vehicles",
+  "excerpt": "How to ensure security across ECU software update campaigns, prevent update package tampering, and minimize potential damage to connected vehicles",
+  "source_id": "kaspersky-ics-cert",
+  "source": "Kaspersky ICS CERT",
+  "lang": "en",
+  "kind": "research",
+  "focus": "ot",
+  "published": "2026-10-15T09:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "guidance",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Kaspersky ICS CERT discusses securing over-the-air update campaigns, preventing package tampering and limiting damage to connected vehicles.",
+    "nl": "Kaspersky ICS CERT bespreekt het beveiligen van over-the-air updatecampagnes, het voorkomen van manipulatie van updatepakketten en beperking van schade aan verbonden voertuigen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
   }
  },
  {
@@ -6361,6 +6591,38 @@
   }
  },
  {
+  "id": "6291987a01c9",
+  "url": "https://certvde.com/en/advisories/VDE-2026-109/",
+  "title": "Bender Customer&Partner Platform Vulnerability - Privilege Escalation",
+  "excerpt": "[VDE-2026-109] Bender is publishing this advisory to inform customers about a security vulnerability in the Customer&Partner platform. The issue allows any account to view the roles of other users. Bender has analyzed the weakness and determined that user information and user credentials are not affected. Bender considers the weakness to be of medium risk which should be patched.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T14:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Bender"
+   ],
+   "summary": {
+    "en": "VDE-2026-109: Bender Customer&Partner platform allows any account to view other users' roles, rated medium risk; patching recommended.",
+    "nl": "VDE-2026-109: het Bender Customer&Partner-platform laat elk account de rollen van andere gebruikers zien; risico gemiddeld, patchen aanbevolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
   "id": "6f936fc74c5f",
   "url": "https://security.nl/posting/957404/%27Toename+van+fysieke+overvallen+op+cryptobezitters+als+gevolg+van+datalekken%27?channel=rss",
   "title": "'Toename van fysieke overvallen op cryptobezitters als gevolg van datalekken'",
@@ -8565,6 +8827,34 @@
   }
  },
  {
+  "id": "70677738fe32",
+  "url": "https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk",
+  "title": "Help the NCSC understand how organisations approach external attack surface risk",
+  "excerpt": "We're looking to hear from people involved in evaluating, selecting or adopting EASM.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-10-12T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC asks organisations to share how they evaluate and adopt external attack surface management tools.",
+    "nl": "Het NCSC vraagt organisaties te delen hoe zij externe attack surface management-tools beoordelen en gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
   "id": "172b933e4740",
   "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
   "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
@@ -9944,6 +10234,36 @@
   }
  },
  {
+  "id": "7c95f88251a8",
+  "url": "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
+  "title": "China-linked malicious actors called out by UK and international partners for targeting sensitive data globally",
+  "excerpt": "Joint advisory with international partners highlights malicious targeting of organisations from a range of sectors across the globe.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-10-08T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "UK and international partners issued a joint advisory on China-linked actors targeting sensitive data across multiple sectors.",
+    "nl": "Het VK en internationale partners publiceerden een gezamenlijk advies over met China verbonden actoren die gevoelige data van organisaties in meerdere sectoren aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
   "id": "bd23a81bed47",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0408",
   "title": "NCSC-2026-0408 [1.00] [M/H] Kwetsbaarheden verholpen in Kiteworks",
@@ -9971,6 +10291,39 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:31Z"
+  }
+ },
+ {
+  "id": "2e5f1ad3a55a",
+  "url": "https://certvde.com/en/advisories/VDE-2026-105/",
+  "title": "KEB Automation: Multiple Vulnerabilities in COMBIVIS Control Runtime",
+  "excerpt": "[VDE-2026-105] The Docker-based COMBIVIS Control Runtime service is affected by several vulnerabilities in CODESYS Runtime Toolkit 3.5.21.10. These vulnerabilities are resolved in COMBIVIS Control Runtime 2.1.0.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-08T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "KEB Automation",
+    "CODESYS"
+   ],
+   "summary": {
+    "en": "VDE-2026-105: COMBIVIS Control Runtime is affected by several vulnerabilities inherited from CODESYS Runtime Toolkit 3.5.21.10, resolved in version 2.1.0.",
+    "nl": "VDE-2026-105: COMBIVIS Control Runtime is getroffen door meerdere kwetsbaarheden uit CODESYS Runtime Toolkit 3.5.21.10, opgelost in versie 2.1.0."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
   }
  },
  {
@@ -10125,6 +10478,66 @@
   }
  },
  {
+  "id": "f670d7b47d65",
+  "url": "https://www.ncsc.gov.uk/news/incident-affecting-asos-customers",
+  "title": "Incident affecting ASOS customers",
+  "excerpt": "ASOS has said it is investigating a cyber incident and that some customer personal information may have been accessed.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-10-06T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ASOS is investigating a cyber incident in which some customer personal information may have been accessed.",
+    "nl": "ASOS onderzoekt een cyberincident waarbij mogelijk persoonlijke klantgegevens zijn ingezien."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "ee865d757543",
+  "url": "https://certvde.com/en/advisories/VDE-2026-108/",
+  "title": "Murrelektronik: Missing Authentication in aas-edge-client Reference Implementation allows Manipulation of AAS Data",
+  "excerpt": "[VDE-2026-108] The aas-edge-client is a reference implementation of an Asset Administration Shell (AAS) edge application, published by Murrelektronik GmbH on GitHub for the LNI 4.0 testbed demonstrator. Its REST API is bound to all network interfaces on TCP port 18000, requires no authentication and accepts cross-origin requests from any origin. The reference implementation was never intended for productive use and is no longer maintained. Affected are all aas-edge-client versions.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-06T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Murrelektronik"
+   ],
+   "summary": {
+    "en": "VDE-2026-108: Murrelektronik aas-edge-client REST API has no authentication and accepts cross-origin requests on all interfaces; all versions affected, no longer maintained.",
+    "nl": "VDE-2026-108: de REST API van Murrelektronik aas-edge-client heeft geen authenticatie en accepteert cross-origin verzoeken op alle interfaces; alle versies getroffen, niet meer onderhouden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
   "id": "02f7996d1933",
   "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/consequence-based-risk-matrices-iec-62443-3-2",
   "title": "Consequence-Based Risk Matrices for IEC 62443-3-2",
@@ -10180,6 +10593,325 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
+  "id": "90b1d8828495",
+  "url": "https://certvde.com/en/advisories/VDE-2026-046/",
+  "title": "VEGA: Missing Authentication for critical function in VEGAPULS two- and four-wire products",
+  "excerpt": "[VDE-2026-046] Vulnerable components expose sensitive information to unauthorized actors through an unsecured configuration interface. Vulnerable firmware releases contain an unsecured configuration interface that allows retrieval of sensitive information such as hashed credentials. It was found that users with no or low rights can access information from devices that should not be available to them. An attacker can use this information to impersonate authorized users.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-02T12:00:01Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "VEGA"
+   ],
+   "summary": {
+    "en": "VDE-2026-046: VEGAPULS two- and four-wire devices expose hashed credentials via an unsecured configuration interface, letting low-privilege users impersonate authorized users.",
+    "nl": "VDE-2026-046: VEGAPULS twee- en vierdraads apparaten tonen gehashte inloggegevens via een onbeveiligde configuratie-interface, waardoor gebruikers met weinig rechten zich kunnen voordoen als bevoegde gebruikers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "802e1e6f1726",
+  "url": "https://certvde.com/en/advisories/VDE-2026-016/",
+  "title": "VEGA: Unsecured Configuration Interface Allows Unauthorized Access Leading to Privilege Escalation",
+  "excerpt": "[VDE-2026-016] Vulnerable components expose sensitive information to unauthorized actors through an unsecured configuration interface. Vulnerable firmware releases contain an unsecured configuration interface that allows retrieval of sensitive information such as hashed credentials. It was found that users with no or low rights can access information from devices that should not be available to them. An attacker can use this information to impersonate authorized users.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-02T12:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "VEGA"
+   ],
+   "summary": {
+    "en": "VDE-2026-016: VEGA firmware exposes hashed credentials through an unsecured configuration interface, allowing users with low rights to escalate privileges.",
+    "nl": "VDE-2026-016: VEGA-firmware toont gehashte inloggegevens via een onbeveiligde configuratie-interface, waardoor gebruikers met lage rechten privileges kunnen verhogen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "4ffb1674cb03",
+  "url": "https://certvde.com/en/advisories/VDE-2026-047/",
+  "title": "VEGA: Missing Authentication for critical function in VEGAPULS Air products",
+  "excerpt": "[VDE-2026-047] Vulnerable components expose sensitive information to unauthorized actors through an unsecured configuration interface. Vulnerable firmware releases contain an unsecured configuration interface that allows retrieval of sensitive information such as hashed credentials. It was found that users with no or low rights can access information from devices that should not be available to them. An attacker can use this information to impersonate authorized users.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-02T11:00:02Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "VEGA"
+   ],
+   "summary": {
+    "en": "VDE-2026-047: VEGAPULS Air products expose hashed credentials via an unsecured configuration interface, letting low-privilege users impersonate authorized users.",
+    "nl": "VDE-2026-047: VEGAPULS Air-producten tonen gehashte inloggegevens via een onbeveiligde configuratie-interface, waardoor gebruikers met weinig rechten zich kunnen voordoen als bevoegde gebruikers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "bd120807d93e",
+  "url": "https://certvde.com/en/advisories/VDE-2026-048/",
+  "title": "VEGA: Missing Authentication for critical function in VEGAPULS Bluetooth products",
+  "excerpt": "[VDE-2026-048] Vulnerable components expose sensitive information to unauthorized actors through an unsecured configuration interface. Vulnerable firmware releases contain an unsecured configuration interface that allows retrieval of sensitive information such as hashed credentials. It was found that users with no or low rights can access information from devices that should not be available to them. An attacker can use this information to impersonate authorized users.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-02T11:00:02Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "VEGA"
+   ],
+   "summary": {
+    "en": "VDE-2026-048: VEGAPULS Bluetooth products expose hashed credentials via an unsecured configuration interface, letting low-privilege users impersonate authorized users.",
+    "nl": "VDE-2026-048: VEGAPULS Bluetooth-producten tonen gehashte inloggegevens via een onbeveiligde configuratie-interface, waardoor gebruikers met weinig rechten zich kunnen voordoen als bevoegde gebruikers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "578b06f12c73",
+  "url": "https://certvde.com/en/advisories/VDE-2025-081/",
+  "title": "WAGO: Multiple PLCs and Communication Components are Affected by multiple Vulnerabilities leading to RCE",
+  "excerpt": "[VDE-2025-081] Multiple WAGO devices are affected by CODESYS Control vulnerabilities. The affected WAGO firmware versions are <4.10.0 (FW32) and <4.10.0 (70).",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-01T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "WAGO",
+    "CODESYS"
+   ],
+   "summary": {
+    "en": "VDE-2025-081: Multiple WAGO PLCs and communication components are affected by CODESYS Control vulnerabilities leading to remote code execution; firmware below 4.10.0 is affected.",
+    "nl": "VDE-2025-081: Meerdere WAGO PLC's en communicatiecomponenten zijn getroffen door CODESYS Control-kwetsbaarheden die leiden tot remote code execution; firmware lager dan 4.10.0 is getroffen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "1670323b6d09",
+  "url": "https://certvde.com/en/advisories/VDE-2025-102/",
+  "title": "WAGO: Multiple Devices are affected by a Vulnerability in BACnet IP Stack",
+  "excerpt": "[VDE-2025-102] Multiple WAGO devices are affected by a vulnerability in the dynamic creation of BACnet File Objects. The object name is used as a file path without sufficient validation and is not restricted to the intended directory, so relative paths can be used to reach files elsewhere in the file system.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-01T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "building"
+   ],
+   "vendors": [
+    "WAGO"
+   ],
+   "summary": {
+    "en": "VDE-2025-102: Multiple WAGO devices have a BACnet IP stack flaw where unvalidated object names allow relative paths to reach files elsewhere in the file system.",
+    "nl": "VDE-2025-102: Meerdere WAGO-apparaten hebben een BACnet IP-stackfout waarbij niet-gevalideerde objectnamen relatieve paden toestaan naar bestanden elders in het bestandssysteem."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:40Z"
+  }
+ },
+ {
+  "id": "7084d83fc127",
+  "url": "https://certvde.com/en/advisories/VDE-2026-094/",
+  "title": "CODESYS Gateway Client - Uncontrolled Memory Allocation",
+  "excerpt": "[Advisory2026-11_VDE-2026-094] The CODESYS Gateway Client (CmpGatewayClient) is used by various CODESYS products to establish PLC communication via the CODESYS Gateway. Due to missing limits on memory allocations derived from a size field in a gateway response, a malicious gateway can cause excessive memory consumption in the client, resulting in a denial-of-service condition. The vulnerability can be exploited when an affected product connects to an attacker-controlled gateway.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-30T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "CODESYS"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports that the CODESYS Gateway Client can suffer denial of service via a malicious gateway response with an unlimited memory allocation size field.",
+    "nl": "CERT@VDE meldt dat de CODESYS Gateway Client denial of service kan ondervinden door een kwaadwillende gateway-respons met een onbeperkt geheugenallocatieveld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "023994d25220",
+  "url": "https://certvde.com/en/advisories/VDE-2026-097/",
+  "title": "CODESYS Control Runtime - Improper Synchronization in Monitoring",
+  "excerpt": "[Advisory2026-12_VDE-2026-097] The monitoring functionality of affected CODESYS Control runtime systems processes read and write requests to PLC application data sent by the CODESYS Development System and other clients such as HMIs. Due to improper synchronization in the CmpMonitor2 component when processing concurrent requests from multiple clients, incorrect data may be read or written, potentially resulting in unexpected behavior of the affected product. PLCs based on the CODESYS Runtime Toolkit or CODESYS Safety SIL2 are affected if they allow simultaneous access by two or more clients…",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-30T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "CODESYS"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports improper synchronization in the CODESYS Control runtime monitoring component, which can cause incorrect data reads or writes when multiple clients send concurrent requests.",
+    "nl": "CERT@VDE meldt een onjuiste synchronisatie in de monitoringcomponent van de CODESYS Control runtime, waardoor onjuiste gegevens gelezen of geschreven kunnen worden bij gelijktijdige verzoeken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "74dec6ea4251",
+  "url": "https://ics-cert.kaspersky.com/advisories/2026/09/30/rockwell-automation-factorytalk-activation-manager-privilege-escalation/",
+  "title": "Rockwell Automation FactoryTalk Activation Manager. Privilege escalation",
+  "excerpt": "",
+  "source_id": "kaspersky-ics-cert",
+  "source": "Kaspersky ICS CERT",
+  "lang": "en",
+  "kind": "research",
+  "focus": "ot",
+  "published": "2026-09-29T21:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Rockwell Automation"
+   ],
+   "summary": {
+    "en": "Kaspersky ICS CERT reports a privilege escalation vulnerability in Rockwell Automation FactoryTalk Activation Manager.",
+    "nl": "Kaspersky ICS CERT meldt een privilege escalatie kwetsbaarheid in Rockwell Automation FactoryTalk Activation Manager."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "df743cea917f",
+  "url": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
+  "title": "Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway",
+  "excerpt": "The NCSC is urging UK organisations to promptly mitigate vulnerabilities affecting Citrix NetScaler ADC and Gateway, two of which are being actively exploited.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-09-28T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Citrix"
+   ],
+   "summary": {
+    "en": "NCSC urges UK organisations to mitigate Citrix NetScaler ADC and Gateway vulnerabilities, two of which are being actively exploited.",
+    "nl": "De NCSC roept Britse organisaties op om kwetsbaarheden in Citrix NetScaler ADC en Gateway te verhelpen, waarvan er twee actief worden misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
   }
  },
  {
@@ -10309,6 +11041,155 @@
   }
  },
  {
+  "id": "ed78bf52233c",
+  "url": "https://certvde.com/en/advisories/VDE-2026-089/",
+  "title": "Lenze: VPN Client Remote Code Execution in combination with Lenze x500 IoT Gateway",
+  "excerpt": "[VDE-2026-089] The Lenze VPN client is vulnerable to a Remote Code Execution. The vulnerability would allow an attacker to perform a remote code execution on the computer running the client with elevated privileges.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-21T16:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Lenze"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports a remote code execution vulnerability in the Lenze VPN client, affecting the x500 IoT Gateway combination, allowing code execution with elevated privileges.",
+    "nl": "CERT@VDE meldt een remote code execution kwetsbaarheid in de Lenze VPN-client in combinatie met de x500 IoT Gateway, waarmee code met verhoogde rechten kan worden uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "cca5401c4950",
+  "url": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
+  "title": "One does not simply defend agentically",
+  "excerpt": "Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-09-21T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC discusses how defenders can use agentic AI for cyber defence, compared with attacker use.",
+    "nl": "De NCSC bespreekt hoe verdedigers agentische AI kunnen inzetten voor cyberverdediging, in vergelijking met aanvallers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "e4cbb40cf493",
+  "url": "https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know",
+  "title": "Adversary simulation: what you need to know",
+  "excerpt": "Adversary simulation ('red teaming') tests your ability to prevent, detect and respond to cyber attacks.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-09-17T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC explains that adversary simulation tests an organisation's ability to prevent, detect and respond to cyber attacks.",
+    "nl": "De NCSC legt uit dat adversary simulation de capaciteit van een organisatie test om cyberaanvallen te voorkomen, detecteren en erop te reageren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "55684f9d070e",
+  "url": "https://www.ncsc.gov.uk/blogs/cyber-adversary-simulation-cyas-scheme-documents-now-available",
+  "title": "Cyber Adversary Simulation (CyAS): scheme documents now available",
+  "excerpt": "Our view of good cyber adversary simulation – and how assured providers can deliver it.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-09-17T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC publishes scheme documents for Cyber Adversary Simulation providers and describes what good simulation looks like.",
+    "nl": "De NCSC publiceert schemadocumenten voor Cyber Adversary Simulation-aanbieders en beschrijft hoe goede simulatie eruitziet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "72a0f0ec3408",
+  "url": "https://certvde.com/en/advisories/VDE-2026-051/",
+  "title": "iba: Deserialization vulnerability in ibaPDA and ibaDatCoordinator",
+  "excerpt": "[VDE-2026-051] A vulnerability has been identified in ibaPDA, ibaDatCoordinator and ibaLogic. The affected applications do not properly restrict the .NET BinaryFormatter when deserializing client-server input. This could allow an attacker to cause a type confusion and execute arbitrary code within the affected applications. This is the same issue that exists for the .NET BinaryFormatter: https://docs.microsoft.com/en-us/visualstudio/code-quality/ca2300.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-17T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "cross_sector"
+   ],
+   "vendors": [
+    "iba"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports a deserialization vulnerability in iba ibaPDA and ibaDatCoordinator that allows arbitrary code execution via unrestricted BinaryFormatter use.",
+    "nl": "CERT@VDE meldt een deserialisatiekwetsbaarheid in iba ibaPDA en ibaDatCoordinator waarbij door onbeperkt gebruik van BinaryFormatter willekeurige code kan worden uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
   "id": "a423bba88af1",
   "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/offshore-norge-104-network-engineering-for-ot-cybersecurity",
   "title": "Offshore Norge 104: Network Engineering for OT Cybersecurity",
@@ -10336,6 +11217,102 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
+  "id": "729370d925cb",
+  "url": "https://certvde.com/en/advisories/VDE-2026-028/",
+  "title": "Carlo Gavazzi Automation: YL212* and YN115* are affected by multiple security vulnerabilities",
+  "excerpt": "[VDE-2026-028] The affected devices have security vulnerabilities that can be used to bypass authentication. Code can be executed on the devices through command injection and local file inclusion. Path traversal and modified schemata can be used to read sensitive information such as password hashes or private keys from the devices.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-16T08:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Carlo Gavazzi Automation"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports multiple vulnerabilities in Carlo Gavazzi YL212 and YN115 devices, enabling authentication bypass, command injection and sensitive data disclosure.",
+    "nl": "CERT@VDE meldt meerdere kwetsbaarheden in Carlo Gavazzi YL212- en YN115-apparaten, waarmee authenticatie omzeild, commando's geïnjecteerd en gevoelige gegevens gelezen kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "82d51a2d16c9",
+  "url": "https://certvde.com/en/advisories/VDE-2026-014/",
+  "title": "Pepperl+Fuchs: ICE2-* and ICE3-* are affected by multiple security vulnerabilities",
+  "excerpt": "[VDE-2026-014] The affected devices have security vulnerabilities that can be used to bypass authentication. Code can be executed on the devices through command injection and local file inclusion. Path traversal and modified schemata can be used to read sensitive information such as password hashes or private keys from the devices.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-16T08:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Pepperl+Fuchs"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports multiple vulnerabilities in Pepperl+Fuchs ICE2 and ICE3 devices, enabling authentication bypass, command injection and sensitive data disclosure.",
+    "nl": "CERT@VDE meldt meerdere kwetsbaarheden in Pepperl+Fuchs ICE2- en ICE3-apparaten, waarmee authenticatie omzeild, commando's geïnjecteerd en gevoelige gegevens gelezen kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "1c8c45642a9c",
+  "url": "https://certvde.com/en/advisories/VDE-2026-027/",
+  "title": "Phoenix Contact: Multiple vulnerabilities in the firmware of IOL MA8 EIP DI8 and IOL MA8 PN DI8 devices",
+  "excerpt": "[VDE-2026-027] The firmware of IOL MA8 EIP DI8 and IOL MA8 PN DI8 devices is affected by security vulnerabilities that can be used to bypass authentication. Code can be executed on the devices through command injection and local file inclusion. Path traversal and modified schemata can be used to read sensitive information such as password hashes or private keys from the devices.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-16T08:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Phoenix Contact"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports multiple firmware vulnerabilities in Phoenix Contact IOL MA8 EIP DI8 and IOL MA8 PN DI8 devices, enabling authentication bypass and code execution.",
+    "nl": "CERT@VDE meldt meerdere firmwarekwetsbaarheden in Phoenix Contact IOL MA8 EIP DI8- en IOL MA8 PN DI8-apparaten, waarmee authenticatie omzeild en code uitgevoerd kan worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
   }
  },
  {
@@ -10368,6 +11345,133 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:52Z"
+  }
+ },
+ {
+  "id": "d0a2a6fa25f7",
+  "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+  "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
+  "excerpt": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-09-15T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "UK and allies expose CHOSEN BRICK spyware used by Iranian state actors against dissidents, activists and journalists.",
+    "nl": "Het VK en bondgenoten onthullen CHOSEN BRICK-spyware die door Iraanse staatsactoren wordt gebruikt tegen dissidenten, activisten en journalisten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "16aea614941a",
+  "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+  "title": "Iranian cyber targeting of dissidents, activists and journalists",
+  "excerpt": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-09-15T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC publishes an advisory on CHOSEN BRICK malware with technical analysis for individuals and organisations at risk.",
+    "nl": "De NCSC publiceert een advies over CHOSEN BRICK-malware met technische analyse voor personen en organisaties die risico lopen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "fe593fb7475d",
+  "url": "https://certvde.com/en/advisories/VDE-2026-091/",
+  "title": "TRUMPF: Multiple products affected by Wibu CodeMeter vulnerabilities",
+  "excerpt": "[VDE-2026-091] The TRUMPF product versions listed below include a Wibu CodeMeter Runtime version that contains several vulnerabilities, e.g. potentially allowing privilege escalation.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-15T07:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "TRUMPF",
+    "Wibu-Systems"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports that several TRUMPF products include a vulnerable Wibu CodeMeter Runtime version, potentially allowing privilege escalation.",
+    "nl": "CERT@VDE meldt dat verschillende TRUMPF-producten een kwetsbare versie van Wibu CodeMeter Runtime bevatten, wat privilege escalatie mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "567310fec6fc",
+  "url": "https://certvde.com/en/advisories/VDE-2026-088/",
+  "title": "METTLER TOLEDO: LabX Standard and Enterprise Report on External Component Analysis - v21.4",
+  "excerpt": "[VDE-2026-088] The vulnerabilities found in LabX Standard versions 21.3.22 - 21.4.23 are CVE-2025-69419, CVE-2026-0915, CVE-2025-15467, CVE-2026-4800, CVE-2026-33186, CVE-2026-39821, CVE-2026-33671 and are fixed in LabX Standard v21.4.25. The vulnerabilities found in LabX Enterprise versions 21.3.22 - 21.4.23 are CVE-2026-4800, CVE-2026-33186, CVE-2026-39821, CVE-2026-33671 and are fixed in LabX Enterprise v21.4.25 All other vulnerabilities are to be fixed in the upcoming releases.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-10T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [
+   "CVE-2025-69419",
+   "CVE-2026-0915",
+   "CVE-2025-15467",
+   "CVE-2026-4800",
+   "CVE-2026-33186",
+   "CVE-2026-39821",
+   "CVE-2026-33671"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "METTLER TOLEDO"
+   ],
+   "summary": {
+    "en": "CERT@VDE publishes an external component analysis for LabX Standard and Enterprise, listing CVEs fixed in v21.4.25.",
+    "nl": "CERT@VDE publiceert een analyse van externe componenten voor LabX Standard en Enterprise, met CVE's die in v21.4.25 zijn verholpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
   }
  },
  {
@@ -10727,6 +11831,34 @@
   }
  },
  {
+  "id": "0a32cdf7472a",
+  "url": "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai",
+  "title": "The hidden risks of shadow AI",
+  "excerpt": "Understanding why staff use unapproved AI tools is key to managing the security challenges they can create.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-09-07T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC discusses why staff use unapproved AI tools and how to manage the resulting security challenges.",
+    "nl": "De NCSC bespreekt waarom medewerkers niet-goedgekeurde AI-tools gebruiken en hoe de beveiligingsrisico's te beheersen zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
   "id": "f10c8be7b062",
   "url": "https://cert-portal.siemens.com/productcert/html/ssa-887643.html",
   "title": "SSA-887643 V1.0: Account Hijacking Vulnerability in Mendix SAML module",
@@ -10790,6 +11922,68 @@
   }
  },
  {
+  "id": "769246ac09b7",
+  "url": "https://certvde.com/en/advisories/VDE-2026-093/",
+  "title": "SAUTER: modulo 6 and EY-modulo 5 Vulnerability in Firmware update mechanism allowing remote code execution",
+  "excerpt": "[VDE-2026-093] A vulnerability has been found in the firmware update process of SAUTER Building Controllers. The identified vulnerability could allow unauthorized code execution on affected controllers.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-01T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "building"
+   ],
+   "vendors": [
+    "SAUTER"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports a firmware update vulnerability in SAUTER modulo 6 and EY-modulo 5 building controllers allowing unauthorized remote code execution.",
+    "nl": "CERT@VDE meldt een kwetsbaarheid in het firmware-updateproces van SAUTER modulo 6 en EY-modulo 5 gebouwregelaars, waarmee ongeautoriseerde code op afstand kan worden uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "48bb0dde9801",
+  "url": "https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices",
+  "title": "Disruptive cyber activity highlights risk from internet-exposed systems and edge devices",
+  "excerpt": "Owners of operational technology encouraged to address avoidable vulnerabilities, and build long-term cyber resilience.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-08-27T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC urges operational technology owners to address avoidable vulnerabilities in internet-exposed systems and edge devices and build long-term cyber resilience.",
+    "nl": "De NCSC roept eigenaren van operationele technologie op vermijdbare kwetsbaarheden in internet-blootgestelde systemen en edge-apparaten te verhelpen en cyberweerbaarheid op lange termijn op te bouwen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
   "id": "0fa961856e0f",
   "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/multi-national-ci-fortify-guidance-at-a-glance",
   "title": "Multi-national CI Fortify Guidance at a Glance",
@@ -10817,6 +12011,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
+  "id": "e1f37b7fe125",
+  "url": "https://ics-cert.kaspersky.com/events/2026/08/27/kicc-2026-kaspersky-ics-cert-experts-will-explain-how-to-build-the-ideal-information-security-system-for-an-industrial-holding/",
+  "title": "KICC 2026: Kaspersky ICS CERT experts will explain how to build the ideal information security system for an industrial holding",
+  "excerpt": "From September 9 to 11, Sochi will host the Kaspersky Industrial Cybersecurity Conference, one of the leading international events in industrial cybersecurity.",
+  "source_id": "kaspersky-ics-cert",
+  "source": "Kaspersky ICS CERT",
+  "lang": "en",
+  "kind": "research",
+  "focus": "ot",
+  "published": "2026-08-27T08:50:13Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Kaspersky"
+   ],
+   "summary": {
+    "en": "Kaspersky ICS CERT announces its Industrial Cybersecurity Conference in Sochi on September 9 to 11.",
+    "nl": "Kaspersky ICS CERT kondigt zijn Industrial Cybersecurity Conference in Sotsji aan, van 9 tot 11 september."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:38:57Z"
   }
  },
  {
@@ -10879,6 +12103,100 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
+  "id": "556cd713271c",
+  "url": "https://certvde.com/en/advisories/VDE-2026-061/",
+  "title": "Murrelektronik: Vulnerability in 'Copy learned MAC Addresses' function enables MAC Spoofing on Xelity Switches",
+  "excerpt": "[VDE-2026-061] An information disclosure vulnerability in the web GUI of Murrelektronik Xelity switches causes MAC addresses from the device's MAC address table to be written into a server-side log that is exposed via the device's web interface to unauthenticated users. The leak is triggered when an authenticated administrator invokes the 'Copy learned MAC Addresses' function, which causes a syslog error that inserts the affected MAC addresses into the log output. Once the error has been triggered, any unauthenticated attacker with network access to the web interface can retrieve the leaked…",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-08-25T09:30:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Murrelektronik"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-061 describes an information disclosure flaw in Murrelektronik Xelity switches where MAC addresses leak via the web interface when the 'Copy learned MAC Addresses' function is used.",
+    "nl": "CERT@VDE-advisory VDE-2026-061 beschrijft een informatielekkage in Murrelektronik Xelity-switches waarbij MAC-adressen via de webinterface lekken bij gebruik van de functie 'Copy learned MAC Addresses'."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:39:03Z"
+  }
+ },
+ {
+  "id": "205f5b379f21",
+  "url": "https://certvde.com/en/advisories/VDE-2026-083/",
+  "title": "Weidmueller: Security routers IE-SR-2TX-WL and IE-SR-2TX-WL-4G are affected by multiple vulnerabilities",
+  "excerpt": "[VDE-2026-083] Weidmueller security routers IE-SR-2TX-WL and IE-SR-2TX-WL-4G are affected by an unauthenticated remote code execution vulnerability. IE-SR-2TX-WL-4G routers are also affected by a SMS password authorization bypass vulnerability. Weidmueller has released new firmware versions of the affected products to fix the vulnerabilities.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-08-25T09:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Weidmueller"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-083 reports an unauthenticated remote code execution flaw in Weidmueller IE-SR-2TX-WL routers, plus an SMS password authorization bypass in IE-SR-2TX-WL-4G; fixed firmware is available.",
+    "nl": "CERT@VDE-advisory VDE-2026-083 meldt een ongeauthenticeerde remote code execution-kwetsbaarheid in Weidmueller IE-SR-2TX-WL-routers, plus een SMS-wachtwoordomzeiling in IE-SR-2TX-WL-4G; gepatchte firmware is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:39:03Z"
+  }
+ },
+ {
+  "id": "e9e3ad8915ba",
+  "url": "https://ics-cert.kaspersky.com/publications/reports/2026/08/25/threat-landscape-for-industrial-automation-systems-q2-2026/",
+  "title": "Threat landscape for industrial automation systems. Q2 2026",
+  "excerpt": "The percentage of ICS computers on which denylisted internet resources were blocked increased in all regions",
+  "source_id": "kaspersky-ics-cert",
+  "source": "Kaspersky ICS CERT",
+  "lang": "en",
+  "kind": "research",
+  "focus": "ot",
+  "published": "2026-08-25T07:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Kaspersky's Q2 2026 threat landscape report for industrial automation systems notes that the share of ICS computers blocking denylisted internet resources increased in all regions.",
+    "nl": "Het Kaspersky-dreigingsoverzicht voor Q2 2026 van industriële automatiseringssystemen meldt dat het aandeel ICS-computers dat geblokkeerde internetbronnen blokkeert in alle regio's is gestegen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:39:03Z"
   }
  },
  {
@@ -10973,6 +12291,66 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
+  }
+ },
+ {
+  "id": "c362d04a9e00",
+  "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+  "title": "Managing the cyber risk of agentic AI",
+  "excerpt": "Use safeguards, sandboxing and active oversight to realise the benefits of autonomous systems while limiting the unintended activity.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-08-20T12:00:00Z",
+  "fetched": "2026-10-19T09:38:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC-UK publishes guidance on managing cyber risk of agentic AI, recommending safeguards, sandboxing and active oversight of autonomous systems.",
+    "nl": "NCSC-UK publiceert richtlijnen over het beheersen van cyberrisico's van agentic AI, met aanbevelingen voor waarborgen, sandboxing en actief toezicht op autonome systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:39:03Z"
+  }
+ },
+ {
+  "id": "1c699f62e21c",
+  "url": "https://certvde.com/en/advisories/VDE-2026-078/",
+  "title": "Frauscher: FDS102 for FAdC/FAdCi R2 has multiple vulnerabilities",
+  "excerpt": "[VDE-2026-078] Frauscher Sensortechnik FDS102 for FAdC/FAdCi R2 is vulnerable to Unrestricted Upload of File with Dangerous Type, Path Traversal: '../filedir', Insertion of Sensitive Information into Log File, Incorrect Authorization, Insufficient Session Expiration, Cross-Site Request Forgery (CSRF), Missing Authentication for Critical Function, and Missing Authorization.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-08-20T10:00:00Z",
+  "fetched": "2026-10-19T09:38:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [
+    "Frauscher Sensortechnik"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-078 lists multiple vulnerabilities in Frauscher FDS102 for FAdC/FAdCi R2, including file upload, path traversal, CSRF and missing authentication flaws.",
+    "nl": "CERT@VDE-advisory VDE-2026-078 somt meerdere kwetsbaarheden op in Frauscher FDS102 voor FAdC/FAdCi R2, waaronder bestandsupload, path traversal, CSRF en ontbrekende authenticatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T09:39:03Z"
   }
  }
 ]
