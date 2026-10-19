@@ -97,6 +97,18 @@ last run. Some outlets sit behind bot protection. If a feed keeps failing,
 check the URL in a browser, or replace it with an RSS proxy URL in
 `config/sources.yaml`.
 
+## Brand assets
+
+The master logo files live in `brand/`: `wordmark.svg`, `symbol.svg` and
+`favicon.svg`, in petrol `#0B3C49`, orange `#E8702A` and sand `#EFEBE3`.
+After changing them, regenerate the website versions (reverse/compact variants,
+favicon.ico, apple-touch-icon, 1200×630 social card):
+
+```bash
+pip install cairosvg pillow      # only needed for this step, not for the pipeline
+python tools/brand_assets.py
+```
+
 ## Local development
 
 ```bash

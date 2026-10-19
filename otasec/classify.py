@@ -74,13 +74,18 @@ For each item return:
 Return one result per input id, using the exact id."""
 
 
+OT_MIN_SCORE = 10  # dedicated OT sources: hide only what Claude rates as near-noise (event promos)
+
+
 def publishable(it: dict, min_score: int = 0) -> bool:
-    """Shown on the site / eligible for the briefing: relevant, and for broad
-    sources (press, X) important enough. Dedicated OT sources always pass."""
+    """Shown on the site / eligible for the briefing: relevant, and important
+    enough. Broad sources (press, X) need `min_score`; dedicated OT sources only
+    need OT_MIN_SCORE, so routine advisories stay visible."""
     cls = it.get("cls") or {}
     if not cls.get("relevant"):
         return False
-    return it.get("focus") == "ot" or int(cls.get("score") or 0) >= min_score
+    threshold = min(OT_MIN_SCORE, min_score) if it.get("focus") == "ot" else min_score
+    return int(cls.get("score") or 0) >= threshold
 
 
 def _payload(batch: list[dict]) -> str:

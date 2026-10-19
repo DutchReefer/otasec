@@ -1,0 +1,79 @@
+/* OTASEC theme tokens — HMI-style (ISA-101 thinking): neutral surfaces, colour
+   only where it means something. Brand colours live in the chrome only:
+   petrol header/footer, the logo, and teal links. Safety orange appears in the
+   logo and nowhere else, so it can never be mistaken for a "High" severity.
+
+   Mode: follows the OS (prefers-color-scheme) unless the visitor picks one with
+   the header toggle; theme.js then sets <html data-theme="light|dark">. */
+
+:root {
+  /* brand (chrome only) */
+  --petrol: #0b3c49;
+  --petrol-2: #0f4b5b;
+  --sand: #efebe3;
+  --nav: #a7c7c9;
+
+  /* light mode */
+  --bg: #f6f4ef;
+  --surface: #ffffff;
+  --ink: #1c2a2e;
+  --ink-2: #33464b;
+  --muted: #5c6b6e;
+  --line: #ddd8ce;
+  --line-2: #ebe7df;
+  --link: #1f7a7a;
+  --link-soft: #e3f0ef;
+  --focus: #1f7a7a;
+
+  /* severity / status pills: always paired with a word */
+  --sev-critical-bg: #fbe4e1; --sev-critical-fg: #9b1c1c;
+  --sev-high-bg: #fcebd5;     --sev-high-fg: #8a4b08;
+  --sev-medium-bg: #f4eec6;   --sev-medium-fg: #6b5a00;
+  --sev-info-bg: #e6e8e6;     --sev-info-fg: #4a5254;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f1c1f;
+  --surface: #16282c;
+  --ink: #e6e9e7;
+  --ink-2: #c3ccca;
+  --muted: #93a3a5;
+  --line: #2a3d41;
+  --line-2: #1f3236;
+  --link: #6cc2be;
+  --link-soft: #1d3a3b;
+  --focus: #6cc2be;
+  --sev-critical-bg: #4a1d1b; --sev-critical-fg: #f5b5b0;
+  --sev-high-bg: #45300f;     --sev-high-fg: #f3c988;
+  --sev-medium-bg: #3c3610;   --sev-medium-fg: #e8da8a;
+  --sev-info-bg: #263235;     --sev-info-fg: #b8c2c3;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1c1f;
+    --surface: #16282c;
+    --ink: #e6e9e7;
+    --ink-2: #c3ccca;
+    --muted: #93a3a5;
+    --line: #2a3d41;
+    --line-2: #1f3236;
+    --link: #6cc2be;
+    --link-soft: #1d3a3b;
+    --focus: #6cc2be;
+    --sev-critical-bg: #4a1d1b; --sev-critical-fg: #f5b5b0;
+    --sev-high-bg: #45300f;     --sev-high-fg: #f3c988;
+    --sev-medium-bg: #3c3610;   --sev-medium-fg: #e8da8a;
+    --sev-info-bg: #263235;     --sev-info-fg: #b8c2c3;
+    color-scheme: dark;
+  }
+}
+
+:root {
+  --mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, monospace;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --radius: 10px;
+}

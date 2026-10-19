@@ -233,3 +233,30 @@ x:
     - tweakers.net
     - computable.nl
     - fd.nl
+  # Readable names for X-sourced items from sites without their own feed here.
+  display_names:
+    securityweek.com: SecurityWeek
+    nist.gov: NIST
+    cisa.gov: CISA
+    ot.today: OT.today
+    dragos.com: Dragos
+    nozominetworks.com: Nozomi Networks
+    claroty.com: Claroty
+    forescout.com: Forescout
+    armis.com: Armis
+    tenable.com: Tenable
+    txone.com: TXOne Networks
+    darkreading.com: Dark Reading
+    cyberscoop.com: CyberScoop
+    theregister.com: The Register
+    arstechnica.com: Ars Technica
+    reuters.com: Reuters
+    ncsc.nl: NCSC-NL
+    digitaltrustcenter.nl: Digital Trust Center
+    enisa.europa.eu: ENISA
+    mandiant.com: Mandiant
+    sans.org: SANS
+    isa.org: ISA
+    isagca.org: ISA GCA
+    nos.nl: NOS
+    tweakers.net: Tweakers

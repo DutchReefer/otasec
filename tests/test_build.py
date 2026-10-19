@@ -52,3 +52,20 @@ def test_build_both_languages(cfg, store):
     assert "Daily &lt;b&gt;title&lt;/b&gt;" in en_home and "Dagtitel" in nl_home
     briefing_page = next((cfg.dist_dir / "nl" / "briefing").glob("*/index.html")).read_text()
     assert "Patch nu" in briefing_page and "javascript:" not in briefing_page
+
+
+def test_brand_and_theme_assets(cfg, store):
+    _seed(store)
+    build_site(cfg, store)
+    out = cfg.dist_dir / "nl"
+    for f in ("favicon.ico", "apple-touch-icon.png", "site.webmanifest", "assets/theme.css",
+              "assets/theme.js", "assets/icon-192.png", "assets/icon-512.png",
+              "assets/brand/otasec-wordmark-reverse.svg", "assets/brand/og-image.png"):
+        assert (out / f).is_file(), f
+    html = (out / "index.html").read_text()
+    assert html.index("theme.css") < html.index("style.css") and '<script src="/assets/theme.js' in html
+    assert 'id="theme-toggle"' in html and "Donkere modus" in html
+    assert 'og:image" content="https://otasec.nl/assets/brand/og-image.png"' in html
+    # Design rule: safety orange only inside the logo files, never in the UI CSS.
+    css = (out / "assets" / "style.css").read_text() + (out / "assets" / "theme.css").read_text()
+    assert "e8702a" not in css.lower()

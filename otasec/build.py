@@ -187,6 +187,9 @@ def build_site(cfg: Config, store: Store) -> None:
             shutil.rmtree(out)
         out.mkdir(parents=True)
         shutil.copytree(STATIC_DIR, out / "assets")
+        for name in ("favicon.ico", "apple-touch-icon.png", "site.webmanifest"):   # requested at the root
+            if (STATIC_DIR / name).is_file():
+                shutil.copy(STATIC_DIR / name, out / name)
 
         base_url = site["languages"][lang]["base_url"].rstrip("/")
         others = {l: site["languages"][l]["base_url"].rstrip("/") for l in cfg.languages}

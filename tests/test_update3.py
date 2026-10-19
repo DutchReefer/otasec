@@ -88,3 +88,11 @@ def test_x_rename_and_homepage_skip():
     payload = {"data": [{"id": "1", "author_id": "u", "text": "t",
                          "entities": {"urls": [{"expanded_url": "https://www.cisa.gov/"}]}}], "includes": {}}
     assert xsource.posts_to_signals(payload) == []
+
+
+def test_x_display_names():
+    a = make_item(1, url="https://csrc.nist.gov/pubs/x", source="csrc.nist.gov", source_id="x")
+    b = make_item(2, url="https://www.securityweek.com/a", source="securityweek.com", source_id="x")
+    c = make_item(3, url="https://unknown.example/a", source="unknown.example", source_id="x")
+    xsource.rename_sources([a, b, c], {"nist.gov": "NIST", "securityweek.com": "SecurityWeek"})
+    assert (a["source"], b["source"], c["source"]) == ("NIST", "SecurityWeek", "unknown.example")

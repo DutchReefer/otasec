@@ -1,5 +1,6 @@
 # OTASEC static site — Apache settings (ignored by non-Apache hosts).
 ErrorDocument 404 /404.html
+AddType application/manifest+json .webmanifest
 DirectoryIndex index.html
 Options -Indexes
 

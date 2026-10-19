@@ -100,12 +100,22 @@ def is_trusted(host: str, trusted: set[str]) -> bool:
     return any(host == d or host.endswith("." + d) for d in trusted)
 
 
-def rename_sources(items: list[dict]) -> None:
-    """X items pointing at a site we follow by RSS get that feed's name (in place)."""
+def rename_sources(items: list[dict], display_names: dict | None = None) -> None:
+    """X items get a readable source name (in place): the feed's name for sites we
+    follow by RSS, else `x.display_names` from config (subdomains match too)."""
     names = {_host(i["url"]): i["source"] for i in items if i.get("source_id") != "x"}
+    display = {k.lower().removeprefix("www."): v for k, v in (display_names or {}).items()}
     for i in items:
-        if i.get("source_id") == "x":
-            i["source"] = names.get(_host(i["url"]), i["source"])
+        if i.get("source_id") != "x":
+            continue
+        host = _host(i["url"])
+        if host in names:
+            i["source"] = names[host]
+            continue
+        match = next((d for d in sorted(display, key=len, reverse=True)
+                      if host == d or host.endswith("." + d)), None)
+        if match:
+            i["source"] = display[match]
 
 
 def prune_untrusted(items: list[dict], trusted: set[str]) -> list[dict]:

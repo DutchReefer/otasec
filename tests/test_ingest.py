@@ -127,4 +127,6 @@ def test_publishable_min_score():
     low_broad = make_item(1, focus="broad", cls=dict(make_item(1)["cls"], score=10))
     low_ot = make_item(2, focus="ot", cls=dict(make_item(2)["cls"], score=10))
     assert not publishable(low_broad, 25) and publishable(low_ot, 25)
+    promo_ot = make_item(4, focus="ot", cls=dict(make_item(4)["cls"], score=5))
+    assert not publishable(promo_ot, 25)
     assert not publishable(make_item(3, cls=None), 0)
