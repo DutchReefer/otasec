@@ -1,5 +1,610 @@
 [
  {
+  "id": "36fbbcffd6bf",
+  "url": "https://industrialcyber.co/news/dispel-zero-trust-engine-for-oems-to-secure-remote-industrial-service-standardize-access-strengthen-compliance/",
+  "title": "Dispel Zero Trust Engine for OEMs to secure remote industrial service, standardize access, strengthen compliance",
+  "excerpt": "Dispel announced the launch of Dispel Zero Trust Engine for OEMs, a solution purpose-built for OEMs and machine...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-19T15:34:17Z",
+  "fetched": "2026-10-19T15:40:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Dispel"
+   ],
+   "summary": {
+    "en": "Dispel announced a Zero Trust Engine aimed at OEMs for securing remote industrial service access.",
+    "nl": "Dispel kondigde een Zero Trust Engine aan, gericht op OEM's, voor het beveiligen van externe industriële servicetoegang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "c579d61ae7f7",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+  "title": "Microsoft fixes game, app crashes caused by recent Windows update",
+  "excerpt": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 Windows 11 preview update (KB5124010). [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T14:55:23Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft fixed a bug that caused games and apps using AC-3 audio decoding to crash after a Windows 11 preview update.",
+    "nl": "Microsoft heeft een bug verholpen die games en apps met AC-3-audiodecodering liet crashen na een Windows 11-previewupdate."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "03d3ba9d36cc",
+  "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+  "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+  "excerpt": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T14:14:07Z",
+  "fetched": "2026-10-19T15:40:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup covering zero-days, rogue AI agents, crypto theft and supermarket attacks, among other IT security news.",
+    "nl": "Een wekelijks overzicht van zero-days, AI-agents, cryptodiefstal en aanvallen op supermarkten, onder meer IT-beveiligingsnieuws."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "a7ef4531de00",
+  "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+  "title": "Inside the Underground Market for Know Your Client Services",
+  "excerpt": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T14:00:10Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Flare examines underground markets selling forged identity documents and deepfakes to bypass Know Your Client checks.",
+    "nl": "Flare onderzoekt ondergrondse markten die valse identiteitsdocumenten en deepfakes verkopen om KYC-controles te omzeilen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "c54f4eafb30d",
+  "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+  "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+  "excerpt": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T13:49:24Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "F5"
+   ],
+   "summary": {
+    "en": "F5 released out-of-band patches for NGINX web server flaws, including three critical vulnerabilities allowing code execution.",
+    "nl": "F5 heeft out-of-band patches uitgebracht voor NGINX-webserverkwetsbaarheden, waaronder drie kritieke fouten die codeuitvoering mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "c1931f689b72",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/axonius-ai-workforce/",
+  "title": "Axonius AI Workforce pairs asset intelligence with automated action",
+  "excerpt": "Axonius has announced Axonius AI Workforce, the latest expansion of Axonius AI. It enables organizations to deploy teams of Virtual Workers that monitor their environments, identify high-risk exposures and assets that deviate from their expected state, remediate issues, and report progress toward assigned goals. Actions requiring human-in-the-loop (HITL) approval pass through a structured checkpoint for review before execution. Security and IT teams have more data than ever, but it is scattered across dozens of tools … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T13:38:11Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Axonius"
+   ],
+   "summary": {
+    "en": "Axonius announced AI Workforce, a set of virtual workers that monitor environments and remediate exposures with human approval.",
+    "nl": "Axonius kondigde AI Workforce aan, virtuele medewerkers die omgevingen monitoren en blootstellingen verhelpen met menselijke goedkeuring."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "48ad89bb6ae7",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/",
+  "title": "ConnectWise suspends Cloud Backup service after attackers abuse its Microsoft 365 access",
+  "excerpt": "American software company ConnectWise is contending with a security incident that has allowed unknown attackers to use its application identities to break into organizations’ Microsoft 365 accounts. The intruders used a compromised credential belonging to the ConnectWise Cloud Backup application, formerly known as SkyKick. This spurred the company to temporarily suspend the backup service, as well as its SaaS Security (monitoring and alerting) and Cloud Management (user and license management) services, as they are integrated … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T13:33:57Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise"
+   ],
+   "summary": {
+    "en": "Attackers abused ConnectWise application identities to access Microsoft 365 accounts, prompting suspension of its Cloud Backup service.",
+    "nl": "Aanvallers misbruikten ConnectWise-applicatie-identiteiten om toegang te krijgen tot Microsoft 365-accounts, waarna de Cloud Backup-dienst werd opgeschort."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "6ef1416f1851",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/sweet-security-virtual-patching/",
+  "title": "Sweet Security adds one-click protection for vulnerable cloud workloads",
+  "excerpt": "Sweet Security has announced the release of Virtual Patching, a new capability that protects running cloud and AI applications from specific vulnerabilities the moment they are identified. Security teams can enforce protection in one click while engineering develops, tests, and deploys a permanent fix. Vulnerability remediation can take days or weeks as engineering teams develop fixes, test changes, obtain approvals, and deploy updated applications. During that window, the running application remains exposed. AI is making … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T13:28:06Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Sweet Security"
+   ],
+   "summary": {
+    "en": "Sweet Security released Virtual Patching to protect running cloud and AI applications from identified vulnerabilities.",
+    "nl": "Sweet Security bracht Virtual Patching uit om draaiende cloud- en AI-applicaties te beschermen tegen geïdentificeerde kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "55c23c50f5cd",
+  "url": "https://www.security.nl/posting/958170/Gegevens+van+miljoenen+leerlingen+in+Californi%C3%AB+buitgemaakt?channel=rss",
+  "title": "Gegevens van miljoenen leerlingen in Californië buitgemaakt",
+  "excerpt": "Bij een groot datalek in de Amerikaanse staat Californië zijn persoonsgegevens van miljoenen leerlingen buitgemaakt, dat meldt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T13:22:36Z",
+  "fetched": "2026-10-19T15:40:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Personal data of millions of students in California was stolen in a large data breach.",
+    "nl": "Persoonsgegevens van miljoenen leerlingen in Californië zijn buitgemaakt bij een grote datalek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "47f4fcfb349a",
+  "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+  "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+  "excerpt": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T13:05:45Z",
+  "fetched": "2026-10-19T15:40:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "summary": {
+    "en": "The GhostAction group now phishes open-source developers and delivers a credential stealer disguised as a font file across 94 repositories.",
+    "nl": "De GhostAction-groep phisht nu open-source-ontwikkelaars en verspreidt een credential stealer vermomd als lettertypebestand via 94 repositories."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "a1b7e5284ba8",
+  "url": "https://industrialcyber.co/zero-trust/need-for-enforceable-ai-accountability-zero-trust-security-as-ai-driven-cyber-risks-threaten-critical-infrastructure/",
+  "title": "Need for enforceable AI accountability, zero-trust security as AI-driven cyber risks threaten critical infrastructure",
+  "excerpt": "As artificial intelligence introduces new cybersecurity risks, traditional frameworks must evolve to address AI-enabled cybercrime, models escaping their...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-19T13:04:46Z",
+  "fetched": "2026-10-19T15:40:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "An article argues that AI-enabled cyber risks threaten critical infrastructure and calls for enforceable AI accountability and zero-trust security.",
+    "nl": "Een artikel stelt dat AI-gestuurde cyberrisico's kritieke infrastructuur bedreigen en pleit voor afdwingbare AI-verantwoordelijkheid en zero-trust beveiliging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "cf857959bd3d",
+  "url": "https://industrialcyber.co/ai/claroty-team82-shows-ai-can-rebuild-danfoss-controller-exploits-in-28-minutes-putting-internet-facing-ot-at-risk/",
+  "title": "Claroty Team82 shows AI can rebuild Danfoss controller exploits in 28 minutes, putting Internet-facing OT at risk",
+  "excerpt": "Claroty’s Team82 research team reproduced three previously disclosed vulnerabilities in Danfoss AK-SM 800A refrigeration controllers using an artificial...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-19T13:00:23Z",
+  "fetched": "2026-10-19T15:40:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "research",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Danfoss",
+    "Claroty"
+   ],
+   "summary": {
+    "en": "Claroty Team82 reproduced three disclosed Danfoss AK-SM 800A refrigeration controller vulnerabilities using AI in 28 minutes, raising risk for Internet-facing OT.",
+    "nl": "Claroty Team82 reproduceerde met AI in 28 minuten drie eerder gepubliceerde kwetsbaarheden in Danfoss AK-SM 800A-koelingscontrollers, wat risico's voor internetgerichte OT verhoogt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "3861916e7ed6",
+  "url": "https://industrialcyber.co/ransomware/unit-42-traces-peerstitch-malware-deployment-to-fortios-vulnerability-exploited-after-fortimanager-compromise/",
+  "title": "Unit 42 traces Peerstitch malware deployment to FortiOS vulnerability exploited after FortiManager compromise",
+  "excerpt": "Palo Alto Networks’ Unit 42 threat intelligence team uncovered a multistage cyber intrusion against a telecommunications managed service...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-19T12:57:51Z",
+  "fetched": "2026-10-19T15:40:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Fortinet",
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Unit 42 traced Peerstitch malware to a FortiOS flaw exploited after a FortiManager compromise at a telecom managed service provider.",
+    "nl": "Unit 42 herleidde Peerstitch-malware tot een FortiOS-kwetsbaarheid die werd misbruikt na een FortiManager-compromittering bij een telecom-dienstverlener."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "5d5f9354f02c",
+  "url": "https://www.security.nl/posting/958161/Ray-Ban+Meta+brillen+nemen+gesprekken+op+zonder+toestemming+van+gebruikers?channel=rss",
+  "title": "Ray-Ban Meta brillen nemen gesprekken op zonder toestemming van gebruikers",
+  "excerpt": "Slimme brillen van Ray-Ban Meta blijken ongevraagd gesprekken te hebben opgenomen. Door een softwarefout werden geluidsopnames ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T12:55:00Z",
+  "fetched": "2026-10-19T15:40:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Ray-Ban Meta"
+   ],
+   "summary": {
+    "en": "Ray-Ban Meta smart glasses recorded conversations without user consent due to a software bug.",
+    "nl": "Ray-Ban Meta slimme brillen namen gesprekken op zonder toestemming van gebruikers door een softwarefout."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "4a0adadcc4b5",
+  "url": "https://industrialcyber.co/utilities-energy-power-water-waste/nozomi-outlines-it-and-ot-security-priorities-ahead-of-indias-april-2027-cea-power-sector-cybersecurity-deadline/",
+  "title": "Nozomi outlines IT and OT security priorities ahead of India’s April 2027 CEA power sector cybersecurity deadline",
+  "excerpt": "Following the July move by India’s Central Electricity Authority (CEA) that notified the Central Electricity Authority (Cyber Security...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-19T12:52:21Z",
+  "fetched": "2026-10-19T15:40:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "regulation",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Nozomi Networks"
+   ],
+   "summary": {
+    "en": "Nozomi outlines IT and OT security priorities ahead of India's April 2027 power sector cybersecurity deadline set by the CEA.",
+    "nl": "Nozomi schetst IT- en OT-beveiligingsprioriteiten vóór de deadline van april 2027 voor cyberbeveiliging in de Indiase energiesector, vastgesteld door de CEA."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "20a994cf7e9a",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+  "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+  "excerpt": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T12:44:44Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft fixed a known issue that hid Copilot buttons in the classic Outlook desktop client for some users.",
+    "nl": "Microsoft heeft een bekend probleem opgelost waardoor Copilot-knoppen in de klassieke Outlook-desktopclient voor sommige gebruikers verdwenen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "5ae38a63e473",
+  "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+  "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+  "excerpt": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T11:50:00Z",
+  "fetched": "2026-10-19T15:40:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Salesforce"
+   ],
+   "summary": {
+    "en": "Analysis of how Salesforce Agentforce inherited agents combined with Email-to-Case can break governance designed for software.",
+    "nl": "Analyse van hoe Salesforce Agentforce-agents in combinatie met Email-to-Case het bestuur van software kunnen ondermijnen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "5368079cd481",
+  "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+  "title": "Hackers steal customer data from major Russian hosting provider FirstVDS",
+  "excerpt": "Hackers have stolen passwords, access credentials and other sensitive data belonging to customers of Russian hosting provider FirstVDS after exploiting a vulnerability in software used to manage its servers.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T11:45:00Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "FirstVDS"
+   ],
+   "summary": {
+    "en": "Hackers stole passwords and sensitive data of FirstVDS hosting customers by exploiting a server management software vulnerability.",
+    "nl": "Hackers stalen wachtwoorden en gevoelige gegevens van klanten van hostingprovider FirstVDS door een kwetsbaarheid in serverbeheersoftware te misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "8cb481db3ceb",
+  "url": "https://www.security.nl/posting/958142/Whatsapp+accounts+over+genomen+door+middel+van+ghost+pairing?channel=rss",
+  "title": "Whatsapp accounts over genomen door middel van ghost pairing",
+  "excerpt": "Veel Whatsapp gebruikers ontvingen de afgelopen dagen een bericht waarin hen werd gevraagd om te stemmen op de dochter van een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T11:40:44Z",
+  "fetched": "2026-10-19T15:40:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "WhatsApp"
+   ],
+   "summary": {
+    "en": "Many WhatsApp users received a message that led to accounts being taken over through ghost pairing.",
+    "nl": "Veel WhatsApp-gebruikers ontvingen een bericht waardoor accounts werden overgenomen via ghost pairing."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "ed98c25d9a5b",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/open-weight-ai-model-risks-microsoft-nvidia/",
+  "title": "With open-weight AI, more of the security burden falls on enterprises",
+  "excerpt": "Organizations that run open-weight AI models on their own infrastructure may have to supply safety and security controls that an AI provider would otherwise handle for them, Microsoft and NVIDIA warn in a joint paper on managing the risks of these models. Open-weight models are AI models whose weights, the values a model learns during training, are published so that anyone can download, inspect, modify and run them. Closed-weight models stay with the company that … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T11:04:12Z",
+  "fetched": "2026-10-19T15:40:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [
+    "Microsoft",
+    "NVIDIA"
+   ],
+   "summary": {
+    "en": "Microsoft and NVIDIA warn that enterprises running open-weight AI models must provide safety and security controls themselves.",
+    "nl": "Microsoft en NVIDIA waarschuwen dat bedrijven die open-weight AI-modellen draaien zelf veiligheidsmaatregelen moeten leveren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
   "id": "377f287188e2",
   "url": "https://www.security.nl/posting/958132/Overheid+lanceert+%E2%80%98laat+je+niet+interneppen%E2%80%99+campagne?channel=rss",
   "title": "Overheid lanceert ‘laat je niet interneppen’ campagne",
@@ -57,6 +662,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T11:04:33Z"
+  }
+ },
+ {
+  "id": "0534f1906337",
+  "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+  "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+  "excerpt": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T10:06:40Z",
+  "fetched": "2026-10-19T15:40:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A fake Web3 accelerator distributes malicious npm packages delivering infostealers and backdoors to Windows and macOS users under the guise of free AI credits.",
+    "nl": "Een nep Web3-accelerator verspreidt kwaadaardige npm-pakketten die infostealers en backdoors leveren aan Windows- en macOS-gebruikers via een valse aanbieding van gratis AI-credits."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T15:40:27Z"
   }
  },
  {
@@ -12379,34 +13012,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "c362d04a9e00",
-  "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
-  "title": "Managing the cyber risk of agentic AI",
-  "excerpt": "Use safeguards, sandboxing and active oversight to realise the benefits of autonomous systems while limiting the unintended activity.",
-  "source_id": "ncsc-uk",
-  "source": "NCSC-UK",
-  "lang": "en",
-  "kind": "guidance",
-  "focus": "broad",
-  "published": "2026-08-20T12:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": false,
-   "score": 30,
-   "category": "guidance",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "NCSC-UK publishes guidance on managing cyber risk of agentic AI, recommending safeguards, sandboxing and active oversight of autonomous systems.",
-    "nl": "NCSC-UK publiceert richtlijnen over het beheersen van cyberrisico's van agentic AI, met aanbevelingen voor waarborgen, sandboxing en actief toezicht op autonome systemen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:39:03Z"
   }
  }
 ]
