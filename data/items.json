@@ -1,5 +1,93 @@
 [
  {
+  "id": "377f287188e2",
+  "url": "https://www.security.nl/posting/958132/Overheid+lanceert+%E2%80%98laat+je+niet+interneppen%E2%80%99+campagne?channel=rss",
+  "title": "Overheid lanceert ‘laat je niet interneppen’ campagne",
+  "excerpt": "Een recent onderzoek in opdracht van het ministerie van Justitie en Veiligheid toont aan dat 94% van alle Nederlanders boven ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T10:31:40Z",
+  "fetched": "2026-10-19T11:04:27Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Dutch government campaign against online fraud follows a survey showing 94% of Dutch citizens over a certain age were targeted.",
+    "nl": "Een Nederlandse overheidscampagne tegen online fraude volgt op een onderzoek waaruit blijkt dat 94% van de Nederlanders boven een bepaalde leeftijd is benaderd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T11:04:33Z"
+  }
+ },
+ {
+  "id": "4c113474481b",
+  "url": "https://www.security.nl/posting/958125/LOXONE+getroffen+door+cyberaanval+maar+klantinstallaties+veilig+en+operationeel?channel=rss",
+  "title": "LOXONE getroffen door cyberaanval maar klantinstallaties veilig en operationeel",
+  "excerpt": "Smart home en gebouwautomatiseringsspecialist LOXONE is getroffen door een cyberaanval op de interne bedrijfssystemen. De ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T10:09:05Z",
+  "fetched": "2026-10-19T11:04:27Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "building"
+   ],
+   "vendors": [
+    "LOXONE"
+   ],
+   "summary": {
+    "en": "Smart home and building automation vendor LOXONE was hit by a cyberattack on its internal business systems, while customer installations remained secure and operational.",
+    "nl": "Smart home- en gebouwautomatiseringsspecialist LOXONE is getroffen door een cyberaanval op interne bedrijfssystemen, terwijl klantinstallaties veilig en operationeel bleven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T11:04:33Z"
+  }
+ },
+ {
+  "id": "03c5e113ccf2",
+  "url": "https://www.helpnetsecurity.com/2026/10/19/check-point-brand-impersonation-scams-q3-2026-report/",
+  "title": "Cybercriminals favor Microsoft over Apple and Google in brand phishing attacks",
+  "excerpt": "Microsoft accounted for 33% of brand impersonation attempts tracked by Check Point Research in the third quarter of 2026, up from 23% in the previous quarter and roughly four times the share of any other brand. Top 10 most impersonated brands in phishing attacks (Source: Check Point) Apple and Google followed with 8% each. Dropbox and YouTube recorded the biggest climbs in the rankings. “Attackers favor Microsoft because stolen Microsoft credentials can unlock an entire … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T09:38:17Z",
+  "fetched": "2026-10-19T11:04:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point data shows Microsoft was the most impersonated brand in phishing attacks in Q3 2026, ahead of Apple and Google.",
+    "nl": "Check Point-gegevens tonen aan dat Microsoft in het derde kwartaal van 2026 het meest nagebootste merk was in phishingaanvallen, gevolgd door Apple en Google."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T11:04:33Z"
+  }
+ },
+ {
   "id": "ff0b0261df9a",
   "url": "https://www.security.nl/posting/958122/Bezorging+Albert+Heijn+pas+eind+van+deze+week+weer+op+gang?channel=rss",
   "title": "Bezorging Albert Heijn pas eind van deze week weer op gang",
@@ -550,7 +638,7 @@
   "title": "NIST Special Publication (SP) 800-82 Rev. 4 (Draft), Guide to Operational Technology (OT) Security",
   "excerpt": "This document provides guidelines on how to secure operational technology (OT) while addressing their unique performance, reliability, and safety requirements. OT encompasses a broad range of programmable systems and devices that interact with the physical environment, such as industrial control systems, building automation and control systems (BACS), freight railroad, maritime vessels, water and wastewater systems (WWS), Industrial Internet of Things (IIoT), and cloud environments. This document provides an overview of OT and typical system topologies, identifies common threats and…",
   "source_id": "x",
-  "source": "csrc.nist.gov",
+  "source": "NIST",
   "lang": "en",
   "kind": "news",
   "focus": "broad",
@@ -728,7 +816,7 @@
   "title": "Only 13% of OT Network Segments Are Fully Isolated: Analysis",
   "excerpt": "Forescout’s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets.",
   "source_id": "x",
-  "source": "securityweek.com",
+  "source": "SecurityWeek",
   "lang": "en",
   "kind": "news",
   "focus": "broad",
@@ -12316,38 +12404,6 @@
    "summary": {
     "en": "NCSC-UK publishes guidance on managing cyber risk of agentic AI, recommending safeguards, sandboxing and active oversight of autonomous systems.",
     "nl": "NCSC-UK publiceert richtlijnen over het beheersen van cyberrisico's van agentic AI, met aanbevelingen voor waarborgen, sandboxing en actief toezicht op autonome systemen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:39:03Z"
-  }
- },
- {
-  "id": "1c699f62e21c",
-  "url": "https://certvde.com/en/advisories/VDE-2026-078/",
-  "title": "Frauscher: FDS102 for FAdC/FAdCi R2 has multiple vulnerabilities",
-  "excerpt": "[VDE-2026-078] Frauscher Sensortechnik FDS102 for FAdC/FAdCi R2 is vulnerable to Unrestricted Upload of File with Dangerous Type, Path Traversal: '../filedir', Insertion of Sensitive Information into Log File, Incorrect Authorization, Insufficient Session Expiration, Cross-Site Request Forgery (CSRF), Missing Authentication for Critical Function, and Missing Authorization.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-08-20T10:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 70,
-   "category": "advisory",
-   "sectors": [
-    "transport"
-   ],
-   "vendors": [
-    "Frauscher Sensortechnik"
-   ],
-   "summary": {
-    "en": "CERT@VDE advisory VDE-2026-078 lists multiple vulnerabilities in Frauscher FDS102 for FAdC/FAdCi R2, including file upload, path traversal, CSRF and missing authentication flaws.",
-    "nl": "CERT@VDE-advisory VDE-2026-078 somt meerdere kwetsbaarheden op in Frauscher FDS102 voor FAdC/FAdCi R2, waaronder bestandsupload, path traversal, CSRF en ontbrekende authenticatie."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:39:03Z"
