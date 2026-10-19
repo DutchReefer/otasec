@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import source_list %}
+{% from "_macros.html" import source_list, extra_block %}
 {% block title %}{{ b.title }} — {{ site.site_name }}{% endblock %}
 {% block description %}{{ b.intro }}{% endblock %}
 {% block main %}
@@ -7,6 +7,7 @@
   <p class="eyebrow">{{ t.nav_briefings }} · <time datetime="{{ b.date }}">{{ b.date_label }}</time></p>
   <h1 class="article__title">{{ b.title }}</h1>
   <p class="article__intro">{{ b.intro }}</p>
+  {% if b.quiet %}{{ extra_block(b, t) }}{% endif %}
 
   {% for s in b.stories %}
   <section class="story" id="story-{{ loop.index }}">

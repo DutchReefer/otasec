@@ -1,5 +1,11 @@
 """Daily briefing: the day's most-covered OT/ICS stories in one bilingual post.
 
+Only items that no earlier briefing has used are eligible, so a story is never
+repeated unless something new was published about it. When there is nothing
+new, a short "quiet day" edition is published with a joke or a bit of OT
+wisdom from config/quiet_day.yaml. If news arrives later that day, the quiet
+edition is replaced by a real briefing on the next run.
+
 Popularity = cross-source corroboration (+ X mentions). Claude clusters items
 that report the same event, and writes each story in English and Dutch in a
 single call. Stories reference items by id, never by URL, so every link in a
@@ -12,7 +18,10 @@ import logging
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+import yaml
+
 from .classify import publishable
+from .config import CONFIG_DIR
 from .llm import LLMError, complete_json
 from .store import Store, iso, parse_iso, utcnow
 
@@ -66,7 +75,12 @@ Write ONE briefing, in English AND Dutch:
 6. A 1-2 sentence intro per language setting up the day, and a short title per
    language that includes the date {date_label}.
 
-Dutch should read naturally for Dutch professionals (not a literal translation)."""
+Dutch should read naturally for Dutch professionals (not a literal translation).
+
+All items are new since the previous briefing. Stories covered recently are
+listed below; if a new item is a follow-up to one of them, present it as an
+update (what is new), without repeating the earlier summary.
+{recent}"""
 
 
 def local_now(tz: str) -> datetime:
@@ -84,11 +98,56 @@ def due(store: Store, site: dict, force: bool = False) -> str | None:
     return date
 
 
-def select_items(items: list[dict], hours: int, min_score: int = 0) -> list[dict]:
+def select_items(items: list[dict], hours: int, min_score: int = 0,
+                 exclude: set[str] | None = None) -> list[dict]:
     cutoff = utcnow() - timedelta(hours=hours)
+    exclude = exclude or set()
     return [i for i in items
-            if publishable(i, min_score)
+            if i["id"] not in exclude
+            and publishable(i, min_score)
             and (parse_iso(i.get("published")) or utcnow()) >= cutoff]
+
+
+def used_ids(briefings: list[dict], before: str) -> set[str]:
+    """Item ids already used by briefings published before `before` (a date)."""
+    return {s_["id"] for b in briefings if b.get("date", "") < before
+            for st in b.get("stories", []) for s_ in st.get("sources", []) if s_.get("id")}
+
+
+def recent_headings(briefings: list[dict], before: str, days: int = 3) -> str:
+    lines = []
+    for b in briefings:
+        if b.get("date", "") >= before or b.get("quiet"):
+            continue
+        for st in b.get("stories", []):
+            h = st.get("i18n", {}).get("en", {}).get("heading", "")
+            if h:
+                lines.append(f"- {b['date']}: {h}")
+        days -= 1
+        if days == 0:
+            break
+    return "\n".join(lines) if lines else "(none)"
+
+
+def load_quiet_entries() -> list[dict]:
+    data = yaml.safe_load((CONFIG_DIR / "quiet_day.yaml").read_text(encoding="utf-8")) or {}
+    return [e for e in data.get("entries", []) if e.get("en") and e.get("nl")]
+
+
+def quiet_briefing(date: str, briefings: list[dict], entries: list[dict]) -> dict:
+    """Placeholder edition for a day without new OT/ICS news. Entries rotate in order."""
+    previous = sum(1 for b in briefings if b.get("quiet") and b.get("date", "") < date)
+    extra = entries[previous % len(entries)] if entries else None
+    return {
+        "date": date,
+        "published": iso(utcnow()),
+        "model": "quiet-day",
+        "quiet": True,
+        "item_count": 0,
+        "i18n": {"en": {"title": "", "intro": ""}, "nl": {"title": "", "intro": ""}},  # texts come from i18n.py
+        "extra": {"kind": extra.get("kind", "wisdom"), "en": extra["en"], "nl": extra["nl"]} if extra else None,
+        "stories": [],
+    }
 
 
 def _payload(items: list[dict]) -> str:
@@ -144,10 +203,21 @@ def assemble(result: dict, items: list[dict], date: str, model: str) -> dict:
     }
 
 
+def _publish_quiet(store: Store, date: str, briefings: list[dict]) -> dict:
+    b = quiet_briefing(date, briefings, load_quiet_entries())
+    store.save_briefing(b)
+    log.info("published quiet-day edition for %s", date)
+    return b
+
+
 def generate(store: Store, items: list[dict], site: dict, api_key: str, model: str,
              force: bool = False) -> dict | None:
-    date = due(store, site, force=force)
-    if date is None:
+    now = local_now(site["timezone"])
+    date = now.date().isoformat()
+    existing = store.load_briefing(date)
+    if existing and not existing.get("quiet") and not force:
+        return None                      # today's real briefing is done
+    if now.hour < site["briefing"]["publish_hour_local"] and not force:
         return None
     if not api_key:
         log.warning("briefing due but ANTHROPIC_API_KEY is not set; skipping")
@@ -155,17 +225,23 @@ def generate(store: Store, items: list[dict], site: dict, api_key: str, model: s
 
     cfg = site["briefing"]
     min_score = site["feed"].get("min_score", 0)
-    selected = select_items(items, cfg["lookback_hours"], min_score)
+    briefings = store.load_briefings()
+    used = used_ids(briefings, before=date)
+    selected = select_items(items, cfg["lookback_hours"], min_score, used)
     if len(selected) < cfg["min_items"]:
-        selected = select_items(items, cfg["fallback_lookback_hours"], min_score)
+        selected = select_items(items, cfg["fallback_lookback_hours"], min_score, used)
+
     if not selected:
-        log.warning("no relevant items for briefing %s", date)
-        return None
+        if existing:                      # already quiet; nothing new yet
+            return None
+        return _publish_quiet(store, date, briefings)
+
     selected.sort(key=lambda i: (i["cls"].get("score", 0), i.get("x_mentions", 0)), reverse=True)
     selected = selected[:120]
 
     date_label = datetime.fromisoformat(date).strftime("%d-%m-%Y")
-    system = SYSTEM.format(max_stories=cfg["max_stories"], date_label=date_label)
+    system = SYSTEM.format(max_stories=cfg["max_stories"], date_label=date_label,
+                           recent=recent_headings(briefings, before=date))
     try:
         result = complete_json(api_key, model, system,
                                f"Date: {date}\n\nItems:\n{_payload(selected)}", SCHEMA, max_tokens=12000)
@@ -175,8 +251,9 @@ def generate(store: Store, items: list[dict], site: dict, api_key: str, model: s
 
     briefing = assemble(result, selected, date, model)
     if not briefing["stories"]:
-        log.error("briefing had no stories with valid sources; not published")
-        return None
+        log.warning("no stories with valid sources for %s", date)
+        return None if existing else _publish_quiet(store, date, briefings)
     store.save_briefing(briefing)
-    log.info("published briefing %s with %d stories", date, len(briefing["stories"]))
+    log.info("published briefing %s with %d stories%s", date, len(briefing["stories"]),
+             " (replacing quiet edition)" if existing else "")
     return briefing

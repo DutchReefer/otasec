@@ -1,0 +1,72 @@
+# Shown on days without new OT/ICS news (see otasec/briefing.py).
+# Rotates in order, so every entry appears before any repeats.
+# kind: joke | wisdom. All entries are original OTASEC texts: no attributions
+# to real people, so nothing can be misquoted.
+
+entries:
+  - kind: joke
+    en: "IT: \"Have you tried turning it off and on again?\" OT: \"Absolutely. It's scheduled for the 2031 turnaround.\""
+    nl: "IT: \"Heb je hem al uit en weer aan gezet?\" OT: \"Zeker. Staat gepland voor de revisiestop van 2031.\""
+  - kind: wisdom
+    en: "You can't protect what you don't know you have. A quiet day is a good day to update the asset inventory."
+    nl: "Je kunt niet beschermen wat je niet weet dat je hebt. Een rustige dag is een goede dag om de asset-inventaris bij te werken."
+  - kind: joke
+    en: "How many OT engineers does it take to change a light bulb? None. It's still running, and nobody is touching it."
+    nl: "Hoeveel OT-engineers heb je nodig om een lamp te vervangen? Geen. Hij brandt nog, en niemand komt eraan."
+  - kind: wisdom
+    en: "Every remote connection is a door. Know who has the key, and when it's open."
+    nl: "Elke verbinding op afstand is een deur. Weet wie de sleutel heeft, en wanneer hij openstaat."
+  - kind: joke
+    en: "Our air gap was flawless. Right up until someone needed to copy one Excel file."
+    nl: "Onze air gap was perfect. Tot iemand één Excel-bestand moest kopiëren."
+  - kind: wisdom
+    en: "Segmentation isn't a project. It's a habit."
+    nl: "Segmentatie is geen project. Het is een gewoonte."
+  - kind: joke
+    en: "The vendor's remote-access tool is only temporary. It has been temporary since 2014."
+    nl: "De remote-accesstool van de leverancier is maar tijdelijk. Al sinds 2014."
+  - kind: wisdom
+    en: "Safety and security are two sides of the same valve."
+    nl: "Safety en security zijn twee kanten van dezelfde klep."
+  - kind: joke
+    en: "Modbus walks into a bar. Nobody asks for its credentials."
+    nl: "Modbus loopt een café binnen. Niemand vraagt om een legitimatie."
+  - kind: wisdom
+    en: "The best incident response plan is the one your night shift has actually practised."
+    nl: "Het beste incidentresponsplan is het plan dat de nachtploeg echt heeft geoefend."
+  - kind: joke
+    en: "In IT, patches arrive every month. In OT, patches arrive every decade, with a commissioning report."
+    nl: "In IT komen patches elke maand. In OT elk decennium, inclusief opleverrapport."
+  - kind: wisdom
+    en: "Patch what you can, monitor what you can't, and document both."
+    nl: "Patch wat je kunt, monitor wat je niet kunt patchen, en documenteer allebei."
+  - kind: joke
+    en: "Asset inventory: the art of discovering devices you were certain you didn't own."
+    nl: "Asset-inventarisatie: de kunst van het ontdekken van apparaten waarvan je zeker wist dat je ze niet had."
+  - kind: wisdom
+    en: "Default passwords are a gift to attackers. Stop giving gifts."
+    nl: "Standaardwachtwoorden zijn een cadeautje voor aanvallers. Stop met cadeautjes geven."
+  - kind: joke
+    en: "Zero trust? Our OT team has been practising that with IT for years."
+    nl: "Zero trust? Ons OT-team past dat al jaren toe op de IT-afdeling."
+  - kind: wisdom
+    en: "Your suppliers are part of your attack surface. Ask them the hard questions before the purchase order, not after."
+    nl: "Je leveranciers horen bij je aanvalsoppervlak. Stel de lastige vragen vóór de inkooporder, niet erna."
+  - kind: joke
+    en: "The HMI password is very secure. It's on a sticky note, inside a locked cabinet. Usually locked."
+    nl: "Het HMI-wachtwoord is heel veilig. Het zit op een geeltje, in een afgesloten kast. Meestal afgesloten."
+  - kind: wisdom
+    en: "IEC 62443 isn't a checklist. It's a shared agreement between asset owners, integrators and suppliers."
+    nl: "IEC 62443 is geen checklist. Het is een gedeelde afspraak tussen asset owners, integrators en leveranciers."
+  - kind: joke
+    en: "IT measures uptime in nines. OT measures it in years since the last reboot, and is proud of it."
+    nl: "IT meet uptime in negens. OT meet het in jaren sinds de laatste herstart, en is daar trots op."
+  - kind: wisdom
+    en: "Quiet days are the right days to test your backups. Better still: restore one."
+    nl: "Rustige dagen zijn de juiste dagen om je back-ups te testen. Nog beter: zet er eentje terug."
+  - kind: joke
+    en: "Our network segmentation is excellent: IT sits on the third floor and OT in the basement."
+    nl: "Onze netwerksegmentatie is uitstekend: IT zit op de derde verdieping en OT in de kelder."
+  - kind: wisdom
+    en: "A calm control room is the result of a lot of invisible work. Thank your operators today."
+    nl: "Een rustige controlekamer is het resultaat van veel onzichtbaar werk. Bedank je operators vandaag."

@@ -43,6 +43,15 @@
 </li>
 {% endmacro %}
 
+{% macro extra_block(b, t) %}
+{% if b.extra %}
+<figure class="extra extra--{{ b.extra.kind }}">
+  <figcaption>{{ t.extra_joke if b.extra.kind == 'joke' else t.extra_wisdom }}</figcaption>
+  <blockquote>{{ b.extra.text }}</blockquote>
+</figure>
+{% endif %}
+{% endmacro %}
+
 {% macro source_list(sources) %}
 <ul class="srcs">
   {% for s in sources %}

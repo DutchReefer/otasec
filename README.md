@@ -35,6 +35,11 @@ config/sources.yaml ─┐
   our RSS feeds already link to. Shops, job boards, SEO pages and unknown blogs are ignored.
 - **Importance threshold.** Items from broad sources (press, X) with an importance
   score under `feed.min_score` (default 25) are hidden. Dedicated OT sources are always shown.
+- **Never the same news twice.** A briefing only uses items that no earlier briefing
+  has used. Follow-ups to recent stories are written as updates.
+- **Quiet days.** With nothing new, the briefing is a short "quiet day" edition with
+  an OT joke or bit of OT wisdom from `config/quiet_day.yaml`, which you can edit freely.
+  If news arrives later that day, the next run replaces it with a real briefing.
 - **No invented links.** The briefing model refers to items by id. Links are then
   attached from the real fetched items, so it can't add or alter a URL. Every link
   is also restricted to http(s), and all text is HTML-escaped.

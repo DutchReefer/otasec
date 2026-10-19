@@ -11,7 +11,7 @@
       <a href="{{ b.path }}">
         <time datetime="{{ b.date }}">{{ b.date_label }}</time>
         <span class="archive__title">{{ b.title }}</span>
-        <span class="muted">{{ plural('stories', b.stories|length) }}</span>
+        {% if b.quiet %}<span class="pill pill--x">{{ t.quiet_pill }}</span>{% else %}<span class="muted">{{ plural('stories', b.stories|length) }}</span>{% endif %}
       </a>
     </li>
     {% endfor %}

@@ -84,6 +84,10 @@ class Store:
     def save_briefing(self, briefing: dict) -> None:
         write_json(self.briefing_path(briefing["date"]), briefing)
 
+    def load_briefing(self, date: str) -> dict | None:
+        b = read_json(self.briefing_path(date), None)
+        return b if isinstance(b, dict) else None
+
     def load_briefings(self) -> list[dict]:
         """All briefings, newest first."""
         if not self.briefings_dir.is_dir():

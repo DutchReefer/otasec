@@ -1,11 +1,14 @@
 {% extends "base.html" %}
-{% from "_macros.html" import feed_item, feed_group %}
+{% from "_macros.html" import feed_item, feed_group, extra_block %}
 {% block main %}
 <section class="brief" aria-labelledby="brief-h">
   {% if latest %}
   <p class="eyebrow"><span class="pulse" aria-hidden="true"></span>{{ t.todays_briefing if is_today else t.latest_briefing }} · {{ latest.date_label }}</p>
   <h1 id="brief-h" class="brief__title"><a href="{{ latest.path }}">{{ latest.title }}</a></h1>
   <p class="brief__intro">{{ latest.intro }}</p>
+  {% if latest.quiet %}
+  {{ extra_block(latest, t) }}
+  {% else %}
   <ol class="brief__list">
     {% for s in latest.stories %}
     <li>
@@ -15,6 +18,7 @@
     {% endfor %}
   </ol>
   <p><a class="cta" href="{{ latest.path }}">{{ t.read_briefing }} →</a></p>
+  {% endif %}
   {% else %}
   <p class="eyebrow">{{ t.todays_briefing }}</p>
   <h1 id="brief-h" class="brief__title">{{ t.tagline }}</h1>

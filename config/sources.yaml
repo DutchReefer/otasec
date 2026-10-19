@@ -62,6 +62,23 @@ feeds:
     kind: vendor
     lang: en
     verified: 2026-10-18
+  - id: kaspersky-ics-cert
+    name: Kaspersky ICS CERT
+    url: https://ics-cert.kaspersky.com/feed/
+    focus: ot
+    kind: research
+    lang: en
+    verified: 2026-10-19
+  # Listed on https://certvde.com/en/service/rss-feeds/ (German CERT for
+  # industrial vendors: Phoenix Contact, WAGO, CODESYS, Beckhoff, Pilz, ...).
+  - id: certvde
+    name: CERT@VDE Advisories
+    url: https://certvde.com/en/advisories/feeds/rss/
+    focus: ot
+    kind: advisory
+    lang: en
+  # OT.today (ISMG) has no public RSS feed of its own (checked Oct 2026);
+  # its articles arrive via X (ot.today is a trusted domain below).
   # Dragos and Nozomi Networks no longer publish RSS feeds (404, Oct 2026).
   # Their research still reaches OTASEC through Industrial Cyber, SecurityWeek
   # and X (both domains are on the X allowlist below).
@@ -109,6 +126,14 @@ feeds:
     kind: news
     lang: en
     verified: 2026-10-14
+
+  - id: ncsc-uk
+    name: NCSC-UK
+    url: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+    focus: broad
+    kind: guidance
+    lang: en
+    verified: 2026-10-19
 
   # --- Dutch ------------------------------------------------------------------
   - id: ncsc-nl
@@ -179,6 +204,7 @@ x:
     - microsoft.com
     - blog.talosintelligence.com
     - ics-cert.kaspersky.com
+    - kaspersky.com
     - welivesecurity.com
     - trendmicro.com
     - sans.org
@@ -187,6 +213,7 @@ x:
     - rockwellautomation.com
     # News
     - industrialcyber.co
+    - ot.today
     - securityweek.com
     - therecord.media
     - darkreading.com

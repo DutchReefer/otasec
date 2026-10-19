@@ -46,6 +46,11 @@ STRINGS = {
         "next": "Next",
         "skip": "Skip to content",
         "group_title": "{n} advisories from {source}",
+        "quiet_title": "A quiet day in OT security",
+        "quiet_intro": "No new OT/ICS stories since the last briefing. That's good news for asset owners. If anything breaks later today, this page is updated automatically, and the live feed below always shows the latest items.",
+        "quiet_pill": "Quiet day",
+        "extra_joke": "OT joke of the day",
+        "extra_wisdom": "OT wisdom of the day",
         "group_show": "Show all {n}",
         "categories": {
             "advisory": "Advisory", "incident": "Incident", "threat": "Threat intel",
@@ -101,6 +106,11 @@ STRINGS = {
         "next": "Volgende",
         "skip": "Naar de inhoud",
         "group_title": "{n} advisories van {source}",
+        "quiet_title": "Een rustige dag in OT-security",
+        "quiet_intro": "Geen nieuw OT/ICS-nieuws sinds de vorige briefing. Goed nieuws voor asset owners. Komt er later vandaag toch iets binnen, dan wordt deze pagina automatisch bijgewerkt. De live feed hieronder toont altijd de nieuwste berichten.",
+        "quiet_pill": "Rustige dag",
+        "extra_joke": "OT-grap van de dag",
+        "extra_wisdom": "OT-wijsheid van de dag",
         "group_show": "Toon alle {n}",
         "categories": {
             "advisory": "Advisory", "incident": "Incident", "threat": "Dreiging",

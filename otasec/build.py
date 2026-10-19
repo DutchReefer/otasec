@@ -122,12 +122,17 @@ def view_briefing(b: dict, lang: str, tz: ZoneInfo) -> dict:
             "x": s.get("x_mentions", 0),
             "cves": s.get("cves", []),
         })
+    quiet = bool(b.get("quiet"))
+    extra = b.get("extra") or None
+    t = STRINGS[lang]
     return {
+        "quiet": quiet,
+        "extra": {"kind": extra.get("kind", "wisdom"), "text": extra.get(lang) or extra.get("en", "")} if extra else None,
         "date": b["date"],
         "date_label": fmt_long_date(date, lang),
         "published": b.get("published"),
-        "title": loc.get("title", ""),
-        "intro": loc.get("intro", ""),
+        "title": loc.get("title") or (t["quiet_title"] if quiet else ""),
+        "intro": loc.get("intro") or (t["quiet_intro"] if quiet else ""),
         "stories": stories,
         "path": f"/briefing/{b['date']}/",
     }
@@ -235,7 +240,8 @@ def build_site(cfg: Config, store: Store) -> None:
         _write(out / "rss.xml", _rss(
             f"OTASEC — {t['rss_briefings']}", base_url + "/", t["tagline"], lang,
             [{"title": b["title"] or b["date_label"], "link": base_url + b["path"], "guid": f"otasec-briefing-{b['date']}-{lang}",
-              "date": b["published"], "description": b["intro"]} for b in vbriefings[:30]]))
+              "date": b["published"],
+              "description": b["intro"] + (f" — {b['extra']['text']}" if b.get("extra") else "")} for b in vbriefings[:30]]))
         _write(out / "news.xml", _rss(
             f"OTASEC — {t['rss_news']}", base_url + "/", t["tagline"], lang,
             [{"title": f"{i['title']} ({i['source']})", "link": i["url"], "guid": f"otasec-item-{i['id']}",
