@@ -1,5 +1,299 @@
 [
  {
+  "id": "d781dbabb694",
+  "url": "https://therecord.media/whatsapp-denied-appeal-alleged-nso-group-violation-injunction",
+  "title": "Judge denies WhatsApp’s bid to hold spyware maker in contempt for allegedly targeting users",
+  "excerpt": "WhatsApp argued that NSO Group violated a 2025 injunction against using the messaging app to spread spyware. A federal judge said WhatsApp hurt its case by not revealing enough information.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T19:49:00Z",
+  "fetched": "2026-10-19T21:06:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A federal judge denied WhatsApp's bid to hold NSO Group in contempt over alleged spyware targeting of users.",
+    "nl": "Een federale rechter wees het verzoek van WhatsApp af om NSO Group wegens vermeend spyware-gebruik tegen gebruikers minachting van de rechter te laten vaststellen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "dc9813bc2d42",
+  "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack",
+  "title": "ConnectWise suspends Cloud Backup service after supply chain attack",
+  "excerpt": "ConnectWise initially said on Friday that it was investigating “attempts of unauthorized access associated with the ConnectWise Cloud Backup environment,” and confirmed such access on Saturday.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T19:45:00Z",
+  "fetched": "2026-10-19T21:06:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise"
+   ],
+   "summary": {
+    "en": "ConnectWise suspended its Cloud Backup service after confirming unauthorized access in a supply chain attack.",
+    "nl": "ConnectWise heeft zijn Cloud Backup-dienst opgeschort nadat ongeautoriseerde toegang tot de omgeving was bevestigd in een supply chain-aanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "2cd32ba26132",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+  "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+  "excerpt": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.a [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T19:40:58Z",
+  "fetched": "2026-10-19T21:06:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "AOMEI"
+   ],
+   "summary": {
+    "en": "Hackers reportedly compromised AOMEI update servers to distribute malware via a promotional feature in its backup software.",
+    "nl": "Hackers hebben naar verluidt de updateservers van AOMEI gecompromitteerd om malware te verspreiden via een promotiefunctie in de backupsoftware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "eca1d10adf2c",
+  "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+  "title": "Bullhorn takes staffing platform offline to contain cyberattack",
+  "excerpt": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T18:51:13Z",
+  "fetched": "2026-10-19T21:06:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Bullhorn"
+   ],
+   "summary": {
+    "en": "Bullhorn took its staffing platform offline to contain a cyberattack that caused a system-wide outage.",
+    "nl": "Bullhorn heeft zijn platform voor uitzendbureaus offline gehaald om een cyberaanval met een systeembrede storing in te dammen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "5a936d0dc13b",
+  "url": "https://therecord.media/serbia-spyware-pegasus-elections",
+  "title": "Two more Serbian opposition figures targeted with spyware, researchers say",
+  "excerpt": "A phone belonging to the rector of the University of Belgrade was discovered to have been infected with Pegasus spyware, the latest in a series of such discoveries in the lead-up to Serbia's national elections.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T18:45:00Z",
+  "fetched": "2026-10-19T21:06:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found a phone of the University of Belgrade rector infected with Pegasus spyware, amid election-period targeting in Serbia.",
+    "nl": "Onderzoekers ontdekten dat de telefoon van de rector van de Universiteit van Belgrado is geïnfecteerd met Pegasus-spyware, in aanloop naar de verkiezingen in Servië."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "143bfdf19e2b",
+  "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+  "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+  "excerpt": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell. The vulnerabilities",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T17:32:13Z",
+  "fetched": "2026-10-19T21:06:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Plex"
+   ],
+   "summary": {
+    "en": "Threat actors are exploiting the Plex2Shell vulnerability chain in Plex Media Server to deploy crypto miners and a proxy backdoor.",
+    "nl": "Dreigingsactoren maken misbruik van de Plex2Shell-kwetsbaarheidsketen in Plex Media Server om cryptominers en een proxy-backdoor te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "0c662ba832e0",
+  "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+  "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+  "excerpt": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T17:27:15Z",
+  "fetched": "2026-10-19T21:06:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "OpenCode"
+   ],
+   "summary": {
+    "en": "The OpenCode AI coding project notified some users that API keys used with external providers were exposed in a breach.",
+    "nl": "Het open-source AI-codeerproject OpenCode heeft een aantal gebruikers gemeld dat API-sleutels zijn blootgesteld bij een datalek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "425846ce9398",
+  "url": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
+  "title": "Ahold Delhaize confirms 'malicious actions' behind cyber outages affecting grocery brands",
+  "excerpt": "Ahold Delhaize, the Dutch multinational grocery retailer, said Monday that a cyberattack forced it to take systems offline across most of its U.S. and European brands, impacting shoppers on both sides of the Atlantic.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T16:45:00Z",
+  "fetched": "2026-10-19T21:06:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Ahold Delhaize confirmed malicious actions caused a cyberattack that took systems offline across most of its US and European grocery brands.",
+    "nl": "Ahold Delhaize bevestigde dat kwaadwillige acties achter een cyberaanval zaten die systemen bij de meeste Amerikaanse en Europese supermarktmerken offline haalde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "4ad529ab6216",
+  "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+  "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+  "excerpt": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a security notice published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T16:28:47Z",
+  "fetched": "2026-10-19T21:06:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Rank Math"
+   ],
+   "summary": {
+    "en": "Copies of Rank Math PRO downloaded or updated in a short window contained malware, creating a self-restoring WordPress backdoor.",
+    "nl": "Kopieën van Rank Math PRO die in een kort tijdvenster werden gedownload of bijgewerkt bevatten malware, wat een zichzelf herstellende WordPress-backdoor vormt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
+  "id": "f650fcc751bf",
+  "url": "https://therecord.media/russian-social-media-giant-vk-faces-disruptions-drone-strike-data-center",
+  "title": "Russian social media giant VK faces disruptions after data center drone strike",
+  "excerpt": "The disruptions began Sunday, when users complained of difficulties loading news feeds, playing music and accessing other features of VK's platforms.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T15:55:00Z",
+  "fetched": "2026-10-19T21:06:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russian social media company VK experienced platform disruptions after a drone strike on a data center.",
+    "nl": "Het Russische sociale mediabedrijf VK kampt met verstoringen van zijn platforms na een dronaanval op een datacenter."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-19T21:06:46Z"
+  }
+ },
+ {
   "id": "36fbbcffd6bf",
   "url": "https://industrialcyber.co/news/dispel-zero-trust-engine-for-oems-to-secure-remote-industrial-service-standardize-access-strengthen-compliance/",
   "title": "Dispel Zero Trust Engine for OEMs to secure remote industrial service, standardize access, strengthen compliance",
@@ -12977,38 +13271,6 @@
    "summary": {
     "en": "Siemens updated its security bulletin on increasing cyber threats to industrial control systems on 2026-08-21.",
     "nl": "Siemens heeft op 21-08-2026 zijn beveiligingsbulletin over toenemende cyberdreigingen voor industriële besturingssystemen bijgewerkt."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "055807ed8a40",
-  "url": "https://securityaffairs.com/197566/ics-scada/nsa-cisa-fbi-doe-and-epa-warn-of-active-ai-assisted-attacks-on-siemens-s7-plcs.html",
-  "title": "NSA, CISA, FBI, DOE, and EPA Warn of Active AI-Assisted Attacks on Siemens S7 PLCs",
-  "excerpt": "NSA, CISA, FBI, DOE, and EPA warn of active AI-assisted attacks against Siemens S7 PLCs across US critical infrastructure sectors. Five U.S. federal agencies issued a joint advisory this week warning of an active hacking campaign against Siemens S7 Series programmable logic controllers. The advisory, CISA AA26-231A, is co-signed by NSA, FBI, DOE, and EPA […]",
-  "source_id": "securityaffairs-ics",
-  "source": "Security Affairs ICS-SCADA",
-  "lang": "en",
-  "kind": "news",
-  "focus": "ot",
-  "published": "2026-08-20T17:36:49Z",
-  "fetched": "2026-10-14T21:44:16Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 95,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "NSA, CISA, FBI, DOE and EPA issued advisory CISA AA26-231A warning of an active AI-assisted campaign against Siemens S7 PLCs in US critical infrastructure.",
-    "nl": "NSA, CISA, FBI, DOE en EPA hebben advies AA26-231A uitgebracht over een actieve, AI-ondersteunde campagne tegen Siemens S7-PLC's in Amerikaanse kritieke infrastructuur."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
