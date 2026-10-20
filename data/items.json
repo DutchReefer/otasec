@@ -1,5 +1,61 @@
 [
  {
+  "id": "2f726d9ddfc8",
+  "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+  "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+  "excerpt": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T21:49:48Z",
+  "fetched": "2026-10-20T00:23:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Nikkei disclosed a third data breach in about a month, exposing 1.83 million personal information records.",
+    "nl": "Nikkei heeft een derde datalek in ongeveer een maand gemeld, waarbij 1,83 miljoen persoonsgegevens zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T00:23:57Z"
+  }
+ },
+ {
+  "id": "2bb06bcc8635",
+  "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+  "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+  "excerpt": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T21:24:51Z",
+  "fetched": "2026-10-20T00:23:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's website contained malware that planted backdoors in a supply-chain attack.",
+    "nl": "Sommige downloads van de Rank Math PRO WordPress-plugin van de website van de leverancier bevatten malware die backdoors plaatste in een supply-chainaanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T00:23:57Z"
+  }
+ },
+ {
   "id": "d781dbabb694",
   "url": "https://therecord.media/whatsapp-denied-appeal-alleged-nso-group-violation-injunction",
   "title": "Judge denies WhatsApp’s bid to hold spyware maker in contempt for allegedly targeting users",
@@ -13239,38 +13295,6 @@
    "summary": {
     "en": "A Waterfall webinar covers government directives, islanding approaches and AI-based zero-day exploits affecting OT.",
     "nl": "Een webinar van Waterfall behandelt overheidsrichtlijnen, islanding-benaderingen en AI-gebaseerde zero-day-exploits voor OT."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "9cb95f9a3a3e",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssb-104599.html",
-  "title": "SSB-104599 V1.3 (Last Update: 2026-08-21): Increasing Cyber Threats to Industrial Control Systems",
-  "excerpt": "",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-08-21T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 60,
-   "category": "threat",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens updated its security bulletin on increasing cyber threats to industrial control systems on 2026-08-21.",
-    "nl": "Siemens heeft op 21-08-2026 zijn beveiligingsbulletin over toenemende cyberdreigingen voor industriële besturingssystemen bijgewerkt."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
