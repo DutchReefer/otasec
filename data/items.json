@@ -1,5 +1,33 @@
 [
  {
+  "id": "42a8d3a7210a",
+  "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+  "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+  "excerpt": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T20:56:43Z",
+  "fetched": "2026-10-20T23:55:27Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The PHP security team warns administrators to prepare for emergency updates addressing two critical vulnerabilities, whose details reportedly leaked before scheduled disclosure.",
+    "nl": "Het PHP-beveiligingsteam waarschuwt beheerders om zich voor te bereiden op noodupdates voor twee kritieke kwetsbaarheden, waarvan de details naar verluidt zijn uitgelekt vóór de geplande onthulling."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T23:55:34Z"
+  }
+ },
+ {
   "id": "a92bc795de6c",
   "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
   "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
