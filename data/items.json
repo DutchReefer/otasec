@@ -1,5 +1,1003 @@
 [
  {
+  "id": "85d76ae5c09f",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/google-chrome-enhanced-protection-updates/",
+  "title": "Chrome flags malicious commands that scammers pass off as fixes",
+  "excerpt": "Google is updating Chrome’s Enhanced Protection mode to detect scam websites and warn users when a page tricks them into copying a malicious command. The company introduced Enhanced Protection for Chrome’s Safe Browsing feature in 2020 to address online scams and social engineering. Google says further updates have made its users ten times safer from phishing, social engineering, notification abuse, and other scams compared with those using Standard Protection. The figure is based on a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T17:00:47Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google is updating Chrome's Enhanced Protection mode to detect scam sites and warn users about tricks that get them to copy malicious commands.",
+    "nl": "Google past de Enhanced Protection-modus van Chrome aan om scamsites te detecteren en gebruikers te waarschuwen voor kwaadaardige commando's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "53ddecf9f5b1",
+  "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+  "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+  "excerpt": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T15:38:52Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [
+   "CVE-2026-106173"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers released a proof-of-concept exploit for CVE-2026-106173, a critical unauthenticated path traversal flaw in Fortinet FortiSIEM.",
+    "nl": "Onderzoekers hebben een proof-of-concept exploit vrijgegeven voor CVE-2026-106173, een kritieke onverifieerde path traversal-kwetsbaarheid in Fortinet FortiSIEM."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "0d304799e621",
+  "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+  "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+  "excerpt": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T15:32:27Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [
+   "CVE-2026-0257"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 45,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ransomware groups Qilin and INC are exploiting the patched CVE-2026-0257 authentication bypass in PAN-OS and Prisma Access to set up unauthorized VPN connections.",
+    "nl": "Ransomwaregroepen Qilin en INC misbruiken de gepatchte authenticatiebypass CVE-2026-0257 in PAN-OS en Prisma Access om ongeautoriseerde VPN-verbindingen op te zetten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "21d8da0f897f",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/aomei-backupper-compromised-supply-chain/",
+  "title": "AOMEI Backupper servers hijacked for minutes at a time to push backdoor",
+  "excerpt": "An unknown number of AOMEI Backupper users had their computers infected with a backdoor through an unusually stealthy supply chain attack, security researchers discovered. Between April and July 2026, attackers repeatedly altered configuration files on AOMEI’s own servers for just five to ten minutes at a time, then restored the originals. The tampered files belong to the software’s update and promotional pop-up mechanism, which periodically fetches instructions from AOMEI’s servers. The activity was observed on … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T15:14:30Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers altered AOMEI Backupper update configuration files on company servers for minutes at a time, infecting users with a backdoor.",
+    "nl": "Aanvallers wijzigden minuten lang configuratiebestanden op AOMEI-servers, waardoor gebruikers van AOMEI Backupper met een backdoor werden geinfecteerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "db90da467e3e",
+  "url": "https://www.security.nl/posting/958341/Honderden+gehackte+Tor-exitnodes+onderschepten+SSH-+en+mailverkeer?channel=rss",
+  "title": "Honderden gehackte Tor-exitnodes onderschepten SSH- en mailverkeer",
+  "excerpt": "Begin deze maand hebben ruim driehonderd gehackte en malafide Tor-exitnodes een gecoördineerde campagne uitgevoerd om ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T14:56:41Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hundreds of compromised malicious Tor exit nodes conducted a coordinated campaign intercepting SSH and email traffic.",
+    "nl": "Honderden gecompromitteerde kwaadaardige Tor-exitnodes voerden een gecoordineerde campagne uit die SSH- en mailverkeer onderschepte."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "4cce5b0679d6",
+  "url": "https://therecord.media/eu-cyber-law-wont-force-fixes-for-fridges-in-french-attack",
+  "title": "EU cyber law won’t force fixes for fridge controllers hit in French attack",
+  "excerpt": "The EU’s Cyber Resilience Act that took effect last month only requires companies to fix vulnerabilities and issue free updates during a product's support period, which manufacturers define.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T14:55:00Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The EU Cyber Resilience Act only requires fixes and free updates during manufacturer-defined support periods, which may not cover fridge controllers hit in a French attack.",
+    "nl": "De EU Cyber Resilience Act verplicht fabrikanten alleen tot fixes en gratis updates binnen door hen bepaalde supportperiodes, wat mogelijk niet geldt voor koelingscontrollers getroffen bij een Franse aanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "6a247ada56f4",
+  "url": "https://industrialcyber.co/features/upstream-oil-and-gas-securing-operations-across-distance-remoteness-and-harsh-environments/",
+  "title": "Upstream oil and gas: Securing operations across distance, remoteness and harsh environments",
+  "excerpt": "Upstream oil and gas production is often determined by distance, with wellheads, gathering systems and offshore platforms relying...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-20T14:23:31Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "guidance",
+   "sectors": [
+    "oil_gas"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The article discusses securing upstream oil and gas operations such as wellheads, gathering systems and offshore platforms across remote and harsh environments.",
+    "nl": "Het artikel behandelt het beveiligen van upstream olie- en gasactiviteiten, zoals wellheads, gathering systems en offshore platforms in afgelegen en zware omgevingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "3a30d30260b3",
+  "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+  "title": "DHS bans DeepSeek products across US federal civilian agencies",
+  "excerpt": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T14:19:05Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The US Department of Homeland Security orders federal civilian agencies to stop using DeepSeek products and remove them from government systems.",
+    "nl": "Het Amerikaanse ministerie van Homeland Security gelast federale civiele instanties te stoppen met DeepSeek-producten en deze uit overheidssystemen te verwijderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "89f9963a560e",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/ncomplete-security-patches-broken-fixes-rise/",
+  "title": "Incomplete security patches show hackers where to look next",
+  "excerpt": "Security patches are turning into roadmaps for attackers, with a growing share of fixes later found incomplete or open to bypass. Oren Yomtov, a security researcher at Terra Security, began tracking broken fixes after the team kept running into them in its own work over the past year. “A fix would ship, a bypass would be found, and another fix would go out. Worried this was sample bias, we looked at every published CVE record … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T14:13:04Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Research finds a growing share of security patches are incomplete or bypassable, giving attackers clues on where to look next.",
+    "nl": "Onderzoek toont aan dat een groeiend deel van de beveiligingspatches onvolledig is of te omzeilen valt, waardoor aanvallers aanwijzingen krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "314dad77bf51",
+  "url": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software",
+  "title": "AOMEI yet to notify customers after hackers hijacked its software updates",
+  "excerpt": "In an email, the Hong Kong-registered company confirmed to Recorded Future News that hackers repeatedly altered configuration files on its update servers between April and July, redirecting the software to download malware for minutes at a time.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T14:11:00Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "AOMEI confirmed hackers repeatedly altered configuration files on its update servers, redirecting software to download malware, and has not yet notified customers.",
+    "nl": "AOMEI bevestigde dat hackers configuratiebestanden op haar updateservers herhaaldelijk wijzigden en heeft klanten nog niet geinformeerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "0dfa738d1635",
+  "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+  "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+  "excerpt": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T14:07:17Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A criminal used autonomous AI agents that breached over 1,200 company websites, including those of more than 100 companies such as Deere.",
+    "nl": "Een criminele actor zette autonome AI-agenten in die meer dan 1.200 bedrijfswebsites aanvielen, waaronder die van meer dan 100 bedrijven zoals Deere."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "ba5b9e5d876d",
+  "url": "https://therecord.media/anti-putin-messages-disrupt-russian-education-platform",
+  "title": "Anti-Putin messages disrupt nationwide school assessments in Russia",
+  "excerpt": "A pro-Ukraine group that says it operates within Russia took responsibility for anti-Putin messages appearing on an education assessment platform. Authorities said they had restored systems.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T14:05:00Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A pro-Ukraine group claimed anti-Putin messages appeared on a Russian nationwide education assessment platform, which authorities say they restored.",
+    "nl": "Een pro-Oekraiense groep eiste verantwoordelijkheid op voor anti-Putin-berichten op een Russisch nationaal onderwijsplatform, dat volgens autoriteiten is hersteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "54d908135fac",
+  "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+  "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+  "excerpt": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and audit readiness. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T13:51:00Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Specops outlines five practical priorities for agencies to meet CJIS v6.1 requirements covering MFA, account management, passwords, logging and audit readiness.",
+    "nl": "Specops beschrijft vijf praktische prioriteiten voor instanties om aan CJIS v6.1 te voldoen, waaronder MFA, accountbeheer, wachtwoorden, logging en audit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "720fecb59bd9",
+  "url": "https://industrialcyber.co/cisa/cisa-nsa-nist-urge-safeguards-continuous-monitoring-incident-reporting-for-autonomous-super-intelligence-systems/",
+  "title": "CISA, NSA, NIST urge safeguards, continuous monitoring, incident reporting for autonomous super intelligence systems",
+  "excerpt": "Three federal agencies, the National Institute of Standards and Technology, the National Security Agency and the Cybersecurity and...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-20T13:46:00Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA, NSA, NIST and NCSC urge safeguards, continuous monitoring and incident reporting for autonomous superintelligence AI systems.",
+    "nl": "CISA, NSA, NIST en NCSC roepen op tot waarborgen, continue monitoring en incidentmelding voor autonome superintelligente AI-systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "502a4fe18b50",
+  "url": "https://www.security.nl/posting/958330/Mozilla+meldt+incident+met+private+keys+certificaatautoriteit+eMudhra?channel=rss",
+  "title": "Mozilla meldt incident met private keys certificaatautoriteit eMudhra",
+  "excerpt": "Mozilla waarschuwt internetgebruikers voor een beveiligingsincident bij de Indiase certificaatautoriteit eMudhra, waarbij de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T13:29:59Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "eMudhra"
+   ],
+   "summary": {
+    "en": "Mozilla warns users about a security incident at Indian certificate authority eMudhra involving private keys.",
+    "nl": "Mozilla waarschuwt gebruikers voor een beveiligingsincident bij de Indiase certificaatautoriteit eMudhra waarbij private keys betrokken zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "0105ae0d8911",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/abstract-links-automated-response-actions-directly-to-siem-detection-rules/",
+  "title": "Abstract links automated response actions directly to SIEM detection rules",
+  "excerpt": "Abstract has announced new AI SOC capabilities in its agentic SIEM: investigation, hunt, and triage powered by a combination of Abstract’s own trained and tuned models and frontier foundation models, and SOAR response capabilities with actions assigned directly to detection rules. The capabilities are built into the platform that already collects, routes, and detects on security data in stream. Security teams are facing agentic attacks that move at machine speed while their own tooling spreads … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T13:26:09Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Abstract"
+   ],
+   "summary": {
+    "en": "Abstract announced AI SOC capabilities in its agentic SIEM, including automated response actions linked to detection rules.",
+    "nl": "Abstract kondigde AI-SOC-mogelijkheden aan in zijn agentische SIEM, inclusief geautomatiseerde responsacties gekoppeld aan detectieregels."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "6bab3e2b1e64",
+  "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+  "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+  "excerpt": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T13:18:36Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Nigerian national was sentenced to eight years in prison for spearphishing attacks against US tax preparation businesses that stole $3.3 million.",
+    "nl": "Een Nigeriaanse staatsburger is veroordeeld tot acht jaar cel voor spearphishing-aanvallen op Amerikaanse belastingkantoren waarbij 3,3 miljoen dollar is gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "b28d85dacb50",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/threatmodeler-nexusai/",
+  "title": "ThreatModeler NexusAI tracks architectural changes and proposes security updates",
+  "excerpt": "ThreatModeler has announced the launch of NexusAI, its new AI-powered threat modeling partner within the ThreatModeler Nexus platform. NexusAI helps enterprises automate more of the work involved in creating, analyzing, and maintaining threat models, enabling security teams to scale their impact without scaling manual effort. As AI accelerates application development, security teams face growing pressure to assess more applications, respond to architectural changes, and manage risk without slowing innovation. NexusAI addresses this challenge by taking … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T13:17:56Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ThreatModeler"
+   ],
+   "summary": {
+    "en": "ThreatModeler launched NexusAI, an AI-powered threat modeling tool that automates creating and maintaining threat models.",
+    "nl": "ThreatModeler lanceerde NexusAI, een AI-tool voor threat modeling die het opstellen en onderhouden van threat models automatiseert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "fe0fd420361d",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/identos-policyarc/",
+  "title": "IDENTOS PolicyArc gives AI agents task-specific, time-limited access",
+  "excerpt": "IDENTOS has announced that PolicyArc is now generally available. The new solution gives security, platform, and compliance teams a single place to define, enforce, and audit access policy across their applications. PolicyArc is built to solve how to safely extend access not just to people and services but to the AI agents now acting on their behalf. PolicyArc builds on more than 12 years of IDENTOS identity and access work across Canadian government and healthcare … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T13:09:24Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "IDENTOS"
+   ],
+   "summary": {
+    "en": "IDENTOS announced general availability of PolicyArc, which provides task-specific, time-limited access policies for AI agents.",
+    "nl": "IDENTOS heeft PolicyArc algemeen beschikbaar gemaakt, een oplossing die taakspecifieke, tijdgebonden toegangsbeleid voor AI-agenten biedt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "5462a0c3ecac",
+  "url": "https://www.security.nl/posting/958318/OVHcloud+waarschuwt+voor+ge%C3%AFnfecteerde+versies+van+CLI-software?channel=rss",
+  "title": "OVHcloud waarschuwt voor geïnfecteerde versies van CLI-software",
+  "excerpt": "Aanvallers zijn erin geslaagd om de CLI-software van OVHcloud via een gehackt ontwikkelaarsaccount te compromitteren en te ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T13:07:26Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "OVHcloud"
+   ],
+   "summary": {
+    "en": "Attackers compromised OVHcloud CLI software through a hacked developer account, and OVHcloud warns about infected versions.",
+    "nl": "Aanvallers compromitteerden de CLI-software van OVHcloud via een gehackt ontwikkelaarsaccount en OVHcloud waarschuwt voor geinfecteerde versies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:00Z"
+  }
+ },
+ {
+  "id": "2f7a0f9a2ffb",
+  "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+  "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+  "excerpt": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T12:59:44Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Citizen Lab confirmed a zero-click Pegasus spyware infection on the iPhone of the University of Belgrade rector before Serbia's snap election.",
+    "nl": "Citizen Lab heeft een zero-click Pegasus-spywarebesmetting bevestigd op de iPhone van de rector van de Universiteit van Belgrado, vlak voor de Servische verkiezingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "c69149e4ab02",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/appgate-session-governance/",
+  "title": "AppGate gives OT supervisors live monitoring and session termination controls",
+  "excerpt": "AppGate has expanded its zero trust offering for operational technology (OT) with Session Governance capabilities that help critical infrastructure operators reduce third-party access risk, simplify compliance audits and protect operational uptime. The expansion builds on the ZTNA for OT offering AppGate introduced in March 2026. The initial release of AppGate ZTNA for OT controlled who could access critical systems. This release governs what happens during each session and gives supervisors the final say when activity … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T12:59:32Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "AppGate"
+   ],
+   "summary": {
+    "en": "AppGate expanded its zero trust ZTNA for OT offering with Session Governance features for live monitoring and session termination.",
+    "nl": "AppGate heeft zijn zero trust ZTNA voor OT uitgebreid met Session Governance-functies voor live monitoring en het beëindigen van sessies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "e7aac3739b67",
+  "url": "https://industrialcyber.co/ai/booz-allen-warns-frontier-ai-models-can-exploit-ot-pathways-manipulate-controllers-and-move-robotic-equipment/",
+  "title": "Booz Allen warns frontier AI models can exploit OT pathways, manipulate controllers and move robotic equipment",
+  "excerpt": "Frontier artificial intelligence models, given limited human direction, achieved all eight objectives in controlled tests of an industrial...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-20T12:55:48Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Booz Allen reported that frontier AI models achieved all eight objectives in controlled tests, including exploiting OT pathways, manipulating controllers and moving robotic equipment.",
+    "nl": "Booz Allen meldt dat frontier AI-modellen in gecontroleerde tests alle acht doelen haalden, waaronder het misbruiken van OT-paden, het manipuleren van controllers en het bewegen van robotapparatuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "4859b4567c7c",
+  "url": "https://industrialcyber.co/news/tactien-group-launches-cast-platform-for-independent-counter-drone-system-testing-at-critical-infrastructure-sites/",
+  "title": "Tactien Group launches CAST platform for independent counter-drone system testing at critical infrastructure sites",
+  "excerpt": "The Tactien Group, an independent aviation advisory firm for critical infrastructure, announced CAST (Counter-UXS Assessment & System Testing),...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-20T12:50:05Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Tactien Group launched CAST, a platform for independent testing of counter-drone systems at critical infrastructure sites.",
+    "nl": "The Tactien Group heeft CAST gelanceerd, een platform voor onafhankelijke tests van anti-drone-systemen bij kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "6394a78cd8ee",
+  "url": "https://industrialcyber.co/isa-iec-62443/isa-iec-standards-require-integrated-safety-and-cybersecurity-for-industrial-control-systems-ot-knights-barreto-jijon-says/",
+  "title": "ISA/IEC standards require integrated safety and cybersecurity for industrial control systems, OT-Knight’s Barreto Jijón says",
+  "excerpt": "A new post published on ISASecure highlighted need for industrial asset owners to integrate functional safety and operational...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-20T12:49:39Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A post on ISASecure argues that asset owners need to integrate functional safety and cybersecurity for industrial control systems under ISA/IEC standards.",
+    "nl": "Een bijdrage op ISASecure stelt dat asset owners functionele veiligheid en cybersecurity voor industriële besturingssystemen moeten integreren volgens ISA/IEC-normen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "eee1e09256d5",
+  "url": "https://industrialcyber.co/news/advantech-and-dekra-target-industrial-cybersecurity-gaps-as-eu-cyber-resilience-act-implementation-advances/",
+  "title": "Advantech and DEKRA target industrial cybersecurity gaps as EU Cyber Resilience Act implementation advances",
+  "excerpt": "As the European Union’s Cyber Resilience Act (CRA) enters its implementation phase, cybersecurity compliance is becoming an increasingly...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-20T12:46:07Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Advantech"
+   ],
+   "summary": {
+    "en": "Advantech and DEKRA are addressing industrial cybersecurity compliance gaps as the EU Cyber Resilience Act enters its implementation phase.",
+    "nl": "Advantech en DEKRA richten zich op hiaten in industriële cybersecurity-compliance nu de EU Cyber Resilience Act in de implementatiefase komt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "efd5ca2d5140",
+  "url": "https://industrialcyber.co/news/h%e2%82%82o-retailing-deploys-tenable-one-to-unify-cyber-exposure-management-across-multi-cloud-infrastructure/",
+  "title": "H₂O Retailing deploys Tenable One to unify cyber exposure management across multi-cloud infrastructure",
+  "excerpt": "Exposure management company Tenable Holdings announced that H₂O Retailing has deployed the Tenable One Exposure Management Platform across...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-20T12:36:58Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "H2O Retailing deployed the Tenable One exposure management platform across its multi-cloud infrastructure.",
+    "nl": "H2O Retailing heeft het Tenable One-platform voor exposure management uitgerold over zijn multi-cloud infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "474a7326f6e3",
+  "url": "https://www.security.nl/posting/958309/Politie%3A+ieder+mens+heeft+tegenwoordig+gezonde+portie+wantrouwen+nodig?channel=rss",
+  "title": "Politie: ieder mens heeft tegenwoordig gezonde portie wantrouwen nodig",
+  "excerpt": "Ieder mens heeft tegenwoordig een gezonde portie wantrouwen nodig, zo stelt de politie in reactie op online oplichting. Volgens ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T12:30:13Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police state that people today need a healthy dose of distrust in response to online fraud.",
+    "nl": "De politie stelt dat mensen tegenwoordig een gezonde portie wantrouwen nodig hebben als reactie op online oplichting."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "c55a060410a4",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/exploitation-siemens-software-center-vulnerability-cve-2026-110936/",
+  "title": "Attackers exploit Siemens Software Center flaw in active ClickFix malware campaign",
+  "excerpt": "Siemens has confirmed the active exploitation of CVE-2026-110936, a DLL side-loading vulnerability in Siemens Software Center, the company’s tool for downloading, installing and managing its software. Siemens first published its security advisory on 15 October 2026, giving the flaw reported by Jose Oregon from Huntress Labs a CVSS v4.0 score of 8.4. On 17 October, it updated the advisory to tell customers that version 4.0.9.8 resolves the issue, and a blog post warning about active … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T12:23:08Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [
+   "CVE-2026-110936"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 90,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens confirmed active exploitation of CVE-2026-110936, a DLL side-loading flaw in Siemens Software Center, fixed in version 4.0.9.8, used in a ClickFix malware campaign.",
+    "nl": "Siemens heeft actief misbruik bevestigd van CVE-2026-110936, een DLL side-loading-kwetsbaarheid in Siemens Software Center, opgelost in versie 4.0.9.8, gebruikt in een ClickFix-malwarecampagne."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "87735d6ea718",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/malicious-calendar-invites/",
+  "title": "Quarantined, but still on your calendar: The explosion of invite-based attacks",
+  "excerpt": "There has been a sharp escalation in attacks that use malicious calendar invites to reach targets, email security providers Check Point and Sublime Security have warned. Sublime recorded a 1,216% month-over-month increase in August 2026, and the first half of September alone surpassed the whole of August by 1,426%. Check Point’s numbers tell a similar story: the volume of these emails grew from a few thousand a month in April to more than 118,000 in … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T12:18:04Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point and Sublime Security report a sharp rise in malicious calendar invite attacks in 2026.",
+    "nl": "Check Point en Sublime Security melden een sterke toename van kwaadaardige agenda-uitnodigingen in 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "8aa86bb160e9",
+  "url": "https://www.security.nl/posting/958303/OM+beschuldigt+duo+van+het+maken+van+valse+identiteitsbewijzen+met+AI?channel=rss",
+  "title": "OM beschuldigt duo van het maken van valse identiteitsbewijzen met AI",
+  "excerpt": "Het Openbaar Ministerie (OM) beschuldigt twee mannen uit Groningen van grootschalige fraude met kortlopende ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T12:17:00Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Public Prosecution Service charged two men from Groningen with large-scale fraud involving AI-made fake identity documents.",
+    "nl": "Het Openbaar Ministerie vervolgt twee mannen uit Groningen voor grootschalige fraude met door AI vervaardigde valse identiteitsbewijzen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "d17d915266d4",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+  "title": "Windows Server 2025 gets support for quick machine recovery",
+  "excerpt": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T12:16:32Z",
+  "fetched": "2026-10-20T17:12:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft enabled quick machine recovery for Windows Server 2025 after the October 2026 security update.",
+    "nl": "Microsoft heeft quick machine recovery ingeschakeld voor Windows Server 2025 na de update van oktober 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "d32724bd0798",
+  "url": "https://www.security.nl/posting/958301/Nederland+telt+meer+dan+22+miljoen+apparaten+met+eigen+M2M-simkaart?channel=rss",
+  "title": "Nederland telt meer dan 22 miljoen apparaten met eigen M2M-simkaart",
+  "excerpt": "Nederland telt meer dan 22 miljoen apparaten met een eigen M2M-simkaart, zo laat de Autoriteit Consument & Markt (ACM) vandaag ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T12:05:09Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch regulator ACM reports that the Netherlands has over 22 million devices with a dedicated M2M SIM card.",
+    "nl": "De Nederlandse toezichthouder ACM meldt dat Nederland meer dan 22 miljoen apparaten met een eigen M2M-simkaart telt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "c8f1aeda1722",
+  "url": "https://www.security.nl/posting/958294/Apple+waarschuwt+rector+Servische+universiteit+voor+spyware-aanval?channel=rss",
+  "title": "Apple waarschuwt rector Servische universiteit voor spyware-aanval",
+  "excerpt": "Apple heeft de rector van een Servische universiteit gewaarschuwd dat hij doelwit is geworden van een spyware-aanval. Bij dit ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T11:54:38Z",
+  "fetched": "2026-10-20T17:12:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apple warned the rector of a Serbian university that he was targeted in a spyware attack.",
+    "nl": "Apple heeft de rector van een Servische universiteit gewaarschuwd dat hij het doelwit was van een spyware-aanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
   "id": "d8e0edbb10f6",
   "url": "https://certvde.com/en/advisories/VDE-2026-090/",
   "title": "Multiple OpenSSL vulnerabilities affect Festo AX OS in CEPE",
@@ -61,6 +1059,90 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "467c211f344f",
+  "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+  "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+  "excerpt": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one. The text sat in the pages' code, never shown on screen, until it was removed by October 18. Whether the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T11:41:06Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "WhatsApp's help pages contained hidden chatbot instructions that discouraged recommending data protection regulators, removed by October 18.",
+    "nl": "De helppagina's van WhatsApp bevatten verborgen chatbotinstructies die het aanbevelen van toezichthouders voor gegevensbescherming ontmoedigden; ze zijn op 18 oktober verwijderd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "df48f73ea919",
+  "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+  "title": "What Security Teams Can Do To Tame Wild Code",
+  "excerpt": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T11:33:04Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article discusses how security teams can manage unsanctioned AI-assisted apps, agents and automations built by employees.",
+    "nl": "Een artikel bespreekt hoe securityteams niet-goedgekeurde AI-gestuurde apps, agents en automatiseringen van medewerkers kunnen beheersen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
+  "id": "f0509be43eab",
+  "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+  "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+  "excerpt": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys. Programs built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T11:32:59Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Go 1.27.3 and 1.26.10 reject certificate chains through eight intermediate CA keys from one undisclosed certificate authority.",
+    "nl": "Go 1.27.3 en 1.26.10 weigeren certificaatketens via acht tussenliggende CA-sleutels van één niet-genoemde certificaatautoriteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
   }
  },
  {
@@ -148,6 +1230,37 @@
   }
  },
  {
+  "id": "41525c1156ae",
+  "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+  "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+  "excerpt": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T11:06:25Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "threat",
+   "sectors": [
+    "manufacturing",
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Symantec attributed attacks on two NATO member states, including a naval shipbuilder, to APT28 using the HOOKEDGE backdoor and a new reflective loader.",
+    "nl": "Symantec koppelt aanvallen op twee NAVO-lidstaten, waaronder een scheepsbouwer, aan APT28 met de HOOKEDGE-backdoor en een nieuwe reflective loader."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
+  }
+ },
+ {
   "id": "4a1a64de03ec",
   "url": "https://certvde.com/en/advisories/VDE-2026-100/",
   "title": "Pilz: Vulnerabilities in 'piControl' kernel module for Industrial PC IndustrialPI",
@@ -209,6 +1322,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "13881c9b4329",
+  "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+  "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+  "excerpt": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup. The company said it has completed the following actions since it began",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T10:56:08Z",
+  "fetched": "2026-10-20T17:12:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise"
+   ],
+   "summary": {
+    "en": "ConnectWise reset credentials and replaced application identities after unauthorized access to its Cloud Backup service, which remains offline.",
+    "nl": "ConnectWise heeft inloggegevens gereset en applicatie-identiteiten vervangen na ongeautoriseerde toegang tot de Cloud Backup-dienst, die nog offline is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T17:13:18Z"
   }
  },
  {
