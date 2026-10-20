@@ -1,0 +1,193 @@
+{
+ "date": "2026-10-20",
+ "published": "2026-10-20T06:05:21Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 7,
+ "i18n": {
+  "en": {
+   "title": "OTASEC briefing – 20-10-2026",
+   "intro": "AI-assisted exploit development against Internet-facing OT leads today, alongside new detail on the PEERSTITCH intrusion and a cyberattack on building automation vendor LOXONE. Regulation and remote-access governance round out a quieter day."
+  },
+  "nl": {
+   "title": "OTASEC-briefing – 20-10-2026",
+   "intro": "Vandaag staat AI-ondersteunde exploitontwikkeling tegen internetgerichte OT centraal, naast nieuwe details over de PEERSTITCH-inbraak en een cyberaanval op gebouwautomatiseerder LOXONE. Regelgeving en beheer van toegang op afstand completeren een rustigere dag."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "cf857959bd3d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ai/claroty-team82-shows-ai-can-rebuild-danfoss-controller-exploits-in-28-minutes-putting-internet-facing-ot-at-risk/",
+     "title": "Claroty Team82 shows AI can rebuild Danfoss controller exploits in 28 minutes, putting Internet-facing OT at risk"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Claroty: AI rebuilt Danfoss AK-SM 800A exploits in 28 minutes",
+     "summary": "Claroty's Team82 reproduced three previously disclosed vulnerabilities in Danfoss AK-SM 800A refrigeration controllers using an AI tool. According to the report, the exploits were rebuilt in 28 minutes, which raises the risk for Internet-facing OT.",
+     "takeaway": "Check whether any refrigeration or other OT controllers are reachable from the Internet, and apply patches for known vulnerabilities sooner, since exploit development is getting faster."
+    },
+    "nl": {
+     "heading": "Claroty: AI bouwt Danfoss AK-SM 800A-exploits in 28 minuten na",
+     "summary": "Het Team82 van Claroty reproduceerde met een AI-tool drie eerder gepubliceerde kwetsbaarheden in Danfoss AK-SM 800A-koelregelaars. Volgens het onderzoek waren de exploits in 28 minuten nagebouwd, wat het risico voor internetgerichte OT vergroot.",
+     "takeaway": "Controleer of koel- of andere OT-regelaars vanaf internet bereikbaar zijn en patch bekende kwetsbaarheden sneller, omdat exploitontwikkeling steeds sneller gaat."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "3861916e7ed6",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/unit-42-traces-peerstitch-malware-deployment-to-fortios-vulnerability-exploited-after-fortimanager-compromise/",
+     "title": "Unit 42 traces Peerstitch malware deployment to FortiOS vulnerability exploited after FortiManager compromise"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Unit 42 links PEERSTITCH to FortiOS flaw exploited after FortiManager compromise",
+     "summary": "New detail on the PEERSTITCH malware: Unit 42 traced a multistage intrusion against a telecommunications managed service provider. The FortiOS vulnerability was exploited after a FortiManager compromise.",
+     "takeaway": "Review the exposure and patch status of FortiOS and FortiManager, and check what access managed service providers have to your networks."
+    },
+    "nl": {
+     "heading": "Update: Unit 42 koppelt PEERSTITCH aan FortiOS-lek na FortiManager-compromittering",
+     "summary": "Nieuw over de PEERSTITCH-malware: Unit 42 herleidde een meertraps-inbraak bij een telecom managed service provider. Het FortiOS-lek werd uitgebuit na een compromittering van FortiManager.",
+     "takeaway": "Controleer de blootstelling en patchstatus van FortiOS en FortiManager, en ga na welke toegang managed service providers tot uw netwerken hebben."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "4c113474481b",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/958125/LOXONE+getroffen+door+cyberaanval+maar+klantinstallaties+veilig+en+operationeel?channel=rss",
+     "title": "LOXONE getroffen door cyberaanval maar klantinstallaties veilig en operationeel"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "LOXONE hit by cyberattack; customer installations reported safe",
+     "summary": "Smart home and building automation specialist LOXONE was hit by a cyberattack on its internal company systems. According to the report, customer installations are safe and operational.",
+     "takeaway": "If you use LOXONE, watch for supplier communications and review which remote or cloud connections your installations have to the vendor."
+    },
+    "nl": {
+     "heading": "LOXONE getroffen door cyberaanval; klantinstallaties veilig en operationeel",
+     "summary": "Smart home- en gebouwautomatiseringsspecialist LOXONE is getroffen door een cyberaanval op interne bedrijfssystemen. Volgens het bericht zijn klantinstallaties veilig en operationeel.",
+     "takeaway": "Gebruikt u LOXONE, volg dan de communicatie van de leverancier en bekijk welke verbindingen op afstand of via de cloud uw installaties met de leverancier hebben."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "4a0adadcc4b5",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/nozomi-outlines-it-and-ot-security-priorities-ahead-of-indias-april-2027-cea-power-sector-cybersecurity-deadline/",
+     "title": "Nozomi outlines IT and OT security priorities ahead of India’s April 2027 CEA power sector cybersecurity deadline"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "India's CEA power sector cybersecurity deadline set for April 2027",
+     "summary": "Following the Central Electricity Authority's July notification of its cybersecurity regulations, Nozomi outlines IT and OT security priorities ahead of the April 2027 deadline.",
+     "takeaway": "Asset owners with power sector operations in India should map their compliance gaps against the CEA requirements now, ahead of the deadline."
+    },
+    "nl": {
+     "heading": "Indiase CEA-cyberbeveiligingsdeadline voor energiesector: april 2027",
+     "summary": "Na de notificatie in juli van de cyberbeveiligingsregels door de Central Electricity Authority schetst Nozomi de IT- en OT-beveiligingsprioriteiten voor de deadline van april 2027.",
+     "takeaway": "Asset owners met activiteiten in de Indiase energiesector doen er goed aan nu hun compliance-gaten ten opzichte van de CEA-eisen in kaart te brengen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "c99937e01285",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/20/frontline-worker-authentication-passwordless/",
+     "title": "Your frontline workers have a workaround for that MFA prompt"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Survey: frontline workers routinely work around MFA",
+     "summary": "A Sapio Research survey of 700 IT and security decision-makers found that 95% had seen frontline workers in sectors such as healthcare and manufacturing use workarounds in the past 12 months. These include staying signed in, sharing credentials and bypassing multifactor authentication.",
+     "takeaway": "Review whether login and MFA processes on the shop floor are practical enough that staff do not need to bypass them."
+    },
+    "nl": {
+     "heading": "Onderzoek: frontlinemedewerkers omzeilen MFA structureel",
+     "summary": "Uit een Sapio Research-enquête onder 700 IT- en securitybeslissers blijkt dat 95% het afgelopen jaar workarounds van frontlinemedewerkers zag, onder meer in zorg en maakindustrie. Het gaat om ingelogd blijven, wachtwoorden delen en het omzeilen van multifactorauthenticatie.",
+     "takeaway": "Beoordeel of inlog- en MFA-processen op de werkvloer praktisch genoeg zijn, zodat medewerkers ze niet hoeven te omzeilen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "36fbbcffd6bf",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/dispel-zero-trust-engine-for-oems-to-secure-remote-industrial-service-standardize-access-strengthen-compliance/",
+     "title": "Dispel Zero Trust Engine for OEMs to secure remote industrial service, standardize access, strengthen compliance"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Dispel launches Zero Trust Engine for OEM remote service",
+     "summary": "Dispel announced Dispel Zero Trust Engine for OEMs, a solution built for OEMs and machine builders. It aims to secure remote industrial service, standardize access and strengthen compliance.",
+     "takeaway": "Ask your OEMs and machine builders how they access your equipment remotely and whether that access is standardized and controlled."
+    },
+    "nl": {
+     "heading": "Dispel lanceert Zero Trust Engine voor OEM-service op afstand",
+     "summary": "Dispel kondigde Dispel Zero Trust Engine for OEMs aan, een oplossing voor OEM's en machinebouwers. Het doel is service op afstand in de industrie te beveiligen, toegang te standaardiseren en compliance te versterken.",
+     "takeaway": "Vraag uw OEM's en machinebouwers hoe zij op afstand bij uw installaties komen en of die toegang gestandaardiseerd en beheerst is."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "a1b7e5284ba8",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/zero-trust/need-for-enforceable-ai-accountability-zero-trust-security-as-ai-driven-cyber-risks-threaten-critical-infrastructure/",
+     "title": "Need for enforceable AI accountability, zero-trust security as AI-driven cyber risks threaten critical infrastructure"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Calls for enforceable AI accountability and zero trust in critical infrastructure",
+     "summary": "Commentary says AI is introducing new cybersecurity risks, including AI-enabled cybercrime. It argues traditional frameworks must evolve, with enforceable AI accountability and zero-trust security for critical infrastructure.",
+     "takeaway": "Consider how AI-enabled threats change your risk assessments and whether your current security framework still covers them."
+    },
+    "nl": {
+     "heading": "Oproep tot afdwingbare AI-verantwoording en zero trust in kritieke infrastructuur",
+     "summary": "Een opiniestuk stelt dat AI nieuwe cyberrisico's introduceert, waaronder AI-gedreven cybercrime. Traditionele raamwerken moeten volgens het stuk meegroeien, met afdwingbare AI-verantwoording en zero-trust-beveiliging voor kritieke infrastructuur.",
+     "takeaway": "Overweeg hoe AI-gedreven dreigingen uw risicobeoordelingen veranderen en of uw huidige securityraamwerk die nog afdekt."
+    }
+   }
+  }
+ ]
+}

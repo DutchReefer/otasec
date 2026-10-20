@@ -1,5 +1,153 @@
 [
  {
+  "id": "cf3fbd801cf1",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/easydmarc-gmo-globalsign-partnership/",
+  "title": "EasyDMARC and GMO GlobalSign connect email authentication with verified branding",
+  "excerpt": "EasyDMARC has partnered with GMO GlobalSign to help organizations establish trusted email identities through DNS security, sender authentication, and verified branding in recipients’ inboxes. As organizations rely on an increasing number of cloud applications, marketing platforms, CRMs, helpdesk systems, and third-party services to communicate with customers, managing the email ecosystem has become significantly more complex. Every sender introduces new DNS records, authentication requirements, and potential risks that can impact security, deliverability, and brand reputation. Rather … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T06:00:13Z",
+  "fetched": "2026-10-20T06:04:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "EasyDMARC",
+    "GMO GlobalSign"
+   ],
+   "summary": {
+    "en": "EasyDMARC and GMO GlobalSign announced a partnership to offer email authentication and verified branding services.",
+    "nl": "EasyDMARC en GMO GlobalSign kondigden een partnerschap aan voor e-mailauthenticatie en geverifieerde branding."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T06:04:54Z"
+  }
+ },
+ {
+  "id": "c99937e01285",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/frontline-worker-authentication-passwordless/",
+  "title": "Your frontline workers have a workaround for that MFA prompt",
+  "excerpt": "Frontline workers in healthcare and manufacturing are getting around slow, unreliable logins by staying signed in, sharing credentials and trying to bypass multifactor authentication. Sapio Research surveyed 700 IT and security decision-makers in August, and 95% said they had seen frontline workers use workarounds like these in the past 12 months. Each of those habits breaks the link between an account and the person using it. A session left open on a shared workstation lets … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T04:30:18Z",
+  "fetched": "2026-10-20T06:04:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "research",
+   "sectors": [
+    "healthcare",
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A Sapio Research survey of 700 IT and security decision-makers found 95% saw frontline workers bypass MFA and share credentials in healthcare and manufacturing.",
+    "nl": "Een onderzoek van Sapio Research onder 700 IT- en securitybeslissers toont dat 95% frontlinemedewerkers in zorg en productie MFA omzeilt en credentials deelt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T06:04:54Z"
+  }
+ },
+ {
+  "id": "6c494d43a845",
+  "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+  "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+  "excerpt": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T04:05:58Z",
+  "fetched": "2026-10-20T06:04:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Forescout Vedere Labs disclosed ROMULUS, a ClickFix-style delivery platform distributing LegionLoader and other malware via bogus landing pages.",
+    "nl": "Forescout Vedere Labs maakte ROMULUS bekend, een ClickFix-achtig distributieplatform dat LegionLoader en andere malware verspreidt via neplandingspagina's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T06:04:54Z"
+  }
+ },
+ {
+  "id": "e23f8aa05dd1",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/cybersecurity-jobs-available-right-now-october-20-2026/",
+  "title": "Cybersecurity jobs available right now: October 20, 2026",
+  "excerpt": "Application Security Architect Riskified | Israel | Hybrid – View job details As an Application Security Architect, you will review architecture, design, and code to identify security gaps and vulnerabilities. You will work with developers, product managers, and security teams to resolve risks, improve application security tools and processes, and support incident response in Riskified’s environment. CISO United Utilities | United Kingdom | Hybrid – View job details As a CISO, you will lead United … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T04:00:24Z",
+  "fetched": "2026-10-20T06:04:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A job listing roundup featuring cybersecurity positions across several companies and sectors.",
+    "nl": "Een overzicht van vacatures voor cybersecurityfuncties bij verschillende bedrijven en sectoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T06:04:54Z"
+  }
+ },
+ {
+  "id": "58791a926d9a",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/cloudflare-ai-clairic-extraction-model/",
+  "title": "Cloudflare bets you’re overpaying an LLM to read your invoices",
+  "excerpt": "Cloudflare released a preview of Clairic, an extraction model that pulls typed values out of messy text and images in one pass without generating tokens. In Cloudflare’s test on a damaged-product support claim, a pipeline built around Clairic finished in 19.3 seconds, against 61.7 seconds for a version that used an LLM at every step, and cost 49% less. Clairic goes after a job developers routinely hand to large language models: read this invoice and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T03:45:03Z",
+  "fetched": "2026-10-20T06:04:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Cloudflare"
+   ],
+   "summary": {
+    "en": "Cloudflare released a preview of Clairic, an extraction model that reportedly processes documents faster and cheaper than LLM-based pipelines.",
+    "nl": "Cloudflare bracht een preview uit van Clairic, een extractiemodel dat documenten volgens de test sneller en goedkoper verwerkt dan LLM-pipelines."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T06:04:54Z"
+  }
+ },
+ {
   "id": "2f726d9ddfc8",
   "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
   "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
