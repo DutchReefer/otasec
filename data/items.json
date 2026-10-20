@@ -1,5 +1,270 @@
 [
  {
+  "id": "a92bc795de6c",
+  "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
+  "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
+  "excerpt": "The FBI and cyber agencies in the UK and Germany said SafePay is targeting businesses and critical infrastructure by guessing passwords, exploiting vulnerabilities and using phishing attacks.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T20:27:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI and UK and German cyber agencies say the SafePay ransomware gang targets businesses and critical infrastructure via password guessing, vulnerability exploitation and phishing.",
+    "nl": "De FBI en cyberautoriteiten in het Verenigd Koninkrijk en Duitsland stellen dat de SafePay-ransomwarebende bedrijven en kritieke infrastructuur aanvalt via wachtwoordraden, kwetsbaarheden en phishing."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "db97361e633f",
+  "url": "https://www.dragos.com/resources/press-release/community-cyber-resilience-foundation-launch",
+  "title": "Accenture, Dragos, and SANS Institute Launch Foundation to Strengthen Cyber Defenses for Under-Resourced U.S. Utilities",
+  "excerpt": "Approximately $10 million in initial funding and services will support essential services relied on by more than 100 million Americans. Initiative will provide technology, deployment services and training at no cost to up to 500 under-resourced utilities.",
+  "source_id": "x",
+  "source": "Dragos",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T20:07:03Z",
+  "fetched": "2026-10-20T20:38:55Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "SANSInstitute"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "industry",
+   "sectors": [
+    "energy",
+    "water"
+   ],
+   "vendors": [
+    "Dragos"
+   ],
+   "summary": {
+    "en": "Accenture, Dragos and SANS Institute launch a foundation providing about $10 million in free cyber defense technology and training to up to 500 under-resourced US utilities.",
+    "nl": "Accenture, Dragos en SANS Institute lanceren een stichting die ongeveer 10 miljoen dollar aan gratis cyberverdediging en training biedt aan tot 500 onderbemande Amerikaanse nutsbedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "13097ced7830",
+  "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+  "title": "Zeabur shutting down after second security breach in two months",
+  "excerpt": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T19:33:02Z",
+  "fetched": "2026-10-20T20:38:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Development platform Zeabur discloses a breach using leaked plaintext credentials, and is shutting down after a second incident.",
+    "nl": "Ontwikkelplatform Zeabur meldt een inbreuk door gelekte wachtwoorden in platte tekst en sluit na een tweede incident de deuren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "6203e915296a",
+  "url": "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
+  "title": "California warns all public school students of data stolen in contractor breach",
+  "excerpt": "The CDE released multiple statements over the last week warning the state’s students that assessment contractor Educational Testing Service (ETS) suffered a months-long data breach.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T19:20:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "California warns public school students that data was stolen in a months-long breach at assessment contractor ETS.",
+    "nl": "Californië waarschuwt leerlingen dat gegevens zijn gestolen bij een maandenlange inbreuk bij toetsbedrijf ETS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "29ac1c4b3b83",
+  "url": "https://therecord.media/23andme-california-data-breach-settlement",
+  "title": "23andMe successor settles with California for $6 million over cybersecurity failings",
+  "excerpt": "California Attorney General Rob Bonta announced a settlement under which 23andMe's successor will pay $6 million to resolve allegations that the company did not properly protect customers' data before a 2023 breach.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T18:32:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "23andMe's successor agrees to pay California $6 million to settle claims it failed to protect customer data before a 2023 breach.",
+    "nl": "De opvolger van 23andMe betaalt Californië 6 miljoen dollar om claims over onvoldoende bescherming van klantgegevens vóór een inbreuk in 2023 te schikken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "a43db46ebb28",
+  "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+  "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+  "excerpt": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T18:11:03Z",
+  "fetched": "2026-10-20T20:38:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI says its newer GPT model performs much better at writing and migrating legacy programming code.",
+    "nl": "OpenAI meldt dat zijn nieuwere GPT-model veel beter presteert bij het schrijven en migreren van oude programmeertaalcode."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "1b377ec74e5f",
+  "url": "https://therecord.media/nigerian-given-8-year-sentenc-tax-hacks",
+  "title": "Nigerian national given 8-year sentence for tax business hacks",
+  "excerpt": "A Nigerian national who worked with a group to hack tax prep businesses and conduct millions of dollars in fraud using customer data was sentenced this week.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T17:14:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Nigerian national received an eight-year sentence for hacking tax preparation businesses and committing multimillion-dollar fraud.",
+    "nl": "Een Nigeriaan is veroordeeld tot acht jaar gevangenisstraf voor het hacken van belastingadviesbedrijven en fraude van miljoenen dollars."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "1530955429aa",
+  "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+  "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+  "excerpt": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T17:09:53Z",
+  "fetched": "2026-10-20T20:38:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Mozilla and Chrome root programs confirm eight eMudhra intermediate certificate authority private keys are compromised, prompting emergency fixes.",
+    "nl": "Mozilla en het Chrome Root Program bevestigen dat de privésleutels van acht tussenliggende eMudhra-certificaatautoriteiten zijn gecompromitteerd, waardoor noodfixes volgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "a34c85e4448c",
+  "url": "https://events.teams.microsoft.com/event/f3f03428-9d28-44d4-a36c-d9405f7e7055@1882327f-52a5-4874-9800-88013a71ab03?source=copyLinkLegacyShareEventDialog",
+  "title": "Microsoft Virtual Events Powered by Teams",
+  "excerpt": "Microsoft Virtual Events Powered by Teams",
+  "source_id": "x",
+  "source": "events.teams.microsoft.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T17:05:12Z",
+  "fetched": "2026-10-20T20:38:55Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "DigitalWaterAI"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft announces a virtual events page powered by Teams.",
+    "nl": "Microsoft kondigt een pagina voor virtuele evenementen aan, aangedreven door Teams."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
   "id": "85d76ae5c09f",
   "url": "https://www.helpnetsecurity.com/2026/10/20/google-chrome-enhanced-protection-updates/",
   "title": "Chrome flags malicious commands that scammers pass off as fixes",
@@ -1881,6 +2146,126 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-20T06:04:54Z"
+  }
+ },
+ {
+  "id": "3750d37afa6e",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
+  "title": "ICSA-26-293-03: Moxa AIG-302 ThingsPro Edge",
+  "excerpt": "Successful exploitation of these vulnerabilities could allow an attacker to obtain and disclose sensitive information. Sectors: Critical Manufacturing, Energy, Water and Wastewater Systems.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-20T06:00:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [
+   "CVE-2026-109812",
+   "CVE-2026-109813"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "energy",
+    "water"
+   ],
+   "vendors": [
+    "Moxa"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-293-03 reports Moxa AIG-302 ThingsPro Edge vulnerabilities that could let an attacker obtain and disclose sensitive information.",
+    "nl": "CISA-advies ICSA-26-293-03 meldt kwetsbaarheden in Moxa AIG-302 ThingsPro Edge waardoor een aanvaller gevoelige informatie kan verkrijgen en onthullen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "eb847e15f7e1",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-02",
+  "title": "ICSA-26-293-02: WAGO OS Linux",
+  "excerpt": "Two vulnerabilities in the Web-Based Management (WBM) interface of WAGO CC100, PFC100 G2, PFC200 G2, TP600, Edge Controller and WP400 devices allow an authenticated low-privileged user to bypass intended privilege boundaries. The issues affect both the routing configuration functionality and the authorization model for PROFIBUS configuration management. Sectors: Chemical, Critical Manufacturing, Commercial Facilities, Energy, Transportation Systems, Water and Wastewater Systems.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-20T06:00:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [
+   "CVE-2026-80466",
+   "CVE-2026-88850"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "chemical",
+    "manufacturing",
+    "building",
+    "energy",
+    "transport",
+    "water"
+   ],
+   "vendors": [
+    "WAGO"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-293-02 reports two WAGO web management flaws letting low-privileged authenticated users bypass privilege boundaries on controllers.",
+    "nl": "CISA-advies ICSA-26-293-02 meldt twee WAGO-webbeheerkwetsbaarheden waarmee laagbevoegde geauthenticeerde gebruikers privilegegrenzen op controllers kunnen omzeilen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "f08dc5775d6e",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01",
+  "title": "ICSA-26-293-01: HMS Networks PEAK-System PCAN Windows drivers",
+  "excerpt": "Successful exploitation of these vulnerabilities could crash the Windows kernel. Sectors: Transportation Systems, Healthcare and Public Health, Energy, Critical Manufacturing.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-20T06:00:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [
+   "CVE-2026-109576",
+   "CVE-2026-101103",
+   "CVE-2026-94188",
+   "CVE-2026-103672",
+   "CVE-2026-110322",
+   "CVE-2026-105960"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "advisory",
+   "sectors": [
+    "transport",
+    "healthcare",
+    "energy",
+    "manufacturing"
+   ],
+   "vendors": [
+    "HMS Networks",
+    "PEAK-System"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-293-01 reports PEAK-System PCAN Windows driver vulnerabilities from HMS Networks that could crash the Windows kernel.",
+    "nl": "CISA-advies ICSA-26-293-01 meldt kwetsbaarheden in de Windows-drivers van PEAK-System PCAN van HMS Networks die de Windows-kernel kunnen laten crashen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
   }
  },
  {
@@ -15079,6 +15464,84 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
+  }
+ },
+ {
+  "id": "6ddc02f8af8c",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
+  "title": "ICSA-26-293-05: Hitachi Energy RTU500 Product",
+  "excerpt": "Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. These vulnerabilities if exploited can have impact on confidentiality, integrity and availability of the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation. Sectors: Energy.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-01T00:00:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [
+   "CVE-2026-17539",
+   "CVE-2026-28388",
+   "CVE-2026-6732",
+   "CVE-2026-6653",
+   "CVE-2026-6276",
+   "CVE-2026-9079",
+   "CVE-2026-11856",
+   "CVE-2026-8927",
+   "CVE-2026-8932"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Hitachi Energy"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-293-05 reports Hitachi Energy RTU500 vulnerabilities that could impact confidentiality, integrity and availability, with mitigations provided.",
+    "nl": "CISA-advies ICSA-26-293-05 meldt kwetsbaarheden in Hitachi Energy RTU500 die de vertrouwelijkheid, integriteit en beschikbaarheid kunnen aantasten, met beschikbare mitigaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
+  }
+ },
+ {
+  "id": "3b6a5e446a88",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+  "title": "ICSA-26-293-04: Hitachi Energy MicroSCADA X SYS600 Product",
+  "excerpt": "Hitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation. Sectors: Energy.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-09-01T00:00:00Z",
+  "fetched": "2026-10-20T20:38:51Z",
+  "cves": [
+   "CVE-2026-9852",
+   "CVE-2026-9853",
+   "CVE-2026-9854"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Hitachi Energy"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-293-04 reports multiple Hitachi Energy MicroSCADA X SYS600 vulnerabilities that can be exploited for various attacks, with mitigations provided.",
+    "nl": "CISA-advies ICSA-26-293-04 meldt meerdere kwetsbaarheden in Hitachi Energy MicroSCADA X SYS600 die voor diverse aanvallen kunnen worden misbruikt, met beschikbare mitigaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T20:39:09Z"
   }
  },
  {
