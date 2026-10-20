@@ -1,5 +1,715 @@
 [
  {
+  "id": "d8e0edbb10f6",
+  "url": "https://certvde.com/en/advisories/VDE-2026-090/",
+  "title": "Multiple OpenSSL vulnerabilities affect Festo AX OS in CEPE",
+  "excerpt": "[FSA-202602] Festo AX OS versions 25.0.1.46 and 25.9.2.4, which are based on PLCnext by Phoenix Contact, used by the Festo product CEPE are affected by multiple OpenSSL vulnerabilities. The vulnerabilities are identified as CVE-2025-15467 and CVE-2025-69419. Attacks may be possible when maliciously crafted firmware, key files, PKCS#12 files, CMS/PKCS#7 content, or digitally signed objects are uploaded and processed by the affected system. In the device context, exploitation typically requires a logged-in user with high privileges or the processing of attacker-supplied cryptographic objects.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-20T11:43:35Z",
+  "fetched": "2026-10-20T11:43:35Z",
+  "cves": [
+   "CVE-2025-15467",
+   "CVE-2025-69419"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 72,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Festo",
+    "Phoenix Contact"
+   ],
+   "summary": {
+    "en": "Festo AX OS versions 25.0.1.46 and 25.9.2.4, based on PLCnext and used in CEPE, are affected by multiple OpenSSL vulnerabilities, CVE-2025-15467 and CVE-2025-69419.",
+    "nl": "Festo AX OS-versies 25.0.1.46 en 25.9.2.4, gebaseerd op PLCnext en gebruikt in CEPE, zijn getroffen door meerdere OpenSSL-kwetsbaarheden, CVE-2025-15467 en CVE-2025-69419."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "87c480c756d9",
+  "url": "https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book",
+  "title": "Introducing a new AI chapter in the NCSC research problem book",
+  "excerpt": "A revolution is underway at the intersection of AI and cyber security.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-10-20T11:43:34Z",
+  "fetched": "2026-10-20T11:43:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC-UK published a new AI chapter in its research problem book on the intersection of AI and cyber security.",
+    "nl": "Het NCSC-UK publiceerde een nieuw AI-hoofdstuk in zijn onderzoeksprobleemboek over de combinatie van AI en cybersecurity."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "4dd6914c9876",
+  "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+  "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+  "excerpt": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T11:31:22Z",
+  "fetched": "2026-10-20T11:43:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers compromised OVHcloud's open-source CLI tool to distribute information-stealing malware to developers.",
+    "nl": "Aanvallers hebben de open-source CLI-tool van OVHcloud gecompromitteerd om infostealer-malware naar ontwikkelaars te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "51831f9b091e",
+  "url": "https://www.security.nl/posting/958271/Fraudehelpdesk+ontvangt+tientallen+meldingen+per+dag+over+WhatsApp-scam?channel=rss",
+  "title": "Fraudehelpdesk ontvangt tientallen meldingen per dag over WhatsApp-scam",
+  "excerpt": "De Fraudehelpdesk heeft de afgelopen dagen tal van meldingen over een nieuwe WhatsApp-scam ontvangen die ontvangers vraagt om ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T11:22:00Z",
+  "fetched": "2026-10-20T11:43:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Fraudehelpdesk received dozens of reports daily about a new WhatsApp scam.",
+    "nl": "De Fraudehelpdesk ontvangt dagelijks tientallen meldingen over een nieuwe WhatsApp-scam."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "0baaeaec34e9",
+  "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+  "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+  "excerpt": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T11:18:35Z",
+  "fetched": "2026-10-20T11:43:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ahold Delhaize confirmed a cyberattack disrupted services at stores across Europe and the United States.",
+    "nl": "Ahold Delhaize bevestigde dat een cyberaanval de dienstverlening in winkels in Europa en de Verenigde Staten heeft verstoord."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "4a1a64de03ec",
+  "url": "https://certvde.com/en/advisories/VDE-2026-100/",
+  "title": "Pilz: Vulnerabilities in 'piControl' kernel module for Industrial PC IndustrialPI",
+  "excerpt": "[PPSA-2026-004] The 'piControl' kernel module used in the IndustrialPI, prior to version 2.8.0-1, contains multiple vulnerabilities. Successful exploitation of these vulnerabilities can lead to kernel memory corruption and denial of service.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-20T11:00:00Z",
+  "fetched": "2026-10-20T11:43:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Pilz"
+   ],
+   "summary": {
+    "en": "Multiple vulnerabilities in the piControl kernel module of IndustrialPI before version 2.8.0-1 can cause kernel memory corruption and denial of service.",
+    "nl": "Meerdere kwetsbaarheden in de piControl-kernelmodule van IndustrialPI vóór versie 2.8.0-1 kunnen kernelgeheugencorruptie en denial of service veroorzaken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "cba9b30ee73d",
+  "url": "https://certvde.com/en/advisories/VDE-2026-101/",
+  "title": "Pilz: Vulnerabilities in 'PiCtory' and 'RevPiPyLoad' for Industrial PC IndustrialPI",
+  "excerpt": "[PPSA-2026-005] The 'Pictory' web config tool, prior to 2.17.0, has a Cross-Site Request Forgery (CSRF) vulnerability, which makes it vulnerable to session takeover. The 'revpipyload' package, prior to version 0.11.1, has a vulnerability in the file management functionality of its XML-RPC interface. This allows an attacker to access or delete arbitrary files that the 'revpipyload' process has access to.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-20T11:00:00Z",
+  "fetched": "2026-10-20T11:43:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 62,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Pilz"
+   ],
+   "summary": {
+    "en": "PiCtory before 2.17.0 has a CSRF flaw enabling session takeover, and RevPiPyLoad before 0.11.1 lets attackers access or delete arbitrary files via XML-RPC.",
+    "nl": "PiCtory vóór 2.17.0 heeft een CSRF-lek waardoor sessies overgenomen kunnen worden, en RevPiPyLoad vóór 0.11.1 laat aanvallers via XML-RPC willekeurige bestanden lezen of verwijderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "a3f15353f5e3",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/teradata-ai-data-security/",
+  "title": "Teradata expands AI data security with post-quantum protection and immutable backups",
+  "excerpt": "Teradata has announced new privacy, security, and resiliency capabilities designed to address one of the defining challenges of enterprise AI: how sensitive data is protected, who and what can access it, and whether it remains available and recoverable when something goes wrong. Teradata addresses all three through an integrated approach that reduces raw identity exposure, enforces protection closer to the data, and keeps the intelligence powering AI available and recoverable. In practice, that means protecting … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T10:21:39Z",
+  "fetched": "2026-10-20T11:43:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Teradata announced new AI data security features including post-quantum protection and immutable backups.",
+    "nl": "Teradata kondigde nieuwe AI-datebeveiligingsfuncties aan, waaronder post-quantumbescherming en onveranderbare back-ups."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "52804cc60b4a",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/extend-verify/",
+  "title": "Extend Verify helps AI agents flag suspicious documents before acting",
+  "excerpt": "Extend has announced Extend Verify, a document fraud detection API that helps developers and AI agents assess the integrity of documents before using them to make decisions. Much of the work businesses want AI agents to perform begins with a document: A bank statement supports a lending decision An invoice initiates a payment Receipt substantiates an insurance claim Companies rely on teams of human reviewers to catch document fraud. But AI has made forgeries that … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T10:08:24Z",
+  "fetched": "2026-10-20T11:43:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Extend announced Extend Verify, a document fraud detection API for developers and AI agents.",
+    "nl": "Extend kondigde Extend Verify aan, een API voor documentfraudedetectie voor ontwikkelaars en AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "0863dabc7f6e",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/us-army-ai-agents-echotribble/",
+  "title": "US Army is developing AI agents that could strike enemy networks and vanish without a trace",
+  "excerpt": "The US Army is looking for AI agents that can slip into an adversary’s network, find their target, copy themselves onto nearby tablets and computers, and then erase themselves before anyone notices. Over the past few months, AI agents with no instruction to attack anything have breached Hugging Face infrastructure and broken into Australian government computers, raising alarm among governments and tech companies. In September, Anthropic CEO Dario Amodei warned that within 6 to 12 … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T10:03:39Z",
+  "fetched": "2026-10-20T11:43:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US Army is seeking AI agents that can infiltrate adversary networks and erase themselves afterward.",
+    "nl": "Het Amerikaanse leger zoekt AI-agents die vijandelijke netwerken kunnen binnendringen en zichzelf daarna wissen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "3380f6216ebd",
+  "url": "https://certvde.com/en/advisories/VDE-2026-112/",
+  "title": "METTLER TOLEDO: STARe Software DB2 vulnerable component",
+  "excerpt": "[VDE-2026-112] A vulnerability identified as CVE-2026-10109 affects the external component IBM Db2 12.1.2 delivered with STARe v20.00. The vulnerability is associated with improper handling of the pre-authentication DRDA handshake in affected IBM Db2 versions",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-20T10:00:00Z",
+  "fetched": "2026-10-20T11:43:35Z",
+  "cves": [
+   "CVE-2026-10109"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "METTLER TOLEDO",
+    "IBM"
+   ],
+   "summary": {
+    "en": "CVE-2026-10109 affects IBM Db2 12.1.2 delivered with METTLER TOLEDO STARe v20.00, related to improper handling of the pre-authentication DRDA handshake.",
+    "nl": "CVE-2026-10109 treft IBM Db2 12.1.2 die is meegeleverd met METTLER TOLEDO STARe v20.00, door onjuiste afhandeling van de pre-authenticatie DRDA-handshake."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "87e932b60df1",
+  "url": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
+  "title": "Defense contractors in two NATO allies hacked in recent Russia-linked campaign",
+  "excerpt": "The Russian group known as APT28 and Fancy Bear used a recently documented backdoor to dwell in the networks of two defense contractors and a law enforcement agency in two NATO allies, researchers said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T10:00:00Z",
+  "fetched": "2026-10-20T11:43:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "APT28 used a recently documented backdoor to access two defense contractors and a law enforcement agency in NATO allies.",
+    "nl": "APT28 gebruikte een recent gedocumenteerde backdoor om toegang te krijgen tot twee defensiecontractors en een politiedienst in NAVO-landen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "2979d7d30747",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/microsofts-ai-agents-threats-guardian-agents/",
+  "title": "Microsoft wants to limit AI agents’ permissions when they stray from the job",
+  "excerpt": "Microsoft’s Guardian Agents in Project Perception adapt as agent activity, risk, security context and organizational policy change. They help security teams understand why risk changed, investigate relevant evidence, recommend or apply containment measures and use what they learn to strengthen policies. People retain control over objectives and consequential decisions. Microsoft announced the Guardian Agents and new Playbooks as an extension of Project Perception, its agentic security system. Playbooks define desired security outcomes and coordinate protective … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T09:55:04Z",
+  "fetched": "2026-10-20T11:43:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft announced Guardian Agents in Project Perception to adjust AI agent permissions and containment based on risk.",
+    "nl": "Microsoft kondigde Guardian Agents aan binnen Project Perception om rechten van AI-agents aan te passen op basis van risico."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "564d707e6cba",
+  "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+  "title": "Revolut outage disrupts online banking operations worldwide",
+  "excerpt": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T09:46:44Z",
+  "fetched": "2026-10-20T11:43:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fintech company Revolut experienced a worldwide outage that disrupted most of its services.",
+    "nl": "Fintechbedrijf Revolut kreeg wereldwijd een storing die het grootste deel van zijn diensten verstoorde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "76707f3028c6",
+  "url": "https://www.security.nl/posting/958260/Plex-mediaservers+gehackt+via+Plex2Shell+RCE-kwetsbaarheden?channel=rss",
+  "title": "Plex-mediaservers gehackt via Plex2Shell RCE-kwetsbaarheden",
+  "excerpt": "Aanvallers maken actief misbruik van verschillende beveiligingslekken in Plex Media Server om kwetsbare servers te ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T09:17:00Z",
+  "fetched": "2026-10-20T11:43:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are actively exploiting several Plex Media Server vulnerabilities, known as Plex2Shell RCE, to compromise servers.",
+    "nl": "Aanvallers maken actief misbruik van meerdere Plex Media Server-kwetsbaarheden, Plex2Shell RCE, om servers te compromitteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "11b43eeab29a",
+  "url": "https://www.security.nl/posting/958255/Clouddiensten+ConnectWise+nog+altijd+offline+wegens+supplychain-aanval?channel=rss",
+  "title": "Clouddiensten ConnectWise nog altijd offline wegens supplychain-aanval",
+  "excerpt": "Clouddiensten van cloud- en softwarebedrijf ConnectWise zijn nog altijd offline wegens de supplychain-aanval waardoor het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T08:43:47Z",
+  "fetched": "2026-10-20T11:43:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ConnectWise cloud services remain offline following a supply chain attack.",
+    "nl": "Clouddiensten van ConnectWise zijn nog altijd offline als gevolg van een supplychain-aanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "8b08d21799a4",
+  "url": "https://www.security.nl/posting/958251/Beveiligingslek+in+Siemens+Software+Center+gebruikt+bij+ClickFix-aanvallen?channel=rss",
+  "title": "Beveiligingslek in Siemens Software Center gebruikt bij ClickFix-aanvallen",
+  "excerpt": "Een beveiligingslek in Siemens Software Center is gebruikt bij ClickFix-aanvallen, zo laat Siemens weten. Via de kwetsbaarheid ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T08:21:31Z",
+  "fetched": "2026-10-20T11:43:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "manufacturing",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens reports that a vulnerability in Siemens Software Center was used in ClickFix attacks.",
+    "nl": "Siemens meldt dat een kwetsbaarheid in Siemens Software Center is gebruikt bij ClickFix-aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "92e407676578",
+  "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+  "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+  "excerpt": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T08:21:29Z",
+  "fetched": "2026-10-20T11:43:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker hijacked five OVHcloud CLI GitHub releases to distribute a secret-stealing build for about 94 minutes.",
+    "nl": "Een aanvaller kaapte vijf OVHcloud CLI-releases op GitHub om een build te verspreiden die geheimen steelt, gedurende ongeveer 94 minuten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "fca986105a89",
+  "url": "https://www.security.nl/posting/958250/EFF+lanceert+Privacy+Badger+voor+Safari+op+macOS?channel=rss",
+  "title": "EFF lanceert Privacy Badger voor Safari op macOS",
+  "excerpt": "De Amerikaanse burgerrechtenbeweging EFF heeft de browser-extensie Privacy Badger nu ook voor Safari op macOS gelanceerd. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T08:04:41Z",
+  "fetched": "2026-10-20T11:43:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "EFF launched its Privacy Badger browser extension for Safari on macOS.",
+    "nl": "EFF heeft de browserextensie Privacy Badger gelanceerd voor Safari op macOS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "df021d9018b8",
+  "url": "https://www.security.nl/posting/958248/Aanvallers+voorzien+WordPress+plug-in+Rank+Math+PRO+van+backdoor?channel=rss",
+  "title": "Aanvallers voorzien WordPress plug-in Rank Math PRO van backdoor",
+  "excerpt": "Aanvallers hebben WordPress plug-in Rank Math PRO van een backdoor voorzien, zo hebben de ontwikkelaars aangekondigd. De ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T07:36:00Z",
+  "fetched": "2026-10-20T11:43:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers added a backdoor to the WordPress plug-in Rank Math PRO, according to its developers.",
+    "nl": "Aanvallers hebben de WordPress-plug-in Rank Math PRO van een backdoor voorzien, aldus de ontwikkelaars."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:43:55Z"
+  }
+ },
+ {
+  "id": "d3d1abc1424b",
+  "url": "https://www.security.nl/posting/958246/Ahold+Delhaize+doet+aangifte+bij+politie+van+cybersecurity-incident?channel=rss",
+  "title": "Ahold Delhaize doet aangifte bij politie van cybersecurity-incident",
+  "excerpt": "Ahold Delhaize heeft bij de Nederlandse politie aangifte gedaan van het cybersecurity-incident waardoor het onlangs werd ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T07:20:47Z",
+  "fetched": "2026-10-20T11:43:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ahold Delhaize reported a cybersecurity incident to the Dutch police. The excerpt does not mention industrial or OT systems.",
+    "nl": "Ahold Delhaize heeft bij de Nederlandse politie aangifte gedaan van een cybersecurity-incident. Industriële of OT-systemen worden in het fragment niet genoemd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:44:02Z"
+  }
+ },
+ {
+  "id": "4fd8d5a31fd8",
+  "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+  "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+  "excerpt": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T07:11:45Z",
+  "fetched": "2026-10-20T11:43:33Z",
+  "cves": [
+   "CVE-2026-110936"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 82,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens fixed high-severity DLL sideloading flaw CVE-2026-110936 in Siemens Software Center, which attackers exploit in ClickFix campaigns to deploy a remote access trojan.",
+    "nl": "Siemens heeft het ernstige DLL-sideloading-lek CVE-2026-110936 in Siemens Software Center verholpen, dat in ClickFix-aanvallen wordt misbruikt om een remote access trojan te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:44:02Z"
+  }
+ },
+ {
+  "id": "4a102eb761da",
+  "url": "https://www.helpnetsecurity.com/2026/10/20/mastercard-stablecoin-security/",
+  "title": "Mastercard helps banks assess stablecoin risks before funds move",
+  "excerpt": "Mastercard has announced Stablecoin Security, a new risk intelligence solution, with Borderless.xyz and Keyrails as initial partners. As stablecoins play a growing role in cross-border and business-to-business payments, financial institutions need a clearer view of risk across increasingly complex payment flows. The solution builds on Mastercard’s existing capabilities and helps financial institutions identify fraud, scams, sanctions and other financial-crime risk indicators throughout the stablecoin payment lifecycle, including before funds move on-chain. Why do financial institutions … More…",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T06:25:12Z",
+  "fetched": "2026-10-20T11:43:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Mastercard announced a stablecoin risk intelligence product with partners to help banks detect financial-crime risks. It has no industrial or OT angle.",
+    "nl": "Mastercard heeft een stablecoin-risicoproduct aangekondigd om banken te helpen financiële criminaliteit op te sporen. Er is geen industriële of OT-relevantie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:44:02Z"
+  }
+ },
+ {
+  "id": "0ad525d6c164",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/get-freezers-off-the-internet/",
+  "title": "How to Get Your Freezers (and Other Stuff) Off the Internet!",
+  "excerpt": "Andrew Ginter’s practical advice for the smallest retailers and water utilities with Internet-exposed freezers and OT devices: bring in a firewall, allow only fixed IP addresses, and go live safely.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-10-20T06:17:23Z",
+  "fetched": "2026-10-20T11:43:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "guidance",
+   "sectors": [
+    "water",
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Practical advice for small retailers and water utilities on removing internet-exposed freezers and OT devices, using a firewall and fixed IP allow-listing.",
+    "nl": "Praktisch advies voor kleine winkeliers en waterbedrijven om internet-blootgestelde vriezers en OT-apparaten te beveiligen met een firewall en vaste IP-adressen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:44:02Z"
+  }
+ },
+ {
   "id": "cf3fbd801cf1",
   "url": "https://www.helpnetsecurity.com/2026/10/20/easydmarc-gmo-globalsign-partnership/",
   "title": "EasyDMARC and GMO GlobalSign connect email authentication with verified branding",
@@ -28,6 +738,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-20T06:04:54Z"
+  }
+ },
+ {
+  "id": "50e342417287",
+  "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+  "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+  "excerpt": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-20T05:53:16Z",
+  "fetched": "2026-10-20T11:43:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A former OpenAI engineer was detained in the US over an alleged covert recording device case. The story has no industrial or OT angle.",
+    "nl": "Een voormalige OpenAI-ingenieur is in de VS vastgehouden in een zaak over een vermeend heimelijk opnameapparaat. Er is geen industriële of OT-relevantie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:44:02Z"
   }
  },
  {
@@ -1069,6 +1807,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T15:40:24Z"
+  }
+ },
+ {
+  "id": "35113ece2328",
+  "url": "https://www.security.nl/posting/958142/Whatsapp+accounts+overgenomen+door+middel+van+ghost+pairing?channel=rss",
+  "title": "Whatsapp accounts overgenomen door middel van ghost pairing",
+  "excerpt": "Veel Whatsapp gebruikers ontvingen de afgelopen dagen een bericht waarin hen werd gevraagd om te stemmen op de dochter van een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-19T11:40:00Z",
+  "fetched": "2026-10-20T11:43:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers took over WhatsApp accounts using a ghost pairing technique after users received deceptive voting messages. This is consumer messaging news without an OT angle.",
+    "nl": "Aanvallers hebben WhatsApp-accounts overgenomen via ghost pairing nadat gebruikers misleidende stemberichten ontvingen. Dit is consumentennieuws zonder OT-relevantie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-20T11:44:02Z"
   }
  },
  {
