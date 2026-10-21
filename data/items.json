@@ -1,5 +1,145 @@
 [
  {
+  "id": "e71bb5e70cc3",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/google-chrome-https-protection/",
+  "title": "Chrome puts insecure sites behind a permission prompt",
+  "excerpt": "Google has rolled out a change to Chrome that asks users for permission before making an insecure HTTP connection. The protection is now enabled by default for all users, following its introduction earlier this year for users of Safe Browsing’s Enhanced Protection mode. The vast majority of connections made by Chrome use HTTPS, according to Google. However, unprotected HTTP traffic can expose users to malware, phishing, eavesdropping and other threats. Any HTTP request gives attackers … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T22:30:30Z",
+  "fetched": "2026-10-21T23:24:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google is enabling a Chrome prompt that asks permission before insecure HTTP connections, by default for all users.",
+    "nl": "Google schakelt in Chrome standaard een toestemmingsvraag in voordat onbeveiligde HTTP-verbindingen worden gemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T23:24:36Z"
+  }
+ },
+ {
+  "id": "ca68d2cf3b1b",
+  "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+  "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+  "excerpt": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T22:16:26Z",
+  "fetched": "2026-10-21T23:24:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Chrome adds Gemini-based scam detection and warnings when users copy suspicious commands from ClickFix attacks.",
+    "nl": "Chrome voegt scamdetectie op basis van Gemini toe en waarschuwt gebruikers bij het kopiëren van verdachte ClickFix-commando's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T23:24:36Z"
+  }
+ },
+ {
+  "id": "bc0d626be545",
+  "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+  "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+  "excerpt": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T21:43:27Z",
+  "fetched": "2026-10-21T23:24:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers compromised Onamae Desktop Cloud's infrastructure in Japan and installed malware on up to 26,739 customer VPS servers.",
+    "nl": "Hackers compromitteerden de infrastructuur van Onamae Desktop Cloud in Japan en installeerden malware op tot 26.739 VPS-servers van klanten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T23:24:36Z"
+  }
+ },
+ {
+  "id": "b38f2d27aa1a",
+  "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+  "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+  "excerpt": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T20:31:48Z",
+  "fetched": "2026-10-21T23:24:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "North Korean Lazarus hackers use a post-quantum cryptographic mechanism to secure malicious payload delivery combining old and new malware.",
+    "nl": "Noord-Koreaanse Lazarus-hackers gebruiken een post-quantum cryptografisch mechanisme om kwaadaardige payloads te beveiligen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T23:24:36Z"
+  }
+ },
+ {
+  "id": "565842927b14",
+  "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+  "title": "Meta on the spot for $25 billion under New Mexico privacy ruling",
+  "excerpt": "The Cambridge Analytica data privacy scandal from a decade ago is still weighing on Meta's finances.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T20:25:00Z",
+  "fetched": "2026-10-21T23:24:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Meta faces a reported $25 billion liability under a New Mexico privacy ruling linked to the Cambridge Analytica scandal.",
+    "nl": "Meta krijgt naar verluidt een aansprakelijkheid van 25 miljard dollar opgelegd onder een privacyuitspraak in New Mexico, gerelateerd aan Cambridge Analytica."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T23:24:36Z"
+  }
+ },
+ {
   "id": "c390244a0a08",
   "url": "https://www.security.nl/posting/958424/Misbruik+van+PHP2Shell-lek+gemeld%2C+DigiD+en+andere+sites+weer+online?channel=rss",
   "title": "Misbruik van PHP2Shell-lek gemeld, DigiD en andere sites weer online",
@@ -259,6 +399,39 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-21T20:12:57Z"
+  }
+ },
+ {
+  "id": "bf08861d2cbd",
+  "url": "https://www.forescout.com/research-labs/pqc-in-healthcare-from-data-risk-to-migration-readiness/",
+  "title": "PQC in Healthcare: From Data Risk to Migration Readiness",
+  "excerpt": "Forescout’s Vedere Labs explores security threats in healthcare, including the insecurity of specialized medical devices and the challenges of PQC migration.",
+  "source_id": "x",
+  "source": "Forescout",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T18:05:10Z",
+  "fetched": "2026-10-21T23:24:29Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "ptdbugs"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "research",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Forescout's Vedere Labs examines healthcare security threats, including insecure specialized medical devices and challenges of PQC migration.",
+    "nl": "Forescout's Vedere Labs onderzoekt beveiligingsdreigingen in de gezondheidszorg, waaronder onveilige gespecialiseerde medische apparaten en uitdagingen van PQC-migratie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T23:24:36Z"
   }
  },
  {
@@ -3180,7 +3353,7 @@
   "published": "2026-10-20T12:55:48Z",
   "fetched": "2026-10-20T17:12:38Z",
   "cves": [],
-  "x_mentions": 0,
+  "x_mentions": 1,
   "cls": {
    "relevant": true,
    "score": 70,
@@ -3195,7 +3368,10 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-20T17:13:18Z"
-  }
+  },
+  "x_handles": [
+   "BoozAllen"
+  ]
  },
  {
   "id": "4859b4567c7c",
