@@ -1,5 +1,153 @@
 [
  {
+  "id": "66975f173e25",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/bringing-ai-into-the-soc-video/",
+  "title": "Bringing AI into the SOC means watching for shadow AI and loose permissions",
+  "excerpt": "In this Help Net Security video, Vince Stoffer, Field CTO at Corelight, talks about how AI is changing work in the SOC and how attackers are using the same tools. He explains how LLMs help with vulnerability analysis and detection engineering, including writing SIEM rules and small programs that analyze packets or Zeek metadata. Those using agentic triage report faster work and fewer false positives, and junior analysts can dig deeper into network data. Stoffer … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T04:30:13Z",
+  "fetched": "2026-10-21T04:54:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Corelight"
+   ],
+   "summary": {
+    "en": "A Help Net Security video features Corelight's Field CTO discussing how AI and LLMs are changing SOC work and attacker use.",
+    "nl": "Een video van Help Net Security toont de Field CTO van Corelight over hoe AI en LLM's het SOC-werk veranderen en hoe aanvallers deze tools gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T04:54:10Z"
+  }
+ },
+ {
+  "id": "8c3d69b574f3",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/php-security-release-announcement-october-2026/",
+  "title": "A critical PHP security release is coming today, so get ready to update!",
+  "excerpt": "The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC. The release fixes two vulnerabilities, each rated 9.2 (Critical) under CVSS v4.0. The notice doesn’t yet describe the vulnerabilities or say which PHP versions they affect. The project will publish those details, along with the patched version numbers, when the release goes out. Until then, administrators should assume every PHP installation they run could be affected. The … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T04:21:54Z",
+  "fetched": "2026-10-21T04:54:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The PHP security team announced an urgent release on 21 October 2026 fixing two critical CVSS 9.2 vulnerabilities, with details not yet disclosed.",
+    "nl": "Het PHP-beveiligingsteam kondigde een dringende release aan op 21 oktober 2026 die twee kritieke CVSS 9.2-kwetsbaarheden verhelpt; details zijn nog niet bekend."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T04:54:10Z"
+  }
+ },
+ {
+  "id": "4e17fb364bf9",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus/",
+  "title": "Google open-sourced TorchTPU, so PyTorch on TPUs just got a lot easier",
+  "excerpt": "Google released TorchTPU as open source, giving PyTorch developers a native way to run models on the company’s Tensor Processing Units. Google also announced TPU support in the vLLM and SGLang serving engines, the TorchTitan training framework, Ray, and Hugging Face’s libraries. Teams that write their models in PyTorch and run them on GPUs by default have the most to gain. Google says those workloads now move to TPUs, its custom AI chips, with minimal … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T03:42:06Z",
+  "fetched": "2026-10-21T04:54:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google open-sourced TorchTPU, enabling PyTorch models to run natively on its Tensor Processing Units, with TPU support added to several frameworks.",
+    "nl": "Google heeft TorchTPU als open source uitgebracht, waarmee PyTorch-modellen native op zijn Tensor Processing Units kunnen draaien, en TPU-ondersteuning toegevoegd aan meerdere frameworks."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T04:54:10Z"
+  }
+ },
+ {
+  "id": "687914edaf2d",
+  "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+  "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+  "excerpt": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T01:01:50Z",
+  "fetched": "2026-10-21T04:54:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "TeamUpdraft"
+   ],
+   "summary": {
+    "en": "A threat actor breached TeamUpdraft's website and potentially stole UpdraftCentral connection keys used to send commands to connected WordPress sites.",
+    "nl": "Een dreigingsactor heeft de website van TeamUpdraft gekraakt en mogelijk UpdraftCentral-verbindingssleutels gestolen waarmee commando's naar verbonden WordPress-sites kunnen worden gestuurd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T04:54:10Z"
+  }
+ },
+ {
+  "id": "df4a699587e3",
+  "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+  "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+  "excerpt": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T00:46:42Z",
+  "fetched": "2026-10-21T04:54:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "eMudhra"
+   ],
+   "summary": {
+    "en": "eMudhra revoked eight compromised intermediate CA certificates after weak private keys allowed anyone to recover them and forge trusted certificates.",
+    "nl": "eMudhra heeft acht gecompromitteerde tussenliggende CA-certificaten ingetrokken nadat zwakke privésleutels het mogelijk maakten ze te herstellen en vertrouwde certificaten te vervalsen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T04:54:10Z"
+  }
+ },
+ {
   "id": "42a8d3a7210a",
   "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
   "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
