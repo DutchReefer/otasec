@@ -1,5 +1,752 @@
 [
  {
+  "id": "a0d70fa56ea4",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0445",
+  "title": "NCSC-2026-0445 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
+  "excerpt": "Oracle heeft 33 kwetsbaarheden verholpen in diverse Oracle Analytics-producten, waaronder Oracle Business Intelligence Enterprise Edition en Oracle BI Publisher. In de patchnote staan 33 kwetsbaarheden, waarvan 14 kwetsbaarheden op afstand kunnen worden misbruikt zonder dat authenticatie vereist is. Afhankelijk van de kwetsbaarheid, de getroffen productversie en de configuratie kan misbruik leiden tot ongeautoriseerde toegang tot gevoelige gegevens, het aanmaken, wijzigen of verwijderen van gegevens, verstoring van de dienstverlening of compromittering van de getroffen component. De hoogst…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-21T14:44:10Z",
+  "fetched": "2026-10-21T15:19:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC-NL reports Oracle fixed 33 vulnerabilities in Oracle Analytics products, 14 of them remotely exploitable without authentication.",
+    "nl": "NCSC-NL meldt dat Oracle 33 kwetsbaarheden in Oracle Analytics-producten heeft verholpen, waarvan 14 zonder authenticatie op afstand misbruikt kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "58bdccacf9f7",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0444",
+  "title": "NCSC-2026-0444 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications",
+  "excerpt": "Oracle heeft 110 kwetsbaarheden verholpen in diverse Oracle Communications-producten, waaronder Oracle Communications Unified Assurance, Oracle Communications Cloud Native Core Security Edge Protection Proxy, Oracle Communications Service Catalog and Design en Oracle Communications Operations Monitor. De kwetsbaarheden betreffen verschillende beveiligingsproblemen in Oracle Communications-producten, waaronder mogelijkheden voor niet-geauthenticeerde en laaggeprivilegieerde kwaadwillenden om via netwerktoegang ongeautoriseerde acties uit te voeren. De kwetsbaarheden hebben CVSS-scores…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-21T14:43:10Z",
+  "fetched": "2026-10-21T15:19:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC-NL reports Oracle fixed 110 vulnerabilities in Oracle Communications products, some exploitable without authentication.",
+    "nl": "NCSC-NL meldt dat Oracle 110 kwetsbaarheden in Oracle Communications-producten heeft verholpen, sommige zonder authenticatie misbruikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "39edcc9fa917",
+  "url": "https://therecord.media/php-script-vulnerabilities-warnings",
+  "title": "Hundreds of websites taken offline as concern grows over two PHP vulnerabilities",
+  "excerpt": "The maintainers of the globally used PHP scripting language released patches for two vulnerabilities after alerting users that the bugs were severe.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T14:17:00Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Patches were released for two severe PHP vulnerabilities, leading to hundreds of websites being taken offline.",
+    "nl": "Er zijn patches uitgebracht voor twee ernstige PHP-kwetsbaarheden, waardoor honderden websites offline zijn gehaald."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "b662221d9a54",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/",
+  "title": "eMudhra security blunder left trusted CA signing keys exposed to anyone",
+  "excerpt": "Eight intermediate certificates issued by Indian certificate authority eMudhra were secured with private keys so weak that anyone could recover them from the public certificates in under a second. On its website, the company highlights that it has issued more than 60 million digital certificates. A security researcher known as Wayne discovered the flaw on October 17 while running a check against the Common CA Database (CCADB). To prove the keys were compromised, he signed … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T14:11:24Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researcher Wayne found eight eMudhra intermediate CA certificates protected by weak private keys that could be recovered in seconds.",
+    "nl": "Onderzoeker Wayne ontdekte dat acht tussencertificaten van eMudhra met zwakke private sleutels in seconden te herstellen zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "e5f39783926e",
+  "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+  "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+  "excerpt": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T14:07:05Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PHP released emergency patches for two critical remote code execution vulnerabilities, tracked as PHP2Shell.",
+    "nl": "PHP heeft noodpatches uitgebracht voor twee kritieke remote code execution-kwetsbaarheden, gezamenlijk PHP2Shell genoemd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "6a6d5082414c",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
+  "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
+  "excerpt": "PHP heeft twee kritieke kwetsbaarheden verholpen. De kwetsbaarheden kunnen zonder authenticatie op afstand worden misbruikt voor het uitvoeren van willekeurige code. Alle PHP-installaties die webverzoeken verwerken zijn getroffen. De kwetsbaarheid met kenmerk CVE-2026-109618 betreft geheugenbeschadiging bij de afhandeling van een Out-of-Memory-situatie. Hierdoor kunnen interne requestgegevens slechts gedeeltelijk worden geïnitialiseerd en tijdens de verwerking als geldige gegevens worden behandeld, wat kan leiden tot Remote Code Execution. De kwetsbaarheid met kenmerk CVE-2026-109619 betreft…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-21T14:01:37Z",
+  "fetched": "2026-10-21T15:19:50Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC-NL reports PHP fixed two critical vulnerabilities allowing unauthenticated remote code execution on web requests.",
+    "nl": "NCSC-NL meldt dat PHP twee kritieke kwetsbaarheden heeft verholpen die zonder authenticatie remote code execution toestaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "07ddd7a1ed82",
+  "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+  "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+  "excerpt": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T14:00:10Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ClickFix attacks are rising, using fake AI installers, malicious search results and chatbot platforms to trick users into running malware.",
+    "nl": "ClickFix-aanvallen nemen toe en gebruiken nep-AI-installers, kwaadaardige zoekresultaten en chatbotplatforms om gebruikers malware te laten uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "6478f5844cef",
+  "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+  "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+  "excerpt": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T14:00:00Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PHP released updates for two critical PHP2Shell flaws allowing unauthenticated code execution, with exploit attempts emerging.",
+    "nl": "PHP heeft updates uitgebracht voor twee kritieke PHP2Shell-kwetsbaarheden die ongeauthenticeerde codeuitvoering toestaan, waarbij exploitpogingen opduiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "1a8d35d28970",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/nvidia-openshell-reference-architecture/",
+  "title": "NVIDIA unveils security architecture that can stop AI agents crossing set boundaries",
+  "excerpt": "NVIDIA’s OpenShell Reference Architecture is designed to help businesses control AI agents operating across enterprise infrastructure and local computing systems. It builds on NVIDIA’s existing OpenShell security software, combining it with hardware for running AI models, managing agent operations and enforcing security rules. The aim is to let agents carry out useful work within defined boundaries, while giving businesses tools to monitor their behaviour and stop activity that crosses those limits. “AI capability and safety … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T13:52:23Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "NVIDIA"
+   ],
+   "summary": {
+    "en": "NVIDIA unveiled an OpenShell reference architecture to control and monitor enterprise AI agents within defined security boundaries.",
+    "nl": "NVIDIA presenteerde een OpenShell-referentiearchitectuur om enterprise AI-agents binnen vastgestelde beveiligingsgrenzen te beheersen en te monitoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "3c900266e746",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/",
+  "title": "PHP2Shell: Critical PHP vulnerabilities patched, update now!",
+  "excerpt": "The PHP development team has released emergency security updates to fix PHP2Shell, two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that could let attackers execute code remotely on web servers without logging in. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the team is strongly urging all PHP users to update immediately. “These findings rank among the most severe vulnerabilities discovered in PHP, and arguably in software history. The underlying flaws had been present … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T13:51:05Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PHP urges immediate updates to fix two critical PHP2Shell vulnerabilities enabling remote code execution without login.",
+    "nl": "PHP dringt aan op directe updates om twee kritieke PHP2Shell-kwetsbaarheden te verhelpen die remote code execution zonder inloggen mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "7035b41af87f",
+  "url": "https://www.siemens.com/en-us/products/russelectric/power-monitoring-control/",
+  "title": "Power Monitoring & Control",
+  "excerpt": "Russelectric Power Monitoring provides real-time device status, system tracking, performance optimization, and simulations for preparedness and reliability.",
+  "source_id": "x",
+  "source": "siemens.com",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T13:25:25Z",
+  "fetched": "2026-10-21T15:19:51Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "RusselectricInc"
+  ],
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Siemens",
+    "Russelectric"
+   ],
+   "summary": {
+    "en": "A Siemens product page describes Russelectric Power Monitoring features for real-time device status and reliability.",
+    "nl": "Een Siemens-productpagina beschrijft de functies van Russelectric Power Monitoring voor realtime apparaatstatus en betrouwbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "47ecb227d945",
+  "url": "https://claroty.com/blog/industrial-automation-cybersecurity-for-retail-operations?hss_channel=tw-743739751044288513",
+  "title": "Industrial Automation Cybersecurity for Retail Operations",
+  "excerpt": "The cyberattacks against supermarket chains in France have put a spotlight on the importance of industrial automation cybersecurity in retail operations. Internet-facing assets that are not securely connected or guarded by strong authentication are at an enhanced risk for disruption or damage. This blog identifies thre...",
+  "source_id": "x",
+  "source": "Claroty",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T13:23:59Z",
+  "fetched": "2026-10-21T15:19:51Z",
+  "cves": [],
+  "x_mentions": 1,
+  "x_handles": [
+   "Claroty"
+  ],
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "guidance",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A Claroty blog argues industrial automation cybersecurity matters for retail operations, citing cyberattacks on French supermarket chains.",
+    "nl": "Een blog van Claroty stelt dat cybersecurity van industriële automatisering belangrijk is voor retailoperaties, mede naar aanleiding van aanvallen op Franse supermarktketens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "f29fd7d40b5f",
+  "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+  "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+  "excerpt": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled. ClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls. As part of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T13:15:09Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google Chrome adds warnings to Enhanced Protection to block ClickFix social engineering attacks.",
+    "nl": "Google Chrome voegt waarschuwingen toe bij Enhanced Protection om ClickFix-socialengineeringaanvallen te blokkeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "df4df760d25d",
+  "url": "https://industrialcyber.co/reports/gao-outlines-2027-2032-agenda-for-congressional-oversight-of-federal-cyber-defenses-critical-infrastructure-ai-risks/",
+  "title": "GAO outlines 2027-2032 agenda for congressional oversight of federal cyber defenses, critical infrastructure, AI risks",
+  "excerpt": "The U.S. Government Accountability Office (GAO) outlined plans to strengthen congressional oversight of federal cybersecurity, critical infrastructure protection...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-21T12:48:18Z",
+  "fetched": "2026-10-21T15:19:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector",
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The US GAO outlined a 2027-2032 agenda for congressional oversight of federal cyber defenses, critical infrastructure protection and AI risks.",
+    "nl": "De Amerikaanse GAO heeft een agenda voor 2027-2032 vastgesteld voor het parlementaire toezicht op federale cyberverdediging, bescherming van kritieke infrastructuur en AI-risico's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "6761372c16a0",
+  "url": "https://industrialcyber.co/risk-management/singapores-csa-and-google-identify-safeguards-and-access-controls-to-address-autonomous-ai-agent-risks/",
+  "title": "Singapore’s CSA and Google identify safeguards and access controls to address autonomous AI agent risks",
+  "excerpt": "The Cyber Security Agency of Singapore (CSA) and Google convened cybersecurity policymakers, critical infrastructure leaders and artificial intelligence...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-21T12:39:22Z",
+  "fetched": "2026-10-21T15:19:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Singapore's CSA and Google convened policymakers and infrastructure leaders to discuss safeguards for autonomous AI agent risks.",
+    "nl": "Het Singaporese CSA en Google hebben beleidsmakers en infrastructuurleiders bijeengebracht om waarborgen voor risico's van autonome AI-agents te bespreken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "2ccc2db42542",
+  "url": "https://industrialcyber.co/reports/resilience-reports-energy-and-utilities-sector-faces-rising-cyber-exposure-from-ransomware-vulnerable-ot-systems/",
+  "title": "Resilience reports energy and utilities sector faces rising cyber exposure from ransomware, vulnerable OT systems",
+  "excerpt": "Resilience’s analysis of cyber insurance claims in the energy and utilities sector found that email compromise accounted for...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-21T12:36:42Z",
+  "fetched": "2026-10-21T15:19:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "research",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Resilience's analysis of energy and utilities cyber insurance claims highlights ransomware and vulnerable OT systems as rising exposures.",
+    "nl": "Een analyse van Resilience van cyberverzekeringsclaims in energie en nutsbedrijven wijst op ransomware en kwetsbare OT-systemen als toenemende risico's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "30e00d2124e3",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0442",
+  "title": "NCSC-2026-0442 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite",
+  "excerpt": "Oracle heeft 194 kwetsbaarheden verholpen in Oracle E-Business Suite en gerelateerde componenten, specifiek voor versies 12.2.3 tot en met 12.2.15. Afhankelijk van de specifieke kwetsbaarheid kunnen deze door een aanvaller met netwerktoegang worden misbruikt om ongeautoriseerde toegang tot gegevens te verkrijgen of om gegevens aan te maken, in te zien, te wijzigen of te verwijderen. In ernstige gevallen kan misbruik leiden tot Remote Code Execution (RCE), waardoor een aanvaller willekeurige code kan uitvoeren op het getroffen systeem. Een deel van de kwetsbaarheden kan op afstand worden…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-21T12:33:43Z",
+  "fetched": "2026-10-21T15:19:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "NCSC-NL reports Oracle fixed 194 vulnerabilities in E-Business Suite versions 12.2.3 to 12.2.15, some enabling remote code execution.",
+    "nl": "NCSC-NL meldt dat Oracle 194 kwetsbaarheden in E-Business Suite versies 12.2.3 tot en met 12.2.15 heeft verholpen, waarvan sommige remote code execution mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "d001714e03d1",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+  "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+  "excerpt": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T12:20:34Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft released PowerToys 0.102 with new mouse utilities and command-line tools.",
+    "nl": "Microsoft heeft PowerToys 0.102 uitgebracht met nieuwe muishulpmiddelen en command-line tools."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "c7a020f274e0",
+  "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+  "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+  "excerpt": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. \"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T12:05:00Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Sophos researchers describe China-aligned Bronze Sandcastle, using Sandboxie DLL sideloading to target organizations in Asia and Africa.",
+    "nl": "Sophos-onderzoekers beschrijven Bronze Sandcastle, een met China gelieerde groep die via Sandboxie DLL-sideloading organisaties in Azië en Afrika aanvalt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "b81260804ad3",
+  "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+  "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+  "excerpt": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result. Proofpoint shared several examples of the shift at its Protect 2026 conference.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T11:53:34Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Proofpoint reports generative AI is erasing behavioral tells in malicious emails, weakening behavior-only detection.",
+    "nl": "Proofpoint meldt dat generatieve AI gedragskenmerken in kwaadaardige e-mails wegneemt, waardoor detectie op basis van gedrag minder effectief wordt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:10Z"
+  }
+ },
+ {
+  "id": "941972dab7f2",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/",
+  "title": "Ransomware gangs have been exploiting Palo Alto GlobalProtect VPN flaw since June",
+  "excerpt": "Several ransomware groups are exploiting CVE-2026-0257, an authentication bypass in Palo Alto Networks’ PAN-OS GlobalProtect patched in May, to break into organizations in sectors ranging from healthcare and education to government and energy. CVE-2026-0257 stems from the firewalls relying on cookies without performing detailed validation and integrity checking, which allows remote, unauthenticated attackers to bypass security restrictions and establish an unauthorized VPN connection. The vulnerabilities affect the GlobalProtect portal and gateway of PAN’s physical and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T11:13:39Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [
+   "CVE-2026-0257"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "threat",
+   "sectors": [
+    "healthcare",
+    "government",
+    "energy",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Palo Alto Networks",
+    "PAN-OS GlobalProtect"
+   ],
+   "summary": {
+    "en": "Ransomware groups are exploiting CVE-2026-0257, an authentication bypass in PAN-OS GlobalProtect patched in May, to breach organizations including in healthcare, government and energy.",
+    "nl": "Ransomwaregroepen misbruiken CVE-2026-0257, een authenticatiebypass in PAN-OS GlobalProtect die in mei is gepatcht, om organisaties in onder meer de gezondheidszorg, overheid en energie binnen te dringen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:15Z"
+  }
+ },
+ {
+  "id": "ec0fd993c8b5",
+  "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+  "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+  "excerpt": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at 14:00 UTC on October 21 for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T10:36:53Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PHP will release a fix at 14:00 UTC on October 21 for two critical PHP flaws called PHP2Shell, rated 9.2 out of 10, with no official workaround.",
+    "nl": "PHP brengt op 21 oktober om 14:00 UTC een fix uit voor twee kritieke PHP-kwetsbaarheden genaamd PHP2Shell, beoordeeld met 9,2 van 10, zonder officiële workaround."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:15Z"
+  }
+ },
+ {
+  "id": "f31f85df952c",
+  "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+  "title": "The Harness Is the Hard Part of Agentic Pentesting",
+  "excerpt": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T10:32:40Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article argues that the harness around an AI model, not the model itself, is the hard part of agentic pentesting for web applications.",
+    "nl": "Een artikel stelt dat de harness rond een AI-model, en niet het model zelf, het moeilijke deel is van agentische pentesting van webapplicaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:15Z"
+  }
+ },
+ {
+  "id": "00d9c6c07315",
+  "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+  "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+  "excerpt": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T10:30:27Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 45,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections and steal passwords, a researcher found.",
+    "nl": "Aanvallers namen begin oktober meer dan 300 Tor-exitrelays over en gebruikten die om SSH-verbindingen om te leiden en wachtwoorden te stelen, aldus een onderzoeker."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:15Z"
+  }
+ },
+ {
+  "id": "85c7702a94cb",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+  "title": "Microsoft says October updates didn’t actually fix VPN issues",
+  "excerpt": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T10:14:53Z",
+  "fetched": "2026-10-21T15:19:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft says it wrongly marked a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates.",
+    "nl": "Microsoft zegt dat het ten onrechte een bug die Always On VPN-verbindingsproblemen veroorzaakt, als opgelost heeft gemarkeerd in de cumulatieve updates van Windows 11 van oktober 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T15:20:15Z"
+  }
+ },
+ {
   "id": "72e029d17301",
   "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
   "title": "Critical security issue affecting PHP",
