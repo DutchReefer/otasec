@@ -1,5 +1,635 @@
 [
  {
+  "id": "72e029d17301",
+  "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+  "title": "Critical security issue affecting PHP",
+  "excerpt": "The NCSC is encouraging UK organisations to prepare for immediate updating of systems using PHP.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-10-21T10:13:38Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC urges UK organisations to prepare for rapid updates of systems running PHP after a critical security issue was reported.",
+    "nl": "Het NCSC roept Britse organisaties op zich voor te bereiden op snelle updates van systemen met PHP na een kritiek beveiligingsprobleem."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "520f3e5dd3db",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0441",
+  "title": "NCSC-2026-0441 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
+  "excerpt": "Oracle heeft kwetsbaarheden verholpen in diverse producten, waaronder Oracle MySQL Server, MySQL Cluster, MySQL Enterprise Backup, MySQL Connectors (waaronder Connector/ODBC) en MySQL Router. De kwetsbaarheden in Oracle MySQL betreffen diverse componenten, waaronder MySQL Server, MySQL Cluster, MySQL Enterprise Backup, MySQL Connectors en MySQL Router. De potentiële impact omvat ongeautoriseerde toegang tot of wijziging van gegevens en verstoring van de beschikbaarheid van systemen (denial-of-service). De Oracle Critical Patch Update van oktober 2026 bevat 98 nieuwe beveiligingspatches…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-21T09:35:18Z",
+  "fetched": "2026-10-21T10:13:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Oracle fixed multiple vulnerabilities in MySQL Server, Cluster, Enterprise Backup, Connectors and Router, with possible data access and denial-of-service impact.",
+    "nl": "Oracle heeft kwetsbaarheden verholpen in MySQL Server, Cluster, Enterprise Backup, Connectors en Router, met mogelijke gevolgen voor gegevens en beschikbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "72a17be1d56b",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0440",
+  "title": "NCSC-2026-0440 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Enterprise Manager",
+  "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Enterprise Manager, waaronder de Base Platform, Data Guard Management, Siebel en Virtualization-componenten. De kwetsbaarheden betreffen versies 13.5 en 24.1. De kwetsbaarheden in Oracle Enterprise Manager kunnen leiden tot ongeautoriseerde toegang tot gevoelige gegevens, wijzigingen in data en aantasting van de beschikbaarheid en integriteit van systemen. Sommige kwetsbaarheden maken het mogelijk om willekeurige code uit te voeren. De kwetsbaarheden bevinden zich in verschillende componenten, waaronder Data Guard Management, Base…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-21T09:34:08Z",
+  "fetched": "2026-10-21T10:13:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Oracle fixed multiple vulnerabilities in Enterprise Manager versions 13.5 and 24.1, some allowing arbitrary code execution.",
+    "nl": "Oracle heeft meerdere kwetsbaarheden verholpen in Enterprise Manager versies 13.5 en 24.1, waarvan sommige code-uitvoering mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "ae81ed2c42f4",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/grafana-labs-knowledge-graph/",
+  "title": "Grafana Labs connects observability and incident response with Knowledge Graph",
+  "excerpt": "Grafana Labs has announced a Knowledge Graph in every Grafana Cloud stack, alongside new Digital Experience Monitoring capabilities and updates to Grafana Cloud Incident Response Management (IRM). The releases connect infrastructure and application dependencies with user experience and incident response, giving people and agents shared context to investigate problems and take action. As agentic systems become more architecturally complex and teams use agents to investigate and respond to problems, those agents need context that connects … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T09:30:38Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Grafana Labs"
+   ],
+   "summary": {
+    "en": "Grafana Labs announced a Knowledge Graph and updates to its Cloud Incident Response Management product.",
+    "nl": "Grafana Labs kondigde een Knowledge Graph en updates voor zijn Cloud Incident Response Management-product aan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "616bb5862c37",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/threatlocker-zero-trust-ai-control-ztaic/",
+  "title": "ThreatLocker adds external controls for AI agent access and execution",
+  "excerpt": "ThreatLocker has announced the launch of Zero Trust AI Control (ZTAIC), giving organizations a tool to deploy agentic AI without surrendering control of their environments. ZTAIC enables security teams to give AI agents exactly what they need to perform their jobs while keeping everything else out of reach, even as agents invoke other applications and processes to take action. AI guardrails aspire to define how an agent should behave, but AI continues to find ways … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T09:07:30Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ThreatLocker"
+   ],
+   "summary": {
+    "en": "ThreatLocker launched Zero Trust AI Control, a product for managing AI agent access and execution.",
+    "nl": "ThreatLocker lanceerde Zero Trust AI Control, een product voor het beheren van toegang en uitvoering door AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "705a2aee0bf3",
+  "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+  "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+  "excerpt": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T09:05:17Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "PHP"
+   ],
+   "summary": {
+    "en": "Two critical PHP remote code execution flaws rated CVSS 9.2 are to be fixed in an out-of-cycle PHP security release.",
+    "nl": "Twee kritieke PHP-kwetsbaarheden met CVSS 9.2 voor remote code execution worden verholpen in een buitenlandse PHP-beveiligingsrelease."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "780fcc7f85c6",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0439",
+  "title": "NCSC-2026-0439 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle PeopleSoft Enterprise",
+  "excerpt": "Oracle heeft nieuwe kwetsbaarheden verholpen in Oracle PeopleSoft Enterprise. De kwetsbaarheden in Oracle PeopleSoft Enterprise betreffen verschillende beveiligingsrisico's, waaronder ongeautoriseerde toegang tot gegevens, ongeautoriseerde wijzigingen van gegevens en verstoring van de beschikbaarheid van systemen (denial-of-service, DoS). Afhankelijk van de specifieke kwetsbaarheid kan misbruik leiden tot aantasting van de vertrouwelijkheid, integriteit of beschikbaarheid van gegevens en systemen. Sommige kwetsbaarheden zijn via het netwerk exploiteerbaar en vereisen geen authenticatie…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-21T09:04:50Z",
+  "fetched": "2026-10-21T10:13:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Oracle fixed new vulnerabilities in PeopleSoft Enterprise that could allow data access, data modification or denial of service.",
+    "nl": "Oracle heeft nieuwe kwetsbaarheden in PeopleSoft Enterprise verholpen die toegang tot of wijziging van gegevens of verstoring mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "7f88afbf76a3",
+  "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+  "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+  "excerpt": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T09:01:12Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "UpdraftPlus"
+   ],
+   "summary": {
+    "en": "Attackers breached TeamUpdraft's website and may have obtained connection keys used to backdoor WordPress sites.",
+    "nl": "Aanvallers braken in op de website van TeamUpdraft en konden mogelijk verbindingssleutels gebruiken om WordPress-sites te backdoored."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "828fdb0cb1b3",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/",
+  "title": "Info-stealing malware slipped into OVHcloud CLI releases on GitHub",
+  "excerpt": "OVHcloud, the French cloud computing and web hosting company, alerted customers that a hacker tampered with its open-source command-line interface (CLI) tool to spread information-stealing malware. OVHcloud CEO Octave Klaba disclosed the incident on X, warning users who downloaded the latest CLI release that day to update the tool or delete it. According to Klaba, five versions of the CLI were modified, from v0.11.0 through v0.15.0. Version v0.10.0 was unaffected, and the new v0.16.0 release … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T08:59:57Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "OVHcloud"
+   ],
+   "summary": {
+    "en": "Five OVHcloud CLI versions on GitHub were modified to spread information-stealing malware, and customers were told to update or delete the tool.",
+    "nl": "Vijf OVHcloud CLI-versies op GitHub zijn gemanipuleerd om infostealer-malware te verspreiden; klanten moeten bijwerken of verwijderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "198e5f763c39",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/apple-safari-tracking-protection/",
+  "title": "Safari blocks trackers that turn your email into a tracking ID",
+  "excerpt": "Apple’s new anti-tracking protections in Safari and WebKit, the open-source web engine used by Safari, block connections to identity resolution services that turn email addresses into persistent tracking identifiers. How email addresses become tracking IDs This “post-cookie” tracking method allows a third party to collect a user’s email address when they log in to a website or sign up for a newsletter. The provider sends the address to its servers, creates a tracking ID permanently … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T08:53:34Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple's Safari and WebKit now block connections to identity resolution services that turn email addresses into tracking IDs.",
+    "nl": "Apple blokkeert in Safari en WebKit verbindingen naar identity resolution-diensten die e-mailadressen omzetten in trackingidentificaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "cb3cb0addfd4",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+  "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+  "excerpt": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T08:36:24Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA says the SafePay ransomware gang has breached over 600 critical infrastructure organisations worldwide since 2024.",
+    "nl": "CISA meldt dat de SafePay-ransomwarebende sinds 2024 wereldwijd meer dan 600 organisaties uit kritieke infrastructuur heeft getroffen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "0c6fe061465a",
+  "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+  "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+  "excerpt": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates Homeland Security Secretary",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T08:04:17Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [
+    "DeepSeek"
+   ],
+   "summary": {
+    "en": "A Department of Homeland Security order requires US federal civilian agencies to remove DeepSeek products and bans new purchases from the developer.",
+    "nl": "Een bevel van het Amerikaanse ministerie van Binnenlandse Veiligheid verplicht federale civiele instanties DeepSeek-producten te verwijderen en verbiedt nieuwe aankopen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "4bf9b570dc67",
+  "url": "https://industrialcyber.co/news/nozomi-networks-sel-integrate-ot-sdn-visibility-with-ai-powered-cybersecurity-for-critical-infrastructure/",
+  "title": "Nozomi Networks, SEL integrate OT SDN visibility with AI-powered cybersecurity for critical infrastructure",
+  "excerpt": "Nozomi Networks, vendor of OT, IoT and CPS security solutions, and Schweitzer Engineering Laboratories (SEL) announced an expansion...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-21T07:44:22Z",
+  "fetched": "2026-10-21T10:13:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Nozomi Networks",
+    "Schweitzer Engineering Laboratories"
+   ],
+   "summary": {
+    "en": "Nozomi Networks and SEL announced an expansion integrating OT SDN visibility with AI-powered cybersecurity.",
+    "nl": "Nozomi Networks en SEL kondigden een uitbreiding aan die OT SDN-zichtbaarheid combineert met AI-gestuurde cyberbeveiliging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "17efaa05bd14",
+  "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+  "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+  "excerpt": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a stock-exchange filing dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T07:44:22Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "State Bank of India confirmed 3,897 customer records were found on the dark web, and the source of the data is still unknown.",
+    "nl": "State Bank of India bevestigde dat 3.897 klantgegevens op het dark web zijn gevonden en de herkomst is nog onbekend."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "b2505b02737e",
+  "url": "https://industrialcyber.co/news/dispel-tenable-integrate-ot-asset-intelligence-with-zero-trust-remote-access-controls-to-boost-industrial-cybersecurity/",
+  "title": "Dispel, Tenable integrate OT asset intelligence with zero-trust remote access controls to boost industrial cybersecurity",
+  "excerpt": "Dispel announced an integration with exposure management company Tenable Holdings that combines Tenable One OT Exposure with the...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-21T07:41:12Z",
+  "fetched": "2026-10-21T10:13:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Dispel",
+    "Tenable"
+   ],
+   "summary": {
+    "en": "Dispel announced an integration with Tenable OT Exposure combining asset intelligence with zero-trust remote access.",
+    "nl": "Dispel kondigde een integratie aan met Tenable OT Exposure die asset-informatie combineert met zero-trust toegang op afstand."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "e40913f00e28",
+  "url": "https://industrialcyber.co/news/tenable-open-for-ai-connects-exposure-management-with-threat-detection-and-incident-investigations/",
+  "title": "Tenable OPEN for AI connects exposure management with threat detection and incident investigations",
+  "excerpt": "Exposure management company Tenable Holdings announced expansion of its open technology and partner ecosystem to accelerate integrated security...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-21T07:40:06Z",
+  "fetched": "2026-10-21T10:13:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Tenable"
+   ],
+   "summary": {
+    "en": "Tenable announced an expansion of its partner ecosystem connecting exposure management with threat detection and investigations.",
+    "nl": "Tenable kondigde een uitbreiding van zijn partnerecosysteem aan die exposure management koppelt aan threat detection en onderzoeken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "f6fe2f9557b7",
+  "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+  "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T07:26:49Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [
+   "CVE-2026-96652"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "CISA added four vulnerabilities, including Siemens flaws, to its Known Exploited Vulnerabilities catalog and ordered federal agencies to patch them.",
+    "nl": "CISA voegde vier kwetsbaarheden, waaronder Siemens-kwetsbaarheden, toe aan de KEV-catalogus en verplichtte federale instanties tot patchen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "bd60f0eb51aa",
+  "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+  "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+  "excerpt": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be active since at least 2020, the group has a track record of striking industrial",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T06:05:15Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "threat",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [
+    "VMware"
+   ],
+   "summary": {
+    "en": "The Belarus-aligned group Partisan Zmiy spent nearly two years in a Russian healthcare network, hiding the Vasilek backdoor in VMware Tools.",
+    "nl": "De aan Belarus gelieerde groep Partisan Zmiy zat bijna twee jaar in het netwerk van een Russische zorgorganisatie en verborg de Vasilek-backdoor in VMware Tools."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "abd47be2f88c",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/ecg-heart-data-privacy-preserving-ai/",
+  "title": "Privacy-preserving AI can protect your heart data, the bill is the problem",
+  "excerpt": "A heart monitor used to be a box beside a hospital bed. Electrodes fed a cable, the cable fed a screen, and a nurse watched the screen. The threat model fit on a sticky note. Cardiac care doesn’t work like that anymore. A patch or smartwatch records the electrocardiogram (ECG). A phone or gateway relays it. A cloud service stores and analyzes it, and a cardiologist reviews it from somewhere else entirely. Increasingly, those recordings … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T06:00:35Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article argues that privacy-preserving AI can protect cardiac ECG data in patch, phone and cloud monitoring chains, with cost as a barrier.",
+    "nl": "Een artikel stelt dat privacybeschermende AI cardiale ECG-gegevens kan beschermen in keten van patch, telefoon en cloud, maar kosten vormen een barrière."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "05a5aeb72b5e",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/devguard-open-source-vulnerability-management/",
+  "title": "DevGuard: Open-source vulnerability management for the software supply chain",
+  "excerpt": "DevGuard is a free, open source vulnerability management platform that collects a software project’s security findings in one place, ranks them by risk, and tracks them. It’s an OWASP Incubating Project, and anyone can self-host it. One command line, six scans DevGuard runs secret scanning, static code analysis, dependency checks against known CVEs, infrastructure-as-code checks, container scanning, and license checks through one CLI that wraps existing open source tools. Teams already using Trivy, Grype, or … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T05:30:45Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "DevGuard"
+   ],
+   "summary": {
+    "en": "DevGuard is a free open source vulnerability management platform that collects and ranks software security findings.",
+    "nl": "DevGuard is een gratis open source platform voor kwetsbaarheidsbeheer dat beveiligingsbevindingen verzamelt en rangschikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:01Z"
+  }
+ },
+ {
+  "id": "b1ac079f3e16",
+  "url": "https://www.helpnetsecurity.com/2026/10/21/gitguardian-securing-credential-layer/",
+  "title": "Why security tools lose sight of the credential",
+  "excerpt": "Security teams have tools for code, endpoints, cloud infrastructure, identity, and secrets management. Credentials cut across all of them. A developer finds an AWS key in a repository. The first step is obvious: remove it. But that does not answer the questions the security team now has: Is the key still active? Who owns it? What can it access? Is the same credential sitting in a CI/CD variable, a local .env file, a Slack thread, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T05:00:32Z",
+  "fetched": "2026-10-21T10:13:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article argues that security tools lose track of credentials, using an AWS key found in a repository as an example.",
+    "nl": "Een artikel stelt dat beveiligingstools het zicht op credentials verliezen, met een AWS-sleutel in een repository als voorbeeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-21T10:14:02Z"
+  }
+ },
+ {
   "id": "66975f173e25",
   "url": "https://www.helpnetsecurity.com/2026/10/21/bringing-ai-into-the-soc-video/",
   "title": "Bringing AI into the SOC means watching for shadow AI and loose permissions",

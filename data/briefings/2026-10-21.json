@@ -1,0 +1,235 @@
+{
+ "date": "2026-10-21",
+ "published": "2026-10-21T10:14:41Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 19,
+ "i18n": {
+  "en": {
+   "title": "OTASEC Briefing 21-10-2026",
+   "intro": "Siemens confirms active exploitation of a Software Center flaw, and a joint advisory puts SafePay ransomware at more than 600 critical infrastructure victims. The EU Cyber Resilience Act and AI risks to OT round out the day."
+  },
+  "nl": {
+   "title": "OTASEC-briefing 21-10-2026",
+   "intro": "Siemens bevestigt actief misbruik van een lek in Software Center, en een gezamenlijk advies telt meer dan 600 slachtoffers van SafePay-ransomware in kritieke infrastructuur. Daarnaast aandacht voor de Cyber Resilience Act en AI-risico's voor OT."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "c55a060410a4",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/20/exploitation-siemens-software-center-vulnerability-cve-2026-110936/",
+     "title": "Attackers exploit Siemens Software Center flaw in active ClickFix malware campaign"
+    },
+    {
+     "id": "f6fe2f9557b7",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+     "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-110936",
+    "CVE-2026-96652"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Siemens Software Center flaw exploited; CISA adds Siemens, Plex2Shell and SiteGuard flaws to KEV",
+     "summary": "Siemens confirmed active exploitation of CVE-2026-110936, a DLL side-loading vulnerability in Siemens Software Center (CVSS v4.0 8.4), used in a ClickFix malware campaign. The advisory was published on 15 October and updated on 17 October; the flaw was reported by Huntress Labs. CISA also ordered US federal agencies to patch exploited flaws in Plex Media Server (Plex2Shell), Siemens and SiteGuard products.",
+     "takeaway": "Check where Siemens Software Center is installed on engineering and OT-adjacent workstations, apply the Siemens advisory mitigations, and warn users about ClickFix-style lures."
+    },
+    "nl": {
+     "heading": "Lek in Siemens Software Center misbruikt; CISA voegt Siemens-, Plex2Shell- en SiteGuard-kwetsbaarheden toe aan KEV",
+     "summary": "Siemens bevestigde actief misbruik van CVE-2026-110936, een DLL side-loading-kwetsbaarheid in Siemens Software Center (CVSS v4.0 8,4), die wordt ingezet in een ClickFix-malwarecampagne. Het advies verscheen op 15 oktober en werd op 17 oktober bijgewerkt; Huntress Labs meldde het lek. CISA droeg Amerikaanse federale instanties daarnaast op om misbruikte kwetsbaarheden in Plex Media Server (Plex2Shell), Siemens en SiteGuard te patchen.",
+     "takeaway": "Ga na waar Siemens Software Center op engineering- en OT-nabije werkstations staat, pas de maatregelen uit het Siemens-advies toe en waarschuw gebruikers voor ClickFix-achtige lokmiddelen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "cb3cb0addfd4",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+     "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs"
+    },
+    {
+     "id": "a92bc795de6c",
+     "name": "The Record",
+     "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
+     "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CISA and FBI: SafePay ransomware has hit over 600 critical infrastructure organizations",
+     "summary": "CISA says the SafePay ransomware gang has breached more than 600 critical infrastructure organizations worldwide since 2024. The FBI and cyber agencies in the UK and Germany describe SafePay as among the most active groups, gaining access by guessing passwords, exploiting vulnerabilities and phishing.",
+     "takeaway": "Review password policies and MFA on remote and IT-to-OT access paths, prioritise patching of internet-facing systems, and check phishing defences."
+    },
+    "nl": {
+     "heading": "CISA en FBI: SafePay-ransomware trof meer dan 600 organisaties in kritieke infrastructuur",
+     "summary": "CISA meldt dat de ransomwarebende SafePay sinds 2024 wereldwijd bij meer dan 600 organisaties in kritieke infrastructuur is binnengedrongen. De FBI en cyberdiensten uit het VK en Duitsland noemen SafePay een van de meest actieve groepen, die toegang krijgt via wachtwoord-gokken, misbruik van kwetsbaarheden en phishing.",
+     "takeaway": "Controleer wachtwoordbeleid en MFA op remote toegang en IT-naar-OT-paden, geef patches voor internetgerichte systemen voorrang en toets de phishingbescherming."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "4cce5b0679d6",
+     "name": "The Record",
+     "url": "https://therecord.media/eu-cyber-law-wont-force-fixes-for-fridges-in-french-attack",
+     "title": "EU cyber law won’t force fixes for fridge controllers hit in French attack"
+    },
+    {
+     "id": "eee1e09256d5",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/advantech-and-dekra-target-industrial-cybersecurity-gaps-as-eu-cyber-resilience-act-implementation-advances/",
+     "title": "Advantech and DEKRA target industrial cybersecurity gaps as EU Cyber Resilience Act implementation advances"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: EU Cyber Resilience Act won't force fixes for fridge controllers hit in French attack",
+     "summary": "Following the recent attack on supermarket refrigeration systems, The Record reports that the EU Cyber Resilience Act, in effect since last month, only requires vulnerability fixes and free updates during a product's support period, which manufacturers define. Separately, Advantech and DEKRA are targeting industrial cybersecurity gaps as CRA implementation advances.",
+     "takeaway": "Ask suppliers for the declared support period and update commitments of installed devices, and do not rely on the CRA alone for legacy equipment."
+    },
+    "nl": {
+     "heading": "Update: Europese Cyber Resilience Act dwingt geen fixes af voor koelregelaars uit Franse aanval",
+     "summary": "Naar aanleiding van de recente aanval op koelsystemen van supermarkten meldt The Record dat de Europese Cyber Resilience Act, sinds vorige maand van kracht, alleen oplossingen voor kwetsbaarheden en gratis updates vereist gedurende de ondersteuningsperiode van een product, die de fabrikant zelf bepaalt. Daarnaast richten Advantech en DEKRA zich op gaten in industriële cybersecurity nu de CRA-implementatie vordert.",
+     "takeaway": "Vraag leveranciers naar de aangegeven ondersteuningsperiode en updatetoezeggingen van geïnstalleerde apparaten en vertrouw voor oudere apparatuur niet alleen op de CRA."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "d8e0edbb10f6",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-090/",
+     "title": "Multiple OpenSSL vulnerabilities affect Festo AX OS in CEPE"
+    },
+    {
+     "id": "4a1a64de03ec",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-100/",
+     "title": "Pilz: Vulnerabilities in 'piControl' kernel module for Industrial PC IndustrialPI"
+    },
+    {
+     "id": "cba9b30ee73d",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-101/",
+     "title": "Pilz: Vulnerabilities in 'PiCtory' and 'RevPiPyLoad' for Industrial PC IndustrialPI"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2025-15467",
+    "CVE-2025-69419"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Festo AX OS in CEPE and Pilz IndustrialPI",
+     "summary": "CERT@VDE published advisories on Festo AX OS in CEPE (based on PLCnext), affected by OpenSSL vulnerabilities CVE-2025-15467 and CVE-2025-69419. Pilz reported flaws in the IndustrialPI piControl kernel module (before 2.8.0-1; memory corruption, denial of service), PiCtory (before 2.17.0; CSRF) and RevPiPyLoad (before 0.11.1; arbitrary file access or deletion). No exploitation is mentioned.",
+     "takeaway": "Check whether you run the affected Festo and Pilz versions and plan updates, limiting network access to these devices until then."
+    },
+    "nl": {
+     "heading": "Overige advisories: Festo AX OS in CEPE en Pilz IndustrialPI",
+     "summary": "CERT@VDE publiceerde advisories over Festo AX OS in CEPE (gebaseerd op PLCnext), getroffen door de OpenSSL-kwetsbaarheden CVE-2025-15467 en CVE-2025-69419. Pilz meldde kwetsbaarheden in de IndustrialPI-kernelmodule piControl (voor 2.8.0-1; geheugencorruptie, denial of service), PiCtory (voor 2.17.0; CSRF) en RevPiPyLoad (voor 0.11.1; willekeurige bestandstoegang of verwijdering). Van misbruik is geen sprake in de berichten.",
+     "takeaway": "Controleer of u de getroffen Festo- en Pilz-versies gebruikt, plan updates en beperk tot die tijd de netwerktoegang tot deze apparaten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "e7aac3739b67",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ai/booz-allen-warns-frontier-ai-models-can-exploit-ot-pathways-manipulate-controllers-and-move-robotic-equipment/",
+     "title": "Booz Allen warns frontier AI models can exploit OT pathways, manipulate controllers and move robotic equipment"
+    },
+    {
+     "id": "720fecb59bd9",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/cisa/cisa-nsa-nist-urge-safeguards-continuous-monitoring-incident-reporting-for-autonomous-super-intelligence-systems/",
+     "title": "CISA, NSA, NIST urge safeguards, continuous monitoring, incident reporting for autonomous super intelligence systems"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "AI and OT: Booz Allen tests and CISA/NSA/NIST guidance on autonomous AI",
+     "summary": "Booz Allen warns that frontier AI models, given limited human direction, achieved all eight objectives in controlled tests of an industrial environment, including exploiting OT pathways and manipulating controllers. Separately, CISA, NSA and NIST urge safeguards, continuous monitoring and incident reporting for autonomous super intelligence systems.",
+     "takeaway": "Treat AI-assisted attacks as a realistic scenario: verify segmentation and monitoring of controller access, and review any AI tooling connected to OT."
+    },
+    "nl": {
+     "heading": "AI en OT: Booz Allen-tests en CISA/NSA/NIST-richtlijnen voor autonome AI",
+     "summary": "Booz Allen waarschuwt dat frontier-AI-modellen met beperkte menselijke aansturing in gecontroleerde tests van een industriële omgeving alle acht doelen haalden, waaronder misbruik van OT-paden en het manipuleren van controllers. Daarnaast roepen CISA, NSA en NIST op tot waarborgen, continue monitoring en incidentmelding voor autonome superintelligente systemen.",
+     "takeaway": "Beschouw AI-ondersteunde aanvallen als realistisch scenario: controleer segmentatie en monitoring van toegang tot controllers en beoordeel AI-tooling die aan OT gekoppeld is."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "db97361e633f",
+     "name": "Dragos",
+     "url": "https://www.dragos.com/resources/press-release/community-cyber-resilience-foundation-launch",
+     "title": "Accenture, Dragos, and SANS Institute Launch Foundation to Strengthen Cyber Defenses for Under-Resourced U.S. Utilities"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 1,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Accenture, Dragos and SANS launch foundation for under-resourced US utilities",
+     "summary": "Accenture, Dragos and SANS Institute launched a foundation with approximately $10 million in initial funding and services. It will provide technology, deployment services and training at no cost to up to 500 under-resourced utilities.",
+     "takeaway": "Smaller utilities should look into eligibility for this support to close basic OT monitoring and training gaps."
+    },
+    "nl": {
+     "heading": "Accenture, Dragos en SANS starten stichting voor kleine Amerikaanse nutsbedrijven",
+     "summary": "Accenture, Dragos en SANS Institute lanceerden een stichting met circa $10 miljoen aan startfinanciering en diensten. Die levert technologie, implementatiediensten en training om niet aan maximaal 500 utilities met beperkte middelen.",
+     "takeaway": "Kleinere nutsbedrijven kunnen nagaan of zij in aanmerking komen voor deze ondersteuning om basale gaten in OT-monitoring en training te dichten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "41525c1156ae",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+     "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "APT28 breaches NATO naval shipbuilder with new reflective loader",
+     "summary": "Symantec attributes attacks on two NATO member states to APT28 (Fancy Bear), tracked as Swallowtail, including a breach of a naval shipbuilder. The activity involved the HOOKEDGE backdoor and a new reflective loader.",
+     "takeaway": "Defence-sector and manufacturing suppliers should check their logs and threat intelligence feeds for the reported tooling and tighten monitoring of IT networks adjacent to OT."
+    },
+    "nl": {
+     "heading": "APT28 dringt binnen bij NAVO-scheepsbouwer met nieuwe reflective loader",
+     "summary": "Symantec schrijft aanvallen op twee NAVO-lidstaten toe aan APT28 (Fancy Bear), gevolgd als Swallowtail, waaronder een inbraak bij een marinescheepsbouwer. Daarbij werden de HOOKEDGE-backdoor en een nieuwe reflective loader gebruikt.",
+     "takeaway": "Leveranciers in defensie en maakindustrie doen er goed aan logs en threat intelligence te toetsen op de gemelde tooling en de monitoring van IT-netwerken naast OT aan te scherpen."
+    }
+   }
+  }
+ ]
+}
