@@ -68,9 +68,8 @@ In GitHub, go to **Settings → Secrets and variables → Actions**.
 | Secret | `ANTHROPIC_API_KEY` | Anthropic API key |
 | Secret | `X_BEARER_TOKEN` | X API v2 bearer token (optional) |
 | Secret | `FTP_HOST` | e.g. `ftp.yourhost.nl` (leave unset to skip deploy) |
-| Secret | `FTP_USER` | FTP/SFTP user |
-| Secret | `FTP_PASSWORD` | FTP/SFTP password |
-| Variable | `FTP_PROTOCOL` | `ftp` (default, uses TLS when offered) or `sftp` |
+| Secret | `FTP_USER` | FTP user (preferably a dedicated account limited to the two site folders) |
+| Secret | `FTP_PASSWORD` | FTP password |
 | Variable | `FTP_DIR_EN` | remote folder for otasec.com, e.g. `/domains/otasec.com/public_html` |
 | Variable | `FTP_DIR_NL` | remote folder for otasec.nl, e.g. `/domains/otasec.nl/public_html` |
 | Variable | `FTP_DELETE` | `true` to remove remote files that aren't in the build (off by default) |
@@ -78,6 +77,11 @@ In GitHub, go to **Settings → Secrets and variables → Actions**.
 The two domains need **separate document roots**. If both currently point to the
 same folder (as the old PHP site did), create a separate root for one of them
 in your hosting panel first. `otasec.eu` can point at the English root.
+
+Deploys use explicit FTPS only (TLS required for login and data). The host's
+certificate is pinned by fingerprint in `pipeline.yml`; when the host renews
+it, the deploy fails with "certificate is NOT trusted" until the fingerprint is
+updated.
 
 ### 2. First run
 
@@ -109,10 +113,29 @@ pip install cairosvg pillow      # only needed for this step, not for the pipeli
 python tools/brand_assets.py
 ```
 
+## Security
+
+- **Least privilege in CI.** The `build` job runs everything that touches
+  untrusted input (feeds, X, CSAF, Claude output) with a read-only token and
+  without FTP credentials. The `publish` job runs no project code: it commits
+  `data/` and uploads `dist/`.
+- **Supply chain.** Actions are pinned to commit SHAs; Python packages are
+  installed from the hash-locked `requirements.txt` (generated from
+  `requirements.in` with `pip-compile --generate-hashes --allow-unsafe`).
+  Dependabot proposes updates weekly.
+- **Untrusted content.** Feed and X text is treated as data: it is escaped in
+  HTML and RSS, links must be plain `http(s)` URLs to a DNS host, and Claude's
+  output is stripped of links and length-capped. Every link on the site comes
+  from a fetched item. X posts never supply headline text, and links to
+  forum/community/user-storage subdomains of trusted sites are ignored.
+- **Site.** Strict Content-Security-Policy (no inline scripts), HSTS,
+  `X-Frame-Options: DENY`, no directory listings, dotfiles blocked
+  (`templates/htaccess`).
+
 ## Local development
 
 ```bash
-pip install -r requirements.txt
+pip install --require-hashes -r requirements.txt -r requirements-dev.txt
 cp .env.example .env            # add your keys (optional)
 python -m otasec run            # fetch + classify + briefing if due + build
 python -m otasec build          # rebuild HTML from data/ only

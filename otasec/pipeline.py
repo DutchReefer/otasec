@@ -50,7 +50,7 @@ def ingest(cfg: Config, store: Store) -> list[dict]:
     x_cfg = cfg.sources.get("x", {})
     trusted = xsource.trusted_domains(x_cfg, items)
     before = len(items)
-    items = xsource.prune_untrusted(items, trusted)
+    items = xsource.prune_untrusted(items, trusted, xsource.untrusted_hosts(x_cfg))
     if len(items) < before:
         log.info("X: removed %d stored items from untrusted domains", before - len(items))
     x_items, x_status = xsource.collect(cfg.x_bearer, x_cfg, state, items, trusted)

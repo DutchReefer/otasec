@@ -233,6 +233,11 @@ x:
     - tweakers.net
     - computable.nl
     - fd.nl
+  # Hosts under a trusted domain that must NOT introduce items (anyone can
+  # publish there). Forum, community, Q&A and user-storage subdomains
+  # (community.*, forum.*, answers.*, storage.*, ...) are already excluded in
+  # code; list further ones here, e.g. a vendor's user blog platform.
+  untrusted_hosts: []
   # Readable names for X-sourced items from sites without their own feed here.
   display_names:
     securityweek.com: SecurityWeek

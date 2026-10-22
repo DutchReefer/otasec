@@ -1,7 +1,16 @@
 name: OTASEC pipeline
 
 # Hourly: fetch sources -> classify with Claude -> (once each morning) write the
-# daily briefing -> build both sites -> commit data/ -> deploy over FTP(S)/SFTP.
+# daily briefing -> build both sites -> commit data/ -> deploy over explicit FTPS.
+#
+# Security layout (least privilege):
+#   build   - runs all code that touches untrusted input (feeds, X, CSAF, Claude
+#             output) with a READ-ONLY token and no FTP credentials. Its only
+#             output is an artifact with data/ and dist/.
+#   publish - runs no project code. It commits data/ (needs contents: write) and
+#             uploads dist/ (needs the FTP secrets).
+# Actions are pinned to full commit SHAs (Dependabot keeps them current) and
+# Python packages are installed from a hash-locked requirements.txt.
 on:
   schedule:
     - cron: "17 * * * *"
@@ -12,43 +21,88 @@ on:
         type: boolean
         default: false
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: otasec-pipeline
   cancel-in-progress: false
 
 jobs:
-  run:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 25
-    env:
-      FTP_HOST: ${{ secrets.FTP_HOST }}
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
-      - uses: actions/setup-python@v7
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Install
-        run: pip install -r requirements.txt
+        run: pip install --require-hashes -r requirements.txt
 
       - name: Run pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Read-only in this job; used only for GitHub API calls (CISA CSAF lookup).
+          GITHUB_TOKEN: ${{ github.token }}
           FORCE: ${{ inputs.force_briefing && '--force-briefing' || '' }}
         run: python -m otasec run $FORCE
 
+      - name: Keep data and built site as artifact
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: site
+          path: |
+            data
+            dist
+          retention-days: 3
+          include-hidden-files: true
+          if-no-files-found: error
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    env:
+      FTP_HOST: ${{ secrets.FTP_HOST }}
+      SITE: ${{ github.workspace }}/../site
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
+        with:
+          name: site
+          path: ${{ github.workspace }}/../site
+
+      - name: Check artifact
+        run: |
+          set -euo pipefail
+          for d in data dist/en dist/nl; do
+            test -d "$SITE/$d" || { echo "artifact is missing $d"; exit 1; }
+          done
+          # Only regular files and folders may be committed or uploaded.
+          if find "$SITE" ! -type f ! -type d | grep -q .; then
+            echo "artifact contains links or special files"; exit 1
+          fi
+
       - name: Commit data
         run: |
+          set -euo pipefail
+          rm -rf data
+          cp -R "$SITE/data" data
           git config user.name "otasec-bot"
           git config user.email "otasec-bot@users.noreply.github.com"
-          git add data
+          git add -A data
           if git diff --cached --quiet; then
             echo "No data changes."
           else
@@ -62,30 +116,28 @@ jobs:
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          FTP_PROTOCOL: ${{ vars.FTP_PROTOCOL || 'ftp' }}
           FTP_DIR_EN: ${{ vars.FTP_DIR_EN }}
           FTP_DIR_NL: ${{ vars.FTP_DIR_NL }}
           FTP_DELETE: ${{ vars.FTP_DELETE || 'false' }}
         run: |
           set -euo pipefail
+          for v in FTP_DIR_EN FTP_DIR_NL; do
+            [[ "${!v}" =~ ^/?[A-Za-z0-9._/-]+$ ]] || { echo "Set repo variable $v to a plain path"; exit 1; }
+          done
+          [[ "$FTP_HOST" =~ ^[A-Za-z0-9.-]+$ ]] || { echo "FTP_HOST must be a host name"; exit 1; }
           sudo apt-get -qq update && sudo apt-get -qq install -y lftp >/dev/null
-          test -n "$FTP_DIR_EN" && test -n "$FTP_DIR_NL" || { echo "Set repo variables FTP_DIR_EN and FTP_DIR_NL"; exit 1; }
           DEL=""; [ "$FTP_DELETE" = "true" ] && DEL="--delete"
-          lftp --env-password -u "$FTP_USER" "$FTP_PROTOCOL://$FTP_HOST" -e "
-            set ftp:ssl-force yes; 
+          # Explicit FTPS only: TLS for login and data, and GetHost's self-signed
+          # certificate is pinned by its SHA-1 fingerprint (any other certificate
+          # fails with "certificate is NOT trusted"; update the fingerprint when
+          # GetHost renews it).
+          lftp --env-password -u "$FTP_USER" "ftp://$FTP_HOST" -e "
+            set ftp:ssl-force yes;
             set ftp:ssl-protect-data yes;
+            set ftp:ssl-protect-list yes;
             set ssl:verify-certificate/AB:53:C4:34:26:DE:BD:C8:7F:F1:B9:A3:27:0E:28:6B:E2:20:77:35 no;
             set net:max-retries 3;
             set net:timeout 30;
-            set sftp:auto-confirm yes;
-            mirror -R $DEL --parallel=4 --exclude-glob .well-known/ --exclude-glob cgi-bin/ dist/en '$FTP_DIR_EN';
-            mirror -R $DEL --parallel=4 --exclude-glob .well-known/ --exclude-glob cgi-bin/ dist/nl '$FTP_DIR_NL';
+            mirror -R $DEL --parallel=4 --no-symlinks --exclude-glob .well-known/ --exclude-glob cgi-bin/ '$SITE/dist/en' '$FTP_DIR_EN';
+            mirror -R $DEL --parallel=4 --no-symlinks --exclude-glob .well-known/ --exclude-glob cgi-bin/ '$SITE/dist/nl' '$FTP_DIR_NL';
             bye"
-
-      - name: Keep built site as artifact
-        uses: actions/upload-artifact@v7
-        with:
-          name: site
-          path: dist
-          retention-days: 3
-          include-hidden-files: true

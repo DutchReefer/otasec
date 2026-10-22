@@ -16,7 +16,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from .classify import publishable
 from .config import STATIC_DIR, TEMPLATE_DIR, Config
 from .i18n import STRINGS, fmt_day, fmt_long_date, fmt_short, plural
-from .normalize import safe_url
+from .normalize import safe_url, strip_unsafe_chars
 from .store import Store, parse_iso, utcnow
 
 log = logging.getLogger(__name__)
@@ -144,6 +144,7 @@ def _write(path: Path, content: str) -> None:
 
 
 def _rss(title: str, link: str, desc: str, lang: str, entries: list[dict]) -> str:
+    x = strip_unsafe_chars   # XML 1.0 forbids most control characters
     rss = ET.Element("rss", version="2.0", attrib={"xmlns:atom": "http://www.w3.org/2005/Atom"})
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = title
@@ -152,12 +153,12 @@ def _rss(title: str, link: str, desc: str, lang: str, entries: list[dict]) -> st
     ET.SubElement(ch, "language").text = "nl-NL" if lang == "nl" else "en"
     for e in entries:
         it = ET.SubElement(ch, "item")
-        ET.SubElement(it, "title").text = e["title"]
-        ET.SubElement(it, "link").text = e["link"]
+        ET.SubElement(it, "title").text = x(e["title"])
+        ET.SubElement(it, "link").text = x(e["link"])
         ET.SubElement(it, "guid", isPermaLink="false").text = e["guid"]
         ET.SubElement(it, "pubDate").text = format_datetime(parse_iso(e["date"]) or utcnow())
         if e.get("description"):
-            ET.SubElement(it, "description").text = e["description"]
+            ET.SubElement(it, "description").text = x(e["description"])
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(rss, encoding="unicode")
 
 

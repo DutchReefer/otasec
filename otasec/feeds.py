@@ -30,6 +30,30 @@ BOT_HEADERS = {
 }
 
 
+MAX_FEED_BYTES = 10 * 1024 * 1024   # a feed larger than this is refused (memory guard)
+
+
+class ResponseTooLarge(ValueError):
+    pass
+
+
+def get_limited(client: httpx.Client, url: str, headers: dict | None = None,
+                limit: int = MAX_FEED_BYTES) -> tuple[int, bytes]:
+    """GET with a hard cap on the body size, so a broken or hostile source can't
+    exhaust the runner's memory. Returns (status_code, body)."""
+    with client.stream("GET", url, headers=headers) as resp:
+        declared = resp.headers.get("content-length")
+        if declared and declared.isdigit() and int(declared) > limit:
+            raise ResponseTooLarge(f"response larger than {limit} bytes")
+        chunks, size = [], 0
+        for chunk in resp.iter_bytes():
+            size += len(chunk)
+            if size > limit:
+                raise ResponseTooLarge(f"response larger than {limit} bytes")
+            chunks.append(chunk)
+        return resp.status_code, b"".join(chunks)
+
+
 def _entry_time(entry) -> datetime | None:
     for key in ("published_parsed", "updated_parsed", "created_parsed"):
         t = entry.get(key)
@@ -74,18 +98,18 @@ def parse_feed(content: bytes, feed: dict, now: datetime | None = None) -> list[
 def fetch_one(client: httpx.Client, feed: dict) -> tuple[dict, list[dict], dict]:
     status = {"name": feed["name"], "url": feed["url"], "checked": iso(utcnow())}
     try:
-        resp = client.get(feed["url"])
-        if resp.status_code in (401, 403):
+        code, body = get_limited(client, feed["url"])
+        if code in (401, 403):
             # Some WAFs (Akamai, Cloudflare) reject a browser UA whose TLS
             # fingerprint isn't a browser's; an honest bot UA often passes.
-            resp = client.get(feed["url"], headers=BOT_HEADERS)
-            if resp.status_code < 400:
+            code, body = get_limited(client, feed["url"], headers=BOT_HEADERS)
+            if code < 400:
                 status["ua"] = "bot"
-        status["http"] = resp.status_code
-        if resp.status_code >= 400:
-            status.update(ok=False, error=f"HTTP {resp.status_code}")
+        status["http"] = code
+        if code >= 400:
+            status.update(ok=False, error=f"HTTP {code}")
             return feed, [], status
-        items = parse_feed(resp.content, feed)
+        items = parse_feed(body, feed)
         if not items:
             status.update(ok=False, error="no entries parsed")
         else:

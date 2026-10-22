@@ -9,13 +9,21 @@ Options -Indexes
   Require all denied
 </FilesMatch>
 RedirectMatch 404 ^/(app/|bin/|data/digests\.json)
+# Never serve dotfiles/dot-folders (.git, .env, editor backups), except ACME challenges.
+RedirectMatch 404 /\.(?!well-known/)
 
 <IfModule mod_headers.c>
+  # HTTPS only: the host already redirects http -> https; HSTS makes browsers
+  # skip the plain-HTTP request entirely (no SSL-strip window; browsers ignore
+  # the header on plain HTTP, so it is safe to send always). One year, this
+  # host only (no includeSubDomains, so mail./ftp. subdomains are unaffected).
+  Header always set Strict-Transport-Security "max-age=31536000"
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set X-Frame-Options "DENY"
-  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
-  Header always set Content-Security-Policy "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+  Header always set Content-Security-Policy "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
 </IfModule>
 
 <IfModule mod_rewrite.c>

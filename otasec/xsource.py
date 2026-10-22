@@ -18,13 +18,23 @@ from urllib.parse import urlsplit
 
 import httpx
 
-from .normalize import clean_url, clean_text, extract_cves, item_id
+from .normalize import clean_url, clean_text, extract_cves, item_id, safe_netloc
 from .store import iso, parse_iso, utcnow
 
 log = logging.getLogger(__name__)
 
 SEARCH_URL = "https://api.x.com/2/tweets/search/recent"
 _SKIP_HOSTS = {"x.com", "twitter.com", "t.co", "youtube.com", "youtu.be", "linkedin.com", "lnkd.in"}
+
+# Subdomains of trusted sites where anyone can publish (forums, Q&A, user
+# storage). A link there must not become an OTASEC item just because the parent
+# domain (microsoft.com, cloud.google.com, siemens.com, ...) is trusted.
+# Extend per site with `x.untrusted_hosts` in config/sources.yaml.
+_UGC_LABELS = {
+    "community", "communities", "techcommunity", "forum", "forums", "answers", "discuss",
+    "discussion", "discussions", "groups", "storage", "sites", "social", "support-community",
+    "qna", "feedback", "ideas", "gist", "pages", "users", "user", "members",
+}
 
 
 def _queries(cfg: dict) -> list[dict]:
@@ -84,7 +94,7 @@ def posts_to_signals(payload: dict) -> list[dict]:
 
 
 def _host(url: str) -> str:
-    return urlsplit(url).netloc.lower().removeprefix("www.")
+    return safe_netloc(urlsplit(url).netloc).split(":")[0].removeprefix("www.")
 
 
 def trusted_domains(cfg: dict, items: list[dict]) -> set[str]:
@@ -95,9 +105,26 @@ def trusted_domains(cfg: dict, items: list[dict]) -> set[str]:
     return {d for d in domains if d}
 
 
-def is_trusted(host: str, trusted: set[str]) -> bool:
-    host = host.lower().removeprefix("www.")
-    return any(host == d or host.endswith("." + d) for d in trusted)
+def is_trusted(host: str, trusted: set[str], untrusted: set[str] | frozenset = frozenset()) -> bool:
+    """host is a trusted domain or one of its subdomains, but not a user-content
+    subdomain (community.*, forum.*, storage.*, ...) or a configured untrusted host."""
+    host = safe_netloc(host).split(":")[0].removeprefix("www.")
+    if not host:
+        return False
+    if any(host == u or host.endswith("." + u) for u in untrusted):
+        return False
+    if host in trusted:
+        return True
+    for d in trusted:
+        if host.endswith("." + d):
+            sub_labels = host[: -len(d) - 1].split(".")
+            if not any(lbl in _UGC_LABELS for lbl in sub_labels):
+                return True
+    return False
+
+
+def untrusted_hosts(cfg: dict) -> set[str]:
+    return {h.lower().removeprefix("www.") for h in cfg.get("untrusted_hosts", []) if h}
 
 
 def rename_sources(items: list[dict], display_names: dict | None = None) -> None:
@@ -118,12 +145,15 @@ def rename_sources(items: list[dict], display_names: dict | None = None) -> None
             i["source"] = display[match]
 
 
-def prune_untrusted(items: list[dict], trusted: set[str]) -> list[dict]:
+def prune_untrusted(items: list[dict], trusted: set[str],
+                    untrusted: set[str] | frozenset = frozenset()) -> list[dict]:
     """Remove previously stored X-sourced items whose site isn't trusted (any more)."""
-    return [i for i in items if i.get("source_id") != "x" or is_trusted(_host(i["url"]), trusted)]
+    return [i for i in items
+            if i.get("source_id") != "x" or is_trusted(_host(i["url"]), trusted, untrusted)]
 
 
-def merge_signals(items: list[dict], signals: list[dict], trusted: set[str] | None = None) -> list[dict]:
+def merge_signals(items: list[dict], signals: list[dict], trusted: set[str] | None = None,
+                  untrusted: set[str] | frozenset = frozenset()) -> list[dict]:
     """Raise x_mentions on known items; return new items for unknown links on trusted sites."""
     by_id = {i["id"]: i for i in items}
     # Links to a site we already follow by RSS keep that feed's name.
@@ -139,12 +169,15 @@ def merge_signals(items: list[dict], signals: list[dict], trusted: set[str] | No
             if s["handle"] and s["handle"] not in handles:
                 handles.append(s["handle"])
             continue
-        if trusted is not None and not is_trusted(s["host"], trusted):
+        if trusted is not None and not is_trusted(s["host"], trusted, untrusted):
             continue  # SEO pages, job boards, shops, unknown blogs: signal only
-        title = s["title"] or s["text"]
+        # Title and excerpt come only from the linked page's own card (fetched by
+        # X from the trusted site), never from the post text: anyone can post on X,
+        # so post text must not become an OTASEC headline.
+        title = s["title"]
         if not title:
             continue
-        excerpt = s["description"] or s["text"]
+        excerpt = s["description"]
         new[iid] = {
             "id": iid,
             "url": s["url"],
@@ -167,6 +200,7 @@ def merge_signals(items: list[dict], signals: list[dict], trusted: set[str] | No
 
 def collect(bearer: str, cfg: dict, state: dict, items: list[dict],
             trusted: set[str] | None = None) -> tuple[list[dict], dict]:
+    untrusted = untrusted_hosts(cfg)
     """Run all configured queries within budget. Returns (new_items, status)."""
     status = {"name": "X recent search", "checked": iso(utcnow())}
     if not cfg.get("enabled") or not bearer:
@@ -190,14 +224,14 @@ def collect(bearer: str, cfg: dict, state: dict, items: list[dict],
                 since[q["id"]] = newest
             signals.extend(posts_to_signals(payload))
     except httpx.HTTPStatusError as exc:
-        status.update(ok=False, error=f"HTTP {exc.response.status_code}: {exc.response.text[:160]}")
+        status.update(ok=False, error=f"HTTP {exc.response.status_code}")
         return [], status
     except httpx.HTTPError as exc:
-        status.update(ok=False, error=f"{type(exc).__name__}: {exc}")
+        status.update(ok=False, error=type(exc).__name__)
         return [], status
 
     state["x_last_run"] = iso(utcnow())
-    new_items = merge_signals(items, signals, trusted)
+    new_items = merge_signals(items, signals, trusted, untrusted)
     status.update(ok=True, posts_read=reads, links=len(signals), new_items=len(new_items))
     log.info("X: %d posts read, %d links, %d new items", reads, len(signals), len(new_items))
     return new_items, status

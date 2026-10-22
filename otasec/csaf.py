@@ -10,17 +10,22 @@ files from raw.githubusercontent.com.
 """
 from __future__ import annotations
 
+import json
 import logging
 import os
 import re
 from datetime import date, datetime, timedelta, timezone
+from urllib.parse import urlsplit
 
 import httpx
 
-from .normalize import clean_url, clean_text, item_id
+from .feeds import get_limited
+from .normalize import clean_url, clean_text, item_id, safe_netloc
 from .store import iso, parse_iso, utcnow
 
 log = logging.getLogger(__name__)
+
+MAX_CSAF_BYTES = 5 * 1024 * 1024
 
 CONTENTS = "https://api.github.com/repos/{repo}/contents/{parent}?ref={branch}"
 TREE = "https://api.github.com/repos/{repo}/git/trees/{sha}"
@@ -44,12 +49,17 @@ def recent_names(names: list[str], since: date) -> list[str]:
     return [n for d, n in sorted((p for p in picked if p[0] and p[0] >= since), reverse=True)]
 
 
+def _is_cisa(url: str) -> bool:
+    host = safe_netloc(urlsplit(url or "").netloc).split(":")[0]
+    return host == "cisa.gov" or host.endswith(".cisa.gov")
+
+
 def to_item(doc: dict, feed: dict, now: datetime | None = None) -> dict | None:
     d = doc.get("document", {})
     tracking = d.get("tracking", {})
     adv_id = tracking.get("id", "")
     web = next((r["url"] for r in d.get("references", [])
-                if r.get("category") == "self" and "cisa.gov" in r.get("url", "")), "")
+                if r.get("category") == "self" and _is_cisa(r.get("url", ""))), "")
     url = clean_url(web)
     if not url or not d.get("title"):
         return None
@@ -58,7 +68,10 @@ def to_item(doc: dict, feed: dict, now: datetime | None = None) -> dict | None:
                     if n.get("title") == "Critical infrastructure sectors"), "")
     excerpt = clean_text(" ".join(x for x in (notes.get("summary", ""),
                                               f"Sectors: {sectors}." if sectors else "") if x), 600)
-    published = parse_iso(tracking.get("initial_release_date")) or now or utcnow()
+    now = now or utcnow()
+    published = parse_iso(tracking.get("initial_release_date")) or now
+    if published > now:
+        published = now   # never let a future date pin an item to the top
     cves = []
     for v in doc.get("vulnerabilities", []):
         c = (v.get("cve") or "").upper()
@@ -75,7 +88,7 @@ def to_item(doc: dict, feed: dict, now: datetime | None = None) -> dict | None:
         "kind": "advisory",
         "focus": feed.get("focus", "ot"),
         "published": iso(published),
-        "fetched": iso(now or utcnow()),
+        "fetched": iso(now),
         "cves": cves[:12],
         "x_mentions": 0,
         "cls": None,
@@ -114,10 +127,11 @@ def fetch(client: httpx.Client, feed: dict) -> tuple[list[dict], dict]:
                 names.append((path, n))
         items = []
         for path, name in names[:limit]:
-            r = client.get(RAW.format(repo=repo, branch=branch, path=path, name=name))
-            if r.status_code != 200:
+            code, body = get_limited(client, RAW.format(repo=repo, branch=branch, path=path, name=name),
+                                     limit=MAX_CSAF_BYTES)
+            if code != 200:
                 continue
-            it = to_item(r.json(), feed)
+            it = to_item(json.loads(body), feed)
             if it:
                 items.append(it)
     except (httpx.HTTPError, ValueError) as exc:
