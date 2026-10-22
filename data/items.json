@@ -1,5 +1,89 @@
 [
  {
+  "id": "54c5b95c768d",
+  "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+  "title": "Railway warns devs to rotate secrets after potential breach",
+  "excerpt": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T21:25:31Z",
+  "fetched": "2026-10-22T23:25:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cloud platform Railway warned users to rotate secrets after suspicious activity affecting systems that store customer environment variables.",
+    "nl": "Cloudplatform Railway waarschuwde gebruikers om geheimen te roteren na verdachte activiteit op systemen die omgevingsvariabelen van klanten opslaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T23:25:32Z"
+  }
+ },
+ {
+  "id": "0589859b680b",
+  "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
+  "title": "Toronto crime tips org freezes operations after details of data breach come to light",
+  "excerpt": "Late Wednesday night the Toronto chapter of Crime Stoppers broke ranks with the national association, revealing a timeline showing what it knew and when along with an announcement that it will pause operations.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T20:52:00Z",
+  "fetched": "2026-10-22T23:25:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Toronto chapter of Crime Stoppers paused operations after a data breach came to light and disclosed its timeline.",
+    "nl": "Het Torontose cluster van Crime Stoppers pauzeerde de activiteiten nadat een datalek bekend werd en publiceerde een tijdlijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T23:25:32Z"
+  }
+ },
+ {
+  "id": "fc291b78824a",
+  "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+  "title": "Capcom confirms data breach affecting 11.7 million accounts",
+  "excerpt": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T20:22:45Z",
+  "fetched": "2026-10-22T23:25:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Capcom confirmed hackers breached its CAPCOM ID membership service, exposing over 11.7 million customer email addresses.",
+    "nl": "Capcom bevestigde dat hackers zijn ledenservice CAPCOM ID binnendrongen, waarbij meer dan 11,7 miljoen e-mailadressen van klanten zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T23:25:32Z"
+  }
+ },
+ {
   "id": "b57b1f6a1427",
   "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
   "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
