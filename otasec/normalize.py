@@ -40,6 +40,22 @@ def clean_text(raw: str | None, limit: int = 600) -> str:
     return truncate(text, limit)
 
 
+_EM_DASH_RE = re.compile(r"\s*\u2014\s*")
+_EN_DASH_RANGE_RE = re.compile(r"(?<=\d)\s*\u2013\s*(?=\d)")
+_EN_DASH_RE = re.compile(r"\s+\u2013\s+")
+
+
+def no_em_dash(text: str) -> str:
+    """House style: no em dashes. A spaced or unspaced em dash becomes a comma,
+    an en dash in a number range a plain hyphen, a spaced en dash a comma."""
+    if not text:
+        return text
+    text = _EM_DASH_RE.sub(", ", text)
+    text = _EN_DASH_RANGE_RE.sub("-", text)
+    text = _EN_DASH_RE.sub(", ", text)
+    return text.replace(", ,", ",").replace(",,", ",")
+
+
 def scrub_model_text(raw: str | None, limit: int) -> str:
     """Text written by Claude, before it is stored and published.
 
@@ -49,6 +65,7 @@ def scrub_model_text(raw: str | None, limit: int) -> str:
     removed, unsafe characters are stripped and the length is capped.
     """
     text = strip_unsafe_chars(raw or "")
+    text = no_em_dash(text)
     text = _LINK_RE.sub("", text)
     text = _WS_RE.sub(" ", text).strip()
     return truncate(text, limit)

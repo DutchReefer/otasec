@@ -1,5 +1,5 @@
 // OTASEC live feed: client-side filtering over /data/feed.json.
-// Progressive enhancement — the server-rendered list works without JS.
+// Progressive enhancement: the server-rendered list works without JS.
 (function () {
   "use strict";
   var PAGE = 40;

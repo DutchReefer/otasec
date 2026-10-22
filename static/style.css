@@ -1,4 +1,4 @@
-/* OTASEC — OT Asset Security: layout and components */
+/* OTASEC | OT Asset Security: layout and components */
 /* Colour tokens live in theme.css (loaded first). */
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -100,7 +100,20 @@ main.wrap { padding: 32px 20px 56px; }
 .item__summary { margin: 0 0 8px; color: var(--ink-2); font-size: .94rem; max-width: 75ch; }
 .tags { display: flex; flex-wrap: wrap; gap: 5px; list-style: none; margin: 0; padding: 0; }
 .tag { font-size: .74rem; line-height: 1; padding: 4px 7px; border-radius: 5px; background: var(--line-2); color: var(--ink-2); white-space: nowrap; }
-.tag--cat { font-weight: 600; background: transparent; border: 1px solid var(--line); color: var(--ink-2); padding: 3px 6px; }
+.tag--cat { font-weight: 600; padding: 3px 6px; border: 1px solid var(--line); background: transparent; color: var(--ink-2); }
+/* TLP-style category colours: red = incident/threat, amber = advisory (act/patch),
+   green = guidance/research, clear = industry, blue = regulation. */
+.tag--incident, .tag--threat { background: var(--tlp-red-bg); color: var(--tlp-red-fg); border-color: var(--tlp-red-bd); }
+.tag--advisory { background: var(--tlp-amber-bg); color: var(--tlp-amber-fg); border-color: var(--tlp-amber-bd); }
+.tag--guidance, .tag--research { background: var(--tlp-green-bg); color: var(--tlp-green-fg); border-color: var(--tlp-green-bd); }
+.tag--industry { background: var(--tlp-clear-bg); color: var(--tlp-clear-fg); border-color: var(--tlp-clear-bd); }
+.tag--regulation { background: var(--tlp-blue-bg); color: var(--tlp-blue-fg); border-color: var(--tlp-blue-bd); }
+/* matching dot on the filter chips */
+.chip[data-cat]:not([data-cat=""])::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; border: 1px solid var(--tlp-clear-bd); background: var(--tlp-clear-bg); }
+.chip--incident::before, .chip--threat::before { background: var(--tlp-red-fg) !important; border-color: var(--tlp-red-fg) !important; }
+.chip--advisory::before { background: var(--tlp-amber-bd) !important; border-color: var(--tlp-amber-fg) !important; }
+.chip--guidance::before, .chip--research::before { background: var(--tlp-green-fg) !important; border-color: var(--tlp-green-fg) !important; }
+.chip--regulation::before { background: var(--tlp-blue-fg) !important; border-color: var(--tlp-blue-fg) !important; }
 .tag--cve { font-family: var(--mono); }
 .tag--vendor { font-weight: 600; }
 .tag--x { background: transparent; color: var(--muted); padding-left: 0; }

@@ -17,7 +17,7 @@ def _seed(store):
     store.save_items(items, 60)
     store.save_briefing({
         "date": utcnow().date().isoformat(), "published": iso(utcnow()), "model": "m", "item_count": 2,
-        "i18n": {"en": {"title": "Daily <b>title</b>", "intro": "Intro"}, "nl": {"title": "Dagtitel", "intro": "Inleiding"}},
+        "i18n": {"en": {"title": "Daily <b>title</b>", "intro": "Intro <b>bold</b> \u2014 aside"}, "nl": {"title": "Dagtitel", "intro": "Inleiding"}},
         "stories": [{"sources": [{"id": "id1", "name": "Source 1", "url": "https://example.com/a/1", "title": "x"},
                                  {"id": "id2", "name": "Evil", "url": "javascript:alert(1)", "title": "y"}],
                      "source_count": 2, "x_mentions": 0, "cves": [],
@@ -49,7 +49,11 @@ def test_build_both_languages(cfg, store):
     en_home = (cfg.dist_dir / "en" / "index.html").read_text()
     nl_home = (cfg.dist_dir / "nl" / "index.html").read_text()
     assert "EN summary." in en_home and "NL samenvatting." in nl_home
-    assert "Daily &lt;b&gt;title&lt;/b&gt;" in en_home and "Dagtitel" in nl_home
+    today = utcnow().strftime("%d-%m-%Y")
+    assert f"OTASEC Daily Briefing | {today}" in en_home and f"OTASEC Dagelijkse Briefing | {today}" in nl_home
+    assert "Daily &lt;b&gt;title&lt;/b&gt;" not in en_home           # stored model title is ignored
+    assert "Intro &lt;b&gt;bold&lt;/b&gt;, aside" in en_home           # escaped, em dash replaced
+    assert "\u2014" not in en_home and "\u2014" not in nl_home
     briefing_page = next((cfg.dist_dir / "nl" / "briefing").glob("*/index.html")).read_text()
     assert "Patch nu" in briefing_page and "javascript:" not in briefing_page
 

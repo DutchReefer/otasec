@@ -1,5 +1,5 @@
 // OTASEC light/dark toggle. Loaded in <head> (not deferred) so the stored choice
-// is applied before first paint — no white flash. A separate file because the
+// is applied before first paint, so there is no white flash. A separate file because the
 // Content-Security-Policy does not allow inline scripts.
 (function () {
   "use strict";

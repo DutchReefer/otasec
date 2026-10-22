@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}{{ site.site_name }} — {{ t.tagline }}{% endblock %}</title>
+<title>{% block title %}{{ site.site_name }} | {{ t.tagline }}{% endblock %}</title>
 <meta name="description" content="{% block description %}{{ t.tagline }}{% endblock %}">
 <link rel="canonical" href="{{ base_url }}{{ path }}">
 {% for l, u in others.items() %}
@@ -28,7 +28,7 @@
 <meta property="og:image" content="{{ base_url }}/assets/brand/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="OTASEC – OT Asset Security">
+<meta property="og:image:alt" content="OTASEC | OT Asset Security">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0b3c49">
 </head>
@@ -37,7 +37,7 @@
 <header class="masthead">
   <div class="wrap masthead__inner">
     <a class="brand" href="/">
-      <img class="brand__logo" src="/assets/brand/otasec-wordmark-reverse.svg?v={{ v }}" alt="{{ site.site_name }} – {{ site.expansion }}" width="199" height="44">
+      <img class="brand__logo" src="/assets/brand/otasec-wordmark-reverse.svg?v={{ v }}" alt="{{ site.site_name }} | {{ site.expansion }}" width="199" height="44">
     </a>
     <nav class="nav" aria-label="Main">
       <a href="/" {% if path == '/' %}aria-current="page"{% endif %}>{{ t.nav_home }}</a>
@@ -62,7 +62,7 @@
 </main>
 <footer class="footer">
   <div class="wrap footer__inner">
-    <img class="footer__logo" src="/assets/brand/otasec-wordmark-reverse.svg?v={{ v }}" alt="{{ site.site_name }} – {{ site.expansion }}" width="235" height="52" loading="lazy">
+    <img class="footer__logo" src="/assets/brand/otasec-wordmark-reverse.svg?v={{ v }}" alt="{{ site.site_name }} | {{ site.expansion }}" width="235" height="52" loading="lazy">
     <p class="footer__note">{{ t.footer_note }}</p>
     <p class="footer__links">
       <a href="/rss.xml">{{ t.rss_briefings }}</a>

@@ -1,4 +1,4 @@
-/* OTASEC theme tokens — HMI-style (ISA-101 thinking): neutral surfaces, colour
+/* OTASEC theme tokens, HMI-style (ISA-101 thinking): neutral surfaces, colour
    only where it means something. Brand colours live in the chrome only:
    petrol header/footer, the logo, and teal links. Safety orange appears in the
    logo and nowhere else, so it can never be mistaken for a "High" severity.
@@ -31,6 +31,14 @@
   --sev-medium-bg: #f4eec6;   --sev-medium-fg: #6b5a00;
   --sev-info-bg: #e6e8e6;     --sev-info-fg: #4a5254;
 
+
+  /* category labels, TLP traffic-light colours (+ blue for regulation) */
+  --tlp-red-bg: #fde2e0;   --tlp-red-fg: #9b1c1c;   --tlp-red-bd: #f4b4ae;
+  --tlp-amber-bg: #fff1c2; --tlp-amber-fg: #7a5200; --tlp-amber-bd: #f2d27a;
+  --tlp-green-bg: #dff5d8; --tlp-green-fg: #24641a; --tlp-green-bd: #a8dd98;
+  --tlp-clear-bg: #ffffff; --tlp-clear-fg: #3a4649; --tlp-clear-bd: #c9c3b7;
+  --tlp-blue-bg: #e0ecfa;  --tlp-blue-fg: #1d4e89;  --tlp-blue-bd: #a9c6ec;
+
   color-scheme: light;
 }
 
@@ -49,6 +57,12 @@
   --sev-high-bg: #45300f;     --sev-high-fg: #f3c988;
   --sev-medium-bg: #3c3610;   --sev-medium-fg: #e8da8a;
   --sev-info-bg: #263235;     --sev-info-fg: #b8c2c3;
+
+  --tlp-red-bg: #4a1d1b;   --tlp-red-fg: #f7b7b1;   --tlp-red-bd: #7a2e2a;
+  --tlp-amber-bg: #46370c; --tlp-amber-fg: #f7d47a; --tlp-amber-bd: #7a5f14;
+  --tlp-green-bg: #1c3a17; --tlp-green-fg: #a9e39a; --tlp-green-bd: #2f6a25;
+  --tlp-clear-bg: transparent; --tlp-clear-fg: #f2f4f3; --tlp-clear-bd: #8a9a9c;
+  --tlp-blue-bg: #16304f;  --tlp-blue-fg: #a9c8ee;  --tlp-blue-bd: #2a4e7a;
   color-scheme: dark;
 }
 
@@ -68,6 +82,12 @@
     --sev-high-bg: #45300f;     --sev-high-fg: #f3c988;
     --sev-medium-bg: #3c3610;   --sev-medium-fg: #e8da8a;
     --sev-info-bg: #263235;     --sev-info-fg: #b8c2c3;
+
+    --tlp-red-bg: #4a1d1b;   --tlp-red-fg: #f7b7b1;   --tlp-red-bd: #7a2e2a;
+    --tlp-amber-bg: #46370c; --tlp-amber-fg: #f7d47a; --tlp-amber-bd: #7a5f14;
+    --tlp-green-bg: #1c3a17; --tlp-green-fg: #a9e39a; --tlp-green-bd: #2f6a25;
+    --tlp-clear-bg: transparent; --tlp-clear-fg: #f2f4f3; --tlp-clear-bd: #8a9a9c;
+    --tlp-blue-bg: #16304f;  --tlp-blue-fg: #a9c8ee;  --tlp-blue-bd: #2a4e7a;
     color-scheme: dark;
   }
 }

@@ -16,7 +16,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from .classify import publishable
 from .config import STATIC_DIR, TEMPLATE_DIR, Config
 from .i18n import STRINGS, fmt_day, fmt_long_date, fmt_short, plural
-from .normalize import safe_url, strip_unsafe_chars
+from .normalize import no_em_dash, safe_url, strip_unsafe_chars
 from .store import Store, parse_iso, utcnow
 
 log = logging.getLogger(__name__)
@@ -40,16 +40,20 @@ def _asset_version() -> str:
     return h.hexdigest()[:10]
 
 
-def view_item(it: dict, lang: str, tz: ZoneInfo) -> dict:
+def view_item(it: dict, lang: str, tz: ZoneInfo, show_x: bool = True) -> dict:
     cls = it.get("cls") or {}
     published = (parse_iso(it.get("published")) or utcnow()).astimezone(tz)
-    summary = (cls.get("summary") or {}).get(lang) or ""
+    summary = no_em_dash((cls.get("summary") or {}).get(lang) or "")
     if not summary and it.get("lang") == lang:
         summary = it.get("excerpt", "")
+    # otasec.com shows Dutch-source articles with their English title (translate_titles).
+    title = it["title"]
+    if lang == "en" and it.get("lang", "en") != "en" and it.get("title_en"):
+        title = it["title_en"]
     return {
         "id": it["id"],
         "url": safe_url(it["url"]),
-        "title": it["title"],
+        "title": title,
         "source": it["source"],
         "source_id": it.get("source_id", ""),
         "published": it.get("published"),
@@ -63,7 +67,7 @@ def view_item(it: dict, lang: str, tz: ZoneInfo) -> dict:
         "vendors": cls.get("vendors", []),
         "cves": it.get("cves", [])[:6],
         "score": cls.get("score", 0),
-        "x": it.get("x_mentions", 0),
+        "x": it.get("x_mentions", 0) if show_x else 0,
         "lang": it.get("lang", "en"),
     }
 
@@ -109,17 +113,17 @@ def dedupe_sources(sources: list[dict]) -> list[dict]:
     return list(out.values())
 
 
-def view_briefing(b: dict, lang: str, tz: ZoneInfo) -> dict:
+def view_briefing(b: dict, lang: str, tz: ZoneInfo, show_x: bool = True) -> dict:
     loc = b["i18n"].get(lang) or b["i18n"].get("en", {})
     date = parse_iso(b["date"] + "T12:00:00+00:00")
     stories = []
     for s in b.get("stories", []):
         sl = s["i18n"].get(lang) or s["i18n"].get("en", {})
         stories.append({
-            **sl,
+            **{k: no_em_dash(v) if isinstance(v, str) else v for k, v in sl.items()},
             "sources": dedupe_sources([{**x, "url": safe_url(x["url"])} for x in s["sources"] if safe_url(x["url"])]),
             "source_count": s.get("source_count", len(s["sources"])),
-            "x": s.get("x_mentions", 0),
+            "x": s.get("x_mentions", 0) if show_x else 0,
             "cves": s.get("cves", []),
         })
     quiet = bool(b.get("quiet"))
@@ -131,8 +135,9 @@ def view_briefing(b: dict, lang: str, tz: ZoneInfo) -> dict:
         "date": b["date"],
         "date_label": fmt_long_date(date, lang),
         "published": b.get("published"),
-        "title": loc.get("title") or (t["quiet_title"] if quiet else ""),
-        "intro": loc.get("intro") or (t["quiet_intro"] if quiet else ""),
+        # Fixed format every day: "OTASEC Daily Briefing | dd-mm-yyyy" (stored model titles are ignored).
+        "title": t["briefing_title"].format(date=date.strftime("%d-%m-%Y")),
+        "intro": no_em_dash(loc.get("intro") or "") or (f"{t['quiet_title']}. {t['quiet_intro']}" if quiet else ""),
         "stories": stories,
         "path": f"/briefing/{b['date']}/",
     }
@@ -182,6 +187,7 @@ def build_site(cfg: Config, store: Store) -> None:
     active_sources = sorted({i["source"] for i in relevant})
     feed_count = len([f for f in cfg.feeds if f.get("enabled", True)])
 
+    show_x = bool(cfg.sources.get("x", {}).get("enabled"))  # hide "shared on X" while X is off
     for lang in cfg.languages:
         out = cfg.dist_dir / lang
         if out.exists():
@@ -195,8 +201,8 @@ def build_site(cfg: Config, store: Store) -> None:
         base_url = site["languages"][lang]["base_url"].rstrip("/")
         others = {l: site["languages"][l]["base_url"].rstrip("/") for l in cfg.languages}
         t = STRINGS[lang]
-        vitems = [view_item(i, lang, tz) for i in relevant]
-        vbriefings = [view_briefing(b, lang, tz) for b in briefings]
+        vitems = [view_item(i, lang, tz, show_x) for i in relevant]
+        vbriefings = [view_briefing(b, lang, tz, show_x) for b in briefings]
         latest = vbriefings[0] if vbriefings else None
         is_today = bool(latest and latest["date"] == now_local.date().isoformat())
 
@@ -234,20 +240,18 @@ def build_site(cfg: Config, store: Store) -> None:
                                  "lang": f.get("lang"), "ok": h.get("ok"),
                                  "checked": fmt_short(parse_iso(h["checked"]).astimezone(tz), lang)
                                  if h.get("checked") else ""})
-        xh = health.get("sources", {}).get("x", {})
-        render(f"about_{lang}.html", "/about/", sources=sources_view, x_status=xh,
-               x_enabled=bool(cfg.sources.get("x", {}).get("enabled")))
+        render(f"about_{lang}.html", "/about/", sources=sources_view)
 
         render("404.html", "/404.html")
 
         # RSS: briefings + live feed
         _write(out / "rss.xml", _rss(
-            f"OTASEC — {t['rss_briefings']}", base_url + "/", t["tagline"], lang,
+            f"OTASEC | {t['rss_briefings']}", base_url + "/", t["tagline"], lang,
             [{"title": b["title"] or b["date_label"], "link": base_url + b["path"], "guid": f"otasec-briefing-{b['date']}-{lang}",
               "date": b["published"],
-              "description": b["intro"] + (f" — {b['extra']['text']}" if b.get("extra") else "")} for b in vbriefings[:30]]))
+              "description": b["intro"] + (f" | {b['extra']['text']}" if b.get("extra") else "")} for b in vbriefings[:30]]))
         _write(out / "news.xml", _rss(
-            f"OTASEC — {t['rss_news']}", base_url + "/", t["tagline"], lang,
+            f"OTASEC | {t['rss_news']}", base_url + "/", t["tagline"], lang,
             [{"title": f"{i['title']} ({i['source']})", "link": i["url"], "guid": f"otasec-item-{i['id']}",
               "date": i["published"], "description": i["summary"]} for i in vitems[:100] if i["url"]]))
 

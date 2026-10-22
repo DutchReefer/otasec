@@ -1,4 +1,4 @@
-# OTASEC — site and pipeline settings.
+# OTASEC | site and pipeline settings.
 #
 # One codebase builds two static sites: dist/en (otasec.com) and dist/nl
 # (otasec.nl). Each is uploaded to its own document root (see README).

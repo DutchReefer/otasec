@@ -6,7 +6,7 @@ from datetime import timedelta
 
 from . import briefing as briefing_mod
 from . import feeds, xsource
-from .classify import classify_items
+from .classify import classify_items, translate_titles
 from .config import Config
 from .store import Store, iso, parse_iso, utcnow
 
@@ -57,9 +57,10 @@ def ingest(cfg: Config, store: Store) -> list[dict]:
     items, x_added = merge_items(items, recent_only(x_items, retention))
     xsource.rename_sources(items, x_cfg.get("display_names"))
 
-    health["sources"] = {**health.get("sources", {}), **feed_health, "x": x_status}
+    x_on = bool(x_cfg.get("enabled"))
+    health["sources"] = {**health.get("sources", {}), **feed_health, **({"x": x_status} if x_on else {})}
     # Drop health rows for feeds removed from config.
-    known = {f["id"] for f in cfg.feeds if f.get("enabled", True)} | {"x"}
+    known = {f["id"] for f in cfg.feeds if f.get("enabled", True)} | ({"x"} if x_on else set())
     health["sources"] = {k: v for k, v in health["sources"].items() if k in known}
     state["last_ingest"] = iso(utcnow())
     state["last_ingest_added"] = added + x_added
@@ -76,6 +77,7 @@ def run(cfg: Config, *, fetch: bool = True, classify: bool = True, do_briefing: 
         classify_items(items, cfg.anthropic_key, cfg.models["classify"],
                        batch_size=cfg.site["classify"]["batch_size"],
                        max_items=cfg.site["classify"]["max_items_per_run"])
+        translate_titles(items, cfg.anthropic_key, cfg.models["classify"])
     items = store.save_items(items, cfg.site["feed"]["retention_days"])
 
     if do_briefing:

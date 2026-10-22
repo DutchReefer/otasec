@@ -1,10 +1,10 @@
-# OTASEC — OT Asset Security
+# OTASEC | OT Asset Security
 
 A bilingual news aggregator for OT/ICS security: **otasec.com** (English) and
 **otasec.nl** (Dutch). The site has two parts:
 
 - **Live feed**: every OT/ICS-relevant story from dedicated OT outlets, vendor and
-  government advisories, the broader security press and X. It's updated
+  government advisories and the broader security press. It's updated
   hourly, tagged by type, sector, vendor and CVE, and filterable.
 - **Daily briefing**: each morning, the day's most-covered stories clustered
   into one post. Each story gets a summary, a takeaway for asset owners and links
@@ -29,7 +29,7 @@ config/sources.yaml ─┐
   Claude judges them to have a real OT/ICS or critical-infrastructure angle.
 - **Popularity.** RSS has no view counts, so the briefing ranks stories by
   **how many independent sources cover the same event**, then by X shares, then by impact.
-- **X is a signal, not a source of truth.** A post linking to an article we already
+- **X (disabled since 22 Oct 2026, `x.enabled: false`).** When switched on, X is a signal, not a source of truth. A post linking to an article we already
   have raises its "shared on X" count. A link to a new article only becomes an item
   when the site is on `x.trusted_domains` in `config/sources.yaml`, or is a site
   our RSS feeds already link to. Shops, job boards, SEO pages and unknown blogs are ignored.
@@ -66,7 +66,7 @@ In GitHub, go to **Settings → Secrets and variables → Actions**.
 | Kind | Name | Value |
 |---|---|---|
 | Secret | `ANTHROPIC_API_KEY` | Anthropic API key |
-| Secret | `X_BEARER_TOKEN` | X API v2 bearer token (optional) |
+| Secret | `X_BEARER_TOKEN` | X API v2 bearer token (only if X is re-enabled; also add it back to `pipeline.yml`) |
 | Secret | `FTP_HOST` | e.g. `ftp.yourhost.nl` (leave unset to skip deploy) |
 | Secret | `FTP_USER` | FTP user (preferably a dedicated account limited to the two site folders) |
 | Secret | `FTP_PASSWORD` | FTP password |
@@ -151,12 +151,12 @@ in for Claude, and items get no summaries or briefing.
 
 | Part | Volume | Approx. |
 |---|---|---|
-| Classification (Haiku 5.5) | ~100–200 new items/day | cents per day |
+| Classification (Haiku 5.5) | ~100-200 new items/day | cents per day |
 | Briefing (Sonnet 5.5) | 1 call/day, EN + NL | ≈ $0.10/day |
-| X recent search | 50 posts × 4 runs/day at ~$0.005/post | ≈ $1/day |
+| X recent search (disabled) | 50 posts × 4 runs/day at ~$0.005/post | ≈ $1/day when enabled |
 | GitHub Actions | ~24 short runs/day | free on public repos; ~5 min/day on private |
 
-X is the main cost driver. Tune `x.max_posts_per_run` and `x.min_interval_hours`
+When enabled, X is the main cost driver. Tune `x.max_posts_per_run` and `x.min_interval_hours`
 in `config/sources.yaml`, or set `x.enabled: false`.
 
 ## Adding a source

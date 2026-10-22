@@ -69,12 +69,13 @@ Write ONE briefing, in English AND Dutch:
    ("Other advisories") if there are several.
 4. Per story: a short factual heading; a 2-3 sentence neutral summary using only
    facts in the inputs; and a one-sentence takeaway for asset owners (what to
-   check or do — e.g. patch, segment, monitor, review supplier) that does not
+   check or do, e.g. patch, segment, monitor, review supplier) that does not
    invent facts. Keep product names, CVE ids and acronyms (PLC, HMI, ICS,
    IEC 62443, NIS2) unchanged in Dutch.
 5. item_ids: every input id you clustered into the story, copied exactly.
-6. A 1-2 sentence intro per language setting up the day, and a short title per
-   language that includes the date {date_label}.
+6. A 1-2 sentence intro per language setting up the day. Leave title_en and
+   title_nl empty: the title is set automatically ("OTASEC Daily Briefing | {date_label}").
+7. Style: never use em dashes; use a comma, a '|' or a plain '-' instead.
 
 Dutch should read naturally for Dutch professionals (not a literal translation).
 

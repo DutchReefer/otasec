@@ -1,4 +1,4 @@
-# OTASEC — news sources.
+# OTASEC | news sources.
 #
 # focus: ot      -> dedicated OT/ICS source; every item is kept (Claude still tags it)
 # focus: broad   -> general security press; only items Claude marks as OT/ICS-relevant
@@ -151,13 +151,15 @@ feeds:
     lang: nl
     verified: 2026-10-14
 
-# X (Twitter) recent search — optional, needs X_BEARER_TOKEN.
+# X (Twitter) recent search, optional, needs X_BEARER_TOKEN.
 # X API is pay-per-use (about $0.005 per post read in 2026), so this is
 # deliberately throttled: at most `max_posts_per_run` posts every
 # `min_interval_hours`, and `since_id` is tracked so the same post is
 # never paid for twice.
 x:
-  enabled: true
+  # Disabled 22 Oct 2026: no clear added value yet. Set to true (and add the
+  # X_BEARER_TOKEN secret back to the workflow) once there is a good use case.
+  enabled: false
   min_interval_hours: 6
   max_posts_per_run: 50
   queries:

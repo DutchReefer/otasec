@@ -50,7 +50,6 @@ jobs:
       - name: Run pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           # Read-only in this job; used only for GitHub API calls (CISA CSAF lookup).
           GITHUB_TOKEN: ${{ github.token }}
           FORCE: ${{ inputs.force_briefing && '--force-briefing' || '' }}

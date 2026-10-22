@@ -29,7 +29,7 @@ def compact(svg: str) -> str:
     """Wordmark without the 'OT ASSET SECURITY' tagline (the last two paths, y >= 244)."""
     paths = re.findall(r"\s*<path [^>]*/>", svg)
     head = svg.split("<path", 1)[0].replace('viewBox="-6 -6 1328 294.0"', 'viewBox="-6 -6 1328 212"') \
-        .replace('height="294"', 'height="212"').replace("OTASEC – OT Asset Security", "OTASEC")
+        .replace('height="294"', 'height="212"').replace("OTASEC | OT Asset Security", "OTASEC")
     return head + "".join(paths[:3]) + "\n</svg>\n"
 
 
