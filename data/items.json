@@ -1,5 +1,313 @@
 [
  {
+  "id": "b57b1f6a1427",
+  "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+  "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+  "excerpt": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T19:12:51Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers compromised the LiteLLM PyPI package and published malicious Docker images that steal credentials and secrets.",
+    "nl": "Aanvallers hebben het LiteLLM PyPI-pakket gecompromitteerd en kwaadaardige Docker-images verspreid die credentials en geheimen stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "23872cb1986e",
+  "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+  "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+  "excerpt": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T19:05:17Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Arista warned that a zero-day SQL injection in VeloCloud Orchestrator is being exploited, letting read-only users gain operator privileges.",
+    "nl": "Arista waarschuwt dat een zero-day SQL-injectie in VeloCloud Orchestrator actief wordt misbruikt, waardoor alleen-lezen gebruikers operatorrechten kunnen krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "afb644b2382c",
+  "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
+  "title": "Indian tech company eMudhra announces withdrawal from certificate business after security incident",
+  "excerpt": "The issue was publicized by cybersecurity researcher Scott Helme, who published a blog saying that instead of a random 384-bit number, one of the company's private keys was just the number four.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T18:46:00Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "eMudhra will withdraw from its certificate business after a researcher found one of its private keys was trivially guessable.",
+    "nl": "eMudhra stopt met zijn certificaatactiviteiten nadat een onderzoeker vond dat een van zijn privésleutels eenvoudig te raden was."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "f74ce17a74d9",
+  "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+  "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+  "excerpt": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private keys of eight of its intermediate CA certificates. eMudhra said it will replace affected customers' certificates with free ones from partners, though its",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T18:12:43Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "eMudhra will exit its global SSL/TLS business after a researcher recovered private keys of eight intermediate CA certificates.",
+    "nl": "eMudhra stopt met zijn wereldwijde SSL/TLS-activiteiten nadat een onderzoeker privésleutels van acht intermediate CA-certificaten terughaalde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "a45e553ca30b",
+  "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+  "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+  "excerpt": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T17:45:44Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup of cybersecurity news covering PHP, GitLab, Linux, LiteLLM and eMudhra incidents, among other stories.",
+    "nl": "Een wekelijks overzicht van cybersecuritynieuws over onder meer PHP, GitLab, Linux, LiteLLM en eMudhra."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "0d961dabbd4f",
+  "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+  "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+  "excerpt": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T17:18:22Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Arista released patches for an actively exploited zero-day in VeloCloud Orchestrator On-Prem deployments.",
+    "nl": "Arista heeft patches uitgebracht voor een actief misbruikte zero-day in VeloCloud Orchestrator On-Prem-implementaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "eebdb3f4f6ae",
+  "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+  "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+  "excerpt": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T17:01:53Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Two CVSS 9.0 remote code execution flaws in the Linux KSMBD SMB server were disclosed publicly before kernel fixes were available.",
+    "nl": "Twee remote code execution-kwetsbaarheden met CVSS 9.0 in de Linux KSMBD SMB-server zijn openbaar gemaakt voordat kernelfixes beschikbaar waren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "2a5b06ac5090",
+  "url": "https://therecord.media/china-cyber-connectwise-ai",
+  "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
+  "excerpt": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T16:30:00Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft attributed the ConnectWise supply chain attack to a Chinese state-aligned group using automated AI agent tools.",
+    "nl": "Microsoft schrijft de ConnectWise-supplychainaanval toe aan een Chinese statelijk gelieerde groep die geautomatiseerde AI-agenttools gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "6b7369ef168a",
+  "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+  "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+  "excerpt": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018. According to multiple reports from the Associated Press, the New York Times, Reuters, and the Wall Street Journal, state District Court Judge Francis J. Mathew called",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T16:12:31Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A New Mexico court ordered Meta to pay 25 billion in penalties over privacy violations linked to the Cambridge Analytica scandal.",
+    "nl": "Een rechtbank in New Mexico heeft Meta opgedragen 25 miljard te betalen aan boetes voor privacyschendingen rond het Cambridge Analytica-schandaal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "52281a02f995",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+  "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+  "excerpt": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T15:49:32Z",
+  "fetched": "2026-10-22T20:10:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft says admins can re-enable the retired Exchange Web Services API in Exchange Online to fix broken EWS apps.",
+    "nl": "Microsoft zegt dat beheerders de uitgefaseerde Exchange Web Services API in Exchange Online weer kunnen inschakelen om kapotte EWS-apps te herstellen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "505380f3c18a",
+  "url": "https://www.security.nl/posting/958644/Dns-provider+Quad9+verlaat+Frankrijk+na+gerechtelijke+uitspraak?channel=rss",
+  "title": "Dns-provider Quad9 verlaat Frankrijk na gerechtelijke uitspraak",
+  "excerpt": "Dns-provider Quad9 heeft aangekondigd Frankrijk te zullen verlaten. Aanleiding is een gerechtelijke uitspraak, waarin de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T15:24:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "DNS provider Quad9 announced it will leave France following a court ruling.",
+    "nl": "DNS-provider Quad9 kondigt aan Frankrijk te verlaten na een gerechtelijke uitspraak."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
   "id": "ab192cc92e40",
   "url": "https://www.security.nl/posting/958639/ACM%3A+toename+van+phishing+via+online+platforms+voor+reizen+en+hotels?channel=rss",
   "title": "ACM: toename van phishing via online platforms voor reizen en hotels",
@@ -1613,6 +1921,48 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-22T10:15:27Z"
+  }
+ },
+ {
+  "id": "c4ae99f0aab0",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
+  "title": "ICSA-26-295-01: Kiloview E3 NDI Encoder",
+  "excerpt": "Successful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device. Sectors: Communications, Information Technology.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-22T06:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-109122",
+   "CVE-2026-111100",
+   "CVE-2026-96616",
+   "CVE-2026-105265",
+   "CVE-2026-110491",
+   "CVE-2026-107861",
+   "CVE-2026-110243",
+   "CVE-2026-92450",
+   "CVE-2026-110825"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Kiloview"
+   ],
+   "summary": {
+    "en": "CISA published advisory ICSA-26-295-01 on Kiloview E3 NDI Encoder vulnerabilities that could allow an attacker to fully compromise the device.",
+    "nl": "CISA publiceerde advisory ICSA-26-295-01 over kwetsbaarheden in de Kiloview E3 NDI Encoder die volledige compromittering van het apparaat mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
   }
  },
  {
@@ -11888,6 +12238,40 @@
   }
  },
  {
+  "id": "b1c9b16b4541",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03",
+  "title": "ICSA-26-295-03: Siemens Software Center",
+  "excerpt": "The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application. Siemens has released a new version for Siemens Software Center and recommends to update to the latest version. Please refer to our blog post for additional information about current known active exploitation and how to detect it. Sectors: Critical Manufacturing, Transportation Systems…",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-15T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-110936"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens Software Center loads DLLs from an uncontrolled search path, allowing local authenticated attackers to execute code; a fix is available.",
+    "nl": "Siemens Software Center laadt DLL's uit een ongecontroleerd zoekpad, waardoor lokale geauthenticeerde aanvallers code kunnen uitvoeren; een update is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
   "id": "cb4f3bcbd54d",
   "url": "https://therecord.media/ukraine-says-starshield-working-again-after-disruption",
   "title": "Ukraine says Elon Musk's Starshield service partially restored after restrictions disrupted drone missions",
@@ -16467,6 +16851,635 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:10:54Z"
+  }
+ },
+ {
+  "id": "13e5d9ba4285",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+  "title": "ICSA-26-295-18: Siemens RUGGEDCOM APE1808 Devices",
+  "excerpt": "Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer support to receive patch and update information. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [
+   "CVE-2026-33387",
+   "CVE-2026-33388",
+   "CVE-2026-33389",
+   "CVE-2026-33391",
+   "CVE-2026-33920"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "transport",
+    "energy",
+    "healthcare",
+    "government"
+   ],
+   "vendors": [
+    "Siemens",
+    "Nozomi Networks"
+   ],
+   "summary": {
+    "en": "Siemens RUGGEDCOM APE1808 devices are affected by Nozomi Guardian/CMC vulnerabilities; customers should contact support for patches.",
+    "nl": "Siemens RUGGEDCOM APE1808-apparaten worden getroffen door Nozomi Guardian/CMC-kwetsbaarheden; klanten moeten contact opnemen met support voor patches."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "09796ea75480",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-17",
+  "title": "ICSA-26-295-17: Siemens Industrial Edge Devices",
+  "excerpt": "Siemens Industrial Edge Devices contain multiple path traversal vulnerabilities that could facilitate an authenticated remote attacker to access sensitive internal information. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [
+   "CVE-2026-44414",
+   "CVE-2026-44415"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "transport",
+    "energy",
+    "healthcare",
+    "government"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens Industrial Edge devices contain multiple path traversal flaws letting authenticated remote attackers access sensitive internal information; updates are released for several products.",
+    "nl": "Siemens Industrial Edge-apparaten bevatten meerdere path traversal-kwetsbaarheden waarmee geauthenticeerde externe aanvallers gevoelige interne informatie kunnen inzien; updates zijn voor meerdere producten uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "aff694591894",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
+  "title": "ICSA-26-295-16: Siemens SIMATIC S7-1500 TM MFP",
+  "excerpt": "Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [
+   "CVE-2023-52927",
+   "CVE-2023-53292",
+   "CVE-2023-54271",
+   "CVE-2024-26982",
+   "CVE-2024-36922",
+   "CVE-2024-40945",
+   "CVE-2024-47809",
+   "CVE-2024-49998",
+   "CVE-2024-53166",
+   "CVE-2024-56647",
+   "CVE-2024-56657",
+   "CVE-2024-56719"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "transport",
+    "energy",
+    "healthcare",
+    "government"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Multiple vulnerabilities were identified in the GNU/Linux subsystem of Siemens SIMATIC S7-1500 TM MFP V1.1.1; fixes are being prepared.",
+    "nl": "Meerdere kwetsbaarheden zijn gevonden in het GNU/Linux-subsysteem van Siemens SIMATIC S7-1500 TM MFP V1.1.1; fixes worden voorbereid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "39a43ed175db",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
+  "title": "ICSA-26-295-15: Siemens RUGGEDCOM CROSSBOW Station Access Controller",
+  "excerpt": "RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information. Siemens has released a new version for RUGGEDCOM CROSSBOW Station Access Controller (SAC) and recommends to update to the latest version. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [
+   "CVE-2025-6965",
+   "CVE-2025-70873",
+   "CVE-2025-71316",
+   "CVE-2026-11822",
+   "CVE-2026-11824"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "transport",
+    "energy",
+    "healthcare",
+    "government"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens RUGGEDCOM CROSSBOW Station Access Controller has SQLite vulnerabilities enabling code execution, denial of service or information disclosure; a new version is available.",
+    "nl": "Siemens RUGGEDCOM CROSSBOW Station Access Controller bevat SQLite-kwetsbaarheden die codeuitvoering, denial of service of informatielekken mogelijk maken; een nieuwe versie is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "756f0f256ef2",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
+  "title": "ICSA-26-295-14: Siemens SIMATIC S7 PLCs Web Server",
+  "excerpt": "SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that user’s authorization. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [
+   "CVE-2026-63350",
+   "CVE-2026-63351",
+   "CVE-2026-63352",
+   "CVE-2026-63353",
+   "CVE-2026-63354",
+   "CVE-2026-63355",
+   "CVE-2026-63356",
+   "CVE-2026-63357"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "transport",
+    "energy",
+    "healthcare",
+    "government"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Flaws in the SIMATIC S7-1500 web server could let attackers run malicious code in a logged-in user's browser and perform PLC operations; fixes are in preparation.",
+    "nl": "Kwetsbaarheden in de webserver van SIMATIC S7-1500 kunnen aanvallers malicieuze code laten draaien in de browser van een ingelogde gebruiker en PLC-handelingen laten uitvoeren; fixes worden voorbereid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "66c18d23b2b5",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+  "title": "ICSA-26-295-13: Siemens WinCC",
+  "excerpt": "Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends mitigations for products where fixes are not or not yet available. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [
+   "CVE-2026-59241"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "transport",
+    "energy",
+    "healthcare",
+    "government"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Multiple SIMATIC WinCC versions have a database privilege escalation flaw allowing authenticated users to execute commands on the host; updates are released.",
+    "nl": "Meerdere SIMATIC WinCC-versies hebben een privilege-escalatiekwetsbaarheid in de database waardoor geauthenticeerde gebruikers commando's op het host-systeem kunnen uitvoeren; updates zijn uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "3d7a4b820165",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
+  "title": "ICSA-26-295-12: Siemens RUGGEDCOM CROSSBOW",
+  "excerpt": "RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform unauthorized operations such as modifying system configurations or causing a denial of service. Siemens has released a new version for RUGGEDCOM CROSSBOW and recommends to update to the latest version. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [
+   "CVE-2026-89196",
+   "CVE-2026-89197",
+   "CVE-2026-89198",
+   "CVE-2026-89199",
+   "CVE-2026-89200",
+   "CVE-2026-89201",
+   "CVE-2026-89202",
+   "CVE-2026-89203",
+   "CVE-2026-89204",
+   "CVE-2026-89205",
+   "CVE-2026-89206"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "transport",
+    "energy",
+    "healthcare",
+    "government"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "RUGGEDCOM CROSSBOW contains multiple vulnerabilities enabling SQL command execution, credential theft and privilege escalation; a new version is available.",
+    "nl": "RUGGEDCOM CROSSBOW bevat meerdere kwetsbaarheden die SQL-commando's, diefstal van beheerdersgegevens en privilege-escalatie mogelijk maken; een nieuwe versie is beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "97dcd5420c36",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+  "title": "ICSA-26-295-11: Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+  "excerpt": "Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:21Z",
+  "cves": [
+   "CVE-2021-41617",
+   "CVE-2023-28531",
+   "CVE-2023-51384",
+   "CVE-2023-52927",
+   "CVE-2023-53292",
+   "CVE-2024-26783",
+   "CVE-2024-27056",
+   "CVE-2024-28956",
+   "CVE-2024-36903",
+   "CVE-2024-36927",
+   "CVE-2024-42079",
+   "CVE-2024-46786"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens reports multiple vulnerabilities in the GNU/Linux subsystem of firmware V3.1.7 for SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP, with fixes or mitigations provided.",
+    "nl": "Siemens meldt meerdere kwetsbaarheden in het GNU/Linux-subsysteem van firmware V3.1.7 voor de SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP, met fixes of mitigaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
+  }
+ },
+ {
+  "id": "84438531ba3c",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
+  "title": "ICSA-26-295-10: Siemens SIMATIC S7 Webserver API",
+  "excerpt": ".NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S7 Webserver API and recommends to update to the latest version. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-85114",
+   "CVE-2026-85115"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens reports vulnerabilities in the .NET Client Library for SIMATIC S7 Webserver API that could expose sensitive information or allow arbitrary file writes, and released a new version.",
+    "nl": "Siemens meldt kwetsbaarheden in de .NET Client Library voor de SIMATIC S7 Webserver API die gevoelige informatie kunnen blootleggen of willekeurig bestanden kunnen schrijven, en heeft een nieuwe versie uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
+  }
+ },
+ {
+  "id": "c12acac589a0",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
+  "title": "ICSA-26-295-09: Siemens Industrial Edge Device Kit",
+  "excerpt": "Users of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Additional Information). Industrial Edge Device Kit contains multiple path traversal vulnerabilities that could facilitate an authenticated remote attacker to access sensitive internal information. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens recommends specific countermeasures for products where fixes are not, or not yet available. Sectors: Critical Manufacturing…",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-44414",
+   "CVE-2026-44415"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens reports path traversal vulnerabilities in its Industrial Edge Device Kit that could let an authenticated remote attacker access sensitive internal information, with new versions released.",
+    "nl": "Siemens meldt path traversal-kwetsbaarheden in de Industrial Edge Device Kit waardoor een geauthenticeerde externe aanvaller gevoelige interne informatie kan benaderen, en er zijn nieuwe versies uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
+  }
+ },
+ {
+  "id": "5251b41876d0",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
+  "title": "ICSA-26-295-08: Siemens APOGEE, TALON and Desigo PXC/PXM Products",
+  "excerpt": "The products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availability of the affected device. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens recommends specific mitigations for products where fixes are not or not yet available. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-89208",
+   "CVE-2026-102073",
+   "CVE-2026-102074",
+   "CVE-2026-102075",
+   "CVE-2026-102076"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens APOGEE, TALON and Desigo PXC/PXM products contain multiple vulnerabilities enabling denial of service, with new versions released for some and mitigations for others.",
+    "nl": "Producten van Siemens APOGEE, TALON en Desigo PXC/PXM bevatten meerdere kwetsbaarheden die denial of service mogelijk maken, met nieuwe versies voor sommige en mitigaties voor andere."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
+  }
+ },
+ {
+  "id": "4b6fb15e830f",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
+  "title": "ICSA-26-295-07: Siemens SIMATIC IPCs",
+  "excerpt": "The products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enabled. Siemens has released new versions for the affected products and recommends to update to the latest versions. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-72895"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "A vulnerability in SIMATIC IPCs allows booting code signed with a test key, bypassing UEFI Secure Boot even when enabled. Siemens released new versions for affected products.",
+    "nl": "Een kwetsbaarheid in SIMATIC IPC's maakt het mogelijk code te starten die is ondertekend met een testsleutel, waardoor UEFI Secure Boot wordt omzeild ook als deze is ingeschakeld. Siemens heeft nieuwe versies uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
+  }
+ },
+ {
+  "id": "3697cdd759a3",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-06",
+  "title": "ICSA-26-295-06: Siemens PSS(R)SINCAL",
+  "excerpt": "PSS(R)SINCAL uses WibuKey third-party product that contains an out-of-bounds write vulnerability. An attacker could exploit this vulnerability to cause a system crash, resulting in a denial-of-service condition. This affects PSS SINCAL only when configured to use the legacy WibuKey dongle license type. Siemens is actively preparing updates and recommends applicable mitigations for products where patches are currently unavailable. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-84854"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "advisory",
+   "sectors": [
+    "energy",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "PSS SINCAL uses a WibuKey component with an out-of-bounds write flaw that can crash the system when the legacy dongle license type is configured. Siemens is preparing updates.",
+    "nl": "PSS SINCAL gebruikt een WibuKey-component met een out-of-bounds write-fout die het systeem kan laten crashen bij gebruik van het verouderde dongle-licentietype. Siemens bereidt updates voor."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
+  }
+ },
+ {
+  "id": "ea68190f530c",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+  "title": "ICSA-26-295-05: Siemens SENTRON 3NA COM Fuse",
+  "excerpt": "SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require the affected network to be re-established to restore normal operation. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2024-7322"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "SENTRON 3NA COM Fuse contains a denial-of-service flaw triggered by improper handling of a network management message, which may require network re-establishment to recover.",
+    "nl": "SENTRON 3NA COM Fuse bevat een denial-of-service-fout veroorzaakt door onjuist verwerken van een netwerkbeheerbericht, waarvoor herstel van het netwerk nodig kan zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
+  }
+ },
+ {
+  "id": "816c61506309",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
+  "title": "ICSA-26-295-04: Siemens Capital Embedded AR Classic",
+  "excerpt": "The products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embedded AR Classic R20-11 and recommends updating to the latest version. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government Services and Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-89208"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens Capital Embedded AR Classic contains an out-of-bounds read vulnerability that could cause instability or denial of service. A new version is available for R20-11 and further fixes are planned.",
+    "nl": "Siemens Capital Embedded AR Classic bevat een out-of-bounds read-kwetsbaarheid die instabiliteit of denial of service kan veroorzaken. Voor R20-11 is een nieuwe versie beschikbaar en verdere fixes zijn gepland."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
+  }
+ },
+ {
+  "id": "4630f745db1c",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
+  "title": "ICSA-26-295-02: Siemens Industrial Edge App Publisher",
+  "excerpt": "The Industrial Edge App Publisher contains a vulnerability chain involving improper certificate validation and the rendering of unescaped data from backend responses. These issues can be combined to allow an attacker on the network to impersonate the management server and execute arbitrary code (RCE) on the local machine through Node.js integration. Siemens has released an update for the Industrial Edge App Publisher and recommends to update to the latest version. Sectors: Critical Manufacturing, Transportation Systems, Energy, Healthcare and Public Health, Financial Services, Government…",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-13T00:00:00Z",
+  "fetched": "2026-10-22T20:10:22Z",
+  "cves": [
+   "CVE-2026-78556",
+   "CVE-2026-78557"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens Industrial Edge App Publisher has a vulnerability chain of improper certificate validation and unescaped data rendering that could allow remote code execution. An update is available.",
+    "nl": "De Siemens Industrial Edge App Publisher heeft een kwetsbaarheidsketen van onjuiste certificaatvalidatie en ongeëscapete datarendering die remote code execution mogelijk maakt. Er is een update beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T20:11:03Z"
   }
  },
  {
