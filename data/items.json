@@ -1,5 +1,328 @@
 [
  {
+  "id": "8dad5906b3cb",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/openai-agents-disabled-safety-monitoring/",
+  "title": "OpenAI’s coding agents talked themselves out of being monitored",
+  "excerpt": "Two AI coding agents running inside OpenAI silently weakened the systems built to catch AI misbehavior, and one of them then told its human operator it had done no such thing. OpenAI disclosed both episodes in a misalignment report released earlier this week and said it is tightening its defenses, but admits it cannot yet explain why the agents behaved this way. AI agents evading oversight Neither agent was attacking anything. The models involved, GPT-6.1 … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T12:47:42Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "189c380ca726",
+  "url": "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident",
+  "title": "South Carolina officials offer assistance after state capital hit with cyberattack",
+  "excerpt": "The systems impacted by the attack include the MyColaSC platform that citizens use to pay utility bills, report non-emergency issues and access other city services.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T12:14:00Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "bc08379faf91",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0451",
+  "title": "NCSC-2026-0451 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Expressway Series",
+  "excerpt": "Cisco heeft meerdere kwetsbaarheden verholpen in Cisco Expressway Series. De kwetsbaarheden betreffen onder andere onvoldoende autorisatiecontroles tijdens Mobile en Remote Access provisioning, waardoor ongeauthenticeerde externe aanvallers toegang kunnen krijgen tot gevoelige informatie. Daarnaast is er een kwetsbaarheid in de databaseservice die het mogelijk maakt voor ongeauthenticeerde aanvallers met netwerktoegang om root-commando's uit te voeren via onvoldoende validatie van clientcertificaten bij TLS Verify Mode voor clustering. Verder zijn er diverse kwetsbaarheden geïdentificeerd…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-22T12:09:18Z",
+  "fetched": "2026-10-22T12:51:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "28fc1fea12bf",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0450",
+  "title": "NCSC-2026-0450 [1.00] [M/H] Kwetsbaarheden verholpen in Snort 3 van Cisco",
+  "excerpt": "Cisco heeft meerdere kwetsbaarheden verholpen in Snort 3, het open source intrusion detection en prevention systeem dat in diverse Cisco-producten wordt gebruikt. De kwetsbaarheden bevinden zich in verschillende componenten van de Snort 3 Detection Engine, waaronder de SMTP MIME Decoder, NetFlow Detection Engine, GRE Detection Engine, Teredo Detection Engine, VBA Decompression Engine, en de memory management. Ongeauthenticeerde remote aanvallers kunnen speciaal vervaardigde pakketten of datagrammen versturen die leiden tot onverwachte herstarts van de detectie-engine, wat resulteert in een…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-22T12:06:34Z",
+  "fetched": "2026-10-22T12:51:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "a382a19de068",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0449",
+  "title": "NCSC-2026-0449 [1.00] [M/H] Meerdere kwetsbaarheden verholpen in Oracle Java",
+  "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Java. In Oracle Java SE, JavaFX en GraalVM Enterprise Edition zijn diverse kwetsbaarheden aanwezig die door ongeauthenticeerde netwerkaanvallers kunnen worden misbruikt via blootgestelde API's of sandboxed Java-applicaties. Deze kwetsbaarheden maken het mogelijk om denial of service te veroorzaken, ongeautoriseerde lees- en schrijfacties op data uit te voeren, en in sommige gevallen beperkte data toegang te verkrijgen. Exploitatie kan plaatsvinden via netwerktoegang, soms met vereiste van gebruikersinteractie, en betreft meerdere…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-22T12:04:56Z",
+  "fetched": "2026-10-22T12:51:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "e0525027b7f8",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/php2shell-scanner-tool/",
+  "title": "New PHP2Shell scanner checks your hosts for CVE-2026-109618 and CVE-2026-109619",
+  "excerpt": "Searchlight Cyber released php2shell-scanner, an open-source tool that tests whether a host is exposed to CVE-2026-109618 and CVE-2026-109619, the pair of PHP remote code execution bugs patched on October 21. PHP2Shell lets an attacker reach pre-auth RCE against PHP applications running on Apache mod_php or PHP-FPM under default configurations, with confirmed exploitation on widely deployed software including WordPress, Drupal, Joomla, phpMyAdmin, Nextcloud, and Magento. If you run PHP behind a web server, you need to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T12:03:17Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "213c6c17df50",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/fingerprint-agentic-installation/",
+  "title": "Fingerprint uses AI coding tools to automate fraud detection setup",
+  "excerpt": "Fingerprint has announced Agentic Installation, the AI-powered onboarding path for companies to deploy device intelligence to their websites or apps in minutes to detect and stop fraud. By running a single prompt in an AI coding tool, such as Claude Code, Codex or Cursor, developers take Fingerprint from zero to production-ready in minutes, reducing manual setup and stopping fraud faster. What can take days or weeks with other device intelligence providers takes minutes with Fingerprint. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:45:24Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "a6ecafe2f9d8",
+  "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+  "title": "GitLab warns of new max severity code execution vulnerability",
+  "excerpt": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:41:48Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "acb0bbe0456f",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/xtium-xtai-orchestrator/",
+  "title": "XTIUM expands XTAI with centralized AI governance and cost management",
+  "excerpt": "XTIUM has released the latest version of XTAI (XTIUM Trusted AI), expanding its AI Service Platform with XTAI Orchestrator. The new governance platform brings together managed AI services, AI-powered voice, custom XTAI Agents, managed networks, and managed cloud. Building on XTAI’s initial focus on AI assessment, planning, governance, adoption, and deployment, the release helps enterprises move beyond pilots to operate, monitor, and control AI in production. Enterprises are rolling out end-user AI apps such as … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:41:02Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "ef3df745dd44",
+  "url": "https://www.security.nl/posting/958571/Amazon%3A+eerste+PHP2Shell-aanvallen+op+17+oktober+waargenomen?channel=rss",
+  "title": "Amazon: eerste PHP2Shell-aanvallen op 17 oktober waargenomen",
+  "excerpt": "De eerste aanvallen die gebruikmaakten van PHP2Shell vonden al op 17 oktober plaats, vier dagen voordat het bestaan van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:39:20Z",
+  "fetched": "2026-10-22T12:51:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "924252c87b33",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/sentinelone-singularity-agentic-detection-and-response/",
+  "title": "SentinelOne brings runtime threat detection and response to AI agents",
+  "excerpt": "SentinelOne has unveiled Singularity Agentic Detection and Response (ADR), a new offering that discovers AI agents, enforces what agents are allowed to do, monitors agent behavior in depth, and detects and stops unintended and malicious activity in real time. Bringing together visibility and governance of agent activity with SentinelOne’s signature runtime behavioral prevention, detection and response, the new offering is built directly on the Singularity Platform, giving new and existing customers a battle-tested foundation to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:27:36Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "803c6f1953c1",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/broadcom-arcot-scam-defense/",
+  "title": "Broadcom adds real-time scam detection to 3-D Secure authentication",
+  "excerpt": "Broadcom has announced the launch of Arcot Scam Defense, a new feature of Arcot by Broadcom, designed to block social engineering fraud during card-not-present (CNP) transactions. “Financial institutions are experiencing broad increases in fraud attempts driven by sophisticated, AI-enhanced social engineering attacks,” said Matt Cooke, VP and GM, Payment Security Division, Broadcom. “While technological security systems have advanced and are highly effective at blocking fraud, fraudsters have pivoted their efforts to hacking customers directly. By … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:18:09Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "76b18c2dc5a9",
+  "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+  "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+  "excerpt": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:15:42Z",
+  "fetched": "2026-10-22T12:51:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "9672f8646379",
+  "url": "https://www.security.nl/posting/958567/7-Zip+patcht+meerdere+kwetsbaarheden+in+nieuwste+versie?channel=rss",
+  "title": "7-Zip patcht meerdere kwetsbaarheden in nieuwste versie",
+  "excerpt": "De maker van het populaire archiveringsprogramma 7-Zip heeft een nieuwe versie uitgebracht waarin meerdere kwetsbaarheden en ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:13:00Z",
+  "fetched": "2026-10-22T12:51:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "196a96903541",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/claude-security-continuous-scanning-update/",
+  "title": "Claude Security can now spot vulnerabilities that reappear in code",
+  "excerpt": "Anthropic has updated Claude Security with ongoing code scanning and automatic fix tracking to help security teams monitor vulnerabilities as software changes. The service scans codebases for vulnerabilities and suggests patches for review. It is powered by the company’s full family of models, including Claude Mythos, without requiring Cyber Verification Program access. Scanning code and tracking fixes Teams create a project, connect repositories through the Claude GitHub app or an access token from GitLab or … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:02:36Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "16e3ee172946",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/legitimate-platforms-abused-phishing-emails/",
+  "title": "Attackers abuse legitimate platforms to deliver phishing emails that pass authentication checks",
+  "excerpt": "A Dell order confirmation lands in your inbox and it looks pretty legitimate: it comes from Dell’s order domain, passes DKIM and DMARC checks, uses Dell’s real template, and confirms a $736.09 purchase of Microsoft Project Standard 2024 that you never made. Under “Ship To,” where an address should be, sits the word “Helpline” and a phone number – the hook for a callback scam. The email looks genuine because it is. The attacker supplied … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T10:59:03Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "1d3516a0d0a6",
+  "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+  "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+  "excerpt": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly, the company behind OpenCode, fixed the flaw in version 1.18.33 on September",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T10:44:05Z",
+  "fetched": "2026-10-22T12:51:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "2d19c82d4e5f",
+  "url": "https://www.security.nl/posting/958558/Kamervragen+over+offline+halen+van+overheidswebsites+wegens+PHP2Shell?channel=rss",
+  "title": "Kamervragen over offline halen van overheidswebsites wegens PHP2Shell",
+  "excerpt": "In de Tweede Kamer zijn vragen gesteld aan minister van Weel van Justitie en Veiligheid over het offline halen van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T10:35:00Z",
+  "fetched": "2026-10-22T12:51:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "85df4dcbb77b",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/php2shell-vulnerability-fortinet-cisco-palo-alto-networks/",
+  "title": "What the PHP2Shell vulnerability means for Fortinet, Cisco and Palo Alto customers",
+  "excerpt": "Palo Alto Networks confirmed that all versions of PAN-OS and Panorama are affected by PHP2Shell, a pair of critical PHP vulnerabilities that let an attacker run code on a web server without logging in. Palo Alto has not shipped fixed PAN-OS releases yet. Fortinet and Cisco published their own advisories, and neither company has confirmed a vulnerable product so far: Fortinet is checking 12 products, Cisco 31 products and cloud services. Palo Alto says the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T10:22:56Z",
+  "fetched": "2026-10-22T12:51:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "4045242aaf51",
+  "url": "https://www.security.nl/posting/958553/%27Windowscomputers+bij+spionage-aanval+ge%C3%AFnfecteerd+met+BlackX-bootkit%27?channel=rss",
+  "title": "'Windowscomputers bij spionage-aanval geïnfecteerd met BlackX-bootkit'",
+  "excerpt": "Volledig gepatchte Windowscomputers zijn bij een spionage-aanval geïnfecteerd met de BlackX-bootkit die de aanvallers ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T10:22:31Z",
+  "fetched": "2026-10-22T12:51:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
   "id": "1d820fad715a",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
   "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
@@ -2368,7 +2691,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-21T20:12:57Z"
-  }
+  },
+  "title_en": "FBI: at least six hundred critical organizations fell victim to SafePay ransomware"
  },
  {
   "id": "72e029d17301",
@@ -5205,7 +5529,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-20T11:43:55Z"
-  }
+  },
+  "title_en": "Security flaw in Siemens Software Center used in ClickFix attacks"
  },
  {
   "id": "92e407676578",
@@ -6750,7 +7075,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T11:04:33Z"
-  }
+  },
+  "title_en": "LOXONE hit by cyberattack, but customer installations remain safe and operational"
  },
  {
   "id": "0534f1906337",
@@ -8359,7 +8685,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:57:59Z"
-  }
+  },
+  "title_en": "NCSC-2026-0437 [1.00] [H/H] Vulnerability fixed in BeyondTrust Remote Support"
  },
  {
   "id": "83a760ddb2ba",
@@ -8509,7 +8836,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:57:59Z"
-  }
+  },
+  "title_en": "Twelve hundred Copeland cooling systems at supermarkets accessible online"
  },
  {
   "id": "b3e84d874392",
@@ -8601,7 +8929,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:57:59Z"
-  }
+  },
+  "title_en": "Critical flaw in BeyondTrust Remote Support exploited in attacks since August"
  },
  {
   "id": "1fd194e19c3d",
@@ -10434,7 +10763,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:59:18Z"
-  }
+  },
+  "title_en": "Hundreds of supermarket cooling systems accessible from the internet"
  },
  {
   "id": "8149ae12c3da",
@@ -10496,7 +10826,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:59:18Z"
-  }
+  },
+  "title_en": "Palo Alto Networks warns of exploitation of security flaw in firewalls"
  },
  {
   "id": "c4b65aaace3b",
@@ -10556,7 +10887,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:59:18Z"
-  }
+  },
+  "title_en": "Albert Heijn distribution centers operational again: 'Increasingly fuller shelves'"
  },
  {
   "id": "c3410f21a7a6",
@@ -11715,7 +12047,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:59:56Z"
-  }
+  },
+  "title_en": "Cabinet rejects objection from DigiD administrator Solvinity: 'Takeover ban necessary'"
  },
  {
   "id": "c8c2a8e77f0c",
@@ -11777,7 +12110,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-17T23:59:56Z"
-  }
+  },
+  "title_en": "CCB: 'Do not connect cooling systems directly to the internet and install updates'"
  },
  {
   "id": "01ccdefefe75",
@@ -12268,7 +12602,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:09:01Z"
-  }
+  },
+  "title_en": "Cabinet does not make risk assessment of digital infrastructure public"
  },
  {
   "id": "5b4c475b9b3b",
@@ -12392,7 +12727,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:09:01Z"
-  }
+  },
+  "title_en": "Ivanti VPN servers fully hacked in attack, attackers look for BitLocker keys"
  },
  {
   "id": "0a34dc42eff4",
@@ -13307,7 +13643,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:09:49Z"
-  }
+  },
+  "title_en": "Ivanti warns of exploitation of flaw in Connect Secure VPN servers"
  },
  {
   "id": "9bef2c57ef4c",
@@ -13339,7 +13676,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:09:49Z"
-  }
+  },
+  "title_en": "NCSC-2026-0416 [1.00] [H/H] ZeroDay vulnerability fixed in Ivanti Connect Secure"
  },
  {
   "id": "640ffc118056",
@@ -13543,7 +13881,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:09:49Z"
-  }
+  },
+  "title_en": "NCSC sees no link between incident at Ahold and French supermarkets"
  },
  {
   "id": "7b86a9afc696",
@@ -13687,7 +14026,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:09:49Z"
-  }
+  },
+  "title_en": "French government advises supermarkets to take cooling systems offline"
  },
  {
   "id": "8f63a0f3f054",
@@ -13777,7 +14117,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:09:49Z"
-  }
+  },
+  "title_en": "Albert Heijn restores regular prices on digital price tags"
  },
  {
   "id": "0353dc67aa01",
@@ -13839,7 +14180,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:09:49Z"
-  }
+  },
+  "title_en": "NCSC-2026-0415 [1.00] [M/H] Vulnerabilities fixed in Siemens products"
  },
  {
   "id": "939a5a11b5d4",
@@ -14106,7 +14448,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:10:07Z"
-  }
+  },
+  "title_en": "'Thousands of online cooling systems use date as password'"
  },
  {
   "id": "519f17b38e08",
@@ -15575,7 +15918,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:10:54Z"
-  }
+  },
+  "title_en": "Albert Heijn distribution centers at a standstill due to cybersecurity incident"
  },
  {
   "id": "7008f7282a14",
@@ -15605,7 +15949,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:10:54Z"
-  }
+  },
+  "title_en": "Cooling systems of French supermarkets hit by cyberattack"
  },
  {
   "id": "aee2968c039d",
@@ -16862,7 +17207,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:31Z"
-  }
+  },
+  "title_en": "NCSC-2026-0411 [1.00] [M/H] Vulnerabilities fixed in Cisco networking products"
  },
  {
   "id": "ef83117be23c",
@@ -19084,36 +19430,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:39:03Z"
-  }
- },
- {
-  "id": "e15e4ed45c32",
-  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/keeping-ot-going-when-it-goes-dark-failsafe-designs-for-cyber-emergencies",
-  "title": "Keeping OT Going When IT Goes Dark",
-  "excerpt": "This webinar reviews recent government directives, clears up the controversy, and introduces practical approaches to islanding. We evaluate islanding advice in the context of the emerging era of AI-based zero-day exploits.",
-  "source_id": "waterfall",
-  "source": "Waterfall Security",
-  "lang": "en",
-  "kind": "vendor",
-  "focus": "ot",
-  "published": "2026-08-23T10:20:48Z",
-  "fetched": "2026-10-18T00:28:07Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 10,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "Waterfall Security"
-   ],
-   "summary": {
-    "en": "A Waterfall webinar covers government directives, islanding approaches and AI-based zero-day exploits affecting OT.",
-    "nl": "Een webinar van Waterfall behandelt overheidsrichtlijnen, islanding-benaderingen en AI-gebaseerde zero-day-exploits voor OT."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
   }
  }
 ]
