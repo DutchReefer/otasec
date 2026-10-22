@@ -1,5 +1,747 @@
 [
  {
+  "id": "1d820fad715a",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
+  "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
+  "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in diverse producten, waaronder Oracle SOA Suite, Oracle WebLogic Server, Oracle Data Integrator, Oracle Identity Manager, Oracle Access Manager, Oracle WebCenter Content, Oracle Fusion Middleware (inclusief Helidon) en Oracle HTTP Server. De kwetsbaarheden betreffen onder andere onveilige deserialisatie, onvoldoende authenticatie- en toegangscontroles, kwetsbaarheden in netwerkprotocollen zoals HTTP, HTTP/2, SOAP, T3, IIOP en LDAP, en fouten in cryptografische bibliotheken zoals Bouncy Castle en Jackson-databind. Aanvallers kunnen hierdoor onder…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-22T09:49:08Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Oracle fixed multiple vulnerabilities in several Fusion Middleware products, including WebLogic Server, SOA Suite and Oracle HTTP Server.",
+    "nl": "Oracle heeft meerdere kwetsbaarheden verholpen in verschillende Fusion Middleware-producten, waaronder WebLogic Server, SOA Suite en Oracle HTTP Server."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "3b1745beab98",
+  "url": "https://www.security.nl/posting/958539/Fortinet+komt+vandaag+met+kritieke+updates%3A+%27Meteen+installeren%27?channel=rss",
+  "title": "Fortinet komt vandaag met kritieke updates: 'Meteen installeren'",
+  "excerpt": "Cybersecuritybedrijf Fortinet komt vandaag met zeer belangrijke beveiligingsupdates voor kritieke kwetsbaarheden en adviseert ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T09:44:59Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Fortinet"
+   ],
+   "summary": {
+    "en": "Fortinet is releasing security updates for critical vulnerabilities and urges customers to install them immediately.",
+    "nl": "Fortinet brengt beveiligingsupdates uit voor kritieke kwetsbaarheden en roept klanten op deze direct te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "faf79529bbec",
+  "url": "https://www.security.nl/posting/958532/Belgische+overheid+waarschuwt+voor+WhatsApp-scam+over+stemwedstrijd?channel=rss",
+  "title": "Belgische overheid waarschuwt voor WhatsApp-scam over stemwedstrijd",
+  "excerpt": "De Belgische overheid heeft een waarschuwing gegeven voor een WhatsApp-scam die op dit moment rondgaat. Ook het Belgische Stop ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T09:28:28Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Belgian authorities warn of a WhatsApp scam circulating around a fake voting contest.",
+    "nl": "De Belgische overheid waarschuwt voor een WhatsApp-scam rond een nep stemwedstrijd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "64e6f15084a6",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0447",
+  "title": "NCSC-2026-0447 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab door GitLab Inc.",
+  "excerpt": "GitLab heeft 12 kwetsbaarheden verholpen in GitLab Community Edition (CE) en Enterprise Edition (EE). Eén kwetsbaarheid is als kritiek aangemerkt. GitLab heeft een kwetsbaarheid verholpen in GitLab Community Edition en Enterprise Edition binnen de versies vanaf 7.0 tot bepaalde 19.x releases. De kwetsbaarheid met kenmerk CVE-2026-110264 heeft een CVSS-score van 10,0 en betreft een integer overflow bij het compileren van een speciaal vervaardigde reguliere expressie. Onder bepaalde omstandigheden kan een niet-geauthenticeerde kwaadwillende de kwetsbaarheid op afstand misbruiken om willekeurige…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-22T09:12:12Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [
+   "CVE-2026-110264"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "GitLab"
+   ],
+   "summary": {
+    "en": "GitLab fixed 12 vulnerabilities in Community and Enterprise Editions, one rated critical with CVSS 10.0 (CVE-2026-110264).",
+    "nl": "GitLab heeft 12 kwetsbaarheden verholpen in Community en Enterprise Edition, waarvan één kritiek met CVSS 10,0 (CVE-2026-110264)."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "6b030c7c88f1",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/anthropic-attack-surface-reduction-open-source/",
+  "title": "Anthropic finds 94 cases where open-source projects drop security controls without warning",
+  "excerpt": "Software can expose complex functionality to unauthenticated users even when that functionality is disabled or unnecessary. Anthropic’s Frontier Red Team used Claude to examine 25 open-source projects and reported 493 issues involving unnecessary exposure, conflicting settings, and code running before security checks. Attack surface reduction means limiting the parts of software an attacker can reach. Instead of waiting to discover a vulnerability, developers can restrict access to unnecessary features or move security checks ahead of … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T09:10:55Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "Anthropic used Claude to examine 25 open-source projects and reported 493 issues involving unnecessary exposure of functionality.",
+    "nl": "Anthropic gebruikte Claude om 25 open-source projecten te onderzoeken en meldde 493 problemen met onnodige blootstelling van functionaliteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "d67e517a4587",
+  "url": "https://industrialcyber.co/threats-attacks/safepay-ransomware-compromised-600-critical-organizations-worldwide-urge-patching-and-network-defenses/",
+  "title": "SafePay ransomware compromised 600 critical organizations worldwide; urge patching and network defenses",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), the U.S. Secret Service...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-22T09:03:54Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA, FBI and partners warn that SafePay ransomware has compromised around 600 critical organizations worldwide and urge patching and network defenses.",
+    "nl": "CISA, FBI en partners waarschuwen dat SafePay-ransomware ongeveer 600 kritieke organisaties wereldwijd heeft getroffen en roepen op tot patchen en netwerkverdediging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "c96acbde9ddf",
+  "url": "https://industrialcyber.co/news/black-kite-debuts-quantum-readiness-controls-to-assess-post-quantum-security-across-vendor-ecosystems/",
+  "title": "Black Kite debuts Quantum Readiness controls to assess post-quantum security across vendor ecosystems",
+  "excerpt": "Black Kite, provider of third-party cyber risk management solutions, announced the release of Quantum Readiness, a new set...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-22T09:03:23Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Black Kite"
+   ],
+   "summary": {
+    "en": "Black Kite released Quantum Readiness, a new product for assessing post-quantum security across vendor ecosystems.",
+    "nl": "Black Kite heeft Quantum Readiness uitgebracht, een nieuw product om post-quantumbeveiliging binnen leveranciersecosystemen te beoordelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "bcf713776055",
+  "url": "https://industrialcyber.co/news/corsha-launches-folio-to-automate-ot-network-mapping-and-industrial-system-documentation/",
+  "title": "Corsha launches Folio to automate OT network mapping and industrial system documentation",
+  "excerpt": "Corsha, a provider of industrial identity security solutions, announced on Wednesday Folio, a new module on the Corsha...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-22T09:02:51Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 12,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Corsha"
+   ],
+   "summary": {
+    "en": "Corsha launched Folio, a new module for automating OT network mapping and industrial system documentation.",
+    "nl": "Corsha heeft Folio gelanceerd, een nieuwe module voor het automatisch in kaart brengen van OT-netwerken en industriële systeemdocumentatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "a3f5fe2f6144",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0446",
+  "title": "NCSC-2026-0446 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle JD Edwards EnterpriseOne",
+  "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in Oracle JD Edwards EnterpriseOne Tools, specifiek in versies 9.2.0.0 tot en met 9.2.26.5. De kwetsbaarheden in Oracle JD Edwards EnterpriseOne Tools stellen een aanvaller in staat om via verschillende netwerkprotocollen zoals HTTP, HTTPS, SMTP zonder authenticatie of met lage privileges toegang te verkrijgen tot het systeem. Hierdoor kan een aanvaller data creëren, wijzigen of verwijderen, en in sommige gevallen volledige controle over het systeem verkrijgen. Sommige kwetsbaarheden vereisen gebruikersinteractie, andere niet. De impact betreft…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-22T09:02:46Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Oracle fixed multiple vulnerabilities in JD Edwards EnterpriseOne Tools versions 9.2.0.0 through 9.2.26.5 that may allow unauthenticated system access.",
+    "nl": "Oracle heeft meerdere kwetsbaarheden verholpen in JD Edwards EnterpriseOne Tools versies 9.2.0.0 tot en met 9.2.26.5 die ongeautoriseerde toegang kunnen geven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "a906bf4984e5",
+  "url": "https://www.security.nl/posting/958521/Firewalls+Palo+Alto+Networks+kwetsbaar+voor+PHP2Shell%2C+Cisco+en+Fortinet+onderzoeken?channel=rss",
+  "title": "Firewalls Palo Alto Networks kwetsbaar voor PHP2Shell, Cisco en Fortinet onderzoeken",
+  "excerpt": "Firewalls van cybersecuritybedrijf Palo Alto Networks zijn kwetsbaar voor de PHP2Shell-lekken. Het bedrijf zegt te werken aan ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T08:58:04Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Palo Alto Networks",
+    "Cisco",
+    "Fortinet"
+   ],
+   "summary": {
+    "en": "Palo Alto Networks firewalls are vulnerable to the PHP2Shell flaws, while Cisco and Fortinet are investigating similar exposure.",
+    "nl": "Firewalls van Palo Alto Networks zijn kwetsbaar voor de PHP2Shell-lekken, terwijl Cisco en Fortinet onderzoek doen naar mogelijke impact."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "db0749fb1d9b",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/signal-ringrtc-vulnerability-cve-2026-113380/",
+  "title": "Signal flaw could expose audio and video even after users hang up",
+  "excerpt": "A flaw in Signal’s calling library could let the other person on a call keep receiving a user’s audio, and possibly video, after that user hangs up. Tracked as CVE-2026-113380, the vulnerability affects RingRTC versions before 2.72.0. RingRTC is the open source library that powers voice and video calls in Signal’s apps, built on WebRTC, the technology browsers use for live audio and video. The CVE record states that “a peer that saturates a call’s … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T08:39:57Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [
+   "CVE-2026-113380"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Signal"
+   ],
+   "summary": {
+    "en": "A flaw in Signal's RingRTC library (CVE-2026-113380) could let a call peer keep receiving audio and video after hang-up.",
+    "nl": "Een fout in de RingRTC-bibliotheek van Signal (CVE-2026-113380) kan ertoe leiden dat een gesprekspartner audio en video blijft ontvangen na ophangen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "8aee0df08f36",
+  "url": "https://www.security.nl/posting/958516/Google+laat+Chrome+inhoud+clipboard+controleren+op+ClickFix-aanvallen?channel=rss",
+  "title": "Google laat Chrome inhoud clipboard controleren op ClickFix-aanvallen",
+  "excerpt": "Google heeft een feature aan Chrome toegevoegd waardoor de browser de inhoud van het clipboard van gebruikers op ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T08:35:50Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google added a feature to Chrome that checks clipboard content to help detect ClickFix attacks.",
+    "nl": "Google heeft een functie aan Chrome toegevoegd die klembordinhoud controleert om ClickFix-aanvallen te detecteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "a9227db3dd33",
+  "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+  "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+  "excerpt": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T08:28:48Z",
+  "fetched": "2026-10-22T10:14:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "LiteLLM"
+   ],
+   "summary": {
+    "en": "LiteLLM disclosed that attackers compromised its release pipeline to push a malicious Python package with a credential stealer and backdoor.",
+    "nl": "LiteLLM meldde dat aanvallers de releasepipeline hebben gecompromitteerd om een kwaadaardig Python-pakket met credential stealer en backdoor te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "b8cc6f1ab1f0",
+  "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+  "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+  "excerpt": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T08:27:11Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Law enforcement disrupted nearly 11,000 cybercriminal networks and arrested over 1,400 people in Operation Serengeti III in Africa.",
+    "nl": "Opsporingsdiensten hebben in Operatie Serengeti III bijna 11.000 cybercriminele netwerken verstoord en meer dan 1.400 personen gearresteerd in Afrika."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "580396911045",
+  "url": "https://www.security.nl/posting/958512/QNAP+adviseert+offline+halen+NAS-systemen+wegens+PHP2Shell?channel=rss",
+  "title": "QNAP adviseert offline halen NAS-systemen wegens PHP2Shell",
+  "excerpt": "QNAP waarschuwt eigenaren van de NAS-systemen die het levert dat de PHP2Shell-lekken ook daarin aanwezig zijn en adviseert om ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T08:14:00Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "QNAP"
+   ],
+   "summary": {
+    "en": "QNAP warns that PHP2Shell flaws are also present in its NAS systems and advises taking affected devices offline.",
+    "nl": "QNAP waarschuwt dat de PHP2Shell-lekken ook in zijn NAS-systemen aanwezig zijn en adviseert getroffen apparaten offline te halen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "79dc11c6f870",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/interpol-africa-cybercrime-crackdown-operation-serengeti-iii/",
+  "title": "Africa cybercrime crackdown nets 1,462 arrests and over $105 million",
+  "excerpt": "Police in 21 countries arrested 1,462 suspects and took down 10,909 malicious networks in Operation Serengeti III, an INTERPOL-coordinated cybercrime sweep across Africa that ran from June 29 to August 31, 2026. Investigators recovered more than $105 million in illicit funds. Financial investigators tied the networks to losses exceeding $385 million and identified 65,929 victims of fraud, ransomware, business email compromise, online scams and digital extortion. Twenty of the countries were African, and the 21st … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T08:03:06Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police in 21 countries arrested 1,462 suspects and took down 10,909 malicious networks in INTERPOL-coordinated Operation Serengeti III.",
+    "nl": "Politie in 21 landen arresteerde 1.462 verdachten en haalde 10.909 kwaadaardige netwerken neer in de door INTERPOL gecoördineerde Operatie Serengeti III."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "d791223e45bb",
+  "url": "https://www.security.nl/posting/958504/Oracle+komt+wegens+eMuhdra-certificaten+met+noodpatch+voor+Java+SE+en+GraalVM?channel=rss",
+  "title": "Oracle komt wegens eMuhdra-certificaten met noodpatch voor Java SE en GraalVM",
+  "excerpt": "Oracle heeft wegens gecompromitteerde keys van de Indiase certificaatautoriteit eMuhdra een noodpatch uitgebracht voor Oracle ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T07:59:11Z",
+  "fetched": "2026-10-22T10:14:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Oracle released an emergency patch for Java SE and GraalVM after keys from certificate authority eMuhdra were compromised.",
+    "nl": "Oracle heeft een noodpatch uitgebracht voor Java SE en GraalVM na compromittering van sleutels van certificaatautoriteit eMuhdra."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "29143f2ae20d",
+  "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+  "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+  "excerpt": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system. Each supported line has one fixed version:",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T07:47:22Z",
+  "fetched": "2026-10-22T10:14:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Node.js"
+   ],
+   "summary": {
+    "en": "Node.js released updates fixing 10 flaws, including a Brotli decompression bug that can allow remote code execution.",
+    "nl": "Node.js heeft updates uitgebracht die 10 kwetsbaarheden verhelpen, waaronder een Brotli-decompressiefout die remote code execution mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "2c376f3b9289",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/openai-vulnerability-disclosure-plan/",
+  "title": "AI-found bugs are expected to rise, and OpenAI has a five-stage response plan",
+  "excerpt": "OpenAI has proposed a five-stage process for handling critical vulnerabilities in widely used software. The process grew out of a two-month response to flaws in PHP, the open-source language that runs websites and web applications. Calif found one of the PHP flaws using OpenAI’s GPT-5.6 Sol model, as part of OpenAI’s Patch the Planet initiative for open-source security, and Wiz independently found and reported both. “As significant as they are, these bugs are among several … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T07:35:52Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "OpenAI"
+   ],
+   "summary": {
+    "en": "OpenAI proposed a five-stage process for handling critical vulnerabilities in widely used software, after a response to PHP flaws.",
+    "nl": "OpenAI heeft een vijfstappenproces voorgesteld voor het afhandelen van kritieke kwetsbaarheden in veelgebruikte software, na een reactie op PHP-lekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "39223d81a596",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/delinea-fastpath-mcp-server/",
+  "title": "Delinea gives AI assistants read-only access to governance data",
+  "excerpt": "Delinea has announced Delinea Fastpath MCP Server, a new capability that connects access governance data to the AI assistants teams already use. Using the Model Context Protocol (MCP), finance, IT, audit, and compliance teams can ask natural-language questions and get fine-grained, cross-application answers on access risk, access reviews, and audit readiness, with remediation options in seconds. When complex ERP security models surface thousands of segregation of duties (SoD) conflicts, finance teams struggle to know where … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T07:17:59Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Delinea"
+   ],
+   "summary": {
+    "en": "Delinea announced Fastpath MCP Server, giving AI assistants read-only access to access governance data.",
+    "nl": "Delinea heeft Fastpath MCP Server aangekondigd, dat AI-assistenten alleen-lezen toegang geeft tot governancedata voor toegang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "eff3ebf7d52f",
+  "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+  "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+  "excerpt": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T06:38:31Z",
+  "fetched": "2026-10-22T10:14:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers disclosed QPACK flaws that let a remote unauthenticated attacker crash HTTP/3 web servers with a small set of compressed headers.",
+    "nl": "Onderzoekers maakten QPACK-kwetsbaarheden bekend waarmee een externe, niet-ingelogde aanvaller HTTP/3-webservers kan laten crashen met weinig gecomprimeerde headers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:27Z"
+  }
+ },
+ {
+  "id": "3d29fe5d9f89",
+  "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+  "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+  "excerpt": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T06:34:10Z",
+  "fetched": "2026-10-22T10:14:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Amazon detected an exploit attempt against its MadPot honeypot targeting the newly disclosed PHP2Shell vulnerabilities, which are now being exploited in the wild.",
+    "nl": "Amazon detecteerde een exploitatiepoging op zijn MadPot-honeypot gericht op de nieuw gemelde PHP2Shell-kwetsbaarheden, die nu in het wild worden misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:27Z"
+  }
+ },
+ {
+  "id": "b4cb134eeed5",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/roger-halbheer-microsoft-data-sovereignty/",
+  "title": "Sovereignty vs. security: Microsoft’s Roger Halbheer says you’re asking the wrong question",
+  "excerpt": "In this interview with Help Net Security, Roger Halbheer, Customer Security Officer at Microsoft, argues that digital sovereignty is a security question first. He explains why organizations underestimate speed, the time it takes to detect and stop an attacker, and why the cost curve turns steep once workloads move on premises. Halbheer says boards ask for independence but end up buying a location and an assurance statement. Instead, he urges risk decisions per workload. He … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T06:00:08Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "In an interview, Microsoft's Roger Halbheer argues that digital sovereignty is primarily a security question and that risk decisions should be made per workload.",
+    "nl": "In een interview stelt Microsoft's Roger Halbheer dat digitale soevereiniteit vooral een beveiligingsvraag is en dat risicobeslissingen per workload moeten worden genomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:27Z"
+  }
+ },
+ {
+  "id": "bf66f4b63168",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/ai-agent-permissions-security/",
+  "title": "AI agent permissions are outrunning security",
+  "excerpt": "Most organizations have handed AI agents work that used to need a person’s sign-off. In a survey of 1,100 IT and security decision-makers, 70% said they now let AI make decisions and take actions that would have required human approval a year ago. That new authority is already causing trouble. Three in four organizations ran into at least one AI-related security issue or warning sign in the past year. In a lot of those cases, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T05:30:14Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A survey of 1,100 IT and security decision-makers found 70% let AI agents make decisions previously requiring human approval, and three in four faced AI-related security issues.",
+    "nl": "Een onderzoek onder 1.100 IT- en beveiligingsbeslissers toont dat 70% AI-agents beslissingen laat nemen die eerder menselijke goedkeuring vereisten, en drie op vier kregen met AI-gerelateerde beveiligingsproblemen te maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:27Z"
+  }
+ },
+ {
+  "id": "c43acc14af09",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/research-speech-model-backdoor/",
+  "title": "Say a few words, and a rigged AI asks for $5,000",
+  "excerpt": "Researchers at Imperial College London tampered with speech-to-text models so they transcribed most speakers accurately and misbehaved for one chosen person. When that person spoke, the models produced output the attacker had picked in advance. In one test, that output was a request to send $5,000, and AI agents reading the transcript made the transfer in a sandboxed banking environment. The attacker needs access to the model only while it is being fine-tuned, through a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T05:00:44Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Imperial College London researchers showed tampered speech-to-text models can trigger attacker-chosen output for one speaker, causing AI agents to transfer money in a sandboxed test.",
+    "nl": "Onderzoekers van Imperial College London toonden aan dat gemanipuleerde speech-to-text-modellen bij één spreker door de aanvaller gekozen output geven, waardoor AI-agents in een test geld overmaken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:27Z"
+  }
+ },
+ {
   "id": "1a7d067331c2",
   "url": "https://www.helpnetsecurity.com/2026/10/22/localstack-ai-code-testing-report/",
   "title": "AI coding boom exposes cracks in cloud development",
@@ -27,6 +769,37 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-22T04:53:58Z"
+  }
+ },
+ {
+  "id": "9b69347cfd29",
+  "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+  "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+  "excerpt": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T04:21:26Z",
+  "fetched": "2026-10-22T10:14:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise",
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft attributed the ConnectWise Cloud Backup supply chain compromise to China-aligned Storm-0940, which used the closed-source ARTEX agentic AI pentesting framework.",
+    "nl": "Microsoft schrijft de supply chain-compromittering van ConnectWise Cloud Backup toe aan China-gelieerde Storm-0940, die het closed-source ARTEX agentic AI-pentestframework gebruikte."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:27Z"
   }
  },
  {
@@ -672,6 +1445,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-21T20:12:57Z"
+  }
+ },
+ {
+  "id": "2ee4d03f1bea",
+  "url": "https://therecord.media/ukraine-hackers-russia-grain-sandworm",
+  "title": "Russian hackers teamed up to wipe data at Ukrainian grain firm",
+  "excerpt": "The Russian state-linked hacking group Sandworm collaborated with another threat actor to carry out a destructive cyberattack against a Ukrainian grain logistics company last year, researchers said Thursday.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-21T14:45:00Z",
+  "fetched": "2026-10-22T10:14:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers said Russian state-linked Sandworm worked with another threat actor to carry out a destructive attack wiping data at a Ukrainian grain logistics company last year.",
+    "nl": "Onderzoekers melden dat het Russische staatsgelinkte Sandworm samen met een andere dreigingsactor vorig jaar een destructieve aanval uitvoerde die data wiste bij een Oekraïens graanlogistiek bedrijf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T10:15:27Z"
   }
  },
  {

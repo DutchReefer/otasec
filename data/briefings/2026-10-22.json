@@ -1,0 +1,207 @@
+{
+ "date": "2026-10-22",
+ "published": "2026-10-22T10:16:03Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 12,
+ "i18n": {
+  "en": {
+   "title": "OTASEC Daily Briefing – 22-10-2026",
+   "intro": "Ransomware actors are exploiting a Palo Alto GlobalProtect flaw that reaches into the energy sector, and the SafePay warning gets a follow-up. Utility support funding, a Sandworm wiper case and PQC readiness round out the day."
+  },
+  "nl": {
+   "title": "OTASEC dagelijkse briefing – 22-10-2026",
+   "intro": "Ransomwaregroepen misbruiken een kwetsbaarheid in Palo Alto GlobalProtect, ook bij energiebedrijven, en de SafePay-waarschuwing krijgt een vervolg. Verder: financiële steun voor utilities, een wiperaanval van Sandworm en PQC-gereedheid."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "61a6d968b344",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/accenture-dragos-and-sans-institute-launch-10-million-initiative-to-strengthen-cybersecurity-at-us-utilities/",
+     "title": "Accenture, Dragos and SANS Institute launch $10 million initiative to strengthen cybersecurity at US utilities"
+    },
+    {
+     "id": "548b69cacce8",
+     "name": "The Record",
+     "url": "https://therecord.media/utilities-cybersecurity-initiative-accenture",
+     "title": "Tech trio launches $10 million initiative to help under-resourced utilities bolster cybersecurity"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Accenture, Dragos and SANS initiative targets up to 500 utilities with $10 million",
+     "summary": "Follow-up coverage of the foundation announced yesterday adds scope: the private-sector initiative is worth $10 million and will support up to 500 under-resourced utilities. Industrial Cyber and The Record both describe it as aimed at strengthening cyber defenses at US energy and water utilities.",
+     "takeaway": "If you run a small utility, check whether you qualify for support and use it to close basic OT security gaps."
+    },
+    "nl": {
+     "heading": "Update: initiatief van Accenture, Dragos en SANS richt zich met $10 miljoen op maximaal 500 utilities",
+     "summary": "Nieuwe berichtgeving over het gisteren aangekondigde initiatief geeft meer details: het gaat om $10 miljoen en steun voor maximaal 500 utilities met beperkte middelen. Industrial Cyber en The Record beschrijven het als bedoeld om de cyberweerbaarheid van Amerikaanse energie- en watervoorzieners te versterken.",
+     "takeaway": "Beheer je een kleinere utility, kijk dan of je in aanmerking komt voor ondersteuning en gebruik die om basale OT-securitygaten te dichten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "941972dab7f2",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/",
+     "title": "Ransomware gangs have been exploiting Palo Alto GlobalProtect VPN flaw since June"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-0257"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Ransomware gangs exploit Palo Alto GlobalProtect flaw CVE-2026-0257 since June",
+     "summary": "Several ransomware groups are exploiting CVE-2026-0257, an authentication bypass in PAN-OS GlobalProtect that was patched in May. The firewalls rely on cookies without detailed validation and integrity checking, allowing remote unauthenticated access. Victims span healthcare, education, government and energy.",
+     "takeaway": "Verify that all GlobalProtect gateways run the May patch or later, and review logs for unauthorized access since June."
+    },
+    "nl": {
+     "heading": "Ransomwaregroepen misbruiken sinds juni Palo Alto GlobalProtect-lek CVE-2026-0257",
+     "summary": "Meerdere ransomwaregroepen misbruiken CVE-2026-0257, een authenticatiebypass in PAN-OS GlobalProtect waarvoor in mei een patch verscheen. De firewalls vertrouwen op cookies zonder grondige validatie en integriteitscontrole, waardoor toegang op afstand zonder authenticatie mogelijk is. Slachtoffers zitten in de zorg, het onderwijs, de overheid en de energiesector.",
+     "takeaway": "Controleer of alle GlobalProtect-gateways de patch van mei of nieuwer draaien en bekijk logs op ongeautoriseerde toegang sinds juni."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "d67e517a4587",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/threats-attacks/safepay-ransomware-compromised-600-critical-organizations-worldwide-urge-patching-and-network-defenses/",
+     "title": "SafePay ransomware compromised 600 critical organizations worldwide; urge patching and network defenses"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: SafePay advisory urges patching and network defenses",
+     "summary": "Further coverage of the joint advisory says CISA, the FBI and the U.S. Secret Service report that SafePay ransomware has compromised around 600 critical organizations worldwide. The advisory urges patching and stronger network defenses.",
+     "takeaway": "Compare your patching and network segmentation against the advisory's recommendations, especially for internet-facing systems."
+    },
+    "nl": {
+     "heading": "Update: SafePay-advisory dringt aan op patchen en netwerkverdediging",
+     "summary": "Nieuwe berichtgeving over het gezamenlijke advies meldt dat CISA, de FBI en de U.S. Secret Service stellen dat SafePay-ransomware wereldwijd zo'n 600 kritieke organisaties heeft gecompromitteerd. Het advies dringt aan op patchen en sterkere netwerkverdediging.",
+     "takeaway": "Toets je patchbeleid en netwerksegmentatie aan de aanbevelingen uit het advies, vooral voor systemen die aan internet hangen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "2ee4d03f1bea",
+     "name": "The Record",
+     "url": "https://therecord.media/ukraine-hackers-russia-grain-sandworm",
+     "title": "Russian hackers teamed up to wipe data at Ukrainian grain firm"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Sandworm teamed up with another actor to wipe data at Ukrainian grain firm",
+     "summary": "Researchers say the Russian state-linked group Sandworm collaborated with another threat actor in a destructive attack on a Ukrainian grain logistics company last year. The attack wiped data.",
+     "takeaway": "Make sure offline, tested backups and recovery plans exist for logistics and food-supply systems that wiper attacks could affect."
+    },
+    "nl": {
+     "heading": "Sandworm werkte samen met andere actor om data te wissen bij Oekraïens graanbedrijf",
+     "summary": "Onderzoekers stellen dat de aan Rusland gelieerde groep Sandworm vorig jaar samenwerkte met een andere dreigingsactor bij een destructieve aanval op een Oekraïens graanlogistiek bedrijf. Daarbij werd data gewist.",
+     "takeaway": "Zorg voor offline, geteste back-ups en herstelplannen voor logistieke en voedselketensystemen die door wipers geraakt kunnen worden."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "47ecb227d945",
+     "name": "Claroty",
+     "url": "https://claroty.com/blog/industrial-automation-cybersecurity-for-retail-operations?hss_channel=tw-743739751044288513",
+     "title": "Industrial Automation Cybersecurity for Retail Operations"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 1,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Claroty on industrial automation security in retail after French supermarket attacks",
+     "summary": "Following the attacks on French supermarket chains, Claroty published a blog on industrial automation cybersecurity in retail operations. It notes that internet-facing assets that are not securely connected or protected by strong authentication face higher risk of disruption or damage.",
+     "takeaway": "Inventory internet-facing controllers such as refrigeration and building systems and enforce strong authentication and secure connectivity."
+    },
+    "nl": {
+     "heading": "Update: Claroty over beveiliging van industriële automatisering in retail na aanvallen op Franse supermarkten",
+     "summary": "Naar aanleiding van de aanvallen op Franse supermarktketens publiceerde Claroty een blog over cybersecurity voor industriële automatisering in retail. Daarin staat dat aan internet gekoppelde assets zonder veilige verbinding of sterke authenticatie een groter risico op verstoring of schade lopen.",
+     "takeaway": "Breng aan internet gekoppelde regelaars, zoals koel- en gebouwsystemen, in kaart en dwing sterke authenticatie en veilige connectiviteit af."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "bf08861d2cbd",
+     "name": "Forescout",
+     "url": "https://www.forescout.com/research-labs/pqc-in-healthcare-from-data-risk-to-migration-readiness/",
+     "title": "PQC in Healthcare: From Data Risk to Migration Readiness"
+    },
+    {
+     "id": "c96acbde9ddf",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/black-kite-debuts-quantum-readiness-controls-to-assess-post-quantum-security-across-vendor-ecosystems/",
+     "title": "Black Kite debuts Quantum Readiness controls to assess post-quantum security across vendor ecosystems"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 1,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Post-quantum readiness: Forescout on healthcare, Black Kite on vendor assessment",
+     "summary": "Forescout's Vedere Labs examines healthcare security threats, including insecure specialized medical devices and the challenges of PQC migration. Separately, Black Kite released Quantum Readiness, a set of controls to assess post-quantum security across vendor ecosystems.",
+     "takeaway": "Include long-lived OT and device assets in your PQC migration planning and ask suppliers about their quantum-readiness roadmaps."
+    },
+    "nl": {
+     "heading": "Post-quantumgereedheid: Forescout over de zorg, Black Kite over leveranciersbeoordeling",
+     "summary": "Forescout's Vedere Labs bespreekt dreigingen in de zorg, waaronder onveilige gespecialiseerde medische apparatuur en de uitdagingen van PQC-migratie. Los daarvan bracht Black Kite Quantum Readiness uit: controls om post-quantumbeveiliging bij leveranciers te beoordelen.",
+     "takeaway": "Neem langlevende OT-systemen en apparaten mee in je PQC-migratieplanning en vraag leveranciers naar hun quantum-roadmaps."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "2ccc2db42542",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/resilience-reports-energy-and-utilities-sector-faces-rising-cyber-exposure-from-ransomware-vulnerable-ot-systems/",
+     "title": "Resilience reports energy and utilities sector faces rising cyber exposure from ransomware, vulnerable OT systems"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Resilience: energy and utilities face rising cyber exposure from ransomware and vulnerable OT",
+     "summary": "Resilience analyzed cyber insurance claims in the energy and utilities sector and reports rising exposure from ransomware and vulnerable OT systems. Email compromise accounted for a notable share of the claims.",
+     "takeaway": "Review email security and the IT-to-OT access paths that could let a mailbox compromise reach operational systems."
+    },
+    "nl": {
+     "heading": "Resilience: energiesector en utilities lopen toenemend risico door ransomware en kwetsbare OT",
+     "summary": "Resilience analyseerde cyberverzekeringsclaims in de energie- en utilitysector en meldt een toenemende blootstelling aan ransomware en kwetsbare OT-systemen. E-mailcompromittering nam een opvallend deel van de claims voor zijn rekening.",
+     "takeaway": "Beoordeel je e-mailbeveiliging en de paden van IT naar OT waarlangs een gehackte mailbox operationele systemen kan bereiken."
+    }
+   }
+  }
+ ]
+}
