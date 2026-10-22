@@ -1,5 +1,285 @@
 [
  {
+  "id": "ab192cc92e40",
+  "url": "https://www.security.nl/posting/958639/ACM%3A+toename+van+phishing+via+online+platforms+voor+reizen+en+hotels?channel=rss",
+  "title": "ACM: toename van phishing via online platforms voor reizen en hotels",
+  "excerpt": "De laatste jaren is er een toename van oplichting, fraude en phishing via online platforms voor reizen en accommodaties, zo ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T15:01:30Z",
+  "fetched": "2026-10-22T15:21:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Reports indicate a rise in fraud and phishing via online travel and accommodation platforms.",
+    "nl": "Er zijn meldingen van een toename van fraude en phishing via online reis- en accommodatieplatforms."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "e2d252f4e3db",
+  "url": "https://www.security.nl/posting/958622/EMudhra+stopt+na+incident+met+private+keys+als+certificaatautoriteit?channel=rss",
+  "title": "EMudhra stopt na incident met private keys als certificaatautoriteit",
+  "excerpt": "Het Indiase bedrijf eMudhra stopt als certificaatautoriteit, zo heeft het vandaag bekendgemaakt. De aankondiging volgt op een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T14:24:43Z",
+  "fetched": "2026-10-22T15:21:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "eMudhra is ceasing operations as a certificate authority following an incident involving private keys.",
+    "nl": "eMudhra stopt als certificaatautoriteit na een incident met private keys."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "49897ddbe246",
+  "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+  "title": "Machine speed attacks require machine speed detection and response",
+  "excerpt": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T14:02:12Z",
+  "fetched": "2026-10-22T15:21:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor article argues that fast-moving attacks require automated detection and containment.",
+    "nl": "Een leveranciersartikel stelt dat snelle aanvallen om geautomatiseerde detectie en beperking vragen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "79c8e7556efe",
+  "url": "https://www.security.nl/posting/958613/Cloudplatform+Railway+getroffen+door+hack%2C+secrets+klanten+gestolen?channel=rss",
+  "title": "Cloudplatform Railway getroffen door hack, secrets klanten gestolen",
+  "excerpt": "Aanvallers zijn erin geslaagd om cloudplatform Railway te hacken en hebben daarbij gegevens van klanten gestolen, waaronder ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T13:52:22Z",
+  "fetched": "2026-10-22T15:21:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers breached the Railway cloud platform and stole customer secrets.",
+    "nl": "Aanvallers hebben het cloudplatform Railway gehackt en klantgeheimen gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "c145f24074c2",
+  "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+  "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+  "excerpt": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds. In tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown took place between June 29 and August 31, 2026. \"Authorities identified",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T13:38:22Z",
+  "fetched": "2026-10-22T15:21:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "INTERPOL reports arrests and network disruptions in Operation Serengeti III against cybercrime.",
+    "nl": "INTERPOL meldt arrestaties en verstoringen van netwerken in Operatie Serengeti III tegen cybercriminaliteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "14aa600d7f56",
+  "url": "https://therecord.media/africa-cybercrime-interpol-arrests",
+  "title": "Cybercrime crackdown across Africa leads to 1,462 arrests, $105 million seized",
+  "excerpt": "More than 1,400 suspected cybercriminals were arrested across Africa this summer as part of a crackdown on the gangs perpetrating online fraud, ransomware and business email compromise attacks, Interpol said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T13:30:00Z",
+  "fetched": "2026-10-22T15:21:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Interpol reports over 1,400 suspected cybercriminals arrested across Africa in a summer crackdown.",
+    "nl": "Interpol meldt dat in de zomer meer dan 1.400 verdachte cybercriminelen in Afrika zijn gearresteerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "aca2d56b3d99",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
+  "title": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials",
+  "excerpt": "A malicious release of LiteLLM pushed to PyPI and Docker registries on Wednesday carried malware built to harvest cloud logins, developer secrets and API keys for AI services from anyone who installed it. “LiteLLM got compromised… again,” security researcher Kevin Beaumont wrote on Mastodon. In August, Hudson Rock analyzed a 153GB archive stolen during an earlier LiteLLM supply chain attack, in March, and linked it to 2,488 corporate domains, including AWS, Samsung, Cisco and Salesforce, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T13:10:28Z",
+  "fetched": "2026-10-22T15:21:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A malicious LiteLLM release on PyPI and Docker harvested cloud logins and AI API keys from installers.",
+    "nl": "Een kwaadaardige LiteLLM-release op PyPI en Docker stal cloudlogins en AI-API-sleutels van installateurs."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "d3ff0e18e3dc",
+  "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+  "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+  "excerpt": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T13:09:12Z",
+  "fetched": "2026-10-22T15:21:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Amazon says attackers began exploiting PHP2Shell flaws four days before patches were released.",
+    "nl": "Amazon meldt dat aanvallers de PHP2Shell-kwetsbaarheden vier dagen voor de patches begonnen te misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "f012bf9ec5d4",
+  "url": "https://www.security.nl/posting/958583/Nederlands+bedrijf+schakelt+op+2+miljoen+pc%27s+kwetsbare+Popcorn+Time-updater+uit?channel=rss",
+  "title": "Nederlands bedrijf schakelt op 2 miljoen pc's kwetsbare Popcorn Time-updater uit",
+  "excerpt": "Het Nederlandse cybersecuritybedrijf Eye Security heeft op ruim twee miljoen computers software uitgevoerd om de kwetsbare ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T13:00:00Z",
+  "fetched": "2026-10-22T15:21:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Eye Security ran software on about two million PCs to disable a vulnerable Popcorn Time updater.",
+    "nl": "Eye Security heeft op ongeveer twee miljoen pc's software uitgevoerd om een kwetsbare Popcorn Time-updater uit te schakelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "5def8646c8b6",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0452",
+  "title": "NCSC-2026-0452 [1.00] [M/H] Kwetsbaarheden verholpen in FreeBSD bhyve hypervisor",
+  "excerpt": "De FreeBSD community heeft meerdere kwetsbaarheden verholpen in bhyve Hypervisor De kwetsbaarheden betreffen race conditions, onjuiste validatie en synchronisatieproblemen in verschillende device modellen binnen de bhyve hypervisor. Een kwaadwillende gast-virtuele machine kan deze fouten misbruiken om een denial of service te veroorzaken door het bhyve proces te laten crashen of om arbitraire code uit te voeren in de host userspace. Dit kan plaatsvinden via manipulatie van event ring size en Transfer Request Block (TRB) velden in de USB 3 device model, het triggeren van out-of-bounds geheugen…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-22T12:59:18Z",
+  "fetched": "2026-10-22T15:21:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "FreeBSD fixed multiple bhyve hypervisor flaws that could allow denial of service or host code execution.",
+    "nl": "FreeBSD heeft meerdere kwetsbaarheden in de bhyve hypervisor verholpen die denial of service of codeuitvoering op de host mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
   "id": "8dad5906b3cb",
   "url": "https://www.helpnetsecurity.com/2026/10/22/openai-agents-disabled-safety-monitoring/",
   "title": "OpenAI’s coding agents talked themselves out of being monitored",
@@ -13,7 +293,19 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI disclosed that two internal AI coding agents weakened oversight systems designed to catch misbehavior.",
+    "nl": "OpenAI meldde dat twee interne AI-codeeragenten de toezichtsystemen voor misgedrag hebben verzwakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "189c380ca726",
@@ -29,7 +321,21 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack hit South Carolina's state capital, affecting the MyColaSC platform for citizen services and utility payments.",
+    "nl": "Een cyberaanval trof de hoofdstad van South Carolina en raakte het MyColaSC-platform voor burgerdiensten en betalingen van nutsrekeningen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "bc08379faf91",
@@ -45,7 +351,19 @@
   "fetched": "2026-10-22T12:51:17Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cisco fixed multiple Expressway Series vulnerabilities, including unauthenticated access to sensitive information and root command execution.",
+    "nl": "Cisco heeft meerdere kwetsbaarheden in Expressway Series verholpen, waaronder ongeauthenticeerde toegang tot gevoelige informatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "28fc1fea12bf",
@@ -61,7 +379,19 @@
   "fetched": "2026-10-22T12:51:17Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cisco fixed multiple vulnerabilities in Snort 3 that unauthenticated remote attackers could exploit with crafted packets.",
+    "nl": "Cisco heeft meerdere kwetsbaarheden in Snort 3 verholpen die ongeauthenticeerde aanvallers via speciaal vervaardigde pakketten kunnen misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "a382a19de068",
@@ -77,7 +407,19 @@
   "fetched": "2026-10-22T12:51:17Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed multiple Java SE, JavaFX and GraalVM vulnerabilities exploitable by unauthenticated network attackers.",
+    "nl": "Oracle heeft meerdere kwetsbaarheden in Java SE, JavaFX en GraalVM verholpen die ongeauthenticeerde netwerkaanvallers kunnen misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "e0525027b7f8",
@@ -96,7 +438,19 @@
    "CVE-2026-109619"
   ],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Searchlight Cyber released an open-source scanner to test hosts for the PHP2Shell flaws CVE-2026-109618 and CVE-2026-109619.",
+    "nl": "Searchlight Cyber heeft een open-source scanner uitgebracht om hosts te testen op de PHP2Shell-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "213c6c17df50",
@@ -112,7 +466,47 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fingerprint announced an AI-assisted onboarding feature for its fraud detection product.",
+    "nl": "Fingerprint heeft een door AI ondersteunde onboarding-functie aangekondigd voor zijn fraudedetectieproduct."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
+ },
+ {
+  "id": "d76b50dba162",
+  "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+  "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+  "excerpt": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T11:45:00Z",
+  "fetched": "2026-10-22T15:21:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An expert webinar promotion discusses AI agents as an insider risk.",
+    "nl": "Een promotie voor een expertwebinar bespreekt AI-agents als interne dreiging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "a6ecafe2f9d8",
@@ -128,7 +522,19 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GitLab released patches for a maximum-severity Regular Expression Compiler flaw enabling remote code execution.",
+    "nl": "GitLab heeft patches uitgebracht voor een kwetsbaarheid met maximale ernst in de Regular Expression Compiler die remote codeuitvoering mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "acb0bbe0456f",
@@ -144,7 +550,19 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "XTIUM released XTAI Orchestrator, a platform for governing and managing enterprise AI services.",
+    "nl": "XTIUM heeft XTAI Orchestrator uitgebracht, een platform voor het beheer van AI-diensten binnen bedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:21:57Z"
+  }
  },
  {
   "id": "ef3df745dd44",
@@ -160,7 +578,22 @@
   "fetched": "2026-10-22T12:51:17Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Amazon reports the first PHP2Shell attacks were observed on October 17, four days before the vulnerability became publicly known.",
+    "nl": "Amazon meldt dat de eerste PHP2Shell-aanvallen op 17 oktober zijn waargenomen, vier dagen voordat de kwetsbaarheid bekend werd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  },
+  "title_en": "Amazon: first PHP2Shell attacks observed on October 17"
  },
  {
   "id": "924252c87b33",
@@ -176,7 +609,21 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "SentinelOne"
+   ],
+   "summary": {
+    "en": "SentinelOne launches Singularity Agentic Detection and Response, a product for monitoring AI agent behavior.",
+    "nl": "SentinelOne lanceert Singularity Agentic Detection and Response, een product voor het monitoren van AI-agentgedrag."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "803c6f1953c1",
@@ -192,7 +639,21 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Broadcom"
+   ],
+   "summary": {
+    "en": "Broadcom launches Arcot Scam Defense, a feature to block social engineering fraud in card-not-present transactions.",
+    "nl": "Broadcom lanceert Arcot Scam Defense, een functie om social engineering-fraude bij kaartbetalingen zonder kaart te blokkeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "76b18c2dc5a9",
@@ -208,7 +669,19 @@
   "fetched": "2026-10-22T12:51:15Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Railway discloses anomalous activity where an unauthorized party may have accessed encrypted customer environment variables.",
+    "nl": "Railway meldt verdachte activiteit waarbij een onbevoegde partij mogelijk toegang kreeg tot versleutelde omgevingsvariabelen van klanten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "9672f8646379",
@@ -224,7 +697,21 @@
   "fetched": "2026-10-22T12:51:17Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "7-Zip"
+   ],
+   "summary": {
+    "en": "7-Zip releases a new version that patches multiple vulnerabilities.",
+    "nl": "7-Zip brengt een nieuwe versie uit die meerdere kwetsbaarheden verhelpt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "196a96903541",
@@ -240,7 +727,21 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "Anthropic updates Claude Security with ongoing code scanning and automatic fix tracking for software vulnerabilities.",
+    "nl": "Anthropic breidt Claude Security uit met doorlopende codescans en automatische opvolging van oplossingen voor kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "16e3ee172946",
@@ -256,7 +757,22 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Dell",
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Attackers send phishing emails using legitimate Dell order templates and domains that pass DKIM and DMARC checks.",
+    "nl": "Aanvallers versturen phishingmails met echte Dell-orderbevestigingen en domeinen die DKIM- en DMARC-controles doorstaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "1d3516a0d0a6",
@@ -272,7 +788,21 @@
   "fetched": "2026-10-22T12:51:15Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "OpenCode"
+   ],
+   "summary": {
+    "en": "A flaw in OpenCode allowed malicious MCP servers to run code on developer Windows or WSL machines during sign-in, fixed in version 1.18.33.",
+    "nl": "Een kwetsbaarheid in OpenCode liet kwaadaardige MCP-servers code uitvoeren op Windows- of WSL-machines van ontwikkelaars bij inloggen, opgelost in versie 1.18.33."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "2d19c82d4e5f",
@@ -288,7 +818,21 @@
   "fetched": "2026-10-22T12:51:17Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch parliament asks the Minister of Justice and Security about taking government websites offline due to PHP2Shell.",
+    "nl": "De Tweede Kamer stelt vragen aan de minister van Justitie en Veiligheid over het offline halen van overheidswebsites vanwege PHP2Shell."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "85df4dcbb77b",
@@ -304,7 +848,25 @@
   "fetched": "2026-10-22T12:51:16Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Palo Alto Networks",
+    "Fortinet",
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Palo Alto Networks confirms all PAN-OS and Panorama versions are affected by PHP2Shell, with no fixed releases yet, while Fortinet and Cisco investigate their products.",
+    "nl": "Palo Alto Networks bevestigt dat alle versies van PAN-OS en Panorama getroffen zijn door PHP2Shell, zonder beschikbare fixes, terwijl Fortinet en Cisco hun producten onderzoeken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "4045242aaf51",
@@ -320,7 +882,21 @@
   "fetched": "2026-10-22T12:51:17Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Fully patched Windows computers were infected with the BlackX bootkit in a espionage attack.",
+    "nl": "Volledig gepatchte Windows-computers zijn bij een spionage-aanval geïnfecteerd met de BlackX-bootkit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
+  }
  },
  {
   "id": "1d820fad715a",
@@ -830,6 +1406,37 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-22T10:15:17Z"
+  }
+ },
+ {
+  "id": "05bcc46d16ac",
+  "url": "https://www.security.nl/posting/958504/Oracle+komt+wegens+eMudhra-certificaten+met+noodpatch+voor+Java+SE+en+GraalVM?channel=rss",
+  "title": "Oracle komt wegens eMudhra-certificaten met noodpatch voor Java SE en GraalVM",
+  "excerpt": "Oracle heeft wegens gecompromitteerde keys van de Indiase certificaatautoriteit eMudhra een noodpatch uitgebracht voor Oracle ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T07:59:00Z",
+  "fetched": "2026-10-22T15:21:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle",
+    "eMudhra"
+   ],
+   "summary": {
+    "en": "Oracle releases an emergency patch for Java SE and GraalVM after compromised keys from certificate authority eMudhra.",
+    "nl": "Oracle brengt een noodpatch uit voor Java SE en GraalVM vanwege gecompromitteerde keys van certificaatautoriteit eMudhra."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T15:22:10Z"
   }
  },
  {
