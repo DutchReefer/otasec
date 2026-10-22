@@ -1,5 +1,65 @@
 [
  {
+  "id": "1a7d067331c2",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/localstack-ai-code-testing-report/",
+  "title": "AI coding boom exposes cracks in cloud development",
+  "excerpt": "Developers are encountering bugs, testing delays and disruptions in shared cloud environments as AI increases the volume of code they produce, according to LocalStack’s 2026 State of AI in Cloud Development report. More code adds to the testing workload Sixty-five percent of respondents say their teams now generate at least twice as much code as they did before adopting AI, with 32% reporting five times as much or more. Autonomous AI agents contribute to this … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T04:30:38Z",
+  "fetched": "2026-10-22T04:53:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "LocalStack"
+   ],
+   "summary": {
+    "en": "A LocalStack report says AI-driven code growth is causing bugs, testing delays and disruptions in shared cloud development environments.",
+    "nl": "Een rapport van LocalStack stelt dat groei van AI-gegenereerde code leidt tot bugs, testvertragingen en storingen in gedeelde cloudontwikkelomgevingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T04:53:58Z"
+  }
+ },
+ {
+  "id": "99b8ed9a59af",
+  "url": "https://www.helpnetsecurity.com/2026/10/22/ai-agent-observability-report/",
+  "title": "AI agent observability is struggling to keep up with hallucinations",
+  "excerpt": "Sixty-two percent of IT and engineering professionals now rely on AI agents frequently to work out why their systems broke, and more than half have no way to measure whether the agents get it right. Splunk surveyed 2,050 of them across ten countries. Source: Splunk Agents diagnose, people still ship the code Teams have been careful about where they let agents work. Finding root causes, tuning alerts, and drafting runbooks, the step-by-step guides engineers follow … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-22T04:00:14Z",
+  "fetched": "2026-10-22T04:53:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Splunk"
+   ],
+   "summary": {
+    "en": "A Splunk survey of 2,050 IT and engineering professionals finds heavy reliance on AI agents for root-cause analysis, while over half cannot measure their accuracy.",
+    "nl": "Een enquête van Splunk onder 2.050 IT- en engineeringprofessionals toont sterke afhankelijkheid van AI-agents voor root-cause-analyse, terwijl meer dan de helft hun nauwkeurigheid niet kan meten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-22T04:53:58Z"
+  }
+ },
+ {
   "id": "e71bb5e70cc3",
   "url": "https://www.helpnetsecurity.com/2026/10/22/google-chrome-https-protection/",
   "title": "Chrome puts insecure sites behind a permission prompt",
