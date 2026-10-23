@@ -1,5 +1,33 @@
 [
  {
+  "id": "7c3288677b61",
+  "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+  "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+  "excerpt": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T20:55:05Z",
+  "fetched": "2026-10-23T23:10:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn streaming app, closing an RCE flaw affecting consumer computers.",
+    "nl": "Onderzoekers hebben een kwetsbare updater in de verlaten Time4Popcorn-streamingapp op afstand uitgeschakeld, waarmee een RCE-kwetsbaarheid op consumentencomputers is gesloten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T23:10:54Z"
+  }
+ },
+ {
   "id": "a7611ad9edc5",
   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
   "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
