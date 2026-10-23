@@ -1,5 +1,593 @@
 [
  {
+  "id": "ddd2900e7764",
+  "url": "https://www.security.nl/posting/958798/%27Zweedse+overheid+verbiedt+gebruik+van+ChatGPT+en+Claude+door+ambtenaren%27?channel=rss",
+  "title": "'Zweedse overheid verbiedt gebruik van ChatGPT en Claude door ambtenaren'",
+  "excerpt": "De Zweedse overheid verbiedt het gebruik van ChatGPT en Claude door rijksambtenaren, zo meldt de Zweedse publieke radiozender ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T14:36:00Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Swedish government bans civil servants from using ChatGPT and Claude, according to Swedish public radio.",
+    "nl": "De Zweedse overheid verbiedt ambtenaren het gebruik van ChatGPT en Claude, meldt de Zweedse publieke radio."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "20e1777fbce8",
+  "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+  "title": "You gave your AI agent access, but who is giving it orders?",
+  "excerpt": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that intercept dangerous act [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T14:00:10Z",
+  "fetched": "2026-10-23T15:07:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor article describes how its agent trust tooling can intercept dangerous AI agent actions.",
+    "nl": "Een leverancier beschrijft hoe zijn tooling voor AI-agents gevaarlijke acties kan onderscheppen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "53f7d6129335",
+  "url": "https://www.security.nl/posting/958792/NCSC+adviseert+om+lek+in+Google+Brotli-decoder+meteen+te+patchen?channel=rss",
+  "title": "NCSC adviseert om lek in Google Brotli-decoder meteen te patchen",
+  "excerpt": "Het Nationaal Cyber Security Centrum (NCSC) waarschuwt beheerders en organisaties om een kwetsbaarheid in de Google ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T13:56:00Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC urges administrators to patch a flaw in the Google Brotli decoder.",
+    "nl": "Het NCSC adviseert beheerders om een kwetsbaarheid in de Google Brotli-decoder snel te patchen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "f059789b2437",
+  "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+  "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+  "excerpt": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T13:50:56Z",
+  "fetched": "2026-10-23T15:07:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Fortinet",
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Researchers report a large campaign that breached exposed Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls and VPNs, gaining access to numerous organizations worldwide.",
+    "nl": "Onderzoekers melden een grootschalige campagne die blootgestelde Fortinet FortiGate- en Palo Alto Networks GlobalProtect-firewalls en VPN's aanviel en toegang gaf tot veel organisaties wereldwijd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "b49db17578fd",
+  "url": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
+  "title": "UK proposes 14-year prison terms for undersea cable sabotage",
+  "excerpt": "In an era of hybrid threats, the British government wants to update the Submarine Telegraph Act 1885, which carries a maximum fine of £1,000 and five years’ imprisonment in cases of deliberate damage.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T13:26:00Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The UK government proposes raising the maximum prison term for deliberate undersea cable damage to 14 years, updating the Submarine Telegraph Act 1885.",
+    "nl": "De Britse regering stelt voor de maximale gevangenisstraf voor opzettelijke schade aan onderzeese kabels op 14 jaar te brengen, via een herziening van de Submarine Telegraph Act 1885."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "248c1d4a4ec0",
+  "url": "https://www.security.nl/posting/958786/OpenSSL+Project+lanceert+OpenSSL+4_1_0%3A+%27Belangrijke+nieuwe+functionaliteit%27?channel=rss",
+  "title": "OpenSSL Project lanceert OpenSSL 4.1.0: 'Belangrijke nieuwe functionaliteit'",
+  "excerpt": "Het OpenSSL Project heeft vandaag OpenSSL 4.1.0 gelanceerd, die volgens de ontwikkelaars van belangrijke nieuwe functionaliteit ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T13:17:52Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The OpenSSL Project released OpenSSL 4.1.0 with new functionality.",
+    "nl": "Het OpenSSL Project heeft OpenSSL 4.1.0 uitgebracht met nieuwe functionaliteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "678e91b85743",
+  "url": "https://www.security.nl/posting/958781/Tor+Project+waarschuwt+voor+risico+van+MiTM-aanvallen+via+eMudhra-certificaten?channel=rss",
+  "title": "Tor Project waarschuwt voor risico van MiTM-aanvallen via eMudhra-certificaten",
+  "excerpt": "Het Tor Project waarschuwt voor het risico van man-in-the-middle (MiTM)-aanvallen via certificaten van certificaatautoriteit ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T12:55:39Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Tor Project warns of man-in-the-middle risks from eMudhra certificate authority certificates.",
+    "nl": "Het Tor Project waarschuwt voor man-in-the-middle-risico's door certificaten van de eMudhra-certificaatautoriteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "8bb708370d7a",
+  "url": "https://therecord.media/quest-diagnostics-network-intrusion",
+  "title": "Quest Diagnostics warns of potential data theft after attack on lab service system",
+  "excerpt": "Nationwide lab test company Quest Diagnostics said one of its key systems may have experienced a breach of patient data.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T12:52:00Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Quest Diagnostics warns that patient data may have been stolen after an attack on a lab service system.",
+    "nl": "Quest Diagnostics waarschuwt dat patiëntgegevens mogelijk zijn gestolen na een aanval op een laboratoriumsysteem."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "697286418ff3",
+  "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+  "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+  "excerpt": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T12:48:00Z",
+  "fetched": "2026-10-23T15:07:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "HPE"
+   ],
+   "summary": {
+    "en": "HPE released patches for 72 ArubaOS vulnerabilities, including eight maximum-severity flaws.",
+    "nl": "HPE heeft patches uitgebracht voor 72 kwetsbaarheden in ArubaOS, waaronder acht met de hoogste ernst."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "2d39a164901f",
+  "url": "https://www.helpnetsecurity.com/2026/10/23/uk-undersea-cable-sabotage-sentences/",
+  "title": "UK proposes 14-year jail terms for subsea cable saboteurs",
+  "excerpt": "Damaging a cable on the seabed off the UK coast could soon cost someone 14 years of their life behind bars, under plans the British government published this week. The proposal comes from a White Paper by the Department for Digital, Culture, Media and Sport that would update laws protecting undersea cables and pipelines, some of which date back 140 years. The plans include unlimited fines for ship owners whose vessels damage the infrastructure, new … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T12:37:41Z",
+  "fetched": "2026-10-23T15:07:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A UK White Paper proposes 14-year jail terms for damaging subsea cables and unlimited fines for ship owners whose vessels cause damage.",
+    "nl": "Een Brits witboek stelt voor op beschadiging van onderzeese kabels 14 jaar cel te zetten en onbeperkte boetes op te leggen aan scheepseigenaren wier schepen schade veroorzaken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "f84daddd7842",
+  "url": "https://industrialcyber.co/industrial-cyber-attacks/forescout-warns-internet-exposed-refrigeration-controls-could-enable-attacks-on-food-supply-chains-and-hospitals/",
+  "title": "Forescout warns internet-exposed refrigeration controls could enable attacks on food supply chains and hospitals",
+  "excerpt": "New research from Forescout’s Vedere Labs identified 12,976 internet-exposed service observations associated with refrigeration control systems across 6,017...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-23T12:16:14Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "research",
+   "sectors": [
+    "food",
+    "healthcare"
+   ],
+   "vendors": [
+    "Forescout"
+   ],
+   "summary": {
+    "en": "Forescout Vedere Labs found 12,976 internet-exposed service observations tied to refrigeration control systems, which could enable attacks on food supply chains and hospitals.",
+    "nl": "Forescout Vedere Labs vond 12.976 op internet blootgestelde diensten gekoppeld aan koelingsbesturingssystemen, wat aanvallen op voedselketens en ziekenhuizen mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "87dc1f0f1435",
+  "url": "https://industrialcyber.co/transport/us-coast-guard-releases-nvic-02-26-to-guide-maritime-operators-on-cybersecurity-plans-it-and-ot-risk-assessments/",
+  "title": "US Coast Guard releases NVIC 02-26 to guide maritime operators on cybersecurity plans, IT and OT risk assessments",
+  "excerpt": "The U.S. Coast Guard released Navigation and Vessel Inspection Circular (NVIC) 02-26 to help maritime organizations comply with...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-23T12:15:21Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "guidance",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The US Coast Guard released NVIC 02-26 to help maritime operators meet cybersecurity plan requirements and assess IT and OT risks.",
+    "nl": "De Amerikaanse kustwacht heeft NVIC 02-26 uitgebracht om maritieme operators te helpen bij cybersecurityplannen en risicobeoordelingen van IT en OT."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "b46fab14e4ff",
+  "url": "https://industrialcyber.co/news/indurex-secures-e7-million-to-unify-engineering-intelligence-ot-security-and-process-safety/",
+  "title": "Indurex secures €7 million to unify engineering intelligence, OT security and process safety",
+  "excerpt": "Indurex, a company developing artificial intelligence (AI) for cyber-physical systems (CPS) security, has raised €7 million in a...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-23T12:13:11Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Indurex raised 7 million euros to develop AI-based engineering intelligence, OT security and process safety for cyber-physical systems.",
+    "nl": "Indurex heeft 7 miljoen euro opgehaald voor AI-gebaseerde engineering-intelligentie, OT-beveiliging en procesveiligheid voor cyber-fysieke systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "298f2eafd7bc",
+  "url": "https://industrialcyber.co/news/ninetenths-joins-isasecure-to-support-industrial-cybersecurity-across-energy-water-and-manufacturing/",
+  "title": "NineTenths joins ISASecure to support industrial cybersecurity across energy, water and manufacturing",
+  "excerpt": "Professional society for automation, the International Society of Automation (ISA), announced that NineTenths Company has officially joined ISASecure,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-23T12:12:47Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NineTenths has joined ISASecure, an industrial cybersecurity certification program.",
+    "nl": "NineTenths is aangesloten bij ISASecure, een certificeringsprogramma voor industriële cybersecurity."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "5a9510a0e80e",
+  "url": "https://www.security.nl/posting/958763/Malafide+Amazon-advertentie+op+Google+leidt+naar+ClickFix-aanval?channel=rss",
+  "title": "Malafide Amazon-advertentie op Google leidt naar ClickFix-aanval",
+  "excerpt": "Criminelen maken gebruik van Google-advertenties die zogenaamd van Amazon afkomstig lijken, maar in werkelijkheid naar een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T11:58:42Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Criminals use malicious Google ads impersonating Amazon to lead victims to a ClickFix attack.",
+    "nl": "Criminelen gebruiken kwaadaardige Google-advertenties die Amazon imiteren om slachtoffers naar een ClickFix-aanval te leiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "8c682671dbb7",
+  "url": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
+  "title": "Microsoft 365 accounts compromised at 79 organizations, no passwords needed",
+  "excerpt": "An attacker who spent ten weeks replaying stolen Microsoft 365 sign-in sessions broke into email accounts at 79 organizations and used hidden inbox rules to keep victims from seeing parts of their own mail, according to Huntress. The researchers tracked the campaign between July 14 and September 22, 2026, counting 497 successful sign-ins and more than 200,000 failed login attempts. The stolen sessions were replayed from servers at 1337 Services GmbH, a hosting provider incorporated … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T11:45:12Z",
+  "fetched": "2026-10-23T15:07:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "An attacker replayed stolen Microsoft 365 sessions to access email accounts at 79 organizations.",
+    "nl": "Een aanvaller gebruikte gestolen Microsoft 365-sessies om toegang te krijgen tot e-mailaccounts bij 79 organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "3bc9a46d2904",
+  "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+  "title": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+  "excerpt": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T11:25:43Z",
+  "fetched": "2026-10-23T15:07:49Z",
+  "cves": [
+   "CVE-2026-115560"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PHP warns of another remote code execution issue, CVE-2026-115560, affecting unusually configured web applications.",
+    "nl": "PHP waarschuwt voor een andere remote code execution-kwetsbaarheid, CVE-2026-115560, die alleen ongebruikelijk geconfigureerde webapplicaties raakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "d951ff04a355",
+  "url": "https://www.security.nl/posting/958757/Griekenland+verbiedt+social+media+voor+gebruikers+onder+de+15+jaar?channel=rss",
+  "title": "Griekenland verbiedt social media voor gebruikers onder de 15 jaar",
+  "excerpt": "Het Griekse parlement heeft vandaag een wetsvoorstel goedgekeurd dat social media verbiedt voor gebruikers onder de 15 jaar. De ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T11:22:16Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Greek parliament approved a law banning social media for users under 15.",
+    "nl": "Het Griekse parlement heeft een wet goedgekeurd die social media verbiedt voor gebruikers onder de 15 jaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "80697809b26e",
+  "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+  "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+  "excerpt": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T11:11:23Z",
+  "fetched": "2026-10-23T15:07:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "ESET reports Sandworm and UAC-0099 used spear-phishing and a new mesh network backdoor in a destructive wiper attack on a Ukrainian logistics company.",
+    "nl": "ESET meldt dat Sandworm en UAC-0099 via spear-phishing en een nieuwe mesh-netwerk-backdoor een destructieve wiper-aanval uitvoerden op een Oekraïens logistiek bedrijf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
+  "id": "e84325ee5403",
+  "url": "https://www.security.nl/posting/958752/Kamervragen+over+spionage+via+slimme+voertuigen+in+Nederland?channel=rss",
+  "title": "Kamervragen over spionage via slimme voertuigen in Nederland",
+  "excerpt": "In de Tweede Kamer zijn vragen gesteld aan ministers Karremans van Infrastructuur en Heerma van Binnenlandse Zaken over ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T10:57:04Z",
+  "fetched": "2026-10-23T15:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch parliamentary members asked ministers about espionage through smart vehicles in the Netherlands.",
+    "nl": "Leden van de Tweede Kamer hebben ministers vragen gesteld over spionage via slimme voertuigen in Nederland."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:19Z"
+  }
+ },
+ {
   "id": "48627fc933ef",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0453",
   "title": "NCSC-2026-0453 [1.00] [M/H] Kwetsbaarheid in Google Brotli-decoder",
@@ -53,6 +641,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-23T10:08:01Z"
+  }
+ },
+ {
+  "id": "3a89e69463ce",
+  "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+  "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+  "excerpt": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T09:36:00Z",
+  "fetched": "2026-10-23T15:07:49Z",
+  "cves": [
+   "CVE-2026-112900"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A critical flaw, CVE-2026-112900, in the Python Pillow image library lets crafted EPS image filenames run OS commands via Ghostscript.",
+    "nl": "Een kritieke kwetsbaarheid, CVE-2026-112900, in de Python Pillow-bibliotheek laat via opgemaakte EPS-bestandsnamen OS-commando's uitvoeren via Ghostscript."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:24Z"
   }
  },
  {
@@ -499,6 +1117,41 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-23T04:56:26Z"
+  }
+ },
+ {
+  "id": "74c7d2bd7064",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-566512.html",
+  "title": "SSA-566512 V1.0: PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
+  "excerpt": "Palo Alto Networks has published [1] information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the workarounds provided in Palo Alto Networks’ upstream security notifications. [1] https://security.paloaltonetworks.com/CVE-2026-109618",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-23T00:00:00Z",
+  "fetched": "2026-10-23T15:07:48Z",
+  "cves": [
+   "CVE-2026-109618"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-566512 lists RUGGEDCOM APE1808 devices affected by PHP2Shell vulnerabilities in Palo Alto Networks PAN-OS, and points to upstream workarounds.",
+    "nl": "Siemens-advisory SSA-566512 meldt dat RUGGEDCOM APE1808-apparaten getroffen zijn door PHP2Shell-kwetsbaarheden in Palo Alto Networks PAN-OS, met verwijzing naar upstream workarounds."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T15:08:24Z"
   }
  },
  {
