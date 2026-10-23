@@ -42,6 +42,7 @@
     <nav class="nav" aria-label="Main">
       <a href="/" {% if path == '/' %}aria-current="page"{% endif %}>{{ t.nav_home }}</a>
       <a href="/briefings/" {% if path.startswith('/briefing') %}aria-current="page"{% endif %}>{{ t.nav_briefings }}</a>
+      <a href="/incidents/" {% if path == '/incidents/' %}aria-current="page"{% endif %}>{{ t.nav_incidents }}</a>
       <a href="/about/" {% if path == '/about/' %}aria-current="page"{% endif %}>{{ t.nav_about }}</a>
     </nav>
     <div class="langs" role="group" aria-label="Language">

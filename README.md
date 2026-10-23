@@ -9,6 +9,10 @@ A bilingual news aggregator for OT/ICS security: **otasec.com** (English) and
 - **Daily briefing**: each morning, the day's most-covered stories clustered
   into one post. Each story gets a summary, a takeaway for asset owners and links
   to every source.
+- **Incident map** (`/incidents/`): landmark OT incidents since 2008 on a world
+  map. Continents filter and zoom, blips open an incident, and the list below is
+  searchable. The data is curated by hand in `config/incidents.yaml` (EN + NL,
+  with sources); see the field notes at the top of that file.
 
 The site is fully static, so there's no PHP, database or server cron. A scheduled
 GitHub Action does all the work and uploads plain HTML to the existing host.
@@ -49,11 +53,13 @@ config/sources.yaml ─┐
 ```
 config/site.yaml        domains, languages, models, briefing time, retention
 config/sources.yaml     feeds + X queries (edit this to add/remove sources)
+config/incidents.yaml   curated OT incident history for /incidents/ (edit to add incidents)
 otasec/                 Python package (feeds, xsource, classify, briefing, build, pipeline)
 templates/              Jinja2 templates (about_en / about_nl hold the About text)
 static/                 style.css, app.js (client-side filters), favicon
 data/                   items.json, briefings/*.json, health.json (committed by the bot)
 .github/workflows/      pipeline.yml (hourly), tests.yml
+tools/world_map.py      regenerates otasec/geodata/world.json (continent outlines, Natural Earth)
 tests/                  pytest suite
 ```
 

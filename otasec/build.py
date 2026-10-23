@@ -16,6 +16,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from .classify import publishable
 from .config import STATIC_DIR, TEMPLATE_DIR, Config
 from .i18n import STRINGS, fmt_day, fmt_long_date, fmt_short, plural
+from .incidents import load_incidents, view_incidents
 from .normalize import no_em_dash, safe_url, strip_unsafe_chars
 from .store import Store, parse_iso, utcnow
 
@@ -188,6 +189,7 @@ def build_site(cfg: Config, store: Store) -> None:
     feed_count = len([f for f in cfg.feeds if f.get("enabled", True)])
 
     show_x = bool(cfg.sources.get("x", {}).get("enabled"))  # hide "shared on X" while X is off
+    incidents = load_incidents(sectors=STRINGS["en"]["sectors"])   # curated, config/incidents.yaml
     for lang in cfg.languages:
         out = cfg.dist_dir / lang
         if out.exists():
@@ -242,6 +244,9 @@ def build_site(cfg: Config, store: Store) -> None:
                                  if h.get("checked") else ""})
         render(f"about_{lang}.html", "/about/", sources=sources_view)
 
+        # OT incident history: world map + searchable list
+        render("incidents.html", "/incidents/", inc=view_incidents(incidents, lang, t))
+
         render("404.html", "/404.html")
 
         # RSS: briefings + live feed
@@ -257,7 +262,7 @@ def build_site(cfg: Config, store: Store) -> None:
 
         # robots + sitemap + Apache headers
         _write(out / "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {base_url}/sitemap.xml\n")
-        urls = ["/", "/briefings/", "/about/"] + [b["path"] for b in vbriefings]
+        urls = ["/", "/briefings/", "/incidents/", "/about/"] + [b["path"] for b in vbriefings]
         _write(out / "sitemap.xml", env.get_template("sitemap.xml").render(base_url=base_url, urls=urls))
         shutil.copy(TEMPLATE_DIR / "htaccess", out / ".htaccess")
 

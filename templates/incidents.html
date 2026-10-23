@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block title %}{{ t.inc_title }} | {{ site.site_name }}{% endblock %}
+{% block description %}{{ t.inc_meta }}{% endblock %}
+{% block main %}
+<header class="inc-head">
+  <p class="eyebrow">{{ t.inc_eyebrow }} · {{ plural('inc_count', inc.total) }} · {{ t.inc_range.format(first=inc.first_year, last=inc.last_year) }}</p>
+  <h1 class="article__title">{{ t.inc_title }}</h1>
+  <p class="inc-head__intro">{{ t.inc_intro }}</p>
+</header>
+
+<section class="map-card" aria-label="{{ t.inc_map_label }}">
+  <div class="map" id="inc-map">
+    <svg class="map__svg" id="inc-svg" viewBox="{{ inc.viewbox }}" data-world="{{ inc.viewbox }}"
+         preserveAspectRatio="xMidYMid meet" role="group" aria-label="{{ t.inc_map_label }}">
+      <g class="map__lands">
+        {% for c in inc.continents %}
+        <path class="land" d="{{ c.d }}" data-c="{{ c.key }}" data-zoom="{{ c.zoom|join(' ') }}"
+              tabindex="0" role="button" aria-pressed="false" aria-label="{{ c.label }}: {{ plural('inc_count', c.count) }}"><title>{{ c.label }}: {{ plural('inc_count', c.count) }}</title></path>
+        {% endfor %}
+      </g>
+      <path class="map__borders" d="{{ inc.borders }}" aria-hidden="true"/>
+      <g class="map__blips">
+        {% for i in inc['items']|reverse %}
+        <a class="blip blip--{{ i.impact }}" href="#{{ i.id }}" data-id="{{ i.id }}" data-c="{{ i.continent }}"
+           data-tx="{{ i.tx }}" data-ty="{{ i.ty }}" aria-label="{{ i.name }}, {{ i.date_label }}, {{ i.place }}">
+          <circle class="blip__hit" cx="{{ i.x }}" cy="{{ i.y }}" r="8"/>
+          <circle class="blip__dot" cx="{{ i.x }}" cy="{{ i.y }}" r="4.2"/>
+        </a>
+        {% endfor %}
+      </g>
+    </svg>
+    <div class="map__tip" id="inc-tip" role="status" hidden></div>
+    <button type="button" class="map__back" id="inc-back" aria-label="{{ t.inc_back }}" title="{{ t.inc_back }}" hidden>← {{ t.inc_world }}</button>
+  </div>
+  <ul class="legend" aria-label="{{ t.inc_legend }}">
+    <li class="legend__title">{{ t.inc_legend }}</li>
+    {% for k, n in inc.impact_counts.items() %}
+    <li title="{{ t.impact_help[k] }}"><span class="swatch swatch--{{ k }}" aria-hidden="true"></span>{{ t.impacts[k] }} <span class="muted">({{ n }})</span></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<form class="filters inc-filters" id="inc-filters" role="search" hidden>
+  <input type="search" name="q" placeholder="{{ t.inc_search }}" aria-label="{{ t.inc_search }}" autocomplete="off">
+  <div class="chips" role="group" aria-label="{{ t.inc_world }}">
+    <button type="button" class="chip" data-c="" aria-pressed="true">{{ t.inc_world }} <span class="chip__n">{{ inc.total }}</span></button>
+    {% for c in inc.continents %}
+    <button type="button" class="chip" data-c="{{ c.key }}" aria-pressed="false"{% if not c.count %} disabled{% endif %}>{{ c.label }} <span class="chip__n">{{ c.count }}</span></button>
+    {% endfor %}
+  </div>
+  <div class="selects">
+    <select name="impact" aria-label="{{ t.inc_legend }}">
+      <option value="">{{ t.inc_legend }}: {{ t.filter_all|lower }}</option>
+      {% for k in inc.impact_counts %}<option value="{{ k }}">{{ t.impacts[k] }}</option>{% endfor %}
+    </select>
+    <select name="sector" aria-label="{{ t.inc_sector_all }}">
+      <option value="">{{ t.inc_sector_all }}</option>
+      {% for s in inc.sectors_used %}<option value="{{ s }}">{{ t.sectors[s] }}</option>{% endfor %}
+    </select>
+  </div>
+</form>
+
+<p class="inc-status" id="inc-status" aria-live="polite" hidden>
+  <span id="inc-count"></span>
+  <button type="button" class="linkish" id="inc-reset" hidden>{{ t.inc_reset }}</button>
+</p>
+
+<ol class="incidents" id="incidents">
+  {% for i in inc['items'] %}
+  <li class="inc" id="{{ i.id }}" data-id="{{ i.id }}" data-c="{{ i.continent }}" data-sector="{{ i.sector }}"
+      data-impact="{{ i.impact }}">
+    <div class="inc__meta">
+      <time datetime="{{ i.date }}">{{ i.date_label }}</time>
+      <span class="inc__place">{{ i.place }}</span>
+    </div>
+    <div class="inc__body">
+      <h2 class="inc__title">{{ i.name }}</h2>
+      <p class="inc__summary">{{ i.summary }}</p>
+      <ul class="tags">
+        <li class="tag tag--impact tag--{{ i.impact }}" title="{{ t.impact_help[i.impact] }}">{{ t.impacts[i.impact] }}</li>
+        {% if i.status != 'confirmed' %}<li class="tag tag--status tag--{{ i.status }}">{{ t.statuses[i.status] }}</li>{% endif %}
+        <li class="tag">{{ i.sector_label }}</li>
+        <li class="tag">{{ t.continents[i.continent] }}</li>
+        {% for m in i.malware %}<li class="tag tag--vendor">{{ m }}</li>{% endfor %}
+      </ul>
+      <details class="inc__more">
+        <summary>{{ t.inc_actor }}, {{ t.inc_lesson|lower }}, {{ t.inc_sources|lower }}</summary>
+        <dl class="inc__facts">
+          <dt>{{ t.inc_actor }}</dt><dd>{{ i.actor }}</dd>
+        </dl>
+        <p class="takeaway"><strong>{{ t.inc_lesson }}:</strong> {{ i.lesson }}</p>
+        <div class="story__sources">
+          <span class="muted small">{{ t.inc_sources }}:</span>
+          <ul class="srcs">
+            {% for s in i.sources %}<li><a href="{{ s.url }}" rel="noopener noreferrer" target="_blank">{{ s.title }}</a></li>{% endfor %}
+          </ul>
+        </div>
+      </details>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+<p class="empty" id="inc-empty" hidden>{{ t.inc_none }}</p>
+<p class="small muted inc-note">{{ t.inc_note }}</p>
+<script type="application/json" id="inc-i18n">{{ {"showing": t.inc_showing, "lang": lang}|tojson }}</script>
+{% endblock %}
+{% block scripts %}<script src="/assets/incidents.js?v={{ v }}" defer></script>{% endblock %}

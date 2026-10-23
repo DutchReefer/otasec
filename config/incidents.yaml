@@ -1,0 +1,1289 @@
+# OTASEC | OT incident history (the /incidents/ page on otasec.com and otasec.nl).
+#
+# Curated by hand: landmark incidents where operational technology was hit,
+# disrupted or deliberately targeted, from the Sandworm era (2008) onwards.
+# Summaries are our own words; every entry links to its sources.
+#
+# Fields
+#   id         unique slug (also the URL anchor: /incidents/#<id>)
+#   date       "YYYY-MM-DD", "YYYY-MM" or "YYYY" (when it happened or, if
+#              unknown, when it was disclosed)
+#   place      {en, nl} shown under the title
+#   lat, lon   blip position; for undisclosed sites use the country centre
+#              and say so in `place`
+#   continent  europe | asia | north_america | south_america | africa | oceania
+#              (the Middle East counts as Asia, Turkey and Cyprus too)
+#   sector     a key from i18n STRINGS["sectors"]
+#   impact     process     the physical process or equipment was manipulated or damaged
+#              disruption  operations stopped or degraded
+#              intrusion   access, espionage or a foiled attack, no operational effect
+#   status     confirmed | reported (single or unofficial source) | disputed
+#   actor      {en, nl} attribution as stated by the named source, or "Unknown"
+#   malware    list of named tools (optional)
+#   name, summary, lesson   {en, nl}
+#   sources    list of {title, url}; https only, checked by tests
+#
+# House style: no em dashes; plain, factual wording; attribution only as
+# claimed by governments, CERTs or named researchers.
+
+- id: lodz-tram-2008
+  date: "2008-01"
+  name:
+    en: Łódź tram network
+    nl: Trams in Łódź
+  place: {en: "Łódź, Poland", nl: "Łódź, Polen"}
+  lat: 51.76
+  lon: 19.46
+  continent: europe
+  sector: transport
+  impact: process
+  status: confirmed
+  actor: {en: "A 14-year-old local student", nl: "Een 14-jarige scholier uit de stad"}
+  summary:
+    en: A teenager modified a TV remote control to switch the infrared-operated track points of the city's tram network. Four trams derailed and twelve people were injured.
+    nl: Een tiener bouwde een tv-afstandsbediening om waarmee hij de infraroodgestuurde wissels van het trambedrijf kon omzetten. Vier trams ontspoorden en twaalf mensen raakten gewond.
+  lesson:
+    en: Field control channels without authentication are attack surface too, even when nothing is connected to a network.
+    nl: Ook besturingskanalen in het veld zonder authenticatie horen bij het aanvalsoppervlak, zelfs zonder netwerkverbinding.
+  sources:
+    - {title: "Dark Reading: Teenage hacker takes over Polish tram system", url: "https://www.darkreading.com/perimeter/teenage-hacker-takes-over-polish-tram-system"}
+    - {title: "RISI database entry", url: "https://www.risidata.com/Database/Detail/schoolboy_hacks_into_polish_tram_system"}
+
+- id: btc-pipeline-2008
+  date: "2008-08-05"
+  name:
+    en: Baku-Tbilisi-Ceyhan pipeline explosion
+    nl: Explosie in de Bakoe-Tbilisi-Ceyhan-pijpleiding
+  place: {en: "Refahiye, Turkey", nl: "Refahiye, Turkije"}
+  lat: 39.9
+  lon: 38.77
+  continent: asia
+  sector: oil_gas
+  impact: process
+  status: disputed
+  actor: {en: "Russia, according to unnamed US officials in a 2014 report; the PKK claimed the blast; Turkey cited a technical failure", nl: "Rusland volgens anonieme Amerikaanse bronnen (2014); de PKK eiste de explosie op; Turkije sprak van een technisch defect"}
+  summary:
+    en: An explosion and fire hit a valve station of the BTC oil pipeline days before the Russia-Georgia war. A 2014 report claimed attackers had raised the pressure and suppressed alarms through the network, but no technical evidence was published and later analyses doubt the cyber explanation.
+    nl: Bij een afsluiterstation van de BTC-oliepijpleiding brak kort voor de Russisch-Georgische oorlog een explosie en brand uit. Een rapport uit 2014 stelde dat aanvallers via het netwerk de druk hadden opgevoerd en alarmen onderdrukt, maar technisch bewijs is nooit gepubliceerd en latere analyses betwijfelen de cyberverklaring.
+  lesson:
+    en: Separate claims from evidence. Without logs and forensics nobody can prove what caused a process upset.
+    nl: Scheid claims van bewijs. Zonder logging en forensisch onderzoek kan niemand aantonen wat een procesverstoring veroorzaakte.
+  sources:
+    - {title: "Eurasianet: US intelligence says Russia sabotaged BTC pipeline", url: "https://eurasianet.org/us-intelligence-russia-sabotaged-btc-pipeline-ahead-of-2008-georgia-war"}
+    - {title: "New America: Closing the case on the reported BTC cyber attack", url: "https://www.newamerica.org/insights/closing-the-case-on-the-reported-2008-russian-cyber-attack-on-the-btc-pipeline-3/"}
+
+- id: stuxnet-2010
+  date: "2010-06"
+  name:
+    en: Stuxnet
+    nl: Stuxnet
+  place: {en: "Natanz, Iran", nl: "Natanz, Iran"}
+  lat: 33.72
+  lon: 51.73
+  continent: asia
+  sector: energy
+  impact: process
+  status: confirmed
+  actor: {en: "Widely attributed to the United States and Israel; never officially confirmed", nl: "Breed toegeschreven aan de Verenigde Staten en Israël; nooit officieel bevestigd"}
+  malware: [Stuxnet]
+  summary:
+    en: Discovered in June 2010, Stuxnet reprogrammed Siemens S7 controllers at the Natanz uranium enrichment plant to vary centrifuge speeds while operators saw recorded normal values. Earlier versions were active from 2007. It is the first known cyberweapon to cause physical damage.
+    nl: Stuxnet werd in juni 2010 ontdekt en herprogrammeerde Siemens S7-controllers in de verrijkingsfabriek in Natanz, zodat centrifuges van toerental wisselden terwijl operators opgenomen normale waarden zagen. Eerdere versies waren al sinds 2007 actief. Het is het eerste bekende cyberwapen dat fysieke schade aanrichtte.
+  lesson:
+    en: An air gap is not a control on its own. Removable media and engineering workstations carried the attack in, and the HMI showed falsified values.
+    nl: Een air gap is op zichzelf geen maatregel. Verwijderbare media en engineeringwerkstations brachten de aanval binnen, en de HMI toonde vervalste waarden.
+  sources:
+    - {title: "CCDCOE Cyber Law Toolkit: Stuxnet (2010)", url: "https://cyberlaw.ccdcoe.org/wiki/Stuxnet_(2010)"}
+    - {title: "SecurityWeek: Symantec uncovers earliest known Stuxnet version", url: "https://www.securityweek.com/symantec-uncovers-earliest-known-version-stuxnet-dates-cyber-weapon-2005/amp/"}
+
+- id: shamoon-2012
+  date: "2012-08-15"
+  name:
+    en: Shamoon wiper at Saudi Aramco
+    nl: Shamoon-wiper bij Saudi Aramco
+  place: {en: "Dhahran, Saudi Arabia", nl: "Dhahran, Saoedi-Arabië"}
+  lat: 26.29
+  lon: 50.11
+  continent: asia
+  sector: oil_gas
+  impact: disruption
+  status: confirmed
+  actor: {en: "Iran, according to US officials; claimed by 'Cutting Sword of Justice'", nl: "Iran volgens Amerikaanse functionarissen; opgeëist door 'Cutting Sword of Justice'"}
+  malware: [Shamoon]
+  summary:
+    en: The Shamoon wiper erased about 30,000 workstations at the world's largest oil company, forcing weeks of paper-based business processes. Production was reported unaffected; Qatar's RasGas was hit days later.
+    nl: De Shamoon-wiper wiste zo'n 30.000 werkplekken bij 's werelds grootste oliemaatschappij, waardoor bedrijfsprocessen wekenlang op papier liepen. De productie bleef volgens berichten draaien; het Qatarese RasGas werd enkele dagen later getroffen.
+  lesson:
+    en: Separation between IT and OT kept oil flowing. Plan how the plant keeps running while the office network is gone.
+    nl: De scheiding tussen IT en OT hield de olie stromend. Plan hoe de installatie doordraait als het kantoornetwerk wegvalt.
+  sources:
+    - {title: "CCDCOE Cyber Law Toolkit: Shamoon (2012)", url: "https://cyberlaw.ccdcoe.org/wiki/Shamoon_(2012)"}
+    - {title: "Dark Reading: 30,000 machines infected at Saudi Aramco", url: "https://www.darkreading.com/cyberattacks-data-breaches/30-000-machines-infected-in-targeted-attack-on-saudi-aramco"}
+
+- id: bowman-dam-2013
+  date: "2013-08"
+  name:
+    en: Bowman Avenue Dam
+    nl: Bowman Avenue-stuwdam
+  place: {en: "Rye Brook, New York, US", nl: "Rye Brook, New York, VS"}
+  lat: 41.02
+  lon: -73.68
+  continent: north_america
+  sector: water
+  impact: intrusion
+  status: confirmed
+  actor: {en: "An Iranian national, charged by the US Department of Justice in 2016", nl: "Een Iraanse burger, in 2016 aangeklaagd door het Amerikaanse ministerie van Justitie"}
+  summary:
+    en: An intruder accessed the SCADA system of a small flood-control dam through a cellular modem and could read water levels and the status of the sluice gate. The gate had been disconnected for maintenance, so it could not be operated remotely.
+    nl: Een indringer kwam via een mobiele modem in het SCADA-systeem van een kleine stuwdam en kon waterstanden en de stand van de schuif uitlezen. De schuif was voor onderhoud losgekoppeld en kon dus niet op afstand worden bediend.
+  lesson:
+    en: Small assets are reconnaissance targets too. Keep an inventory of every controller reachable over the internet or a cellular link.
+    nl: Ook kleine assets zijn verkenningsdoelwit. Houd bij welke controllers via internet of een mobiele verbinding bereikbaar zijn.
+  sources:
+    - {title: "US Attorney SDNY: charges against seven Iranians", url: "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-charges-against-seven-iranians-conducting-coordinated"}
+    - {title: "Help Net Security: Iranians indicted for attacks on banks and a dam", url: "https://www.helpnetsecurity.com/2016/03/24/7indicted-cyber-attacks-us-banks-dam/"}
+
+- id: german-steel-mill-2014
+  date: "2014-12"
+  name:
+    en: German steel mill blast furnace
+    nl: Hoogoven van een Duitse staalfabriek
+  place: {en: "Germany (site not disclosed)", nl: "Duitsland (locatie niet bekendgemaakt)"}
+  lat: 51.2
+  lon: 10.4
+  continent: europe
+  sector: manufacturing
+  impact: process
+  status: confirmed
+  actor: {en: "Unknown", nl: "Onbekend"}
+  summary:
+    en: Germany's BSI reported that attackers used spear-phishing to reach a steel mill's office network and from there its production network. Control components failed so that a blast furnace could not be shut down in a controlled way, causing massive damage.
+    nl: Het Duitse BSI meldde dat aanvallers via spearphishing in het kantoornetwerk van een staalfabriek kwamen en van daaruit in het productienetwerk. Besturingscomponenten vielen uit, waardoor een hoogoven niet gecontroleerd kon worden afgeschakeld, met grote schade tot gevolg.
+  lesson:
+    en: Phishing into IT, then pivot to OT, is the classic route. Zone boundaries and a safe state that holds when controls fail limit the damage.
+    nl: Phishing in IT en dan doorsteken naar OT is de klassieke route. Zonegrenzen en een veilige toestand die standhoudt als besturing uitvalt, beperken de schade.
+  sources:
+    - {title: "WeLiveSecurity: Hackers damage German factory", url: "https://www.welivesecurity.com/2014/12/25/hackers-damage-german-factory/"}
+    - {title: "SecurityWeek: Cyberattack on German steel plant causes significant damage", url: "https://www.securityweek.com/cyberattack-german-steel-plant-causes-significant-damage-report"}
+
+- id: havex-2014
+  date: "2014-06"
+  name:
+    en: Havex trojanised ICS vendor software
+    nl: Havex in software van ICS-leveranciers
+  place: {en: "Europe and the US (vendor sites in Belgium, Germany and Switzerland)", nl: "Europa en de VS (leveranciers in België, Duitsland en Zwitserland)"}
+  lat: 50.6
+  lon: 4.35
+  continent: europe
+  sector: cross_sector
+  impact: intrusion
+  status: confirmed
+  actor: {en: "Dragonfly / Energetic Bear, linked to Russia", nl: "Dragonfly / Energetic Bear, gelinkt aan Rusland"}
+  malware: [Havex]
+  summary:
+    en: The Dragonfly group replaced software installers on the websites of three ICS vendors, so energy and industrial customers installed a remote access trojan themselves. A Havex module scanned for OPC servers, mapping industrial networks in Europe and the US.
+    nl: De Dragonfly-groep verving installatiebestanden op de websites van drie ICS-leveranciers, zodat klanten in energie en industrie zelf een remote access trojan installeerden. Een Havex-module zocht naar OPC-servers en bracht zo industriële netwerken in Europa en de VS in kaart.
+  lesson:
+    en: Verify vendor software (signatures, hashes) before it enters OT. The supply chain belongs in your zone and conduit model.
+    nl: Controleer leveranciersoftware (handtekeningen, hashes) voordat die OT binnenkomt. De toeleveringsketen hoort in je zone- en conduitmodel.
+  sources:
+    - {title: "Netresec: Full disclosure of Havex trojans", url: "https://netresec.com/?b=14ABDA4"}
+    - {title: "Wikipedia: Havex", url: "https://en.wikipedia.org/wiki/Havex"}
+
+- id: ukraine-grid-2015
+  date: "2015-12-23"
+  name:
+    en: Ukrainian power grid blackout
+    nl: Stroomstoring in het Oekraïense net
+  place: {en: "Ivano-Frankivsk and two other regions, Ukraine", nl: "Ivano-Frankivsk en twee andere regio's, Oekraïne"}
+  lat: 48.92
+  lon: 24.71
+  continent: europe
+  sector: energy
+  impact: disruption
+  status: confirmed
+  actor: {en: "Sandworm (Russia's GRU), per US and UK governments", nl: "Sandworm (Russische GRU), volgens de Amerikaanse en Britse overheid"}
+  malware: [BlackEnergy 3, KillDisk]
+  summary:
+    en: Attackers took over the SCADA systems of three regional distribution companies and opened breakers remotely, cutting power to about 225,000 customers for several hours. They also wiped systems, bricked serial-to-Ethernet gateways and flooded call centres.
+    nl: Aanvallers namen de SCADA-systemen van drie regionale netbeheerders over en schakelden op afstand vermogensschakelaars uit, waardoor zo'n 225.000 klanten urenlang zonder stroom zaten. Ze wisten ook systemen, maakten serieel-naar-ethernetgateways onbruikbaar en bestookten callcenters.
+  lesson:
+    en: The attackers used legitimate remote access and the operators' own HMI. Strong authentication and monitoring of remote sessions matter more than malware signatures.
+    nl: De aanvallers gebruikten legitieme remote access en de eigen HMI van de operators. Sterke authenticatie en monitoring van sessies op afstand wegen zwaarder dan malwaresignaturen.
+  sources:
+    - {title: "CISA ICS alert IR-ALERT-H-16-056-01", url: "https://cisa.gov/news-events/ics-alerts/ir-alert-h-16-056-01"}
+    - {title: "E-ISAC and SANS: Analysis of the cyber attack on the Ukrainian power grid", url: "https://icscsi.org/library/Documents/Cyber_Events/E-ISAC%20-%20Analysis%20of%20the%20Cyber%20Attack%20on%20the%20Ukrainian%20Power%20Grid.pdf"}
+
+- id: industroyer-2016
+  date: "2016-12-17"
+  name:
+    en: Industroyer at a Kyiv substation
+    nl: Industroyer bij een onderstation in Kyiv
+  place: {en: "Kyiv, Ukraine", nl: "Kyiv, Oekraïne"}
+  lat: 50.52
+  lon: 30.55
+  continent: europe
+  sector: energy
+  impact: disruption
+  status: confirmed
+  actor: {en: "Sandworm (Russia's GRU), per US and UK governments", nl: "Sandworm (Russische GRU), volgens de Amerikaanse en Britse overheid"}
+  malware: [Industroyer, CrashOverride]
+  summary:
+    en: Malware that spoke grid protocols (IEC 60870-5-101 and 104, IEC 61850, OPC DA) opened breakers at a transmission substation north of Kyiv, causing an outage of about an hour. It was the first known malware built specifically to attack power grids.
+    nl: Malware die netprotocollen sprak (IEC 60870-5-101 en 104, IEC 61850, OPC DA) opende vermogensschakelaars in een transmissiestation ten noorden van Kyiv, met een storing van ongeveer een uur. Het was de eerste bekende malware die speciaal voor aanvallen op stroomnetten was gebouwd.
+  lesson:
+    en: Industrial protocols without authentication accept any command. Detect unusual commands at protocol level, not only at the perimeter.
+    nl: Industriële protocollen zonder authenticatie accepteren elk commando. Detecteer afwijkende commando's op protocolniveau, niet alleen aan de rand van het netwerk.
+  sources:
+    - {title: "Security Affairs: Industroyer linked to Ukraine power outage", url: "https://securityaffairs.com/59989/malware/industroyer-malware.html"}
+    - {title: "eSecurity Planet: Malware behind Ukraine blackout analyzed", url: "https://esecurityplanet.com/?p=5289"}
+
+- id: lappeenranta-2016
+  date: "2016-11"
+  name:
+    en: Heating controllers knocked offline by DDoS
+    nl: Verwarmingsregelingen plat door DDoS
+  place: {en: "Lappeenranta, Finland", nl: "Lappeenranta, Finland"}
+  lat: 61.06
+  lon: 28.19
+  continent: europe
+  sector: building
+  impact: disruption
+  status: confirmed
+  actor: {en: "Unknown", nl: "Onbekend"}
+  summary:
+    en: A DDoS attack hit internet-connected building automation in at least two apartment blocks. The heating controllers kept restarting and stopped heating and hot water while outside temperatures were below freezing.
+    nl: Een DDoS-aanval trof via internet bereikbare gebouwautomatisering in minstens twee flatgebouwen. De verwarmingsregelingen bleven herstarten en stopten met verwarming en warm water terwijl het buiten vroor.
+  lesson:
+    en: Building automation is OT. Controllers should fail to a safe operating mode and should not be reachable directly from the internet.
+    nl: Gebouwautomatisering is OT. Regelaars moeten terugvallen op een veilige stand en mogen niet rechtstreeks vanaf internet bereikbaar zijn.
+  sources:
+    - {title: "The Hacker News: DDoS attack takes down heating systems in Finland", url: "https://thehackernews.com/2016/11/heating-system-hacked.html"}
+    - {title: "Security Affairs: DDoS knocks out building control systems in Finland", url: "https://securityaffairs.com/?p=53247"}
+
+- id: wannacry-2017
+  date: "2017-05-12"
+  name:
+    en: WannaCry halts car plants
+    nl: WannaCry legt autofabrieken stil
+  place: {en: "Sandouville, France, and plants worldwide", nl: "Sandouville, Frankrijk, en fabrieken wereldwijd"}
+  lat: 49.5
+  lon: 0.3
+  continent: europe
+  sector: manufacturing
+  impact: disruption
+  status: confirmed
+  actor: {en: "Lazarus Group (North Korea), per US and UK governments", nl: "Lazarus Group (Noord-Korea), volgens de Amerikaanse en Britse overheid"}
+  malware: [WannaCry]
+  summary:
+    en: The WannaCry worm spread through the SMBv1 flaw EternalBlue to some 150 countries. Renault and Nissan stopped production at several plants, including Sandouville in France and Sunderland in the UK.
+    nl: De WannaCry-worm verspreidde zich via de SMBv1-kwetsbaarheid EternalBlue naar zo'n 150 landen. Renault en Nissan legden de productie in meerdere fabrieken stil, waaronder Sandouville in Frankrijk en Sunderland in het VK.
+  lesson:
+    en: Legacy Windows in production needs compensating controls when patching is not possible. Disable SMBv1, segment and monitor.
+    nl: Verouderde Windows-systemen in de productie hebben compenserende maatregelen nodig als patchen niet kan. Zet SMBv1 uit, segmenteer en monitor.
+  sources:
+    - {title: "Automotive News Europe: Renault-Nissan resume production after cyberattack", url: "https://europe.autonews.com/article/20170514/ANE/170519877/renault-nissan-resume-nearly-all-production-after-cyberattack"}
+
+- id: notpetya-2017
+  date: "2017-06-27"
+  name:
+    en: NotPetya
+    nl: NotPetya
+  place: {en: "Ukraine, then worldwide", nl: "Oekraïne, daarna wereldwijd"}
+  lat: 50.45
+  lon: 30.52
+  continent: europe
+  sector: transport
+  impact: disruption
+  status: confirmed
+  actor: {en: "Russian military (Sandworm), per the US, UK and other governments", nl: "Russisch leger (Sandworm), volgens de VS, het VK en andere landen"}
+  malware: [NotPetya]
+  summary:
+    en: Spread through a poisoned update of Ukrainian accounting software, NotPetya destroyed systems at companies worldwide. Maersk's container terminals came to a standstill, Merck and Mondelez lost production, and radiation monitoring at Chornobyl switched to manual.
+    nl: Via een besmette update van Oekraïense boekhoudsoftware vernietigde NotPetya systemen bij bedrijven over de hele wereld. Containerterminals van Maersk lagen stil, Merck en Mondelez verloren productie en de stralingsmeting bij Tsjernobyl ging over op handmatig.
+  lesson:
+    en: A flat network lets a worm reach everything. Segmentation and offline backups decided how fast companies recovered.
+    nl: In een plat netwerk bereikt een worm alles. Segmentatie en offline back-ups bepaalden hoe snel bedrijven herstelden.
+  sources:
+    - {title: "Axios: White House confirms NotPetya was a Russian military operation", url: "https://www.axios.com/2018/02/15/white-house-confirms-notpetya-1518728781"}
+    - {title: "Control Engineering: How NotPetya took down Maersk", url: "https://www.controleng.com/throwback-attack-how-notpetya-accidentally-took-down-global-shipping-giant-maersk"}
+
+- id: triton-2017
+  date: "2017-08"
+  name:
+    en: TRITON safety system attack
+    nl: TRITON-aanval op een veiligheidssysteem
+  place: {en: "Saudi Arabia (petrochemical plant)", nl: "Saoedi-Arabië (petrochemische fabriek)"}
+  lat: 22.8
+  lon: 39.03
+  continent: asia
+  sector: chemical
+  impact: process
+  status: confirmed
+  actor: {en: "TEMP.Veles / XENOTIME; linked to Russia's CNIIHM institute, sanctioned by the US Treasury in 2020", nl: "TEMP.Veles / XENOTIME; gelinkt aan het Russische instituut CNIIHM, in 2020 gesanctioneerd door het Amerikaanse ministerie van Financiën"}
+  malware: [TRITON, TRISIS]
+  summary:
+    en: Attackers reached the Triconex safety instrumented system of a petrochemical plant and tried to reprogram its controllers. A flaw in their code tripped the plant to a safe shutdown, which exposed the intrusion. It was the first known attack on a system built to protect human life.
+    nl: Aanvallers kwamen bij het Triconex-veiligheidssysteem (SIS) van een petrochemische fabriek en probeerden de controllers te herprogrammeren. Een fout in hun code bracht de fabriek in een veilige stop, waardoor de inbraak aan het licht kwam. Het was de eerste bekende aanval op een systeem dat mensenlevens moet beschermen.
+  lesson:
+    en: Give the SIS its own zone, keep the key switch out of PROGRAM, and monitor every engineering connection to it.
+    nl: Geef het SIS een eigen zone, laat de sleutelschakelaar niet op PROGRAM staan en monitor elke engineeringverbinding ermee.
+  sources:
+    - {title: "RISI database: TRITON/TRISIS Saudi petrochemical attack", url: "https://www.risidata.com/Database/Detail/triton-trisis-saudi-petrochemical-attack"}
+    - {title: "Black Hat USA 2018 white paper: TRITON", url: "https://i.blackhat.com/us-18/Wed-August-8/us-18-Carcano-TRITON-How-It-Disrupted-Safety-Systems-And-Changed-The-Threat-Landscape-Of-Industrial-Control-Systems-Forever-wp.pdf"}
+
+- id: us-grid-recon-2018
+  date: "2018-03-15"
+  name:
+    en: Russian access to US energy control rooms
+    nl: Russische toegang tot Amerikaanse energiecontrolekamers
+  place: {en: "United States", nl: "Verenigde Staten"}
+  lat: 38.9
+  lon: -77.04
+  continent: north_america
+  sector: energy
+  impact: intrusion
+  status: confirmed
+  actor: {en: "Russian government (Dragonfly 2.0), per DHS and FBI", nl: "Russische overheid (Dragonfly 2.0), volgens DHS en FBI"}
+  summary:
+    en: DHS and the FBI warned that Russian government actors had entered networks of energy and other critical infrastructure companies, reaching control-room workstations and collecting information about ICS. Trusted third parties and spear-phishing were the main way in.
+    nl: DHS en de FBI waarschuwden dat Russische overheidsactoren in netwerken van energie- en andere vitale bedrijven zaten, tot op werkstations in controlekamers, en informatie over ICS verzamelden. Vertrouwde derde partijen en spearphishing waren de belangrijkste ingang.
+  lesson:
+    en: Supplier and integrator access is a common path into OT. Limit it, log it and review it.
+    nl: Toegang van leveranciers en integrators is een veelgebruikte route naar OT. Beperk die, log die en beoordeel die.
+  sources:
+    - {title: "Security Affairs: DHS and FBI accuse Russia of hacking US critical infrastructure", url: "https://securityaffairs.com/70462/apt/russia-hack-critical-infrastructure.html"}
+    - {title: "ARC Advisory Group: US-CERT warns on Russian state-sponsored attacks", url: "https://www.arcweb.com/blog/us-cert-warns-russian-government-sponsored-cyber-attacks"}
+
+- id: tsmc-2018
+  date: "2018-08-03"
+  name:
+    en: WannaCry variant stops TSMC fabs
+    nl: WannaCry-variant legt fabs van TSMC stil
+  place: {en: "Hsinchu, Taiwan", nl: "Hsinchu, Taiwan"}
+  lat: 24.78
+  lon: 120.99
+  continent: asia
+  sector: manufacturing
+  impact: disruption
+  status: confirmed
+  actor: {en: "None: accidental infection", nl: "Geen: onbedoelde besmetting"}
+  malware: [WannaCry]
+  summary:
+    en: A WannaCry variant entered TSMC's chip fabs when a new tool was installed without a malware scan. Several fabs in Taiwan were disrupted for days and TSMC put the cost at around 3 percent of quarterly revenue.
+    nl: Een WannaCry-variant kwam de chipfabrieken van TSMC binnen toen een nieuwe machine werd geïnstalleerd zonder malwarescan. Meerdere fabs in Taiwan lagen dagen verstoord en TSMC schatte de schade op ongeveer 3 procent van de kwartaalomzet.
+  lesson:
+    en: New equipment and service laptops are an attack path. Scan and quarantine before anything joins the production network.
+    nl: Nieuwe apparatuur en servicelaptops zijn een aanvalsroute. Scan en zet in quarantaine voordat iets op het productienetwerk komt.
+  sources:
+    - {title: "Engadget: TSMC says WannaCry variant shut down its plants", url: "https://www.engadget.com/2018-08-06-tsmc-wannacry-virus-shut-down-plants.html"}
+    - {title: "WeLiveSecurity: Apple chip supplier blames WannaCryptor variant", url: "https://www.welivesecurity.com/2018/08/07/apple-chip-wannacryptor-shutdowns/"}
+
+- id: spower-2019
+  date: "2019-03-05"
+  name:
+    en: Firewall reboots blind a renewables operator
+    nl: Herstartende firewalls verblinden duurzame-energiebedrijf
+  place: {en: "Utah, US", nl: "Utah, VS"}
+  lat: 40.76
+  lon: -111.89
+  continent: north_america
+  sector: energy
+  impact: disruption
+  status: confirmed
+  actor: {en: "Unknown", nl: "Onbekend"}
+  summary:
+    en: Attackers exploited a known flaw in Cisco firewalls at renewable energy company sPower, making them reboot repeatedly for about ten hours. The control centre lost contact with wind and solar sites for minutes at a time, while generation continued. It was the first reported cyber event to disrupt US grid operations.
+    nl: Aanvallers misbruikten een bekende kwetsbaarheid in Cisco-firewalls bij het duurzame-energiebedrijf sPower, waardoor die ongeveer tien uur lang bleven herstarten. De meldkamer verloor telkens enkele minuten het contact met wind- en zonneparken; de opwek ging door. Het was de eerste gemelde cybergebeurtenis die Amerikaanse netoperaties verstoorde.
+  lesson:
+    en: Boundary devices are the doors to OT. Patch them first.
+    nl: Grensapparatuur is de voordeur van OT. Patch die als eerste.
+  sources:
+    - {title: "CyberScoop: Utah renewables company hit by rare cyberattack", url: "https://cyberscoop.com/spower-power-grid-cyberattack-foia/"}
+    - {title: "pv magazine USA: Solar power denial of service attack", url: "https://pv-magazine-usa.com/2019/11/01/mo-megawatts-mo-problems-solar-power-denial-of-service-attack/"}
+
+- id: norsk-hydro-2019
+  date: "2019-03-19"
+  name:
+    en: LockerGoga at Norsk Hydro
+    nl: LockerGoga bij Norsk Hydro
+  place: {en: "Oslo, Norway, and plants worldwide", nl: "Oslo, Noorwegen, en fabrieken wereldwijd"}
+  lat: 59.91
+  lon: 10.75
+  continent: europe
+  sector: manufacturing
+  impact: disruption
+  status: confirmed
+  actor: {en: "LockerGoga ransomware operators", nl: "Operators van LockerGoga-ransomware"}
+  malware: [LockerGoga]
+  summary:
+    en: Ransomware encrypted Norsk Hydro's IT systems worldwide. Several extrusion plants switched to manual operation while smelters kept running. Hydro refused to pay and was praised for its open communication; the cost ran to hundreds of millions of Norwegian kroner.
+    nl: Ransomware versleutelde wereldwijd de IT-systemen van Norsk Hydro. Meerdere extrusiefabrieken gingen over op handbediening, terwijl de smelterijen doordraaiden. Hydro betaalde niet en kreeg lof voor de open communicatie; de schade liep op tot honderden miljoenen Noorse kronen.
+  lesson:
+    en: Practised manual operation and transparent crisis communication kept the business going.
+    nl: Geoefende handbediening en open crisiscommunicatie hielden het bedrijf draaiende.
+  sources:
+    - {title: "TechCrunch: Norsk Hydro shut down by ransomware", url: "https://techcrunch.com/2019/03/19/norsk-hydro-ransomware/embed/"}
+    - {title: "AL Circle: Hydro's aluminium operations affected", url: "https://www.alcircle.com/news/hydros-aluminium-operations-affected-after-extensive-cyber-attack-44458"}
+
+- id: kudankulam-2019
+  date: "2019-10"
+  name:
+    en: Malware at Kudankulam nuclear plant
+    nl: Malware bij kerncentrale Kudankulam
+  place: {en: "Kudankulam, India", nl: "Kudankulam, India"}
+  lat: 8.17
+  lon: 77.71
+  continent: asia
+  sector: energy
+  impact: intrusion
+  status: confirmed
+  actor: {en: "Lazarus Group (North Korea), according to security researchers", nl: "Lazarus Group (Noord-Korea), volgens beveiligingsonderzoekers"}
+  malware: [Dtrack]
+  summary:
+    en: India's nuclear operator NPCIL confirmed that Dtrack malware was found on a PC in the plant's administrative network. The plant control systems were isolated and not affected.
+    nl: De Indiase kernenergiemaatschappij NPCIL bevestigde dat Dtrack-malware op een pc in het administratieve netwerk van de centrale was gevonden. De besturingssystemen van de centrale waren gescheiden en bleven onaangetast.
+  lesson:
+    en: Isolation of control networks from administrative IT is what turned this into a non-event.
+    nl: Scheiding tussen besturingsnetwerken en administratieve IT maakte dit tot een incident zonder gevolgen.
+  sources:
+    - {title: "POWER Magazine: Malware discovered at nuclear plant in India", url: "https://www.powermag.com/malware-discovered-at-nuclear-plant-in-india/"}
+    - {title: "Dragos: Assessment of reported malware infection at nuclear facility", url: "https://www.dragos.com/blog/industry-news/assessment-of-reported-malware-infection-at-nuclear-facility"}
+
+- id: gas-compression-2020
+  date: "2020-02"
+  name:
+    en: Ransomware stops a gas pipeline
+    nl: Ransomware legt een gaspijpleiding stil
+  place: {en: "United States (site not disclosed)", nl: "Verenigde Staten (locatie niet bekendgemaakt)"}
+  lat: 37.0
+  lon: -95.5
+  continent: north_america
+  sector: oil_gas
+  impact: disruption
+  status: confirmed
+  actor: {en: "Unknown ransomware operators", nl: "Onbekende ransomware-operators"}
+  summary:
+    en: Ransomware entered a natural gas compression facility through spear-phishing and spread from IT into OT, encrypting HMIs, historians and polling servers. The operator shut the facility and, because of dependencies, the entire pipeline for about two days. Its emergency plan had no cyber scenarios.
+    nl: Ransomware kwam via spearphishing binnen bij een gascompressorstation en verspreidde zich van IT naar OT, waar HMI's, historians en pollingservers werden versleuteld. De beheerder legde het station en door afhankelijkheden de hele pijpleiding ongeveer twee dagen stil. Het noodplan bevatte geen cyberscenario's.
+  lesson:
+    en: Add cyber scenarios to emergency response plans and map IT and OT dependencies between sites.
+    nl: Neem cyberscenario's op in noodplannen en breng afhankelijkheden tussen IT, OT en locaties in kaart.
+  sources:
+    - {title: "Sophos: Ransomware forces 2-day shutdown of natural gas pipeline", url: "https://www.sophos.com/en-us/blog/ransomware-attack-forces-2-day-shutdown-of-natural-gas-pipeline"}
+    - {title: "RISI database entry", url: "https://www.risidata.com/Database/Detail/natural-gas-compression-facility-ransomware-2020"}
+
+- id: israel-water-2020
+  date: "2020-04-24"
+  name:
+    en: Attempt to alter chlorine at Israeli water plants
+    nl: Poging tot aanpassen van chloor bij Israëlische waterbedrijven
+  place: {en: "Israel", nl: "Israël"}
+  lat: 32.0
+  lon: 34.9
+  continent: asia
+  sector: water
+  impact: intrusion
+  status: confirmed
+  actor: {en: "Iran, according to Israeli and Western officials quoted in media", nl: "Iran, volgens Israëlische en westerse functionarissen in de media"}
+  summary:
+    en: Attackers accessed control systems at several water and wastewater facilities. Media reports said they tried to change chlorine dosing; Israeli authorities said the attempts were stopped without impact on the water supply.
+    nl: Aanvallers kwamen in besturingssystemen van meerdere drink- en afvalwaterinstallaties. Volgens media probeerden ze de chloordosering te wijzigen; de Israëlische autoriteiten meldden dat de pogingen zonder gevolgen voor de watervoorziening werden gestopt.
+  lesson:
+    en: Limit setpoint ranges in the controller itself, so a remote user cannot push a dose to a dangerous value.
+    nl: Begrens setpoints in de controller zelf, zodat een gebruiker op afstand een dosering niet naar een gevaarlijke waarde kan zetten.
+  sources:
+    - {title: "Control Engineering: Hackers attempt to flood Israeli water supply with chlorine", url: "https://www.controleng.com/throwback-attack-hackers-attempt-to-flood-israeli-water-supply-with-chlorine/"}
+    - {title: "Circle of Blue: Cyberattack on Israeli water systems", url: "https://www.circleofblue.org/2020/wef/hotspots-h2o-major-cyberattack-on-israeli-water-systems-foreshadows-future-dangers-to-infrastructure/"}
+
+- id: shahid-rajaee-2020
+  date: "2020-05-09"
+  name:
+    en: Shahid Rajaee port disruption
+    nl: Verstoring in de haven Shahid Rajaee
+  place: {en: "Bandar Abbas, Iran", nl: "Bandar Abbas, Iran"}
+  lat: 27.1
+  lon: 56.06
+  continent: asia
+  sector: transport
+  impact: disruption
+  status: reported
+  actor: {en: "Israel, according to officials quoted by The Washington Post", nl: "Israël, volgens functionarissen geciteerd door The Washington Post"}
+  summary:
+    en: A cyberattack on the computer systems that coordinate ship and truck traffic at Iran's main container port caused days of congestion. Reports linked it to retaliation for the attempted attack on Israeli water systems two weeks earlier.
+    nl: Een cyberaanval op de systemen die schepen en vrachtverkeer in de grootste containerhaven van Iran regelen, zorgde dagenlang voor opstoppingen. Berichten koppelden de aanval aan vergelding voor de poging op Israëlische watersystemen twee weken eerder.
+  lesson:
+    en: Logistics systems are part of the operational chain. A port stops when scheduling stops, even if cranes still work.
+    nl: Logistieke systemen horen bij de operationele keten. Een haven staat stil als de planning stilvalt, ook als de kranen het nog doen.
+  sources:
+    - {title: "Al Jazeera: Israel cyberattack caused total disarray at Iran port", url: "https://www.aljazeera.com/news/2020/5/19/israel-cyberattack-caused-total-disarray-at-iran-port-report"}
+    - {title: "RISI database entry", url: "https://www.risidata.com/Database/Detail/shahid-rajaee-port-cyber-attack-2020"}
+
+- id: honda-2020
+  date: "2020-06-08"
+  name:
+    en: EKANS ransomware at Honda
+    nl: EKANS-ransomware bij Honda
+  place: {en: "Tokyo, Japan, and plants abroad", nl: "Tokio, Japan, en fabrieken in het buitenland"}
+  lat: 35.68
+  lon: 139.69
+  continent: asia
+  sector: manufacturing
+  impact: disruption
+  status: confirmed
+  actor: {en: "Operators of EKANS (Snake) ransomware", nl: "Operators van EKANS-ransomware (Snake)"}
+  malware: [EKANS]
+  summary:
+    en: Ransomware, widely reported as EKANS, hit Honda's internal network and halted production at plants in the US, Turkey, India and Brazil. EKANS stops a list of ICS-related processes, such as historian and licence services, before encrypting.
+    nl: Ransomware, volgens berichten EKANS, trof het interne netwerk van Honda en legde de productie stil in fabrieken in de VS, Turkije, India en Brazilië. EKANS stopt eerst een lijst ICS-gerelateerde processen, zoals historian- en licentieservices, en versleutelt daarna.
+  lesson:
+    en: Plants depend on central IT services. Know which ones your production cannot run without.
+    nl: Fabrieken leunen op centrale IT-diensten. Weet zonder welke diensten je productie niet kan draaien.
+  sources:
+    - {title: "Bitdefender: Honda car and motorcycle production halted", url: "https://www.bitdefender.com/en-us/blog/hotforsecurity/honda-car-and-motorcycle-production-halted-after-cyberattack"}
+    - {title: "RISI database entry", url: "https://www.risidata.com/Database/Detail/honda-ekans-snake-ransomware-2020"}
+
+- id: mumbai-2020
+  date: "2020-10-12"
+  name:
+    en: Mumbai power outage
+    nl: Stroomuitval in Mumbai
+  place: {en: "Mumbai, India", nl: "Mumbai, India"}
+  lat: 19.08
+  lon: 72.88
+  continent: asia
+  sector: energy
+  impact: disruption
+  status: disputed
+  actor: {en: "Disputed: state officials suspected sabotage; India's power minister cited human error", nl: "Betwist: deelstaatfunctionarissen vermoedden sabotage; de Indiase minister van Energie noemde een menselijke fout"}
+  summary:
+    en: A major outage stopped suburban trains and much of the city for several hours. Recorded Future later reported the China-linked group RedEcho in Indian grid networks, but no link to this outage was proven.
+    nl: Een grote stroomstoring legde urenlang voorstadstreinen en grote delen van de stad stil. Recorded Future meldde later dat de aan China gelinkte groep RedEcho in Indiase netnetwerken zat, maar een verband met deze storing is niet aangetoond.
+  lesson:
+    en: Pre-positioning is a risk even without proven impact. Hunt for it in grid networks.
+    nl: Voorpositionering is een risico, ook zonder aangetoonde schade. Zoek er actief naar in netwerken van netbeheerders.
+  sources:
+    - {title: "Malwarebytes: China's RedEcho accused of targeting India's power grids", url: "https://www.malwarebytes.com/blog/news/2021/03/chinas-redecho-accused-of-targeting-indias-power-grids"}
+    - {title: "The Quint: No proof of Chinese role, says power minister", url: "https://www.thequint.com/amp/story/news/india/no-proof-of-chinese-hand-in-mumbai-power-outage-says-power-minister-rk-singh"}
+
+- id: oldsmar-2021
+  date: "2021-02-05"
+  name:
+    en: Oldsmar water treatment
+    nl: Waterzuivering in Oldsmar
+  place: {en: "Oldsmar, Florida, US", nl: "Oldsmar, Florida, VS"}
+  lat: 28.03
+  lon: -82.66
+  continent: north_america
+  sector: water
+  impact: process
+  status: disputed
+  actor: {en: "Disputed: first reported as a remote intruder; the former city manager said in 2023 it was most likely employee error", nl: "Betwist: eerst gemeld als indringer op afstand; de voormalige stadsmanager zei in 2023 dat het waarschijnlijk een fout van een medewerker was"}
+  summary:
+    en: Officials said someone used remote desktop software to raise the sodium hydroxide setpoint from 100 to 11,100 ppm, which an operator reversed at once. In 2023 the former city manager said the FBI had concluded it was most likely an employee error. Either way, a shared password, no firewall and an unsupported operating system were found.
+    nl: Volgens de autoriteiten zette iemand via remote-desktopsoftware het setpoint voor natronloog van 100 naar 11.100 ppm, wat een operator direct terugdraaide. In 2023 zei de voormalige stadsmanager dat de FBI concludeerde dat het waarschijnlijk een fout van een medewerker was. Hoe dan ook bleken er een gedeeld wachtwoord, geen firewall en een niet meer ondersteund besturingssysteem te zijn.
+  lesson:
+    en: Remote access tools on HMIs and shared credentials are a risk whatever the cause. Log enough to tell an attack from a mistake.
+    nl: Remote-accesstools op HMI's en gedeelde inloggegevens zijn hoe dan ook een risico. Log genoeg om een aanval van een vergissing te onderscheiden.
+  sources:
+    - {title: "Water Online: Former official claims Oldsmar hack was operator error", url: "https://www.wateronline.com/doc/former-official-claims-oldsmar-drinking-water-hack-was-really-operator-error-0001"}
+    - {title: "Route Fifty: Florida water incident allegedly caused by employee error", url: "https://route-fifty.com/cybersecurity/2023/03/florida-city-water-cyber-incident-allegedly-caused-employee-error/384267"}
+
+- id: colonial-pipeline-2021
+  date: "2021-05-07"
+  name:
+    en: Colonial Pipeline
+    nl: Colonial Pipeline
+  place: {en: "Alpharetta, Georgia, US", nl: "Alpharetta, Georgia, VS"}
+  lat: 34.08
+  lon: -84.29
+  continent: north_america
+  sector: oil_gas
+  impact: disruption
+  status: confirmed
+  actor: {en: "DarkSide ransomware group, per the FBI", nl: "DarkSide-ransomwaregroep, volgens de FBI"}
+  malware: [DarkSide]
+  summary:
+    en: Ransomware hit Colonial Pipeline's IT network through a VPN account without multi-factor authentication. As a precaution the company shut down the 8,850 km fuel pipeline for about five days, causing shortages on the US East Coast. OT itself was not encrypted.
+    nl: Ransomware trof het IT-netwerk van Colonial Pipeline via een VPN-account zonder meerfactorauthenticatie. Uit voorzorg legde het bedrijf de 8.850 km lange brandstofleiding ongeveer vijf dagen stil, met tekorten aan de Amerikaanse oostkust tot gevolg. OT zelf werd niet versleuteld.
+  lesson:
+    en: Business dependencies such as billing can stop OT that was never touched. Use MFA on every remote access path.
+    nl: Bedrijfsafhankelijkheden zoals facturatie kunnen OT stilleggen die zelf niet geraakt is. Gebruik MFA op elke route voor toegang op afstand.
+  sources:
+    - {title: "BleepingComputer: Largest US pipeline shuts down after ransomware attack", url: "https://www.bleepingcomputer.com/news/security/largest-us-pipeline-shuts-down-operations-after-ransomware-attack/"}
+    - {title: "Kaspersky ICS CERT: Consequences of the Colonial Pipeline attack", url: "https://ics-cert.kaspersky.com/publications/darkchronicles-the-consequences-of-the-colonial-pipeline-attack/"}
+
+- id: jbs-2021
+  date: "2021-05-30"
+  name:
+    en: REvil ransomware at JBS
+    nl: REvil-ransomware bij JBS
+  place: {en: "Greeley, Colorado, US, plus Canada and Australia", nl: "Greeley, Colorado, VS, plus Canada en Australië"}
+  lat: 40.42
+  lon: -104.71
+  continent: north_america
+  sector: food
+  impact: disruption
+  status: confirmed
+  actor: {en: "REvil, per the FBI", nl: "REvil, volgens de FBI"}
+  malware: [REvil]
+  summary:
+    en: Ransomware forced the world's largest meat processor to stop beef plants in the US and disrupted operations in Canada and Australia. JBS paid a ransom of 11 million US dollars.
+    nl: Ransomware dwong 's werelds grootste vleesverwerker om rundvleesfabrieken in de VS stil te leggen en verstoorde de activiteiten in Canada en Australië. JBS betaalde 11 miljoen dollar losgeld.
+  lesson:
+    en: Food production is critical infrastructure. Recovery plans must cover plant systems, not only office IT.
+    nl: Voedselproductie is vitale infrastructuur. Herstelplannen moeten ook fabriekssystemen dekken, niet alleen kantoor-IT.
+  sources:
+    - {title: "Security Affairs: JBS paid 11 million dollars to REvil", url: "https://securityaffairs.com/118814/cyber-crime/jbs-revil-ransomware-2.html"}
+    - {title: "The Pig Site / Poultry Site: JBS confirms ransom payment", url: "https://www.thepoultrysite.com/news/2021/06/jbs-says-it-paid-equivalent-of-11-million-in-ransomware-attack"}
+
+- id: iran-railways-2021
+  date: "2021-07-09"
+  name:
+    en: Wiper attack on Iran's railways
+    nl: Wiperaanval op de Iraanse spoorwegen
+  place: {en: "Tehran, Iran", nl: "Teheran, Iran"}
+  lat: 35.69
+  lon: 51.39
+  continent: asia
+  sector: transport
+  impact: disruption
+  status: confirmed
+  actor: {en: "Predatory Sparrow / Indra (claimed)", nl: "Predatory Sparrow / Indra (opgeëist)"}
+  malware: [Meteor]
+  summary:
+    en: A wiper attack on the national railway disrupted train services, and departure boards told passengers to call the office of the Supreme Leader. Researchers named the wiper Meteor.
+    nl: Een wiperaanval op de nationale spoorwegen verstoorde de dienstregeling, en vertrekborden vroegen reizigers het kantoor van de opperste leider te bellen. Onderzoekers noemden de wiper Meteor.
+  lesson:
+    en: Passenger information and scheduling are part of rail operations. Keep tested offline backups for them.
+    nl: Reisinformatie en planning horen bij de spoorbedrijfsvoering. Houd daarvan geteste offline back-ups.
+  sources:
+    - {title: "SentinelLabs: MeteorExpress wiper paralyzes Iranian trains", url: "https://labs.sentinelone.com/meteorexpress-mysterious-wiper-paralyzes-iranian-trains-with-epic-troll"}
+    - {title: "The Record: Iranian railway attack was a wiper incident", url: "https://therecord.media/cyber-attack-on-iranian-railway-was-a-wiper-incident-not-ransomware"}
+
+- id: iran-fuel-2021
+  date: "2021-10-26"
+  name:
+    en: Iran's fuel stations go dark
+    nl: Iraanse tankstations vallen uit
+  place: {en: "Iran (nationwide)", nl: "Iran (landelijk)"}
+  lat: 32.65
+  lon: 51.67
+  continent: asia
+  sector: oil_gas
+  impact: disruption
+  status: confirmed
+  actor: {en: "Predatory Sparrow (claimed)", nl: "Predatory Sparrow (opgeëist)"}
+  summary:
+    en: A cyberattack disabled the subsidised fuel card system at about 4,300 petrol stations across Iran for days, while digital billboards showed messages aimed at the Supreme Leader. A similar attack in December 2023 hit about 70 percent of stations.
+    nl: Een cyberaanval schakelde het systeem voor gesubsidieerde brandstofpassen bij zo'n 4.300 tankstations in heel Iran dagenlang uit, terwijl digitale billboards berichten aan de opperste leider toonden. Een vergelijkbare aanval in december 2023 trof ongeveer 70 procent van de stations.
+  lesson:
+    en: Central payment and allocation systems can halt distributed physical operations. Plan a degraded mode.
+    nl: Centrale betaal- en toewijzingssystemen kunnen verspreide fysieke operaties stilleggen. Plan een noodmodus.
+  sources:
+    - {title: "USIP Iran Primer: gas station attack", url: "https://iranprimer.usip.org/node/9821"}
+    - {title: "RISI database entry", url: "https://www.risidata.com/Database/Detail/iran-fuel-stations-predatory-sparrow-2021"}
+
+- id: transnet-2021
+  date: "2021-07-22"
+  name:
+    en: Transnet port terminals
+    nl: Haventerminals van Transnet
+  place: {en: "Durban and other ports, South Africa", nl: "Durban en andere havens, Zuid-Afrika"}
+  lat: -29.87
+  lon: 31.03
+  continent: africa
+  sector: transport
+  impact: disruption
+  status: confirmed
+  actor: {en: "Unknown ransomware operators", nl: "Onbekende ransomware-operators"}
+  summary:
+    en: An attack on state logistics company Transnet disrupted the container terminal systems at Durban, Ngqura, Port Elizabeth and Cape Town. Transnet declared force majeure and moved to manual processes for more than a week.
+    nl: Een aanval op het staatslogistiekbedrijf Transnet verstoorde de containerterminalsystemen in Durban, Ngqura, Port Elizabeth en Kaapstad. Transnet riep overmacht uit en werkte ruim een week met handmatige processen.
+  lesson:
+    en: Terminal operating systems are a single point of failure. Rehearse manual fallback procedures.
+    nl: Terminalsystemen zijn een single point of failure. Oefen handmatige terugvalprocedures.
+  sources:
+    - {title: "TimesLIVE: Transnet declares force majeure over cyber attack", url: "https://www.timeslive.co.za/news/south-africa/2021-07-27-transnet-declares-force-majeure-over-cyber-attack-and-sabotage/"}
+    - {title: "The Maritime Executive: Second force majeure at South African ports", url: "https://maritime-executive.com/article/second-force-majeure-at-south-african-ports-following-cyberattack"}
+
+- id: ara-oil-terminals-2022
+  date: "2022-01-29"
+  name:
+    en: Oil terminals in Germany, Belgium and the Netherlands
+    nl: Olieterminals in Duitsland, België en Nederland
+  place: {en: "Hamburg, Germany, and the Amsterdam-Rotterdam-Antwerp region", nl: "Hamburg, Duitsland, en de regio Amsterdam-Rotterdam-Antwerpen"}
+  lat: 53.55
+  lon: 9.99
+  continent: europe
+  sector: oil_gas
+  impact: disruption
+  status: confirmed
+  actor: {en: "Unknown; BlackCat ransomware was reported at Oiltanking", nl: "Onbekend; bij Oiltanking werd BlackCat-ransomware gemeld"}
+  summary:
+    en: Ransomware hit fuel suppliers Oiltanking and Mabanaft in Germany and, within days, terminal operators SEA-Invest and Evos in Belgium and the Netherlands. Loading and unloading at tank terminals slowed, delaying barges in the Amsterdam-Rotterdam-Antwerp hub.
+    nl: Ransomware trof brandstofleveranciers Oiltanking en Mabanaft in Duitsland en binnen enkele dagen terminalbeheerders SEA-Invest en Evos in België en Nederland. Laden en lossen bij tankterminals liep vertraging op, waardoor binnenvaartschepen in de ARA-regio moesten wachten.
+  lesson:
+    en: Terminal automation and planning are interlinked across companies. Share indicators quickly within the sector.
+    nl: Terminalautomatisering en planning zijn over bedrijven heen verweven. Deel indicatoren snel binnen de sector.
+  sources:
+    - {title: "The Maritime Executive: Cyberattack disrupting northern European oil hubs", url: "https://www.maritime-executive.com/article/cyberattack-disrupting-northern-european-oil-hubs-in-major-ports"}
+    - {title: "Euronews: Cyberattacks hit European oil terminals", url: "https://www.euronews.com/2022/02/04/uk-europe-cyber-oil"}
+
+- id: viasat-enercon-2022
+  date: "2022-02-24"
+  name:
+    en: KA-SAT outage cuts wind turbine monitoring
+    nl: KA-SAT-storing raakt monitoring van windturbines
+  place: {en: "Germany (Enercon) and across Europe", nl: "Duitsland (Enercon) en elders in Europa"}
+  lat: 53.47
+  lon: 7.48
+  continent: europe
+  sector: energy
+  impact: disruption
+  status: confirmed
+  actor: {en: "Russia, per the EU, UK and US", nl: "Rusland, volgens de EU, het VK en de VS"}
+  malware: [AcidRain]
+  summary:
+    en: An hour before the invasion of Ukraine, an attack on Viasat's KA-SAT network disabled tens of thousands of satellite modems. As collateral damage, Enercon lost remote monitoring and control of about 5,800 wind turbines (11 GW) in Germany; the turbines kept generating.
+    nl: Een uur voor de inval in Oekraïne schakelde een aanval op het KA-SAT-netwerk van Viasat tienduizenden satellietmodems uit. Als nevenschade verloor Enercon de monitoring en bediening op afstand van zo'n 5.800 windturbines (11 GW) in Duitsland; de turbines bleven wel produceren.
+  lesson:
+    en: Know which third-party communication links your OT depends on (satellite, cellular) and plan for their loss.
+    nl: Weet van welke communicatieverbindingen van derden je OT afhankelijk is (satelliet, mobiel) en plan voor uitval ervan.
+  sources:
+    - {title: "pv magazine: Satellite cyber attack paralyzes 11 GW of German wind turbines", url: "https://pv-magazine.com/2022/03/01/satellite-cyber-attack-paralyzes-11gw-of-german-wind-turbines"}
+    - {title: "DatacenterDynamics: Satellite outage impacts more than 5,000 wind turbines", url: "https://www.datacenterdynamics.com/en/news/satellite-outage-impacts-more-than-5000-wind-turbines-across-europe/"}
+
+- id: industroyer2-2022
+  date: "2022-04-08"
+  name:
+    en: Industroyer2 stopped before execution
+    nl: Industroyer2 gestopt voor uitvoering
+  place: {en: "Ukraine (regional energy company)", nl: "Oekraïne (regionaal energiebedrijf)"}
+  lat: 49.6
+  lon: 32.0
+  continent: europe
+  sector: energy
+  impact: intrusion
+  status: confirmed
+  actor: {en: "Sandworm, per CERT-UA and ESET", nl: "Sandworm, volgens CERT-UA en ESET"}
+  malware: [Industroyer2, CaddyWiper]
+  summary:
+    en: Sandworm planned to switch off high-voltage substations of a Ukrainian energy company using Industroyer2, which speaks IEC 60870-5-104, and then wipe systems. CERT-UA and ESET detected and stopped the attack before it ran.
+    nl: Sandworm wilde hoogspanningsstations van een Oekraïens energiebedrijf uitschakelen met Industroyer2, dat IEC 60870-5-104 spreekt, en daarna systemen wissen. CERT-UA en ESET ontdekten en stopten de aanval voordat die werd uitgevoerd.
+  lesson:
+    en: Detection and response capacity inside OT can stop even a prepared state attack.
+    nl: Detectie- en responscapaciteit binnen OT kan zelfs een voorbereide statelijke aanval stoppen.
+  sources:
+    - {title: "WeLiveSecurity: Industroyer2, Industroyer reloaded", url: "https://welivesecurity.com/2022/04/12/industroyer2-industroyer-reloaded/"}
+    - {title: "The Hacker News: Russian hackers tried attacking Ukraine's power grid", url: "https://thehackernews.com/2022/04/russian-hackers-tried-attacking.html"}
+
+- id: khuzestan-steel-2022
+  date: "2022-06-27"
+  name:
+    en: Fire at Khuzestan Steel
+    nl: Brand bij Khuzestan Steel
+  place: {en: "Ahvaz, Iran", nl: "Ahvaz, Iran"}
+  lat: 31.32
+  lon: 48.67
+  continent: asia
+  sector: manufacturing
+  impact: process
+  status: confirmed
+  actor: {en: "Predatory Sparrow (claimed)", nl: "Predatory Sparrow (opgeëist)"}
+  summary:
+    en: The group attacked three Iranian steel makers and released CCTV footage of a machine spilling molten steel and starting a fire at Khuzestan Steel. The group said it had acted with care to avoid harming people.
+    nl: De groep viel drie Iraanse staalbedrijven aan en publiceerde camerabeelden waarop een machine bij Khuzestan Steel gesmolten staal morst en brand veroorzaakt. Volgens de groep werd zorgvuldig gehandeld om geen mensen te raken.
+  lesson:
+    en: Process safety and cyber security meet here. Hazard analyses (HAZOP, LOPA) should include deliberate manipulation.
+    nl: Hier komen procesveiligheid en cybersecurity samen. Risicoanalyses (HAZOP, LOPA) moeten ook bewuste manipulatie meenemen.
+  sources:
+    - {title: "GovInfoSecurity: Iranian steelmaker halts production after cyberattack", url: "https://www.govinfosecurity.com/iranian-steelmaker-halts-production-following-cyberattack-a-19465"}
+    - {title: "GovInfoSecurity: Predatory Sparrow's hacks", url: "https://www.govinfosecurity.com/predatory-sparrows-hacks-theres-smoke-theres-fire-a-19551"}
+
+- id: ukraine-microscada-2022
+  date: "2022-10-10"
+  name:
+    en: Sandworm trips breakers via MicroSCADA
+    nl: Sandworm schakelt via MicroSCADA
+  place: {en: "Ukraine (site not disclosed)", nl: "Oekraïne (locatie niet bekendgemaakt)"}
+  lat: 49.2
+  lon: 28.5
+  continent: europe
+  sector: energy
+  impact: disruption
+  status: confirmed
+  actor: {en: "Sandworm, per Mandiant", nl: "Sandworm, volgens Mandiant"}
+  malware: [CaddyWiper]
+  summary:
+    en: Using living-off-the-land techniques, the attackers ran commands through a substation's MicroSCADA system to open breakers, causing an outage that coincided with Russian missile strikes. Two days later they deployed a wiper. Mandiant disclosed the case in November 2023.
+    nl: Met living-off-the-land-technieken gaven de aanvallers via het MicroSCADA-systeem van een onderstation opdrachten om schakelaars te openen, wat een stroomstoring gaf die samenviel met Russische raketaanvallen. Twee dagen later zetten ze een wiper in. Mandiant maakte de zaak in november 2023 bekend.
+  lesson:
+    en: Attackers increasingly use the vendor's own tools. Watch for unusual use of legitimate engineering functions.
+    nl: Aanvallers gebruiken steeds vaker de eigen tools van de leverancier. Let op ongebruikelijk gebruik van legitieme engineeringfuncties.
+  sources:
+    - {title: "The Hacker News: Sandworm caused power outage in Ukraine", url: "https://thehackernews.com/2023/11/russian-hackers-sandworm-cause-power.html"}
+    - {title: "Help Net Security: Sandworm incapacitated Ukrainian power grid", url: "https://www.helpnetsecurity.com/2023/11/09/ukrainian-power-grid-disruption/"}
+
+- id: denmark-energy-2023
+  date: "2023-05-11"
+  name:
+    en: 22 Danish energy companies breached
+    nl: 22 Deense energiebedrijven binnengedrongen
+  place: {en: "Denmark", nl: "Denemarken"}
+  lat: 56.0
+  lon: 9.5
+  continent: europe
+  sector: energy
+  impact: intrusion
+  status: confirmed
+  actor: {en: "Unknown; SektorCERT saw some indicators linked to Sandworm", nl: "Onbekend; SektorCERT zag enkele indicatoren die naar Sandworm wijzen"}
+  summary:
+    en: Attackers exploited a critical vulnerability in Zyxel firewalls to compromise 22 Danish energy companies in a coordinated campaign. Several companies switched to island mode, cutting their connection to the internet. SektorCERT called it the largest attack on Danish critical infrastructure so far.
+    nl: Aanvallers misbruikten een kritieke kwetsbaarheid in Zyxel-firewalls om in een gecoördineerde campagne 22 Deense energiebedrijven binnen te dringen. Meerdere bedrijven gingen in eilandbedrijf en verbraken de verbinding met internet. SektorCERT noemde het de grootste aanval op Deense vitale infrastructuur tot dan toe.
+  lesson:
+    en: A sector CERT with sensors across members saw the pattern fast. Shared monitoring pays off for small operators.
+    nl: Een sector-CERT met sensoren bij de leden zag het patroon snel. Gedeelde monitoring loont voor kleine bedrijven.
+  sources:
+    - {title: "SecurityWeek: 22 energy firms hacked in Denmark", url: "https://www.securityweek.com/22-energy-firms-hacked-in-largest-coordinated-attack-on-denmarks-critical-infrastructure/"}
+    - {title: "The Register: Inside Denmark's hell week", url: "https://www.theregister.com/2023/11/13/inside_denmarks_hell_week_as/"}
+
+- id: volt-typhoon-2023
+  date: "2023-05-24"
+  name:
+    en: Volt Typhoon pre-positioning
+    nl: Voorpositionering door Volt Typhoon
+  place: {en: "Guam and the United States", nl: "Guam en de Verenigde Staten"}
+  lat: 13.44
+  lon: 144.79
+  continent: oceania
+  sector: cross_sector
+  impact: intrusion
+  status: confirmed
+  actor: {en: "Volt Typhoon (China state-sponsored), per the US and allied governments", nl: "Volt Typhoon (Chinese staat), volgens de VS en bondgenoten"}
+  summary:
+    en: Microsoft and Five Eyes agencies disclosed that Volt Typhoon had compromised critical infrastructure in Guam and the US, including communications, energy, water and transport. In 2024 CISA assessed the goal as pre-positioning for disruptive attacks, with some access lasting at least five years.
+    nl: Microsoft en de Five Eyes-diensten maakten bekend dat Volt Typhoon vitale infrastructuur op Guam en in de VS was binnengedrongen, waaronder communicatie, energie, water en transport. In 2024 concludeerde CISA dat het doel voorpositionering voor verstorende aanvallen was, met toegang die soms minstens vijf jaar duurde.
+  lesson:
+    en: Living-off-the-land intrusions leave few traces. Baseline normal behaviour in OT networks so deviations stand out.
+    nl: Inbraken met living-off-the-land-technieken laten weinig sporen na. Leg normaal gedrag in OT-netwerken vast, zodat afwijkingen opvallen.
+  sources:
+    - {title: "CISA advisory AA24-038A", url: "https://cisa.gov/news-events/cybersecurity-advisories/aa24-038a"}
+    - {title: "Australian Cyber Security Centre: PRC actors maintain access to US critical infrastructure", url: "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/prc-state-sponsored-actors-compromise-and-maintain-persistent-access-us-critical-infrastructure"}
+
+- id: nagoya-port-2023
+  date: "2023-07-04"
+  name:
+    en: LockBit at the Port of Nagoya
+    nl: LockBit in de haven van Nagoya
+  place: {en: "Nagoya, Japan", nl: "Nagoya, Japan"}
+  lat: 35.09
+  lon: 136.88
+  continent: asia
+  sector: transport
+  impact: disruption
+  status: confirmed
+  actor: {en: "LockBit (claimed)", nl: "LockBit (opgeëist)"}
+  malware: [LockBit]
+  summary:
+    en: Ransomware hit the terminal operating system of Japan's busiest port by cargo volume, halting container handling for about two and a half days.
+    nl: Ransomware trof het terminalsysteem van Japans drukste vrachthaven, waardoor de containeroverslag ongeveer tweeënhalve dag stillag.
+  lesson:
+    en: A single shared terminal system can stop a whole port. Design for redundancy and fast restore.
+    nl: Eén gedeeld terminalsysteem kan een hele haven stilleggen. Ontwerp op redundantie en snel herstel.
+  sources:
+    - {title: "Dark Reading: Ransomware halts operations at Japan's Port of Nagoya", url: "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-halts-operations-at-japan-port-of-nagoya"}
+    - {title: "The Maritime Executive: Ransomware stops container operations at Nagoya", url: "https://maritime-executive.com/article/ransomware-attack-stops-container-operations-japan-s-nagoya-port"}
+
+- id: dp-world-australia-2023
+  date: "2023-11-10"
+  name:
+    en: DP World Australia ports
+    nl: Havens van DP World Australia
+  place: {en: "Sydney, Melbourne, Brisbane and Fremantle, Australia", nl: "Sydney, Melbourne, Brisbane en Fremantle, Australië"}
+  lat: -33.97
+  lon: 151.21
+  continent: oceania
+  sector: transport
+  impact: disruption
+  status: confirmed
+  actor: {en: "Unknown", nl: "Onbekend"}
+  summary:
+    en: A cyber incident forced DP World Australia to disconnect its systems from the internet, stopping trucks from collecting or delivering containers at four major terminals for about three days. A backlog of tens of thousands of containers followed.
+    nl: Door een cyberincident moest DP World Australia zijn systemen van internet loskoppelen, waardoor vrachtwagens ongeveer drie dagen geen containers konden ophalen of afleveren bij vier grote terminals. Er ontstond een achterstand van tienduizenden containers.
+  lesson:
+    en: Disconnecting is a valid containment choice; know in advance what still works when you do.
+    nl: Loskoppelen is een valide inperkingsmaatregel; weet vooraf wat dan nog werkt.
+  sources:
+    - {title: "The Record: Australian ports operator recovering after cyber incident", url: "https://therecord.media/australian-ports-operator-recovering-from-large-cyber-incident"}
+    - {title: "Industrial Cyber: DP World Australia disruption", url: "https://industrialcyber.co/news/cyber-adversaries-strike-dp-world-australia-disrupting-transportation-of-goods-to-and-from-country/"}
+
+- id: aliquippa-2023
+  date: "2023-11-25"
+  name:
+    en: Unitronics PLC at Aliquippa water authority
+    nl: Unitronics-PLC bij waterbedrijf Aliquippa
+  place: {en: "Aliquippa, Pennsylvania, US", nl: "Aliquippa, Pennsylvania, VS"}
+  lat: 40.62
+  lon: -80.25
+  continent: north_america
+  sector: water
+  impact: disruption
+  status: confirmed
+  actor: {en: "CyberAv3ngers, linked to Iran's IRGC by the US government", nl: "CyberAv3ngers, door de Amerikaanse overheid gelinkt aan de Iraanse IRGC"}
+  summary:
+    en: The group took over an internet-exposed Unitronics PLC at a booster station that controls water pressure and defaced its screen. The station was run manually; water supply was not at risk. The same group hit Unitronics PLCs in several countries using the default password.
+    nl: De groep nam een via internet bereikbare Unitronics-PLC over bij een drukverhogingsstation en bekladde het scherm. Het station werd handmatig bediend; de watervoorziening kwam niet in gevaar. Dezelfde groep trof Unitronics-PLC's in meerdere landen via het standaardwachtwoord.
+  lesson:
+    en: Change default passwords and never put a PLC directly on the internet.
+    nl: Wijzig standaardwachtwoorden en zet een PLC nooit rechtstreeks op internet.
+  sources:
+    - {title: "Claroty Team82: Hacktivists target PLCs at US water facility", url: "https://claroty.com/team82/blog/opportunistic-hacktivists-target-plcs-at-us-water-facility"}
+    - {title: "The Hacker News: Iranian hackers exploit PLCs in attack", url: "https://thehackernews.com/2023/11/iranian-hackers-exploit-plcs-in-attack.html"}
+
+- id: erris-water-2023
+  date: "2023-12-06"
+  name:
+    en: Water cut off in Erris
+    nl: Water afgesloten in Erris
+  place: {en: "Erris, County Mayo, Ireland", nl: "Erris, County Mayo, Ierland"}
+  lat: 54.2
+  lon: -9.9
+  continent: europe
+  sector: water
+  impact: disruption
+  status: confirmed
+  actor: {en: "Pro-Iranian hacktivists, in line with the CyberAv3ngers campaign", nl: "Pro-Iraanse hacktivisten, passend bij de CyberAv3ngers-campagne"}
+  summary:
+    en: Attackers compromised an Israeli-made Unitronics PLC at a pumping station of a local water scheme, leaving about 180 homes without water for two days.
+    nl: Aanvallers namen een in Israël gemaakte Unitronics-PLC over bij een pompstation van een lokale watervoorziening, waardoor zo'n 180 huishoudens twee dagen zonder water zaten.
+  lesson:
+    en: Small operators are hit by the same mass campaigns as large ones. Basic hygiene closes most of the door.
+    nl: Kleine beheerders worden door dezelfde massacampagnes geraakt als grote. Basishygiëne sluit de deur grotendeels.
+  sources:
+    - {title: "The Record: Water outage in County Mayo after cyberattack", url: "https://therecord.media/water-outage-in-ireland-county-mayo"}
+    - {title: "SecurityWeek: Cyberattack on Irish utility cuts off water for two days", url: "https://www.securityweek.com/cyberattack-on-irish-utility-cuts-off-water-supply-for-two-days/"}
+
+- id: frostygoop-2024
+  date: "2024-01"
+  name:
+    en: FrostyGoop cuts heating in Lviv
+    nl: FrostyGoop legt verwarming in Lviv plat
+  place: {en: "Lviv, Ukraine", nl: "Lviv, Oekraïne"}
+  lat: 49.84
+  lon: 24.03
+  continent: europe
+  sector: energy
+  impact: process
+  status: confirmed
+  actor: {en: "Unknown (disclosed by Dragos)", nl: "Onbekend (bekendgemaakt door Dragos)"}
+  malware: [FrostyGoop]
+  summary:
+    en: Malware sent Modbus TCP commands to heating controllers of a municipal district heating company, leaving more than 600 apartment buildings without heating for almost two days in sub-zero temperatures. Dragos disclosed the case in July 2024.
+    nl: Malware stuurde Modbus TCP-commando's naar regelaars van een gemeentelijk warmtebedrijf, waardoor meer dan 600 flatgebouwen bijna twee dagen zonder verwarming zaten bij temperaturen onder nul. Dragos maakte het in juli 2024 bekend.
+  lesson:
+    en: Modbus has no authentication. Do not expose it, and filter and monitor which hosts may send write commands.
+    nl: Modbus kent geen authenticatie. Stel het niet bloot en filter en monitor welke hosts schrijfcommando's mogen sturen.
+  sources:
+    - {title: "MITRE ATT&CK: FrostyGoop (S1165)", url: "https://attack.mitre.org/software/S1165"}
+    - {title: "SoS VO: FrostyGoop left residents without heating", url: "https://sos-vo.org/node/108032"}
+
+- id: muleshoe-2024
+  date: "2024-01-18"
+  name:
+    en: Water tank overflow in Muleshoe
+    nl: Overlopende watertank in Muleshoe
+  place: {en: "Muleshoe, Texas, US", nl: "Muleshoe, Texas, VS"}
+  lat: 34.23
+  lon: -102.72
+  continent: north_america
+  sector: water
+  impact: process
+  status: confirmed
+  actor: {en: "Cyber Army of Russia Reborn (claimed); linked to Sandworm by Mandiant; two members sanctioned by the US Treasury", nl: "Cyber Army of Russia Reborn (opgeëist); door Mandiant gelinkt aan Sandworm; twee leden gesanctioneerd door het Amerikaanse ministerie van Financiën"}
+  summary:
+    en: Attackers manipulated the internet-facing HMI of a small town's water system, causing a storage tank to overflow for 30 to 45 minutes until operators switched to manual. Nearby towns reported intrusion attempts in the same days.
+    nl: Aanvallers manipuleerden de via internet bereikbare HMI van het waterbedrijf van een kleine stad, waardoor een opslagtank 30 tot 45 minuten overliep tot operators overschakelden op handbediening. Nabijgelegen plaatsen meldden in dezelfde dagen inbraakpogingen.
+  lesson:
+    en: An HMI on the internet is a control panel for anyone. Put remote access behind a VPN with MFA.
+    nl: Een HMI op internet is een bedieningspaneel voor iedereen. Zet toegang op afstand achter een VPN met MFA.
+  sources:
+    - {title: "RISI database: Muleshoe water overflow", url: "https://www.risidata.com/Database/Detail/muleshoe-tx-sandworm-water-overflow-2024"}
+    - {title: "CPO Magazine: Russian hackers linked to Texas water breach", url: "https://www.cpomagazine.com/cyber-security/state-sponsored-russian-hackers-linked-to-breach-of-texas-water-treatment-plant/"}
+
+- id: varta-2024
+  date: "2024-02-12"
+  name:
+    en: Varta battery plants halted
+    nl: Batterijfabrieken van Varta stilgelegd
+  place: {en: "Ellwangen, Germany", nl: "Ellwangen, Duitsland"}
+  lat: 48.96
+  lon: 10.13
+  continent: europe
+  sector: manufacturing
+  impact: disruption
+  status: confirmed
+  actor: {en: "Unknown", nl: "Onbekend"}
+  summary:
+    en: A cyberattack forced battery maker Varta to shut down its IT systems as a precaution, halting production at its five plants and administration for weeks.
+    nl: Na een cyberaanval moest batterijmaker Varta uit voorzorg zijn IT-systemen uitschakelen, waardoor productie in vijf fabrieken en de administratie wekenlang stillagen.
+  lesson:
+    en: A precautionary shutdown is only short if restore procedures for production systems are tested.
+    nl: Een stillegging uit voorzorg blijft alleen kort als herstelprocedures voor productiesystemen getest zijn.
+  sources:
+    - {title: "BleepingComputer: Varta halts production after cyberattack", url: "https://www.bleepingcomputer.com/news/security/german-battery-maker-varta-halts-production-after-cyberattack/"}
+    - {title: "Security Affairs: Cyberattack halted Varta production plants", url: "https://securityaffairs.com/159190/hacking/cyberattack-halted-varta-production-plants.html"}
+
+- id: bremanger-dam-2025
+  date: "2025-04-07"
+  name:
+    en: Dam outlet opened at Bremanger
+    nl: Damafvoer geopend in Bremanger
+  place: {en: "Bremanger, Norway", nl: "Bremanger, Noorwegen"}
+  lat: 61.83
+  lon: 5.1
+  continent: europe
+  sector: water
+  impact: process
+  status: confirmed
+  actor: {en: "Pro-Russian hackers, per Norway's Police Security Service (August 2025)", nl: "Pro-Russische hackers, volgens de Noorse veiligheidsdienst PST (augustus 2025)"}
+  summary:
+    en: Attackers accessed the control system of a dam at Lake Risevatnet and opened an outlet, releasing about 500 litres per second for four hours before it was noticed. No one was hurt.
+    nl: Aanvallers kwamen in het besturingssysteem van een dam bij het meer Risevatnet en openden een afvoer, waardoor vier uur lang zo'n 500 liter per seconde wegstroomde voordat het werd opgemerkt. Niemand raakte gewond.
+  lesson:
+    en: Four hours without noticing is the real finding. Alarm on unexpected changes in actuator positions.
+    nl: Vier uur lang niets merken is de eigenlijke bevinding. Alarmeer op onverwachte veranderingen in klep- en schuifstanden.
+  sources:
+    - {title: "Wikipedia: Bremanger dam sabotage", url: "https://en.wikipedia.org/wiki/Bremanger_dam_sabotage"}
+    - {title: "Security Affairs: Norway confirms dam intrusion by pro-Russian hackers", url: "https://securityaffairs.com/181143/hacktivism/norway-confirms-dam-intrusion-by-pro-russian-hackers.html"}
+
+- id: tczew-hydro-2025
+  date: "2025-08"
+  name:
+    en: Hydropower plant in Tczew
+    nl: Waterkrachtcentrale in Tczew
+  place: {en: "Tczew, Poland", nl: "Tczew, Polen"}
+  lat: 54.09
+  lon: 18.78
+  continent: europe
+  sector: energy
+  impact: process
+  status: reported
+  actor: {en: "Russian hacktivists (claimed, with video)", nl: "Russische hacktivisten (opgeëist, met video)"}
+  summary:
+    en: Hacktivists published video of access to the control system of a small hydropower plant, first in May 2025 and again in August. Polish analysts concluded from turbine data that the second intrusion disrupted operations.
+    nl: Hacktivisten publiceerden beelden van toegang tot het besturingssysteem van een kleine waterkrachtcentrale, eerst in mei 2025 en opnieuw in augustus. Poolse analisten concludeerden uit turbinedata dat de tweede inbraak de bedrijfsvoering verstoorde.
+  lesson:
+    en: After a first intrusion, assume the attacker will be back. Close the path, do not just reset the password.
+    nl: Ga er na een eerste inbraak van uit dat de aanvaller terugkomt. Sluit de route af, reset niet alleen het wachtwoord.
+  sources:
+    - {title: "Dark Reading: Russian hacktivists target Polish power plant again", url: "https://www.darkreading.com/cyberattacks-data-breaches/russian-hacktivists-polish-power-plant-attack"}
+    - {title: "SC Media: Russian cyberattack disrupts Polish hydropower plant anew", url: "https://www.scworld.com/brief/russian-cyberattack-disrupts-polish-hydropower-plant-anew"}
+
+- id: jlr-2025
+  date: "2025-09-01"
+  name:
+    en: Jaguar Land Rover production stop
+    nl: Productiestop bij Jaguar Land Rover
+  place: {en: "Solihull and other plants, United Kingdom", nl: "Solihull en andere fabrieken, Verenigd Koninkrijk"}
+  lat: 52.41
+  lon: -1.78
+  continent: europe
+  sector: manufacturing
+  impact: disruption
+  status: confirmed
+  actor: {en: "Scattered Lapsus$ Hunters (claimed)", nl: "Scattered Lapsus$ Hunters (opgeëist)"}
+  summary:
+    en: A cyberattack forced JLR to shut down its systems and halt vehicle production for about five weeks. The Cyber Monitoring Centre estimated the cost to the UK economy at around 1.9 billion pounds, affecting more than 5,000 organisations in the supply chain.
+    nl: Na een cyberaanval moest JLR zijn systemen uitschakelen en de autoproductie ongeveer vijf weken stilleggen. Het Cyber Monitoring Centre schatte de schade voor de Britse economie op zo'n 1,9 miljard pond, met gevolgen voor meer dan 5.000 organisaties in de keten.
+  lesson:
+    en: Just-in-time supply chains multiply the impact of one plant's downtime. Include suppliers in continuity planning.
+    nl: Just-in-time-ketens vermenigvuldigen de impact van stilstand in één fabriek. Neem leveranciers mee in de continuïteitsplanning.
+  sources:
+    - {title: "Automotive World: JLR cyber hack cost 1.9 billion pounds", url: "https://www.automotiveworld.com/articles/jlr-cyber-hack-cost-2bn-affected-5000-organisations/"}
+    - {title: "Business Insurance: JLR hack cost UK economy an estimated 2.5 billion dollars", url: "https://www.businessinsurance.com/jaguar-land-rover-hack-cost-uk-economy-an-estimated-2-5-billion-report/"}
+
+- id: collins-muse-2025
+  date: "2025-09-19"
+  name:
+    en: Airport check-in systems down across Europe
+    nl: Incheck-systemen op Europese luchthavens plat
+  place: {en: "Brussels, London Heathrow, Berlin and other airports", nl: "Brussel, Londen Heathrow, Berlijn en andere luchthavens"}
+  lat: 50.9
+  lon: 4.48
+  continent: europe
+  sector: transport
+  impact: disruption
+  status: confirmed
+  actor: {en: "Ransomware, confirmed by ENISA; no group named", nl: "Ransomware, bevestigd door ENISA; geen groep genoemd"}
+  summary:
+    en: Ransomware hit Collins Aerospace's MUSE shared check-in and boarding system. Brussels, Heathrow, Berlin and other airports fell back to manual check-in for days, and Brussels Airport cancelled many flights.
+    nl: Ransomware trof MUSE, het gedeelde incheck- en boardingsysteem van Collins Aerospace. Brussel, Heathrow, Berlijn en andere luchthavens moesten dagenlang handmatig inchecken en Brussels Airport schrapte veel vluchten.
+  lesson:
+    en: Shared platforms concentrate risk. Map which operational processes depend on a single supplier.
+    nl: Gedeelde platforms concentreren risico. Breng in kaart welke operationele processen van één leverancier afhangen.
+  sources:
+    - {title: "TechCrunch: EU cyber agency confirms ransomware behind airport disruptions", url: "https://techcrunch.com/2025/09/22/eu-cyber-agency-confirms-ransomware-attack-causing-airport-disruptions/"}
+    - {title: "Airport Technology: European airports hit by Collins Aerospace attack", url: "https://www.airport-technology.com/newsletters/three-european-airports-hit-by-collins-aerospace-cyberattack"}
+
+- id: asahi-2025
+  date: "2025-09-29"
+  name:
+    en: Asahi breweries halted
+    nl: Brouwerijen van Asahi stilgelegd
+  place: {en: "Japan", nl: "Japan"}
+  lat: 35.71
+  lon: 139.8
+  continent: asia
+  sector: food
+  impact: disruption
+  status: confirmed
+  actor: {en: "Qilin ransomware (claimed)", nl: "Qilin-ransomware (opgeëist)"}
+  malware: [Qilin]
+  summary:
+    en: Ransomware took down order and shipping systems at Asahi Group, forcing its breweries in Japan to stop or cut production and causing shortages of its beer. Orders were handled manually for weeks.
+    nl: Ransomware legde de order- en verzendsystemen van Asahi Group plat, waardoor de brouwerijen in Japan de productie moesten stoppen of verminderen en er tekorten aan bier ontstonden. Bestellingen werden wekenlang handmatig verwerkt.
+  lesson:
+    en: Production stops when orders and logistics stop. Treat those IT systems as part of the operational chain.
+    nl: Productie stopt als orders en logistiek stoppen. Behandel die IT-systemen als onderdeel van de operationele keten.
+  sources:
+    - {title: "BleepingComputer: Qilin claims Asahi brewery attack", url: "https://www.bleepingcomputer.com/news/security/qilin-ransomware-claims-asahi-brewery-attack-leaks-data/"}
+    - {title: "The Register: Asahi breach update", url: "https://www.theregister.com/2025/10/14/asahi_breach_update"}
+
+- id: pdvsa-2025
+  date: "2025-12-13"
+  name:
+    en: Ransomware at PDVSA
+    nl: Ransomware bij PDVSA
+  place: {en: "Caracas, Venezuela", nl: "Caracas, Venezuela"}
+  lat: 10.48
+  lon: -66.9
+  continent: south_america
+  sector: oil_gas
+  impact: disruption
+  status: reported
+  actor: {en: "Unknown; PDVSA blamed foreign interests", nl: "Onbekend; PDVSA gaf buitenlandse belangen de schuld"}
+  summary:
+    en: A ransomware attack and the clean-up that followed took down the state oil company's administrative systems. A company source told Reuters cargo deliveries had stopped, while PDVSA said production and exports were not affected.
+    nl: Een ransomwareaanval en de opschoning daarna legden de administratieve systemen van het staatsoliebedrijf plat. Een bron binnen het bedrijf zei tegen Reuters dat leveringen stillagen, terwijl PDVSA verklaarde dat productie en export niet waren geraakt.
+  lesson:
+    en: Clean-up can be as disruptive as the attack. Prepare an isolation plan that keeps operations running.
+    nl: Opschonen kan net zo ontwrichtend zijn als de aanval. Bereid een isolatieplan voor dat de operatie laat doordraaien.
+  sources:
+    - {title: "Security Affairs: Cyber attack hit PDVSA, disrupting export operations", url: "https://securityaffairs.com/185755/security/a-cyber-attack-hit-petroleos-de-venezuela-pdvsa-disrupting-export-operations.html"}
+
+- id: poland-energy-2025
+  date: "2025-12-29"
+  name:
+    en: Destructive attack on Polish energy sites
+    nl: Destructieve aanval op Poolse energielocaties
+  place: {en: "Poland (more than 30 wind and solar farms, a CHP plant)", nl: "Polen (ruim 30 wind- en zonneparken, een wkk-centrale)"}
+  lat: 52.1
+  lon: 19.4
+  continent: europe
+  sector: energy
+  impact: process
+  status: confirmed
+  actor: {en: "Russia-linked: CERT Polska saw overlap with the Berserk Bear / Static Tundra cluster; ESET attributed it to Sandworm with medium confidence", nl: "Gelinkt aan Rusland: CERT Polska zag overlap met het cluster Berserk Bear / Static Tundra; ESET schreef het met middelmatige zekerheid toe aan Sandworm"}
+  malware: [DynoWiper]
+  summary:
+    en: Coordinated attacks hit more than 30 wind and solar farms, a large combined heat and power plant serving almost half a million customers, and a manufacturer. At the farms the attackers damaged RTU firmware and wiped HMIs, cutting remote control by the grid operator while generation continued. At the CHP plant EDR blocked the wiper.
+    nl: Gecoördineerde aanvallen troffen ruim 30 wind- en zonneparken, een grote wkk-centrale die bijna een half miljoen klanten van warmte voorziet, en een maakbedrijf. Bij de parken beschadigden de aanvallers RTU-firmware en wisten ze HMI's, waardoor de netbeheerder ze niet meer op afstand kon bedienen; de opwek ging door. Bij de wkk-centrale hield EDR de wiper tegen.
+  lesson:
+    en: Distributed renewable sites are now targets for destructive attacks. Harden remote access and keep firmware recovery images for RTUs and relays.
+    nl: Verspreide duurzame locaties zijn nu doelwit van destructieve aanvallen. Versterk toegang op afstand en houd herstelimages van firmware voor RTU's en beveiligingsrelais bij de hand.
+  sources:
+    - {title: "CERT Polska: Incident report energy sector 2025", url: "https://cert.pl/en/posts/2026/01/incident-report-energy-sector-2025/"}
+    - {title: "Help Net Security: Poland repels data-wiping malware attack", url: "https://www.helpnetsecurity.com/2026/01/26/poland-energy-malware-attack/"}
+
+- id: mackay-sugar-2026
+  date: "2026-06-10"
+  name:
+    en: Mackay Sugar mills
+    nl: Suikerfabrieken van Mackay Sugar
+  place: {en: "Mackay, Queensland, Australia", nl: "Mackay, Queensland, Australië"}
+  lat: -21.14
+  lon: 149.19
+  continent: oceania
+  sector: food
+  impact: disruption
+  status: confirmed
+  actor: {en: "The Gentlemen ransomware (claimed)", nl: "The Gentlemen-ransomware (opgeëist)"}
+  summary:
+    en: Ransomware took down the systems that coordinate cane supply, harvesting and mill intake during the crushing season. Mills stopped accepting cane; one restarted limited manual crushing two days later.
+    nl: Ransomware legde midden in het oogstseizoen de systemen plat die rietaanvoer, oogst en inname bij de fabrieken coördineren. De fabrieken namen geen riet meer aan; één ervan hervatte twee dagen later beperkt en handmatig.
+  lesson:
+    en: Seasonal operations have no slack. Test the manual fallback before the season starts.
+    nl: Seizoensgebonden bedrijven hebben geen speling. Test de handmatige terugval voordat het seizoen begint.
+  sources:
+    - {title: "Security Affairs: Mackay Sugar reports cyber incident", url: "https://securityaffairs.com/193657/data-breach/australian-sugar-producer-mackay-sugar-reports-cyber-incident.html"}
+    - {title: "Cyber Daily: Two Mackay Sugar mills shut down", url: "https://www.cyberdaily.au/security/13734-two-mackay-sugar-mills-shut-down-following-cyber-incident"}
+
+- id: uk-generator-2026
+  date: "2026-07"
+  name:
+    en: Small UK power generator shut for four days
+    nl: Kleine Britse centrale vier dagen plat
+  place: {en: "United Kingdom (site not disclosed)", nl: "Verenigd Koninkrijk (locatie niet bekendgemaakt)"}
+  lat: 54.0
+  lon: -2.0
+  continent: europe
+  sector: energy
+  impact: disruption
+  status: reported
+  actor: {en: "Iran-linked hackers, according to press reports; no formal attribution", nl: "Aan Iran gelinkte hackers, volgens persberichten; geen formele toeschrijving"}
+  summary:
+    en: According to the Sunday Telegraph, a cyberattack shut down a small-scale power generator for four days while staff restored it. The UK government said there was no risk to the wider energy system.
+    nl: Volgens de Sunday Telegraph legde een cyberaanval een kleine elektriciteitscentrale vier dagen stil terwijl medewerkers die herstelden. De Britse overheid meldde dat het bredere energiesysteem geen risico liep.
+  lesson:
+    en: Small generators connect to the same grid. Baseline security applies regardless of size.
+    nl: Kleine opwekkers hangen aan hetzelfde net. Basisbeveiliging geldt ongeacht de omvang.
+  sources:
+    - {title: "The Irish Times: Iran-linked hackers accused of shutting down British power plant", url: "https://www.irishtimes.com/world/uk/2026/08/23/iran-linked-hackers-accused-of-cyberattack-that-shut-down-british-power-plant/"}
+    - {title: "Security Affairs: UK power plant disabled for four days", url: "https://securityaffairs.com/?p=197734"}
+
+- id: us-water-campaign-2026
+  date: "2026-07-26"
+  name:
+    en: PLC attacks on US water systems
+    nl: PLC-aanvallen op Amerikaanse waterbedrijven
+  place: {en: "Minnesota and at least 11 other US states", nl: "Minnesota en minstens 11 andere Amerikaanse staten"}
+  lat: 45.72
+  lon: -93.17
+  continent: north_america
+  sector: water
+  impact: disruption
+  status: reported
+  actor: {en: "Suspected CyberAv3ngers (Iran-linked), per US officials quoted in media; not formally attributed", nl: "Vermoedelijk CyberAv3ngers (gelinkt aan Iran), volgens Amerikaanse functionarissen in de media; niet formeel toegeschreven"}
+  summary:
+    en: Attackers changed passwords and IP settings on internet-facing PLCs and HMIs at more than 30 Minnesota water systems, cutting monitoring and control and forcing some to manual operation. Utilities in at least 12 states reported similar incidents within weeks; water quality in Minnesota was not affected.
+    nl: Aanvallers wijzigden wachtwoorden en IP-instellingen van via internet bereikbare PLC's en HMI's bij ruim 30 waterbedrijven in Minnesota, waardoor monitoring en bediening wegvielen en sommige overgingen op handbediening. Binnen enkele weken meldden waterbedrijven in minstens 12 staten vergelijkbare incidenten; de waterkwaliteit in Minnesota bleef goed.
+  lesson:
+    en: Three years after Aliquippa, exposed PLCs were still the way in. Remove direct internet exposure.
+    nl: Drie jaar na Aliquippa waren blootgestelde PLC's nog steeds de ingang. Haal directe internetblootstelling weg.
+  sources:
+    - {title: "SecureWorld: Coordinated cyberattack on Minnesota's water systems", url: "https://www.secureworld.io/industry-news/cyberattack-taps-minnesota-water"}
+    - {title: "Daily Security Review: Water sector attacks hit 12 states", url: "https://dailysecurityreview.com/threat-actors/us-water-sector-attacks-hit-12-states-georgia-confirmed/"}
+
+- id: atns-2026
+  date: "2026-09"
+  name:
+    en: Malware in air navigation OT
+    nl: Malware in OT van de luchtverkeersleiding
+  place: {en: "Gqeberha (Port Elizabeth), South Africa", nl: "Gqeberha (Port Elizabeth), Zuid-Afrika"}
+  lat: -33.98
+  lon: 25.61
+  continent: africa
+  sector: transport
+  impact: intrusion
+  status: reported
+  actor: {en: "Unknown", nl: "Onbekend"}
+  summary:
+    en: South Africa's air navigation service provider ATNS investigated ransomware-linked malware in OT environments supporting weather services at Port Elizabeth and possibly other airports, with signs of data sent abroad. No flight disruption was reported.
+    nl: De Zuid-Afrikaanse luchtverkeersdienstverlener ATNS onderzocht ransomware-gerelateerde malware in OT-omgevingen voor weerdiensten op de luchthaven van Port Elizabeth en mogelijk andere luchthavens, met aanwijzingen dat data naar het buitenland ging. Er werden geen vluchtverstoringen gemeld.
+  lesson:
+    en: Supporting systems such as weather feeds are part of safety-critical operations. Include them in OT monitoring.
+    nl: Ondersteunende systemen zoals weerdata horen bij veiligheidskritieke operaties. Neem ze mee in OT-monitoring.
+  sources:
+    - {title: "SC Media: South African air traffic firm investigates malware in OT network", url: "https://www.scworld.com/brief/south-african-air-traffic-control-firm-investigates-ransomware-linked-malware-in-ot-network"}
+    - {title: "TimesLIVE: Air traffic agency probes cyberattack", url: "https://www.timeslive.co.za/news/business/2026-09-26-air-traffic-agency-probes-cyberattack/"}
