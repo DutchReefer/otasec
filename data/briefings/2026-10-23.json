@@ -1,0 +1,224 @@
+{
+ "date": "2026-10-23",
+ "published": "2026-10-23T09:07:37Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 16,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "PHP2Shell dominates today, with Palo Alto still without fixed PAN-OS releases and attacks seen since 17 October. Ransomware exploitation of a GlobalProtect flaw and a long-running intrusion in a Russian healthcare network round out the threat picture."
+  },
+  "nl": {
+   "title": "",
+   "intro": "PHP2Shell staat vandaag centraal: Palo Alto heeft nog geen herstelde PAN-OS-releases en de eerste aanvallen werden al op 17 oktober gezien. Daarnaast misbruiken ransomwaregroepen een GlobalProtect-lek en blijkt een Russische zorginstelling bijna twee jaar gecompromitteerd."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "85df4dcbb77b",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/22/php2shell-vulnerability-fortinet-cisco-palo-alto-networks/",
+     "title": "What the PHP2Shell vulnerability means for Fortinet, Cisco and Palo Alto customers"
+    },
+    {
+     "id": "ef3df745dd44",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/958571/Amazon%3A+eerste+PHP2Shell-aanvallen+op+17+oktober+waargenomen?channel=rss",
+     "title": "Amazon: eerste PHP2Shell-aanvallen op 17 oktober waargenomen"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "PHP2Shell: Palo Alto affected, attacks seen since 17 October",
+     "summary": "Palo Alto Networks confirmed that all versions of PAN-OS and Panorama are affected by PHP2Shell, a pair of critical PHP vulnerabilities that allow code execution on a web server without login, and has not yet shipped fixed PAN-OS releases. Fortinet and Cisco published advisories but have not confirmed a vulnerable product so far. Amazon reported that the first PHP2Shell attacks took place on 17 October.",
+     "takeaway": "Check where PAN-OS, Panorama and other web-facing management interfaces are exposed, restrict access to them, and follow the vendor advisories for fixes."
+    },
+    "nl": {
+     "heading": "PHP2Shell: Palo Alto getroffen, aanvallen sinds 17 oktober",
+     "summary": "Palo Alto Networks bevestigde dat alle versies van PAN-OS en Panorama kwetsbaar zijn voor PHP2Shell, twee kritieke PHP-kwetsbaarheden waarmee zonder inloggen code op een webserver kan worden uitgevoerd. Er zijn nog geen herstelde PAN-OS-releases. Fortinet en Cisco publiceerden advisories maar hebben tot nu toe geen kwetsbaar product bevestigd. Amazon zag de eerste PHP2Shell-aanvallen al op 17 oktober.",
+     "takeaway": "Controleer waar PAN-OS, Panorama en andere via het web bereikbare beheerinterfaces blootstaan, beperk de toegang en volg de advisories van de leveranciers voor oplossingen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "941972dab7f2",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/",
+     "title": "Ransomware gangs have been exploiting Palo Alto GlobalProtect VPN flaw since June"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-0257"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Ransomware groups exploit Palo Alto GlobalProtect flaw CVE-2026-0257",
+     "summary": "Several ransomware groups have been exploiting CVE-2026-0257, an authentication bypass in PAN-OS GlobalProtect that was patched in May, since June. Targets span healthcare, education, government and energy. The flaw stems from firewalls relying on cookies without detailed validation and integrity checking.",
+     "takeaway": "Verify that GlobalProtect gateways run a release patched for CVE-2026-0257 and review VPN logs for suspicious sessions going back to June."
+    },
+    "nl": {
+     "heading": "Ransomwaregroepen misbruiken GlobalProtect-lek CVE-2026-0257 van Palo Alto",
+     "summary": "Meerdere ransomwaregroepen misbruiken sinds juni CVE-2026-0257, een authenticatiebypass in PAN-OS GlobalProtect die in mei is gepatcht. Doelwitten zitten onder meer in de zorg, het onderwijs, de overheid en de energiesector. Het lek ontstaat doordat firewalls op cookies vertrouwen zonder uitgebreide validatie en integriteitscontrole.",
+     "takeaway": "Controleer of GlobalProtect-gateways een release draaien met de patch voor CVE-2026-0257 en bekijk VPN-logs op verdachte sessies vanaf juni."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "bd60f0eb51aa",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+     "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Vasilek backdoor hidden in VMware Tools in two-year intrusion",
+     "summary": "A Belarus-aligned hacktivist group, tracked as Partisan Zmiy and also known as the Cyber Partisans, spent nearly two years inside the network of a Russian healthcare organization, according to a report from the Russian firm Solar. The group hid the Vasilek backdoor in VMware Tools. It has been active since at least 2020.",
+     "takeaway": "Include virtualization tooling in integrity checks and threat hunting, since persistence in trusted components can go unnoticed for long periods."
+    },
+    "nl": {
+     "heading": "Vasilek-backdoor verborgen in VMware Tools bij tweejarige inbraak",
+     "summary": "Een pro-Belarussische hacktivistengroep, gevolgd als Partisan Zmiy en ook bekend als de Cyber Partisans, zat bijna twee jaar in het netwerk van een Russische zorgorganisatie, aldus een rapport van het Russische bedrijf Solar. De groep verborg de Vasilek-backdoor in VMware Tools. De groep is al minstens sinds 2020 actief.",
+     "takeaway": "Neem virtualisatiesoftware mee in integriteitscontroles en threat hunting, want persistentie in vertrouwde componenten kan lang onopgemerkt blijven."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "2ee20e4e3678",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/958398/FBI%3A+zeker+zeshonderd+vitale+organisaties+slachtoffer+SafePay-ransomware?channel=rss",
+     "title": "FBI: zeker zeshonderd vitale organisaties slachtoffer SafePay-ransomware"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: SafePay victims span four continents",
+     "summary": "Dutch coverage of the FBI warning adds that at least 600 organizations in critical sectors in Europe, North America, South America and Australia have fallen victim to SafePay ransomware.",
+     "takeaway": "Use the published SafePay guidance to review backups, remote access and segmentation between IT and OT."
+    },
+    "nl": {
+     "heading": "Update: SafePay-slachtoffers verspreid over vier continenten",
+     "summary": "Nederlandse berichtgeving over de FBI-waarschuwing meldt dat minstens zeshonderd organisaties in vitale sectoren in Europa, Noord-Amerika, Zuid-Amerika en Australië slachtoffer zijn van SafePay-ransomware.",
+     "takeaway": "Gebruik de gepubliceerde SafePay-richtlijnen om back-ups, toegang op afstand en segmentatie tussen IT en OT te toetsen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "c4ae99f0aab0",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
+     "title": "ICSA-26-295-01: Kiloview E3 NDI Encoder"
+    },
+    {
+     "id": "3380f6216ebd",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-112/",
+     "title": "METTLER TOLEDO: STARe Software DB2 vulnerable component"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-10109",
+    "CVE-2026-105265",
+    "CVE-2026-107861",
+    "CVE-2026-109122",
+    "CVE-2026-110243",
+    "CVE-2026-110491",
+    "CVE-2026-110825",
+    "CVE-2026-111100",
+    "CVE-2026-92450",
+    "CVE-2026-96616"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Kiloview E3 NDI Encoder and METTLER TOLEDO STARe",
+     "summary": "CISA published ICSA-26-295-01 for the Kiloview E3 NDI Encoder, covering eight CVEs whose exploitation could allow full device compromise. CERT@VDE reported VDE-2026-112: CVE-2026-10109 affects the IBM Db2 12.1.2 component delivered with METTLER TOLEDO STARe v20.00, linked to improper handling of the pre-authentication DRDA handshake.",
+     "takeaway": "Check whether these products are in your inventory and apply the vendor mitigations, keeping them off untrusted networks until fixed."
+    },
+    "nl": {
+     "heading": "Overige advisories: Kiloview E3 NDI Encoder en METTLER TOLEDO STARe",
+     "summary": "CISA publiceerde ICSA-26-295-01 voor de Kiloview E3 NDI Encoder, met acht CVE's waarvan misbruik volledige overname van het apparaat kan toelaten. CERT@VDE meldde VDE-2026-112: CVE-2026-10109 treft de IBM Db2 12.1.2-component die met METTLER TOLEDO STARe v20.00 wordt geleverd, gekoppeld aan onjuiste afhandeling van de DRDA-handshake vóór authenticatie.",
+     "takeaway": "Controleer of deze producten in uw inventaris staan en pas de mitigaties van de leverancier toe, en houd ze van onbetrouwbare netwerken af tot ze zijn opgelost."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "2ccc2db42542",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/resilience-reports-energy-and-utilities-sector-faces-rising-cyber-exposure-from-ransomware-vulnerable-ot-systems/",
+     "title": "Resilience reports energy and utilities sector faces rising cyber exposure from ransomware, vulnerable OT systems"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Resilience: energy and utilities face rising exposure to ransomware and vulnerable OT",
+     "summary": "Resilience analysed cyber insurance claims in the energy and utilities sector and reports rising cyber exposure from ransomware and vulnerable OT systems. The analysis also found that email compromise accounted for a notable share of claims.",
+     "takeaway": "Use the findings to test whether email security and OT exposure reduction feature in your own risk assessment."
+    },
+    "nl": {
+     "heading": "Resilience: energie en nutsbedrijven lopen meer risico door ransomware en kwetsbare OT",
+     "summary": "Resilience analyseerde cyberverzekeringsclaims in de energie- en nutssector en meldt toenemende blootstelling aan ransomware en kwetsbare OT-systemen. Ook bleek e-mailcompromittering verantwoordelijk voor een deel van de claims.",
+     "takeaway": "Gebruik de bevindingen om te toetsen of e-mailbeveiliging en het beperken van OT-blootstelling in uw eigen risicoanalyse zijn opgenomen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6a247ada56f4",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/features/upstream-oil-and-gas-securing-operations-across-distance-remoteness-and-harsh-environments/",
+     "title": "Upstream oil and gas: Securing operations across distance, remoteness and harsh environments"
+    },
+    {
+     "id": "6394a78cd8ee",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/isa-iec-62443/isa-iec-standards-require-integrated-safety-and-cybersecurity-for-industrial-control-systems-ot-knights-barreto-jijon-says/",
+     "title": "ISA/IEC standards require integrated safety and cybersecurity for industrial control systems, OT-Knight’s Barreto Jijón says"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Guidance: remote oil and gas operations and integrated safety and security",
+     "summary": "Industrial Cyber looks at securing upstream oil and gas operations, where distance and remoteness shape wellheads, gathering systems and offshore platforms. A separate piece, citing an ISASecure post, argues that ISA/IEC standards require industrial asset owners to integrate functional safety and cybersecurity.",
+     "takeaway": "Review whether safety and security engineering are coordinated at your remote sites."
+    },
+    "nl": {
+     "heading": "Richtlijnen: olie- en gasactiviteiten op afstand en geïntegreerde safety en security",
+     "summary": "Industrial Cyber behandelt de beveiliging van upstream olie- en gasactiviteiten, waar afstand en afgelegen ligging wellheads, gathering-systemen en offshore platforms bepalen. Een ander artikel, op basis van een ISASecure-post, stelt dat ISA/IEC-standaarden van eigenaren van industriële assets vragen functional safety en cybersecurity te integreren.",
+     "takeaway": "Beoordeel of safety- en securityengineering op uw afgelegen locaties op elkaar zijn afgestemd."
+    }
+   }
+  }
+ ]
+}

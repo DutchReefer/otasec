@@ -1,5 +1,275 @@
 [
  {
+  "id": "b09a03c9c04b",
+  "url": "https://www.security.nl/posting/958722/Defensie+sluit+contract+met+SAP+voor+soevereine+cloud+in+2028?channel=rss",
+  "title": "Defensie sluit contract met SAP voor soevereine cloud in 2028",
+  "excerpt": "Defensie heeft een contract met SAP gesloten voor de ontwikkeling en het gebruik van een soevereine cloud. Deze cloudoplossing ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T08:43:15Z",
+  "fetched": "2026-10-23T09:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Ministry of Defence has signed a contract with SAP for developing and using a sovereign cloud solution.",
+    "nl": "Defensie heeft een contract met SAP gesloten voor de ontwikkeling en het gebruik van een soevereine cloudoplossing."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "7c5f94cbbd32",
+  "url": "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/",
+  "title": "Hackers hijack exposed AI models to launch cyberattacks at victims’ expense",
+  "excerpt": "An attack tool built around AI goes looking for AI models that anyone on the internet can reach, then uses them to plan break-ins while the model’s owner pays for the computing power. Symantec captured the agent’s instruction set this summer through a honeypot posing as an unprotected AI service, researchers Priti More and Susmit Yenkar wrote. Its operators sent their entire working prompt to the decoy, expecting a live model on the other end … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T08:21:48Z",
+  "fetched": "2026-10-23T09:06:55Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An AI-based attack tool searches for publicly reachable AI models and uses them to plan intrusions, according to Symantec research.",
+    "nl": "Een op AI gebouwd aanvalsprogramma zoekt publiek bereikbare AI-modellen en gebruikt die om inbraken te plannen, volgens onderzoek van Symantec."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "cc0fb0e4369a",
+  "url": "https://www.security.nl/posting/958716/Arista+waarschuwt+voor+misbruikt+SQL+Injetion-lek+in+VeloCloud+Orchestrator?channel=rss",
+  "title": "Arista waarschuwt voor misbruikt SQL Injetion-lek in VeloCloud Orchestrator",
+  "excerpt": "Arista waarschuwt voor een actief misbruikt en kritiek SQL Injection-lek in VeloCloud Orchestrator. Er zijn beveiligingsupdates ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T08:19:36Z",
+  "fetched": "2026-10-23T09:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Arista"
+   ],
+   "summary": {
+    "en": "Arista warns of an actively exploited critical SQL injection vulnerability in VeloCloud Orchestrator, and security updates are available.",
+    "nl": "Arista waarschuwt voor een actief misbruikte kritieke SQL injection-kwetsbaarheid in VeloCloud Orchestrator, en er zijn beveiligingsupdates beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "a2a9e372db7b",
+  "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+  "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+  "excerpt": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T07:50:01Z",
+  "fetched": "2026-10-23T09:06:54Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Node.js"
+   ],
+   "summary": {
+    "en": "Imperva researchers demonstrated a proof-of-concept that runs code on an official Node.js image via a crafted Brotli decoder flaw, CVE-2026-111497.",
+    "nl": "Onderzoekers van Imperva toonden met een proof-of-concept aan dat een kwetsbaarheid in de Brotli-decoder van Node.js codeuitvoering mogelijk maakt, CVE-2026-111497."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "694beda58e3b",
+  "url": "https://www.security.nl/posting/958713/Datalek+Capcom+ID+raakt+ruim+elf+miljoen+gebruikers+wereldwijd?channel=rss",
+  "title": "Datalek Capcom ID raakt ruim elf miljoen gebruikers wereldwijd",
+  "excerpt": "Het Japanse gamebedrijf Capcom is getroffen door een datalek, waarbij de gegevens van ruim 11 miljoen Capcom ID-accounts ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T07:43:18Z",
+  "fetched": "2026-10-23T09:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Japanese gaming company Capcom has suffered a data breach affecting data of over 11 million Capcom ID accounts.",
+    "nl": "Het Japanse gamebedrijf Capcom is getroffen door een datalek waarbij gegevens van ruim 11 miljoen Capcom ID-accounts zijn gelekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "199bd0864fa3",
+  "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+  "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+  "excerpt": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T07:40:45Z",
+  "fetched": "2026-10-23T09:06:54Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Threat actors unsuccessfully tried to exploit PHP2Shell flaws CVE-2026-109618 and CVE-2026-109619 to deploy Mirai variant malware.",
+    "nl": "Dreigingsactoren hebben zonder succes geprobeerd de PHP2Shell-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619 te misbruiken om Mirai-varianten te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "ead4067317f7",
+  "url": "https://www.security.nl/posting/958708/Kritiek+lek+in+Exchange+Online+maakte+remote+code+execution+mogelijk?channel=rss",
+  "title": "Kritiek lek in Exchange Online maakte remote code execution mogelijk",
+  "excerpt": "Een kritieke kwetsbaarheid in Microsoft Exchange Online maakte remote code execution (RCE) mogelijk, zo heeft Microsoft laten ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T07:18:48Z",
+  "fetched": "2026-10-23T09:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft disclosed a critical remote code execution vulnerability in Exchange Online.",
+    "nl": "Microsoft heeft een kritieke kwetsbaarheid voor remote code execution in Exchange Online gemeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "a89d72074e84",
+  "url": "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview/",
+  "title": "Google opens its cloud to rival OpenAI, promises business data won’t train models",
+  "excerpt": "Google Cloud is adding OpenAI models to its platform, initially through a private preview for selected business customers. The launch includes GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna. Google positions them as options for demanding work, lower-cost professional tasks and everyday use that requires fast responses. More choice, one bill Businesses will purchase access through Google Cloud Marketplace. Usage will appear on a single Google Cloud invoice and count toward existing cloud spending commitments. It … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T06:00:31Z",
+  "fetched": "2026-10-23T09:06:55Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google",
+    "OpenAI"
+   ],
+   "summary": {
+    "en": "Google Cloud is offering OpenAI models in a private preview for selected business customers, with business data not used for training.",
+    "nl": "Google Cloud biedt OpenAI-modellen aan in een private preview voor geselecteerde zakelijke klanten, waarbij zakelijke data niet voor training wordt gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "be6c226b737d",
+  "url": "https://www.helpnetsecurity.com/2026/10/23/nick-donarski-rotorlab-drone-program-compliance/",
+  "title": "Drone program compliance: What a CTO says most agencies get wrong",
+  "excerpt": "In this interview with Help Net Security, Nick Donarski, CTO at RotorLab, explains what councils, records clerks, insurers, and auditors expect from a public safety drone program, and where most programs fall short. He covers chain of custody for flight logs and video, how to publish drone activity without exposing sensitive operations, and common mistakes in open records handling. Drawing on his cybersecurity background, he points to risks in ground control software and spreadsheet logs. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T05:30:25Z",
+  "fetched": "2026-10-23T09:06:55Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "An interview with RotorLab's CTO outlines compliance expectations and common shortcomings for public safety drone programs.",
+    "nl": "Een interview met de CTO van RotorLab beschrijft de compliance-eisen en veelvoorkomende tekortkomingen bij drone-programma's voor openbare veiligheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
   "id": "b486af981380",
   "url": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
   "title": "AI is taking cybersecurity jobs at junior and experienced levels alike",
