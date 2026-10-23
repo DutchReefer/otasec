@@ -1,5 +1,235 @@
 [
  {
+  "id": "a7611ad9edc5",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+  "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+  "excerpt": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T18:54:41Z",
+  "fetched": "2026-10-23T19:17:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft plans to add AI-powered, context-aware phishing detection to Teams messages starting in early November 2026.",
+    "nl": "Microsoft plant AI-gestuurde, contextbewuste phishingdetectie voor Teams-berichten vanaf begin november 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
+  "id": "077ef200d3e0",
+  "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+  "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+  "excerpt": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T18:50:13Z",
+  "fetched": "2026-10-23T19:17:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A suspected APT41-linked group targeted diplomatic entities in Central Asia in early 2026 with a new UEFI bootkit called BlackX, according to Kaspersky.",
+    "nl": "Een vermoedelijk met APT41 verbonden groep richtte zich begin 2026 op diplomatieke organisaties in Centraal-Azië met de nieuwe UEFI-bootkit BlackX, volgens Kaspersky."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
+  "id": "4645fb818a8e",
+  "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+  "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+  "excerpt": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T17:54:08Z",
+  "fetched": "2026-10-23T19:17:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ruby released versions 4.0.9, 3.4.12 and 3.3.13 to fix three Onigmo regex engine bugs behind four critical GitLab RCE flaws.",
+    "nl": "Ruby bracht versies 4.0.9, 3.4.12 en 3.3.13 uit om drie Onigmo-regex-bugs te verhelpen, die achter vier kritieke GitLab RCE-kwetsbaarheden zitten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
+  "id": "015a882ee274",
+  "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+  "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+  "excerpt": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T17:50:47Z",
+  "fetched": "2026-10-23T19:17:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found an AI-driven intrusion ecosystem used by INC and The Gentlemen ransomware affiliates, built around an autonomous red team framework called Phantom.",
+    "nl": "Onderzoekers ontdekten een AI-gestuurd intrusie-ecosysteem dat door affiliates van de ransomwaregroepen INC en The Gentlemen wordt gebruikt, gebouwd rond het framework Phantom."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
+  "id": "90f70db29589",
+  "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+  "title": "FCC bans two devices with surveillance chips linked to Huawei",
+  "excerpt": "The banned items — a wireless video transmitter and dashboard camera — are made with chips manufactured by Huawei subsidiary HiSilicon, which markets its products as “designed for the surveillance market.”",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T17:28:00Z",
+  "fetched": "2026-10-23T19:17:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FCC banned two devices, a wireless video transmitter and a dashboard camera, that use HiSilicon chips linked to Huawei.",
+    "nl": "De FCC heeft twee apparaten verboden, een draadloze videozender en een dashboardcamera, die HiSilicon-chips gebruiken die aan Huawei zijn gelieerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
+  "id": "65016eea478d",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+  "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+  "excerpt": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T17:05:07Z",
+  "fetched": "2026-10-23T19:17:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft says Windows Server 2016 will stop receiving security updates when it reaches end of support in January 2027.",
+    "nl": "Microsoft meldt dat Windows Server 2016 in januari 2027 geen beveiligingsupdates meer ontvangt wanneer de ondersteuning eindigt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
+  "id": "a3c8e502da9b",
+  "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+  "title": "Quest Diagnostics confirms data breach exposed patient records",
+  "excerpt": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T16:40:07Z",
+  "fetched": "2026-10-23T19:17:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Quest Diagnostics disclosed that patient records were exposed after a threat actor accessed its Quanum LSM system without authorization.",
+    "nl": "Quest Diagnostics meldde dat patiëntgegevens zijn blootgesteld nadat een dreigingsactor ongeautoriseerd toegang kreeg tot het Quanum LSM-systeem."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
+  "id": "93c27d5fe80f",
+  "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+  "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+  "excerpt": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T15:38:05Z",
+  "fetched": "2026-10-23T19:17:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The PHP security team shared mitigations for a new unpatched remote code execution vulnerability affecting systems with non-default configurations.",
+    "nl": "Het PHP-beveiligingsteam deelde mitigaties voor een nieuwe, nog niet gepatchte remote code execution-kwetsbaarheid die systemen met niet-standaardconfiguraties raakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
   "id": "ddd2900e7764",
   "url": "https://www.security.nl/posting/958798/%27Zweedse+overheid+verbiedt+gebruik+van+ChatGPT+en+Claude+door+ambtenaren%27?channel=rss",
   "title": "'Zweedse overheid verbiedt gebruik van ChatGPT en Claude door ambtenaren'",
@@ -1120,6 +1350,34 @@
   }
  },
  {
+  "id": "b65cad206f50",
+  "url": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
+  "title": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
+  "excerpt": "The headline-grabbing bugs known colloquially as PHP2Shell are giving cyber analysts a lot to track — and a lot to debunk.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T04:00:00Z",
+  "fetched": "2026-10-23T19:17:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Reports of exploitation attempts against PHP2Shell bugs are increasing, while experts question how viable the exploits are.",
+    "nl": "Er komen meer meldingen van exploitatiepogingen tegen de PHP2Shell-bugs, terwijl experts de haalbaarheid van de exploits in twijfel trekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
   "id": "74c7d2bd7064",
   "url": "https://cert-portal.siemens.com/productcert/html/ssa-566512.html",
   "title": "SSA-566512 V1.0: PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
@@ -1152,6 +1410,41 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-23T15:08:24Z"
+  }
+ },
+ {
+  "id": "f98b9df9f7d5",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-566435.html",
+  "title": "SSA-566435 V1.0: PHP2Shell Vulnerabilities in Siemens Software Products",
+  "excerpt": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as “php2shell” (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-23T00:00:00Z",
+  "fetched": "2026-10-23T19:17:41Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens published advisory SSA-566435 on the impact of the PHP2Shell vulnerabilities CVE-2026-109618 and CVE-2026-109619 on its software products.",
+    "nl": "Siemens publiceerde advisory SSA-566435 over de impact van de PHP2Shell-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619 op zijn softwareproducten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T19:18:00Z"
   }
  },
  {
