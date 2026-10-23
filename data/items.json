@@ -1,5 +1,66 @@
 [
  {
+  "id": "b486af981380",
+  "url": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
+  "title": "AI is taking cybersecurity jobs at junior and experienced levels alike",
+  "excerpt": "Organizations are cutting cybersecurity roles as they adopt AI, even while reporting shortages of the expertise needed to manage threats, according to Barracuda’s Cybersecurity Skills Gap Report. 56% have experienced professional workforce reductions linked to AI, evenly divided between entry-level and higher-level roles.",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T04:30:39Z",
+  "fetched": "2026-10-23T04:56:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Barracuda's Cybersecurity Skills Gap Report finds 56% of organizations have had AI-linked cybersecurity workforce reductions, split evenly between entry-level and senior roles.",
+    "nl": "Het Cybersecurity Skills Gap Report van Barracuda meldt dat 56% van de organisaties AI-gerelateerde personeelsreducties in cybersecurity heeft gehad, gelijk verdeeld over junior- en seniorfuncties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T04:56:26Z"
+  }
+ },
+ {
+  "id": "7acffd080069",
+  "url": "https://www.helpnetsecurity.com/2026/10/23/new-infosec-products-of-the-week-october-23-2026/",
+  "title": "New infosec products of the week: October 23, 2026",
+  "excerpt": "Here’s a look at the most interesting products from the past week, featuring releases from AppGate, IDENTOS, Sweet Security, and ThreatModeler. Sweet Security adds one-click protection for vulnerable cloud workloads Sweet Security has announced the release of Virtual Patching, a new capability that protects running cloud and AI applications from specific vulnerabilities the moment they are identified. Security teams can enforce protection in one click while engineering develops, tests, and deploys a permanent fix. ThreatModeler … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T04:00:41Z",
+  "fetched": "2026-10-23T04:56:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Sweet Security",
+    "AppGate",
+    "IDENTOS",
+    "ThreatModeler"
+   ],
+   "summary": {
+    "en": "A weekly roundup of new infosec products from AppGate, IDENTOS, Sweet Security and ThreatModeler, including Sweet Security's Virtual Patching for cloud workloads.",
+    "nl": "Een wekelijks overzicht van nieuwe infosec-producten van AppGate, IDENTOS, Sweet Security en ThreatModeler, waaronder Sweet Security's Virtual Patching voor cloudworkloads."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T04:56:26Z"
+  }
+ },
+ {
   "id": "54c5b95c768d",
   "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
   "title": "Railway warns devs to rotate secrets after potential breach",
