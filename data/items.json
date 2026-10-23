@@ -1,5 +1,117 @@
 [
  {
+  "id": "48627fc933ef",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0453",
+  "title": "NCSC-2026-0453 [1.00] [M/H] Kwetsbaarheid in Google Brotli-decoder",
+  "excerpt": "Google heeft een kwetsbaarheid verholpen in de Brotli-decompressiebibliotheek. Deze bibliotheek wordt onder meer gebruikt in Node.js. Een ongeauthenticeerde kwaadwillende kan de kwetsbaarheid op afstand misbruiken door speciaal vervaardigde Brotli-gecomprimeerde gegevens te laten verwerken. Succesvol misbruik kan leiden tot een denial-of-service, toegang tot gevoelige gegevens uit het procesgeheugen of het uitvoeren van willekeurige code met de rechten van het getroffen proces.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-23T09:55:26Z",
+  "fetched": "2026-10-23T10:07:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC-NL reports a remote vulnerability in Google's Brotli decompression library, used among others by Node.js, that can lead to denial-of-service, data exposure or code execution.",
+    "nl": "NCSC-NL meldt een kwetsbaarheid op afstand in de Brotli-decompressiebibliotheek van Google, die onder meer in Node.js wordt gebruikt, met mogelijke denial-of-service, datalekken of code-uitvoering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T10:08:01Z"
+  }
+ },
+ {
+  "id": "dc04fa63ca71",
+  "url": "https://www.security.nl/posting/958740/Minister%3A+maatschappelijke+impact+van+PHP-lekken+nog+onduidelijk?channel=rss",
+  "title": "Minister: maatschappelijke impact van PHP-lekken nog onduidelijk",
+  "excerpt": "De maatschappelijke impact van de twee kwetsbaarheden in PHP waardoor tal van websites afgelopen woensdag offline gingen is op ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T09:51:59Z",
+  "fetched": "2026-10-23T10:07:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A minister says the societal impact of two PHP vulnerabilities, which took many websites offline, is still unclear.",
+    "nl": "Een minister zegt dat de maatschappelijke impact van twee PHP-kwetsbaarheden, waardoor veel websites offline gingen, nog onduidelijk is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T10:08:01Z"
+  }
+ },
+ {
+  "id": "8a1ef7976a02",
+  "url": "https://www.security.nl/posting/958728/Onderzoekers+noemen+smart-tv+privacyrisico%3A+%27Blijft+na+opt-out+data+versturen%27?channel=rss",
+  "title": "Onderzoekers noemen smart-tv privacyrisico: 'Blijft na opt-out data versturen'",
+  "excerpt": "Veel smart-tv's vormen een privacyrisico voor hun gebruikers, omdat ze ook na een opt-out ACR-verkeer blijven versturen. Dat ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T09:27:58Z",
+  "fetched": "2026-10-23T10:07:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers report that many smart TVs keep sending ACR tracking traffic after users opt out.",
+    "nl": "Onderzoekers melden dat veel smart-tv's ook na een opt-out ACR-verkeer blijven versturen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T10:08:01Z"
+  }
+ },
+ {
+  "id": "d680f80790ff",
+  "url": "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
+  "title": "Capcom data breach exposes 11.7 million account records",
+  "excerpt": "Players who signed up for Capcom’s online account service may want to look twice at emails that seem to come from the company. The company has disclosed that a third party gained unauthorized access to customer information linked to CAPCOM ID, the account people use to sign in to the company’s web services and to play some of its games online. It detected suspicious activity on October 19 and confirmed the intrusion the same day. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T09:07:31Z",
+  "fetched": "2026-10-23T10:07:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Capcom disclosed that a third party accessed customer information linked to its CAPCOM ID account service, exposing about 11.7 million records.",
+    "nl": "Capcom meldt dat een derde partij toegang kreeg tot klantgegevens van het CAPCOM ID-account, waarbij ongeveer 11,7 miljoen records zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T10:08:01Z"
+  }
+ },
+ {
   "id": "b09a03c9c04b",
   "url": "https://www.security.nl/posting/958722/Defensie+sluit+contract+met+SAP+voor+soevereine+cloud+in+2028?channel=rss",
   "title": "Defensie sluit contract met SAP voor soevereine cloud in 2028",
@@ -27,6 +139,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "6f084559d703",
+  "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+  "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+  "excerpt": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T08:35:45Z",
+  "fetched": "2026-10-23T10:07:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "V12 reports a flaw in default x402 SDK clients that could let malicious APIs make AI agents sign payments for their full token balance.",
+    "nl": "V12 meldt een fout in de standaardclient van de x402 SDK waardoor kwaadwillende API's AI-agents kunnen laten betalen met hun volledige tokensaldo."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T10:08:01Z"
   }
  },
  {
@@ -85,6 +225,37 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-23T09:07:06Z"
+  }
+ },
+ {
+  "id": "8175045a9ad5",
+  "url": "https://www.security.nl/posting/958716/Arista+waarschuwt+voor+misbruikt+SQL+Injection-lek+in+VeloCloud+Orchestrator?channel=rss",
+  "title": "Arista waarschuwt voor misbruikt SQL Injection-lek in VeloCloud Orchestrator",
+  "excerpt": "Arista waarschuwt voor een actief misbruikt en kritiek SQL Injection-lek in VeloCloud Orchestrator. Er zijn beveiligingsupdates ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-23T08:19:00Z",
+  "fetched": "2026-10-23T10:07:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Arista",
+    "VeloCloud"
+   ],
+   "summary": {
+    "en": "Arista warns of an actively exploited critical SQL injection vulnerability in VeloCloud Orchestrator and has released security updates.",
+    "nl": "Arista waarschuwt voor een actief misbruikte kritieke SQL-injectiekwetsbaarheid in VeloCloud Orchestrator en heeft beveiligingsupdates uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-23T10:08:01Z"
   }
  },
  {
