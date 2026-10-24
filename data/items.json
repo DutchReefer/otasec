@@ -1,5 +1,149 @@
 [
  {
+  "id": "a0a9e49aec28",
+  "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+  "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+  "excerpt": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-24T11:09:29Z",
+  "fetched": "2026-10-24T12:42:58Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A memory-corruption flaw (CVE-2026-111497) in Google's Brotli decoder affects software such as Bun, Python Brotli packages and Envoy proxies.",
+    "nl": "Een geheugencorruptiefout (CVE-2026-111497) in de Brotli-decoder van Google treft software zoals Bun, Python Brotli-pakketten en Envoy-proxies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-24T12:43:10Z"
+  }
+ },
+ {
+  "id": "3a1a036ef73a",
+  "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+  "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+  "excerpt": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-24T11:03:33Z",
+  "fetched": "2026-10-24T12:42:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A master key for an LiteLLM deployment was accidentally published on GitHub, and attackers used it to push a malicious version of the Python package.",
+    "nl": "Een masterkey voor een LiteLLM-deployment werd per ongeluk op GitHub gepubliceerd, waarna aanvallers die gebruikten om een kwaadaardige versie van het Python-pakket te publiceren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-24T12:43:10Z"
+  }
+ },
+ {
+  "id": "afec56c7243a",
+  "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+  "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+  "excerpt": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-24T10:36:33Z",
+  "fetched": "2026-10-24T12:42:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google updated its privacy policy to state that data from Gmail and Photos shared with AI Search features could be used for targeted ads.",
+    "nl": "Google heeft zijn privacybeleid aangepast en stelt dat gegevens uit Gmail en Foto's die met AI-zoekfuncties worden gedeeld, voor gerichte advertenties kunnen worden gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-24T12:43:10Z"
+  }
+ },
+ {
+  "id": "94d51fe2d204",
+  "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+  "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+  "excerpt": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-24T09:04:24Z",
+  "fetched": "2026-10-24T12:42:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Eye Security pushed over 2 million updates to disable an abandoned Time4Popcorn background updater that could have enabled machine takeover.",
+    "nl": "Eye Security heeft meer dan 2 miljoen updates gepusht om een verlaten Time4Popcorn-achtergrondupdater uit te schakelen, die overname van computers mogelijk maakte."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-24T12:43:10Z"
+  }
+ },
+ {
+  "id": "838b4b1ce253",
+  "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+  "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilities are listed below - CVE-2026-110447 (CVSS score: 9.2) - An operating",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-24T06:25:57Z",
+  "fetched": "2026-10-24T12:42:58Z",
+  "cves": [
+   "CVE-2026-110447"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added two critical vulnerabilities in Collabora Online and Arista VeloCloud Orchestrator to its KEV catalog, citing active exploitation.",
+    "nl": "CISA heeft twee kritieke kwetsbaarheden in Collabora Online en Arista VeloCloud Orchestrator aan zijn KEV-catalogus toegevoegd vanwege actieve misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-24T12:43:10Z"
+  }
+ },
+ {
   "id": "7c3288677b61",
   "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
   "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
@@ -22516,70 +22660,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "556cd713271c",
-  "url": "https://certvde.com/en/advisories/VDE-2026-061/",
-  "title": "Murrelektronik: Vulnerability in 'Copy learned MAC Addresses' function enables MAC Spoofing on Xelity Switches",
-  "excerpt": "[VDE-2026-061] An information disclosure vulnerability in the web GUI of Murrelektronik Xelity switches causes MAC addresses from the device's MAC address table to be written into a server-side log that is exposed via the device's web interface to unauthenticated users. The leak is triggered when an authenticated administrator invokes the 'Copy learned MAC Addresses' function, which causes a syslog error that inserts the affected MAC addresses into the log output. Once the error has been triggered, any unauthenticated attacker with network access to the web interface can retrieve the leaked…",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-08-25T09:30:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 60,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Murrelektronik"
-   ],
-   "summary": {
-    "en": "CERT@VDE advisory VDE-2026-061 describes an information disclosure flaw in Murrelektronik Xelity switches where MAC addresses leak via the web interface when the 'Copy learned MAC Addresses' function is used.",
-    "nl": "CERT@VDE-advisory VDE-2026-061 beschrijft een informatielekkage in Murrelektronik Xelity-switches waarbij MAC-adressen via de webinterface lekken bij gebruik van de functie 'Copy learned MAC Addresses'."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:39:03Z"
-  }
- },
- {
-  "id": "205f5b379f21",
-  "url": "https://certvde.com/en/advisories/VDE-2026-083/",
-  "title": "Weidmueller: Security routers IE-SR-2TX-WL and IE-SR-2TX-WL-4G are affected by multiple vulnerabilities",
-  "excerpt": "[VDE-2026-083] Weidmueller security routers IE-SR-2TX-WL and IE-SR-2TX-WL-4G are affected by an unauthenticated remote code execution vulnerability. IE-SR-2TX-WL-4G routers are also affected by a SMS password authorization bypass vulnerability. Weidmueller has released new firmware versions of the affected products to fix the vulnerabilities.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-08-25T09:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 85,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Weidmueller"
-   ],
-   "summary": {
-    "en": "CERT@VDE advisory VDE-2026-083 reports an unauthenticated remote code execution flaw in Weidmueller IE-SR-2TX-WL routers, plus an SMS password authorization bypass in IE-SR-2TX-WL-4G; fixed firmware is available.",
-    "nl": "CERT@VDE-advisory VDE-2026-083 meldt een ongeauthenticeerde remote code execution-kwetsbaarheid in Weidmueller IE-SR-2TX-WL-routers, plus een SMS-wachtwoordomzeiling in IE-SR-2TX-WL-4G; gepatchte firmware is beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:39:03Z"
   }
  }
 ]
