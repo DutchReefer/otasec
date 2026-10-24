@@ -1,0 +1,180 @@
+{
+ "date": "2026-10-24",
+ "published": "2026-10-24T07:21:13Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 8,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "The UK moves to toughen penalties for subsea cable sabotage, while a large edge-device campaign exposes more than 70,000 credentials. Forescout flags exposed refrigeration controls, and ESET adds detail on the Sandworm wiper attack in Ukraine."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Het VK wil de straffen voor sabotage van onderzeese kabels fors verhogen, terwijl een grootschalige campagne tegen edge-apparaten meer dan 70.000 inloggegevens blootlegt. Forescout waarschuwt voor openbaar bereikbare koelinstallaties en ESET geeft meer details over de Sandworm-wiperaanval in Oekraïne."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "b49db17578fd",
+     "name": "The Record",
+     "url": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
+     "title": "UK proposes 14-year prison terms for undersea cable sabotage"
+    },
+    {
+     "id": "2d39a164901f",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/23/uk-undersea-cable-sabotage-sentences/",
+     "title": "UK proposes 14-year jail terms for subsea cable saboteurs"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "UK proposes 14-year prison terms for undersea cable sabotage",
+     "summary": "A White Paper from the Department for Digital, Culture, Media and Sport would update the Submarine Telegraph Act 1885, which caps fines at £1,000 and prison at five years for deliberate damage. The plans propose up to 14 years in prison and unlimited fines for ships, and would modernise laws protecting undersea cables and pipelines, some about 140 years old.",
+     "takeaway": "Operators of subsea cable and pipeline connections should follow the proposal and review how they monitor and report damage to these links."
+    },
+    "nl": {
+     "heading": "VK stelt 14 jaar cel voor bij sabotage van onderzeese kabels",
+     "summary": "Een White Paper van het Department for Digital, Culture, Media and Sport wil de Submarine Telegraph Act 1885 aanpassen, waarin opzettelijke schade is begrensd tot een boete van £1.000 en vijf jaar cel. Het voorstel noemt tot 14 jaar cel en onbeperkte boetes voor schepen, en moderniseert wetgeving voor de bescherming van onderzeese kabels en pijpleidingen, deels zo'n 140 jaar oud.",
+     "takeaway": "Beheerders van onderzeese kabel- en leidingverbindingen doen er goed aan het voorstel te volgen en te toetsen hoe zij schade aan deze verbindingen monitoren en melden."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "f059789b2437",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+     "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Campaign against FortiGate and GlobalProtect firewalls exposes over 70,000 credentials",
+     "summary": "Researchers disclosed a large-scale campaign targeting exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. Artifacts indicate the operators gained access to numerous organizations worldwide and tried to compromise some victims further.",
+     "takeaway": "Check whether firewall and VPN gateways at the IT/OT boundary are exposed, rotate credentials where compromise is possible, and review logs for unexpected access."
+    },
+    "nl": {
+     "heading": "Campagne tegen FortiGate- en GlobalProtect-firewalls legt ruim 70.000 inloggegevens bloot",
+     "summary": "Onderzoekers maakten een grootschalige campagne bekend die gericht is op openbaar bereikbare edge-apparaten, zoals Fortinet FortiGate- en Palo Alto Networks GlobalProtect-firewalls. Uit artefacten blijkt dat de aanvallers toegang kregen tot talrijke organisaties wereldwijd en bij sommige slachtoffers verder probeerden door te dringen.",
+     "takeaway": "Controleer of firewall- en VPN-gateways op de grens tussen IT en OT openbaar bereikbaar zijn, vervang inloggegevens waar compromittering mogelijk is en controleer logs op onverwachte toegang."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "80697809b26e",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+     "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: ESET details Sandworm and UAC-0099 wiper attack on Ukrainian logistics firm",
+     "summary": "New in this report: ESET says UAC-0099 (aka Earth Sirrush) gained initial access on July 16, 2025 through a spear-phishing email with a malware-laced attachment. Sandworm then joined in for the destructive wiping attack, and the intrusion involved a new mesh network backdoor.",
+     "takeaway": "Strengthen email attachment filtering and make sure offline, tested backups exist for systems that support logistics and operations."
+    },
+    "nl": {
+     "heading": "Update: ESET geeft details over wiperaanval van Sandworm en UAC-0099 op Oekraïens logistiek bedrijf",
+     "summary": "Nieuw in dit rapport: ESET meldt dat UAC-0099 (ook bekend als Earth Sirrush) op 16 juli 2025 toegang kreeg via een spear-phishingmail met een besmette bijlage. Daarna sloot Sandworm aan voor de destructieve wiperaanval, waarbij ook een nieuwe mesh-netwerk-backdoor werd ingezet.",
+     "takeaway": "Versterk de filtering van e-mailbijlagen en zorg voor offline, geteste back-ups van systemen die logistiek en operaties ondersteunen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "f84daddd7842",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/industrial-cyber-attacks/forescout-warns-internet-exposed-refrigeration-controls-could-enable-attacks-on-food-supply-chains-and-hospitals/",
+     "title": "Forescout warns internet-exposed refrigeration controls could enable attacks on food supply chains and hospitals"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Forescout finds internet-exposed refrigeration controls",
+     "summary": "Forescout's Vedere Labs identified 12,976 internet-exposed service observations tied to refrigeration control systems across 6,017 hosts or locations. The research warns these could enable attacks on food supply chains and hospitals.",
+     "takeaway": "Inventory refrigeration and building controllers, remove direct internet exposure and place remote access behind secured gateways."
+    },
+    "nl": {
+     "heading": "Forescout vindt openbaar bereikbare koelingsbesturingen",
+     "summary": "Vedere Labs van Forescout identificeerde 12.976 openbaar bereikbare service-waarnemingen die samenhangen met koelingsbesturingssystemen. Het onderzoek waarschuwt dat dit aanvallen op voedselketens en ziekenhuizen mogelijk kan maken.",
+     "takeaway": "Inventariseer koelings- en gebouwbesturingen, haal directe internettoegang weg en laat toegang op afstand lopen via beveiligde gateways."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "87dc1f0f1435",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/transport/us-coast-guard-releases-nvic-02-26-to-guide-maritime-operators-on-cybersecurity-plans-it-and-ot-risk-assessments/",
+     "title": "US Coast Guard releases NVIC 02-26 to guide maritime operators on cybersecurity plans, IT and OT risk assessments"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "US Coast Guard issues NVIC 02-26 for maritime cybersecurity plans",
+     "summary": "The U.S. Coast Guard released Navigation and Vessel Inspection Circular (NVIC) 02-26 to help maritime organizations comply with cybersecurity requirements. It covers cybersecurity plans and IT and OT risk assessments.",
+     "takeaway": "Maritime operators with US exposure should compare their cybersecurity plans and OT risk assessments with the circular."
+    },
+    "nl": {
+     "heading": "US Coast Guard publiceert NVIC 02-26 voor maritieme cyberbeveiligingsplannen",
+     "summary": "De Amerikaanse kustwacht publiceerde Navigation and Vessel Inspection Circular (NVIC) 02-26 om maritieme organisaties te helpen voldoen aan cyberbeveiligingseisen. De circulaire gaat over cyberbeveiligingsplannen en IT- en OT-risicobeoordelingen.",
+     "takeaway": "Maritieme operators met een Amerikaanse link kunnen hun cyberbeveiligingsplannen en OT-risicobeoordelingen naast de circulaire leggen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "b46fab14e4ff",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/indurex-secures-e7-million-to-unify-engineering-intelligence-ot-security-and-process-safety/",
+     "title": "Indurex secures €7 million to unify engineering intelligence, OT security and process safety"
+    },
+    {
+     "id": "298f2eafd7bc",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/ninetenths-joins-isasecure-to-support-industrial-cybersecurity-across-energy-water-and-manufacturing/",
+     "title": "NineTenths joins ISASecure to support industrial cybersecurity across energy, water and manufacturing"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Industry news: Indurex raises €7 million, NineTenths joins ISASecure",
+     "summary": "Indurex, which develops AI for cyber-physical systems security, raised €7 million to unify engineering intelligence, OT security and process safety. Separately, NineTenths Company joined ISASecure, announced by the International Society of Automation.",
+     "takeaway": "No action needed; note ISASecure membership as one input when assessing suppliers."
+    },
+    "nl": {
+     "heading": "Sectornieuws: Indurex haalt €7 miljoen op, NineTenths sluit aan bij ISASecure",
+     "summary": "Indurex, dat AI ontwikkelt voor de beveiliging van cyberfysieke systemen, haalde €7 miljoen op om engineering-inzicht, OT-beveiliging en procesveiligheid te verenigen. Daarnaast is NineTenths Company toegetreden tot ISASecure, zo maakte de International Society of Automation bekend.",
+     "takeaway": "Geen actie nodig; ISASecure-lidmaatschap kan wel een van de input zijn bij de beoordeling van leveranciers."
+    }
+   }
+  }
+ ]
+}

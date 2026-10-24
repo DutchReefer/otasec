@@ -22581,35 +22581,5 @@
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:39:03Z"
   }
- },
- {
-  "id": "e9e3ad8915ba",
-  "url": "https://ics-cert.kaspersky.com/publications/reports/2026/08/25/threat-landscape-for-industrial-automation-systems-q2-2026/",
-  "title": "Threat landscape for industrial automation systems. Q2 2026",
-  "excerpt": "The percentage of ICS computers on which denylisted internet resources were blocked increased in all regions",
-  "source_id": "kaspersky-ics-cert",
-  "source": "Kaspersky ICS CERT",
-  "lang": "en",
-  "kind": "research",
-  "focus": "ot",
-  "published": "2026-08-25T07:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 45,
-   "category": "research",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Kaspersky's Q2 2026 threat landscape report for industrial automation systems notes that the share of ICS computers blocking denylisted internet resources increased in all regions.",
-    "nl": "Het Kaspersky-dreigingsoverzicht voor Q2 2026 van industriële automatiseringssystemen meldt dat het aandeel ICS-computers dat geblokkeerde internetbronnen blokkeert in alle regio's is gestegen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:39:03Z"
-  }
  }
 ]
