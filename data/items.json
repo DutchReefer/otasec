@@ -1,5 +1,64 @@
 [
  {
+  "id": "4a8154151413",
+  "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+  "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+  "excerpt": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-25T17:44:09Z",
+  "fetched": "2026-10-25T19:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Unpatched Tailscale SSH flaws could let an attacker with one hacked device reach root on other reachable servers, according to a researcher.",
+    "nl": "Niet-gepatchte Tailscale SSH-kwetsbaarheden kunnen een aanvaller met één gekaapt apparaat root-toegang geven tot andere bereikbare servers, volgens een onderzoeker."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-25T19:40:57Z"
+  }
+ },
+ {
+  "id": "3eda0d6ae7e3",
+  "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+  "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+  "excerpt": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-25T17:19:46Z",
+  "fetched": "2026-10-25T19:40:47Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Threat actors exploited PHP2Shell vulnerabilities CVE-2026-109618 and CVE-2026-109619, targeting a European government entity and using agentic AI for post-exploitation.",
+    "nl": "Dreigingsactoren misbruikten de PHP2Shell-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619, richtten zich op een Europese overheidsinstantie en gebruikten agentische AI voor post-exploitatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-25T19:40:57Z"
+  }
+ },
+ {
   "id": "b830cd02f53b",
   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
