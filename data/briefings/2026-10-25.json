@@ -1,0 +1,77 @@
+{
+ "date": "2026-10-25",
+ "published": "2026-10-25T06:13:15Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 3,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet day: Siemens has published two advisories as a follow-up to the PHP2Shell story, and one vendor launch targets OT asset documentation."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige dag: Siemens publiceert twee advisories als vervolg op het PHP2Shell-verhaal, en een leverancier lanceert een product voor OT-assetdocumentatie."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "f98b9df9f7d5",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-566435.html",
+     "title": "SSA-566435 V1.0: PHP2Shell Vulnerabilities in Siemens Software Products"
+    },
+    {
+     "id": "74c7d2bd7064",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-566512.html",
+     "title": "SSA-566512 V1.0: PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Update: Siemens publishes PHP2Shell advisories, including RUGGEDCOM APE1808",
+     "summary": "New since the earlier coverage: Siemens ProductCERT issued SSA-566435, which sets out the impact of the two critical unauthenticated remote code execution flaws in PHP (CVE-2026-109618 and CVE-2026-109619, disclosed on 21 October) on its software products. A second advisory, SSA-566512, lists Siemens industrial products affected through PAN-OS on RUGGEDCOM APE1808 devices and points customers to the workarounds in the upstream Palo Alto Networks notifications.",
+     "takeaway": "Check whether you run RUGGEDCOM APE1808 devices or the Siemens software listed in the advisories, and apply the Palo Alto Networks workarounds where relevant."
+    },
+    "nl": {
+     "heading": "Update: Siemens publiceert PHP2Shell-advisories, waaronder RUGGEDCOM APE1808",
+     "summary": "Nieuw ten opzichte van eerdere berichtgeving: Siemens ProductCERT publiceerde SSA-566435 met de impact van de twee kritieke, niet-geauthenticeerde remote code execution-kwetsbaarheden in PHP (CVE-2026-109618 en CVE-2026-109619, bekendgemaakt op 21 oktober) op Siemens-softwareproducten. Een tweede advisory, SSA-566512, noemt de getroffen industriële Siemens-producten via PAN-OS op RUGGEDCOM APE1808-apparaten en verwijst klanten naar de workarounds in de meldingen van Palo Alto Networks.",
+     "takeaway": "Controleer of je RUGGEDCOM APE1808-apparaten of de in de advisories genoemde Siemens-software gebruikt, en pas waar relevant de workarounds van Palo Alto Networks toe."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "bcf713776055",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/corsha-launches-folio-to-automate-ot-network-mapping-and-industrial-system-documentation/",
+     "title": "Corsha launches Folio to automate OT network mapping and industrial system documentation"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Corsha launches Folio for OT network mapping and documentation",
+     "summary": "Corsha, a provider of industrial identity security solutions, announced Folio, a new module designed to automate OT network mapping and industrial system documentation.",
+     "takeaway": "This is a vendor announcement; if your asset inventory and network documentation are outdated, assess whether tooling like this fits your needs."
+    },
+    "nl": {
+     "heading": "Corsha lanceert Folio voor OT-netwerkmapping en documentatie",
+     "summary": "Corsha, aanbieder van oplossingen voor industriële identiteitsbeveiliging, kondigde Folio aan, een nieuwe module die OT-netwerkmapping en de documentatie van industriële systemen moet automatiseren.",
+     "takeaway": "Dit is een leveranciersaankondiging; als je assetinventaris en netwerkdocumentatie verouderd zijn, beoordeel dan of dit soort tooling bij je behoeften past."
+    }
+   }
+  }
+ ]
+}
