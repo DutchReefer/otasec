@@ -1,5 +1,33 @@
 [
  {
+  "id": "b830cd02f53b",
+  "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+  "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+  "excerpt": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-25T15:49:38Z",
+  "fetched": "2026-10-25T16:27:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found a malicious AGENTS.md instruction file that tricked an AI coding agent into installing a rogue npm package.",
+    "nl": "Onderzoekers vonden een kwaadaardig AGENTS.md-instructiebestand dat een AI-codeeragent ertoe bracht een frauduleus npm-pakket te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-25T16:27:06Z"
+  }
+ },
+ {
   "id": "7ad6d8c024d7",
   "url": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
   "title": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
