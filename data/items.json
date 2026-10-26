@@ -1,5 +1,922 @@
 [
  {
+  "id": "ad150e41ed92",
+  "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+  "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+  "excerpt": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T14:00:10Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NIST, CISA and NSA published a guide treating runaway AI agents as incidents, stressing that agent identity and authority records are needed for response.",
+    "nl": "NIST, CISA en NSA publiceerden een gids die uit de hand lopende AI-agents als incidenten behandelt, met de nadruk op identiteits- en autoriteitsgegevens voor respons."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "8228afc460bc",
+  "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+  "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+  "excerpt": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T13:56:44Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Chinese national was arraigned in California after extradition from the Netherlands over an alleged cryptocurrency investment scam.",
+    "nl": "Een Chinese man is na uitlevering uit Nederland in Californië voorgeleid wegens een vermeende cryptobeleggingsfraude."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "8f02a57a4dac",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
+  "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
+  "excerpt": "HPE heeft 72 kwetsbaarheden verholpen in HPE Networking AOS-8 en AOS-10, waaronder Mobility Conductors, Mobility Controllers, Mobility Gateways en Access Points. De kwetsbaarheden betreffen verschillende beveiligingsproblemen, waaronder authenticatieomzeiling, command- en SQL-injectie, buffer-overflows en onvoldoende toegangscontrole. Van de in totaal 72 kwetsbaarheden zijn 33 als kritiek aangemerkt. Hiervan kunnen 19 volgens HPE Networking zonder authenticatie op afstand via het netwerk worden misbruikt. Voor de overige 14 kritieke kwetsbaarheden is volgens HPE Networking eveneens geen…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-26T13:43:17Z",
+  "fetched": "2026-10-26T14:19:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "HPE fixed 72 vulnerabilities in HPE Networking AOS, 33 rated critical, affecting enterprise wireless and network controllers.",
+    "nl": "HPE heeft 72 kwetsbaarheden verholpen in HPE Networking AOS, waarvan 33 als kritiek zijn aangemerkt, in enterprise netwerk- en wifi-apparatuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "c993f81fba92",
+  "url": "https://www.security.nl/posting/959071/EFF+wil+meer+geld+voor+open+source%3A+%27Alleen+in+oktober+al+13_000+CVE-nummers%27?channel=rss",
+  "title": "EFF wil meer geld voor open source: 'Alleen in oktober al 13.000 CVE-nummers'",
+  "excerpt": "Opensourceprojecten moeten meer geld krijgen voor het vinden en verhelpen van kwetsbaarheden, zo vindt de Amerikaanse ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T13:35:26Z",
+  "fetched": "2026-10-26T14:19:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The EFF calls for more funding for open source projects to find and fix vulnerabilities, citing a large rise in CVE numbers.",
+    "nl": "De EFF pleit voor meer financiering van open sourceprojecten om kwetsbaarheden te vinden en te verhelpen, gezien het sterk gestegen aantal CVE-nummers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "10b483148fbe",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/kali-linux-2026-3-released/",
+  "title": "Kali Linux 2026.3 ships kernel 7.1.5, brings wardriving to the TicWatch Pro 3",
+  "excerpt": "The Kali Linux team released version 2026.3 after overhauling the public build scripts it uses to produce every official image. The refreshed scripts share the same features, command-line arguments and, where possible, the same layout, so a pipeline written against an older script may need edits. Builds can now run in a container Each refreshed script ships a build-in-container.sh that detects whether you run Docker or Podman, creates a build container and runs the build … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T13:24:24Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kali Linux 2026.3 was released with a kernel update, refreshed build scripts and new wardriving support.",
+    "nl": "Kali Linux 2026.3 is uitgebracht met een kernelupdate, vernieuwde buildscripts en ondersteuning voor wardriving."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "ecec92b3ad6f",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/ai-tools-security-worry-survey/",
+  "title": "Security pros reckon the biggest AI risk comes with an employee badge",
+  "excerpt": "Employees pasting company data into AI tools worry security teams more than AI-powered attacks do. Most-concerning risks of AI agents (Source: O’Reilly) AI-generated phishing, the attack they run into most often, made the list of top concerns for only a quarter of the 209 security professionals O’Reilly surveyed in September. Mike Loukides, VP of content strategy at O’Reilly Media, believes the fear of AI wiping out humanity distracts from harm happening today. “We don’t need … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T13:16:01Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An O'Reilly survey of 209 security professionals found employees pasting company data into AI tools worries teams more than AI-powered attacks.",
+    "nl": "Een enquête van O'Reilly onder 209 securityprofessionals toont dat medewerkers die bedrijfsdata in AI-tools plakken meer zorgen baart dan AI-aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "459b892cb5ea",
+  "url": "https://www.security.nl/posting/959056/Rabobank+hoeft+klant+met+Android+9-telefoon+geen+schadevergoeding+te+betalen?channel=rss",
+  "title": "Rabobank hoeft klant met Android 9-telefoon geen schadevergoeding te betalen",
+  "excerpt": "Rabobank hoeft een klant die gebruikmaakt van een telefoon waarop Android 9 draait geen schadevergoeding te betalen, zo heeft ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T12:59:31Z",
+  "fetched": "2026-10-26T14:19:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A court ruled that Rabobank need not pay damages to a customer using an Android 9 phone.",
+    "nl": "Een rechter oordeelde dat Rabobank geen schadevergoeding hoeft te betalen aan een klant met een Android 9-telefoon."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "ed550f472a48",
+  "url": "https://www.security.nl/posting/959029/EU-lidstaten+voor+het+trainen+van+AI+op+gegevens+van+EU-burgers?channel=rss",
+  "title": "EU-lidstaten voor het trainen van AI op gegevens van EU-burgers",
+  "excerpt": "De EU-lidstaten zijn voor een aanpassing van de AVG waardoor het trainen van AI-modellen op persoonsgegevens van Europese ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T12:44:00Z",
+  "fetched": "2026-10-26T14:19:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "EU member states support amending the GDPR to allow training AI models on personal data of EU citizens.",
+    "nl": "EU-lidstaten steunen een aanpassing van de AVG waardoor AI-modellen op persoonsgegevens van EU-burgers getraind mogen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "680a1bdeb105",
+  "url": "https://therecord.media/litellm-hackers-ai-malware",
+  "title": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
+  "excerpt": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T12:00:00Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "LiteLLM says a key exposed in May enabled a supply-chain attack believed to have hit tens of thousands of AI developer users.",
+    "nl": "LiteLLM meldt dat een in mei gelekte sleutel een supply-chainaanval mogelijk maakte die naar schatting tienduizenden AI-gebruikers trof."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "a5411bb33d7f",
+  "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+  "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+  "excerpt": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T11:52:41Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Two critical Wasmtime flaws could let malicious WebAssembly modules escape the sandbox, with fixed versions released.",
+    "nl": "Twee kritieke kwetsbaarheden in Wasmtime kunnen kwaadaardige WebAssembly-modules laten ontsnappen uit de sandbox, er zijn gepatchte versies beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "37074fe3976c",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/",
+  "title": "AI coding agents fall for malicious instructions planted in the Downloads folder",
+  "excerpt": "A file that a website saves to the Downloads folder without approval can trick AI coding agents into installing a malicious npm package or handing over the user’s login token when they’re opened in that folder, Forever Security has found. The file is called AGENTS.md, a plain text document developers place in a project folder with instructions for coding agents, the AI tools that write and run code on their own. One turned up on … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T11:26:40Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Forever Security found that AI coding agents can be tricked by a malicious AGENTS.md file saved to the Downloads folder.",
+    "nl": "Forever Security ontdekte dat AI-codeeragents misleid kunnen worden door een kwaadaardig AGENTS.md-bestand in de Downloads-map."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "49aedb62ce7d",
+  "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+  "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+  "excerpt": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view. SOC teams often first see the shape of an intrusion",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T11:23:56Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor article promotes network detection and response to connect SOC alerts into attack timelines.",
+    "nl": "Een vendorartikel promoot network detection and response om SOC-meldingen tot aanvalstijdlijnen te verbinden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "886f1b389ac0",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
+  "title": "Fortinet patches critical FortiOS flaws found with AI help",
+  "excerpt": "Fortinet rolled out security hardening updates for FortiOS, FortiManager, FortiAnalyzer, FortiMail, and FortiAuthenticator last week, but is keeping the details about the fixed vulnerabilities under wraps until November 10, 2026. The vulnerabilities were uncovered with the help of AI models and validated by humans, Fortinet’s Chief Information Security Officer Carl Windsor explained in the advance announcement. But attackers also have access to AI tools, he warned, and can use them to find vulnerabilities and build … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T11:22:52Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Fortinet"
+   ],
+   "summary": {
+    "en": "Fortinet released hardening updates for FortiOS and related products, with vulnerability details withheld until November 10, 2026.",
+    "nl": "Fortinet heeft hardeningupdates uitgebracht voor FortiOS en verwante producten, details van de kwetsbaarheden blijven tot 10 november 2026 achter gesloten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "fddbaaaab5df",
+  "url": "https://www.security.nl/posting/959015/Kabinet+wil+dat+overheid+makkelijker+gegevens+van+burgers+kan+delen?channel=rss",
+  "title": "Kabinet wil dat overheid makkelijker gegevens van burgers kan delen",
+  "excerpt": "Het kabinet wil dat overheidsinstanties makkelijker onder elkaar gegevens van burgers kunnen delen. Ook is het de bedoeling dat ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T11:09:00Z",
+  "fetched": "2026-10-26T14:19:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch cabinet wants government agencies to share citizens' data more easily with each other.",
+    "nl": "Het kabinet wil dat overheidsinstanties gegevens van burgers makkelijker onderling kunnen delen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "c475b6f7b5f7",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/anthropic-claude-duet-security-safeguards/",
+  "title": "Anthropic details what stops Claude Duet from going rogue",
+  "excerpt": "Anthropic has outlined the security and privacy protections behind Claude Duet, its proactive AI agent that can monitor connected accounts and complete tasks while users are away. The safeguards include approval requirements, checks for sensitive information and infrastructure that keeps credentials outside the model’s reach. Duet works through a cloud-based computer and browser to prepare briefings, draft messages and handle business tasks. The standalone app is available through a research preview waitlist for Pro and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T10:41:47Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Anthropic described the security and privacy safeguards of its Claude Duet proactive AI agent.",
+    "nl": "Anthropic beschreef de beveiligings- en privacymaatregelen van zijn proactieve AI-agent Claude Duet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "eafbe7b499f2",
+  "url": "https://www.security.nl/posting/959004/Cisco-producten+ook+geraakt+door+zwakke+keys+van+eMudhra-certificaten?channel=rss",
+  "title": "Cisco-producten ook geraakt door zwakke keys van eMudhra-certificaten",
+  "excerpt": "Ook producten van Cisco zijn geraakt door de zwakke keys van certificaatautoriteit eMudhra en het netwerkbedrijf heeft voor een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T10:40:30Z",
+  "fetched": "2026-10-26T14:19:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco products are affected by weak keys from certificate authority eMudhra, and Cisco has issued a response.",
+    "nl": "Cisco-producten zijn getroffen door zwakke keys van certificaatautoriteit eMudhra, en Cisco heeft hierop gereageerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "20da7cee171a",
+  "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+  "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+  "excerpt": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T10:26:52Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kali Linux 2026.3 was released with six new tools and desktop environment updates.",
+    "nl": "Kali Linux 2026.3 is uitgebracht met zes nieuwe tools en updates voor de desktopomgeving."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "99eb9e6f4e44",
+  "url": "https://industrialcyber.co/utilities-energy-power-water-waste/centrii-flags-audit-risks-as-nerc-cip-003-9-tightens-vendor-remote-access-controls-for-low-impact-bes-systems/",
+  "title": "Centrii flags audit risks as NERC CIP-003-9 tightens vendor remote access controls for low-impact BES systems",
+  "excerpt": "A new post from Centrii warned that new vendor remote access requirements under the North American Electric Reliability...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-26T10:20:10Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "regulation",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Centrii warns that NERC CIP-003-9 tightens vendor remote access controls for low-impact BES systems, creating audit risks.",
+    "nl": "Centrii waarschuwt dat NERC CIP-003-9 de controles op vendor-toegang op afstand voor BES-systemen met lage impact aanscherpt, met auditrisico's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "74ce78e115c8",
+  "url": "https://industrialcyber.co/reports/frenos-warns-advances-in-ai-attack-planning-could-increase-cybersecurity-risks-for-critical-infrastructure-ics-systems/",
+  "title": "Frenos warns advances in AI attack planning could increase cybersecurity risks for critical infrastructure, ICS systems",
+  "excerpt": "Frenos, an operational technology (OT) security company, estimates that critical infrastructure operators have about two years to prepare...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-26T10:11:46Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Frenos, an OT security firm, estimates critical infrastructure operators have about two years to prepare for AI-assisted attack planning against ICS.",
+    "nl": "Frenos, een OT-beveiligingsbedrijf, schat dat operators van kritieke infrastructuur ongeveer twee jaar hebben om zich voor te bereiden op AI-ondersteunde aanvalsplanning tegen ICS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "f6b520c06de7",
+  "url": "https://industrialcyber.co/vulnerabilities/critical-php-vulnerabilities-raise-worldwide-concerns-as-government-websites-go-offline-researchers-report-ai-assisted-attacks/",
+  "title": "Critical PHP vulnerabilities raise worldwide concerns as government websites go offline, researchers report AI-assisted attacks",
+  "excerpt": "Global cybersecurity agencies urge organizations to immediately patch two critical PHP vulnerabilities that could enable unauthenticated remote code...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-26T10:07:03Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Agencies urge patching of two critical PHP vulnerabilities that could enable unauthenticated remote code execution, with government websites reported offline.",
+    "nl": "Overheidsinstanties roepen op om twee kritieke PHP-kwetsbaarheden te patchen die onbevoegde remote code-uitvoering mogelijk maken, terwijl overheidswebsites offline zijn gegaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:41Z"
+  }
+ },
+ {
+  "id": "9c1d01255e68",
+  "url": "https://industrialcyber.co/regulation-standards-and-compliance/ot-isac-tracks-2026-asia-pacific-cybersecurity-policy-shifts-affecting-critical-infrastructure-ot-and-industrial-operations/",
+  "title": "OT-ISAC tracks 2026 Asia-Pacific cybersecurity policy shifts affecting critical infrastructure, OT and industrial operations",
+  "excerpt": "New OT-ISAC analysis identified that cybersecurity policy requirements across Asia-Pacific diverge between binding critical-infrastructure and OT (operational technology)...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-26T10:03:13Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "OT-ISAC analysis finds Asia-Pacific cybersecurity policy requirements for critical infrastructure and OT diverge between binding and non-binding rules.",
+    "nl": "Analyse van OT-ISAC laat zien dat cybersecuritybeleid in Azië-Pacific voor kritieke infrastructuur en OT uiteenloopt tussen bindende en niet-bindende regels."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "2561c1b8a539",
+  "url": "https://www.security.nl/posting/958993/Google+komt+met+uitzondering+om+Gmail-data+voor+advertenties+te+gebruiken?channel=rss",
+  "title": "Google komt met uitzondering om Gmail-data voor advertenties te gebruiken",
+  "excerpt": "Google heeft het privacybeleid aangepast, waarin het techbedrijf nu meldt dat het data in Gmail en Photos in bepaalde gevallen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T10:02:12Z",
+  "fetched": "2026-10-26T14:19:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google updated its privacy policy to state that it may use Gmail and Photos data for advertising in certain cases.",
+    "nl": "Google heeft zijn privacybeleid aangepast en meldt dat het in bepaalde gevallen Gmail- en Photos-gegevens voor advertenties kan gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "13cbf731a7f0",
+  "url": "https://industrialcyber.co/sbom/enisa-links-sbom-automation-integrity-safeguards-and-lifecycle-management-to-software-supply-chain-security/",
+  "title": "ENISA links SBOM automation, integrity safeguards and lifecycle management to software supply chain security",
+  "excerpt": "The European Union Agency for Cybersecurity (ENISA) issued technical guidance on implementing software bills of materials (SBOMs), urging...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-26T09:55:44Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "ENISA published technical guidance on implementing SBOMs, covering automation, integrity safeguards and lifecycle management for software supply chain security.",
+    "nl": "ENISA heeft technische richtlijnen gepubliceerd voor het implementeren van SBOM's, met aandacht voor automatisering, integriteitsbeveiliging en lifecyclebeheer van de softwareketen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "275e6f3b55af",
+  "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+  "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+  "excerpt": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app. The kit's Telegram part matches Baohuo, a backdoor that Doctor",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T09:54:02Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The uCreator Android spyware kit hijacks Telegram and WeChat accounts through tampered app copies distributed outside official app stores.",
+    "nl": "De uCreator Android-spyware neemt Telegram- en WeChat-accounts over via gemanipuleerde appkopieën die buiten officiële appstores worden verspreid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "5ecfc8a6ce35",
+  "url": "https://industrialcyber.co/news/schneider-electric-nvidia-hpe-introduce-edge-ai-agents-for-industrial-monitoring-cybersecurity-and-energy-optimization/",
+  "title": "Schneider Electric, NVIDIA, HPE introduce edge AI agents for industrial monitoring, cybersecurity and energy optimization",
+  "excerpt": "Schneider Electric announced a strategic collaboration with NVIDIA and HPE to accelerate the adoption of Physical AI across...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-26T09:48:17Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Schneider Electric",
+    "NVIDIA",
+    "HPE"
+   ],
+   "summary": {
+    "en": "Schneider Electric, NVIDIA and HPE announced a collaboration on edge AI agents for industrial monitoring and energy optimization.",
+    "nl": "Schneider Electric, NVIDIA en HPE kondigden een samenwerking aan op edge-AI-agents voor industriële monitoring en energie-optimalisatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "d1b15098fa4c",
+  "url": "https://www.security.nl/posting/958982/Encryptiesoftware+VeraCrypt+verhelpt+meerdere+beveiligingslekken?channel=rss",
+  "title": "Encryptiesoftware VeraCrypt verhelpt meerdere beveiligingslekken",
+  "excerpt": "Er is een nieuwe versie van encryptiesoftware VeraCrypt verschenen die meerdere beveiligingslekken verhelpt, alsmede ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T09:31:00Z",
+  "fetched": "2026-10-26T14:19:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A new VeraCrypt version fixes several security vulnerabilities in the encryption software.",
+    "nl": "Een nieuwe versie van VeraCrypt verhelpt meerdere beveiligingslekken in de encryptiesoftware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "189250db2c65",
+  "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+  "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+  "excerpt": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T09:19:57Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Critical RCE vulnerabilities CVE-2026-109618 and CVE-2026-109619, tracked as PHP2Shell, are being exploited in the wild.",
+    "nl": "Kritieke RCE-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619, gezamenlijk PHP2Shell genoemd, worden actief misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "35a2887f8653",
+  "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+  "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+  "excerpt": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T08:35:51Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers replayed stolen Microsoft 365 tokens to access 97 accounts at 79 organizations, according to Huntress.",
+    "nl": "Aanvallers hebben gestolen Microsoft 365-tokens opnieuw afgespeeld om toegang te krijgen tot 97 accounts bij 79 organisaties, meldt Huntress."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "8e95a20d61e4",
+  "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+  "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+  "excerpt": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to an analysis by cloud security company Wiz. A GitHub safeguard that pauses",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T07:49:46Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An automated campaign uses stolen GitHub tokens to leak repository secrets through GitHub Actions logs.",
+    "nl": "Een geautomatiseerde campagne gebruikt gestolen GitHub-tokens om repository-geheimen via GitHub Actions-logs te lekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "e39e7adf3de0",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/witness-open-source-software-supply-chain-tool/",
+  "title": "Witness: Open-source framework for verifying how your software was built",
+  "excerpt": "Witness is an open-source command-line tool that records how software gets built, signs that record, and checks it against a policy before the software ships. TestifySec built Witness and donated it to the in-toto ecosystem within the Cloud Native Computing Foundation, and an open community now maintains it. A compiled binary doesn’t say which machine built it or what code went in. Witness lets a team check which command produced the file, which materials went … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T07:00:45Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Witness is an open-source tool that records, signs and verifies how software is built before it ships.",
+    "nl": "Witness is een open-sourcetool die vastlegt, ondertekent en verifieert hoe software wordt gebouwd voordat deze wordt uitgeleverd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "6e1fee5a1ec2",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/linux-foundation-open-source-ai-slop/",
+  "title": "AI slop is piling up highest on the biggest open-source projects",
+  "excerpt": "The maintainers of large open source projects are taking the worst of the AI slop. In a Linux Foundation survey of 234 open source contributors and maintainers, people running projects with more than 50 contributors estimated that close to a third of the code changes landing in their queue are low quality or AI-generated. Those maintainers now worry more about burning out than about the code itself. Across all projects, the estimate comes to about … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T06:30:29Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Linux Foundation survey finds maintainers of large open source projects estimate about a third of code changes are low quality or AI-generated.",
+    "nl": "Een enquête van de Linux Foundation toont aan dat beheerders van grote open-sourceprojecten schatten dat ongeveer een derde van de codewijzigingen laagwaardig of AI-gegenereerd is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "8239096a100a",
+  "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+  "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+  "excerpt": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder. The file",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T06:03:48Z",
+  "fetched": "2026-10-26T14:19:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A malicious instruction file tried to make an AI coding agent install a known-malicious npm package, and was stopped before code ran.",
+    "nl": "Een kwaadaardig instructiebestand probeerde een AI-codeeragent een bekend kwaadaardig npm-pakket te laten installeren, en werd gestopt voordat code draaide."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
   "id": "2065885c547f",
   "url": "https://www.helpnetsecurity.com/2026/10/26/product-showcase-stellar-cyber-isoc-platform/",
   "title": "Product showcase: Stellar Cyber’s ISOC platform provides full-cycle architecture",
@@ -137,6 +1054,39 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-26T06:22:34Z"
+  }
+ },
+ {
+  "id": "0e076ea708a2",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-137528.html",
+  "title": "SSA-137528 V1.0: Authentication Bypass Vulnerability in Mendix SAML module",
+  "excerpt": "Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-26T00:00:00Z",
+  "fetched": "2026-10-26T14:19:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Mendix"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-137528 reports an authentication bypass in the Mendix SAML module that allows replaying SAML assertions, with updates released.",
+    "nl": "Siemens-advisory SSA-137528 meldt een authenticatiebypass in de Mendix SAML-module waarmee SAML-assertions opnieuw kunnen worden afgespeeld, updates zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T14:19:54Z"
   }
  },
  {
@@ -22877,126 +23827,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-20T20:39:09Z"
-  }
- },
- {
-  "id": "48bb0dde9801",
-  "url": "https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices",
-  "title": "Disruptive cyber activity highlights risk from internet-exposed systems and edge devices",
-  "excerpt": "Owners of operational technology encouraged to address avoidable vulnerabilities, and build long-term cyber resilience.",
-  "source_id": "ncsc-uk",
-  "source": "NCSC-UK",
-  "lang": "en",
-  "kind": "guidance",
-  "focus": "broad",
-  "published": "2026-08-27T12:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 60,
-   "category": "guidance",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "NCSC urges operational technology owners to address avoidable vulnerabilities in internet-exposed systems and edge devices and build long-term cyber resilience.",
-    "nl": "De NCSC roept eigenaren van operationele technologie op vermijdbare kwetsbaarheden in internet-blootgestelde systemen en edge-apparaten te verhelpen en cyberweerbaarheid op lange termijn op te bouwen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "0fa961856e0f",
-  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/multi-national-ci-fortify-guidance-at-a-glance",
-  "title": "Multi-national CI Fortify Guidance at a Glance",
-  "excerpt": "Four governments just advised critical infrastructure operators to prepare to isolate their most important OT systems. Here’s what that means, who should care, and what to do about it.",
-  "source_id": "waterfall",
-  "source": "Waterfall Security",
-  "lang": "en",
-  "kind": "vendor",
-  "focus": "ot",
-  "published": "2026-08-27T11:16:43Z",
-  "fetched": "2026-10-18T00:28:07Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 80,
-   "category": "guidance",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Four governments advised critical infrastructure operators to prepare to isolate their most important OT systems during a cyber emergency.",
-    "nl": "Vier overheden adviseerden exploitanten van kritieke infrastructuur zich voor te bereiden op het isoleren van hun belangrijkste OT-systemen bij een cybernoodsituatie."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "e1f37b7fe125",
-  "url": "https://ics-cert.kaspersky.com/events/2026/08/27/kicc-2026-kaspersky-ics-cert-experts-will-explain-how-to-build-the-ideal-information-security-system-for-an-industrial-holding/",
-  "title": "KICC 2026: Kaspersky ICS CERT experts will explain how to build the ideal information security system for an industrial holding",
-  "excerpt": "From September 9 to 11, Sochi will host the Kaspersky Industrial Cybersecurity Conference, one of the leading international events in industrial cybersecurity.",
-  "source_id": "kaspersky-ics-cert",
-  "source": "Kaspersky ICS CERT",
-  "lang": "en",
-  "kind": "research",
-  "focus": "ot",
-  "published": "2026-08-27T08:50:13Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 5,
-   "category": "industry",
-   "sectors": [],
-   "vendors": [
-    "Kaspersky"
-   ],
-   "summary": {
-    "en": "Kaspersky ICS CERT announces its Industrial Cybersecurity Conference in Sochi on September 9 to 11.",
-    "nl": "Kaspersky ICS CERT kondigt zijn Industrial Cybersecurity Conference in Sotsji aan, van 9 tot 11 september."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "ea02c5fc4a6d",
-  "url": "https://securityaffairs.com/197891/ics-scada/cisa-warns-water-utilities-find-your-exposed-plcs-before-attackers-do.html",
-  "title": "CISA Warns Water Utilities: Find Your Exposed PLCs Before Attackers Do",
-  "excerpt": "CISA urges water utilities to find and secure internet-exposed PLCs after July attacks showed how easily exposed industrial systems can be compromised. Over 100 internet-exposed systems in the US water and wastewater sector got hit by cyberattacks in July 2026, and CISA’s response wasn’t just an incident report, it was a how-to guide for making […]",
-  "source_id": "securityaffairs-ics",
-  "source": "Security Affairs ICS-SCADA",
-  "lang": "en",
-  "kind": "news",
-  "focus": "ot",
-  "published": "2026-08-27T07:36:42Z",
-  "fetched": "2026-10-14T21:44:16Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 85,
-   "category": "advisory",
-   "sectors": [
-    "water"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "CISA urges US water utilities to find and secure internet-exposed PLCs after over 100 such systems were attacked in July 2026.",
-    "nl": "CISA roept Amerikaanse waterbedrijven op internet-blootgestelde PLC's te identificeren en te beveiligen, nadat er in juli 2026 meer dan 100 zulke systemen werden aangevallen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
   }
  }
 ]
