@@ -1,5 +1,33 @@
 [
  {
+  "id": "b78e59fd5cb8",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
+  "title": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
+  "excerpt": "The OpenSSL project released version 4.1.0, adding support for DTLS 1.3 and listing four known bugs in the DTLS code that ships with it. DTLS is the variant of TLS built for datagram transports such as UDP, and version 1.3 is defined in RFC 9147. The bugs fall on developers who adopt DTLS 1.3 or the DTLS support newly added to OpenSSL’s SSL listener API. Two of them can make an application misread a connection’s … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-25T23:33:35Z",
+  "fetched": "2026-10-26T01:14:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The OpenSSL project released version 4.1.0, adding DTLS 1.3 support and listing four known bugs in its DTLS code.",
+    "nl": "Het OpenSSL-project heeft versie 4.1.0 uitgebracht, met ondersteuning voor DTLS 1.3 en vier bekende bugs in de DTLS-code."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T01:14:24Z"
+  }
+ },
+ {
   "id": "4a8154151413",
   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
@@ -22826,38 +22854,6 @@
    "summary": {
     "en": "CISA urges US water utilities to find and secure internet-exposed PLCs after over 100 such systems were attacked in July 2026.",
     "nl": "CISA roept Amerikaanse waterbedrijven op internet-blootgestelde PLC's te identificeren en te beveiligen, nadat er in juli 2026 meer dan 100 zulke systemen werden aangevallen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "d0b3be909ec9",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-682041.html",
-  "title": "SSA-682041 V1.0: Cross Site Scripting Vulnerability in Element Maps",
-  "excerpt": "The si-map component does not properly neutralize user-controllable input of the points property that is used to render the tooltip label of map pins. This could allow an attacker to craft a malicious URL that, when loaded by a victim and the map pin is hovered over, executes arbitrary script code within the victim’s browser session. This vulnerability affects only the @siemens/maps-ng package. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-08-27T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 30,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens released fixed versions of the @siemens/maps-ng package to address a cross-site scripting vulnerability in Element Maps.",
-    "nl": "Siemens heeft nieuwe versies van het @siemens/maps-ng-pakket uitgebracht om een cross-site scripting-kwetsbaarheid in Element Maps te verhelpen."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
