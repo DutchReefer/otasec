@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-26",
+ "published": "2026-10-26T06:22:42Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 1,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet day with a single item: commentary on PHP2Shell, which we have followed in recent briefings."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige dag met één bericht: commentaar op PHP2Shell, dat we de afgelopen dagen al volgden."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "5a4cabe3306e",
+     "name": "Waterfall Security",
+     "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/php2shell-ai-exploits-long-known-vulnerabilities/",
+     "title": "PHP2Shell: AI Exploits for Long-Known Vulnerabilities"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Waterfall on PHP2Shell and AI-driven exploitation of old vulnerabilities",
+     "summary": "Waterfall Security discusses PHP2Shell as an example of frontier AI turning long-known, hard-to-exploit vulnerabilities into real attacks. Andrew Ginter sets out what AI can and cannot do for attackers. His conclusion is that OT defenders should engineer attack paths away.",
+     "takeaway": "Do not assume an old, hard-to-exploit vulnerability is low risk: review which attack paths into your OT can be removed through network design, alongside patching."
+    },
+    "nl": {
+     "heading": "Update: Waterfall over PHP2Shell en AI-gedreven misbruik van oude kwetsbaarheden",
+     "summary": "Waterfall Security bespreekt PHP2Shell als voorbeeld van hoe geavanceerde AI lang bekende, moeilijk uitbuitbare kwetsbaarheden omzet in echte aanvallen. Andrew Ginter licht toe wat AI wel en niet voor aanvallers kan betekenen. Zijn conclusie is dat OT-verdedigers aanvalspaden weg moeten ontwerpen.",
+     "takeaway": "Ga er niet vanuit dat een oude, moeilijk uitbuitbare kwetsbaarheid een laag risico vormt: kijk welke aanvalspaden naar je OT je kunt wegnemen via netwerkontwerp, naast patchen."
+    }
+   }
+  }
+ ]
+}

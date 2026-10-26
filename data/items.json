@@ -1,5 +1,145 @@
 [
  {
+  "id": "2065885c547f",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/product-showcase-stellar-cyber-isoc-platform/",
+  "title": "Product showcase: Stellar Cyber’s ISOC platform provides full-cycle architecture",
+  "excerpt": "An AI SOC that starts with somebody else’s alert is already too late. Stellar Cyber collects and normalizes telemetry, detects suspicious activity, correlates evidence, builds cases, investigates incidents, triages findings, and drives response from the same security architecture. That gives people and AI access to the evidence behind the alert – not just the alert itself. Full-cycle security operations means the data, detections, context, investigation, decisions, and response remain connected as an incident moves through … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T06:00:12Z",
+  "fetched": "2026-10-26T06:22:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Stellar Cyber describes its ISOC platform, which collects telemetry, correlates evidence and drives response within one security architecture.",
+    "nl": "Stellar Cyber beschrijft zijn ISOC-platform, dat telemetrie verzamelt, bewijs correleert en respons aanstuurt binnen één securityarchitectuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T06:22:34Z"
+  }
+ },
+ {
+  "id": "185a06fbdafe",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/arrakis-dormant-ai-agent-risks-report/",
+  "title": "Forgotten AI agents may still access sensitive company data",
+  "excerpt": "AI agents that have not run recently retain credentials and connections to company systems, according to Arrakis Security’s 2026 Autonomous Agents Threat Report. About 76% of enabled agents examined had not run in 60 days, leaving access available through inactive software. Agents by exposure family (Source: Arrakis Security) The analysis covered thousands of agents in customer production environments over a 12-week period. These programs can read and write data, call tools and start workflows, giving … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T05:30:27Z",
+  "fetched": "2026-10-26T06:22:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Arrakis Security reports that about 76% of enabled AI agents it examined had not run in 60 days but retained access to company systems.",
+    "nl": "Arrakis Security meldt dat ongeveer 76% van de onderzochte ingeschakelde AI-agents 60 dagen niet had gedraaid, maar nog toegang tot bedrijfssystemen had."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T06:22:34Z"
+  }
+ },
+ {
+  "id": "af3d943f5e66",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/transunion-synthetic-identity-fraud-risks-report/",
+  "title": "Synthetic identities leave US lenders with $2.4 billion in fraud exposure",
+  "excerpt": "Criminals are exploiting established customer accounts and familiar brands to steal money and personal information, according to TransUnion’s Fraud in the Age of Continuous Trust report. Eighty-one percent of suspected digital fraud in its network during the first half of 2026 occurred during account logins and financial transactions, highlighting risks that persist throughout a customer relationship. Verifying someone’s identity does not establish whether every subsequent interaction can be trusted. Scammers can manipulate legitimate customers into … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T05:00:59Z",
+  "fetched": "2026-10-26T06:22:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "TransUnion reports that 81% of suspected digital fraud in its network in the first half of 2026 occurred during logins and financial transactions.",
+    "nl": "TransUnion meldt dat 81% van de vermoedelijke digitale fraude in zijn netwerk in de eerste helft van 2026 plaatsvond bij logins en financiële transacties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T06:22:34Z"
+  }
+ },
+ {
+  "id": "0a9211ccb842",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
+  "title": "r/opensource bans AI projects, and solo devs go down with them",
+  "excerpt": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license, have an existing community and “subjectively 3+” contributors. The poster needs a Reddit account at least a year old with … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T04:30:36Z",
+  "fetched": "2026-10-26T06:22:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The r/opensource moderators ban projects that use AI, are made by AI or are intended for AI, with added requirements for eligible projects.",
+    "nl": "De moderators van r/opensource verbieden projecten die AI gebruiken, door AI zijn gemaakt of voor AI bedoeld zijn, en stellen extra eisen aan projecten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T06:22:34Z"
+  }
+ },
+ {
+  "id": "b5a5f5a6344c",
+  "url": "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/",
+  "title": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
+  "excerpt": "Google has open-sourced the Elephant-Goldfish Model plugin, an internal tool that makes an AI coding agent write and defend a design document before it touches any code. The plugin hands that document to fresh AI sessions that have never seen the design conversation and tells them to find what is wrong with it. The EGM plugin in a nutshell (Source: Google) “AI-powered velocity is transformative; however, it has silently introduced a potential reliability crisis by … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T04:25:59Z",
+  "fetched": "2026-10-26T06:22:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google has open-sourced its Elephant-Goldfish Model plugin, which makes AI coding agents write and defend design documents before they change code.",
+    "nl": "Google heeft de Elephant-Goldfish Model-plugin open-source gemaakt, waarmee AI-codeeragents ontwerpdocumenten schrijven en verdedigen voordat ze code aanpassen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T06:22:34Z"
+  }
+ },
+ {
   "id": "b78e59fd5cb8",
   "url": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
   "title": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
