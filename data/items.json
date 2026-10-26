@@ -1,5 +1,375 @@
 [
  {
+  "id": "a89ec813fbd3",
+  "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+  "title": "DreamHost forces password resets in ongoing \"incident\"",
+  "excerpt": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T19:26:20Z",
+  "fetched": "2026-10-26T20:31:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "DreamHost forced password resets for email and FTP/SFTP users after an incident disrupted connections to its File Manager interface.",
+    "nl": "DreamHost heeft wachtwoordreset afgedwongen voor e-mail- en FTP/SFTP-gebruikers na een incident dat verbindingen met de File Manager verstoorde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "961277245249",
+  "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+  "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+  "excerpt": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks. \"When you",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T18:12:22Z",
+  "fetched": "2026-10-26T20:31:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An unknown actor infected 953 online stores, mostly on Magento, with code that serves malicious JavaScript loaders since July 2025.",
+    "nl": "Een onbekende dader heeft 953 webwinkels besmet, vooral met Magento, met code die sinds juli 2025 schadelijke JavaScript-laders serveert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "fd2c8a91369a",
+  "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+  "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+  "excerpt": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T17:45:57Z",
+  "fetched": "2026-10-26T20:31:32Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PHP rebuilt its Windows packages for PHP 8.2 to 8.5 to fix CVE-2026-111497, a Brotli library flaw that may allow memory corruption and code execution.",
+    "nl": "PHP heeft de Windows-pakketten voor PHP 8.2 tot 8.5 opnieuw gebouwd om CVE-2026-111497 in de Brotli-bibliotheek te verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "f722b9fc379b",
+  "url": "https://therecord.media/serbia-election-spyware-vucic",
+  "title": "Serbian autocrat loses election following widespread reports of digital repression",
+  "excerpt": "Serbian strongman leader Aleksandar Vučić on Sunday admitted defeat in his race for prime minister, a loss that follows a series of incidents of digital repression that galvanized the opposition.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T17:30:00Z",
+  "fetched": "2026-10-26T20:31:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Serbian leader Aleksandar Vučić conceded defeat in the prime ministerial election after reports of digital repression galvanized the opposition.",
+    "nl": "De Servische leider Aleksandar Vučić heeft zijn nederlaag bij de verkiezing voor premier erkend na berichten over digitale repressie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "5d6b2a0bb6b0",
+  "url": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
+  "title": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
+  "excerpt": "Ukrainian Defense Minister Yevhen Khmara said Saturday that Starlink and Starshield connectivity had been restored.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T16:40:00Z",
+  "fetched": "2026-10-26T20:31:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ukraine's defense minister said Starlink and Starshield connectivity was restored, disputing claims of misuse made by Elon Musk.",
+    "nl": "De Oekraïense minister van Defensie zegt dat Starlink- en Starshield-verbindingen zijn hersteld en betwist claims over misbruik van Musk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "3e53d355cefd",
+  "url": "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
+  "title": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
+  "excerpt": "44-year-old Zheng Zhao was allegedly a key money-launderer working with a group of scammers who called U.S.-based victims and urged them to invest in fictitious businesses.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T16:37:00Z",
+  "fetched": "2026-10-26T20:31:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 4,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch police extradited a 44-year-old Chinese national accused of laundering funds from Cambodian investment scams.",
+    "nl": "De Nederlandse politie heeft een 44-jarige Chinese man uitgeleverd die ervan wordt verdacht geld uit Cambodjaanse beleggingsfraude te hebben witgewassen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "7ce3d6369b56",
+  "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+  "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+  "excerpt": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T16:27:57Z",
+  "fetched": "2026-10-26T20:31:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A critical Brotli decoder flaw dubbed HTTP2Shell, built into Node.js, could allow memory corruption and access to sensitive data, prompting emergency patches.",
+    "nl": "Een kritieke kwetsbaarheid in de Brotli-decoder van Node.js, HTTP2Shell genoemd, kan geheugencorruptie en toegang tot gevoelige data mogelijk maken, waarna noodpatches volgden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "03f54c74f6fe",
+  "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+  "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+  "excerpt": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T15:52:40Z",
+  "fetched": "2026-10-26T20:31:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Threat actors use Microsoft Teams external chat and throwaway tenants in IT support impersonation scams to deliver malware and ransomware.",
+    "nl": "Dreigingsactoren gebruiken de externe chatfunctie van Microsoft Teams en wegwerp-tenants voor nep-IT-supportoplichting om malware en ransomware te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "f8415831875b",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+  "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+  "excerpt": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T15:38:24Z",
+  "fetched": "2026-10-26T20:31:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft released emergency .NET security updates to patch a critical Brotli vulnerability known as Broccoli2Shell, Node2Shell or HTTP2Shell.",
+    "nl": "Microsoft heeft noodbeveiligingsupdates voor .NET uitgebracht om een kritieke Brotli-kwetsbaarheid te verhelpen, bekend als Broccoli2Shell, Node2Shell of HTTP2Shell."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "d16c669b350c",
+  "url": "https://www.security.nl/posting/959129/Kabinet+ziet+geen+wetenschappelijk+bewijs+voor+ontwikkeling+superintelligente+AI?channel=rss",
+  "title": "Kabinet ziet geen wetenschappelijk bewijs voor ontwikkeling superintelligente AI",
+  "excerpt": "Het kabinet ziet geen wetenschappelijk bewijs dat superintelligente AI op dit moment ontwikkeld kan worden. Wel ziet het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T15:00:21Z",
+  "fetched": "2026-10-26T20:31:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch cabinet sees no scientific evidence that superintelligent AI can currently be developed.",
+    "nl": "Het Nederlandse kabinet ziet op dit moment geen wetenschappelijk bewijs dat superintelligente AI ontwikkeld kan worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "819626925a83",
+  "url": "https://www.security.nl/posting/959108/Hostingprovider+DreamHost+reset+wegens+incident+wachtwoorden+klanten?channel=rss",
+  "title": "Hostingprovider DreamHost reset wegens incident wachtwoorden klanten",
+  "excerpt": "Hostingprovider DreamHost heeft wegens een incident de wachtwoorden van klanten gereset. Het gaat dan specifiek om klanten met ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T14:34:02Z",
+  "fetched": "2026-10-26T20:31:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hosting provider DreamHost reset customer passwords due to an incident affecting certain customers.",
+    "nl": "Hostingprovider DreamHost heeft wachtwoorden van klanten gereset vanwege een incident waarbij bepaalde klanten betrokken waren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "d72684f804b8",
+  "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+  "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+  "excerpt": "CERT-UA says it has identified cases in which hackers compromised Dahua internet-connected cameras and video recorders, changed their settings and created unauthorized user accounts.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T14:21:00Z",
+  "fetched": "2026-10-26T20:31:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Dahua"
+   ],
+   "summary": {
+    "en": "CERT-UA reports hackers compromised Dahua internet-connected cameras and recorders, changed settings and created unauthorized user accounts.",
+    "nl": "CERT-UA meldt dat hackers Dahua-camera's en recorders met internetverbinding hebben gecompromitteerd, instellingen hebben gewijzigd en ongeautoriseerde accounts hebben aangemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "3576934612fc",
+  "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+  "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+  "excerpt": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And that's not even the full story. A leaked key led to a software supply-chain",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T14:06:13Z",
+  "fetched": "2026-10-26T20:31:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup covering several critical remote code execution bugs, a leaked key that led to a software supply-chain issue, and rogue AI.",
+    "nl": "Een wekelijks overzicht van meerdere kritieke remote code execution-kwetsbaarheden, een gelekte sleutel die tot een supply-chain-probleem leidde en rogue AI."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
   "id": "ad150e41ed92",
   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
@@ -1087,6 +1457,41 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-26T14:19:54Z"
+  }
+ },
+ {
+  "id": "6499d01626a0",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-166980.html",
+  "title": "SSA-166980 V1.0: PHP2Shell Vulnerabilities in Siemens Products",
+  "excerpt": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as “php2shell” (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products. Siemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings…",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-26T00:00:00Z",
+  "fetched": "2026-10-26T20:31:32Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens published advisory SSA-166980 on PHP2Shell vulnerabilities CVE-2026-109618 and CVE-2026-109619 affecting its products, with impact assessment still ongoing.",
+    "nl": "Siemens heeft advies SSA-166980 gepubliceerd over PHP2Shell-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619 in zijn producten, waarbij de impactanalyse nog loopt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-26T20:31:49Z"
   }
  },
  {
