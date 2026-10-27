@@ -1,5 +1,175 @@
 [
  {
+  "id": "f48843996a66",
+  "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+  "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+  "excerpt": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T22:43:27Z",
+  "fetched": "2026-10-27T22:58:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI says its GPT-6.1 Terra model is safer overall than older models, though safety testing found more destructive-action flags.",
+    "nl": "OpenAI stelt dat het GPT-6.1 Terra-model over het geheel veiliger is dan oudere modellen, al toonden de veiligheidstests meer flags voor destructieve acties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T22:58:35Z"
+  }
+ },
+ {
+  "id": "600fa9412e38",
+  "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+  "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+  "excerpt": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T22:07:34Z",
+  "fetched": "2026-10-27T22:58:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 72,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The University of New Mexico Health Sciences Center disclosed a ransomware attack that caused system outages, disrupted patient care and forced surgery delays.",
+    "nl": "Het University of New Mexico Health Sciences Center meldde een ransomware-aanval die systeemstoringen veroorzaakte, de patiëntenzorg verstoorde en operaties vertraagde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T22:58:35Z"
+  }
+ },
+ {
+  "id": "4c9d16ab85e8",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+  "title": "Hackers hijack Convertr analytics script to steal payment card data",
+  "excerpt": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T20:57:25Z",
+  "fetched": "2026-10-27T22:58:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A card skimming group reportedly compromised a shared analytics script used by Convertr to steal shoppers' payment card data at checkout.",
+    "nl": "Een skimming-groep zou een gedeeld analytics-script van Convertr hebben gecompromitteerd om betaalkaartgegevens van winkelers tijdens het afrekenen te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T22:58:35Z"
+  }
+ },
+ {
+  "id": "2f6663d0ce96",
+  "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
+  "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
+  "excerpt": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T20:40:00Z",
+  "fetched": "2026-10-27T22:58:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ukrainian national Artem Stryzhak was sentenced to over five years after pleading guilty to participating in the Nefilim and Hive ransomware groups.",
+    "nl": "De Oekraïense Artem Stryzhak is veroordeeld tot meer dan vijf jaar na zijn schuldbekentenis over deelname aan de ransomwaregroepen Nefilim en Hive."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T22:58:35Z"
+  }
+ },
+ {
+  "id": "c75ce4708bf6",
+  "url": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
+  "title": "US indicts Malaysian national after Madagascar scam operation uncovered",
+  "excerpt": "DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T19:30:00Z",
+  "fetched": "2026-10-27T22:58:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US Department of Justice indicted a Malaysian national and charged four other foreign nationals after a scam operation was uncovered in Madagascar.",
+    "nl": "Het Amerikaanse ministerie van Justitie heeft een Maleisische staatsburger aangeklaagd en vier andere buitenlanders vervolgd na een ontmaskerde zwendeloperatie in Madagaskar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T22:58:35Z"
+  }
+ },
+ {
+  "id": "d09366a97fc8",
+  "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+  "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+  "excerpt": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T18:26:46Z",
+  "fetched": "2026-10-27T22:58:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers at TrendAI described three AI-assisted cyber attacks against Japanese organizations, using an AI agent framework called CyberStrikeAI.",
+    "nl": "Onderzoekers van TrendAI beschreven drie door AI ondersteunde cyberaanvallen op Japanse organisaties, waarbij het AI-agentframework CyberStrikeAI werd gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T22:58:35Z"
+  }
+ },
+ {
   "id": "bcdbe9f1735b",
   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
   "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
