@@ -1,5 +1,649 @@
 [
  {
+  "id": "bcdbe9f1735b",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+  "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+  "excerpt": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T18:20:28Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft released out-of-band Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys.",
+    "nl": "Microsoft heeft out-of-band Windows-updates uitgebracht om het vertrouwen in certificaten van gecompromitteerde eMudhra-certificaatautoriteit-sleutels in te trekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "b1f34fcc66a4",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
+  "title": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
+  "excerpt": "A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds write flaw that gained widespread attention after Node.js publicly disclosed it on October 21, 2026. “An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory, which can lead to a crash, disclosure of process … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T17:38:51Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A remotely exploitable out-of-bounds write flaw, CVE-2026-111497, was found in the Brotli compression library, affecting software that uses it.",
+    "nl": "Een op afstand misbruikbare out-of-bounds write-kwetsbaarheid, CVE-2026-111497, is gevonden in de Brotli-compressiebibliotheek, die software beïnvloedt die deze gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "34b7f3f78b4d",
+  "url": "https://www.security.nl/posting/959301/Mozilla+verhelpt+met+nieuwste+Firefox-versie+167+kwetsbaarheden?channel=rss",
+  "title": "Mozilla verhelpt met nieuwste Firefox-versie 167 kwetsbaarheden",
+  "excerpt": "Mozilla heeft vandaag Firefox 159 gelanceerd, waarmee 167 kwetsbaarheden in de browser zijn verholpen. Het grootste deel van de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T16:19:51Z",
+  "fetched": "2026-10-27T18:46:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Mozilla fixed 167 vulnerabilities in its latest Firefox release.",
+    "nl": "Mozilla heeft 167 kwetsbaarheden verholpen in de nieuwste Firefox-release."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "b6dff67ff71e",
+  "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+  "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+  "excerpt": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T16:15:39Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Warp disclosed that agent decision logs and telemetry data of its users were exposed in an attack on a third-party vendor.",
+    "nl": "Warp heeft gemeld dat agentbeslislogs en telemetriegegevens van gebruikers zijn blootgesteld bij een aanval op een externe leverancier."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "6d605b5985b6",
+  "url": "https://www.security.nl/posting/959297/EU-lidstaten+willen+nog+dit+jaar+finaal+akkoord+over+invoering+digitale+euro?channel=rss",
+  "title": "EU-lidstaten willen nog dit jaar finaal akkoord over invoering digitale euro",
+  "excerpt": "De EU-lidstaten willen nog dit jaar een finaal akkoord sluiten over de invoering van de digitale euro in de Europese Unie. Dat ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T15:57:00Z",
+  "fetched": "2026-10-27T18:46:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "EU member states aim to reach a final agreement this year on introducing the digital euro.",
+    "nl": "EU-lidstaten willen dit jaar een definitief akkoord bereiken over de invoering van de digitale euro."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "5f5d10f17b6a",
+  "url": "https://www.security.nl/posting/959293/Misbruik+van+kritiek+SQL+Injection-lek+in+Oracle+E-Business+Suite+gemeld?channel=rss",
+  "title": "Misbruik van kritiek SQL Injection-lek in Oracle E-Business Suite gemeld",
+  "excerpt": "Aanvallers maken actief misbruik van een kritiek SQL Injection-lek in Oracle E-Business Suite. Oracle kwam op 20 oktober met ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T15:29:00Z",
+  "fetched": "2026-10-27T18:46:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Attackers are actively exploiting a critical SQL injection flaw in Oracle E-Business Suite, which Oracle addressed on October 20.",
+    "nl": "Aanvallers misbruiken actief een kritieke SQL-injectiekwetsbaarheid in Oracle E-Business Suite, die Oracle op 20 oktober heeft aangepakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "37ead5afc462",
+  "url": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
+  "title": "Hackers repeatedly breached suppliers holding UK police data, watchdog finds",
+  "excerpt": "His Majesty’s Inspectorate of Constabulary and Fire & Rescue Services says British police data has been breach several times this decade through third-party IT suppliers.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T15:07:00Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "research",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A UK inspectorate found that police data was breached several times this decade through third-party IT suppliers.",
+    "nl": "Een Britse toezichthouder constateert dat politiegegevens dit decennium meerdere keren zijn gelekt via externe IT-leveranciers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "04454a9dd522",
+  "url": "https://www.security.nl/posting/959275/Minister%3A+risico%27s+van+Chinese+pati%C3%ABntmonitoren+voor+pati%C3%ABntgegevens+beperkt?channel=rss",
+  "title": "Minister: risico's van Chinese patiëntmonitoren voor patiëntgegevens beperkt",
+  "excerpt": "De risico's van Chinese patiëntmonitoren in het St. Antonius Ziekenhuis op de privacy van patientgegevens is beperkt, zo stelt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T15:00:57Z",
+  "fetched": "2026-10-27T18:46:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "industry",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A minister states that the privacy risks of Chinese patient monitors at a Dutch hospital are limited.",
+    "nl": "Een minister stelt dat de privacyrisico's van Chinese patiëntmonitoren in een Nederlands ziekenhuis beperkt zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  },
+  "title_en": "Minister: risks of Chinese patient monitors for patient data limited"
+ },
+ {
+  "id": "319765385a55",
+  "url": "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
+  "title": "University of New Mexico hospital diverts ambulances after cyberattack",
+  "excerpt": "For about two hours on Monday, the organization diverted ambulances to health systems in Albuquerque and Santa Fe. They were forced to suspend outpatient surgeries and appointments for the remainder of the day.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T14:57:00Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A University of New Mexico hospital diverted ambulances for about two hours and suspended outpatient surgeries after a cyberattack.",
+    "nl": "Een ziekenhuis van de University of New Mexico heeft na een cyberaanval ambulances omgeleid en ambulante operaties opgeschort."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "9212c5b729c3",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
+  "title": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
+  "excerpt": "Threat actors are flooding employees’ inboxes with spam and then contacting them on Microsoft Teams as IT support, offering to fix the problem they created, Arctic Wolf has found. The security company documented more than 400 incidents in which the external chat feature in Teams was abused. In many of these cases, the fake help desk message arrived minutes after the victim’s inbox had been filled with hundreds of newsletter and subscription confirmations. “Microsoft Teams … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T14:16:43Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Threat actors flood employee inboxes with spam, then pose as IT support on Microsoft Teams, with Arctic Wolf documenting over 400 incidents.",
+    "nl": "Dreigingsactoren overspoelen inboxen met spam en doen zich via Microsoft Teams voor als IT-support, waarbij Arctic Wolf meer dan 400 incidenten heeft gedocumenteerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "c92569a626a2",
+  "url": "https://www.security.nl/posting/959265/Kwetsbaarheden+in+Tailscale+SSH+gevonden%2C+later+vandaag+patches?channel=rss",
+  "title": "Kwetsbaarheden in Tailscale SSH gevonden, later vandaag patches",
+  "excerpt": "Er zijn kwetsbaarheden in Tailscale SSH gevonden waardoor een computerworm zich naar apparaten in het netwerk zou kunnen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T14:11:00Z",
+  "fetched": "2026-10-27T18:46:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Vulnerabilities were found in Tailscale SSH that could allow a worm to spread across devices on a network, with patches due later that day.",
+    "nl": "Er zijn kwetsbaarheden gevonden in Tailscale SSH waardoor een worm zich over apparaten in een netwerk zou kunnen verspreiden, met patches later die dag."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "413191cdab73",
+  "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+  "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+  "excerpt": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T14:09:46Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Tailscale"
+   ],
+   "summary": {
+    "en": "Tailscale is working to patch almost a dozen SSH vulnerabilities that could lead to credential theft, server crashes, or root privilege escalation.",
+    "nl": "Tailscale werkt aan patches voor bijna een dozijn SSH-kwetsbaarheden die kunnen leiden tot diefstal van inloggegevens, servercrashes of root-rechten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "68921e7515a8",
+  "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+  "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+  "excerpt": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T14:01:11Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Huntress Labs ranks threats that abuse IT tools and Microsoft 365 sessions as the most damaging to businesses.",
+    "nl": "Huntress Labs rangschikt dreigingen die IT-tools en Microsoft 365-sessies misbruiken als de meest schadelijke voor bedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "ae042a0b53b2",
+  "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+  "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+  "excerpt": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:59:48Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "GoAhead"
+   ],
+   "summary": {
+    "en": "GoAhead embedded web server builds using OpenSSL with mutual TLS never enabled revocation checking, allowing revoked client certificates to log in and enabling session decryption.",
+    "nl": "GoAhead-builds van de embedded webserver met OpenSSL en mutual TLS hebben revocatiecontrole niet ingeschakeld, waardoor ingetrokken clientcertificaten kunnen inloggen en sessies te ontsleutelen zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "0afa3606f14e",
+  "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+  "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+  "excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:59:09Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [
+   "CVE-2026-86950"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple backported fixes for CVE-2026-86950, a CoreGraphics flaw exploited in attacks, to older iPhones and iPads.",
+    "nl": "Apple heeft fixes voor CVE-2026-86950, een in aanvallen misbruikte CoreGraphics-kwetsbaarheid, teruggezet naar oudere iPhones en iPads."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "615b0c7c8bf6",
+  "url": "https://www.security.nl/posting/959263/Citrix+NetScaler+en+Palo+Alto+Networks+patchen+PHP2Shell-lekken?channel=rss",
+  "title": "Citrix NetScaler en Palo Alto Networks patchen PHP2Shell-lekken",
+  "excerpt": "Citrix NetScaler en Palo Alto Networks hebben beveiligingsupdates uitgebracht voor de PHP2Shell-lekken in hun producten. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:51:24Z",
+  "fetched": "2026-10-27T18:46:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Citrix",
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Citrix NetScaler and Palo Alto Networks released security updates for PHP2Shell vulnerabilities in their products.",
+    "nl": "Citrix NetScaler en Palo Alto Networks hebben beveiligingsupdates uitgebracht voor PHP2Shell-kwetsbaarheden in hun producten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "37d79b832298",
+  "url": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
+  "title": "Malicious apps prey on Russians’ anxiety about fuel prices, drone strikes",
+  "excerpt": "Cybercriminals are stuffing infostealer malware into bogus apps aimed at tracking gas prices, police activity, drone strikes and other information of concern to average Russians, researchers said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:36:00Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cybercriminals are distributing infostealer malware in bogus apps posing as fuel price, police and drone strike trackers aimed at Russians.",
+    "nl": "Cybercriminelen verspreiden infostealer-malware via nep-apps die zich voordoen als brandstofprijs-, politie- en dronealarmapps voor Russen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "5cf6756784e1",
+  "url": "https://www.security.nl/posting/959259/Mozilla+meldt+opleving+van+aantal+Firefox-gebruikers%3A+%27Ruim+213+miljoen+users%27?channel=rss",
+  "title": "Mozilla meldt opleving van aantal Firefox-gebruikers: 'Ruim 213 miljoen users'",
+  "excerpt": "Het aantal actieve Firefox-gebruikers is het afgelopen jaar flink gestegen, zo meldt Mozilla in de eigen statistieken. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:32:57Z",
+  "fetched": "2026-10-27T18:46:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Mozilla"
+   ],
+   "summary": {
+    "en": "Mozilla reports that the number of active Firefox users rose significantly over the past year to over 213 million.",
+    "nl": "Mozilla meldt dat het aantal actieve Firefox-gebruikers het afgelopen jaar sterk is gestegen tot ruim 213 miljoen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "0e15a60c007a",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/socure-agent-intelligence/",
+  "title": "Socure links AI agents to verified people and businesses",
+  "excerpt": "Socure has launched Agent Intelligence, a suite that detects AI agents, scores whether they should be trusted, and ties each agent to the verified person or business that authorized it. Agent Intelligence includes three layers in one platform designed to go beyond simple Know Your Agent (KYA) solutions: Agent Detection, generally available today inside Socure’s existing Digital Intelligence offering, Agent TrustScore, open for beta customers now, and Agent Credential, reaching general availability in Q1 2027. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:28:31Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Socure"
+   ],
+   "summary": {
+    "en": "Socure launched Agent Intelligence, a suite for detecting AI agents and linking them to verified persons or businesses.",
+    "nl": "Socure heeft Agent Intelligence gelanceerd, een suite om AI-agents te detecteren en te koppelen aan geverifieerde personen of bedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "933843ff30ab",
+  "url": "https://therecord.media/moscow-faces-internet-disruptions-as-foreign-leaders-gather",
+  "title": "Moscow faces internet disruptions as foreign leaders gather for summits",
+  "excerpt": "The restrictions will be in place from October 27 to 29, coinciding with the Gas Exporting Countries Forum summit and the Russia-Africa summit, Russia's Ministry of Digital Development said Monday.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:20:00Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russia's Ministry of Digital Development will impose internet restrictions in Moscow from October 27 to 29 during two summits.",
+    "nl": "Het Russische ministerie voor Digitale Ontwikkeling voert van 27 tot 29 oktober internetbeperkingen in Moskou in tijdens twee top-evenementen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:23Z"
+  }
+ },
+ {
+  "id": "bd3a88794d10",
+  "url": "https://www.security.nl/posting/959253/Zweedse+politie+op+vingers+getikt+over+het+niet+informeren+bij+cameratoezicht?channel=rss",
+  "title": "Zweedse politie op vingers getikt over het niet informeren bij cameratoezicht",
+  "excerpt": "De Zweedse privacytoezichthouder IMY heeft de nationale politie vandaag op de vingers getikt omdat het mensen niet informeert ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:16:01Z",
+  "fetched": "2026-10-27T18:46:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Swedish privacy regulator IMY reprimanded the national police for failing to inform people about camera surveillance.",
+    "nl": "De Zweedse privacytoezichthouder IMY heeft de nationale politie berispt omdat die mensen niet informeerde over cameratoezicht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:28Z"
+  }
+ },
+ {
+  "id": "4e5f0d814761",
+  "url": "https://therecord.media/php-vulnerabilities-cisa-kev",
+  "title": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
+  "excerpt": "CISA added the widely publicized PHP vulnerabilities to the KEV, but didn't specify what kind of exploitation it was observing.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:16:00Z",
+  "fetched": "2026-10-27T18:46:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added widely publicized PHP vulnerabilities to its KEV catalog and gave federal agencies days to patch, without specifying the exploitation it observed.",
+    "nl": "CISA heeft breed besproken PHP-kwetsbaarheden aan de KEV-catalogus toegevoegd en federale instanties dagen gegeven om te patchen, zonder de waargenomen exploitatie te specificeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T18:46:28Z"
+  }
+ },
+ {
   "id": "0fb17628874e",
   "url": "https://www.helpnetsecurity.com/2026/10/27/sekoia-self-hosted/",
   "title": "Sekoia introduces self-hosted deployment for organizations with strict data controls",
