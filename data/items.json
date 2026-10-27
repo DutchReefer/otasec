@@ -1,5 +1,893 @@
 [
  {
+  "id": "0fb17628874e",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/sekoia-self-hosted/",
+  "title": "Sekoia introduces self-hosted deployment for organizations with strict data controls",
+  "excerpt": "Sekoia has introduced Sekoia Self-Hosted, a deployment model that brings the Sekoia SOC platform into the customer’s own infrastructure. Designed for large organizations, including government agencies, defense organizations, critical infrastructure operators and highly regulated enterprises, Sekoia Self-Hosted enables security teams to run modern, intelligence-driven security operations within their chosen environment. The deployment model is designed for organizations whose sovereignty, connectivity or data-control requirements make standard public-cloud deployment unsuitable. It gives…",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:11:59Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Sekoia"
+   ],
+   "summary": {
+    "en": "Sekoia has introduced a self-hosted deployment option for its SOC platform, aimed at large and regulated organizations.",
+    "nl": "Sekoia heeft een zelf-gehoste uitrol van zijn SOC-platform geïntroduceerd, gericht op grote en gereguleerde organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "3f8f902ed8af",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/dnsfilter-luminate/",
+  "title": "DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection",
+  "excerpt": "DNSFilter has launched LUMINATE by DNSFilter, a security platform that allows organizations to deliver five security solutions from one agent, one console and one policy. Shadow AI is now one of the fastest-growing risks in business. Employees are adopting AI tools and agents faster than security teams can approve them, often without any visibility from existing security technology. Nearly a third of employees using generative AI at work are doing so without their employer’s permission, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T13:00:49Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "DNSFilter"
+   ],
+   "summary": {
+    "en": "DNSFilter has launched LUMINATE, a platform combining DNS security, AI controls and remote work protection in one agent.",
+    "nl": "DNSFilter heeft LUMINATE gelanceerd, een platform dat DNS-beveiliging, AI-controles en bescherming van remote werk combineert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "f6ce62a4b563",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/firemon-agentic-ai/",
+  "title": "FireMon Agentic AI helps teams investigate access and prepare policy changes",
+  "excerpt": "FireMon has announced FireMon Agentic AI, changing how enterprises investigate network access, make policy decisions, and prepare security changes. Built into FireMon’s network security management solutions, the new agentic AI capabilities makes agents first-class citizens alongside practitioners, putting them to work on complex, multi-step tasks using the policy data, context, and tools practitioners already trust. Customers can use FireMon’s supplied agents, create their own, or connect external agentic workflows through the FireMon MCP Server. Network … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T12:51:04Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "FireMon"
+   ],
+   "summary": {
+    "en": "FireMon has announced agentic AI capabilities for its network security management solutions to support policy investigation and changes.",
+    "nl": "FireMon heeft agentic AI-functies aangekondigd voor zijn netwerkbeveiligingsoplossingen om beleidswijzigingen te onderzoeken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "4b2eebe4bc68",
+  "url": "https://www.security.nl/posting/959248/LiteLLM%3A+niet+ingetrokken+master+key+oorzaak+nieuwste+supplychain-aanval?channel=rss",
+  "title": "LiteLLM: niet ingetrokken master key oorzaak nieuwste supplychain-aanval",
+  "excerpt": "Python-project LiteLLM werd vorige week opnieuw getroffen door een supplychain-aanval, waarbij aanvallers de software van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T12:48:56Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Python project LiteLLM was hit again by a supply chain attack, with a non-revoked master key cited as the cause.",
+    "nl": "Het Python-project LiteLLM is opnieuw getroffen door een supplychain-aanval, waarbij een niet ingetrokken master key de oorzaak was."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "af1679f31234",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/exeon-expands-threat-detection-to-shadow-ai-and-autonomous-agents/",
+  "title": "Exeon expands threat detection to shadow AI and autonomous agents",
+  "excerpt": "Exeon Analytics has introduced Exeon.AgentGuard, a new AI security solution designed to give organizations visibility into approved and shadow AI use, autonomous agent activity and the data flows created through connected tools and external services. Building on its expertise in AI-driven behavioral analytics and threat detection, Exeon expands its cybersecurity capabilities to address emerging risks associated with the rapid adoption of agentic AI. Bringing visibility, addressing data leakage and rogue AI agent behavior As enterprises … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T12:36:08Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Exeon"
+   ],
+   "summary": {
+    "en": "Exeon Analytics has introduced Exeon.AgentGuard to give visibility into shadow AI use and autonomous agent activity.",
+    "nl": "Exeon Analytics heeft Exeon.AgentGuard geïntroduceerd om inzicht te geven in shadow AI-gebruik en activiteit van autonome agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "163d6b74d2b6",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/",
+  "title": "Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack",
+  "excerpt": "University of New Mexico (UNM) Health Sciences Center (HSC), the academic medical arm of the University of New Mexico, has suffered a cyberattack that has temporarily disrupted the operation of its hospitals and may have resulted in a substantial data breach. Hospitals diverted ambulances and canceled appointments The University of New Mexico, located in Albuquerque, New Mexico, is a public research university. Its Health Sciences Center encompasses its clinical, research and education initiatives. The clinical … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T12:24:14Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack temporarily disrupted hospital operations at the University of New Mexico Health Sciences Center, with ambulances diverted and appointments canceled.",
+    "nl": "Een cyberaanval heeft de ziekenhuisactiviteiten van het University of New Mexico Health Sciences Center tijdelijk verstoord, met omgeleide ambulances en geannuleerde afspraken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "b2e6f63ff51a",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/cisa-2030-cyber-resilience-strategy/",
+  "title": "CISA lays out plan to push cyber adversaries out of US critical infrastructure",
+  "excerpt": "The Cybersecurity and Infrastructure Security Agency (CISA) has released CISA 2030: Defend, Harden, Prevail, a strategy to strengthen national security and the resilience of critical infrastructure. It addresses intersecting cyber, physical, and geopolitical threats that can disrupt essential services. Working with public- and private-sector partners, the agency will strengthen operational technology security, advance software security, support the secure adoption of new technologies, and improve the continuity of National Security and Emergency Preparedness communications. The strategy ……",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T12:14:03Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector",
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA has released CISA 2030, a strategy to strengthen critical infrastructure resilience, including operational technology security and software security.",
+    "nl": "CISA heeft CISA 2030 uitgebracht, een strategie om de weerbaarheid van kritieke infrastructuur te versterken, inclusief beveiliging van operationele technologie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "cc5a4b7de0b7",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/threataware-dimension-governed-workspace/",
+  "title": "ThreatAware brings governance to AI-built security applications",
+  "excerpt": "ThreatAware has announced the launch of Dimension, its governed workspace that provides organisations with a foundation for building, running and managing their own customised security applications. Dimension gives security teams the flexibility to develop applications tailored to their needs, while providing organisations with greater oversight of how those applications access data and interact with live systems. A shadow AI detector, an MFA dashboard, a compliance tracker, or whatever the organisation needs. If a team can … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T12:13:25Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ThreatAware"
+   ],
+   "summary": {
+    "en": "ThreatAware has launched Dimension, a governed workspace for building and managing customized security applications.",
+    "nl": "ThreatAware heeft Dimension gelanceerd, een beheerde werkomgeving voor het bouwen en beheren van op maat gemaakte beveiligingsapplicaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "a6006728be28",
+  "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+  "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+  "excerpt": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update. In the researchers' tests,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T12:09:50Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [
+   "CVE-2026-80097"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft fixed CVE-2026-80097 in Authenticator for Android, which let a permissionless app steal work account sign-in tokens.",
+    "nl": "Microsoft heeft CVE-2026-80097 gedicht in Authenticator voor Android, waardoor een app zonder rechten inlogtokens van werkaccounts kon stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "5ce437666317",
+  "url": "https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators",
+  "title": "From industry concern to practical action: the value of working with regulators",
+  "excerpt": "How industry, the NCSC and the FCA worked together to help organisations share information while protecting market integrity",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-10-27T12:00:00Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC describes how industry, the NCSC and the FCA worked together so organisations could share information while protecting market integrity.",
+    "nl": "De NCSC beschrijft hoe bedrijfsleven, NCSC en FCA samenwerkten zodat organisaties informatie konden delen met behoud van marktintegriteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "3fba9192c925",
+  "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+  "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+  "excerpt": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T11:46:00Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Keystone"
+   ],
+   "summary": {
+    "en": "Keystone will destroy 18,835 hardware wallets after an attacker obtained the verification key used to prove device authenticity.",
+    "nl": "Keystone vernietigt 18.835 hardware wallets nadat een aanvaller de verificatiesleutel voor de echtheid van apparaten heeft verkregen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "b47aec6fe6ba",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/",
+  "title": "Cyberattack on University of Copenhagen exposes data of 525,000 people",
+  "excerpt": "The University of Copenhagen (UCPH) has ruled out a second cyberattack, saying the activity that led it to shut down several administrative systems on Monday is tied to the breach it disclosed last week, which exposed personal data belonging to some 525,000 people. On Monday, the university took Workzone, Nimbus and other administrative systems offline in what it called “a preventive and controlled shutdown of the administrative systems in question,” warning that users might have … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T11:39:22Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The University of Copenhagen shut down administrative systems and says related activity is tied to a breach exposing data of about 525,000 people.",
+    "nl": "De Universiteit van Kopenhagen heeft administratieve systemen offline gehaald en stelt dat de activiteit gekoppeld is aan een datalek van ongeveer 525.000 personen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "1ce9ccf10a03",
+  "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+  "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+  "excerpt": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T11:32:46Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Generative AI makes fake login pages easier to build, enabling attackers to capture passwords, MFA codes and sessions.",
+    "nl": "Generatieve AI maakt nep-inlogpagina's makkelijker te bouwen, waardoor aanvallers wachtwoorden, MFA-codes en sessies kunnen onderscheppen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "cf5c346fcefd",
+  "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+  "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+  "excerpt": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T11:32:31Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kaspersky attributes Operation FlashHole, a North Korea-linked espionage campaign against South Korean organizations, to the Lazarus Group.",
+    "nl": "Kaspersky schrijft Operation FlashHole, een spionagecampagne tegen Zuid-Koreaanse organisaties, toe aan de Lazarus Group uit Noord-Korea."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "913a5afbcbbc",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/gheist-github-token-abuse/",
+  "title": "Private repos still leak secrets to Gheist, a stolen GitHub token campaign",
+  "excerpt": "Wiz Research has recovered more than 13,500 planted branches from 850+ compromised GitHub accounts, the work of a campaign it calls Gheist, after the user agent the tool sends with its GitHub API requests. The tool takes a stolen token, finds every repository that token can open, and plants a workflow in each one. The workflow prints the repository’s secrets into a log, and the attacker downloads it. The exposure is in private repositories. A … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T10:58:07Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "summary": {
+    "en": "Wiz Research recovered planted branches from compromised GitHub accounts in the Gheist campaign, which leaks secrets from private repositories.",
+    "nl": "Wiz Research heeft geplante branches uit gecompromitteerde GitHub-accounts teruggevonden in de Gheist-campagne, die geheimen uit private repositories lekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "ccef6a95ebb9",
+  "url": "https://www.security.nl/posting/959233/Noyb+dient+bij+Autoriteit+Persoonsgegevens+klacht+in+tegen+AI-bedrijf+Scale+AI?channel=rss",
+  "title": "Noyb dient bij Autoriteit Persoonsgegevens klacht in tegen AI-bedrijf Scale AI",
+  "excerpt": "Privacyorganisatie noyb heeft bij de Autoriteit Persoonsgegevens (AP), alsmede drie andere Europese privacytoezichthouders, een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T10:42:32Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Privacy organisation noyb has filed a complaint with the Dutch DPA and three other European regulators against Scale AI.",
+    "nl": "Privacyorganisatie noyb heeft bij de AP en drie andere Europese toezichthouders een klacht ingediend tegen Scale AI."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "f5fcf6d78c91",
+  "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+  "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+  "excerpt": "Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T10:36:12Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple backported CoreGraphics zero-day patches to older iPhones and iPads exploited in targeted attacks.",
+    "nl": "Apple heeft CoreGraphics zero-day-patches teruggezet naar oudere iPhones en iPads die in gerichte aanvallen zijn misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "315570c0f1f0",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/dreamhost-incident-email-ftp-password-resets/",
+  "title": "DreamHost incident triggers password resets, locks customers out of email and FTP accounts",
+  "excerpt": "DreamHost has brought its File Manager back online after an incident that disrupted several of its services, though some of its customers still can’t get into their email or FTP accounts until someone sets a new password for them. DreamHost is a web hosting provider whose services include shared, VPS, dedicated and WordPress hosting, along with domain registration, email hosting, and cloud computing and storage. In its latest update, posted on October 26, the hosting … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T10:19:08Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "DreamHost"
+   ],
+   "summary": {
+    "en": "DreamHost restored its File Manager after an incident that forced password resets and locked some customers out of email and FTP.",
+    "nl": "DreamHost heeft zijn File Manager hersteld na een incident dat wachtwoordresets vereiste en klanten buitensloot van e-mail en FTP."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "edb90bd9f705",
+  "url": "https://www.security.nl/posting/959222/Softwareleverancier+van+groot+aantal+Belgische+gemeenten+gehackt?channel=rss",
+  "title": "Softwareleverancier van groot aantal Belgische gemeenten gehackt",
+  "excerpt": "Een softwareleverancier van een groot aantal Belgische gemeenten is gehackt, wat heeft geleid tot allerlei ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T10:08:00Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A software supplier serving a large number of Belgian municipalities has been hacked.",
+    "nl": "Een softwareleverancier voor een groot aantal Belgische gemeenten is gehackt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "3ae0a5180437",
+  "url": "https://industrialcyber.co/features/manufacturing-cybersecurity-faces-persistent-governance-gaps-as-accountability-funding-operational-priorities-diverge/",
+  "title": "Manufacturing cybersecurity faces persistent governance gaps as accountability, funding, operational priorities diverge",
+  "excerpt": "Security initiatives across manufacturing environments are unlikely to falter due to policy reasons; rather, they are likely to...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-27T09:35:14Z",
+  "fetched": "2026-10-27T13:15:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "industry",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "An article reports persistent governance gaps in manufacturing cybersecurity, where accountability, funding and operational priorities diverge.",
+    "nl": "Een artikel meldt aanhoudende governance-tekorten in productiecyberbeveiliging, waar verantwoordelijkheid, financiering en operationele prioriteiten uiteenlopen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:15:55Z"
+  }
+ },
+ {
+  "id": "1da67faa3c4a",
+  "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+  "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+  "excerpt": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The next steps that we took were to disconnect that Amadey controller from all those",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T09:33:06Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Australian Signals Directorate gained access to the backend of the Amadey malware operation and disconnected its controller from about 180,000 infected computers.",
+    "nl": "De Australische Signals Directorate kreeg toegang tot de backend van de Amadey-malware en ontkoppelde de controller van ongeveer 180.000 geinfecteerde computers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "b8d4e048fdfb",
+  "url": "https://www.security.nl/posting/959212/Apple+dicht+lekken+waardoor+aanvaller+iPhones+en+Macs+kan+overnemen?channel=rss",
+  "title": "Apple dicht lekken waardoor aanvaller iPhones en Macs kan overnemen",
+  "excerpt": "Apple heeft beveiligingsupdates voor iOS, iPadOS en macOS uitgebracht die meerdere kwetsbaarheden verhelpen waardoor aanvallers ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T09:26:00Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple released security updates for iOS, iPadOS and macOS that fix multiple vulnerabilities allowing attackers to take over devices.",
+    "nl": "Apple heeft beveiligingsupdates voor iOS, iPadOS en macOS uitgebracht die meerdere kwetsbaarheden verhelpen waardoor aanvallers apparaten kunnen overnemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "9b079ca82a9e",
+  "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+  "title": "Energy giant ENGIE discloses data breach affecting customers",
+  "excerpt": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T09:25:50Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "ENGIE confirmed that attackers stole customer data after breaching a marketing platform used by its business partners.",
+    "nl": "ENGIE heeft bevestigd dat aanvallers klantgegevens hebben gestolen na een inbraak in een marketingplatform dat door zakelijke partners wordt gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "9e554c30543b",
+  "url": "https://www.security.nl/posting/959207/Amerikaanse+overheid+waarschuwt+voor+misbruik+van+PHP2Shell-lekken?channel=rss",
+  "title": "Amerikaanse overheid waarschuwt voor misbruik van PHP2Shell-lekken",
+  "excerpt": "Aanvallers maken misbruik van de PHP2Shell-lekken waarvoor vorige week patches verschenen, zo waarschuwt het Amerikaanse ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T08:51:00Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A US government agency warns that attackers are exploiting the PHP2Shell vulnerabilities for which patches were released last week.",
+    "nl": "Een Amerikaanse overheidsinstantie waarschuwt dat aanvallers misbruik maken van de PHP2Shell-kwetsbaarheden waarvoor vorige week patches verschenen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "fe50aa1e8596",
+  "url": "https://www.security.nl/posting/959205/Bitonic+meldt+inbraak+op+systemen%2C+bitcoin+van+drie+klanten+gestolen?channel=rss",
+  "title": "Bitonic meldt inbraak op systemen, bitcoin van drie klanten gestolen",
+  "excerpt": "Het Nederlandse bitcoinbedrijf Bitonic is getroffen door een inbraak op de eigen systemen, waarbij de aanvallers bitcoin van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T08:25:00Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bitcoin company Bitonic reported a break-in of its systems in which attackers stole bitcoin from three customers.",
+    "nl": "Bitcoinbedrijf Bitonic meldt een inbraak op de eigen systemen waarbij aanvallers bitcoin van drie klanten hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "ea5496feaca5",
+  "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+  "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+  "excerpt": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an encrypted item the user cannot read. The method got past",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T08:22:43Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "OpenAI"
+   ],
+   "summary": {
+    "en": "Security firm Xint showed that OpenAI's compaction feature could be abused to copy a model's hidden reasoning out in plain text.",
+    "nl": "Beveiligingsbedrijf Xint heeft aangetoond dat de compaction-functie van OpenAI misbruikt kan worden om verborgen redenering van een model in leesbare tekst te kopieren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "cd2e47013b82",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+  "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T08:20:54Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added the PHP2Shell vulnerabilities to its catalog of actively exploited flaws and ordered federal agencies to patch by Thursday.",
+    "nl": "CISA heeft de PHP2Shell-kwetsbaarheden toegevoegd aan de catalogus van actief misbruikte kwetsbaarheden en federale instanties opdracht gegeven te patchen voor donderdag."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "616620d2cab7",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0456",
+  "title": "NCSC-2026-0456 [1.00] [M/H] Kwetsbaarheden verholpen in Apple iOS en iPadOS",
+  "excerpt": "Apple heeft kwetsbaarheden verholpen in iOS en iPadOS. De kwetsbaarheden betreffen diverse beveiligingsproblemen zoals onvoldoende validatie van symbolische links, onjuiste permissiecontroles, out-of-bounds lees- en schrijffouten, use-after-free fouten, integer overflows, race conditions, type confusion, en logische fouten in state management. Deze kunnen leiden tot ongeautoriseerde toegang tot gevoelige gebruikersdata, geheugenbeschadiging, onverwachte systeem- of applicatiecrashes, privilege escalatie, sandbox escapes, en denial-of-service condities. Aanvallers kunnen deze kwetsbaarheden…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-27T08:05:28Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple fixed multiple vulnerabilities in iOS and iPadOS that could lead to unauthorized access to sensitive user data or system crashes.",
+    "nl": "Apple heeft meerdere kwetsbaarheden in iOS en iPadOS verholpen die kunnen leiden tot ongeautoriseerde toegang tot gevoelige gebruikersdata of systeemcrashes."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "1e412dac633b",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0455",
+  "title": "NCSC-2026-0455 [1.00] [M/H] Kwetsbaarheden verholpen in Apple MacOS",
+  "excerpt": "Apple heeft meerdere kwetsbaarheden verholpen in macOS, met name in de versies Golden Gate 27.2, Sequoia 15.8.2, Tahoe 26.7.2 en Monterey 12.4. De kwetsbaarheden betroffen diverse beveiligingsaspecten binnen macOS, waaronder onvoldoende validatie van symbolische links (symlinks), onjuiste permissiecontroles, onvolledige autorisatiemechanismen, en fouten in geheugenbeheer zoals out-of-bounds reads en writes, use-after-free, buffer overflows, en race conditions. Deze fouten konden door lokale of remote aanvallers worden misbruikt om privileges te escaleren, sandbox-beperkingen te omzeilen…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-27T08:05:01Z",
+  "fetched": "2026-10-27T13:15:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple fixed multiple vulnerabilities in macOS versions that could be exploited by local or remote attackers.",
+    "nl": "Apple heeft meerdere kwetsbaarheden in macOS-versies verholpen die door lokale of externe aanvallers misbruikt konden worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
+  "id": "ad8783319617",
+  "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+  "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+  "excerpt": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T06:34:47Z",
+  "fetched": "2026-10-27T13:15:32Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "government",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Dahua"
+   ],
+   "summary": {
+    "en": "CERT-UA warned of unauthorized remote access to Dahua IP cameras and DVRs in Ukraine, with attackers changing configurations and creating third-party accounts.",
+    "nl": "CERT-UA waarschuwt voor ongeautoriseerde toegang op afstand tot Dahua IP-camera's en DVR's in Oekraine, waarbij aanvallers configuraties wijzigden en accounts aanmaakten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T13:16:06Z"
+  }
+ },
+ {
   "id": "2271051c7fee",
   "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-authenticator-vulnerability-patchedcve-2026-80097/",
   "title": "Microsoft Authenticator vulnerability let rogue Android apps steal work account access",
