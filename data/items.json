@@ -1,5 +1,203 @@
 [
  {
+  "id": "2271051c7fee",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-authenticator-vulnerability-patchedcve-2026-80097/",
+  "title": "Microsoft Authenticator vulnerability let rogue Android apps steal work account access",
+  "excerpt": "If you use Microsoft Authenticator on Android, update it. Researchers at Enclave found a flaw that let any app on your phone quietly take over your work account. The app didn’t need permissions, and you didn’t need to tap anything. Here’s what happened Authenticator does more than show six-digit codes. On Android it also acts as a “broker.” When Teams, Outlook or another Microsoft app needs to sign you in, it asks Authenticator, and Authenticator … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T06:14:22Z",
+  "fetched": "2026-10-27T06:20:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Enclave researchers found a flaw in Microsoft Authenticator on Android that let rogue apps take over work accounts without permissions.",
+    "nl": "Onderzoekers van Enclave vonden een fout in Microsoft Authenticator op Android waardoor kwaadaardige apps werkaccounts konden overnemen zonder rechten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T06:20:20Z"
+  }
+ },
+ {
+  "id": "a8e13854d19a",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/llm-agent-security-video/",
+  "title": "LLM agent security needs more than guardrails",
+  "excerpt": "Madhu Shashanka, Chief Scientist at Concentric AI, explains why securing LLM tools and agents depends more on your data than on the model. Controls on model behavior, such as guardrails and injection detection, lower the rate of bad outcomes but never reach zero. Controls on what goes in are different, because you own the documents, systems, and credentials an agent can reach. He covers prompt injection, data leakage through connectors, overprivileged agents, and shadow AI. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T06:00:26Z",
+  "fetched": "2026-10-27T06:20:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Concentric AI's Chief Scientist argues that securing LLM agents depends more on controlling the data and credentials they can reach than on model guardrails.",
+    "nl": "De Chief Scientist van Concentric AI stelt dat het beveiligen van LLM-agents meer afhangt van de data en credentials die ze kunnen bereiken dan van modelguardrails."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T06:20:20Z"
+  }
+ },
+ {
+  "id": "0760be843bb6",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/amutable-foundations-linux-system/",
+  "title": "Amutable Foundations is a Linux system with no SSH and no package manager",
+  "excerpt": "Amutable opened signups for the private preview of Amutable Foundations, a Linux system in which each machine sends a signed report of the software and configuration it runs, drawing on local hardware to make the report easier to verify. The company says its engineers write and maintain code in the kernel, in systemd and in image-building tools. If you run a Linux fleet, this changes what you check. Say a machine can’t show it matches … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T05:44:26Z",
+  "fetched": "2026-10-27T06:20:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Amutable opened signups for a private preview of Amutable Foundations, a Linux system that sends signed reports of its software and configuration.",
+    "nl": "Amutable opende aanmeldingen voor een privé-preview van Amutable Foundations, een Linux-systeem dat ondertekende rapporten van zijn software en configuratie verstuurt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T06:20:20Z"
+  }
+ },
+ {
+  "id": "5d56e95d5704",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/rapid7-vulnerability-exploitation-trends-q3-2026-report/",
+  "title": "71% of vulnerability exploitation starts within a week of disclosure",
+  "excerpt": "Attackers are exploiting newly disclosed security flaws within days, leaving organizations little time to respond, according to Rapid7’s Q3 2026 Quarterly Threat Landscape Report. The company reported an average of three days between public disclosure and exploitation of high-severity vulnerabilities, with 71% of tracked exploitation occurring within the first week. Cumulative exploitation rate (Source: Rapid7) Exploitation puts pressure on fixed patching schedules Researchers tracked 43 newly exploited high- and critical-severity vulnerabilities during the quarter. Organizations … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T05:30:33Z",
+  "fetched": "2026-10-27T06:20:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Rapid7's Q3 2026 report finds 71% of tracked exploitation of newly disclosed high-severity vulnerabilities occurred within the first week after disclosure.",
+    "nl": "Het Q3 2026-rapport van Rapid7 toont dat 71% van de geregistreerde exploitatie van nieuw gepubliceerde kwetsbaarheden binnen de eerste week na publicatie plaatsvond."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T06:20:20Z"
+  }
+ },
+ {
+  "id": "611c3427a4d9",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/cybersecurity-jobs-available-right-now-october-27-2026/",
+  "title": "Cybersecurity jobs available right now: October 27, 2026",
+  "excerpt": "Cybersecurity Expert / Penetration Tester Barrion | Sweden | On-site – View job details As a Cybersecurity Expert / Penetration Tester, you will test web applications and APIs for authentication, authorisation, and business logic vulnerabilities. You’ll identify complex attack paths and validate findings.You’ll evaluate AI-driven security testing, investigate false positives and missed vulnerabilities, and develop scenarios that improve automated discovery. Cloud Network Solution Architect TAL | Australia | On-site – View job details As a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T05:00:31Z",
+  "fetched": "2026-10-27T06:20:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A job listing roundup for cybersecurity roles, including penetration testing and cloud network architecture positions.",
+    "nl": "Een overzicht van vacatures voor cyberbeveiliging, waaronder penetratietest- en cloud netwerkarchitectuurfuncties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T06:20:20Z"
+  }
+ },
+ {
+  "id": "968629f0ead3",
+  "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+  "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T04:37:59Z",
+  "fetched": "2026-10-27T06:20:05Z",
+  "cves": [
+   "CVE-2026-109618"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added two PHP2Shell flaws, both rated CVSS 9.2, to its KEV catalog after confirming active exploitation enabling unauthenticated remote code execution.",
+    "nl": "CISA heeft twee PHP2Shell-fouten, beide met CVSS 9.2, aan de KEV-catalogus toegevoegd na bevestiging van actieve exploitatie voor ongeauthenticeerde remote code execution."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T06:20:20Z"
+  }
+ },
+ {
+  "id": "7f5e7407175a",
+  "url": "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/",
+  "title": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
+  "excerpt": "OpenAI released GPT-6.1 Terra, a model that operates desktop software, to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex, and to developers through its API as gpt-6.1-terra. API prices are 50 percent below those of GPT-5.6 Terra and GPT-6.1 Sol: $1 per million input tokens, $0.05 per million cached input tokens, and $5 per million output tokens. Tokens are the chunks of text a model reads and writes. OpenAI says Terra … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T04:33:34Z",
+  "fetched": "2026-10-27T06:20:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI released GPT-6.1 Terra to ChatGPT and API users with lower prices than previous models.",
+    "nl": "OpenAI heeft GPT-6.1 Terra uitgebracht voor ChatGPT- en API-gebruikers tegen lagere prijzen dan eerdere modellen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T06:20:20Z"
+  }
+ },
+ {
   "id": "d7beccc725c3",
   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
   "title": "University of Copenhagen data breach exposes data of 525,000 people",

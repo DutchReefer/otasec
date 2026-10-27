@@ -3,7 +3,7 @@
   "industrialcyber": {
    "name": "Industrial Cyber",
    "url": "https://industrialcyber.co/feed/",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:05Z",
    "http": 200,
    "ok": true,
    "entries": 9
@@ -11,7 +11,7 @@
   "securityaffairs-ics": {
    "name": "Security Affairs ICS-SCADA",
    "url": "https://securityaffairs.com/category/security/ics-scada/feed",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:05Z",
    "http": 200,
    "ok": true,
    "entries": 10
@@ -19,14 +19,14 @@
   "cisa-ics": {
    "name": "CISA ICS Advisories",
    "url": "https://github.com/cisagov/CSAF",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:05Z",
    "ok": true,
    "entries": 22
   },
   "siemens-productcert": {
    "name": "Siemens ProductCERT",
    "url": "https://cert-portal.siemens.com/productcert/rss/advisories.atom",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:05Z",
    "http": 200,
    "ok": true,
    "entries": 2472
@@ -34,7 +34,7 @@
   "thehackernews": {
    "name": "The Hacker News",
    "url": "https://feeds.feedburner.com/TheHackersNews",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:05Z",
    "http": 200,
    "ok": true,
    "entries": 50
@@ -42,7 +42,7 @@
   "bleepingcomputer": {
    "name": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/feed/",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:06Z",
    "http": 200,
    "ok": true,
    "entries": 15
@@ -50,7 +50,7 @@
   "therecord": {
    "name": "The Record",
    "url": "https://therecord.media/feed/",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:06Z",
    "http": 200,
    "ok": true,
    "entries": 5
@@ -58,7 +58,7 @@
   "helpnetsecurity": {
    "name": "Help Net Security",
    "url": "https://www.helpnetsecurity.com/feed/",
-   "checked": "2026-10-27T00:29:03Z",
+   "checked": "2026-10-27T06:20:06Z",
    "http": 200,
    "ok": true,
    "entries": 10
@@ -66,7 +66,7 @@
   "ncsc-nl": {
    "name": "NCSC-NL Advisories",
    "url": "https://advisories.ncsc.nl/rss/advisories",
-   "checked": "2026-10-27T00:29:03Z",
+   "checked": "2026-10-27T06:20:06Z",
    "http": 200,
    "ok": true,
    "entries": 25
@@ -74,7 +74,7 @@
   "securitynl": {
    "name": "Security.NL",
    "url": "https://www.security.nl/rss/headlines.xml",
-   "checked": "2026-10-27T00:29:03Z",
+   "checked": "2026-10-27T06:20:06Z",
    "http": 200,
    "ok": true,
    "entries": 50
@@ -82,7 +82,7 @@
   "waterfall": {
    "name": "Waterfall Security",
    "url": "https://www.waterfall-security.com/feed/",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:05Z",
    "http": 200,
    "ok": true,
    "entries": 10
@@ -90,7 +90,7 @@
   "kaspersky-ics-cert": {
    "name": "Kaspersky ICS CERT",
    "url": "https://ics-cert.kaspersky.com/feed/",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:05Z",
    "http": 200,
    "ok": true,
    "entries": 473
@@ -98,7 +98,7 @@
   "certvde": {
    "name": "CERT@VDE Advisories",
    "url": "https://certvde.com/en/advisories/feeds/rss/",
-   "checked": "2026-10-27T00:29:02Z",
+   "checked": "2026-10-27T06:20:05Z",
    "http": 200,
    "ok": true,
    "entries": 524
@@ -106,15 +106,15 @@
   "ncsc-uk": {
    "name": "NCSC-UK",
    "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-   "checked": "2026-10-27T00:29:03Z",
+   "checked": "2026-10-27T06:20:06Z",
    "http": 200,
    "ok": true,
    "entries": 20
   }
  },
  "state": {
-  "last_ingest": "2026-10-27T00:29:05Z",
-  "last_ingest_added": 4,
+  "last_ingest": "2026-10-27T06:20:11Z",
+  "last_ingest_added": 7,
   "x_since_id": {
    "keywords": "2113209258086916297"
   },

@@ -1,0 +1,199 @@
+{
+ "date": "2026-10-27",
+ "published": "2026-10-27T06:20:43Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 8,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Today's briefing is dominated by AI: from AI-found Fortinet flaws to warnings about AI-assisted attack planning, alongside follow-up on the critical PHP vulnerabilities and new guidance and regulation for operators."
+  },
+  "nl": {
+   "title": "",
+   "intro": "De briefing van vandaag draait vooral om AI: van door AI gevonden Fortinet-kwetsbaarheden tot waarschuwingen over AI-ondersteunde aanvalsplanning, aangevuld met een update over de kritieke PHP-kwetsbaarheden en nieuwe richtlijnen en regelgeving."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "f6b520c06de7",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/vulnerabilities/critical-php-vulnerabilities-raise-worldwide-concerns-as-government-websites-go-offline-researchers-report-ai-assisted-attacks/",
+     "title": "Critical PHP vulnerabilities raise worldwide concerns as government websites go offline, researchers report AI-assisted attacks"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: agencies urge patching of two critical PHP flaws as government sites go offline",
+     "summary": "Global cybersecurity agencies urge organizations to immediately patch two critical PHP vulnerabilities that could enable unauthenticated remote code execution. Researchers report AI-assisted attacks, and some government websites have gone offline.",
+     "takeaway": "Identify PHP-based web interfaces and portals in or adjacent to your OT environment and apply the patches or vendor mitigations without delay."
+    },
+    "nl": {
+     "heading": "Update: instanties dringen aan op patchen van twee kritieke PHP-lekken, overheidssites offline",
+     "summary": "Cybersecurityinstanties wereldwijd roepen organisaties op om twee kritieke PHP-kwetsbaarheden direct te patchen, die ongeauthenticeerde remote code execution mogelijk kunnen maken. Onderzoekers melden AI-ondersteunde aanvallen en enkele overheidswebsites zijn offline gegaan.",
+     "takeaway": "Breng PHP-gebaseerde webinterfaces en portalen in of nabij uw OT-omgeving in kaart en pas de patches of mitigaties van leveranciers direct toe."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "886f1b389ac0",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/",
+     "title": "Fortinet patches critical FortiOS flaws found with AI help"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Fortinet ships hardening updates for FortiOS and other products, details held until November 10",
+     "summary": "Fortinet released security hardening updates for FortiOS, FortiManager, FortiAnalyzer, FortiMail and FortiAuthenticator last week. Details of the fixed vulnerabilities are withheld until November 10, 2026. Fortinet's CISO said the flaws were found with AI models and validated by humans.",
+     "takeaway": "Plan to update Fortinet devices, including those at the IT/OT boundary, before the details become public on November 10."
+    },
+    "nl": {
+     "heading": "Fortinet brengt hardening-updates voor FortiOS en andere producten uit, details pas op 10 november",
+     "summary": "Fortinet bracht vorige week security hardening-updates uit voor FortiOS, FortiManager, FortiAnalyzer, FortiMail en FortiAuthenticator. De details van de verholpen kwetsbaarheden worden tot 10 november 2026 achtergehouden. Volgens de CISO van Fortinet zijn de lekken met hulp van AI-modellen gevonden en door mensen gevalideerd.",
+     "takeaway": "Plan updates van Fortinet-apparatuur in, ook aan de IT/OT-grens, voordat de details op 10 november openbaar worden."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "d72684f804b8",
+     "name": "The Record",
+     "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+     "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CERT-UA warns of hackers exploiting Dahua cameras",
+     "summary": "CERT-UA says it has identified cases where hackers compromised internet-connected Dahua cameras and video recorders. The attackers changed device settings and created unauthorized user accounts.",
+     "takeaway": "Check for Dahua cameras and recorders at your sites, remove internet exposure, and review device settings and user accounts for unexpected changes."
+    },
+    "nl": {
+     "heading": "CERT-UA waarschuwt voor misbruik van Dahua-camera's",
+     "summary": "CERT-UA meldt gevallen waarin hackers met internet verbonden Dahua-camera's en videorecorders hebben gecompromitteerd. De aanvallers wijzigden instellingen en maakten onbevoegde gebruikersaccounts aan.",
+     "takeaway": "Controleer of er Dahua-camera's en -recorders op uw locaties staan, haal ze van het internet en controleer instellingen en gebruikersaccounts op onverwachte wijzigingen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "74ce78e115c8",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/frenos-warns-advances-in-ai-attack-planning-could-increase-cybersecurity-risks-for-critical-infrastructure-ics-systems/",
+     "title": "Frenos warns advances in AI attack planning could increase cybersecurity risks for critical infrastructure, ICS systems"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Frenos: AI attack planning could raise risks for ICS within about two years",
+     "summary": "OT security company Frenos warns that advances in AI attack planning could increase cybersecurity risks for critical infrastructure and ICS. It estimates operators have about two years to prepare.",
+     "takeaway": "Use the lead time to strengthen basics such as asset visibility, segmentation and patch processes, since faster attacks will favor poorly prepared environments."
+    },
+    "nl": {
+     "heading": "Frenos: AI-aanvalsplanning kan binnen circa twee jaar risico's voor ICS vergroten",
+     "summary": "OT-beveiligingsbedrijf Frenos waarschuwt dat vooruitgang in AI-aanvalsplanning de cyberrisico's voor kritieke infrastructuur en ICS kan vergroten. Het schat dat operators ongeveer twee jaar hebben om zich voor te bereiden.",
+     "takeaway": "Gebruik de beschikbare tijd om de basis te versterken, zoals asset-inzicht, segmentatie en patchprocessen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "99eb9e6f4e44",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/centrii-flags-audit-risks-as-nerc-cip-003-9-tightens-vendor-remote-access-controls-for-low-impact-bes-systems/",
+     "title": "Centrii flags audit risks as NERC CIP-003-9 tightens vendor remote access controls for low-impact BES systems"
+    },
+    {
+     "id": "9c1d01255e68",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/regulation-standards-and-compliance/ot-isac-tracks-2026-asia-pacific-cybersecurity-policy-shifts-affecting-critical-infrastructure-ot-and-industrial-operations/",
+     "title": "OT-ISAC tracks 2026 Asia-Pacific cybersecurity policy shifts affecting critical infrastructure, OT and industrial operations"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Regulation: NERC CIP-003-9 vendor remote access and Asia-Pacific OT policy divergence",
+     "summary": "Centrii warns of audit risks as NERC CIP-003-9 tightens vendor remote access requirements for low-impact BES systems. Separately, OT-ISAC analysis finds that 2026 Asia-Pacific cybersecurity policy diverges between binding critical-infrastructure and OT requirements.",
+     "takeaway": "Review how vendors reach your systems remotely and map which binding requirements apply per region where you operate."
+    },
+    "nl": {
+     "heading": "Regelgeving: NERC CIP-003-9 voor remote toegang van leveranciers en uiteenlopend OT-beleid in Azië-Pacific",
+     "summary": "Centrii waarschuwt voor auditrisico's nu NERC CIP-003-9 de eisen voor remote toegang van leveranciers tot low-impact BES-systemen aanscherpt. Daarnaast laat OT-ISAC-analyse zien dat het cybersecuritybeleid in Azië-Pacific in 2026 uiteenloopt tussen bindende eisen voor kritieke infrastructuur en OT.",
+     "takeaway": "Controleer hoe leveranciers op afstand bij uw systemen komen en breng in kaart welke bindende eisen per regio gelden waar u actief bent."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "13cbf731a7f0",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/sbom/enisa-links-sbom-automation-integrity-safeguards-and-lifecycle-management-to-software-supply-chain-security/",
+     "title": "ENISA links SBOM automation, integrity safeguards and lifecycle management to software supply chain security"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "ENISA issues technical guidance on SBOM implementation",
+     "summary": "ENISA issued technical guidance on implementing software bills of materials (SBOMs). It links SBOM automation, integrity safeguards and lifecycle management to software supply chain security.",
+     "takeaway": "Consider asking suppliers for SBOMs and use them to speed up vulnerability triage for your installed base."
+    },
+    "nl": {
+     "heading": "ENISA publiceert technische richtlijnen voor SBOM-implementatie",
+     "summary": "ENISA publiceerde technische richtlijnen voor de implementatie van software bills of materials (SBOM's). Het koppelt SBOM-automatisering, integriteitsmaatregelen en lifecyclebeheer aan de beveiliging van de softwaretoeleveringsketen.",
+     "takeaway": "Overweeg SBOM's bij leveranciers op te vragen en gebruik ze om kwetsbaarheden in uw geïnstalleerde basis sneller te beoordelen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "5ecfc8a6ce35",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/schneider-electric-nvidia-hpe-introduce-edge-ai-agents-for-industrial-monitoring-cybersecurity-and-energy-optimization/",
+     "title": "Schneider Electric, NVIDIA, HPE introduce edge AI agents for industrial monitoring, cybersecurity and energy optimization"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Schneider Electric, NVIDIA and HPE introduce edge AI agents for industry",
+     "summary": "Schneider Electric announced a strategic collaboration with NVIDIA and HPE to accelerate adoption of Physical AI. The edge AI agents target industrial monitoring, cybersecurity and energy optimization.",
+     "takeaway": "If you evaluate such AI agents, assess their network access, data flows and update paths as part of your OT risk review."
+    },
+    "nl": {
+     "heading": "Schneider Electric, NVIDIA en HPE introduceren edge AI-agents voor de industrie",
+     "summary": "Schneider Electric kondigde een strategische samenwerking met NVIDIA en HPE aan om de adoptie van Physical AI te versnellen. De edge AI-agents richten zich op industriële monitoring, cybersecurity en energie-optimalisatie.",
+     "takeaway": "Beoordeel bij evaluatie van dergelijke AI-agents hun netwerktoegang, datastromen en updatepaden als onderdeel van uw OT-risicoanalyse."
+    }
+   }
+  }
+ ]
+}
