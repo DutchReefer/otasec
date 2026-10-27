@@ -1,5 +1,117 @@
 [
  {
+  "id": "d7beccc725c3",
+  "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+  "title": "University of Copenhagen data breach exposes data of 525,000 people",
+  "excerpt": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T22:20:36Z",
+  "fetched": "2026-10-27T00:29:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The University of Copenhagen confirmed hackers accessed a test environment holding personal data of 525,000 people.",
+    "nl": "De Universiteit van Kopenhagen bevestigde dat hackers toegang kregen tot een testomgeving met persoonsgegevens van 525.000 mensen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T00:29:12Z"
+  }
+ },
+ {
+  "id": "2b2d234f8b16",
+  "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+  "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+  "excerpt": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T21:08:28Z",
+  "fetched": "2026-10-27T00:29:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "South Korean police identified seven suspects behind a cybercrime operation that breached over 90 organizations using the ARTEX AI pentesting framework.",
+    "nl": "De Zuid-Koreaanse politie identificeerde zeven verdachten achter een cybercrimeoperatie die meer dan 90 organisaties trof met het ARTEX AI-pentestframework."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T00:29:12Z"
+  }
+ },
+ {
+  "id": "327318fb5def",
+  "url": "https://therecord.media/texas-sues-openai-deceiving-customers",
+  "title": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
+  "excerpt": "In an unusual move, the suit — brought under the state’s deceptive trade practices laws — seeks to hold founder and CEO Sam Altman personally liable for the alleged deception.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T21:03:00Z",
+  "fetched": "2026-10-27T00:29:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Texas sued OpenAI under its deceptive trade practices laws, seeking reforms and fines and holding CEO Sam Altman personally liable.",
+    "nl": "Texas heeft OpenAI aangeklaagd op basis van wetgeving tegen misleidende handelspraktijken, met eisen voor hervormingen, boetes en persoonlijke aansprakelijkheid voor CEO Sam Altman."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T00:29:12Z"
+  }
+ },
+ {
+  "id": "ae2617b6a47b",
+  "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+  "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+  "excerpt": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-26T20:46:49Z",
+  "fetched": "2026-10-27T00:29:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI launched GPT-6.1 Terra, a model focused on computer use, visual reasoning and coding at lower cost than its larger models.",
+    "nl": "OpenAI lanceerde GPT-6.1 Terra, een model gericht op computergebruik, visuele redenering en coderen tegen lagere kosten dan grotere modellen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-27T00:29:12Z"
+  }
+ },
+ {
   "id": "a89ec813fbd3",
   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
   "title": "DreamHost forces password resets in ongoing \"incident\"",
