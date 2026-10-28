@@ -1,0 +1,220 @@
+{
+ "date": "2026-10-28",
+ "published": "2026-10-28T09:44:53Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 11,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A hospital ransomware attack in New Mexico that disrupted patient care leads today, alongside new PHP2Shell vendor advisories and more detail on the Dahua camera hijackings in Ukraine."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Vandaag staat een ransomware-aanval op een ziekenhuis in New Mexico centraal die de patiëntenzorg verstoorde, naast nieuwe PHP2Shell-advisories van leveranciers en meer details over de gekaapte Dahua-camera's in Oekraïne."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "600fa9412e38",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+     "title": "UNM Health ransomware attack disrupts patient care, surgeries"
+    },
+    {
+     "id": "319765385a55",
+     "name": "The Record",
+     "url": "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
+     "title": "University of New Mexico hospital diverts ambulances after cyberattack"
+    },
+    {
+     "id": "163d6b74d2b6",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/",
+     "title": "Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack"
+    }
+   ],
+   "source_count": 3,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Cyberattack disrupts University of New Mexico hospitals",
+     "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. Ambulances were diverted for about two hours on Monday and outpatient surgeries and appointments were suspended for the rest of the day. An extortion group has claimed the attack, and a substantial data breach is possible.",
+     "takeaway": "Healthcare operators and their suppliers should check that downtime procedures for clinical and building systems work and that IT and operational networks are segmented."
+    },
+    "nl": {
+     "heading": "Cyberaanval verstoort ziekenhuizen van de University of New Mexico",
+     "summary": "Het University of New Mexico Health Sciences Center maakte een cyberaanval bekend die systeemstoringen veroorzaakte en de patiëntenzorg en academische activiteiten verstoorde. Maandag werden ambulances ongeveer twee uur omgeleid en werden poliklinische operaties en afspraken de rest van de dag opgeschort. Een afpersingsgroep heeft de aanval opgeëist en een omvangrijk datalek is mogelijk.",
+     "takeaway": "Zorginstellingen en hun leveranciers doen er goed aan te controleren of de uitvalprocedures voor klinische systemen en gebouwbeheer werken en of IT- en operationele netwerken gesegmenteerd zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6499d01626a0",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-166980.html",
+     "title": "SSA-166980 V1.0: PHP2Shell Vulnerabilities in Siemens Products"
+    },
+    {
+     "id": "987eedb2fc2d",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-137/",
+     "title": "METTLER TOLEDO: PHP2Shell in Octo Image Server"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Update: PHP2Shell advisories from Siemens and METTLER TOLEDO",
+     "summary": "Siemens published SSA-166980 on the impact of the two critical, unauthenticated remote code execution flaws in PHP (CVE-2026-109618 and CVE-2026-109619) on its software products, and says it is still assessing implications. CERT@VDE reports that METTLER TOLEDO OCTO Image Server ships a vulnerable PHP version and strongly recommends upgrading to PHP 8.2.35.",
+     "takeaway": "Inventory where PHP is embedded in OT-adjacent and vendor-supplied applications, and apply vendor updates or the PHP 8.2.35 upgrade where advised."
+    },
+    "nl": {
+     "heading": "Update: PHP2Shell-advisories van Siemens en METTLER TOLEDO",
+     "summary": "Siemens publiceerde SSA-166980 over de gevolgen van de twee kritieke, niet-geauthenticeerde remote code execution-kwetsbaarheden in PHP (CVE-2026-109618 en CVE-2026-109619) voor zijn softwareproducten en geeft aan de impact nog te beoordelen. CERT@VDE meldt dat METTLER TOLEDO OCTO Image Server een kwetsbare PHP-versie bevat en adviseert dringend te upgraden naar PHP 8.2.35.",
+     "takeaway": "Breng in kaart waar PHP is ingebouwd in OT-nabije en door leveranciers geleverde applicaties, en pas leveranciersupdates of de upgrade naar PHP 8.2.35 toe waar dat wordt geadviseerd."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "ad8783319617",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+     "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Dahua cameras in Ukraine hijacked via P2P access and authentication weaknesses",
+     "summary": "Following the earlier CERT-UA warning, new reporting says compromised IP cameras and DVRs gave attackers access to the video stream, allowed configuration changes and the creation of third-party accounts. The reporting links the attacks to P2P access and authentication weaknesses in Dahua devices.",
+     "takeaway": "Check whether surveillance cameras and DVRs are reachable from the internet or via P2P, review accounts and configurations for unknown changes, and change default credentials."
+    },
+    "nl": {
+     "heading": "Update: Dahua-camera's in Oekraïne gekaapt via P2P-toegang en zwakke authenticatie",
+     "summary": "Naar aanleiding van de eerdere waarschuwing van CERT-UA meldt nieuwe berichtgeving dat gecompromitteerde IP-camera's en DVR's aanvallers toegang gaven tot het videobeeld, configuratiewijzigingen mogelijk maakten en het aanmaken van accounts van derden. De berichtgeving koppelt de aanvallen aan P2P-toegang en zwakke authenticatie bij Dahua-apparaten.",
+     "takeaway": "Controleer of bewakingscamera's en DVR's bereikbaar zijn via internet of P2P, kijk accounts en configuraties na op onbekende wijzigingen en vervang standaardwachtwoorden."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "b2e6f63ff51a",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/27/cisa-2030-cyber-resilience-strategy/",
+     "title": "CISA lays out plan to push cyber adversaries out of US critical infrastructure"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CISA 2030 strategy targets resilience of critical infrastructure",
+     "summary": "CISA released CISA 2030: Defend, Harden, Prevail, a strategy to strengthen national security and the resilience of critical infrastructure. It addresses intersecting cyber, physical and geopolitical threats that can disrupt essential services, and relies on work with public and private partners.",
+     "takeaway": "Asset owners in US-linked infrastructure can use the strategy to align their own resilience and OT security priorities with CISA's direction."
+    },
+    "nl": {
+     "heading": "CISA 2030-strategie richt zich op weerbaarheid van vitale infrastructuur",
+     "summary": "CISA publiceerde CISA 2030: Defend, Harden, Prevail, een strategie om de nationale veiligheid en de weerbaarheid van vitale infrastructuur te versterken. De strategie behandelt samenhangende cyber-, fysieke en geopolitieke dreigingen die essentiële diensten kunnen verstoren en steunt op samenwerking met publieke en private partners.",
+     "takeaway": "Asset owners met Amerikaanse banden kunnen de strategie gebruiken om hun eigen prioriteiten voor weerbaarheid en OT-beveiliging af te stemmen op de koers van CISA."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "0e076ea708a2",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-137528.html",
+     "title": "SSA-137528 V1.0: Authentication Bypass Vulnerability in Mendix SAML module"
+    },
+    {
+     "id": "ae042a0b53b2",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+     "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Mendix SAML bypass and GoAhead TLS flaws",
+     "summary": "Siemens reports an authentication bypass in the Mendix SAML module that lets an unauthenticated attacker replay a valid SAML assertion in IdP-initiated flows, and has released new versions. Separately, the GoAhead embedded web server does not enforce certificate revocation in OpenSSL mutual-TLS builds, so a revoked client certificate can still log in.",
+     "takeaway": "Update Mendix SAML to the latest version and check whether devices running GoAhead rely on certificate revocation for access control."
+    },
+    "nl": {
+     "heading": "Overige advisories: Mendix SAML-bypass en GoAhead TLS-kwetsbaarheden",
+     "summary": "Siemens meldt een authenticatie-bypass in de Mendix SAML-module waarmee een niet-geauthenticeerde aanvaller een geldige SAML-assertion kan hergebruiken in IdP-geïnitieerde flows, en heeft nieuwe versies uitgebracht. Daarnaast dwingt de embedded webserver GoAhead in OpenSSL mutual-TLS-builds geen certificaatintrekking af, waardoor een ingetrokken clientcertificaat nog kan inloggen.",
+     "takeaway": "Werk de Mendix SAML-module bij naar de nieuwste versie en controleer of apparaten met GoAhead voor toegangscontrole afhankelijk zijn van certificaatintrekking."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "3ae0a5180437",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/features/manufacturing-cybersecurity-faces-persistent-governance-gaps-as-accountability-funding-operational-priorities-diverge/",
+     "title": "Manufacturing cybersecurity faces persistent governance gaps as accountability, funding, operational priorities diverge"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Manufacturing security hampered by governance gaps",
+     "summary": "Industrial Cyber reports persistent governance gaps in manufacturing cybersecurity, with accountability, funding and operational priorities diverging. Initiatives are described as more likely to stall for these reasons than for policy ones.",
+     "takeaway": "Clarify who owns OT security decisions and budget at your sites so security work is not blocked by competing priorities."
+    },
+    "nl": {
+     "heading": "Beveiliging in de maakindustrie hinkt op governance-lacunes",
+     "summary": "Industrial Cyber meldt hardnekkige governance-lacunes in de cybersecurity van de maakindustrie, waarbij verantwoordelijkheid, budget en operationele prioriteiten uiteenlopen. Initiatieven lopen volgens het bericht eerder vast door deze oorzaken dan door beleid.",
+     "takeaway": "Maak helder wie op uw locaties eigenaar is van OT-beveiligingsbesluiten en budget, zodat beveiligingswerk niet vastloopt op botsende prioriteiten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "04454a9dd522",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/959275/Minister%3A+risico%27s+van+Chinese+pati%C3%ABntmonitoren+voor+pati%C3%ABntgegevens+beperkt?channel=rss",
+     "title": "Minister: risico's van Chinese patiëntmonitoren voor patiëntgegevens beperkt"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Dutch minister: privacy risk of Chinese patient monitors limited",
+     "summary": "According to Security.NL, a Dutch minister states that the risks to patient data privacy from Chinese patient monitors at the St. Antonius Hospital are limited.",
+     "takeaway": "Healthcare organisations should review which connected medical devices come from higher-risk suppliers and how they are networked and monitored."
+    },
+    "nl": {
+     "heading": "Minister: privacyrisico van Chinese patiëntmonitoren beperkt",
+     "summary": "Volgens Security.NL stelt een minister dat de risico's van Chinese patiëntmonitoren in het St. Antonius Ziekenhuis voor de privacy van patiëntgegevens beperkt zijn.",
+     "takeaway": "Zorginstellingen kunnen nagaan welke aangesloten medische apparatuur van risicovollere leveranciers afkomstig is en hoe die is gekoppeld en gemonitord."
+    }
+   }
+  }
+ ]
+}

@@ -1,5 +1,493 @@
 [
  {
+  "id": "987eedb2fc2d",
+  "url": "https://certvde.com/en/advisories/VDE-2026-137/",
+  "title": "METTLER TOLEDO: PHP2Shell in Octo Image Server",
+  "excerpt": "[VDE-2026-137] OCTO Image Server contains a vulnerable version of PHP affected by PHP2Shell (CVE-2026-109618 and CVE-2026-109619). We strongly recommend to upgrade PHP to version 8.2.35.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-28T09:44:05Z",
+  "fetched": "2026-10-28T09:44:05Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 72,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "METTLER TOLEDO",
+    "OCTO Image Server"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-137 reports that OCTO Image Server from METTLER TOLEDO ships a vulnerable PHP version affected by PHP2Shell (CVE-2026-109618 and CVE-2026-109619), with an upgrade to PHP 8.2.35 recommended.",
+    "nl": "CERT@VDE-advisory VDE-2026-137 meldt dat OCTO Image Server van METTLER TOLEDO een kwetsbare PHP-versie bevat die getroffen is door PHP2Shell (CVE-2026-109618 en CVE-2026-109619), met een upgrade naar PHP 8.2.35 als advies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "d86da89b8e93",
+  "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+  "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+  "excerpt": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T09:43:15Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Ukrainian national was sentenced to 70 months in prison for ransomware attacks on hospitals, government entities and businesses between 2018 and 2021.",
+    "nl": "Een Oekraïense staatsburger is veroordeeld tot 70 maanden gevangenisstraf voor ransomware-aanvallen op ziekenhuizen, overheden en bedrijven tussen 2018 en 2021."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "20eea9982b14",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/cisa-scubagear-scubagoggles-update/",
+  "title": "CISA updates ScubaGear and ScubaGoggles, and says Microsoft 365 checks get faster",
+  "excerpt": "CISA released ScubaGear v2.0 and ScubaGoggles v1.1.0, new versions of the open-source tools it publishes to check Microsoft 365 and Google Workspace settings against its security baselines. The agency calls ScubaGear v2.0 the most comprehensive update to that tool since its 2022 launch. ScubaGoggles, which launched in 2023, gets a new baseline and enhanced Gemini controls. Both tools belong to CISA’s Secure Cloud Business Applications project, known as SCuBA, which writes configuration guidance for the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T09:38:17Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA released ScubaGear v2.0 and ScubaGoggles v1.1.0, open-source tools that check Microsoft 365 and Google Workspace settings against its security baselines.",
+    "nl": "CISA heeft ScubaGear v2.0 en ScubaGoggles v1.1.0 uitgebracht, open-sourcetools die Microsoft 365- en Google Workspace-instellingen controleren op basis van de eigen beveiligingsbaselines."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "502a36b55dfd",
+  "url": "https://www.security.nl/posting/959348/OM+wil+commerci%C3%ABle+dna-databanken+in+toekomst+vaker+gebruiken?channel=rss",
+  "title": "OM wil commerciële dna-databanken in toekomst vaker gebruiken",
+  "excerpt": "Het Openbaar Ministerie (OM) wil commerciële dna-databanken in toekomst vaker bij onderzoeken gebruiken en werkt aan een kader ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T09:20:36Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Public Prosecution Service wants to use commercial DNA databases more often in investigations and is working on a framework for this.",
+    "nl": "Het Openbaar Ministerie wil commerciële dna-databanken vaker bij onderzoeken gebruiken en werkt aan een kader hiervoor."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "9ead3b4e4e95",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0457",
+  "title": "NCSC-2026-0457 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise",
+  "excerpt": "Splunk heeft meerdere kwetsbaarheden verholpen in Splunk Enterprise. In Splunk Enterprise zijn verschillende kwetsbaarheden aanwezig in versies eerder dan 10.4.4 (en enkele andere specifieke versies). Deze omvatten onder andere: - onjuiste verificatie in de Data Management REST API waardoor gebruikers met bepaalde rollen toegang kunnen krijgen tot of verwijderen van SPL2 preview jobs en resultaten die zij niet bezitten - onvoldoende limieten in request-header parsing in de JavaScript logger endpoint die een Denial-of-Service (DoS) kan veroorzaken - misbruik van de REST API voor lookup table…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-28T09:12:56Z",
+  "fetched": "2026-10-28T09:44:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC-NL advisory NCSC-2026-0457 reports multiple vulnerabilities in Splunk Enterprise versions before 10.4.4 that Splunk has fixed.",
+    "nl": "NCSC-advisory NCSC-2026-0457 meldt meerdere kwetsbaarheden in Splunk Enterprise-versies voorafgaand aan 10.4.4, die Splunk heeft verholpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "b53cac21a90e",
+  "url": "https://www.security.nl/posting/959347/Webwinkels+aangevallen+via+kritiek+beveiligingslek+in+Magento%2C+meldt+VS?channel=rss",
+  "title": "Webwinkels aangevallen via kritiek beveiligingslek in Magento, meldt VS",
+  "excerpt": "Webwinkels die draaien op Adobe Commerce en Magento zijn het doelwit van aanvallen, zo meldt het Amerikaanse cyberagentschap ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T08:57:10Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "US authorities report attacks on online stores running Adobe Commerce and Magento via a critical vulnerability.",
+    "nl": "Amerikaanse autoriteiten melden aanvallen op webwinkels met Adobe Commerce en Magento via een kritieke kwetsbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "f08e265d2fa5",
+  "url": "https://www.security.nl/posting/959341/Politie+neemt+tientallen+Nederlandse+servers+hostingbedrijf+in+beslag?channel=rss",
+  "title": "Politie neemt tientallen Nederlandse servers hostingbedrijf in beslag",
+  "excerpt": "De politie heeft tientallen Nederlandse servers van een hostingbedrijf in beslag genomen, waardoor ook honderden virtuele ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T08:28:00Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch police seized dozens of servers from a hosting company, taking hundreds of virtual servers offline.",
+    "nl": "De Nederlandse politie heeft tientallen servers van een hostingbedrijf in beslag genomen, waardoor honderden virtuele servers offline zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "d75560f4cad5",
+  "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+  "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+  "excerpt": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T08:15:07Z",
+  "fetched": "2026-10-28T09:44:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Anthropic reports that an unreleased AI model chained flaws in Chrome, Safari, Windows and Linux into lab proof-of-concept exploits, all reported and patched.",
+    "nl": "Anthropic meldt dat een niet-uitgebracht AI-model fouten in Chrome, Safari, Windows en Linux heeft gekoppeld tot proof-of-concept exploits in het lab, alle gemeld en gepatcht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "6fcf621f852d",
+  "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+  "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+  "excerpt": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T07:37:50Z",
+  "fetched": "2026-10-28T09:44:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US Department of Justice seized the domain of bulletproof hosting provider Virtualine over alleged criminal hosting and bitcoin money laundering.",
+    "nl": "Het Amerikaanse Ministerie van Justitie heeft het domein van bulletproof-hostingprovider Virtualine in beslag genomen vanwege vermeend criminele hosting en witwassen van bitcoin."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "697aeb2243e0",
+  "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+  "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+  "excerpt": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service hosts Windows desktops used for FX trading,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T07:13:21Z",
+  "fetched": "2026-10-28T09:44:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Japan's GMO Internet Group offers up to $1 million for tips leading to the arrest of attackers who breached its Onamae.com Desktop Cloud service.",
+    "nl": "GMO Internet Group in Japan biedt tot 1 miljoen dollar voor tips die leiden tot arrestatie van daders die de Onamae.com Desktop Cloud-dienst hebben gehackt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "19a8c396761b",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/brian-blakley-bellini-capital-ai-security-governance/",
+  "title": "Bellini Capital CISO on AI security governance and the limits of patching faster",
+  "excerpt": "In this Help Net Security interview, Brian Blakley, CISO at Bellini Capital and ConnectSecure, explains why AI makes finding vulnerabilities faster while fixing them still takes time. He argues that “patch faster” is not enough and that teams need to cut exposure while remediation is pending. Blakley describes a shared metric for CIOs and CISOs, how his team tests for silent model updates, who owns the damage when an AI agent makes a mistake, and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T06:30:35Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A CISO interview discusses AI security governance and the limits of faster patching for vulnerability remediation.",
+    "nl": "Een interview met een CISO gaat over AI-beveiligingsgovernance en de beperkingen van sneller patchen bij het verhelpen van kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "345dc53c4910",
+  "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+  "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+  "excerpt": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Tailscale SSH forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T06:20:37Z",
+  "fetched": "2026-10-28T09:44:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Tailscale released version 1.104.4 to fix flaws in its SSH server that could let attackers reach files and services restricted to root on other servers.",
+    "nl": "Tailscale heeft versie 1.104.4 uitgebracht om fouten in de SSH-server te verhelpen waarmee aanvallers bij bestanden en diensten op andere servers kunnen die alleen voor root bedoeld zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "f01e6eed4371",
+  "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+  "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+  "excerpt": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T06:04:58Z",
+  "fetched": "2026-10-28T09:44:03Z",
+  "cves": [
+   "CVE-2026-35273"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers say the Oracle PeopleSoft zero-day CVE-2026-35273, exploited by ShinyHunters since May, is three chained flaws patched by Oracle in June.",
+    "nl": "Onderzoekers melden dat de Oracle PeopleSoft zero-day CVE-2026-35273, sinds mei misbruikt door ShinyHunters, uit drie gekoppelde fouten bestaat die Oracle in juni heeft gepatcht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "6afb343261e5",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/",
+  "title": "AbuseBox: Open-source monitor for blacklists, DNS, SSL and email records",
+  "excerpt": "AbuseBox is a free, open-source tool that checks IP addresses and domains against 60 DNS blacklists, pulls reputation scores from AbuseIPDB, inspects DNS, SSL and email-authentication records, and sends an alert when something changes. A DNS blacklist, or DNSBL, is a list that mail servers and other services consult when deciding whether to trust an address. The dashboard keeps one list of what needs attention: blacklist listings, expiring certificates and domains, servers that are down, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T06:00:45Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "AbuseBox is an open-source tool that monitors IP addresses and domains against DNS blacklists, DNS, SSL and email records.",
+    "nl": "AbuseBox is een open-sourcetool die IP-adressen en domeinen controleert op DNS-blacklists, DNS-, SSL- en e-mailrecords."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "dc166c047f57",
+  "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+  "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T05:42:26Z",
+  "fetched": "2026-10-28T09:44:03Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added Adobe Commerce, Magento and Google Brotli vulnerabilities to its KEV catalog after evidence of active exploitation.",
+    "nl": "CISA heeft kwetsbaarheden in Adobe Commerce, Magento en de Google Brotli-bibliotheek aan de KEV-catalogus toegevoegd vanwege bewijs van actief misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "5381d2ec541d",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/nist-post-quantum-cryptography-migration-roadmap/",
+  "title": "NIST starts the countdown to retire quantum-vulnerable encryption",
+  "excerpt": "The National Institute of Standards and Technology (NIST) has released a roadmap for moving to post-quantum cryptography (PQC), with earlier deadlines for certain sensitive federal systems. The report, Transition to Post-Quantum Cryptography Standards (NIST IR 8547), explains which cryptographic methods need to be replaced, what organizations should consider and how the transition will unfold. It builds on the post-quantum cryptography standards NIST released in August 2024. Those standards provide new ways to protect information against … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T05:30:29Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NIST released NIST IR 8547, a roadmap for transitioning to post-quantum cryptography, with earlier deadlines for certain sensitive federal systems.",
+    "nl": "NIST heeft NIST IR 8547 uitgebracht, een stappenplan voor de overgang naar post-quantumcryptografie, met eerdere deadlines voor bepaalde gevoelige federale systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
+  "id": "6a64c430c2d7",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/",
+  "title": "Breach victims discover their data was held by companies they’ve never heard of",
+  "excerpt": "Nearly seven in ten people affected by data breaches handled by Kroll were exposed through an outside supplier, according to its Data Breach Outlook 2026. Businesses rely on outside providers to store information, process transactions and operate software. A breach at one of those providers can expose customer records across multiple organizations, including people who have never heard of the company holding their data. Percentage of individuals impacted due to a third party, by industry … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T05:00:19Z",
+  "fetched": "2026-10-28T09:44:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kroll's Data Breach Outlook 2026 finds nearly seven in ten people affected by breaches handled by Kroll were exposed through an outside supplier.",
+    "nl": "De Data Breach Outlook 2026 van Kroll meldt dat bijna zeven op de tien getroffenen bij datalekken via Kroll zijn blootgesteld via een externe leverancier."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T09:44:22Z"
+  }
+ },
+ {
   "id": "2d034412260e",
   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
   "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
