@@ -1,5 +1,1150 @@
 [
  {
+  "id": "f87c468063ef",
+  "url": "https://www.security.nl/posting/959461/Amerikaanse+universiteit+schikt+zaak+over+datalek+voor+16%2C1+miljoen+dollar?channel=rss",
+  "title": "Amerikaanse universiteit schikt zaak over datalek voor 16,1 miljoen dollar",
+  "excerpt": "De Amerikaanse universiteit Columbia University heeft een zaak over een groot datalek geschikt voor een bedrag van 16,1 miljoen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T16:07:06Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Columbia University has settled a lawsuit over a large data breach for 16.1 million dollars.",
+    "nl": "Columbia University heeft een rechtszaak over een grote datalek geschikt voor 16,1 miljoen dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "eb73651e36ee",
+  "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+  "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+  "excerpt": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T16:02:45Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers report a suspected China-nexus actor used PHP2Shell vulnerabilities and a kernel exploit to root 25 servers and breach a U.S. government-affiliated network.",
+    "nl": "Onderzoekers melden dat een vermoedelijke China-gelieerde dader PHP2Shell-kwetsbaarheden en een kernel-exploit gebruikte om 25 servers te compromitteren en een Amerikaans overheidsgerelateerd netwerk binnen te dringen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "41bb41758014",
+  "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+  "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+  "excerpt": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T16:00:00Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Volt Typhoon uses a 'Silent Train' framework of rotating compromised devices to hide zero-day attacks against high-value systems.",
+    "nl": "Volt Typhoon gebruikt een 'Silent Train'-framework met wisselende gecompromitteerde apparaten om zero-day-aanvallen op waardevolle systemen te verbergen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "bfd6a8fefd0e",
+  "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches",
+  "title": "UK to look at making software companies liable for cyber breaches",
+  "excerpt": "The new U.K. budget says the government will \"consider where liability for cyber breaches should sit,\" potentially a landmark shift for a country that has relied on voluntary codes to encourage software vendors to improve security.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T15:37:00Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The UK budget says the government will consider where liability for cyber breaches should sit, possibly making software vendors liable.",
+    "nl": "De Britse begroting meldt dat de regering overweegt waar de aansprakelijkheid voor cyberinbreuken moet liggen, mogelijk met aansprakelijkheid voor softwareleveranciers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "3a848b592a2c",
+  "url": "https://www.security.nl/posting/959455/Onderzoeker+vindt+weer+kritieke+Chrome-lekken+met+behulp+van+Claude?channel=rss",
+  "title": "Onderzoeker vindt weer kritieke Chrome-lekken met behulp van Claude",
+  "excerpt": "Een beveiligingsonderzoeker van AI-bedrijf Anthropic heeft weer met behulp van chatbot Claude kritieke kwetsbaarheden in Google ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T15:35:06Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "A researcher from Anthropic found more critical Chrome vulnerabilities using the Claude chatbot.",
+    "nl": "Een onderzoeker van Anthropic vond met de chatbot Claude weer kritieke kwetsbaarheden in Chrome."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "2e8df9d99782",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/exaforce-trust-in-ai-security/",
+  "title": "I underestimated how fast security teams would trust AI to act in the SOC",
+  "excerpt": "For most of my career, I have watched new security platforms work through enterprise programs at a slow pace, so when AI began showing up in security operations tools, I assumed it would follow the same path. I expected AI adoption in the SOC to lag behind almost every other category of security technology, because I’d always viewed the tension between moving quickly on innovations and satisfying strict compliance obligations as a blocker. Ultimately, AI … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T15:25:01Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An opinion piece describes faster-than-expected adoption of AI tools in security operations centers.",
+    "nl": "Een opiniestuk beschrijft een sneller dan verwachte adoptie van AI-tools in security operations centers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "b96777239849",
+  "url": "https://therecord.media/belarus-russia-hackers-ukraine-war",
+  "title": "Belarusian hackers increasingly acting as proxies for Russia amid war in Ukraine",
+  "excerpt": "Belarus-linked hackers are increasingly aligning their cyber operations with Russia's interests in Ukraine, researchers said Wednesday.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T15:15:00Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers say Belarus-linked hackers increasingly align their operations with Russian interests in the war in Ukraine.",
+    "nl": "Onderzoekers stellen dat aan Belarus gelieerde hackers hun operaties steeds vaker afstemmen op Russische belangen in de oorlog in Oekraine."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "686f22decbbd",
+  "url": "https://www.security.nl/posting/959443/Ouderenbond+waarschuwt+voor+einde+2G%3A+%27Noodknoppen+werken+straks+niet+meer%27?channel=rss",
+  "title": "Ouderenbond waarschuwt voor einde 2G: 'Noodknoppen werken straks niet meer'",
+  "excerpt": "Ouderenbond ANBO-PCOB waarschuwt voor het verdwijnen van 2G en 3G, waardoor straks noodknoppen en andere apparaten waar ouderen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:49:14Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ANBO-PCOB warns that the shutdown of 2G and 3G will disable emergency buttons and other devices used by older people.",
+    "nl": "ANBO-PCOB waarschuwt dat het uitschakelen van 2G en 3G noodknoppen en andere apparaten van ouderen onbruikbaar maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "42279ffd24bf",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+  "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+  "excerpt": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:48:32Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft urges Entra ID administrators to move users to passkeys before SMS and voice authentication retire in February 2027.",
+    "nl": "Microsoft vraagt Entra ID-beheerders gebruikers over te zetten naar passkeys voordat sms- en spraakauthenticatie in februari 2027 worden uitgefaseerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "bb6e7d54b972",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/controlup-pulse-ai-resolve/",
+  "title": "ControlUp’s Pulse AI Resolve diagnoses and fixes IT issues within admin-defined controls",
+  "excerpt": "ControlUp has announced Pulse AI Resolve, the real-time investigative AI layer of the Pulse AI ecosystem. A major enhancement of ControlUp’s endpoint self-service capability, previously ControlUp Connect, Pulse Resolve brings AI-powered investigation and remediation, built-in governance controls, and proactive issue detection directly to the endpoint. It helps organizations resolve IT issues faster while reducing the volume of support tickets that require human IT intervention. For decades, enterprise IT support has followed essentially the same escalation … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:46:55Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ControlUp"
+   ],
+   "summary": {
+    "en": "ControlUp announces Pulse AI Resolve, an AI tool for endpoint IT issue resolution.",
+    "nl": "ControlUp kondigt Pulse AI Resolve aan, een AI-tool voor het oplossen van IT-problemen op endpoints."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "de5450926ea8",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/compromised-camera-management-software-initial-access/",
+  "title": "Compromised camera management software gives attackers a way into corporate networks",
+  "excerpt": "Attackers have been breaking into business networks through camera management software, according to new research from security firm Huntress, which traced several incidents in September and October back to a compromised application. An unidentified application The company’s analysts haven’t been able to confidently determine which software it was, and because no logs associated with the application could be found, they also couldn’t pinpoint how the attackers compromised it. The software’s executable – CMS.exe – “did … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:43:23Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Huntress reports attackers entered business networks through a compromised camera management application in September and October.",
+    "nl": "Huntress meldt dat aanvallers in september en oktober via een gecompromitteerde applicatie voor cameratoezicht bedrijfsnetwerken binnendrongen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "7693ae35048e",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/digitate-ignio-hummingbird/",
+  "title": "Digitate adds AI agents for patch planning, service desks, and SAP operations",
+  "excerpt": "Digitate has announced ignio Hummingbird, the latest release of its agentic AIOps platform. Hummingbird introduces AI agents that bring operational expertise to specific IT tasks, move from diagnosis through approved action and verification, and operate within enterprise change, approval and audit controls. The release also enables enterprises to build their own IT operations agents and includes built-in Model Context Protocol (MCP) and Agent2Agent (A2A) servers, allowing ignio capabilities to work with the agents, assistants and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:36:59Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Digitate"
+   ],
+   "summary": {
+    "en": "Digitate releases ignio Hummingbird, an agentic AIOps platform with AI agents for IT operations.",
+    "nl": "Digitate brengt ignio Hummingbird uit, een agentisch AIOps-platform met AI-agents voor IT-operations."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "7fdcf411950a",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/afd-data-breach-email-leak/",
+  "title": "345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD",
+  "excerpt": "Over 345,000 unique email addresses were exposed in the September 2026 breach at German far-right political party Alternative für Deutschland (AfD). Breach notification service Have I Been Pwned (HIBP) added the data to its database on 27 October, listing email addresses and email messages as the compromised information. HIBP has flagged the incident as a sensitive breach, so the data cannot be searched publicly. Only the verified owner of an email address can check whether … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:28:43Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Over 345,000 unique email addresses were exposed in a September 2026 breach at the German party AfD, according to Have I Been Pwned.",
+    "nl": "Meer dan 345.000 unieke e-mailadressen zijn blootgesteld bij een datalek in september 2026 bij de Duitse partij AfD, volgens Have I Been Pwned."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "199ece54c77b",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/swimlane-turbine-platform-capabilities/",
+  "title": "Swimlane connects custom detections to AI-led investigation and response",
+  "excerpt": "Swimlane has announced new capabilities in the Swimlane Turbine platform that allow security teams to run their own detection logic against large volumes of data and send resulting alerts directly into Swimlane AI SOC for investigation and response. The October release also adds two-way Model Context Protocol (MCP) support and new Hero AI agent that uses natural-language prompts to build applications for any use case, expanding how teams can connect tools, build workflows and operationalize … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:26:24Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Swimlane"
+   ],
+   "summary": {
+    "en": "Swimlane adds custom detection and MCP support to its Turbine platform, connected to its AI SOC.",
+    "nl": "Swimlane voegt aangepaste detectie en MCP-ondersteuning toe aan het Turbine-platform, gekoppeld aan de AI SOC."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "b9bb7ebead19",
+  "url": "https://www.security.nl/posting/959438/Bank+of+America+adviseert+klanten+om+wachtwoord+niet+met+AI-agent+te+delen?channel=rss",
+  "title": "Bank of America adviseert klanten om wachtwoord niet met AI-agent te delen",
+  "excerpt": "De Bank of America, één van de grootste banken van de Verenigde Staten, adviseert klanten om hun inloggegevens niet met ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:25:06Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bank of America advises customers not to share their login credentials with AI agents.",
+    "nl": "Bank of America adviseert klanten hun inloggegevens niet met AI-agents te delen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "29892b548817",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/vikingcloud-ai-governance-services/",
+  "title": "VikingCloud gives businesses a scorecard for AI governance readiness",
+  "excerpt": "VikingCloud has launched AI Governance Services, a new set of compliance and risk assessments that find the AI tools in use across a business, show where security controls fall short, and deliver a remediation plan to close the gaps. Multi-location brands struggle to hold every location to one security standard. Shadow AI makes that even harder. Employees adopt tools at the location level without corporate review, and vendors switch on AI features without notice. The … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:06:13Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "VikingCloud"
+   ],
+   "summary": {
+    "en": "VikingCloud launches AI Governance Services that assess AI tool use and security control gaps in businesses.",
+    "nl": "VikingCloud lanceert AI Governance Services die AI-toolgebruik en lacunes in beveiligingsmaatregelen bij bedrijven beoordelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "784fb56154bf",
+  "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+  "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+  "excerpt": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T14:00:00Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "An InfraTrust report says attackers actively exploit flaws in critical network infrastructure, including PHP2Shell risks to firewall, VPN and appliance management interfaces.",
+    "nl": "Een InfraTrust-rapport meldt dat aanvallers actief kwetsbaarheden in kritieke netwerkinfrastructuur misbruiken, waaronder PHP2Shell-risico's voor beheerinterfaces van firewalls en VPN's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "d1427cd49789",
+  "url": "https://www.security.nl/posting/959433/WinRAR+verhelpt+meerdere+beveiligingsproblemen+in+nieuwste+b%C3%A8taversie?channel=rss",
+  "title": "WinRAR verhelpt meerdere beveiligingsproblemen in nieuwste bètaversie",
+  "excerpt": "De makers van de populaire archiveringssoftware WinRAR hebben een nieuwe bètaversie gepubliceerd waarmee verschillende ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T13:54:25Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "WinRAR"
+   ],
+   "summary": {
+    "en": "WinRAR beta version fixes several security issues.",
+    "nl": "WinRAR-bètaversie verhelpt meerdere beveiligingsproblemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "d190a3e1036e",
+  "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+  "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+  "excerpt": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T13:50:59Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [
+    "Token Security"
+   ],
+   "summary": {
+    "en": "Token Security argues that limiting access of service accounts, API keys and AI agents matters as much as patching after PHP2Shell.",
+    "nl": "Token Security stelt dat het beperken van toegang van serviceaccounts, API-sleutels en AI-agents na PHP2Shell even belangrijk is als patchen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "603c6e582ca4",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0459",
+  "title": "NCSC-2026-0459 [1.00] [M/H] Kwetsbaarheid verholpen in Arista VeloCloud Orchestrator (VCO) on-premises",
+  "excerpt": "Arista heeft een kritieke kwetsbaarheid verholpen in VeloCloud Orchestrator (VCO) On-Prem. De kwetsbaarheid met kenmerk CVE-2026-114625 heeft een CVSS-score van 9.9 en betreft SQL-injectie. Een geauthenticeerde kwaadwillende kan de kwetsbaarheid op afstand misbruiken om verhoogde rechten te verkrijgen en zich voor te doen als een lokale 'superuser operator'. Hierdoor kan de kwaadwillende toegang krijgen tot interne beheerfunctionaliteiten en mogelijk de vertrouwelijkheid, integriteit en beschikbaarheid van het systeem en de beheerde gegevens aantasten. Voor succesvol misbruik heeft een…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-28T13:43:18Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [
+   "CVE-2026-114625"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Arista"
+   ],
+   "summary": {
+    "en": "Arista fixed a critical SQL injection flaw, CVE-2026-114625 (CVSS 9.9), in VeloCloud Orchestrator on-premises that allows privilege escalation by authenticated attackers.",
+    "nl": "Arista heeft een kritieke SQL-injectiekwetsbaarheid, CVE-2026-114625 (CVSS 9.9), verholpen in VeloCloud Orchestrator on-premises waarmee geauthenticeerde aanvallers rechten kunnen verhogen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:11Z"
+  }
+ },
+ {
+  "id": "9aab58fcfd3e",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/upwind-400-million-series-c-funding/",
+  "title": "Upwind secures $400 million to protect AI across endpoints, code, and cloud",
+  "excerpt": "Upwind Security has raised $400 million in Series C funding to expand its cloud and AI security platform, bringing the company’s total funding to more than $800 million. Bessemer Venture Partners led the round, with participation from all existing Upwind investors, including Greylock Partners, Cyberstarts, Craft, Salesforce Ventures, Alta Park, Picture Capital, Swish Ventures, Cerca Partners, TCV, Penny Jar, and Leaders Fund. Canapi Ventures joined as a new investor. The funding comes less than nine … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T13:31:26Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Upwind Security raised $400 million in Series C funding to expand its cloud and AI security platform.",
+    "nl": "Upwind Security heeft 400 miljoen dollar opgehaald in een Series C-financiering om zijn cloud- en AI-beveiligingsplatform uit te breiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "29d08fa787d9",
+  "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+  "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+  "excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical Patch Update. Security researchers",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T12:48:03Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [
+   "CVE-2026-101767"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Threat actors are probing for CVE-2026-101767, a newly patched critical flaw in Oracle E-Business Suite, according to Defused Cyber.",
+    "nl": "Dreigingsactoren onderzoeken volgens Defused Cyber een pas gepatchte kritieke kwetsbaarheid, CVE-2026-101767, in Oracle E-Business Suite."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "0292c49392da",
+  "url": "https://www.security.nl/posting/959412/Bitonic%3A+aanvaller+kwam+binnen+via+beveiligingslek+in+pdf-library?channel=rss",
+  "title": "Bitonic: aanvaller kwam binnen via beveiligingslek in pdf-library",
+  "excerpt": "De aanvaller die wist in te breken op systemen van het Nederlandse bitcoinbedrijf Bitonic maakte misbruik van een kwetsbaarheid ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T12:31:35Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker breached the Dutch bitcoin company Bitonic by exploiting a vulnerability in a PDF library.",
+    "nl": "Een aanvaller drong binnen bij het Nederlandse bitcoinbedrijf Bitonic via een kwetsbaarheid in een pdf-bibliotheek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "8bfd06dd34f9",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
+  "title": "Tailscale fixes SSH flaws allowing lateral movement within tailnets",
+  "excerpt": "Tailscale, the company behind the popular software-defined mesh networking and connectivity platform of the same name, has shipped fixes for several vulnerabilities, including some in Tailscale SSH that could let an attacker who already had access to a device in the network gain more privileges on other machines that are part of it. “Based on our investigation, an attacker could reach only machines the tailnet policy file already permitted SSH connections to,” said Mike Shaver, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T12:25:04Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Tailscale"
+   ],
+   "summary": {
+    "en": "Tailscale released fixes for several vulnerabilities, including SSH flaws that could let an attacker with device access gain more privileges on tailnet machines.",
+    "nl": "Tailscale heeft oplossingen uitgebracht voor meerdere kwetsbaarheden, waaronder SSH-fouten waarmee een aanvaller met apparaattoegang meer rechten op andere machines kan krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "2b7e04ce120f",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+  "title": "Hackers now scanning systems for recently-patched Oracle flaw",
+  "excerpt": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T12:19:57Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Attackers are scanning the internet for Oracle E-Business Suite systems that remain unpatched against a recently disclosed critical flaw.",
+    "nl": "Aanvallers scannen het internet op Oracle E-Business Suite-systemen die nog niet zijn gepatcht tegen een recent gemelde kritieke kwetsbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "ca1945b2dbf7",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/doj-ukrainian-ransomware-hacker-sentenced/",
+  "title": "Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
+  "excerpt": "A Ukrainian national who participated in ransomware attacks targeting hospitals, government entities, law firms, and other businesses was sentenced to five years and 10 months in prison. Artem Stryzhak, 36, pleaded guilty in December 2025 to two counts of conspiracy to commit fraud, extortion, and related activity in connection with computers. He was arrested in Spain in June 2024 and extradited to the United States in April 2025. Nefilim targeted high-revenue companies According to court … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T12:17:33Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Ukrainian ransomware operator involved in attacks on hospitals and government entities was sentenced to five years and 10 months in prison.",
+    "nl": "Een Oekraïense ransomware-verdachte die betrokken was bij aanvallen op ziekenhuizen en overheden, is veroordeeld tot vijf jaar en tien maanden cel."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "12185b0bd2c8",
+  "url": "https://therecord.media/fbi-seizure-csam-virtualine",
+  "title": "FBI seizes ‘bulletproof’ hosting site accused of facilitating child abuse, money laundering",
+  "excerpt": "The FBI seized the domain of a “bulletproof” hosting provider accused of facilitating a range of cybercrimes, including money laundering and the distribution of child sexual abuse material.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T12:00:00Z",
+  "fetched": "2026-10-28T16:40:47Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI seized the domain of a bulletproof hosting provider accused of facilitating cybercrime, money laundering and child abuse material distribution.",
+    "nl": "De FBI heeft het domein van een bulletproof hostingprovider in beslag genomen, die verdacht wordt van cybercriminaliteit, witwassen en verspreiding van kindermisbruikmateriaal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "eb93de238d98",
+  "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+  "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+  "excerpt": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network. UEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T11:50:00Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A critical 16-year-old flaw in EDK II UEFI firmware code can let an attacker run code before Secure Boot, but only on machines booting over the network.",
+    "nl": "Een kritieke, 16 jaar oude kwetsbaarheid in EDK II UEFI-firmwarecode kan een aanvaller code laten uitvoeren vóór Secure Boot, maar alleen bij opstarten via het netwerk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "3515233d15e2",
+  "url": "https://www.security.nl/posting/959389/Node2Shell-kwetsbaarheid+in+Brotli-decoder+actief+misbruikt+bij+aanvallen?channel=rss",
+  "title": "Node2Shell-kwetsbaarheid in Brotli-decoder actief misbruikt bij aanvallen",
+  "excerpt": "Een kwetsbaarheid in de Google Brotli-decoder, ook bekend als Node2Shell, wordt actief misbruikt bij aanvallen. Daarvoor ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T11:39:20Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "The Node2Shell vulnerability in the Google Brotli decoder is being actively exploited in attacks.",
+    "nl": "De Node2Shell-kwetsbaarheid in de Google Brotli-decoder wordt actief misbruikt bij aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "ce5fe177d9da",
+  "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+  "title": "Wazuh and AI for Enhanced SOC Workflows",
+  "excerpt": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T11:30:00Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Wazuh"
+   ],
+   "summary": {
+    "en": "A vendor article describes using AI to enhance security operations center workflows with the Wazuh platform.",
+    "nl": "Een artikel van een leverancier beschrijft het gebruik van AI om SOC-werkprocessen te verbeteren met het Wazuh-platform."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "42a9e60af11b",
+  "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+  "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+  "excerpt": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T11:15:51Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [
+   "CVE-2026-104351"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Adobe"
+   ],
+   "summary": {
+    "en": "Adobe released patches for eight critical Campaign Classic flaws, including CVE-2026-104351, that could allow code execution and security bypass.",
+    "nl": "Adobe heeft patches uitgebracht voor acht kritieke Campaign Classic-kwetsbaarheden, waaronder CVE-2026-104351, die codeuitvoering en omzeiling van beveiliging mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "294d1c231d27",
+  "url": "https://www.security.nl/posting/959378/ACM%3A+Nederlandse+energieleveranciers+sterk+afhankelijk+van+Amerikaanse+cloud?channel=rss",
+  "title": "ACM: Nederlandse energieleveranciers sterk afhankelijk van Amerikaanse cloud",
+  "excerpt": "Nederlandse energieleveranciers zijn sterk afhankelijk van een beperkt aantal Amerikaanse cloudproviders, namelijk Amazon, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T10:58:47Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "research",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch energy suppliers depend heavily on a limited number of US cloud providers, including Amazon, according to an ACM report.",
+    "nl": "Volgens een ACM-rapport zijn Nederlandse energieleveranciers sterk afhankelijk van een beperkt aantal Amerikaanse cloudproviders, waaronder Amazon."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  },
+  "title_en": "ACM: Dutch energy suppliers heavily dependent on American cloud"
+ },
+ {
+  "id": "a7133dfe12d9",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+  "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+  "excerpt": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T10:46:23Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA confirmed that attackers are exploiting the critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell.",
+    "nl": "CISA heeft bevestigd dat aanvallers de kritieke Brotli-kwetsbaarheid Node2Shell, Broccoli2Shell en HTTP2Shell misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "169a3a02ba4a",
+  "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+  "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+  "excerpt": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T10:30:00Z",
+  "fetched": "2026-10-28T16:40:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ANY.RUN analysed Skyw4lker, a device code phishing campaign primarily targeting US organisations via legitimate cloud authentication.",
+    "nl": "ANY.RUN heeft Skyw4lker geanalyseerd, een device code phishingcampagne die vooral gericht is op Amerikaanse organisaties via legitieme cloudauthenticatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "71fa0c09073f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0458",
+  "title": "NCSC-2026-0458 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Secure Firewall ASA, Threat Defense en Management Center",
+  "excerpt": "Cisco heeft kwetsbaarheden verholpen in Secure Firewall ASA, Threat Defense en Management Center softwareproducten. Cisco heeft de kwetsbaarheden gegroepeerd naar acht verschillende kwetsbaarheidsklassen (CWE's) en aan iedere groep één CVE-kenmerk toegekend. De kwetsbaarheden betreffen verschillende beveiligingsproblemen, waaronder onvoldoende toegangscontrole, onjuiste verwerking van invoergegevens, fouten in beveiligingsmechanismen en onjuiste afhandeling van uitzonderingssituaties. Vier van de acht CVE-registraties hebben een CVSS-score van 9.0 of hoger. De kwetsbaarheden met kenmerk…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-28T10:28:36Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco fixed vulnerabilities in Secure Firewall ASA, Threat Defense and Management Center, grouped into eight weakness classes.",
+    "nl": "Cisco heeft kwetsbaarheden verholpen in Secure Firewall ASA, Threat Defense en Management Center, gegroepeerd in acht zwakheidsklassen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "34807bbecc03",
+  "url": "https://www.security.nl/posting/959363/Palo+Alto+Networks+meldt+misbruik+van+PHP2Shell-lekken+in+firewall-interface?channel=rss",
+  "title": "Palo Alto Networks meldt misbruik van PHP2Shell-lekken in firewall-interface",
+  "excerpt": "Palo Alto Networks waarschuwt klanten voor misbruik van de PHP2Shell-lekken in de management-interface van de firewalls die het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T10:28:04Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Palo Alto Networks warned customers of exploitation of the PHP2Shell flaws in the management interface of its firewalls.",
+    "nl": "Palo Alto Networks waarschuwt klanten voor misbruik van de PHP2Shell-lekken in de managementinterface van de firewalls."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "f06dc00fb6ea",
+  "url": "https://www.security.nl/posting/959361/Is+handel+in+gestolen+persoonsgegevens+digitale+heling+of+valt+dit+onder+gerechtvaardigd+belang%3F?channel=rss",
+  "title": "Is handel in gestolen persoonsgegevens digitale heling of valt dit onder gerechtvaardigd belang?",
+  "excerpt": "Juridische vraag: Er zijn cybersecurity-bedrijven die gestolen wachtwoorden en andere gegevens uit datalekken verzamelen, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T10:12:00Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A legal question asks whether trading in stolen personal data is digital handling or falls under legitimate interest.",
+    "nl": "Een juridische vraag gaat over de vraag of handel in gestolen persoonsgegevens digitale heling is of onder gerechtvaardigd belang valt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "aea670468b28",
+  "url": "https://www.security.nl/posting/959355/36-jarige+man+krijgt+70+maanden+cel+voor+wereldwijde+ransomware-aanvallen?channel=rss",
+  "title": "36-jarige man krijgt 70 maanden cel voor wereldwijde ransomware-aanvallen",
+  "excerpt": "Een 36-jarige Oekraïense man is in de Verenigde Staten wegens het wereldwijd uitvoeren van ransomware-aanvallen veroordeeld ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T10:04:49Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A 36-year-old Ukrainian man was sentenced to 70 months in prison in the US for worldwide ransomware attacks.",
+    "nl": "Een 36-jarige Oekraïense man is in de Verenigde Staten veroordeeld tot 70 maanden cel voor wereldwijde ransomware-aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
+  "id": "2338fe74808a",
+  "url": "https://www.security.nl/posting/959352/AIVD+waarschuwt+organisaties+voor+risico+van+%27security-vermijdende+insider%27?channel=rss",
+  "title": "AIVD waarschuwt organisaties voor risico van 'security-vermijdende insider'",
+  "excerpt": "De AIVD waarschuwt organisaties vandaag voor de risico's van 'insiders', medewerkers die bewust of onbewust schade kunnen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T09:50:14Z",
+  "fetched": "2026-10-28T16:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch AIVD warns organisations about the risks of security-avoiding insiders, employees who may deliberately or unknowingly cause harm.",
+    "nl": "De Nederlandse AIVD waarschuwt organisaties voor de risico's van insiders die de beveiliging omzeilen, medewerkers die bewust of onbewust schade kunnen veroorzaken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T16:41:30Z"
+  }
+ },
+ {
   "id": "987eedb2fc2d",
   "url": "https://certvde.com/en/advisories/VDE-2026-137/",
   "title": "METTLER TOLEDO: PHP2Shell in Octo Image Server",
