@@ -1,5 +1,347 @@
 [
  {
+  "id": "bf65784fd277",
+  "url": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
+  "title": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",
+  "excerpt": "A federal appellate court panel said West Virginia's version of Daniel's Law — meant to shield the personal data of police and other officials — is unconstitutional.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T20:50:00Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A federal appellate court panel ruled that West Virginia's Daniel's Law, which shields personal data of public officials, is unconstitutional.",
+    "nl": "Een federaal hof van beroep oordeelde dat de West Virginia-wet Daniel's Law, die persoonsgegevens van ambtenaren beschermt, ongrondwettig is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "95ae05605ff3",
+  "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+  "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+  "excerpt": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T20:47:22Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "US law enforcement seized the primary domain of Virtualine, a bulletproof hosting service used on cybercrime forums.",
+    "nl": "Amerikaanse opsporingsdiensten hebben het hoofddomein van Virtualine in beslag genomen, een bulletproof hostingdienst op cybercrimeforums."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "6297f1390dfa",
+  "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
+  "title": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+  "excerpt": "Hackers stole passport numbers, frequent flyer numbers, email addresses and phone numbers for about 2,000 customers.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T20:33:00Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Japan Airlines warned that hackers stole passport, frequent flyer, email and phone data of about 2,000 customers.",
+    "nl": "Japan Airlines waarschuwt dat hackers paspoortnummers, frequent flyer-nummers en contactgegevens van ongeveer 2.000 klanten hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "8c22bc294780",
+  "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+  "title": "Discord to let search engines index public server messages",
+  "excerpt": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T18:44:16Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Discord will allow search engines to index public messages in Discoverable Servers, accessible without an account.",
+    "nl": "Discord staat zoekmachines toe om openbare berichten in Discoverable Servers te indexeren, zonder account toegankelijk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "10e92bd49867",
+  "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+  "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+  "excerpt": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T18:08:33Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Volt Typhoon used a covert Silent Train network of compromised SOHO, IoT and enterprise devices in four zero-day exploitation campaigns, now disrupted.",
+    "nl": "Volt Typhoon gebruikte een verborgen Silent Train-netwerk van gecompromitteerde SOHO-, IoT- en bedrijfsapparaten voor vier zero-day-campagnes, inmiddels verstoord."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "d949b1e38983",
+  "url": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
+  "title": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
+  "excerpt": "Noyb alleges the platform in some cases records freelancers’ mouse clicks and keystrokes every few seconds and claims the collected information can be used to generate video documenting freelancers’ entire workday.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T18:02:00Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Privacy group noyb sued Scale AI over alleged invasive recording of freelancers' keystrokes and mouse clicks.",
+    "nl": "Privacyorganisatie noyb heeft Scale AI aangeklaagd wegens vermeend invasief vastleggen van toetsaanslagen en muisklikken van freelancers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "22278c0bc249",
+  "url": "https://therecord.media/north-korea-russia-sanctions",
+  "title": "US sanctions Russians, North Koreans for laundering IT worker earnings",
+  "excerpt": "The U.S. Treasury Department sanctioned Russian and North Korean nationals for allegedly laundering the earnings of illicit IT workers on behalf of Pyongyang.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T17:45:00Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US Treasury sanctioned Russian and North Korean nationals for laundering earnings of illicit IT workers for Pyongyang.",
+    "nl": "De Amerikaanse Schatkist heeft Russische en Noord-Koreaanse personen gesanctioneerd wegens witwassen van inkomsten van illegale IT-werkers voor Pyongyang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "f7243678e737",
+  "url": "https://www.helpnetsecurity.com/2026/10/28/github-package-firewall-npm/",
+  "title": "GitHub’s npm package firewall can block brand-new versions before they install",
+  "excerpt": "GitHub announced a package firewall that checks npm packages against an enterprise’s policy before they install. It blocks known malware, critical vulnerabilities, and brand-new versions, and any developer can turn it on by pointing npm at the firewall. The checks run before a package reaches a laptop, a build, or a coding agent. GitHub says AI agents are helping developers build more software, faster, and the firewall is one of four security additions aimed at … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T17:09:14Z",
+  "fetched": "2026-10-28T21:40:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GitHub announced a package firewall that checks npm packages against enterprise policy and blocks malware and brand-new versions.",
+    "nl": "GitHub kondigt een pakketfirewall aan die npm-pakketten controleert op bedrijfsbeleid en malware en gloednieuwe versies blokkeert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "b057f3381d27",
+  "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+  "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+  "excerpt": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T17:08:09Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google will let approved third-party Android app stores outside the US install apps with one tap, after malware scanning requirements.",
+    "nl": "Google staat goedgekeurde Android-appwinkels buiten de VS toe om apps met één tik te installeren, na verplichte malwarescans."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "28d337750ff6",
+  "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+  "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+  "excerpt": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T16:45:47Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Sony Network Communications confirmed a data breach exposing about 2.5 million current and former customer records.",
+    "nl": "Sony Network Communications bevestigt een datalek waarbij ongeveer 2,5 miljoen gegevens van huidige en voormalige klanten zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "ddb9d5f06fc0",
+  "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
+  "title": "Moldova investigates possible foreign involvement in major government cyberattack",
+  "excerpt": "Prime Minister Vasile Tofan said the incident may be part of a broader campaign targeting both citizens' personal data and government digital infrastructure, according to local media reports.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T16:37:00Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Moldova is investigating possible foreign involvement in a major government cyberattack that may target citizens' data and government digital infrastructure.",
+    "nl": "Moldavië onderzoekt mogelijke buitenlandse betrokkenheid bij een grote cyberaanval op de overheid, die mogelijk gericht is op burgergegevens en overheidsinfrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
+  "id": "bce30872ee07",
+  "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+  "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+  "excerpt": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the Pwn2Own Berlin contest in May. Microsoft fixed the Edge bugs the day after the contest,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-28T16:23:34Z",
+  "fetched": "2026-10-28T21:40:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "A researcher published a logic-bug chain that escaped the Microsoft Edge sandbox, fixed by Microsoft after the Pwn2Own contest.",
+    "nl": "Een onderzoeker publiceerde een keten van logicafouten die de Microsoft Edge-sandbox omzeilt, door Microsoft na de Pwn2Own-wedstrijd verholpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
+  }
+ },
+ {
   "id": "f87c468063ef",
   "url": "https://www.security.nl/posting/959461/Amerikaanse+universiteit+schikt+zaak+over+datalek+voor+16%2C1+miljoen+dollar?channel=rss",
   "title": "Amerikaanse universiteit schikt zaak over datalek voor 16,1 miljoen dollar",
@@ -3416,6 +3758,43 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-27T06:20:20Z"
+  }
+ },
+ {
+  "id": "87b69890d118",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+  "title": "ICSA-26-300-01: EPICS Base",
+  "excerpt": "Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code. Sectors: Critical Manufacturing.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-27T06:00:00Z",
+  "fetched": "2026-10-28T21:40:54Z",
+  "cves": [
+   "CVE-2026-114595",
+   "CVE-2026-114596",
+   "CVE-2026-114597",
+   "CVE-2026-114598"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "EPICS Base"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-300-01 covers EPICS Base vulnerabilities enabling denial-of-service, memory corruption, information disclosure or code execution.",
+    "nl": "CISA-advisory ICSA-26-300-01 beschrijft kwetsbaarheden in EPICS Base die denial-of-service, geheugencorruptie, informatielekken of codeuitvoering mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
   }
  },
  {
@@ -19370,6 +19749,44 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-22T20:10:52Z"
+  }
+ },
+ {
+  "id": "8e6b38868068",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+  "title": "ICSA-26-300-02: Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+  "excerpt": "Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information disclosure, tampering with, destruction, or deletion of information, and a denial-of-service (DoS) condition of the system. Sectors: Critical Manufacturing.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-15T00:00:00Z",
+  "fetched": "2026-10-28T21:40:54Z",
+  "cves": [
+   "CVE-2023-4863",
+   "CVE-2026-16436",
+   "CVE-2026-16437",
+   "CVE-2026-16438"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Mitsubishi Electric",
+    "ICONICS"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-300-02 covers Mitsubishi Electric GENESIS and ICONICS products with flaws enabling code execution, authentication bypass and denial-of-service.",
+    "nl": "CISA-advisory ICSA-26-300-02 beschrijft kwetsbaarheden in Mitsubishi Electric GENESIS- en ICONICS-producten die codeuitvoering, omzeiling van authenticatie en denial-of-service mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T21:41:11Z"
   }
  },
  {
