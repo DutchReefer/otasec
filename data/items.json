@@ -1,5 +1,33 @@
 [
  {
+  "id": "2d034412260e",
+  "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+  "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+  "excerpt": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-27T23:35:51Z",
+  "fetched": "2026-10-28T02:19:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GMO Group urged customers to disconnect systems and shut down computers after a threat actor who breached its Onamae Desktop Cloud threatened a ransomware attack.",
+    "nl": "GMO Group heeft klanten gevraagd systemen los te koppelen en computers uit te zetten nadat een dreigende actor die Onamae Desktop Cloud had gekraakt een ransomware-aanval aankondigde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-28T02:19:42Z"
+  }
+ },
+ {
   "id": "f48843996a66",
   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
   "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
