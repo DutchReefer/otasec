@@ -1,5 +1,1159 @@
 [
  {
+  "id": "0a74d1ae6d52",
+  "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+  "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+  "excerpt": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Yahoo. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T16:10:31Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A campaign using 319 Chrome extensions with 13.4 million reported installs redirected user searches to generate advertising revenue from Bing and Yahoo.",
+    "nl": "Een campagne met 319 Chrome-extensies met naar schatting 13,4 miljoen installaties stuurde zoekopdrachten om via Bing en Yahoo advertentie-inkomsten te genereren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "8cc04215eff5",
+  "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+  "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+  "excerpt": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T15:20:29Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Yoba campaign uses fake GitHub projects posing as ChatGPT and Claude desktop apps to deliver crypto miners and loaders.",
+    "nl": "De Yoba-campagne gebruikt nep-GitHub-projecten die zich voordoen als ChatGPT- en Claude-desktopapps om crypto-miners en loaders te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "ae0c15b03655",
+  "url": "https://www.security.nl/posting/959619/Linux-distributie+Alpine+Linux+aangevallen+via+kritiek+GitLab-lek?channel=rss",
+  "title": "Linux-distributie Alpine Linux aangevallen via kritiek GitLab-lek",
+  "excerpt": "Aanvallers hebben geprobeerd om de GitLab-server van Linux-distributie Alpine Linux te hacken, zo hebben de ontwikkelaars zelf ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T15:09:05Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers attempted to compromise the GitLab server of the Linux distribution Alpine Linux via a critical GitLab vulnerability.",
+    "nl": "Aanvallers hebben geprobeerd de GitLab-server van de Linux-distributie Alpine Linux te compromitteren via een kritieke GitLab-kwetsbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "444ead708efe",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/",
+  "title": "Yoba malware hides in fake desktop versions of ChatGPT and Claude",
+  "excerpt": "Fake GitHub projects posing as desktop versions of ChatGPT and Claude have been used to spread a malware chain that ends with a cryptocurrency miner, Check Point has found. The researchers have been tracking the campaign, dubbed Yoba, for the past two months. Its operator set up repositories and GitHub.io pages for supposed apps called GPT-5.6 Sol, GPT-6 Astra and Claude Opus, and hosted the malware as ZIP releases on GitHub. “While the repositories do … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T14:49:11Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point reports the Yoba campaign uses fake GitHub repositories posing as ChatGPT and Claude desktop apps to spread a crypto miner.",
+    "nl": "Check Point meldt dat de Yoba-campagne nep-GitHub-repositories gebruikt die zich voordoen als ChatGPT- en Claude-desktopapps om een crypto-miner te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "0e4cd4a753f5",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+  "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+  "excerpt": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T14:35:40Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft resolved a known issue that prevented non-admin users from connecting via Remote Desktop when Administrator protection is enabled.",
+    "nl": "Microsoft heeft een bekend probleem opgelost waardoor niet-beheerders geen verbinding konden maken via Remote Desktop met Administrator protection ingeschakeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "ab98406bce2e",
+  "url": "https://www.security.nl/posting/959601/Kamer+wil+opheldering+over+impact+van+einde+2G+op+noodknoppen?channel=rss",
+  "title": "Kamer wil opheldering over impact van einde 2G op noodknoppen",
+  "excerpt": "Meerdere partijen in de Tweede Kamer willen opheldering van minister Sterk van Langdurige Zorg, Jeugd en Sport over de impact ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T14:12:15Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "regulation",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Members of the Dutch House of Representatives want clarification from the minister on the impact of the end of 2G on emergency buttons.",
+    "nl": "Leden van de Tweede Kamer willen van de minister opheldering over de impact van het einde van 2G op noodknoppen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "8200b0af3039",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/",
+  "title": "Researchers broke the browsers built into VS Code, Cursor, Copilot, Codex and Claude Desktop",
+  "excerpt": "Forever Security found ways out of the built-in browsers in five AI coding assistants: Cursor, GitHub Copilot, OpenAI’s Codex, Microsoft’s VS Code and Anthropic’s Claude Desktop. In all five, a web page or a local file reached the computer behind the browser. Cursor ran attacker code, Copilot showed a fake address, and Codex, VS Code and Claude Desktop let a single local file read the rest of the disk. Two of those holes are still … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T14:10:49Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Microsoft",
+    "Anthropic",
+    "OpenAI",
+    "Cursor"
+   ],
+   "summary": {
+    "en": "Forever Security found ways to escape the built-in browsers of five AI coding assistants, letting web pages or local files reach the host system.",
+    "nl": "Forever Security vond manieren om de ingebouwde browsers van vijf AI-codeerassistenten te ontsnappen, waardoor webpagina's of lokale bestanden het systeem konden bereiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "74bc7344545f",
+  "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+  "title": "3 Ways AI Agents Already Operate in Your Browser",
+  "excerpt": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T14:00:10Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Keep Aware discusses how AI agents operate inside authenticated browsers and why traditional security tools may struggle to detect them.",
+    "nl": "Keep Aware beschrijft hoe AI-agents binnen geauthenticeerde browsers opereren en waarom traditionele beveiligingstools ze moeilijk kunnen onderscheiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "d930ed3a2370",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+  "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T13:59:48Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA warned federal agencies to patch a high-severity Linux kernel privilege escalation flaw that attackers chain with PHP2Shell flaws.",
+    "nl": "CISA waarschuwde federale instanties om een ernstige Linux-kernel kwetsbaarheid voor privilege escalation te patchen die aanvallers combineren met PHP2Shell-lekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "147d29214849",
+  "url": "https://therecord.media/ftc-rideshare-airlines-data",
+  "title": "FTC to probe major companies over personalized pricing and pay",
+  "excerpt": "The Federal Trade Commission ordered nine food delivery, airline and ride-sharing companies to turn over detailed information on how they harness personal data to set individual consumer prices and employee compensation.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T13:45:00Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FTC ordered nine food delivery, airline and ride-sharing companies to provide information on how they use personal data for individual pricing.",
+    "nl": "De FTC heeft negen bedrijven in voedselbezorging, luchtvaart en ride-sharing gevraagd informatie te verstrekken over het gebruik van persoonsgegevens voor individuele prijzen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "005f2528861a",
+  "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+  "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+  "excerpt": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T13:42:40Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google announced Gemini 4 Carbon, a frontier model with benchmark results for finding, exploiting and patching vulnerabilities.",
+    "nl": "Google heeft Gemini 4 Carbon aangekondigd, een frontier-model met benchmarkresultaten voor het vinden, misbruiken en patchen van kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "e2bf564ec33e",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/",
+  "title": "Volt Typhoon targeted enterprise control planes via ever-changing “Silent Train” relay network",
+  "excerpt": "Volt Typhoon, a Chinese state-sponsored APT group that’s focused on cyberespionage and United States’ critical infrastructure, has been using a covert, constantly rotating relay network to hide its most sensitive intrusions, Lumen’s Black Lotus Labs revealed on Wednesday. This network, dubbed Silent Train by the researchers, consists of chains of compromised SOHO and IoT devices (e.g., TP-Link and Netgear routers) and enterprise systems (e.g., Fortinet and Cisco appliances, PRTG and CyberPanel servers). Through it, the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T13:42:13Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 72,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "TP-Link",
+    "Netgear",
+    "Fortinet",
+    "Cisco",
+    "PRTG",
+    "CyberPanel"
+   ],
+   "summary": {
+    "en": "Lumen's Black Lotus Labs reports Volt Typhoon uses a rotating relay network of compromised routers and enterprise appliances to hide intrusions into US critical infrastructure.",
+    "nl": "Lumen's Black Lotus Labs meldt dat Volt Typhoon een roulerend relaisnetwerk van gecompromitteerde routers en bedrijfsapparaten gebruikt om inbraken in Amerikaanse kritieke infrastructuur te verbergen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "342c74932bcc",
+  "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
+  "title": "Cyberattack disrupts Belgian tax services before filing deadline",
+  "excerpt": "The Federal Public Service Finance (FPS Finance), which oversees taxation and other financial administration, said Wednesday that it was investigating the extent of the attack and had temporarily suspended access to MyMinfin, the country's main online platform for managing tax and financial affairs.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T13:31:00Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack forced Belgium's Federal Public Service Finance to suspend access to its MyMinfin online tax platform before the filing deadline.",
+    "nl": "Een cyberaanval heeft de Belgische FOD Financien gedwongen de toegang tot het online belastingplatform MyMinfin op te schorten vlak voor de aangifteдeadline."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "56ef05760e8e",
+  "url": "https://therecord.media/new-mexico-cyberattack-hospital",
+  "title": "University of New Mexico restores hospital systems, urges no contact with hackers",
+  "excerpt": "The University of New Mexico was able to restore systems used by its healthcare facilities after a cyberattack forced it to divert ambulances and cancel classes at its medical school.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T13:30:00Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack forced the University of New Mexico to divert ambulances and cancel classes, and it has since restored hospital systems.",
+    "nl": "Een cyberaanval dwong de Universiteit van New Mexico ambulances om te leiden en lessen te annuleren, en inmiddels zijn de ziekenhuissystemen hersteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "4c2328d9bc58",
+  "url": "https://www.security.nl/posting/959580/VK+verwacht+voor+veel+volwassenen+leeftijdsverificatie+op+social+media?channel=rss",
+  "title": "VK verwacht voor veel volwassenen leeftijdsverificatie op social media",
+  "excerpt": "De Britse toezichthouder Ofcom verwacht dat veel volwassenen die nu actief zijn op social media leeftijdsverificatie moeten ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T13:14:02Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ofcom expects many adults active on social media to need age verification under UK rules.",
+    "nl": "De Britse toezichthouder Ofcom verwacht dat veel volwassenen die actief zijn op social media leeftijdsverificatie nodig hebben."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "b92910e87f20",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/oracle-e-business-suite-cve-2026-101767-exploitation/",
+  "title": "Exploitation attempts against recently patched Oracle EBS flaw have begun (CVE-2026-101767)",
+  "excerpt": "Exploitation attempts have started against CVE-2026-101767, a recently patched Oracle E-Business Suite (EBS) flaw. “Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767, an unauthenticated SQL injection in EBS’s Thin Client Framework servlet that chains to remote code execution, this morning, Oct 27,” Defused posted on X, noting that no public report of the flaw being attempted in the wild had existed before. About CVE-2026-101767 The flaw carries a CVSS score of 9.8 and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T13:12:24Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [
+   "CVE-2026-101767"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Exploitation attempts have started against CVE-2026-101767, a recently patched unauthenticated SQL injection flaw in Oracle E-Business Suite.",
+    "nl": "Er zijn pogingen tot misbruik begonnen van CVE-2026-101767, een recent gepatchte ongeauthenticeerde SQL-injectiekwetsbaarheid in Oracle E-Business Suite."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "f59a1e3c79b2",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/google-gemini-4-carbon-model/",
+  "title": "Google says Gemini 4 Carbon beats its predecessors at finding and fixing security flaws",
+  "excerpt": "Google’s Gemini 4 Carbon is a frontier AI model designed for software engineering and cybersecurity tasks, with safeguards built on those of its predecessor, Argon. SEC-bench Pro (Source: Google) Google says its teams have seen Carbon spend days investigating and fixing bugs across large codebases and low-level systems. The model was also trained to handle complex tasks and high-pressure situations. Finding and fixing security flaws According to Google, Carbon improves on its predecessors at finding … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T12:44:15Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google says its Gemini 4 Carbon model outperforms predecessors at finding and fixing security flaws in software.",
+    "nl": "Google zegt dat het model Gemini 4 Carbon zijn voorgangers overtreft in het vinden en repareren van beveiligingsfouten in software."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "aa73cba2a271",
+  "url": "https://www.security.nl/posting/959559/Overheid+deed+privacyonderzoek+naar+browsers%3A+%27Alternatieven+beter+dan+Edge%27?channel=rss",
+  "title": "Overheid deed privacyonderzoek naar browsers: 'Alternatieven beter dan Edge'",
+  "excerpt": "De Rijksoverheid heeft privacyonderzoek naar verschillende browsers laten uitvoeren, waaruit blijkt dat alle onderzochte ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T12:31:44Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "A Dutch government privacy study of browsers found the examined alternatives performed better than Microsoft Edge.",
+    "nl": "Een privacyonderzoek van de Rijksoverheid naar browsers concludeert dat de onderzochte alternatieven beter presteren dan Microsoft Edge."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "044f8d48752b",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/canonical-ubuntu-core-desktop/",
+  "title": "Ubuntu Core Desktop returns as Canonical’s plan for an immutable default desktop",
+  "excerpt": "Canonical has restarted work on Ubuntu Core Desktop, the immutable and attestable version of Ubuntu that the company says will over time become the default Ubuntu desktop. Jon Seager, Canonical’s VP of engineering, laid out the plan and admitted that the 2023 developer preview “fell short” of what the company had in mind. On Core Desktop, everything ships as a snap, Canonical’s sandboxed package format: the bootloader, the kernel, the desktop environment, background services and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T12:24:45Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Canonical"
+   ],
+   "summary": {
+    "en": "Canonical restarted work on Ubuntu Core Desktop, an immutable and attestable Ubuntu desktop it plans to make the default over time.",
+    "nl": "Canonical is opnieuw begonnen met Ubuntu Core Desktop, een onveranderlijke en attesteerbare Ubuntu-desktop die na verloop van tijd de standaard moet worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "d4d65b58877f",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+  "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+  "excerpt": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T12:00:07Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft released the KB5127936 preview cumulative update for Windows 11 with 41 changes and fixes.",
+    "nl": "Microsoft heeft de KB5127936 preview cumulatieve update voor Windows 11 uitgebracht met 41 wijzigingen en oplossingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "6745373d4653",
+  "url": "https://industrialcyber.co/cisa/cisa-2030-targets-ot-modernization-asset-visibility-supply-chain-security-through-risk-based-critical-infrastructure-defense/",
+  "title": "CISA 2030 targets OT modernization, asset visibility, supply chain security through risk-based critical infrastructure defense",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency released a new strategy that shifts the nation’s cyber defense from...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-29T11:45:21Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA released a new strategy shifting national cyber defense toward risk-based critical infrastructure protection, with focus on OT modernization, asset visibility and supply chain security.",
+    "nl": "CISA heeft een nieuwe strategie uitgebracht die de nationale cyberverdediging verschuift naar risicogebaseerde bescherming van kritieke infrastructuur, met aandacht voor OT-modernisering, asset-zichtbaarheid en supply chain-beveiliging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "974dd4ca2b2b",
+  "url": "https://industrialcyber.co/critical-infrastructure/mccormick-introduces-common-sense-cloud-security-act-to-strengthen-cloud-defenses-protect-critical-infrastructure/",
+  "title": "McCormick introduces Common-Sense Cloud Security Act to strengthen cloud defenses, protect critical infrastructure",
+  "excerpt": "A U.S. Republican Representative from Georgia introduced the Common-Sense Cloud Security Act to strengthen cloud cybersecurity by directing...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-29T11:45:04Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A US Representative introduced the Common-Sense Cloud Security Act, which would direct cloud security measures to strengthen defenses of critical infrastructure.",
+    "nl": "Een Amerikaanse Republikeinse afgevaardigde heeft de Common-Sense Cloud Security Act ingediend, die cloudbeveiliging moet versterken ter bescherming van kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "4c4cd6142493",
+  "url": "https://industrialcyber.co/news/omnitrust-launches-gridauth-to-strengthen-device-identity-and-trust-management-across-connected-energy-grids/",
+  "title": "OmniTrust launches GridAuth to strengthen device identity and trust management across connected energy grids",
+  "excerpt": "OmniTrust announced the launch of GridAuth, a device identity and trust management platform for energy utilities and equipment...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-29T11:40:35Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "OmniTrust"
+   ],
+   "summary": {
+    "en": "OmniTrust launched GridAuth, a device identity and trust management platform for energy utilities and equipment.",
+    "nl": "OmniTrust heeft GridAuth gelanceerd, een platform voor apparaatidentiteit en vertrouwensbeheer voor energiebedrijven en apparatuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "5a570ea1e7c2",
+  "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+  "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+  "excerpt": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T11:39:41Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A webinar on building AI threat readiness into security operations was announced.",
+    "nl": "Een webinar over AI-dreigingsparaatheid in security operations is aangekondigd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "dd1c518d70f0",
+  "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+  "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+  "excerpt": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec disclosed it on October 29. The flaw can be triggered in every version from",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T11:39:18Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A flaw in Telegram for Android allowed code execution via voice calls, fixed in version 12.10.4.",
+    "nl": "Een lek in Telegram voor Android maakte codeuitvoering via spraakoproepen mogelijk, opgelost in versie 12.10.4."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "e6aa25e9694d",
+  "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+  "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+  "excerpt": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T11:33:41Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article discusses how AI may change security analyst roles and SOC work.",
+    "nl": "Een artikel beschrijft hoe AI de rol van security-analisten en het werk in SOC's kan veranderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "c9e7c513e143",
+  "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+  "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+  "excerpt": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and reported the results on October 28. Most were keys for cloud and AI services, led by",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T11:33:15Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A researcher found 26,400 working cloud and AI credentials in public Gitee repositories.",
+    "nl": "Een onderzoeker vond 26.400 werkende cloud- en AI-credentials in openbare Gitee-repositories."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "4e85e7df4184",
+  "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+  "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+  "excerpt": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T11:10:13Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco released updates for a denial-of-service zero-day in ASA and FTD firewall software that attackers are exploiting.",
+    "nl": "Cisco heeft updates uitgebracht voor een denial-of-service zero-day in ASA- en FTD-firewallsoftware die actief wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "308adbd28add",
+  "url": "https://www.security.nl/posting/959555/Stichtingen+willen+dat+overheid+stopt+met+Facebook%3A+%27Ondermijnt+democratie%27?channel=rss",
+  "title": "Stichtingen willen dat overheid stopt met Facebook: 'Ondermijnt democratie'",
+  "excerpt": "De Rijksoverheid moet stoppen met gebruik van Facebook om te communiceren met burgers, omdat dit de democratie ondermijnt, zo ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T11:05:59Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Foundations ask the Dutch government to stop using Facebook for citizen communication.",
+    "nl": "Stichtingen vragen de Rijksoverheid te stoppen met het gebruik van Facebook voor communicatie met burgers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "083a1ea7d205",
+  "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+  "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+  "excerpt": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T10:44:46Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [
+   "CVE-2026-76418"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco patched an actively exploited high-severity flaw in ASA and FTD software that can crash firewalls, tracked as CVE-2026-76418.",
+    "nl": "Cisco heeft een actief misbruikt lek met hoge ernst in ASA- en FTD-software gepatcht dat firewalls kan laten crashen, gevolgd als CVE-2026-76418."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "80c5d1495c6e",
+  "url": "https://www.security.nl/posting/959552/Cyberaanval+op+Belgische+belastingdienst+maakt+belastingaangifte+onmogelijk?channel=rss",
+  "title": "Cyberaanval op Belgische belastingdienst maakt belastingaangifte onmogelijk",
+  "excerpt": "Een cyberaanval op de Belgische belastingdienst maakt het tijdelijk onmogelijk om belastingaangifte te doen of eerder gedane ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T10:42:00Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack on the Belgian tax authority temporarily prevented taxpayers from filing returns.",
+    "nl": "Een cyberaanval op de Belgische belastingdienst heeft tijdelijk belastingaangiften onmogelijk gemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "cf3544e85171",
+  "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+  "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+  "excerpt": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said. The feature, which currently supports only npm packages, is available in public preview",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T10:26:33Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GitHub introduced a public preview npm package firewall that blocks suspicious packages at install time.",
+    "nl": "GitHub heeft in public preview een npm-pakketfirewall geïntroduceerd die verdachte pakketten tijdens installatie blokkeert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "f4ad74c4ce64",
+  "url": "https://www.security.nl/posting/959544/AP%3A+incassobureaus+hebben+onvoldoende+zicht+op+risico%27s+van+AI-gebruik?channel=rss",
+  "title": "AP: incassobureaus hebben onvoldoende zicht op risico's van AI-gebruik",
+  "excerpt": "Nederlandse incassobureaus maken breed gebruik van AI, maar hebben onvoldoende zicht op de risico's die dit met zich meebrengt, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T10:17:00Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Data Protection Authority finds debt collection agencies lack sufficient oversight of AI-related risks.",
+    "nl": "De Autoriteit Persoonsgegevens constateert dat incassobureaus onvoldoende zicht hebben op de risico's van AI-gebruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "23ad2a7a1bf9",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/",
+  "title": "Hacktivists leak 41,000 DHS staff records, revealing undercover ICE agents",
+  "excerpt": "Names, offices, contact details and assignments of more than 41,000 U.S. Department of Homeland Security (DHS) employees have been leaked by a hacktivist group calling itself the Department of Peace. The group handed the data to the transparency collective Distributed Denial of Secrets (DDoSecrets) and to Swiss hacker and journalist maia arson crimew. DDoSecrets published the dataset, named Icepick, on October 28. According to the hacktivists, the records were taken from an Okta single sign-on … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T10:16:18Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A hacktivist group leaked records of more than 41,000 DHS employees, which were published by DDoSecrets.",
+    "nl": "Een hacktivistengroep heeft gegevens van meer dan 41.000 DHS-medewerkers gelekt, die door DDoSecrets zijn gepubliceerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "3070db05b909",
+  "url": "https://certvde.com/en/advisories/VDE-2026-127/",
+  "title": "Welotec: PHP2Shell Vulnerabilities in SMART EMS",
+  "excerpt": "[VDE-2026-127] Two memory-safety vulnerabilities in the PHP runtime bundled with SMART EMS allow an unauthenticated remote attacker to execute arbitrary code in the context of the PHP web worker. All SMART EMS versions up to and including v3.5.3 are affected. Exploitability and reliability depend on the PHP server interface, configuration, application behaviour, and worker reuse.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-29T10:00:00Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Welotec"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-127 reports PHP runtime memory-safety flaws in Welotec SMART EMS up to v3.5.3 allowing unauthenticated remote code execution.",
+    "nl": "CERT@VDE-advisory VDE-2026-127 meldt geheugenveiligheidslekken in de PHP-runtime van Welotec SMART EMS tot en met v3.5.3, die ongeauthenticeerde code-uitvoering op afstand mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "717404855003",
+  "url": "https://www.security.nl/posting/959537/EFF+wil+dat+Apple+en+Google+gebruikers+meer+controle+over+AI-features+geven?channel=rss",
+  "title": "EFF wil dat Apple en Google gebruikers meer controle over AI-features geven",
+  "excerpt": "De Amerikaanse burgerrechtenbeweging EFF wil dat Apple en Google gebruikers meer controle over AI-features op hun smartphone ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T09:56:10Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The EFF calls on Apple and Google to give users more control over AI features on smartphones.",
+    "nl": "De EFF wil dat Apple en Google gebruikers meer controle geven over AI-functies op smartphones."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "f3612eeadb59",
+  "url": "https://www.security.nl/posting/959527/VS+meldt+misbruik+van+%27Fragnesia%27+beveiligingslek+in+Linux-kernel?channel=rss",
+  "title": "VS meldt misbruik van 'Fragnesia' beveiligingslek in Linux-kernel",
+  "excerpt": "Aanvallers maken actief misbruik van een kwetsbaarheid in de Linux-kernel die bekendstaat als 'Fragnesia' en CVE-2026-46300, zo ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T09:22:41Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [
+   "CVE-2026-46300"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "US authorities report active exploitation of the Linux kernel vulnerability Fragnesia, tracked as CVE-2026-46300.",
+    "nl": "Amerikaanse autoriteiten melden actief misbruik van het Linux-kernellek Fragnesia, gevolgd als CVE-2026-46300."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "9ac8296dadd7",
+  "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+  "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+  "excerpt": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T09:05:39Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [
+   "CVE-2026-97229"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "GitLab"
+   ],
+   "summary": {
+    "en": "An attacker tried to exploit CVE-2026-97229, a CVSS 10.0 GitLab flaw, on Alpine Linux's GitLab server, without evidence of success.",
+    "nl": "Een aanvaller probeerde CVE-2026-97229, een GitLab-lek met CVSS 10.0, op de GitLab-server van Alpine Linux te misbruiken, zonder bewijs van succes."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
+  "id": "58058f989512",
+  "url": "https://www.security.nl/posting/959525/Elektronicaketen+Fnac+krijgt+7+miljoen+euro+boete+wegens+illegale+tracking?channel=rss",
+  "title": "Elektronicaketen Fnac krijgt 7 miljoen euro boete wegens illegale tracking",
+  "excerpt": "De Franse elektronicaketen Fnac heeft van de Franse privacytoezichthouder CNIIL een boete van 7 miljoen euro gekregen omdat het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T08:57:00Z",
+  "fetched": "2026-10-29T16:11:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "French privacy regulator CNIL fined electronics retailer Fnac 7 million euros for illegal tracking.",
+    "nl": "De Franse privacytoezichthouder CNIL heeft elektronicaketen Fnac een boete van 7 miljoen euro opgelegd voor illegale tracking."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
+  }
+ },
+ {
   "id": "bd8c5182d8f3",
   "url": "https://www.security.nl/posting/959522/Cisco+waarschuwt+opnieuw+voor+dos-aanvallen+tegen+vpn-service+firewalls?channel=rss",
   "title": "Cisco waarschuwt opnieuw voor dos-aanvallen tegen vpn-service firewalls",
@@ -27,6 +1181,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-29T08:33:54Z"
+  }
+ },
+ {
+  "id": "aabd8e14b270",
+  "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+  "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+  "excerpt": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28. Talos calls the attacks historical but does not specify when they",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T08:24:22Z",
+  "fetched": "2026-10-29T16:11:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco Talos reports attackers exploited a Cisco Catalyst SD-WAN flaw to plant KeyDrift malware that steals traffic encryption keys.",
+    "nl": "Cisco Talos meldt dat aanvallers een lek in Cisco Catalyst SD-WAN misbruikten om KeyDrift-malware te plaatsen die versleutelingssleutels steelt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T16:11:52Z"
   }
  },
  {
