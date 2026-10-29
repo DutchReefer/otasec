@@ -1,5 +1,219 @@
 [
  {
+  "id": "6c129a8658fc",
+  "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
+  "title": "Limited reports of PHP bug exploitation emerge",
+  "excerpt": "One cyber firm listed a half-dozen exploitations of the PHP2Shell bugs, and another identified a well targeted, suspected Chinese campaign that breached U.S. \"government affiliated\" servers.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T20:01:25Z",
+  "fetched": "2026-10-29T21:10:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers report limited exploitation of PHP2Shell bugs, including a suspected Chinese campaign that breached U.S. government affiliated servers.",
+    "nl": "Onderzoekers melden beperkte uitbuiting van PHP2Shell-kwetsbaarheden, waaronder een vermoedelijke Chinese campagne die Amerikaanse overheidsgerelateerde servers binnendrong."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
+  "id": "aacd7396929c",
+  "url": "https://therecord.media/general-motors-lawsuit-privacy",
+  "title": "GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms",
+  "excerpt": "General Motors agreed to pay $220 million to settle a lawsuit filed by a coalition of 36 state attorneys general who alleged the company unlawfully sold information about driver behavior to outside parties.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T19:45:00Z",
+  "fetched": "2026-10-29T21:10:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "General Motors agreed to pay $220 million to settle a lawsuit by 36 state attorneys general over selling driver behavior data.",
+    "nl": "General Motors gaat akkoord met een betaling van 220 miljoen dollar om een rechtszaak van 36 staten over de verkoop van gegevens over rijgedrag te schikken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
+  "id": "c7a99659074a",
+  "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+  "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
+  "excerpt": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T19:23:41Z",
+  "fetched": "2026-10-29T21:10:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A fake cryptocurrency app on the Apple App Store was linked to about $23,000 in theft from 27 Solana wallets.",
+    "nl": "Een nep-cryptohandelsapp in de Apple App Store wordt in verband gebracht met diefstal van ongeveer 23.000 dollar uit 27 Solana-wallets."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
+  "id": "7325900e53d9",
+  "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+  "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+  "excerpt": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T19:11:58Z",
+  "fetched": "2026-10-29T21:10:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup of cybersecurity stories covering firewall flaws, banking trojans, PDF weaponization and token theft.",
+    "nl": "Een wekelijks overzicht van cybersecurityverhalen over firewallkwetsbaarheden, bankingtrojans, gewapende PDF's en tokendiefstal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
+  "id": "e0b2e2dd2025",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+  "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+  "excerpt": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T18:38:26Z",
+  "fetched": "2026-10-29T21:10:34Z",
+  "cves": [
+   "CVE-2026-20127"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "An APT group tracked as UAT-11473 exploited CVE-2026-20127 in Cisco Catalyst SD-WAN Controllers to deploy the KeyDrift malware framework.",
+    "nl": "Een APT-groep, UAT-11473, misbruikte CVE-2026-20127 in Cisco Catalyst SD-WAN Controllers om het KeyDrift-malwareframework te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
+  "id": "9dee2a974bc5",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/php2shell-fragnesia-vmware-esx-zero-day/",
+  "title": "Chinese hackers used VMware ESX zero-day; PHP2Shell and Fragnesia chained to root firewalls",
+  "excerpt": "China-nexus threat actors have exploited a VMware ESX zero-day to hide their tracks and chained PHP2Shell flaws with the “Fragnesia” Linux kernel bug to root servers and firewalls, cybersecurity researchers claim. Cisco has also confirmed that attackers are crashing its firewalls with a newly disclosed vulnerability. VMware ESX zero-day helped Chinese spies cover their tracks Chinese APT group Warp Panda has leveraged an insufficient logging vulnerability (CVE-2026-41709) in Broadcom’s VMware ESX bare-metal hypervisor as a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T16:25:10Z",
+  "fetched": "2026-10-29T21:10:35Z",
+  "cves": [
+   "CVE-2026-41709"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "VMware",
+    "Broadcom",
+    "Cisco"
+   ],
+   "summary": {
+    "en": "China-nexus actors reportedly exploited a VMware ESX zero-day and chained PHP2Shell with a Linux kernel bug, while Cisco confirmed firewall crashes.",
+    "nl": "Naar verluidt misbruikten China-gelieerde actoren een VMware ESX zero-day en combineerden ze PHP2Shell met een Linux-kernelbug, terwijl Cisco bevestigde dat firewalls crashen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
+  "id": "31dc864af626",
+  "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack",
+  "title": "Federal bankruptcy courts contractor says no data stolen during cyber intrusion",
+  "excerpt": "\"No data was extracted,” a spokesperson for BAE Systems, a federal contractor, told Recorded Future News about its probe into a cyberattack against its systems for federal bankruptcy courts.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T16:13:00Z",
+  "fetched": "2026-10-29T21:10:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "BAE Systems says no data was extracted in a cyberattack on its systems supporting federal bankruptcy courts.",
+    "nl": "BAE Systems meldt dat er geen data is onttrokken bij een cyberaanval op zijn systemen voor federale faillissementsrechtbanken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
   "id": "0a74d1ae6d52",
   "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
   "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
@@ -25,6 +239,41 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-29T16:11:36Z"
+  }
+ },
+ {
+  "id": "649ecf4a57aa",
+  "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+  "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+  "excerpt": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T15:57:05Z",
+  "fetched": "2026-10-29T21:10:34Z",
+  "cves": [
+   "CVE-2026-98432"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Red Hat",
+    "Canonical"
+   ],
+   "summary": {
+    "en": "CVE-2026-98432, a Linux kernel TCP flaw rated CVSS 9.8, affects Ubuntu, Red Hat Enterprise Linux and other distributions.",
+    "nl": "CVE-2026-98432, een Linux-kernel TCP-kwetsbaarheid met CVSS 9.8, treft Ubuntu, Red Hat Enterprise Linux en andere distributies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
   }
  },
  {
@@ -5332,6 +5581,76 @@
   }
  },
  {
+  "id": "fcd88e1696ac",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+  "title": "ICSA-26-302-03: Hitachi Energy CoreTec Product",
+  "excerpt": "Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation. Sectors: Energy.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-27T00:00:00Z",
+  "fetched": "2026-10-29T21:10:35Z",
+  "cves": [
+   "CVE-2026-13162",
+   "CVE-2026-43284"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Hitachi Energy"
+   ],
+   "summary": {
+    "en": "Hitachi Energy reports OS command injection and Dirty Frag vulnerabilities affecting listed CoreTec product versions, with possible impact on confidentiality, integrity and availability.",
+    "nl": "Hitachi Energy meldt OS-command-injectie- en Dirty Frag-kwetsbaarheden in genoemde CoreTec-productversies, met mogelijke impact op vertrouwelijkheid, integriteit en beschikbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
+  "id": "4507cf021f9a",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+  "title": "ICSA-26-302-02: Hitachi Energy TRO600 series products",
+  "excerpt": "Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive information. Please refer to the Recommended Immediate Actions section for information about the mitigation/remediation. Sectors: Energy.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-27T00:00:00Z",
+  "fetched": "2026-10-29T21:10:36Z",
+  "cves": [
+   "CVE-2026-10756",
+   "CVE-2026-106087"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Hitachi Energy"
+   ],
+   "summary": {
+    "en": "Hitachi Energy advisory describes multiple vulnerabilities in TRO600 series products that can enable remote code execution and sensitive information disclosure.",
+    "nl": "Een advisory van Hitachi Energy beschrijft meerdere kwetsbaarheden in TRO600-productreeksen die remote code-uitvoering en het lekken van gevoelige informatie mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
   "id": "d7beccc725c3",
   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
   "title": "University of Copenhagen data breach exposes data of 525,000 people",
@@ -6936,6 +7255,40 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-26T20:31:49Z"
+  }
+ },
+ {
+  "id": "9f9c68e9f746",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+  "title": "ICSA-26-302-01: Siemens Mendix SAML Module",
+  "excerpt": "Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for the affected products and recommends to update to the latest versions. Sectors: Critical Manufacturing, Information Technology.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-26T00:00:00Z",
+  "fetched": "2026-10-29T21:10:36Z",
+  "cves": [
+   "CVE-2026-89209"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens Mendix SAML module has an authentication bypass allowing unauthenticated attackers to replay valid SAML assertions, and Siemens released fixed versions.",
+    "nl": "De Siemens Mendix SAML-module heeft een authenticatie-omzeiling waarmee ongeauthenticeerde aanvallers geldige SAML-beweringen kunnen herhalen, en Siemens heeft opgeloste versies uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T21:10:53Z"
   }
  },
  {
