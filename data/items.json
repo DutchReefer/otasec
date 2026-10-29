@@ -1,5 +1,213 @@
 [
  {
+  "id": "bd8c5182d8f3",
+  "url": "https://www.security.nl/posting/959522/Cisco+waarschuwt+opnieuw+voor+dos-aanvallen+tegen+vpn-service+firewalls?channel=rss",
+  "title": "Cisco waarschuwt opnieuw voor dos-aanvallen tegen vpn-service firewalls",
+  "excerpt": "Cisco waarschuwt organisaties opnieuw voor dos-aanvallen tegen de ssl vpn-service van ASA- en FTD-firewalls en heeft een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T08:29:18Z",
+  "fetched": "2026-10-29T08:33:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco again warns organizations about denial-of-service attacks against the SSL VPN service of ASA and FTD firewalls and has released a fix.",
+    "nl": "Cisco waarschuwt organisaties opnieuw voor denial-of-service-aanvallen op de SSL VPN-service van ASA- en FTD-firewalls en heeft een oplossing uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T08:33:54Z"
+  }
+ },
+ {
+  "id": "33d84e217e1c",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/nathan-smolenski-qualys-ai-vulnerability-management/",
+  "title": "Qualys CISO on what security teams can do as exploit campaigns grow",
+  "excerpt": "In this Help Net Security interview, Nathan Smolenski, CISO at Qualys, talks about how security teams can handle the growing volume of AI-discovered vulnerabilities. He explains why CISOs should track the average window of exposure instead of standard MTTR, and why only a small share of disclosed flaws, under one percent in 2025, pose active risk. Smolenski also covers how teams can build trust in autonomous remediation through asset tiering, human review, and rollback processes, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T06:30:04Z",
+  "fetched": "2026-10-29T08:33:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Qualys"
+   ],
+   "summary": {
+    "en": "A Qualys CISO interview discusses how security teams can manage growing volumes of AI-discovered vulnerabilities and autonomous remediation.",
+    "nl": "Een interview met de Qualys-CISO gaat over hoe securityteams omgaan met het groeiende aantal door AI ontdekte kwetsbaarheden en autonome remediatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T08:33:54Z"
+  }
+ },
+ {
+  "id": "e91f33b06ca8",
+  "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+  "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T06:22:33Z",
+  "fetched": "2026-10-29T08:33:34Z",
+  "cves": [
+   "CVE-2026-41709"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Broadcom VMware"
+   ],
+   "summary": {
+    "en": "CISA added a VMware ESX flaw, CVE-2026-41709, to its KEV catalog after a China-nexus actor exploited it against the U.S. legal sector.",
+    "nl": "CISA heeft een VMware ESX-kwetsbaarheid, CVE-2026-41709, aan de KEV-catalogus toegevoegd nadat een China-gelieerde dader deze had misbruikt tegen de Amerikaanse juridische sector."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T08:33:54Z"
+  }
+ },
+ {
+  "id": "269f26ee5c3b",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/tls-certificate-automation-report/",
+  "title": "IT bosses are confident they’ve found the certificates they don’t know about",
+  "excerpt": "Forty percent of 500 senior IT and security leaders surveyed for certificate authority Sectigo said they are very prepared for monthly TLS certificate renewals because automated systems are already in place. Their more specific answers point elsewhere. Only 4% said their certificate management is already automated, and 61% said their organization had a certificate-related outage or incident in the past 12 months. Source: Sectigo A TLS certificate is the file a website or service presents … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T06:00:06Z",
+  "fetched": "2026-10-29T08:33:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Sectigo"
+   ],
+   "summary": {
+    "en": "A Sectigo survey finds most IT leaders feel prepared for TLS certificate renewals, although few have automated certificate management.",
+    "nl": "Een enquete van Sectigo toont dat de meeste IT-leiders zich voorbereid voelen op TLS-certificaatvernieuwingen, hoewel weinig organisaties het certificaatbeheer geautomatiseerd hebben."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T08:33:54Z"
+  }
+ },
+ {
+  "id": "f4eff089be53",
+  "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+  "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+  "excerpt": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T05:50:17Z",
+  "fetched": "2026-10-29T08:33:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Palo Alto Networks reports active exploitation of recently patched PHP2Shell vulnerabilities against internet-exposed management interfaces.",
+    "nl": "Palo Alto Networks meldt actief misbruik van recent gepatchte PHP2Shell-kwetsbaarheden tegen managementinterfaces die aan het internet zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T08:33:54Z"
+  }
+ },
+ {
+  "id": "9a2691fd0190",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/itrc-identity-theft-recovery-report/",
+  "title": "Shame and sleepless nights haunt scam victims long after the money is gone",
+  "excerpt": "Scams and identity theft hurt people in different ways, and recovering involves much more than getting money back, according to ITRC’s 2026 Consumer Impact Report. Scam victims often struggle with shame and self-blame, while identity theft victims can spend weeks of personal effort trying to repair the damage. Source: ITRC Conducted in August and September 2026, the research surveyed 1,111 U.S. adults and a separate group of 197 victims who had contacted the ITRC for … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T05:30:22Z",
+  "fetched": "2026-10-29T08:33:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An ITRC report describes the emotional and practical impact of scams and identity theft on U.S. consumers.",
+    "nl": "Een rapport van ITRC beschrijft de emotionele en praktische gevolgen van oplichting en identiteitsdiefstal voor Amerikaanse consumenten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T08:33:54Z"
+  }
+ },
+ {
+  "id": "873edd2035b4",
+  "url": "https://www.helpnetsecurity.com/2026/10/29/cis-k-12-cybersecurity/",
+  "title": "Stolen staff logins are spreading attacks between K-12 school districts",
+  "excerpt": "Last school year, 808 K-12 school organizations got some unwelcome news. The Multi-State Information Sharing and Analysis Center (MS-ISAC) told them their staff accounts or credentials were circulating on underground and dark web marketplaces. That’s 808 of the center’s 6,116 K-12 members, and attackers are using those logins to get in the door and then reach the next district. In cases MS-ISAC tracked, an attacker phishes one legitimate district account, then uses it to send … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T05:00:01Z",
+  "fetched": "2026-10-29T08:33:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "MS-ISAC reports that stolen K-12 staff credentials are circulating online and attackers use them to phish and move between school districts.",
+    "nl": "MS-ISAC meldt dat gestolen inloggegevens van K-12-medewerkers online circuleren en dat aanvallers deze gebruiken om via phishing tussen schooldistricten te bewegen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-29T08:33:54Z"
+  }
+ },
+ {
   "id": "bf65784fd277",
   "url": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
   "title": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",

@@ -1,0 +1,179 @@
+{
+ "date": "2026-10-29",
+ "published": "2026-10-29T08:34:12Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 7,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Volt Typhoon's disrupted Silent Train access network leads a day that also brings a report on exploited flaws in network appliances, a new CISA advisory for EPICS Base and policy moves on cloud dependence and software liability."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Het verstoorde Silent Train-netwerk van Volt Typhoon voert de dag aan, naast een rapport over misbruikte kwetsbaarheden in netwerkapparatuur, een nieuw CISA-advies voor EPICS Base en beleidsontwikkelingen rond clouddependentie en softwareaansprakelijkheid."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "41bb41758014",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+     "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework"
+    },
+    {
+     "id": "10e92bd49867",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+     "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Volt Typhoon used Silent Train network for zero-day attacks",
+     "summary": "Chinese state-sponsored group Volt Typhoon has been attributed to a now-disrupted covert access network called Silent Train, first identified in late 2023. It relied on rotating chains of compromised SOHO, IoT and enterprise devices, and was used in four zero-day exploitation campaigns and for strategic access, according to a Lumen Black Lotus Labs report.",
+     "takeaway": "Review exposed edge, SOHO and IoT devices that touch your OT networks, and monitor for unexpected inbound connections from consumer or small-office infrastructure."
+    },
+    "nl": {
+     "heading": "Volt Typhoon gebruikte Silent Train-netwerk voor zero-day-aanvallen",
+     "summary": "De Chinese statelijke groep Volt Typhoon wordt gelinkt aan Silent Train, een inmiddels verstoord heimelijk toegangsnetwerk dat eind 2023 voor het eerst werd geïdentificeerd. Het netwerk gebruikte wisselende ketens van gecompromitteerde SOHO-, IoT- en enterprise-apparaten en werd ingezet bij vier zero-day-campagnes en voor strategische toegang, aldus een rapport van Lumen Black Lotus Labs.",
+     "takeaway": "Controleer blootgestelde edge-, SOHO- en IoT-apparaten met een koppeling naar je OT-netwerken en let op onverwachte inkomende verbindingen vanaf consumenten- of kleinkantoorinfrastructuur."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "784fb56154bf",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+     "title": "InfraTrust report warns of exploited flaws in critical network infrastructure"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: InfraTrust report on exploited network infrastructure flaws and PHP2Shell",
+     "summary": "An InfraTrust report warns that attackers are actively exploiting vulnerabilities across critical network infrastructure. The PHP2Shell flaws put web management interfaces of firewalls, VPNs, application delivery controllers and other appliances at risk.",
+     "takeaway": "Make sure appliance management interfaces are not reachable from untrusted networks and apply vendor patches for PHP2Shell where available."
+    },
+    "nl": {
+     "heading": "Update: InfraTrust-rapport over misbruikte kwetsbaarheden in netwerkinfrastructuur en PHP2Shell",
+     "summary": "Een rapport van InfraTrust waarschuwt dat aanvallers actief kwetsbaarheden in kritieke netwerkinfrastructuur misbruiken. De PHP2Shell-kwetsbaarheden brengen de webbeheerinterfaces van firewalls, VPN's, application delivery controllers en andere appliances in gevaar.",
+     "takeaway": "Zorg dat beheerinterfaces van appliances niet bereikbaar zijn vanaf onvertrouwde netwerken en pas waar beschikbaar leverancierspatches voor PHP2Shell toe."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "87b69890d118",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+     "title": "ICSA-26-300-01: EPICS Base"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-114595",
+    "CVE-2026-114596",
+    "CVE-2026-114597",
+    "CVE-2026-114598"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "CISA advisory: EPICS Base vulnerabilities",
+     "summary": "CISA published ICSA-26-300-01 for EPICS Base, covering CVE-2026-114595 to CVE-2026-114598. Exploitation could cause denial of service, memory corruption, information disclosure or potentially arbitrary code execution, with the Critical Manufacturing sector listed.",
+     "takeaway": "Check whether EPICS Base is used in your control or research systems and plan updates following the advisory guidance."
+    },
+    "nl": {
+     "heading": "CISA-advies: kwetsbaarheden in EPICS Base",
+     "summary": "CISA publiceerde ICSA-26-300-01 voor EPICS Base, met CVE-2026-114595 tot en met CVE-2026-114598. Misbruik kan leiden tot denial-of-service, geheugencorruptie, openbaarmaking van informatie of mogelijk het uitvoeren van willekeurige code; de sector Critical Manufacturing wordt genoemd.",
+     "takeaway": "Controleer of EPICS Base wordt gebruikt in je besturings- of onderzoekssystemen en plan updates volgens de richtlijnen uit het advies."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "294d1c231d27",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/959378/ACM%3A+Nederlandse+energieleveranciers+sterk+afhankelijk+van+Amerikaanse+cloud?channel=rss",
+     "title": "ACM: Nederlandse energieleveranciers sterk afhankelijk van Amerikaanse cloud"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "ACM: Dutch energy suppliers heavily dependent on US cloud",
+     "summary": "According to ACM, Dutch energy suppliers depend strongly on a limited number of US cloud providers, including Amazon.",
+     "takeaway": "Map which operational and customer-facing functions rely on a few cloud providers and review your exit and continuity plans."
+    },
+    "nl": {
+     "heading": "ACM: Nederlandse energieleveranciers sterk afhankelijk van Amerikaanse cloud",
+     "summary": "Volgens de ACM zijn Nederlandse energieleveranciers sterk afhankelijk van een beperkt aantal Amerikaanse cloudproviders, waaronder Amazon.",
+     "takeaway": "Breng in kaart welke operationele en klantgerichte functies van een paar cloudproviders afhangen en toets je exit- en continuïteitsplannen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "ddb9d5f06fc0",
+     "name": "The Record",
+     "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
+     "title": "Moldova investigates possible foreign involvement in major government cyberattack"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Moldova probes possible foreign involvement in government cyberattack",
+     "summary": "Moldova is investigating possible foreign involvement in a major cyberattack on government systems. Prime Minister Vasile Tofan said, per local media, that it may be part of a wider campaign targeting citizens' personal data and government digital infrastructure.",
+     "takeaway": "Operators supporting government or public services should review incident response readiness and monitoring of externally facing systems."
+    },
+    "nl": {
+     "heading": "Moldavië onderzoekt mogelijke buitenlandse betrokkenheid bij cyberaanval op overheid",
+     "summary": "Moldavië onderzoekt mogelijke buitenlandse betrokkenheid bij een grote cyberaanval op overheidssystemen. Premier Vasile Tofan zei volgens lokale media dat het mogelijk onderdeel is van een bredere campagne gericht op persoonsgegevens van burgers en digitale overheidsinfrastructuur.",
+     "takeaway": "Organisaties die overheid of publieke diensten ondersteunen doen er goed aan hun incidentrespons en monitoring van extern bereikbare systemen te toetsen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "bfd6a8fefd0e",
+     "name": "The Record",
+     "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches",
+     "title": "UK to look at making software companies liable for cyber breaches"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "UK to consider software vendor liability for cyber breaches",
+     "summary": "The new UK budget says the government will consider where liability for cyber breaches should sit. This could be a landmark shift for a country that has relied on voluntary codes for software vendor security.",
+     "takeaway": "Review supplier contracts and security requirements, as liability expectations for software vendors may shift."
+    },
+    "nl": {
+     "heading": "VK overweegt aansprakelijkheid van softwareleveranciers voor cyberinbreuken",
+     "summary": "In de nieuwe Britse begroting staat dat de overheid wil bekijken waar de aansprakelijkheid voor cyberinbreuken moet liggen. Dat kan een mijlpaal zijn voor een land dat voor de beveiliging door softwareleveranciers tot nu toe op vrijwillige codes leunde.",
+     "takeaway": "Bekijk leverancierscontracten en beveiligingseisen, want de verwachtingen rond aansprakelijkheid van softwareleveranciers kunnen verschuiven."
+    }
+   }
+  }
+ ]
+}
