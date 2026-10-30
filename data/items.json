@@ -1,5 +1,1086 @@
 [
  {
+  "id": "78ae005e8735",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
+  "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
+  "excerpt": "Cisco heeft een ernstige kwetsbaarheid verholpen in Cisco Secure Firewall Adaptive Security Appliance (ASA) en Cisco Secure Firewall Threat Defense (FTD). Cisco bevestigt dat de kwetsbaarheid actief wordt misbruikt. Deze kwetsbaarheid met kenmerk CVE-2026-76418 heeft een CVSS-score van 8.6 en bevindt zich in de Remote Access SSL VPN-functionaliteit. Een niet-geauthenticeerde kwaadwillende kan de kwetsbaarheid op afstand misbruiken door een speciaal vervaardigd verzoek naar de VPN-dienst te versturen. Hierdoor kan het getroffen apparaat onverwacht herstarten, wat kan leiden tot een…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-30T14:11:44Z",
+  "fetched": "2026-10-30T14:14:15Z",
+  "cves": [
+   "CVE-2026-76418"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Cisco fixed CVE-2026-76418, a CVSS 8.6 flaw in the Remote Access SSL VPN of Secure Firewall ASA and FTD, which Cisco confirms is being actively exploited.",
+    "nl": "Cisco heeft CVE-2026-76418, een kwetsbaarheid met CVSS 8.6 in de Remote Access SSL VPN van Secure Firewall ASA en FTD, verholpen; Cisco bevestigt actief misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  },
+  "title_en": "NCSC-2026-0463 [1.00] [M/H] Vulnerability fixed in Cisco Secure Firewall ASA and FTD Software"
+ },
+ {
+  "id": "911a5f530485",
+  "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+  "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+  "excerpt": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its security-focused mobile service helps defend against them. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T14:00:10Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor article explains how SS7 and Diameter signaling flaws can expose phone users and promotes its own mobile security service.",
+    "nl": "Een leveranciersartikel legt uit hoe zwakheden in SS7- en Diameter-signalering telefoongebruikers kunnen blootstellen en promoot een eigen mobiele dienst."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "a194dfa25ca2",
+  "url": "https://www.security.nl/posting/959780/DigiD+deels+niet+beschikbaar+als+gevolg+van+ddos-aanval?channel=rss",
+  "title": "DigiD deels niet beschikbaar als gevolg van ddos-aanval",
+  "excerpt": "DigiD is deels niet beschikbaar als gevolg van een ddos-aanval, zo laat DigiD-beheerder Logius weten. De storing met DigD begon ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T13:43:31Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A DDoS attack has partly disrupted the DigiD identity service, according to its administrator Logius.",
+    "nl": "Een ddos-aanval heeft de DigiD-dienst deels onbeschikbaar gemaakt, meldt beheerder Logius."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "48f4e8ab3e6c",
+  "url": "https://www.security.nl/posting/959776/Hackers+gebruikten+VMware+logging-lek+om+sporen+te+verbergen?channel=rss",
+  "title": "Hackers gebruikten VMware logging-lek om sporen te verbergen",
+  "excerpt": "Hackers hebben actief misbruik gemaakt van een kwetsbaarheid in VMware ESXi om hun sporen te verbergen, zo melden het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T13:23:09Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "VMware"
+   ],
+   "summary": {
+    "en": "Attackers actively exploited a VMware ESXi logging flaw to hide their traces on compromised systems.",
+    "nl": "Aanvallers hebben een logging-kwetsbaarheid in VMware ESXi actief misbruikt om hun sporen op gecompromitteerde systemen te verbergen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "50a577a23cbc",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0462",
+  "title": "NCSC-2026-0462 [1.00] [M/H] Kwetsbaarheden verholpen in Juniper Networks Session Smart Router en Session Smart Conductor",
+  "excerpt": "Juniper heeft meerdere kwetsbaarheden verholpen in Juniper Networks Session Smart Router en Session Smart Conductor. De kwetsbaarheden betreffen verschillende componenten van de Juniper Networks Session Smart Router en Session Smart Conductor. - Er zijn out-of-bounds read- en write-fouten in HTTP-parser, TCP proxy, TCP header verwerking en VRRPv3 packet verwerking, die kunnen leiden tot service crashes, geheugenbeschadiging, sessie desynchronisatie en mogelijke informatielekken. - Een improper initialisatieprobleem in de beveiligingspolicy kan leiden tot het gebruik van onjuiste…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-30T13:15:45Z",
+  "fetched": "2026-10-30T14:14:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Juniper Networks"
+   ],
+   "summary": {
+    "en": "Juniper fixed multiple memory and parsing flaws in its Session Smart Router and Session Smart Conductor products.",
+    "nl": "Juniper heeft meerdere geheugen- en parsefouten verholpen in de Session Smart Router en Session Smart Conductor."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "2a23fdb594e2",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/",
+  "title": "Assad regime hacker who caused $136 billion market drop sentenced to 42 months",
+  "excerpt": "A Syrian man who used a hijacked news agency Twitter account to post a fake report of explosions at the White House has been sentenced to 42 months in prison, the US Department of Justice has announced. Ahmad Umar Agha, also known as “Th3Pr0”, was sentenced on Thursday by a federal court in the Eastern District of Virginia for his central role in a hacking conspiracy organized and led by members of former Syrian President … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T13:00:40Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Syrian man was sentenced to 42 months in prison for a hijacked news agency account used to post a fake White House explosion report.",
+    "nl": "Een Syriër is veroordeeld tot 42 maanden gevangenisstraf voor het kapen van een nieuwsagentschap-account met een nep-bericht over explosies bij het Witte Huis."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "f916a3f37639",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+  "title": "CISA says max severity GitLab flaw now exploited in the wild",
+  "excerpt": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T13:00:32Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "GitLab"
+   ],
+   "summary": {
+    "en": "CISA reports that attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month.",
+    "nl": "CISA meldt dat aanvallers een GitLab-kwetsbaarheid met maximale ernst, deze maand gepatcht, actief zijn gaan misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "588110a20089",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya/",
+  "title": "Shufti ties AI agent actions to verified owners and permissions",
+  "excerpt": "Shufti launches Know Your Agent (KYA), an AI agent verification solution designed to verify autonomous AI agents acting on behalf of individuals and businesses. Agentic commerce enables AI agents to open accounts, place orders, and move funds for their owners. A business receiving one of these requests needs to know whether the agent is genuine, who is accountable for it, and whether the action falls within what that person approved. A valid access token alone … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T12:53:33Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Shufti launches a product to verify AI agents and their permissions for businesses.",
+    "nl": "Shufti lanceert een product om AI-agents en hun bevoegdheden voor bedrijven te verifiëren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "bb609cd39a09",
+  "url": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
+  "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
+  "excerpt": "The Investigatory Powers Commissioner’s Office (IPCO) in its annual report for 2025, published Thursday, said it was “very concerned” and “disappointed with the time it has taken GCHQ to investigate” the issue.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T12:52:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The UK watchdog IPCO says GCHQ cannot account for thousands of data storage devices.",
+    "nl": "De Britse toezichthouder IPCO stelt dat GCHQ geen zicht heeft op duizenden opslagapparaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "9bd41e8038f2",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation/",
+  "title": "Bedrock Data routes data exposure fixes to owners and verifies results",
+  "excerpt": "Bedrock Data has announced AI-assisted remediation, which federates the work of fixing data exposure to the data owners across the enterprise. Bedrock Data discovers who owns each exposed dataset, opens a ticket for that owner in the Jira or ServiceNow workflow the enterprise already runs and supplies the context needed to fix it. When the owner closes the ticket, Bedrock Data validates that the exposure is remediated and reopens the ticket if it is not. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T12:39:09Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bedrock Data announces an AI-assisted workflow that routes data exposure fixes to dataset owners.",
+    "nl": "Bedrock Data kondigt een AI-ondersteunde werkstroom aan die herstel van datablootstelling naar dataeigenaren stuurt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "21c20d4b759a",
+  "url": "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
+  "title": "Hackers target government Windows systems in Asia with new malware",
+  "excerpt": "The previously unknown malware, dubbed NetamLoader, uses legitimate Microsoft software components to execute malicious code, evade security tools and download additional programs onto infected computers.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T12:36:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Researchers describe NetamLoader, a new malware that targets government Windows systems in Asia using legitimate Microsoft components.",
+    "nl": "Onderzoekers beschrijven NetamLoader, nieuwe malware die Windows-systemen van overheden in Azië aanvalt via legitieme Microsoft-componenten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "f493677a409f",
+  "url": "https://www.security.nl/posting/959774/TeamViewer-lek+laat+aanvaller+systeem+van+helpdesk+overnemen?channel=rss",
+  "title": "TeamViewer-lek laat aanvaller systeem van helpdesk overnemen",
+  "excerpt": "Een beveiligingslek in TeamViewer maakt het mogelijk voor aanvallers om het systeem over te nemen dat met hun systeem ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T12:29:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "TeamViewer"
+   ],
+   "summary": {
+    "en": "A vulnerability in TeamViewer allows attackers to take over a helpdesk system via remote access.",
+    "nl": "Een kwetsbaarheid in TeamViewer stelt aanvallers in staat het helpdesksysteem over te nemen via externe toegang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  },
+  "title_en": "TeamViewer flaw lets attacker take over help desk system"
+ },
+ {
+  "id": "4eafb481bfd9",
+  "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+  "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+  "excerpt": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase. Trezor said in a blog post",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T12:21:56Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Trezor warns that a Safe 5 wallet sold by CryptoBilis may contain a hardware implant leaking recovery phrases.",
+    "nl": "Trezor waarschuwt dat een Safe 5-wallet van CryptoBilis mogelijk een hardware-implant bevat die herstelzinnen lekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "f909bb9d2569",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0461",
+  "title": "NCSC-2026-0461 [1.00] [M/H] Kwetsbaarheden verholpen in Linux kernel",
+  "excerpt": "Linux heeft kwetsbaarheden verholpen in de IPv4 TCP stack en het IPv4 networking subsystem van de Linux kernel. De eerste kwetsbaarheid betreft een race condition in de IPv4 TCP stack die leidt tot een use-after-free van socketopties tijdens gelijktijdige TCP SYN retransmissies of request socket migraties. Dit kan resulteren in systeeminstabiliteit of geheugenbeschadiging. De oorzaak is het voortijdig vrijgeven van inet_opt en ireq_opt structuren. De tweede kwetsbaarheid betreft een onjuiste validatie van checksum metadata in IPv4 pakketten, waardoor lokale aanvallers of onbetrouwbare…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-30T12:08:35Z",
+  "fetched": "2026-10-30T14:14:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Linux"
+   ],
+   "summary": {
+    "en": "Linux kernel fixes address a TCP race condition causing use-after-free and an IPv4 networking flaw.",
+    "nl": "Linux-kernelpatches verhelpen een TCP-race condition met use-after-free en een kwetsbaarheid in het IPv4-netwerksubsysteem."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "0e3774900031",
+  "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+  "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+  "excerpt": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T11:58:53Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An opinion piece argues that urgent security fixes stall because teams need proof that changes will not break services.",
+    "nl": "Een opiniestuk stelt dat urgente beveiligingsfixes blijven liggen omdat teams bewijs willen dat wijzigingen diensten niet verstoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "5e1e990cc664",
+  "url": "https://www.security.nl/posting/959769/Drupal+waarschuwt+voor+misbruik+van+kritiek+lek+dat+webshops+financieel+raakt?channel=rss",
+  "title": "Drupal waarschuwt voor misbruik van kritiek lek dat webshops financieel raakt",
+  "excerpt": "Aanvallers maken actief misbruik van een zeer kritieke kwetsbaarheid in Drupal Commerce Core voor het aanvallen van webwinkels, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T11:56:33Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Drupal warns that attackers are actively exploiting a critical flaw in Drupal Commerce Core to attack webshops.",
+    "nl": "Drupal waarschuwt dat aanvallers actief een kritieke kwetsbaarheid in Drupal Commerce Core misbruiken om webwinkels aan te vallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "e117daf244ef",
+  "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party",
+  "title": "Polymarket confirms cyberattack on third-party provider after outages",
+  "excerpt": "The company suffered outages starting at 2 p.m. Eastern U.S. time on Thursday and eventually attributed the downtime to a compromise involving an unnamed provider.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T11:33:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Polymarket confirms a cyberattack on a third-party provider caused outages.",
+    "nl": "Polymarket bevestigt dat een cyberaanval op een externe leverancier storingen heeft veroorzaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "8dd5d26e075a",
+  "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
+  "title": "Russian popular home goods chain faces days of disruption following cyberattack",
+  "excerpt": "Poryadok, which operates 48 stores across 32 Russian cities, first reported technical problems on Sunday, saying its website, mobile app and physical stores were temporarily unavailable.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T11:30:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russian home goods chain Poryadok faces days of disruption to its website, app and stores after a cyberattack.",
+    "nl": "Russische woonwarenketen Poryadok ondervindt dagenlange verstoringen van website, app en winkels na een cyberaanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "38df31cd7547",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+  "title": "Microsoft finally fixes VPN issues caused by September updates",
+  "excerpt": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T11:20:26Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft resolved Always On VPN connection failures caused by the September 2026 Windows 11 security updates.",
+    "nl": "Microsoft heeft Always On VPN-verbindingsproblemen verholpen die door de Windows 11-beveiligingsupdates van september 2026 waren veroorzaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "ae9fb9678104",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+  "title": "Claude Code extension poisoned with persistent SSH backdoor",
+  "excerpt": "A tampered build of Anthropic’s Claude Code extension for VS Code-compatible editors planted an SSH backdoor on developers’ machines, researchers at macOS security firm Phorion have found. The company spotted the malicious package, version 2.1.313, on Open VSX, an open-source marketplace for VS Code extensions run by the Eclipse Foundation. VS Code’s default extension store is Microsoft’s Visual Studio Marketplace, where no malicious version has been reported. Its terms of use limit it to Microsoft’s … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T11:15:26Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "A tampered Claude Code extension version 2.1.313 on Open VSX planted an SSH backdoor on developer machines.",
+    "nl": "Een gemanipuleerde Claude Code-extensie versie 2.1.313 op Open VSX plaatste een SSH-achterdeur op ontwikkelaarsmachines."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:38Z"
+  }
+ },
+ {
+  "id": "14a4c29f8b7f",
+  "url": "https://www.security.nl/posting/959754/Backdoor+in+Anthropic+Claude+Code-extensie+raakt+duizenden+gebruikers?channel=rss",
+  "title": "Backdoor in Anthropic Claude Code-extensie raakt duizenden gebruikers",
+  "excerpt": "Aanvallers zijn erin geslaagd om een officiële extensie van AI-bedrijf Anthropic te voorzien van een backdoor, zo waarschuwen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T10:52:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "A backdoor was reportedly placed in an official Anthropic Claude Code extension, affecting thousands of users.",
+    "nl": "Er zou een backdoor zijn geplaatst in een officiële Anthropic Claude Code-extensie, die duizenden gebruikers raakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "6734aa3aec6c",
+  "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+  "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+  "excerpt": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T10:40:45Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Syrian hacker known as Th3Pr0 was sentenced to 42 months in prison for a hacking conspiracy targeting Western news outlets.",
+    "nl": "Een Syrische hacker bekend als Th3Pr0 is veroordeeld tot 42 maanden gevangenisstraf voor een hackcomplot tegen westerse nieuwsmedia."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "2da1669d518a",
+  "url": "https://www.security.nl/posting/959744/WordPress+dicht+lek+dat+aanvaller+code+laat+uitvoeren%2C+aanvallen+gemeld?channel=rss",
+  "title": "WordPress dicht lek dat aanvaller code laat uitvoeren, aanvallen gemeld",
+  "excerpt": "WordPress heeft afgelopen woensdag 28 oktober een beveiligingsupdate uitgebracht voor een kwetsbaarheid die ongeauthenticeerde ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T10:18:33Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "WordPress"
+   ],
+   "summary": {
+    "en": "WordPress released a security update for a flaw allowing unauthenticated code execution, and attacks have been reported.",
+    "nl": "WordPress heeft een beveiligingsupdate uitgebracht voor een lek waarmee ongeauthenticeerde code kan worden uitgevoerd, en er zijn aanvallen gemeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "bcc6fcc83b0a",
+  "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+  "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+  "excerpt": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T10:16:07Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Drupal warned admins to patch a critical access bypass flaw in Commerce Core that attackers are exploiting.",
+    "nl": "Drupal waarschuwt beheerders een kritieke toegangsomzeiling in Commerce Core te patchen, die aanvallers actief misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "8f7aa74d7e00",
+  "url": "https://www.security.nl/posting/959742/Tor+Project+lanceert+na+een+jaar+grote+nieuwe+versie+van+Tor+Browser?channel=rss",
+  "title": "Tor Project lanceert na een jaar grote nieuwe versie van Tor Browser",
+  "excerpt": "Het Tor Project heeft Tor Browser 16 gelanceerd, de eerste grote versie-update in een jaar. Deze versie bevat honderden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T09:55:09Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Tor Project"
+   ],
+   "summary": {
+    "en": "The Tor Project released Tor Browser 16, its first major version update in a year, with hundreds of changes.",
+    "nl": "Het Tor Project heeft Tor Browser 16 uitgebracht, de eerste grote versie-update in een jaar, met honderden wijzigingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "a6054bb621e3",
+  "url": "https://www.security.nl/posting/959731/Synology+NAS-systemen+via+oud+beveiligingslek+getroffen+door+ransomware?channel=rss",
+  "title": "Synology NAS-systemen via oud beveiligingslek getroffen door ransomware",
+  "excerpt": "Online toegankelijke Synology NAS-systemen zijn getroffen door ransomware-aanvallen waarbij allerlei bestanden zijn ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T09:29:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Synology"
+   ],
+   "summary": {
+    "en": "Internet-accessible Synology NAS systems were hit by ransomware attacks exploiting an old security flaw.",
+    "nl": "Online toegankelijke Synology NAS-systemen zijn getroffen door ransomware-aanvallen via een oud beveiligingslek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "20da8c1bc261",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/irregular-glm-5-3-cyber-capabilities-evaluation/",
+  "title": "Open-weight AI model GLM-5.3 cheated its way to correct answers",
+  "excerpt": "Irregular evaluated Zhipu AI’s open-weight model GLM-5.3 across 13 offensive cyber scenarios using CyScenarioBench, the company’s framework for measuring an LLM’s ability to plan and execute multistage attacks under realistic constraints. The model refused none of the tasks and completed three scenarios at least once each, carrying attacks through dependent stages to reach objectives in simulated networks. Irregular said this was the strongest result it had recorded for an open-weight model. Offensive cyber capabilities Researchers … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T09:23:25Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Zhipu AI"
+   ],
+   "summary": {
+    "en": "Irregular tested the open-weight GLM-5.3 model on 13 offensive cyber scenarios and reported it completed three scenarios.",
+    "nl": "Irregular testte het open-weight model GLM-5.3 op 13 offensieve cyberscenario's en meldt dat drie scenario's zijn voltooid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "7113222fb52e",
+  "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+  "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+  "excerpt": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T09:18:13Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Binance"
+   ],
+   "summary": {
+    "en": "Binance linked a theft of about $6.3 billion in cryptocurrency to a compromised DevOps engineer laptop.",
+    "nl": "Binance koppelt een diefstal van ongeveer 6,3 miljard dollar aan cryptovaluta aan de gecompromitteerde laptop van een DevOps-engineer."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "249aa1d13480",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0460",
+  "title": "NCSC-2026-0460 [1.00] [M/H] Kwetsbaarheden verholpen in Dell PowerProtect Data Domain",
+  "excerpt": "Dell heeft meerdere kritieke kwetsbaarheden verholpen in PowerProtect Data Domain, Data Domain Virtual Edition en Data Domain Management Center. De kritieke wetsbaarheden met kenmerk CVE-2026-103780, CVE-2026-86384, CVE-2026-86397 en CVE-2026-86400 in Dell PowerProtect Data Domain, hebben een CVSS-score van 9.8. Een niet-geauthenticeerde kwaadwillende kan deze kwetsbaarheden op afstand misbruiken om willekeurige opdrachten uit te voeren, inloggegevens te verkrijgen of accounts met verhoogde rechten aan te maken. Daarnaast heeft Dell drie kritieke kwetsbaarheden verholpen in Data Domain…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-10-30T09:10:19Z",
+  "fetched": "2026-10-30T14:14:15Z",
+  "cves": [
+   "CVE-2026-103780",
+   "CVE-2026-86384",
+   "CVE-2026-86397",
+   "CVE-2026-86400"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Dell"
+   ],
+   "summary": {
+    "en": "Dell fixed multiple critical vulnerabilities in PowerProtect Data Domain products, some rated CVSS 9.8.",
+    "nl": "Dell heeft meerdere kritieke kwetsbaarheden verholpen in PowerProtect Data Domain-producten, sommige met CVSS 9,8."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "ad2cc061f552",
+  "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+  "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+  "excerpt": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T08:55:47Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Anthropic",
+    "Cursor"
+   ],
+   "summary": {
+    "en": "A trojanized Claude Code extension with an SSH backdoor was distributed through the Cursor Marketplace as a legitimate update.",
+    "nl": "Een gemanipuleerde Claude Code-extensie met SSH-backdoor werd via de Cursor Marketplace verspreid als legitieme update."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "365589b747dc",
+  "url": "https://www.security.nl/posting/959723/Tweede+Kamer+wil+gebruik+van+generatieve+AI+op+basisscholen+verbieden?channel=rss",
+  "title": "Tweede Kamer wil gebruik van generatieve AI op basisscholen verbieden",
+  "excerpt": "De Tweede Kamer wil dat het gebruik van generatieve AI op basisscholen wordt verboden. Een motie van Volt die hiertoe oproept ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T08:53:58Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch House of Representatives backs a motion calling for a ban on generative AI use in primary schools.",
+    "nl": "De Tweede Kamer steunt een motie die oproept tot een verbod op generatieve AI op basisscholen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "d4d357bce1c3",
+  "url": "https://www.security.nl/posting/959717/Miljardendiefstal+bij+cryptobeurs+Binance+mogelijk+via+gehackte+laptop+engineer?channel=rss",
+  "title": "Miljardendiefstal bij cryptobeurs Binance mogelijk via gehackte laptop engineer",
+  "excerpt": "Aanvallers zijn erin geslaagd om bij cryptobeurs Binance miljarden euro's aan cryptovaluta te stelen, wat mogelijk via de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T08:28:16Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Binance"
+   ],
+   "summary": {
+    "en": "Billions in cryptocurrency were stolen from Binance, possibly through a compromised engineer laptop.",
+    "nl": "Miljarden aan cryptovaluta zijn bij Binance gestolen, mogelijk via de gecompromitteerde laptop van een engineer."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "60e820c77e2f",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
+  "title": "Binance hit by $6.3 billion theft in what could be the biggest crypto heist on record",
+  "excerpt": "About $6.3 billion in cryptocurrency was stolen from Binance in what might be the biggest crypto hack in history. “Binance’s initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions,” the exchange said in a security update published early on October 30. The company found no evidence of a wallet private key leak and plans … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T08:26:13Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Binance"
+   ],
+   "summary": {
+    "en": "About $6.3 billion in cryptocurrency was stolen from Binance, possibly via a compromised DevOps engineer laptop.",
+    "nl": "Ongeveer 6,3 miljard dollar aan cryptovaluta is bij Binance gestolen, mogelijk via de gecompromitteerde laptop van een DevOps-engineer."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "6d2a0802c49f",
+  "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+  "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+  "excerpt": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T07:45:30Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [
+   "CVE-2026-118539"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Threat actors are exploiting a highly critical missing authorization flaw tracked as CVE-2026-118539 in Drupal Commerce Core.",
+    "nl": "Dreigingsactoren misbruiken een zeer kritieke ontbrekende autorisatiekwetsbaarheid, CVE-2026-118539, in Drupal Commerce Core."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "5100bc6323f0",
+  "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+  "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T07:27:05Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [
+   "CVE-2026-97229"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "GitLab",
+    "Cisco"
+   ],
+   "summary": {
+    "en": "CISA added actively exploited GitLab and Cisco firewall flaws, including CVE-2026-97229, to its KEV catalog.",
+    "nl": "CISA heeft actief misbruikte GitLab- en Cisco-firewallkwetsbaarheden, waaronder CVE-2026-97229, aan de KEV-catalogus toegevoegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "a54f6961866c",
+  "url": "https://industrialcyber.co/reports/australia-reports-20-rise-in-cyber-incidents-nearly-80-jump-in-threat-notifications-amid-critical-infrastructure-risks/",
+  "title": "Australia reports 20% rise in cyber incidents, nearly 80% jump in threat notifications amid critical infrastructure risks",
+  "excerpt": "The Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) responded to more than 1,500 cybersecurity incidents during...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-30T07:12:03Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Australian Signals Directorate's ACSC responded to over 1,500 cyber incidents, with reported incidents up 20% amid critical infrastructure risks.",
+    "nl": "Het Australische ACSC behandelde meer dan 1.500 cyberincidenten, met 20% meer gemelde incidenten en risico's voor kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
   "id": "2c67627d7a8d",
   "url": "https://industrialcyber.co/nist/nist-outlines-10-design-tenets-to-strengthen-ai-agent-identity-and-access-management-proposes-safeguards/",
   "title": "NIST outlines 10 design tenets to strengthen AI agent identity and access management, proposes safeguards",
@@ -196,6 +1277,34 @@
   }
  },
  {
+  "id": "c4148e46a961",
+  "url": "https://industrialcyber.co/ransomware/fdd-urges-nist-nsa-to-evaluate-vaultless-keyless-pseudonymization-as-safeguard-against-ransomware-attacks/",
+  "title": "FDD urges NIST, NSA to evaluate vaultless, keyless pseudonymization as safeguard against ransomware attacks",
+  "excerpt": "The Foundation for Defense of Democracies (FDD) warned that encryption alone cannot adequately protect sensitive data as it...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-30T05:21:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FDD urges NIST and NSA to evaluate vaultless, keyless pseudonymization as a safeguard against ransomware.",
+    "nl": "De FDD roept NIST en NSA op vaultless, keyless pseudonimisering als bescherming tegen ransomware te evalueren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
   "id": "0dfdc466bd16",
   "url": "https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/",
   "title": "Smart TVs can harbor unpatched security flaws and track what you watch",
@@ -249,6 +1358,107 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "bf8695e62497",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-898633.html",
+  "title": "SSA-898633 V1.0: Node2Shell Vulnerability in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
+  "excerpt": "Palo Alto Networks has published [1] information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the workarounds provided in Palo Alto Networks’ upstream security notifications. [1] https://security.paloaltonetworks.com/CVE-2026-111497",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-30T00:00:00Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "RUGGEDCOM",
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Siemens published advisory SSA-898633 on the Node2Shell vulnerability (CVE-2026-111497) in PAN-OS affecting RUGGEDCOM APE1808 devices, referring to upstream workarounds.",
+    "nl": "Siemens publiceerde advisory SSA-898633 over de Node2Shell-kwetsbaarheid (CVE-2026-111497) in PAN-OS die RUGGEDCOM APE1808-apparaten treft, met verwijzing naar upstream workarounds."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "97a863462fa4",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-443410.html",
+  "title": "SSA-443410 V1.0: Node2Shell Vulnerability in Industrial Edge Management Applications",
+  "excerpt": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK. Management Applications installed: Follow the specific mitigations until a fix is available. For Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been…",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-30T00:00:00Z",
+  "fetched": "2026-10-30T14:14:13Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Industrial Edge"
+   ],
+   "summary": {
+    "en": "Siemens is assessing the Node2Shell (CVE-2026-111497) impact on Industrial Edge and advises checking Industrial Edge Management setups for mitigations.",
+    "nl": "Siemens beoordeelt de impact van Node2Shell (CVE-2026-111497) op Industrial Edge en adviseert de Industrial Edge Management-opzet te controleren op mitigaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "2b8459f0048f",
+  "url": "https://therecord.media/binance-hit-by-record-6-billion-crypto-hack",
+  "title": "Binance hit by record $6.3 billion crypto hack, scrambles to freeze funds",
+  "excerpt": "Binance, the world's largest cryptocurrency exchange, confirmed that it had been hacked in a $6.3 billion heist that blockchain investigators are blaming on North Korea.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T00:00:00Z",
+  "fetched": "2026-10-30T14:14:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Binance"
+   ],
+   "summary": {
+    "en": "Binance confirmed a $6.3 billion hack, which blockchain investigators attribute to North Korea.",
+    "nl": "Binance bevestigde een hack van 6,3 miljard dollar, die blockchainonderzoekers toeschrijven aan Noord-Korea."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T14:14:58Z"
   }
  },
  {
