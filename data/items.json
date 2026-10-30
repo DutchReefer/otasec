@@ -1,5 +1,145 @@
 [
  {
+  "id": "df0315646633",
+  "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+  "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+  "excerpt": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T23:35:52Z",
+  "fetched": "2026-10-30T01:04:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI says it will not reduce usage limits for several ChatGPT Pro and Business Premium plans and will keep Dots usage independent.",
+    "nl": "OpenAI zegt de gebruikslimieten voor meerdere ChatGPT Pro- en Business Premium-abonnementen niet te verlagen en houdt het Dots-gebruik onafhankelijk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T01:04:16Z"
+  }
+ },
+ {
+  "id": "b5fbb5f96550",
+  "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+  "title": "Binance probes potential $5.8 billion crypto-theft hack",
+  "excerpt": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T22:45:23Z",
+  "fetched": "2026-10-30T01:04:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Binance is investigating a potential breach involving up to $5.8 billion in digital assets, which could become the largest crypto hack.",
+    "nl": "Binance onderzoekt een mogelijke inbreuk waarbij mogelijk tot 5,8 miljard dollar aan digitale activa betrokken is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T01:04:16Z"
+  }
+ },
+ {
+  "id": "59ad7b959123",
+  "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+  "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+  "excerpt": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T22:09:24Z",
+  "fetched": "2026-10-30T01:04:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A crypto-mining campaign abusing Hugging Face models returned after takedown, hijacking GPU servers and planting backdoors.",
+    "nl": "Een cryptomining-campagne die Hugging Face-modellen misbruikt, is na een takedown teruggekeerd en kaapt GPU-servers en plaatst backdoors."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T01:04:16Z"
+  }
+ },
+ {
+  "id": "dcfc83564a4e",
+  "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+  "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+  "excerpt": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T22:08:04Z",
+  "fetched": "2026-10-30T01:04:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Japan Airlines reports a breach at Amadeus's Passenger Service System that exposed data of about 92,000 customers.",
+    "nl": "Japan Airlines meldt een datalek bij het Passenger Service System van Amadeus waarbij gegevens van circa 92.000 klanten zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T01:04:16Z"
+  }
+ },
+ {
+  "id": "f5009121caa2",
+  "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+  "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+  "excerpt": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected attacker wallet. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-29T21:47:25Z",
+  "fetched": "2026-10-30T01:04:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Polymarket suspended trading after hackers compromised a third-party service to distribute crypto-draining JavaScript, with about $2.5 million traced to an attacker wallet.",
+    "nl": "Polymarket heeft de handel tijdelijk stilgelegd nadat hackers een externe dienst compromitteerden om crypto-leegzuigend JavaScript te verspreiden, met circa 2,5 miljoen dollar aan een aanvallerswallet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T01:04:16Z"
+  }
+ },
+ {
   "id": "6c129a8658fc",
   "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
   "title": "Limited reports of PHP bug exploitation emerge",
