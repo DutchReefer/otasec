@@ -1,5 +1,61 @@
 [
  {
+  "id": "e6b748dfb735",
+  "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+  "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+  "excerpt": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T21:09:46Z",
+  "fetched": "2026-10-30T23:50:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers at Anthropic developed an exploit for a critical Linux kernel flaw that allows unauthenticated remote root command execution on servers with MPTCP listeners.",
+    "nl": "Onderzoekers bij Anthropic hebben een exploit ontwikkeld voor een kritieke Linux-kernelkwetsbaarheid waarmee onbevoegde aanvallers op servers met MPTCP-listeners op afstand commando's als root kunnen uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T23:51:07Z"
+  }
+ },
+ {
+  "id": "ce4d8aef3066",
+  "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+  "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
+  "excerpt": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T20:45:00Z",
+  "fetched": "2026-10-30T23:50:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US DOJ's Executive Office for U.S. Trustees says a consumer privacy ombudsman is needed to advise on how Character.AI chat data may be sold.",
+    "nl": "Het Amerikaanse DOJ stelt dat een consumentenprivacy-ombudsman nodig is om te adviseren over de verkoop van Character.AI-chatdata."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T23:51:07Z"
+  }
+ },
+ {
   "id": "84a2c916c34c",
   "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
   "title": "Fashion retailer Resolve says hackers stole payment card information",
