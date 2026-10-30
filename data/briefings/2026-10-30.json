@@ -1,0 +1,193 @@
+{
+ "date": "2026-10-30",
+ "published": "2026-10-30T07:12:31Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 8,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Today's briefing follows up on PHP2Shell, now reaching Welotec SMART EMS, and on Volt Typhoon's Silent Train relay network. It also covers the University of New Mexico recovery and new US policy and guidance on CISA 2030, cloud security and AI agent identity."
+  },
+  "nl": {
+   "title": "",
+   "intro": "De briefing van vandaag volgt PHP2Shell, nu ook bij Welotec SMART EMS, en het Silent Train-relaisnetwerk van Volt Typhoon. Verder: het herstel bij de University of New Mexico en nieuw Amerikaans beleid en nieuwe richtlijnen over CISA 2030, cloudbeveiliging en identiteit van AI-agents."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "3070db05b909",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-127/",
+     "title": "Welotec: PHP2Shell Vulnerabilities in SMART EMS"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: PHP2Shell flaws reach Welotec SMART EMS",
+     "summary": "CERT@VDE published advisory VDE-2026-127 for Welotec SMART EMS. Two memory-safety vulnerabilities in the bundled PHP runtime allow an unauthenticated remote attacker to execute arbitrary code in the context of the PHP web worker. All versions up to and including v3.5.3 are affected, and exploitability depends on the PHP server interface, configuration and worker reuse.",
+     "takeaway": "Check whether SMART EMS is deployed in your environment, apply the vendor's guidance for versions up to v3.5.3 and limit remote access to the web interface."
+    },
+    "nl": {
+     "heading": "Update: PHP2Shell-kwetsbaarheden bereiken Welotec SMART EMS",
+     "summary": "CERT@VDE publiceerde advisory VDE-2026-127 voor Welotec SMART EMS. Twee geheugenfouten in de meegeleverde PHP-runtime laten een ongeauthenticeerde aanvaller op afstand willekeurige code uitvoeren in de context van de PHP-webworker. Alle versies tot en met v3.5.3 zijn getroffen; de uitbuitbaarheid hangt af van de PHP-serverinterface, de configuratie en hergebruik van workers.",
+     "takeaway": "Controleer of SMART EMS in uw omgeving draait, pas de aanwijzingen van de leverancier toe voor versies tot en met v3.5.3 en beperk toegang op afstand tot de webinterface."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "e2bf564ec33e",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/",
+     "title": "Volt Typhoon targeted enterprise control planes via ever-changing “Silent Train” relay network"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Volt Typhoon hid sensitive intrusions behind Silent Train relays",
+     "summary": "Lumen's Black Lotus Labs reports that the Chinese state-sponsored group Volt Typhoon used a constantly rotating relay network, named Silent Train, to hide its most sensitive intrusions. The network consists of chains of compromised SOHO and IoT devices, and the group targeted enterprise control planes.",
+     "takeaway": "Review internet-facing SOHO and IoT devices at remote sites and monitor traffic into enterprise management systems that sit next to OT."
+    },
+    "nl": {
+     "heading": "Update: Volt Typhoon verborg gevoelige inbraken achter Silent Train-relais",
+     "summary": "Black Lotus Labs van Lumen meldt dat de Chinese staatsgesponsorde groep Volt Typhoon een voortdurend wisselend relaisnetwerk, Silent Train genoemd, gebruikte om de meest gevoelige inbraken te verbergen. Het netwerk bestaat uit ketens van gecompromitteerde SOHO- en IoT-apparaten, en de groep richtte zich op enterprise control planes.",
+     "takeaway": "Controleer vanaf internet bereikbare SOHO- en IoT-apparaten op externe locaties en monitor verkeer richting beheersystemen van de organisatie die aan OT grenzen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "56ef05760e8e",
+     "name": "The Record",
+     "url": "https://therecord.media/new-mexico-cyberattack-hospital",
+     "title": "University of New Mexico restores hospital systems, urges no contact with hackers"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: University of New Mexico restores hospital systems after cyberattack",
+     "summary": "The University of New Mexico has restored the systems used by its healthcare facilities after an attack that forced it to divert ambulances and cancel classes at its medical school. The university urges people not to contact the hackers.",
+     "takeaway": "Test whether your continuity plans for clinical and operational systems cover diverted services and a staged restoration."
+    },
+    "nl": {
+     "heading": "Update: University of New Mexico herstelt ziekenhuissystemen na cyberaanval",
+     "summary": "De University of New Mexico heeft de systemen van haar zorginstellingen hersteld na een aanval waarbij ambulances moesten uitwijken en lessen aan de medische faculteit werden geannuleerd. De universiteit roept op geen contact op te nemen met de hackers.",
+     "takeaway": "Toets of uw continuïteitsplannen voor klinische en operationele systemen uitwijkscenario's en gefaseerd herstel afdekken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6745373d4653",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/cisa/cisa-2030-targets-ot-modernization-asset-visibility-supply-chain-security-through-risk-based-critical-infrastructure-defense/",
+     "title": "CISA 2030 targets OT modernization, asset visibility, supply chain security through risk-based critical infrastructure defense"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: CISA 2030 strategy emphasises OT modernization and asset visibility",
+     "summary": "Coverage of the CISA 2030 strategy highlights its focus on OT modernization, asset visibility and supply chain security. It describes a shift towards risk-based defense of critical infrastructure.",
+     "takeaway": "Use the strategy's priorities as a checklist for your own OT asset inventory and supplier security work."
+    },
+    "nl": {
+     "heading": "Update: CISA 2030-strategie legt nadruk op OT-modernisering en asset-inzicht",
+     "summary": "Nieuwe berichtgeving over de CISA 2030-strategie benadrukt de focus op OT-modernisering, asset-inzicht en beveiliging van de toeleveringsketen. De strategie beschrijft een verschuiving naar risicogebaseerde verdediging van kritieke infrastructuur.",
+     "takeaway": "Gebruik de prioriteiten uit de strategie als checklist voor uw eigen OT-assetinventaris en leveranciersbeveiliging."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "2c67627d7a8d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/nist/nist-outlines-10-design-tenets-to-strengthen-ai-agent-identity-and-access-management-proposes-safeguards/",
+     "title": "NIST outlines 10 design tenets to strengthen AI agent identity and access management, proposes safeguards"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "NIST outlines 10 design tenets for AI agent identity management",
+     "summary": "NIST has outlined 10 design tenets for agent identity management systems and proposes safeguards for identity and access management of AI agents.",
+     "takeaway": "If AI agents are being piloted near OT or industrial data, review how they are identified and what access they receive."
+    },
+    "nl": {
+     "heading": "NIST schetst 10 ontwerpprincipes voor identiteitsbeheer van AI-agents",
+     "summary": "NIST heeft 10 ontwerpprincipes geschetst voor systemen voor identiteitsbeheer van agents en stelt maatregelen voor identiteits- en toegangsbeheer van AI-agents voor.",
+     "takeaway": "Als AI-agents worden beproefd in de buurt van OT of industriële data, controleer dan hoe ze worden geïdentificeerd en welke toegang ze krijgen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "974dd4ca2b2b",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/critical-infrastructure/mccormick-introduces-common-sense-cloud-security-act-to-strengthen-cloud-defenses-protect-critical-infrastructure/",
+     "title": "McCormick introduces Common-Sense Cloud Security Act to strengthen cloud defenses, protect critical infrastructure"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "US bill proposes Common-Sense Cloud Security Act for critical infrastructure",
+     "summary": "US Representative McCormick, a Republican from Georgia, introduced the Common-Sense Cloud Security Act. The bill aims to strengthen cloud cybersecurity and protect critical infrastructure.",
+     "takeaway": "Map which OT-related services depend on cloud providers so you are ready if cloud security requirements tighten."
+    },
+    "nl": {
+     "heading": "Amerikaans wetsvoorstel Common-Sense Cloud Security Act voor kritieke infrastructuur",
+     "summary": "Het Amerikaanse Huislid McCormick, een Republikein uit Georgia, heeft de Common-Sense Cloud Security Act ingediend. Het wetsvoorstel moet de cloudbeveiliging versterken en kritieke infrastructuur beschermen.",
+     "takeaway": "Breng in kaart welke OT-gerelateerde diensten van cloudproviders afhangen, zodat u voorbereid bent als de cloudeisen worden aangescherpt."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "4c4cd6142493",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/omnitrust-launches-gridauth-to-strengthen-device-identity-and-trust-management-across-connected-energy-grids/",
+     "title": "OmniTrust launches GridAuth to strengthen device identity and trust management across connected energy grids"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "OmniTrust launches GridAuth for energy grid device identity",
+     "summary": "OmniTrust announced GridAuth, a device identity and trust management platform for energy utilities and equipment makers.",
+     "takeaway": "Treat this as a vendor announcement and assess device identity and certificate management in your own grid assets on its merits."
+    },
+    "nl": {
+     "heading": "OmniTrust lanceert GridAuth voor apparaatidentiteit in energienetten",
+     "summary": "OmniTrust kondigde GridAuth aan, een platform voor apparaatidentiteit en vertrouwensbeheer voor energiebedrijven en apparatenbouwers.",
+     "takeaway": "Zie dit als een leveranciersaankondiging en beoordeel apparaatidentiteit en certificaatbeheer van uw eigen netwerkassets op eigen merites."
+    }
+   }
+  }
+ ]
+}

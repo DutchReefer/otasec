@@ -1,5 +1,257 @@
 [
  {
+  "id": "2c67627d7a8d",
+  "url": "https://industrialcyber.co/nist/nist-outlines-10-design-tenets-to-strengthen-ai-agent-identity-and-access-management-proposes-safeguards/",
+  "title": "NIST outlines 10 design tenets to strengthen AI agent identity and access management, proposes safeguards",
+  "excerpt": "The National Institute of Standards and Technology (NIST) has outlined 10 design tenets for agent identity management systems,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-30T07:04:00Z",
+  "fetched": "2026-10-30T07:11:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NIST has outlined 10 design tenets for agent identity management systems and proposed safeguards for AI agent identity and access management.",
+    "nl": "NIST heeft 10 ontwerpuitgangspunten voor identiteitsbeheersystemen van AI-agents uiteengezet en voorgestelde waarborgen beschreven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "b3dda00ed2a7",
+  "url": "https://industrialcyber.co/news/bitdefender-launches-gravityzone-exposure-management-to-prioritize-vulnerabilities-map-attack-paths-reduce-attack-surface-risks/",
+  "title": "Bitdefender launches GravityZone Exposure Management to prioritize vulnerabilities, map attack paths, reduce attack surface risks",
+  "excerpt": "Cybersecurity company Bitdefender announced that GravityZone Exposure Management, an advanced solution, gives organizations a comprehensive view of threat...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-30T07:01:14Z",
+  "fetched": "2026-10-30T07:11:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bitdefender launched GravityZone Exposure Management to prioritize vulnerabilities and map attack paths.",
+    "nl": "Bitdefender heeft GravityZone Exposure Management gelanceerd om kwetsbaarheden te prioriteren en aanvalspaden in kaart te brengen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "d69cfb998622",
+  "url": "https://industrialcyber.co/news/fortinet-fortiaigate-targets-ai-security-risks-with-real-time-inspection-policy-enforcement-and-agent-controls/",
+  "title": "Fortinet FortiAIGate targets AI security risks with real-time inspection, policy enforcement and agent controls",
+  "excerpt": "Fortinet announced the new FortiGuard Inline AI Security Service, delivering AI-specific inspection and guardrails to FortiGate customers through...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-30T07:00:22Z",
+  "fetched": "2026-10-30T07:11:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fortinet announced the FortiGuard Inline AI Security Service, adding AI-specific inspection and guardrails for FortiGate customers.",
+    "nl": "Fortinet heeft de FortiGuard Inline AI Security Service aangekondigd, met AI-specifieke inspectie en beveiligingsrichtlijnen voor FortiGate-klanten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "a34c713fcb60",
+  "url": "https://industrialcyber.co/news/rilian-partners-with-white-house-cyber-office-to-protect-south-carolina-rural-hospitals-under-project-lifeline-250/",
+  "title": "Rilian partners with White House cyber office to protect South Carolina rural hospitals under Project Lifeline 250",
+  "excerpt": "Rilian, a provider of AI-native cybersecurity and defense technology solutions, announced expansion of its commitment to secure critical...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-10-30T06:59:28Z",
+  "fetched": "2026-10-30T07:11:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Rilian announced expanded work with the White House cyber office to help secure South Carolina rural hospitals under Project Lifeline 250.",
+    "nl": "Rilian heeft uitbreiding van zijn samenwerking met het Witte Huis cyberkantoor aangekondigd om landelijke ziekenhuizen in South Carolina te beveiligen via Project Lifeline 250."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "66bf8b72b167",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/",
+  "title": "Fake IT help desk callers got by on little more than names and email addresses",
+  "excerpt": "Attackers posing as IT help desk staff contacted employees by phone, email and Microsoft Teams in the third quarter of 2026 and talked them into opening remote access sessions, Cisco Talos Incident Response (Talos IR) found across several engagements. In one case, that access ended in ransomware. They knew names and email addresses “The attackers appeared to know employee names and email addresses, as they contacted users directly by email and Teams and used identities … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T06:30:26Z",
+  "fetched": "2026-10-30T07:11:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cisco Talos IR found attackers posing as IT help desk staff convinced employees to open remote access sessions, sometimes leading to ransomware.",
+    "nl": "Cisco Talos IR constateerde dat aanvallers zich voordeden als IT-helpdeskmedewerkers en medewerkers overhaalden remote toegangssessies te openen, soms met ransomware als gevolg."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "01d1ec4a5609",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/stellar-cyber-integrated-security-operations-center/",
+  "title": "What exactly is ISOC? And what does it mean for you?",
+  "excerpt": "Gartner recently released a new category of assessing security tools: the Integrated Security Operations Center (ISOC). Even though SIEM isn’t going anywhere, a rapidly evolving threat landscape is forcing a shift in industry logic that is reflected in the emergence of this new category. For years, SIEM has dominated as an all-encompassing category. But SIEMs are no longer sufficient to collect data, support investigations, and manage incidents; instead, the SIEM has separated into distinct architectural … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T06:00:14Z",
+  "fetched": "2026-10-30T07:11:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Gartner introduced the Integrated Security Operations Center category as SIEM functions split into separate architectures.",
+    "nl": "Gartner heeft de categorie Integrated Security Operations Center geïntroduceerd nu SIEM-functies in aparte architecturen worden opgesplitst."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "6c276082931c",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/akamai-fake-account-abuse-report/",
+  "title": "Scammers rebuild fake shopping sites within hours of a takedown",
+  "excerpt": "One retail scam used more than 1,200 look-alike .shop domains sharing a single IP address. The sites reused HTML, JavaScript and payment-page designs intended to harvest card numbers, expiry dates and security codes, according Akamai’s Fraud and Abuse Report 2026. A ticket scam used a similar setup. Several websites impersonating official ticketing and hospitality portals for a major sporting event were designed to route payment and personal information to the same collection system. Some checkout … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T05:30:26Z",
+  "fetched": "2026-10-30T07:11:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Akamai's Fraud and Abuse Report 2026 describes fake shopping sites that are rebuilt quickly after takedowns to harvest card details.",
+    "nl": "Akamai's Fraud and Abuse Report 2026 beschrijft nepwinkelsites die snel na takedowns worden opnieuw opgebouwd om kaartgegevens te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "0dfdc466bd16",
+  "url": "https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/",
+  "title": "Smart TVs can harbor unpatched security flaws and track what you watch",
+  "excerpt": "Smart TVs and connected plugs accounted for a large share of recorded security weaknesses in household devices, according to Bitdefender’s 2026 IoT Security Landscape Report. The analysis covered approximately 10.4 million protected home routers between January and September. Televisions represented 22.7% of vulnerability observations, followed by smart plugs at 22.4% linked with a known software flaw. Top vulnerable device families (Source: Bitdefender) Household electronics can stay in use for five to ten years, while their … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T05:00:27Z",
+  "fetched": "2026-10-30T07:11:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bitdefender's 2026 IoT report found smart TVs and smart plugs account for many recorded vulnerabilities in household devices.",
+    "nl": "Bitdefender's 2026 IoT-rapport stelt dat smart-tv's en slimme stekkers een groot deel van de geregistreerde kwetsbaarheden in huishoudelijke apparaten vormen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
+  "id": "1dad8889ea72",
+  "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+  "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+  "excerpt": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million related to the incident, respectively. The",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T04:14:59Z",
+  "fetched": "2026-10-30T07:11:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Binance reported a security incident affecting about $6.3 billion in assets, with nearly $3 billion frozen on-chain.",
+    "nl": "Binance meldde een beveiligingsincident dat ongeveer 6,3 miljard dollar aan activa raakt, waarvan bijna 3 miljard dollar on-chain is bevroren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T07:12:05Z"
+  }
+ },
+ {
   "id": "df0315646633",
   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
