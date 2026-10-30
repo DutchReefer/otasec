@@ -1,5 +1,352 @@
 [
  {
+  "id": "84a2c916c34c",
+  "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+  "title": "Fashion retailer Resolve says hackers stole payment card information",
+  "excerpt": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T19:00:00Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fashion retailer Resolve says a recent hack exposed customer payment card numbers.",
+    "nl": "Modewinkelier Resolve meldt dat een recente hack klantbetaalkaartnummers heeft blootgelegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "46d8d781bead",
+  "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+  "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+  "excerpt": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T16:58:44Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CrowdStrike attributes attacks on over 200 organizations to Chinese state-linked actors using the AI-powered ARTEX penetration testing framework.",
+    "nl": "CrowdStrike schrijft aanvallen op meer dan 200 organisaties toe aan Chinese statelijke actoren die het AI-gestuurde ARTEX-framework gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "a94d8e666b3e",
+  "url": "https://www.security.nl/posting/959799/Kabinet+steunt+Europees+leeftijdsverbod+voor+social+media?channel=rss",
+  "title": "Kabinet steunt Europees leeftijdsverbod voor social media",
+  "excerpt": "Het kabinet steunt het plan van de Europese Commissie voor een Europees leeftijdsverbod voor social media. De verplichte ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T16:19:32Z",
+  "fetched": "2026-10-30T19:27:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch cabinet supports the European Commission's plan for an EU-wide minimum age for social media.",
+    "nl": "Het Nederlandse kabinet steunt het plan van de Europese Commissie voor een Europees leeftijdsverbod voor social media."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "36467ee64e05",
+  "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+  "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+  "excerpt": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T15:58:20Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Trezor"
+   ],
+   "summary": {
+    "en": "Trezor reports credible suspicions of a crypto-theft implant in a Trezor Safe 5 sold by reseller CryptoBilis in Southeast Asia.",
+    "nl": "Trezor meldt geloofwaardige vermoedens van een crypto-diefstalimplantaat in een Trezor Safe 5 verkocht door reseller CryptoBilis in Zuidoost-Azië."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "ba91861df1a1",
+  "url": "https://www.security.nl/posting/959798/AI-platform+Northflank+gehackt%2C+gegevens+van+meerdere+klanten+gestolen?channel=rss",
+  "title": "AI-platform Northflank gehackt, gegevens van meerdere klanten gestolen",
+  "excerpt": "Aanvallers zijn erin geslaagd om AI-platform Northflank te hacken en hebben daarbij gegevens van klanten gestolen en gebruikt. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T15:57:01Z",
+  "fetched": "2026-10-30T19:27:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers breached AI platform Northflank and stole and used data belonging to multiple customers.",
+    "nl": "Aanvallers hebben het AI-platform Northflank gehackt en gegevens van meerdere klanten gestolen en gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "4bf942696238",
+  "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
+  "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
+  "excerpt": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T15:54:00Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Florida reports that 4.9 million people had Social Security numbers exposed in a breach of the Florida Student Financial Aid website.",
+    "nl": "Florida meldt dat 4,9 miljoen mensen Social Security-nummers zijn gelekt bij een datalek op de website voor studiefinanciering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "c1f594936736",
+  "url": "https://www.security.nl/posting/959790/General+Motors+schikt+zaak+over+verkopen+rijgedrag+voor+220+miljoen+dollar?channel=rss",
+  "title": "General Motors schikt zaak over verkopen rijgedrag voor 220 miljoen dollar",
+  "excerpt": "Autofabrikant General Motors heeft in de Verenigde Staten een zaak over het illegaal verzamelen en verkopen van het rijgedrag ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T15:27:49Z",
+  "fetched": "2026-10-30T19:27:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "General Motors agrees to a $220 million settlement over the unlawful collection and sale of driving behavior data.",
+    "nl": "General Motors schikt voor 220 miljoen dollar over het illegaal verzamelen en verkopen van rijgedragsgegevens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "bfec2004bdb1",
+  "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+  "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+  "excerpt": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T15:17:28Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "TeamViewer"
+   ],
+   "summary": {
+    "en": "TeamViewer fixed a flaw that lets a malicious host crash the viewer and may allow further code execution on the connecting computer.",
+    "nl": "TeamViewer heeft een kwetsbaarheid verholpen waarmee een kwaadwillige host de viewer kan laten crashen en mogelijk code kan laten uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "b70fef1148b5",
+  "url": "https://www.security.nl/posting/959785/Apple+waarschuwt+iPhone-gebruikers+in+99+landen+voor+spyware-aanvallen?channel=rss",
+  "title": "Apple waarschuwt iPhone-gebruikers in 99 landen voor spyware-aanvallen",
+  "excerpt": "Apple heeft iPhone-gebruikers in 99 landen gewaarschuwd dat ze het doelwit zijn geworden van aanvallen met 'mercenary spyware'. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T14:54:02Z",
+  "fetched": "2026-10-30T19:27:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple warned iPhone users in 99 countries that they may be targets of mercenary spyware attacks.",
+    "nl": "Apple heeft iPhone-gebruikers in 99 landen gewaarschuwd dat zij doelwit kunnen zijn van huurlingenspyware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "40ab6c049676",
+  "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+  "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+  "excerpt": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T14:36:54Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Cursor",
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "A malicious Claude Code extension was distributed via Cursor's marketplace for about 11 hours, exposing developers to SSH backdoor malware.",
+    "nl": "Een kwaadaardige Claude Code-extensie was ongeveer 11 uur beschikbaar in de marktplaats van Cursor en stelde ontwikkelaars bloot aan SSH-backdoormalware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "2e59ce9c0e88",
+  "url": "https://www.security.nl/posting/959783/Malware+op+website+Polymarket+steelt+ruim+2+miljoen+dollar+van+gebruikers?channel=rss",
+  "title": "Malware op website Polymarket steelt ruim 2 miljoen dollar van gebruikers",
+  "excerpt": "Malware op de website van Polymarket heeft ruim 2 miljoen dollar van gebruikers gestolen, zo stellen onderzoekers. Via ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T14:33:12Z",
+  "fetched": "2026-10-30T19:27:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Polymarket"
+   ],
+   "summary": {
+    "en": "Malware on the Polymarket website stole over 2 million dollars from users, according to researchers.",
+    "nl": "Malware op de website van Polymarket heeft volgens onderzoekers meer dan 2 miljoen dollar van gebruikers gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
+  "id": "b44d4a56a6fc",
+  "url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
+  "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
+  "excerpt": "Ahmad Umar Agha, known online as “Th3Pr0,” was sentenced Thursday in federal court in Virginia to 42 months behind bars for his role in a conspiracy that was organized by former Syrian President Bashar al-Assad's closest advisers.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T14:24:00Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Syrian Electronic Army hacker was sentenced to 42 months in prison for attacks on Western targets.",
+    "nl": "Een hacker van het Syrian Electronic Army is veroordeeld tot 42 maanden gevangenisstraf voor aanvallen op westerse doelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
+ },
+ {
   "id": "78ae005e8735",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
   "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
@@ -33,6 +380,36 @@
    "at": "2026-10-30T14:14:38Z"
   },
   "title_en": "NCSC-2026-0463 [1.00] [M/H] Vulnerability fixed in Cisco Secure Firewall ASA and FTD Software"
+ },
+ {
+  "id": "6473fc7702e5",
+  "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+  "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+  "excerpt": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-30T14:08:14Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "WordPress"
+   ],
+   "summary": {
+    "en": "Attackers attempted to exploit a high-severity WordPress Core remote code execution flaw nearly 63,000 times within 24 hours.",
+    "nl": "Aanvallers hebben binnen 24 uur bijna 63.000 keer geprobeerd een ernstige WordPress Core-kwetsbaarheid voor remote code execution te misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
+  }
  },
  {
   "id": "911a5f530485",
@@ -1459,6 +1836,40 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-30T14:14:58Z"
+  }
+ },
+ {
+  "id": "9be4610f66c4",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-045512.html",
+  "title": "SSA-045512 V1.0: Node2Shell Vulnerabilities in Siemens Products",
+  "excerpt": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as “Node2Shell” (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-30T00:00:00Z",
+  "fetched": "2026-10-30T19:27:45Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens published advisory SSA-045512 on the Node2Shell Brotli decoder flaw (CVE-2026-111497) in Node.js and its impact on Siemens software products.",
+    "nl": "Siemens publiceerde advisory SSA-045512 over de Node2Shell Brotli-decoderkwetsbaarheid (CVE-2026-111497) in Node.js en de impact op Siemens-softwareproducten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-30T19:28:02Z"
   }
  },
  {
