@@ -1,5 +1,119 @@
 [
  {
+  "id": "74dc1ad06d2d",
+  "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+  "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+  "excerpt": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T15:35:11Z",
+  "fetched": "2026-10-31T17:46:52Z",
+  "cves": [
+   "CVE-2026-58882"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A researcher released a proof-of-concept exploit for the recently patched Android vulnerability CVE-2026-58882, which can crash unpatched phones via a crafted SMS.",
+    "nl": "Een onderzoeker heeft een proof-of-concept exploit vrijgegeven voor de recent gepatchte Android-kwetsbaarheid CVE-2026-58882, waarmee ongepatchte telefonen via een speciaal opgestelde sms kunnen crashen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T17:47:00Z"
+  }
+ },
+ {
+  "id": "5f5f786aa6b0",
+  "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+  "title": "Reddit to lock content behind logins to fight scrapers",
+  "excerpt": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T14:05:15Z",
+  "fetched": "2026-10-31T17:46:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Reddit announced it will gradually restrict content to logged-in users to counter scrapers.",
+    "nl": "Reddit heeft aangekondigd geleidelijk inhoud alleen nog voor ingelogde gebruikers beschikbaar te maken om scrapers tegen te gaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T17:47:00Z"
+  }
+ },
+ {
+  "id": "09e2bf40898e",
+  "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+  "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+  "excerpt": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T13:10:19Z",
+  "fetched": "2026-10-31T17:46:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article describes how beginners can learn cybersecurity and bug hunting while AI-generated vulnerability reports overwhelm some bug bounty programs.",
+    "nl": "Een artikel beschrijft hoe beginners cybersecurity en bug hunting kunnen leren terwijl AI-gegenereerde kwetsbaarheidsrapporten sommige bug bounty-programma's overspoelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T17:47:00Z"
+  }
+ },
+ {
+  "id": "95dfb073e0ec",
+  "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+  "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+  "excerpt": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T12:50:09Z",
+  "fetched": "2026-10-31T17:46:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Blockchain analytics firm Chainalysis disclosed a data breach in which attackers used agentic techniques to expose customer names, emails and user IDs.",
+    "nl": "Blockchainanalysebedrijf Chainalysis heeft een datalek gemeld waarbij aanvallers via agentische technieken klantnamen, e-mailadressen en gebruikers-ID's ontsloten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T17:47:00Z"
+  }
+ },
+ {
   "id": "1f2870fb86df",
   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
