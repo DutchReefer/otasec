@@ -1,5 +1,33 @@
 [
  {
+  "id": "fb9fb5a975e9",
+  "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+  "title": "Northflank security breach leads to abuse of customers' AI API keys",
+  "excerpt": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T18:01:12Z",
+  "fetched": "2026-10-31T21:39:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cloud hosting platform Northflank warned customers to rotate credentials after a breach led to unauthorized use of their AI API keys.",
+    "nl": "Cloudhostingplatform Northflank waarschuwde klanten om credentials te roteren nadat een inbreuk leidde tot ongeautoriseerd gebruik van hun AI API-sleutels."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T21:39:20Z"
+  }
+ },
+ {
   "id": "74dc1ad06d2d",
   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
