@@ -1,0 +1,161 @@
+{
+ "date": "2026-10-31",
+ "published": "2026-10-31T12:39:00Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 9,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Siemens publishes a cluster of Node2Shell advisories, while actively exploited flaws in Ivanti Connect Secure and Cisco ASA/FTD remote access gear dominate the edge-security news."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Siemens publiceert een reeks Node2Shell-advisories, terwijl actief misbruikte kwetsbaarheden in Ivanti Connect Secure en Cisco ASA/FTD het nieuws over perimeterbeveiliging bepalen."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "bf8695e62497",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-898633.html",
+     "title": "SSA-898633 V1.0: Node2Shell Vulnerability in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices"
+    },
+    {
+     "id": "97a863462fa4",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-443410.html",
+     "title": "SSA-443410 V1.0: Node2Shell Vulnerability in Industrial Edge Management Applications"
+    },
+    {
+     "id": "9be4610f66c4",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-045512.html",
+     "title": "SSA-045512 V1.0: Node2Shell Vulnerabilities in Siemens Products"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Siemens advisories cover Node2Shell (CVE-2026-111497) across its portfolio",
+     "summary": "Siemens ProductCERT issued three advisories on Node2Shell, an out-of-bounds write in the Brotli decoder bundled with Node.js that could allow remote code execution. They cover Siemens products in general, PAN-OS on RUGGEDCOM APE1808 devices, and Industrial Edge Management, where the affected functionality is not used or exposed unless Management Applications are installed. Siemens advises following the workarounds in the upstream Palo Alto Networks notifications.",
+     "takeaway": "Check whether you run RUGGEDCOM APE1808 or Industrial Edge Management with Management Applications installed, and apply the listed workarounds."
+    },
+    "nl": {
+     "heading": "Siemens-advisories behandelen Node2Shell (CVE-2026-111497) in het productportfolio",
+     "summary": "Siemens ProductCERT publiceerde drie advisories over Node2Shell, een out-of-bounds write in de Brotli-decoder van Node.js die remote code execution kan mogelijk maken. Ze gaan over Siemens-producten in het algemeen, PAN-OS op RUGGEDCOM APE1808-apparaten en Industrial Edge Management, waar de getroffen functionaliteit niet wordt gebruikt of blootgesteld tenzij Management Applications zijn geïnstalleerd. Siemens adviseert de workarounds uit de upstream-meldingen van Palo Alto Networks te volgen.",
+     "takeaway": "Controleer of je RUGGEDCOM APE1808 of Industrial Edge Management met geïnstalleerde Management Applications gebruikt, en pas de genoemde workarounds toe."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "4a3beb5aa5ff",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+     "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-111357"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "CISA adds Ivanti Connect Secure flaws to KEV after active exploitation",
+     "summary": "CISA added two Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog, including CVE-2026-111357 (CVSS 8.8), a missing authentication issue. Attackers are reported to chain three flaws to gain unauthenticated root access.",
+     "takeaway": "If Ivanti Connect Secure provides remote access into your OT environment, prioritise patching and review the appliances for signs of compromise."
+    },
+    "nl": {
+     "heading": "CISA voegt Ivanti Connect Secure-kwetsbaarheden toe aan KEV na actief misbruik",
+     "summary": "CISA heeft twee kwetsbaarheden in Ivanti Connect Secure toegevoegd aan de Known Exploited Vulnerabilities-catalogus, waaronder CVE-2026-111357 (CVSS 8,8), een ontbrekende authenticatie. Aanvallers zouden drie kwetsbaarheden combineren om ongeauthenticeerd rootrechten te krijgen.",
+     "takeaway": "Als Ivanti Connect Secure remote toegang tot je OT-omgeving biedt, geef patchen dan prioriteit en controleer de appliances op tekenen van compromittering."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "78ae005e8735",
+     "name": "NCSC-NL Advisories",
+     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
+     "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-76418"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Cisco fixes actively exploited ASA and FTD VPN flaw CVE-2026-76418",
+     "summary": "NCSC-NL reports that Cisco fixed a serious vulnerability in Secure Firewall ASA and FTD, which Cisco confirms is being actively exploited. CVE-2026-76418 has a CVSS score of 8.6 and sits in the Remote Access SSL VPN functionality.",
+     "takeaway": "Identify Cisco ASA and FTD devices that terminate remote access VPN at IT/OT boundaries and patch them promptly."
+    },
+    "nl": {
+     "heading": "Cisco verhelpt actief misbruikte ASA- en FTD-VPN-kwetsbaarheid CVE-2026-76418",
+     "summary": "Het NCSC-NL meldt dat Cisco een ernstige kwetsbaarheid heeft verholpen in Secure Firewall ASA en FTD, waarvan Cisco bevestigt dat deze actief wordt misbruikt. CVE-2026-76418 heeft een CVSS-score van 8,6 en zit in de Remote Access SSL VPN-functionaliteit.",
+     "takeaway": "Breng Cisco ASA- en FTD-apparaten in kaart die remote access VPN afhandelen op de grens tussen IT en OT en patch ze snel."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "f493677a409f",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/959774/TeamViewer-lek+laat+aanvaller+systeem+van+helpdesk+overnemen?channel=rss",
+     "title": "TeamViewer-lek laat aanvaller systeem van helpdesk overnemen"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "TeamViewer flaw lets attackers take over helpdesk systems",
+     "summary": "Security.NL reports a TeamViewer vulnerability that allows attackers to take over the system connected to the one they are targeting, such as a helpdesk machine. No further details are given in the excerpt.",
+     "takeaway": "Review where TeamViewer is used for remote support or OT maintenance access and check for vendor updates."
+    },
+    "nl": {
+     "heading": "TeamViewer-lek laat aanvallers systeem van helpdesk overnemen",
+     "summary": "Security.NL meldt een beveiligingslek in TeamViewer waarmee aanvallers het systeem kunnen overnemen dat met hun systeem verbonden is, zoals een helpdeskcomputer. Het uittreksel noemt verder geen details.",
+     "takeaway": "Bekijk waar TeamViewer wordt gebruikt voor remote support of OT-onderhoudstoegang en controleer op updates van de leverancier."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "a54f6961866c",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/australia-reports-20-rise-in-cyber-incidents-nearly-80-jump-in-threat-notifications-amid-critical-infrastructure-risks/",
+     "title": "Australia reports 20% rise in cyber incidents, nearly 80% jump in threat notifications amid critical infrastructure risks"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Australia reports 20% rise in cyber incidents",
+     "summary": "The ASD's ACSC responded to more than 1,500 cybersecurity incidents, a 20% rise, with threat notifications up nearly 80%. Industrial Cyber links the figures to risks for critical infrastructure.",
+     "takeaway": "Use such national figures to support your case for monitoring and incident response readiness in OT."
+    },
+    "nl": {
+     "heading": "Australië meldt 20% meer cyberincidenten",
+     "summary": "De ACSC van de ASD behandelde meer dan 1.500 cyberincidenten, een stijging van 20%, terwijl het aantal dreigingsmeldingen met bijna 80% toenam. Industrial Cyber koppelt de cijfers aan risico's voor kritieke infrastructuur.",
+     "takeaway": "Gebruik dit soort nationale cijfers als onderbouwing voor monitoring en incident response-gereedheid in OT."
+    }
+   }
+  }
+ ]
+}

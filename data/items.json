@@ -1,5 +1,123 @@
 [
  {
+  "id": "1f2870fb86df",
+  "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+  "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+  "excerpt": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. \"This month, Chainalysis detected an external actor using offensive agentic",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T12:01:56Z",
+  "fetched": "2026-10-31T12:38:30Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Chainalysis confirmed an intrusion into internal tools where an external actor accessed non-sensitive customer data, without reaching investigation content or credentials.",
+    "nl": "Chainalysis bevestigde een inbraak in interne tools waarbij een externe actor niet-gevoelige klantgegevens inzag, zonder toegang tot onderzoeksdata of credentials."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T12:38:43Z"
+  }
+ },
+ {
+  "id": "4a3beb5aa5ff",
+  "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+  "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T08:27:43Z",
+  "fetched": "2026-10-31T12:38:30Z",
+  "cves": [
+   "CVE-2026-111357"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "CISA added two Ivanti Connect Secure flaws to its KEV catalog after active exploitation, with attackers chaining three flaws to gain unauthenticated root access.",
+    "nl": "CISA heeft twee kwetsbaarheden in Ivanti Connect Secure toegevoegd aan de KEV-catalogus na actief misbruik, waarbij aanvallers drie kwetsbaarheden combineren voor root-toegang zonder authenticatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T12:38:43Z"
+  }
+ },
+ {
+  "id": "e8eb82345a00",
+  "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+  "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+  "excerpt": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T05:33:41Z",
+  "fetched": "2026-10-31T12:38:30Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers at Parameter showed a malicious ChatGPT share link could run attacker code in a logged-in session and read private chats; OpenAI fixed the flaw.",
+    "nl": "Onderzoekers van Parameter lieten zien dat een kwaadaardige ChatGPT-deellink code kan uitvoeren in een ingelogde sessie en privéchats kan lezen; OpenAI heeft het opgelost."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T12:38:43Z"
+  }
+ },
+ {
+  "id": "21ad2182a136",
+  "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+  "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+  "excerpt": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-10-31T04:56:12Z",
+  "fetched": "2026-10-31T12:38:30Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cloudflare reported autonomously mitigating 18.2 million network-layer DDoS attacks in Q3 2026, an increase of 38 percent.",
+    "nl": "Cloudflare meldde dat het in het derde kwartaal van 2026 autonoom 18,2 miljoen netwerklaag-DDoS-aanvallen heeft afgewend, een stijging van 38 procent."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-10-31T12:38:43Z"
+  }
+ },
+ {
   "id": "e6b748dfb735",
   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
@@ -32026,38 +32144,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "769246ac09b7",
-  "url": "https://certvde.com/en/advisories/VDE-2026-093/",
-  "title": "SAUTER: modulo 6 and EY-modulo 5 Vulnerability in Firmware update mechanism allowing remote code execution",
-  "excerpt": "[VDE-2026-093] A vulnerability has been found in the firmware update process of SAUTER Building Controllers. The identified vulnerability could allow unauthorized code execution on affected controllers.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-01T10:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 65,
-   "category": "advisory",
-   "sectors": [
-    "building"
-   ],
-   "vendors": [
-    "SAUTER"
-   ],
-   "summary": {
-    "en": "CERT@VDE reports a firmware update vulnerability in SAUTER modulo 6 and EY-modulo 5 building controllers allowing unauthorized remote code execution.",
-    "nl": "CERT@VDE meldt een kwetsbaarheid in het firmware-updateproces van SAUTER modulo 6 en EY-modulo 5 gebouwregelaars, waarmee ongeautoriseerde code op afstand kan worden uitgevoerd."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
   }
  }
 ]
