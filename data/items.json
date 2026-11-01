@@ -1,5 +1,33 @@
 [
  {
+  "id": "db22ed381117",
+  "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+  "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+  "excerpt": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-01T19:57:53Z",
+  "fetched": "2026-11-01T23:38:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI attributed a $6.3 billion cryptocurrency theft from Binance to North Korean hackers known as TraderTraitor.",
+    "nl": "De FBI heeft een cryptodiefstal van 6,3 miljard dollar bij Binance toegeschreven aan Noord-Koreaanse hackers genaamd TraderTraitor."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-01T23:38:39Z"
+  }
+ },
+ {
   "id": "1cc70eeb84cf",
   "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
   "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
