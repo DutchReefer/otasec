@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-01",
+ "published": "2026-11-01T07:38:11Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 2,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet day for OT news, with two items on guidance and critical infrastructure protection. Neither reports new exploitation or advisories."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige dag in het OT-nieuws, met twee items over richtlijnen en bescherming van vitale infrastructuur. Er zijn geen meldingen van nieuwe misbruikgevallen of advisories."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "c4148e46a961",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/fdd-urges-nist-nsa-to-evaluate-vaultless-keyless-pseudonymization-as-safeguard-against-ransomware-attacks/",
+     "title": "FDD urges NIST, NSA to evaluate vaultless, keyless pseudonymization as safeguard against ransomware attacks"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "FDD urges NIST and NSA to evaluate pseudonymization against ransomware",
+     "summary": "The Foundation for Defense of Democracies (FDD) warned that encryption alone cannot adequately protect sensitive data. It urged NIST and the NSA to evaluate vaultless, keyless pseudonymization as a safeguard against ransomware attacks.",
+     "takeaway": "Review how sensitive operational and business data is protected beyond encryption, and follow whether NIST or the NSA act on this call."
+    },
+    "nl": {
+     "heading": "FDD roept NIST en NSA op pseudonimisering te beoordelen tegen ransomware",
+     "summary": "De Foundation for Defense of Democracies (FDD) waarschuwt dat versleuteling alleen gevoelige data onvoldoende beschermt. De organisatie vraagt NIST en de NSA om vaultless, keyless pseudonimisering te beoordelen als bescherming tegen ransomware-aanvallen.",
+     "takeaway": "Bekijk hoe gevoelige operationele en bedrijfsdata verder wordt beschermd dan alleen met versleuteling, en volg of NIST of de NSA op deze oproep reageren."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "a34c713fcb60",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/rilian-partners-with-white-house-cyber-office-to-protect-south-carolina-rural-hospitals-under-project-lifeline-250/",
+     "title": "Rilian partners with White House cyber office to protect South Carolina rural hospitals under Project Lifeline 250"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Rilian joins White House cyber office to protect South Carolina rural hospitals",
+     "summary": "Rilian, a provider of AI-native cybersecurity and defense technology solutions, announced it is expanding its commitment to secure critical infrastructure. It is partnering with the White House cyber office to protect rural hospitals in South Carolina under Project Lifeline 250.",
+     "takeaway": "Healthcare operators with limited resources should check what public-private support programs exist for their region and how they cover connected medical and building systems."
+    },
+    "nl": {
+     "heading": "Rilian werkt met het cyberbureau van het Witte Huis aan bescherming van landelijke ziekenhuizen in South Carolina",
+     "summary": "Rilian, aanbieder van AI-native cybersecurity- en defensietechnologie, kondigt aan zijn inzet voor de beveiliging van vitale infrastructuur uit te breiden. Het bedrijf werkt samen met het cyberbureau van het Witte Huis aan de bescherming van landelijke ziekenhuizen in South Carolina binnen Project Lifeline 250.",
+     "takeaway": "Zorginstellingen met beperkte middelen kunnen nagaan welke publiek-private ondersteuningsprogramma's er in hun regio zijn en in hoeverre die ook verbonden medische systemen en gebouwbeheersystemen dekken."
+    }
+   }
+  }
+ ]
+}
