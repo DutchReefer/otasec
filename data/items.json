@@ -1,5 +1,117 @@
 [
  {
+  "id": "39c886feecb9",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/byoky-open-source-ai-api-key-wallet/",
+  "title": "Byoky: Open-source wallet for AI API keys",
+  "excerpt": "Byoky is an open-source wallet for AI API keys, available as a Chrome and Firefox extension and as iOS and Android apps. Users store their keys for OpenAI, Anthropic, Google Gemini and other providers in it, encrypted on their own device. Apps that want those keys ask the wallet for access, and the wallet sends each request to the provider itself. The app gets a session token. The key stays in the wallet. Byoky goes … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T06:00:33Z",
+  "fetched": "2026-11-02T06:13:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Byoky is an open-source browser and mobile wallet that stores AI API keys encrypted on the user's device and proxies provider requests.",
+    "nl": "Byoky is een open-source wallet voor browser en mobiel die AI API-sleutels versleuteld op het apparaat van de gebruiker bewaart en providerverzoeken doorstuurt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T06:13:29Z"
+  }
+ },
+ {
+  "id": "9068a344a035",
+  "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+  "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+  "excerpt": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T05:51:07Z",
+  "fetched": "2026-11-02T06:13:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers discovered VOLTA-AUTODOXER, a Windows infostealer that uses an LLM to rank stolen victim data by monetization value.",
+    "nl": "Onderzoekers ontdekten VOLTA-AUTODOXER, een Windows infostealer die een LLM gebruikt om gestolen slachtofferdata te rangschikken op opbrengstwaarde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T06:13:29Z"
+  }
+ },
+ {
+  "id": "0a3ac4787542",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/product-showcase-trust-onion/",
+  "title": "Product showcase: Trust Onion uses rotating codewords to verify callers",
+  "excerpt": "Trust Onion is a free app that gives trusted groups three rotating codewords to check who they are communicating with. It also includes signed selfies, message checks, and callback requests. It is available for macOS, iOS, and Android. I tested the iPhone app with an older person, exploring setup and the tools available when a call or message raises concerns. Verification matters when someone asks for money, access, or information. Cisco Talos documented attackers posing … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T05:30:38Z",
+  "fetched": "2026-11-02T06:13:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A product showcase of Trust Onion, a consumer app that uses rotating codewords and other tools to verify callers and messages.",
+    "nl": "Een productpresentatie van Trust Onion, een consumentenapp die roterende codewoorden en andere hulpmiddelen gebruikt om bellers en berichten te verifiëren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T06:13:29Z"
+  }
+ },
+ {
+  "id": "47700cf31ca3",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/aur0ra-ransomware-ai-agents/",
+  "title": "Ransomware gang talked AI agents into doing much of its dirty work",
+  "excerpt": "The group behind the Aur0ra ransomware has been using AI agents to move through victim networks, collect credentials and work its way up to domain administrator access, according to Sophos. AI-assisted intrusion workflow (Source: Sophos) The company, which tracks the group as GOLD OGRE, recovered artifacts from the Cursor AI coding assistant in late August that show the attackers handing the agents VPN logins, proxy access, targets and objectives. The agents then mapped the network … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T05:00:46Z",
+  "fetched": "2026-11-02T06:13:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "According to Sophos, the Aur0ra ransomware group used AI agents to move through victim networks, collect credentials and reach domain administrator access.",
+    "nl": "Volgens Sophos gebruikte de Aur0ra-ransomwaregroep AI-agents om door netwerken van slachtoffers te bewegen, inloggegevens te verzamelen en domeinbeheerderstoegang te verkrijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T06:13:29Z"
+  }
+ },
+ {
   "id": "db22ed381117",
   "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
   "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
@@ -32449,39 +32561,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "f10c8be7b062",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-887643.html",
-  "title": "SSA-887643 V1.0: Account Hijacking Vulnerability in Mendix SAML module",
-  "excerpt": "Mendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends to update to the latest version.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-03T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 15,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens",
-    "Mendix"
-   ],
-   "summary": {
-    "en": "Siemens advises updating the Mendix SAML module to fix an account hijacking vulnerability in specific SSO configurations.",
-    "nl": "Siemens adviseert de Mendix SAML-module te updaten om een account-kaapvulnerability in specifieke SSO-configuraties te verhelpen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
   }
  }
 ]
