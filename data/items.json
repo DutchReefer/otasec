@@ -1,5 +1,1311 @@
 [
  {
+  "id": "5b859d544d73",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
+  "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
+  "excerpt": "CISA added two new Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527) to its Known Exploited Vulnerabilities catalog on Friday, after Ivanti updated an earlier security advisory with details about the flaws. Three flaws chained to gain a foothold CVE-2026-111357, a missing authentication for a critical function vulnerability that allows a local authenticated attacker to escalate their privileges, and CVE-2026-118527, a “Generation of Predictable Numbers or Identifiers Vulnerability” that makes remote authenticated file upload possible, have been … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T15:58:08Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [
+   "CVE-2026-111357",
+   "CVE-2026-118527"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "CISA added two Ivanti Connect Secure flaws, CVE-2026-111357 and CVE-2026-118527, to its Known Exploited Vulnerabilities catalog and told federal agencies to remediate them.",
+    "nl": "CISA heeft twee Ivanti Connect Secure-kwetsbaarheden, CVE-2026-111357 en CVE-2026-118527, toegevoegd aan de catalogus van actief misbruikte kwetsbaarheden en federale instanties opgedragen ze te verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "7576043c26dd",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/",
+  "title": "Google disrupts XCPE botnet, bans the company behind it",
+  "excerpt": "Google shut down the servers behind XCPE, a backdoor hidden in the firmware of Android TV set-top boxes. Google’s Threat Intelligence Group attributes the operation with high confidence to Videostrong Technology, the company that manufactured many of those boxes. More than 1.3 million devices were enrolled. XCPE malware overview (Source: Google) Access The business model was access. Researchers say the company sold entry to its customers’ living rooms to criminal affiliates, who pushed their own … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T15:50:46Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google shut down servers behind the XCPE backdoor in Android TV set-top boxes and attributes the operation to Videostrong Technology, which made many of the boxes.",
+    "nl": "Google heeft de servers achter de XCPE-backdoor in Android tv-boxes uitgeschakeld en schrijft de operatie toe aan Videostrong Technology, de fabrikant van veel van die boxes."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "fd4dd8ae78f2",
+  "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+  "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+  "excerpt": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T15:03:07Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The BTCPay Server maintainer urged users to update after attackers drained hot wallets on instances running older versions.",
+    "nl": "De beheerder van BTCPay Server heeft gebruikers opgeroepen te updaten nadat aanvallers hot wallets leegden op instanties met oudere versies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "9c3bad316912",
+  "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+  "title": "Your Mobile Carrier Stores Your Call Logs for Years",
+  "excerpt": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data retention and how its mobile service reduces exposure by automatically deleting call records. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T15:01:11Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The article discusses privacy risks of mobile carriers retaining call and text metadata for years, which could be exposed in a breach.",
+    "nl": "Het artikel gaat over privacyrisico's van mobiele providers die jarenlang belt- en sms-metadata bewaren, wat bij een datalek kan uitlekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "76b7e533fc8a",
+  "url": "https://www.security.nl/posting/960037/Polymarket+betaalt+gebruikers+3%2C9+miljoen+dollar+wegens+malware+op+website?channel=rss",
+  "title": "Polymarket betaalt gebruikers 3,9 miljoen dollar wegens malware op website",
+  "excerpt": "Voorspellingssite Polymarket betaalt gebruikers 3,9 miljoen dollar nadat die waren gedupeerd door malware op de website. De ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T14:52:56Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Polymarket will pay users 3.9 million dollars after they were harmed by malware on its website.",
+    "nl": "Polymarket betaalt gebruikers 3,9 miljoen dollar nadat zij waren gedupeerd door malware op de website."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "ca5c36fcd925",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/ai-powered-infostealer-volta-victim-profiling/",
+  "title": "AI-powered infostealer picks out the most profitable parts of your stolen data",
+  "excerpt": "A new Windows infostealer sends the data it steals to an AI model and asks it to rank the victim’s assets by how much money they could bring in, Cisco Talos has found. “There is a new idea in the cybercrime world — cast a wide net, steal everything, and let AI sort out the specifics,” said Ryan Fetterman, a security researcher at Cisco. The malware calls itself VOLTA-AUTODOXER and turned up through Talos’ CAIRN … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T14:47:57Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cisco Talos found a Windows infostealer, VOLTA-AUTODOXER, that sends stolen data to an AI model to rank victim assets by profit potential.",
+    "nl": "Cisco Talos heeft een Windows infostealer, VOLTA-AUTODOXER, gevonden die gestolen data naar een AI-model stuurt om slachtofferbezittingen op winstpotentie te rangschikken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "39749d757eb1",
+  "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+  "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+  "excerpt": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T14:46:05Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "An Iran-aligned actor ran an espionage campaign against Israel and Kurdistan, compromising an Israeli individual and a government cloud environment.",
+    "nl": "Een met Iran gelieerde dader voerde een spionagecampagne uit tegen Israël en Koerdistan, waarbij een Israëlische persoon en een overheidscloudomgeving werden gecompromitteerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "9b847cec7f35",
+  "url": "https://therecord.media/apple-warns-users-99-countries-mercenary-spyware",
+  "title": "Apple warns users in 99 countries of mercenary spyware",
+  "excerpt": "Apple does not attribute attacks or the notices to specific malicious actors or geographical regions, the notification said, due to the “extreme cost, sophistication, and worldwide nature of mercenary spyware attacks [which] make them some of the most advanced digital threats in existence today.”",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T14:42:00Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apple warned users in 99 countries about mercenary spyware attacks without attributing them to specific actors or regions.",
+    "nl": "Apple heeft gebruikers in 99 landen gewaarschuwd voor huurlingenspyware, zonder de aanvallen toe te schrijven aan specifieke daders of regio's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "7bca49cdf4ec",
+  "url": "https://therecord.media/ukraine-hackers-russia-alert-system",
+  "title": "Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings",
+  "excerpt": "A popular Ukrainian air raid alert system was hacked over the weekend, prompting a cyber group to breach a similar Russian system in retaliation.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T14:30:00Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A Ukrainian air raid alert system was hacked, and a cyber group retaliated by breaching a Russian emergency system to spread fake nuclear attack warnings.",
+    "nl": "Een Oekraïens luchtalarmsysteem werd gehackt, waarna een hackersgroep als vergelding een Russisch noodsysteem binnendrong om valse waarschuwingen over een nucleaire aanval te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "e6ee640da6ac",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+  "title": "Hackers disrupt refrigeration systems at European supermarkets",
+  "excerpt": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T14:28:39Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers remotely changed temperature settings on freezers and cooling systems, disrupting supermarket stores across several European countries.",
+    "nl": "Hackers wijzigden op afstand de temperatuurinstellingen van vriezers en koelsystemen, waardoor supermarkten in meerdere Europese landen werden ontwricht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "03277a787c7d",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/european-supermarkets-refrigeration-units-cyberattacks/",
+  "title": "Second wave of refrigeration cyberattacks hits European supermarkets",
+  "excerpt": "Three weeks after the attack that turned refrigeration units in French supermarkets into ovens overnight, similar cyberattacks have hit shops in other European countries and again caused refrigerated food to be spoiled. Belgium, Luxembourg and Sweden affected “[In Belgium,] fridges and freezers have been affected at Delhaize, Carrefour and Spar, among others. The attackers remotely switched the units’ evaporators to defrost mode, causing the fridges to warm up,” Belgian news agency Belga reported today. “The … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T14:28:25Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A second wave of cyberattacks hit supermarket refrigeration in Belgium, Luxembourg and Sweden, switching units to defrost mode and spoiling food.",
+    "nl": "Een tweede golf van cyberaanvallen trof koelsystemen van supermarkten in België, Luxemburg en Zweden, waarbij units in ontdooimodus werden gezet en voedsel bedorven raakte."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "7967a3a62c6a",
+  "url": "https://www.security.nl/posting/960023/Google%3A+1%2C3+miljoen+Android+tv-boxes+bewust+geleverd+met+backdoor?channel=rss",
+  "title": "Google: 1,3 miljoen Android tv-boxes bewust geleverd met backdoor",
+  "excerpt": "Een fabrikant van Android tv-boxes heeft de apparaten bewust geleverd met een backdoor, waar criminelen vervolgens misbruik van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T14:15:36Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google reports that a manufacturer deliberately shipped 1.3 million Android TV boxes with a backdoor that criminals later abused.",
+    "nl": "Google meldt dat een fabrikant 1,3 miljoen Android tv-boxes bewust met een backdoor heeft geleverd, waar criminelen misbruik van maakten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "12503d008b30",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+  "title": "Microsoft fixes Smart App Control broken by October Windows update",
+  "excerpt": "Microsoft has resolved a known issue that prevented some users from activating the Smart App Control security feature after installing the October 2026 KB5127648 Windows 11 security update. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T13:57:29Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed a known issue that blocked some users from enabling Smart App Control after the October 2026 KB5127648 Windows update.",
+    "nl": "Microsoft heeft een bekend probleem opgelost waardoor sommige gebruikers Smart App Control niet konden activeren na de Windows-update KB5127648 van oktober 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "8048663cbf56",
+  "url": "https://www.security.nl/posting/959992/Koelsystemen+supermarkten+via+standaard+wachtwoord+gehackt?channel=rss",
+  "title": "Koelsystemen supermarkten via standaard wachtwoord gehackt",
+  "excerpt": "In verschillende landen, waaronder Nederland, zijn koelsystemen van supermarkten opnieuw het doelwit van aanvallen geworden, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T13:12:00Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Supermarket refrigeration systems in several countries, including the Netherlands, were again attacked, reportedly through a default password.",
+    "nl": "Koelsystemen van supermarkten in meerdere landen, waaronder Nederland, zijn opnieuw aangevallen, naar verluidt via een standaard wachtwoord."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  },
+  "title_en": "Supermarket cooling systems hacked via default password"
+ },
+ {
+  "id": "1d2d8eaa8e11",
+  "url": "https://industrialcyber.co/nist/nist-sets-post-quantum-cryptography-migration-priorities-with-2030-deadlines-for-high-value-federal-systems/",
+  "title": "NIST sets post-quantum cryptography migration priorities, with 2030 deadlines for high-value federal systems",
+  "excerpt": "The U.S. National Institute of Standards and Technology (NIST) rolled out a finalized report to help organizations transition...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T13:10:16Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NIST published a finalized report setting post-quantum cryptography migration priorities, with 2030 deadlines for high-value federal systems.",
+    "nl": "NIST heeft een definitief rapport gepubliceerd met prioriteiten voor de migratie naar post-quantumcryptografie, met deadlines in 2030 voor waardevolle federale systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "00a3b1e54d1b",
+  "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
+  "title": "Second wave of suspected cyberattacks hits supermarket freezers across Europe",
+  "excerpt": "Supermarket and grocery store refrigerators across Europe appear to have been hacked early Monday — the second such incident in recent weeks where attackers have manipulated temperature controls and caused stock to spoil.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T13:00:00Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Supermarket refrigerators across Europe appear to have been hacked again, with attackers manipulating temperature controls and spoiling stock.",
+    "nl": "Koelkasten in supermarkten in heel Europa lijken opnieuw gehackt, waarbij aanvallers temperatuurregelingen manipuleerden en voorraad bedierf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "ce650ffcb99f",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/trezor-hardware-wallet-implant-cryptobilis/",
+  "title": "Trezor warns some of its wallets may hide a seed-stealing implant",
+  "excerpt": "A Trezor Safe 5 sold by CryptoBilis, the reseller linked to the recent Ledger wallet drains, may contain a hidden implant that steals the owner’s recovery phrase, Trezor has warned. Trezor is a Czech company and part of SatoshiLabs Group. It has made hardware wallets since 2014, and its current models are the Safe 3, Safe 5 and Safe 7. “If you bought a Trezor from CryptoBilis from March 2026 onwards and are using it … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T12:48:04Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Trezor warned that a Safe 5 wallet sold by reseller CryptoBilis may contain a hidden implant that steals recovery phrases.",
+    "nl": "Trezor waarschuwde dat een Safe 5-wallet verkocht door reseller CryptoBilis een verborgen implant kan bevatten dat herstelzinnen steelt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "6a2a421ddc00",
+  "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+  "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+  "excerpt": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T12:47:00Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Over 1,000 internet-exposed GitLab servers remain unpatched against a maximum-severity remote code execution flaw that is being actively exploited.",
+    "nl": "Meer dan 1.000 aan internet blootgestelde GitLab-servers zijn nog niet gepatcht tegen een kwetsbaarheid met maximale ernst die actief wordt misbruikt voor remote code execution."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "42c8053d5a46",
+  "url": "https://certvde.com/en/advisories/VDE-2026-139/",
+  "title": "Two critical PHP vulnerabilities in several Festo Didactic products",
+  "excerpt": "[FSA-202603] Festo Didactic FactoryViews and MES4 deployed along with xampp bundle an Apache web server with PHP. The bundled version of PHP is vulnerable to the two critical vulnerabilities CVE-2026-109618 and CVE-2026-109619 (commonly referred to as PHP2Shell). These vulnerabilities allow an attacker to remotely execute code on the FactoryViews or xampp host system.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-02T12:00:00Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Festo Didactic"
+   ],
+   "summary": {
+    "en": "Festo Didactic FactoryViews and MES4 bundle a vulnerable PHP version affected by CVE-2026-109618 and CVE-2026-109619, allowing remote code execution.",
+    "nl": "Festo Didactic FactoryViews en MES4 bevatten een kwetsbare PHP-versie met CVE-2026-109618 en CVE-2026-109619, waardoor op afstand code kan worden uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "ad2df65419af",
+  "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+  "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+  "excerpt": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0. Neither flaw is in CISA's Known",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T11:50:00Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Two critical Langflow flaws let unauthenticated attackers bypass authentication and run code, with the only fix in version 1.13.0.",
+    "nl": "Twee kritieke Langflow-kwetsbaarheden laten niet-geauthenticeerde aanvallers authenticatie omzeilen en code uitvoeren, de enige oplossing is versie 1.13.0."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "0c49c9246d62",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/chainalysis-breached-using-offensive-agentic-techniques/",
+  "title": "Chainalysis breached using “offensive agentic techniques”",
+  "excerpt": "Blockchain analytics firm Chainalysis has suffered a cybersecurity incident that led to a data breach. According to the company’s Friday announcement, the incident is unrelated to the recent Binance hack. What was accessed? In October, the company detected external attackers using “offensive agentic techniques” to gain access to Chainalysis systems and internal tools. “Based on the evidence available to date, we have found no indication that these incidents resulted in the unauthorized access of investigation … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T11:40:19Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Blockchain analytics firm Chainalysis disclosed a breach after attackers used offensive agentic techniques against its systems and internal tools.",
+    "nl": "Blockchainanalysebedrijf Chainalysis meldde een datalek nadat aanvallers met offensieve agentische technieken toegang kregen tot systemen en interne tools."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "c477f1812588",
+  "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+  "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+  "excerpt": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T11:30:00Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Prophet Security survey finds many security teams use or test AI in their SOC, and the article offers a readiness checklist.",
+    "nl": "Een onderzoek van Prophet Security toont dat veel securityteams AI gebruiken of testen in hun SOC, en het artikel biedt een checklist voor gereedheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "4e74c4e33e66",
+  "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+  "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+  "excerpt": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T11:28:42Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Synology"
+   ],
+   "summary": {
+    "en": "Synology urged NAS customers to update devices immediately due to a surge in C3RB3R ransomware attacks.",
+    "nl": "Synology heeft klanten opgeroepen NAS-apparaten direct te updaten vanwege een toename van C3RB3R-ransomwareaanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "d596e3f2bace",
+  "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+  "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+  "excerpt": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in a report that it investigated two such intrusions, one of which resulted in company",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T11:08:45Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Attackers posing as IT support on Microsoft Teams gained remote access and abused insecure AD CS settings to obtain privileged certificates.",
+    "nl": "Aanvallers die zich voordeden als IT-support via Microsoft Teams kregen externe toegang en misbruikten onveilige AD CS-instellingen voor privilegecertificaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "52af9a057cde",
+  "url": "https://www.security.nl/posting/959956/Studenten+hekelen+verplichte+app+voor+toegang+tot+studentencomplex?channel=rss",
+  "title": "Studenten hekelen verplichte app voor toegang tot studentencomplex",
+  "excerpt": "Studenten in Utrecht zijn niet te spreken over de app die ze verplicht moeten installeren om toegang tot hun studentencomplex ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T11:07:01Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Students in Utrecht criticize a mandatory app required to access their student housing complex.",
+    "nl": "Studenten in Utrecht uiten kritiek op een verplichte app die nodig is om toegang te krijgen tot hun studentencomplex."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "ecc9d0e18b05",
+  "url": "https://certvde.com/en/advisories/VDE-2026-132/",
+  "title": "WAGO: Multiple Devices affected by PHP2Shell",
+  "excerpt": "[VDE-2026-132] Critical vulnerabilities in the PHP runtime may allow a remote attacker to execute arbitrary code by exploiting weaknesses in PHP's internal memory and request handling mechanisms. Under specific conditions, specially crafted web requests can trigger unexpected behavior that could compromise the affected web server process. WAGO controllers with the integrated web server enabled and running an affected PHP version are exposed to these vulnerabilities.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-02T11:00:00Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 78,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "WAGO"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-132 reports critical PHP runtime vulnerabilities affecting WAGO controllers with the integrated web server enabled, allowing remote code execution.",
+    "nl": "CERT@VDE-advies VDE-2026-132 meldt kritieke PHP-kwetsbaarheden in WAGO-controllers met actieve geintegreerde webserver, waardoor remote code-uitvoering mogelijk is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "87a25e1b557b",
+  "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+  "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+  "excerpt": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where \"CL\" refers to cluster and \"UNK\" stands for unknown",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T10:49:59Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Palo Alto Networks Unit 42 observed a cyber espionage campaign using SysGoRAT against Linux servers of government entities between October 2025 and April 2026.",
+    "nl": "Palo Alto Networks Unit 42 zag een cyberspionagecampagne met SysGoRAT tegen Linux-servers van overheidsinstanties tussen oktober 2025 en april 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "74ca22222548",
+  "url": "https://www.security.nl/posting/959951/Minister%3A+meeste+EU-landen+voor+leeftijdsverificatie+op+social+media?channel=rss",
+  "title": "Minister: meeste EU-landen voor leeftijdsverificatie op social media",
+  "excerpt": "Een meerderheid van de EU-landen is voor een minimale leeftijd en leeftijdsverificatie op social media en videoplatforms, wat ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T10:27:25Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A majority of EU countries support a minimum age and age verification for social media and video platforms, according to a minister.",
+    "nl": "Een meerderheid van de EU-landen steunt een minimumleeftijd en leeftijdsverificatie voor sociale media en videoplatforms, aldus een minister."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "5d365230f7d9",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/fbi-north-korea-binance-hack/",
+  "title": "FBI pins $6.3 billion Binance crypto heist on North Korea while scammers circle anxious users",
+  "excerpt": "North Korea was behind the theft of more than $6 billion in cryptocurrency from Binance, the FBI has confirmed. “The Federal Bureau of Investigation (FBI) is releasing information advising the Democratic People’s Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchange Binance, on or about October 29, 2026,” the bureau said in an alert published on October 31. The FBI tied the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T10:12:51Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI attributes the theft of more than $6 billion in virtual assets from Binance to North Korea.",
+    "nl": "De FBI schrijft de diefstal van meer dan 6 miljard dollar aan virtuele activa bij Binance toe aan Noord-Korea."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "092980ff0e8f",
+  "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+  "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+  "excerpt": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T09:33:26Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "Ivanti released patches for two Connect Secure remote access gateway zero-days chained in attacks since at least October 1.",
+    "nl": "Ivanti heeft patches uitgebracht voor twee zero-days in Connect Secure remote access gateways die sinds minstens 1 oktober in aanvallen zijn gecombineerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "d0ce9d143e92",
+  "url": "https://www.security.nl/posting/959936/Koelsystemen+Belgische+supermarkten+Carrefour+en+Delhaize+gehackt?channel=rss",
+  "title": "Koelsystemen Belgische supermarkten Carrefour en Delhaize gehackt",
+  "excerpt": "Aanvallers hebben in België koelsystemen van supermarkten Carrefour en Delhaize gehackt en de temperatuur aangepast. Ook ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T09:19:00Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 68,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers hacked cooling systems at Belgian supermarkets Carrefour and Delhaize and changed their temperature settings.",
+    "nl": "Aanvallers hebben koelsystemen bij de Belgische supermarkten Carrefour en Delhaize gehackt en de temperatuurinstellingen gewijzigd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  },
+  "title_en": "Cooling systems at Belgian supermarkets Carrefour and Delhaize hacked"
+ },
+ {
+  "id": "5f950b76c8ca",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0464",
+  "title": "NCSC-2026-0464 [1.00] [M/H] Kwetsbaarheid verholpen in LXD van Canonical",
+  "excerpt": "Canonical heeft een kwetsbaarheid verholpen in LXD. De kwetsbaarheid (CVE-2026-112816) wordt veroorzaakt door onjuiste validatie van certificaatketens binnen de HTTPS API van Canonical LXD. De kwetsbaarheid treft LXD-versies vóór 4.0.15, 5.0.11, 5.21.9 en 6.10.1 binnen de betreffende releasebranches. Hierdoor kunnen niet-geauthenticeerde aanvallers die netwerktoegang hebben tot de HTTPS API en beschikken over het publieke certificaat van een vertrouwde client, zich voordoen als die client. Dit is mogelijk doordat LXD ten onrechte alle certificaten in de aangeboden certificaatketen controleert…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-02T09:17:50Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [
+   "CVE-2026-112816"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Canonical"
+   ],
+   "summary": {
+    "en": "Canonical fixed CVE-2026-112816 in LXD, where improper certificate chain validation lets unauthenticated attackers impersonate trusted clients.",
+    "nl": "Canonical heeft CVE-2026-112816 in LXD verholpen, waarbij onjuiste validatie van certificaatketens aanvallers kan laten doen alsof ze een vertrouwde client zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "f886e1c94c7f",
+  "url": "https://www.security.nl/posting/959933/Duizend+GitLab-servers+missen+update+voor+actief+misbruikt+beveiligingslek?channel=rss",
+  "title": "Duizend GitLab-servers missen update voor actief misbruikt beveiligingslek",
+  "excerpt": "Meer dan duizend GitLab-servers, waaronder veertien in Nederland, missen een belangrijke beveiligingsupdate voor een actief ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T09:08:31Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "GitLab"
+   ],
+   "summary": {
+    "en": "More than a thousand GitLab servers, including fourteen in the Netherlands, lack an update for an actively exploited vulnerability.",
+    "nl": "Meer dan duizend GitLab-servers, waaronder veertien in Nederland, missen een update voor een actief misbruikt beveiligingslek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "28b7bb8ef792",
+  "url": "https://industrialcyber.co/critical-infrastructure/lumen-details-volt-typhoons-silent-train-framework-exploiting-zero-days-to-target-us-critical-infrastructure-sites/",
+  "title": "Lumen details Volt Typhoon’s Silent Train framework exploiting zero-days to target US critical infrastructure sites",
+  "excerpt": "New research from Lumen Technologies’ Black Lotus Labs detailed how China-linked cyber threat group Volt Typhoon used a...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T09:02:37Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 82,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Lumen Black Lotus Labs detailed how China-linked Volt Typhoon used its Silent Train framework and zero-days to target US critical infrastructure sites.",
+    "nl": "Lumen Black Lotus Labs beschreef hoe het aan China gelieerde Volt Typhoon het Silent Train-framework en zero-days gebruikte om Amerikaanse kritieke infrastructuur aan te vallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "fee577746a80",
+  "url": "https://industrialcyber.co/news/odvas-cip-security-achieves-tuv-rheinland-certification-against-iec-62443-4-2-at-security-level-3/",
+  "title": "ODVA’s CIP Security achieves TÜV Rheinland certification against IEC 62443-4-2 at Security Level 3",
+  "excerpt": "ODVA announced that CIP Security has been formally certified by TÜV Rheinland to meet the applicable requirements of...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T08:59:57Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "industry",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "ODVA"
+   ],
+   "summary": {
+    "en": "ODVA's CIP Security received TUV Rheinland certification against IEC 62443-4-2 at Security Level 3.",
+    "nl": "CIP Security van ODVA heeft een TUV Rheinland-certificering ontvangen voor IEC 62443-4-2 op Security Level 3."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "4f3a4f90f77a",
+  "url": "https://industrialcyber.co/news/belden-and-radiflow-introduce-unified-ot-security-approach-linking-exposure-detection-with-automated-enforcemen/",
+  "title": "Belden and Radiflow introduce unified OT security approach linking exposure detection with automated enforcement",
+  "excerpt": "Belden Inc., a provider of complete connection solutions, recently announced a strategic partnership with Radiflow, vendor of OT...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T08:58:52Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 12,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Belden",
+    "Radiflow"
+   ],
+   "summary": {
+    "en": "Belden and Radiflow announced a strategic partnership combining OT exposure detection with automated enforcement.",
+    "nl": "Belden en Radiflow kondigden een strategische samenwerking aan die OT-blootstellingsdetectie combineert met geautomatiseerde handhaving."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "19810da3f660",
+  "url": "https://industrialcyber.co/news/us-army-advances-ot-cybersecurity-with-rmc-led-effort-focused-on-zero-trust-and-operational-continuity/",
+  "title": "US Army advances OT cybersecurity with RMC-led effort focused on zero trust and operational continuity",
+  "excerpt": "RMC, an ABS Group affiliate and provider of industrial cybersecurity, risk management, and mission assurance solutions for critical...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T08:52:50Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "industry",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [
+    "RMC"
+   ],
+   "summary": {
+    "en": "The US Army is advancing an OT cybersecurity effort led by RMC focused on zero trust and operational continuity.",
+    "nl": "Het Amerikaanse leger zet een OT-cybersecurityinitiatief onder leiding van RMC voort, gericht op zero trust en operationele continuiteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "a4535cd68351",
+  "url": "https://industrialcyber.co/news/axonius-expands-asset-intelligence-platform-to-iot-and-ot-devices-addressing-cyber-physical-security-visibility-gaps/",
+  "title": "Axonius expands asset intelligence platform to IoT and OT devices, addressing cyber-physical security visibility gaps",
+  "excerpt": "Axonius, an asset intelligence platform for unified security operations and exposure management, announced general availability of Axonius Cyber-Physical...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T08:51:56Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Axonius"
+   ],
+   "summary": {
+    "en": "Axonius announced general availability of its Cyber-Physical platform extending asset intelligence to IoT and OT devices.",
+    "nl": "Axonius heeft de algemene beschikbaarheid aangekondigd van zijn Cyber-Physical-platform, dat asset-inzicht uitbreidt naar IoT- en OT-apparaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "f19105663569",
+  "url": "https://www.security.nl/posting/959932/QNAP+publiceert+PHP2Shell-patches+voor+NAS-systemen%3A+%27Meteen+installeren%27?channel=rss",
+  "title": "QNAP publiceert PHP2Shell-patches voor NAS-systemen: 'Meteen installeren'",
+  "excerpt": "NAS-fabrikant QNAP heeft patches gepubliceerd voor de PHP2Shell-lekken en roept gebruikers op om die meteen te installeren. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T08:51:55Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "QNAP"
+   ],
+   "summary": {
+    "en": "QNAP published patches for the PHP2Shell vulnerabilities affecting its NAS systems and urges users to install them immediately.",
+    "nl": "QNAP heeft patches uitgebracht voor de PHP2Shell-kwetsbaarheden in zijn NAS-systemen en roept gebruikers op ze direct te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "e080d3ab575d",
+  "url": "https://industrialcyber.co/news/dragos-public-sector-strengthens-federal-ot-cybersecurity-with-new-board-expanded-exposure-management-capabilities/",
+  "title": "Dragos Public Sector strengthens federal OT cybersecurity with new board, expanded exposure management capabilities",
+  "excerpt": "Dragos Public Sector LLC (DPS), the federal business subsidiary of Dragos Inc., named a Board of Directors that...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T08:51:00Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Dragos"
+   ],
+   "summary": {
+    "en": "Dragos Public Sector named a new board of directors and expanded its federal exposure management capabilities.",
+    "nl": "Dragos Public Sector heeft een nieuwe raad van bestuur benoemd en zijn federale mogelijkheden voor blootstellingsbeheer uitgebreid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:42Z"
+  }
+ },
+ {
+  "id": "a9c60570c42d",
+  "url": "https://industrialcyber.co/news/rockwell-automation-expands-secureot-capabilities-to-help-oems-address-emerging-cybersecurity-regulations/",
+  "title": "Rockwell Automation expands SecureOT capabilities to help OEMs address emerging cybersecurity regulations",
+  "excerpt": "Rockwell Automation Inc. announced new SecureOT cybersecurity capabilities designed to help original equipment manufacturers (OEMs) simplify compliance efforts,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T08:48:09Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Rockwell Automation"
+   ],
+   "summary": {
+    "en": "Rockwell Automation announced SecureOT capabilities to help OEMs simplify compliance with emerging cybersecurity regulations.",
+    "nl": "Rockwell Automation kondigde SecureOT-mogelijkheden aan om OEM's te helpen de naleving van nieuwe cyberbeveiligingsregels te vereenvoudigen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:51Z"
+  }
+ },
+ {
+  "id": "df100ad46108",
+  "url": "https://www.security.nl/posting/959931/Ivanti+dicht+actief+aangevallen+lekken+in+Connect+Secure+vpn-servers?channel=rss",
+  "title": "Ivanti dicht actief aangevallen lekken in Connect Secure vpn-servers",
+  "excerpt": "Ivanti heeft updates uitgebracht voor twee actief aangevallen kwetsbaarheden in Connect Secure vpn-servers. De twee ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T08:35:00Z",
+  "fetched": "2026-11-02T16:06:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "Ivanti released updates for two actively exploited vulnerabilities in Connect Secure VPN servers, which are widely used to access industrial networks.",
+    "nl": "Ivanti heeft updates uitgebracht voor twee actief aangevallen kwetsbaarheden in Connect Secure vpn-servers, die vaak worden gebruikt voor toegang tot industriële netwerken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:51Z"
+  },
+  "title_en": "Ivanti patches actively exploited flaws in Connect Secure VPN servers"
+ },
+ {
+  "id": "fbb7dce5d33b",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/deepseek-dsh-superagent/",
+  "title": "DeepSeek open-sources Super-Agent, a coding agent that watches team chats for work",
+  "excerpt": "Deepseek released a research prototype of dsh-superagent, a coding agent that does work on a GitHub repository for you. Who can ask for work The agent gets to work in two situations: an allowed user asks for something, or a rule your team wrote covers it. You can also open up a chat or GitHub scope, and then anyone in it can request work just by mentioning the agent. A message, comment or quoted document … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T07:09:55Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "DeepSeek released dsh-superagent, a research prototype coding agent that performs work on GitHub repositories.",
+    "nl": "DeepSeek bracht dsh-superagent uit, een onderzoeksprototype van een codeeragent die werk uitvoert in GitHub-repositories."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:51Z"
+  }
+ },
+ {
+  "id": "fa151c6b68b8",
+  "url": "https://www.helpnetsecurity.com/2026/11/02/vinay-thakker-kloudstax-ai-agent-access-control/",
+  "title": "The first ten lines of a command policy for AI coding agents",
+  "excerpt": "In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and network limits for AI agents. He argues that agents should run under their own identity, with the person’s identity attached when acting on someone’s behalf. He covers where credential proxies go wrong, what the first ten lines of a command policy for a coding agent should say, and how to stop data from leaving through package installs … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T06:30:36Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An interview with the CTO of KloudStax on setting identity, credentials and network limits for AI coding agents.",
+    "nl": "Een interview met de CTO van KloudStax over identiteit, credentials en netwerklimieten voor AI-codeeragents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:51Z"
+  }
+ },
+ {
   "id": "39c886feecb9",
   "url": "https://www.helpnetsecurity.com/2026/11/02/byoky-open-source-ai-api-key-wallet/",
   "title": "Byoky: Open-source wallet for AI API keys",
@@ -109,6 +1415,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-02T06:13:29Z"
+  }
+ },
+ {
+  "id": "e9672a016fa4",
+  "url": "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack",
+  "title": "FBI blames N. Korea’s TraderTraitor for Binance theft, urges crypto industry to block transactions",
+  "excerpt": "The FBI and U.S. Secret Service alleged this weekend that North Korean hackers were responsible for stealing more than $6.3 billion from cryptocurrency platform Binance last week.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T00:00:00Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI and Secret Service attributed the theft of more than $6.3 billion from Binance to North Korean hackers.",
+    "nl": "FBI en Secret Service wijzen Noord-Korea aan als dader van een diefstal van meer dan 6,3 miljard dollar bij Binance."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:51Z"
   }
  },
  {
@@ -9956,6 +11290,39 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-29T21:10:53Z"
+  }
+ },
+ {
+  "id": "f10c8be7b062",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-887643.html",
+  "title": "SSA-887643 V1.1 (Last Update: 2026-10-26): Account Hijacking Vulnerability in Mendix SAML module",
+  "excerpt": "Mendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends to update to the latest version.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-26T00:00:00Z",
+  "fetched": "2026-11-02T16:06:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Mendix"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-887643 describes an account hijacking vulnerability in the Mendix SAML module that allows unauthenticated attackers to take over accounts in certain SSO configurations; fixes are available.",
+    "nl": "Siemens-advisory SSA-887643 beschrijft een kwetsbaarheid in de Mendix SAML-module waarmee ongeauthenticeerde aanvallers accounts kunnen overnemen bij bepaalde SSO-configuraties; fixes zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T16:07:51Z"
   }
  },
  {

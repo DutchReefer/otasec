@@ -1,23 +1,240 @@
 {
  "date": "2026-11-02",
- "published": "2026-11-02T06:13:29Z",
- "model": "quiet-day",
- "quiet": true,
- "item_count": 0,
+ "published": "2026-11-02T16:08:17Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 17,
  "i18n": {
   "en": {
    "title": "",
-   "intro": ""
+   "intro": "A second wave of attacks on supermarket refrigeration across Europe leads today's briefing, alongside follow-ups on Ivanti Connect Secure exploitation, PHP2Shell advisories and Volt Typhoon research."
   },
   "nl": {
    "title": "",
-   "intro": ""
+   "intro": "Een tweede golf aanvallen op koelsystemen van supermarkten in Europa staat vandaag centraal, naast vervolgberichten over misbruik van Ivanti Connect Secure, PHP2Shell-advisories en onderzoek naar Volt Typhoon."
   }
  },
- "extra": {
-  "kind": "joke",
-  "en": "IT: \"Have you tried turning it off and on again?\" OT: \"Absolutely. It's scheduled for the 2031 turnaround.\"",
-  "nl": "IT: \"Heb je hem al uit en weer aan gezet?\" OT: \"Zeker. Staat gepland voor de revisiestop van 2031.\""
- },
- "stories": []
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "e6ee640da6ac",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+     "title": "Hackers disrupt refrigeration systems at European supermarkets"
+    },
+    {
+     "id": "03277a787c7d",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/02/european-supermarkets-refrigeration-units-cyberattacks/",
+     "title": "Second wave of refrigeration cyberattacks hits European supermarkets"
+    },
+    {
+     "id": "8048663cbf56",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/959992/Koelsystemen+supermarkten+via+standaard+wachtwoord+gehackt?channel=rss",
+     "title": "Koelsystemen supermarkten via standaard wachtwoord gehackt"
+    },
+    {
+     "id": "00a3b1e54d1b",
+     "name": "The Record",
+     "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
+     "title": "Second wave of suspected cyberattacks hits supermarket freezers across Europe"
+    },
+    {
+     "id": "d0ce9d143e92",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/959936/Koelsystemen+Belgische+supermarkten+Carrefour+en+Delhaize+gehackt?channel=rss",
+     "title": "Koelsystemen Belgische supermarkten Carrefour en Delhaize gehackt"
+    }
+   ],
+   "source_count": 4,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Second wave of attacks hits supermarket refrigeration across Europe",
+     "summary": "Attackers remotely changed temperature settings on freezers and cooling systems at multiple supermarket chains, including Delhaize, Carrefour and Spar in Belgium, with Luxembourg, Sweden and the Netherlands also reported. It follows an attack three weeks earlier on French supermarkets and again spoiled refrigerated food. Security.NL reports that the systems were compromised via a default password.",
+     "takeaway": "Change default passwords on refrigeration and building control systems, and make sure they are not reachable from the internet."
+    },
+    "nl": {
+     "heading": "Tweede golf aanvallen treft koelsystemen van supermarkten in Europa",
+     "summary": "Aanvallers hebben op afstand de temperatuurinstellingen van vriezers en koelsystemen aangepast bij meerdere supermarktketens, waaronder Delhaize, Carrefour en Spar in België. Ook Luxemburg, Zweden en Nederland worden genoemd. Het volgt op een aanval drie weken eerder op Franse supermarkten en leidde opnieuw tot bedorven voedsel. Security.NL meldt dat de systemen via een standaardwachtwoord zijn gehackt.",
+     "takeaway": "Vervang standaardwachtwoorden op koel- en gebouwbeheersystemen en zorg dat deze niet vanaf internet bereikbaar zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "df100ad46108",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/959931/Ivanti+dicht+actief+aangevallen+lekken+in+Connect+Secure+vpn-servers?channel=rss",
+     "title": "Ivanti dicht actief aangevallen lekken in Connect Secure vpn-servers"
+    },
+    {
+     "id": "5b859d544d73",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
+     "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-111357",
+    "CVE-2026-118527"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Ivanti Connect Secure: updates released, CISA adds two flaws to KEV",
+     "summary": "Ivanti released updates for two actively exploited vulnerabilities in Connect Secure VPN servers. CISA added CVE-2026-111357 and CVE-2026-118527 to its Known Exploited Vulnerabilities catalog after Ivanti updated an earlier advisory. Three flaws were chained to gain a foothold.",
+     "takeaway": "Apply the Ivanti updates to Connect Secure appliances now, especially where they provide remote access into OT networks."
+    },
+    "nl": {
+     "heading": "Ivanti Connect Secure: updates uitgebracht, CISA voegt twee kwetsbaarheden toe aan KEV",
+     "summary": "Ivanti heeft updates uitgebracht voor twee actief aangevallen kwetsbaarheden in Connect Secure vpn-servers. CISA nam CVE-2026-111357 en CVE-2026-118527 op in de Known Exploited Vulnerabilities-catalogus nadat Ivanti een eerder advisory had bijgewerkt. Drie kwetsbaarheden werden gekoppeld om voet aan de grond te krijgen.",
+     "takeaway": "Installeer de Ivanti-updates op Connect Secure-appliances direct, zeker waar ze externe toegang tot OT-netwerken bieden."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "42c8053d5a46",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-139/",
+     "title": "Two critical PHP vulnerabilities in several Festo Didactic products"
+    },
+    {
+     "id": "ecc9d0e18b05",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-132/",
+     "title": "WAGO: Multiple Devices affected by PHP2Shell"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Update: PHP2Shell advisories extend to Festo Didactic and WAGO",
+     "summary": "CERT@VDE published new advisories on PHP2Shell. Festo Didactic FactoryViews and MES4 bundle a vulnerable PHP version via xampp (CVE-2026-109618, CVE-2026-109619), allowing remote code execution on the host. WAGO controllers with the integrated web server enabled are also affected.",
+     "takeaway": "Check whether your WAGO controllers and Festo Didactic systems are affected, apply vendor fixes and disable unneeded web servers."
+    },
+    "nl": {
+     "heading": "Update: PHP2Shell-advisories uitgebreid naar Festo Didactic en WAGO",
+     "summary": "CERT@VDE publiceerde nieuwe advisories over PHP2Shell. Festo Didactic FactoryViews en MES4 bevatten via xampp een kwetsbare PHP-versie (CVE-2026-109618, CVE-2026-109619), waarmee code op afstand op de host kan worden uitgevoerd. Ook WAGO-controllers met geactiveerde ingebouwde webserver zijn getroffen.",
+     "takeaway": "Controleer of uw WAGO-controllers en Festo Didactic-systemen getroffen zijn, installeer de fixes van de leverancier en schakel onnodige webservers uit."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "28b7bb8ef792",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/critical-infrastructure/lumen-details-volt-typhoons-silent-train-framework-exploiting-zero-days-to-target-us-critical-infrastructure-sites/",
+     "title": "Lumen details Volt Typhoon’s Silent Train framework exploiting zero-days to target US critical infrastructure sites"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Lumen details Volt Typhoon's Silent Train framework",
+     "summary": "Lumen's Black Lotus Labs published new research on how China-linked Volt Typhoon used the Silent Train framework, exploiting zero-days to target US critical infrastructure sites.",
+     "takeaway": "Review edge device exposure and monitor for unusual relay traffic into critical infrastructure networks."
+    },
+    "nl": {
+     "heading": "Update: Lumen beschrijft het Silent Train-framework van Volt Typhoon",
+     "summary": "Black Lotus Labs van Lumen publiceerde nieuw onderzoek naar hoe de aan China gelinkte groep Volt Typhoon het Silent Train-framework inzette en zero-days misbruikte om Amerikaanse kritieke infrastructuur aan te vallen.",
+     "takeaway": "Controleer de blootstelling van edge-apparaten en monitor op afwijkend relay-verkeer richting netwerken van kritieke infrastructuur."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "7bca49cdf4ec",
+     "name": "The Record",
+     "url": "https://therecord.media/ukraine-hackers-russia-alert-system",
+     "title": "Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Hackers hijack Russian and Ukrainian emergency alert apps with fake nuclear warnings",
+     "summary": "A popular Ukrainian air raid alert system was hacked over the weekend. A cyber group then breached a similar Russian system in retaliation, and fake nuclear attack warnings were spread.",
+     "takeaway": "Operators of public warning and notification systems should review access controls and have a procedure to retract false alerts quickly."
+    },
+    "nl": {
+     "heading": "Hackers kapen Russische en Oekraïense alarmapps met valse nucleaire waarschuwingen",
+     "summary": "Een populair Oekraïens luchtalarmsysteem werd in het weekend gehackt. Een cybergroep brak daarop als vergelding in op een vergelijkbaar Russisch systeem en er werden valse waarschuwingen voor een nucleaire aanval verspreid.",
+     "takeaway": "Beheerders van publieke waarschuwings- en meldsystemen doen er goed aan toegangsbeheer te controleren en een procedure te hebben om valse alarmen snel in te trekken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "fee577746a80",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/odvas-cip-security-achieves-tuv-rheinland-certification-against-iec-62443-4-2-at-security-level-3/",
+     "title": "ODVA’s CIP Security achieves TÜV Rheinland certification against IEC 62443-4-2 at Security Level 3"
+    },
+    {
+     "id": "19810da3f660",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/us-army-advances-ot-cybersecurity-with-rmc-led-effort-focused-on-zero-trust-and-operational-continuity/",
+     "title": "US Army advances OT cybersecurity with RMC-led effort focused on zero trust and operational continuity"
+    },
+    {
+     "id": "a9c60570c42d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/rockwell-automation-expands-secureot-capabilities-to-help-oems-address-emerging-cybersecurity-regulations/",
+     "title": "Rockwell Automation expands SecureOT capabilities to help OEMs address emerging cybersecurity regulations"
+    },
+    {
+     "id": "1d2d8eaa8e11",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/nist/nist-sets-post-quantum-cryptography-migration-priorities-with-2030-deadlines-for-high-value-federal-systems/",
+     "title": "NIST sets post-quantum cryptography migration priorities, with 2030 deadlines for high-value federal systems"
+    },
+    {
+     "id": "4f3a4f90f77a",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/belden-and-radiflow-introduce-unified-ot-security-approach-linking-exposure-detection-with-automated-enforcemen/",
+     "title": "Belden and Radiflow introduce unified OT security approach linking exposure detection with automated enforcement"
+    },
+    {
+     "id": "a4535cd68351",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/axonius-expands-asset-intelligence-platform-to-iot-and-ot-devices-addressing-cyber-physical-security-visibility-gaps/",
+     "title": "Axonius expands asset intelligence platform to IoT and OT devices, addressing cyber-physical security visibility gaps"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Standards, guidance and vendor news",
+     "summary": "ODVA's CIP Security was certified by TÜV Rheinland against IEC 62443-4-2 at Security Level 3, and NIST finalized a post-quantum cryptography migration report with 2030 deadlines for high-value federal systems. Vendors announced products: Rockwell Automation SecureOT for OEM compliance, a Belden and Radiflow partnership, Axonius OT and IoT asset intelligence, and a US Army OT security effort led by RMC.",
+     "takeaway": "Use certifications such as IEC 62443-4-2 as input when reviewing suppliers, and start planning cryptographic inventory for post-quantum migration."
+    },
+    "nl": {
+     "heading": "Standaarden, richtlijnen en leveranciersnieuws",
+     "summary": "CIP Security van ODVA is door TÜV Rheinland gecertificeerd volgens IEC 62443-4-2 op Security Level 3, en NIST publiceerde een definitief rapport over migratie naar post-quantumcryptografie met deadlines in 2030 voor federale systemen met hoge waarde. Leveranciers kondigden producten aan: Rockwell Automation SecureOT voor OEM-compliance, een samenwerking tussen Belden en Radiflow, Axonius-assetinzicht voor OT en IoT, en een OT-beveiligingsinitiatief van het Amerikaanse leger onder leiding van RMC.",
+     "takeaway": "Gebruik certificeringen zoals IEC 62443-4-2 als input bij leveranciersbeoordelingen en begin met het inventariseren van cryptografie voor de post-quantummigratie."
+    }
+   }
+  }
+ ]
 }
