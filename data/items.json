@@ -1,5 +1,290 @@
 [
  {
+  "id": "d32892baf1f5",
+  "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+  "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+  "excerpt": "Blockchain security companies said more than $46 million left the Mercado Bitcoin platform.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T21:42:00Z",
+  "fetched": "2026-11-02T23:35:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Brazilian crypto exchange Mercado Bitcoin confirmed a cyberattack and funds left the platform.",
+    "nl": "Cryptobeurs Mercado Bitcoin in Brazilië bevestigde een cyberaanval en er vertrok geld van het platform."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "a8bf784c901b",
+  "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+  "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+  "excerpt": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T21:40:14Z",
+  "fetched": "2026-11-02T23:35:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Chinese hackers reportedly used the open-source ARTEX AI penetration-testing framework in attacks on over 200 organizations.",
+    "nl": "Chinese hackers gebruikten naar verluidt het open-source AI-framework ARTEX bij aanvallen op meer dan 200 organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "18836a2757c3",
+  "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+  "title": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+  "excerpt": "A recent post by the BYOD gang appears to line up with a security incident that prompted campus-wide action at Michigan State University. BYOD drew attention in October for an attack on the University of New Mexico.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T19:54:00Z",
+  "fetched": "2026-11-02T23:35:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The BYOD ransomware gang reportedly claimed a security incident at Michigan State University.",
+    "nl": "De ransomwarebende BYOD zou een beveiligingsincident bij Michigan State University hebben opgeëist."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "2767792b4606",
+  "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+  "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+  "excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T19:00:45Z",
+  "fetched": "2026-11-02T23:35:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Abrigo restored its Sageworks risk management application after an outage caused by irregular activity.",
+    "nl": "Abrigo herstelde de Sageworks-risicomanagementapplicatie na een storing door ongebruikelijke activiteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "a34792daddb7",
+  "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+  "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+  "excerpt": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T18:16:34Z",
+  "fetched": "2026-11-02T23:35:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google and partners dismantled the XCPE botnet of over 1.3 million Android TV boxes that were infected with malware.",
+    "nl": "Google en partners ontmanteld het XCPE-botnet van meer dan 1,3 miljoen Android-tv-boxen die met malware waren besmet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "6682f00986fc",
+  "url": "https://industrialcyber.co/critical-infrastructure/hackers-manipulate-supermarket-freezer-temperatures-across-europe-exposing-weaknesses-in-connected-ot-systems/",
+  "title": "Hackers manipulate supermarket freezer temperatures across Europe, exposing weaknesses in connected OT systems",
+  "excerpt": "A new spree of cyberattacks targeting supermarket refrigeration systems has spread across Europe, affecting grocery chains in at...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-02T17:36:36Z",
+  "fetched": "2026-11-02T23:35:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A new spree of cyberattacks targeting supermarket refrigeration systems has spread across Europe, affecting grocery chains.",
+    "nl": "Een nieuwe reeks cyberaanvallen op koelsystemen van supermarkten heeft zich over Europa verspreid en treft supermarktketens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "b22118a1e1e0",
+  "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
+  "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
+  "excerpt": "In a post-mortem about an October 29 incident, prediction market Polymarket said it will pay people back what they lost, as well as compensate them for the site's downtime.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T17:05:20Z",
+  "fetched": "2026-11-02T23:35:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Polymarket said it will repay users for losses and downtime after an October 29 site compromise.",
+    "nl": "Polymarket zegt gebruikers te zullen terugbetalen voor verliezen en stilstand na een site-compromittering op 29 oktober."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "65afadf0cbc2",
+  "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+  "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+  "excerpt": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T16:57:56Z",
+  "fetched": "2026-11-02T23:35:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly newsletter roundup covering critical CVEs, a Linux DDoS botnet, phishing and Android spyware.",
+    "nl": "Een wekelijks nieuwsoverzicht over kritieke CVE's, een Linux DDoS-botnet, phishing en Android-spyware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "acbef9b6b6f9",
+  "url": "https://therecord.media/hackers-ukraine-belarus-russia",
+  "title": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
+  "excerpt": "An alliance of Belarusian and pro-Ukrainian hackers claimed to have taken out Russia's federal statistics agency, Rosstat, and stolen vast amounts of sensitive government data in a cyberattack.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T16:30:00Z",
+  "fetched": "2026-11-02T23:35:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russia's statistics agency Rosstat confirmed a cyberattack claimed by Belarusian and pro-Ukrainian hackers.",
+    "nl": "Het Russische statistiekbureau Rosstat bevestigde een cyberaanval die door Belarussische en pro-Oekraïense hackers is opgeëist."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  }
+ },
+ {
+  "id": "d10e8e1b632b",
+  "url": "https://www.security.nl/posting/960053/NCSC%3A+hang+koelsysteem+niet+direct+aan+internet+en+gebruik+sterk+wachtwoord?channel=rss",
+  "title": "NCSC: hang koelsysteem niet direct aan internet en gebruik sterk wachtwoord",
+  "excerpt": "Het is belangrijk dat supermarkten en andere bedrijven hun koelsystemen niet direct aan het internet hangen en gebruikmaken van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T16:23:00Z",
+  "fetched": "2026-11-02T23:35:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "guidance",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC advises supermarkets and other companies not to connect refrigeration systems directly to the internet and to use strong passwords.",
+    "nl": "De NCSC adviseert supermarkten en andere bedrijven koelsystemen niet direct aan internet te koppelen en sterke wachtwoorden te gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
+  },
+  "title_en": "NCSC: keep the cooling system off the internet directly and use a strong password"
+ },
+ {
   "id": "5b859d544d73",
   "url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
   "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
@@ -60,6 +345,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-02T16:07:25Z"
+  }
+ },
+ {
+  "id": "948be6f589a7",
+  "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+  "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+  "excerpt": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-02T15:50:26Z",
+  "fetched": "2026-11-02T23:35:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google took down a botnet of 1.3 million Android TV set-top boxes after saying the maker Videostrong sold criminal access.",
+    "nl": "Google haalde een botnet van 1,3 miljoen Android-tv-boxen offline nadat het zei dat fabrikant Videostrong criminele toegang verkocht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-02T23:35:27Z"
   }
  },
  {
