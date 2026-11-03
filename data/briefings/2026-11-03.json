@@ -1,0 +1,101 @@
+{
+ "date": "2026-11-03",
+ "published": "2026-11-03T06:53:18Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 4,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A critical Siemens SIMATIC IoT2050 flaw is now under active exploitation, while the supermarket refrigeration attacks in Europe prompt official guidance. The UK NCSC also warns of AI-powered attacks on critical infrastructure."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een kritieke kwetsbaarheid in de Siemens SIMATIC IoT2050 wordt actief misbruikt, en de aanvallen op supermarktkoeling in Europa leiden tot officiële adviezen. Daarnaast waarschuwt het Britse NCSC voor AI-gedreven aanvallen op kritieke infrastructuur."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "6682f00986fc",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/critical-infrastructure/hackers-manipulate-supermarket-freezer-temperatures-across-europe-exposing-weaknesses-in-connected-ot-systems/",
+     "title": "Hackers manipulate supermarket freezer temperatures across Europe, exposing weaknesses in connected OT systems"
+    },
+    {
+     "id": "d10e8e1b632b",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/960053/NCSC%3A+hang+koelsysteem+niet+direct+aan+internet+en+gebruik+sterk+wachtwoord?channel=rss",
+     "title": "NCSC: hang koelsysteem niet direct aan internet en gebruik sterk wachtwoord"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: supermarket refrigeration attacks bring OT exposure warnings",
+     "summary": "Industrial Cyber reports that hackers manipulated freezer temperatures in a new spree across Europe, pointing to weaknesses in connected OT systems. The Dutch NCSC now advises that supermarkets and other businesses should not connect cooling systems directly to the internet and should use strong passwords.",
+     "takeaway": "Check whether any refrigeration or building control systems are reachable from the internet, remove direct exposure and replace default or weak passwords."
+    },
+    "nl": {
+     "heading": "Update: aanvallen op supermarktkoeling leiden tot waarschuwingen over OT-blootstelling",
+     "summary": "Industrial Cyber meldt dat hackers in een nieuwe aanvalsgolf door Europa de temperatuur van vriezers manipuleerden, wat zwakke plekken in verbonden OT-systemen blootlegt. Het Nederlandse NCSC adviseert dat supermarkten en andere bedrijven koelsystemen niet direct aan het internet hangen en sterke wachtwoorden gebruiken.",
+     "takeaway": "Controleer of koel- en gebouwbeheersystemen vanaf internet bereikbaar zijn, haal directe blootstelling weg en vervang standaard- of zwakke wachtwoorden."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "3e6bc640da57",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+     "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-58115"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Siemens SIMATIC IoT2050 flaw CVE-2026-58115 actively exploited",
+     "summary": "VulnCheck reports active exploitation of CVE-2026-58115 (CVSS 10.0) in SIMATIC IoT2050 Advanced devices. The missing authentication flaw lets an unauthenticated remote attacker run arbitrary code, and attackers are reported to be planting remote command backdoors.",
+     "takeaway": "Identify any SIMATIC IoT2050 Advanced devices, apply the Siemens fix or mitigations, restrict network access to them and check for signs of compromise."
+    },
+    "nl": {
+     "heading": "Siemens SIMATIC IoT2050-lek CVE-2026-58115 actief misbruikt",
+     "summary": "VulnCheck meldt actief misbruik van CVE-2026-58115 (CVSS 10.0) in SIMATIC IoT2050 Advanced-apparaten. Door ontbrekende authenticatie kan een ongeauthenticeerde aanvaller op afstand willekeurige code uitvoeren, en aanvallers zouden backdoors voor commando's op afstand plaatsen.",
+     "takeaway": "Breng SIMATIC IoT2050 Advanced-apparaten in kaart, pas de fix of mitigaties van Siemens toe, beperk de netwerktoegang en controleer op tekenen van compromittering."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "01cf60e8e006",
+     "name": "NCSC-UK",
+     "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+     "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "UK NCSC warns of AI-powered attacks on critical infrastructure within two years",
+     "summary": "The UK NCSC warns that 'tech on the cheap' has left UK organisations exposed to AI that can uncover and exploit longstanding security weaknesses. It calls for urgent investment in resilience.",
+     "takeaway": "Review long-standing weaknesses and legacy systems in your OT environment and prioritise resilience investment before AI-assisted attackers find them."
+    },
+    "nl": {
+     "heading": "Brits NCSC waarschuwt voor AI-gedreven aanvallen op kritieke infrastructuur binnen twee jaar",
+     "summary": "Het Britse NCSC waarschuwt dat 'tech on the cheap' Britse organisaties kwetsbaar heeft gemaakt voor AI die oude beveiligingszwaktes kan opsporen en uitbuiten. Het roept op tot dringende investeringen in weerbaarheid.",
+     "takeaway": "Beoordeel oude zwakke plekken en legacy-systemen in uw OT-omgeving en geef prioriteit aan weerbaarheid voordat AI-ondersteunde aanvallers ze vinden."
+    }
+   }
+  }
+ ]
+}

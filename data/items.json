@@ -1,5 +1,297 @@
 [
  {
+  "id": "01cf60e8e006",
+  "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+  "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+  "excerpt": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-11-03T06:52:43Z",
+  "fetched": "2026-11-03T06:52:43Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC warns that AI could let attackers find and exploit long-standing weaknesses in UK critical infrastructure within two years and urges investment in resilience.",
+    "nl": "De NCSC waarschuwt dat AI aanvallers binnen twee jaar in staat kan stellen oude zwakke plekken in Britse kritieke infrastructuur te vinden en uit te buiten, en pleit voor investeringen in weerbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "4bbf6760ef59",
+  "url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+  "title": "Artificial intelligence and cyber intrusion",
+  "excerpt": "An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-11-03T06:52:43Z",
+  "fetched": "2026-11-03T06:52:43Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC assesses current AI-enabled cyber intrusion trends and projects the threat landscape to 2028.",
+    "nl": "De NCSC beoordeelt huidige AI-gestuurde trends in cyberinbraken en projecteert het dreigingslandschap tot 2028."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "dd400a15f401",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/kara-sprague-hackerone-ai-bug-bounty/",
+  "title": "What human hackers still do better than AI, according to HackerOne’s CEO",
+  "excerpt": "AI can find vulnerabilities in minutes, but people still hold the edge in judging what a flaw means for a business. In this Help Net Security interview, Kara Sprague, CEO of HackerOne, talks about business logic bugs, what AI does to the crowd model, and why routine medium-severity findings may pay less. She also covers the growing pile of AI-assisted submissions, how programs sort useful reports from spam, and which parts of a researcher’s work … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T06:30:36Z",
+  "fetched": "2026-11-03T06:52:43Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "HackerOne's CEO discusses how AI affects bug bounty programs, researcher work and the handling of vulnerability reports.",
+    "nl": "De CEO van HackerOne bespreekt hoe AI bug bounty-programma's, het werk van onderzoekers en de verwerking van kwetsbaarheidsmeldingen beïnvloedt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "babb3df2760e",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/product-showcase-sweet-security-virtual-patching/",
+  "title": "Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
+  "excerpt": "HTTP2Shell (CVE-2026-111497), the critical Brotli bug first known as Node2Shell, is a remote code execution flaw in the compression library inside Node.js, Bun, Envoy, Python and more. AI found it: OpenAI’s agents turned it up in late September during a high-compute red-teaming campaign. Finding bugs is getting faster. Fixing them isn’t. HTTP2Shell shows why that gap matters, and how Sweet Virtual Patching protects running applications until the fixes land. A bad stream, a broken decoder … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T06:00:18Z",
+  "fetched": "2026-11-03T06:52:43Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor showcase promotes a virtual patching product for HTTP2Shell (CVE-2026-111497) while vendor fixes are pending.",
+    "nl": "Een productpresentatie promoot virtual patching voor HTTP2Shell (CVE-2026-111497) terwijl fixes van leveranciers nog ontbreken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "d47e4e97f8d7",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/mcphantom-deprecated-mcp-servers/",
+  "title": "AI coding agents are installing MCP servers that will never be patched",
+  "excerpt": "When a developer tells an AI coding agent to “set up a GitHub MCP,” the agent has to pick a package. New research from Glow Labs documents sessions where it picked one out of an archived repository that will never be patched again. Source: Glow Security Reviewing real AI coding session transcripts, Glow Labs found deprecated MCP servers landing on developer machines, a pattern it calls MCPhantom. In 98% of those sessions, the agent appears … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T05:45:53Z",
+  "fetched": "2026-11-03T06:52:43Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Research from Glow Labs finds AI coding agents installing deprecated, unmaintained MCP servers on developer machines.",
+    "nl": "Onderzoek van Glow Labs toont aan dat AI-codeeragents verouderde, niet meer onderhouden MCP-servers op ontwikkelaarsmachines installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "3e6bc640da57",
+  "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+  "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+  "excerpt": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T05:34:41Z",
+  "fetched": "2026-11-03T06:52:42Z",
+  "cves": [
+   "CVE-2026-58115"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 92,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "VulnCheck reports active exploitation of CVE-2026-58115 (CVSS 10.0), a missing authentication flaw in Siemens SIMATIC IoT2050 Advanced devices that allows remote code execution.",
+    "nl": "VulnCheck meldt actieve exploitatie van CVE-2026-58115 (CVSS 10.0), een ontbrekende authenticatiefout in Siemens SIMATIC IoT2050 Advanced-apparaten die externe code-uitvoering mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "d4042f8de11d",
+  "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+  "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+  "excerpt": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T05:34:37Z",
+  "fetched": "2026-11-03T06:52:42Z",
+  "cves": [
+   "CVE-2026-81648"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Threat actors are attempting to exploit unpatched CVE-2026-81648 in the CryptoPayment Gateway WordPress plugin, according to Defused Cyber.",
+    "nl": "Dreigingsactoren proberen de niet-gepatchte CVE-2026-81648 in de CryptoPayment Gateway WordPress-plugin te misbruiken, volgens Defused Cyber."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "760bf90cca43",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/fireperf-open-source-network-testing-tool/",
+  "title": "Fireperf: Open-source network testing tool for firewalls and routers",
+  "excerpt": "The IPFire project has released fireperf, an open-source measurement tool that opens connections at a fixed rate and reports what the device in the middle did with each one. It is free software aimed at administrators, developers and testers who evaluate firewalls, routers and other systems that keep a state for every connection. What fireperf does iperf3, the widely used bandwidth tester, measures how much data two computers can push between them. A firewall has … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T05:30:59Z",
+  "fetched": "2026-11-03T06:52:43Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "IPFire releases fireperf, an open-source tool that measures how firewalls and routers handle fixed-rate connections.",
+    "nl": "IPFire brengt fireperf uit, een open-source tool die meet hoe firewalls en routers verbindingen met een vaste snelheid verwerken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "6424f4e1fafd",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/cybersecurity-jobs-available-right-now-november-3-2026/",
+  "title": "Cybersecurity jobs available right now: November 3, 2026",
+  "excerpt": "Cyber Security Architect Planck Technologies | Portugal | Remote – View job details As a Cyber Security Architect, you will design security architectures for telecommunications networks, platforms, and cloud environments. You will define security frameworks, assess risks, conduct threat modeling, and evaluate security technologies. You will partner with engineering teams to embed security into deployments, maintain architecture documentation, and support customer workshops and technical reviews. You will strengthen governance and contribute to transformation projects involving … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T05:00:25Z",
+  "fetched": "2026-11-03T06:52:43Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A job listing roundup features a cyber security architect position in Portugal.",
+    "nl": "Een overzicht van vacatures bevat onder meer een functie als cyber security architect in Portugal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "266b3df3272b",
+  "url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
+  "title": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+  "excerpt": "\"[V]ulnerabilities that have been tolerated for far too long can now be discovered and exploited at a scale that was once unimaginable,\" the NCSC's chief will warn in releasing the agency's annual report.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T00:01:00Z",
+  "fetched": "2026-11-03T06:52:43Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC chief warns of an unprecedented rise in cyberattacks in coming months as previously tolerated vulnerabilities are exploited at scale.",
+    "nl": "Het hoofd van de NCSC waarschuwt voor een ongekende toename van cyberaanvallen in de komende maanden, omdat eerder getolereerde kwetsbaarheden op grote schaal worden misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
   "id": "d32892baf1f5",
   "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
   "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
