@@ -1,5 +1,375 @@
 [
  {
+  "id": "0db4066d1be3",
+  "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+  "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+  "excerpt": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T20:05:50Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Binance says North Korean hackers used a fake job interview to install malware and steal about $6.34 billion in digital assets.",
+    "nl": "Binance zegt dat Noord-Koreaanse hackers via een nep-sollicitatiegesprek malware lieten installeren en zo ongeveer 6,34 miljard dollar aan digitale activa stalen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "2698ecd844a4",
+  "url": "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+  "title": "Google dismantles massive botnet hidden in Android TV boxes",
+  "excerpt": "The overwhelming majority of the infected devices in the X.CPE botnet are Android TV set-top boxes, Google said, adding that they observed a number of other infected Android-based IoT devices, including telehealth devices, karaoke machines and digital signage devices.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T19:48:00Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google dismantled the X.CPE botnet, which mainly infects Android TV set-top boxes and also some telehealth, karaoke and digital signage devices.",
+    "nl": "Google heeft het X.CPE-botnet ontmanteld, dat vooral Android TV-settopboxen besmet en daarnaast enkele telehealth-, karaoke- en digitale signage-apparaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "dc708c594c49",
+  "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+  "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+  "excerpt": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T18:51:04Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google reports LLMjacking attacks generating large fraudulent cloud AI charges, with some organizations losing over $100,000 per day.",
+    "nl": "Google meldt dat LLMjacking-aanvallen grote frauduleuze cloud-AI-kosten veroorzaken, waarbij sommige organisaties meer dan 100.000 dollar per dag verliezen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "9ca07b46843b",
+  "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+  "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+  "excerpt": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T18:46:38Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "mSecure urges customers to change passwords and reset 2FA and passkeys after suspicious activity linked to its password manager app.",
+    "nl": "mSecure vraagt klanten om wachtwoorden te wijzigen en 2FA en passkeys opnieuw in te stellen na verdachte activiteit rond de wachtwoordmanager-app."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "96de8a8fe0e6",
+  "url": "https://therecord.media/german-officials-among-apple-spyware-warning-recipients",
+  "title": "Several German lawmakers and foreign policy staff received Apple warnings on spyware",
+  "excerpt": "Members of Germany's political elite were among the spyware targets in 99 countries that Apple personally warned recently.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T18:44:00Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apple warned German lawmakers and foreign policy staff that they were among spyware targets in 99 countries.",
+    "nl": "Apple heeft Duitse politici en medewerkers van buitenlandbeleid gewaarschuwd dat zij tot de spyware-doelwitten in 99 landen behoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "8afc2fab5966",
+  "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+  "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+  "excerpt": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. \"An external attacker gained unauthorized access to part of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T18:16:19Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Blockchain infrastructure provider Chainstack disclosed a breach exposing customer data and password hashes in an AI-powered attack campaign.",
+    "nl": "Blockchain-infrastructuurbedrijf Chainstack meldt een inbreuk waarbij klantgegevens en wachtwoordhashes zijn blootgesteld in een AI-gestuurde aanvalscampagne."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "c12f1b8dac80",
+  "url": "https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks",
+  "title": "British businesses caught in Europe-wide supermarket fridge attacks",
+  "excerpt": "Supermarket and grocery store refrigerator controls across Europe were hacked in the early hours of Monday in the second such wave of attacks in recent weeks — following a first wave in France — with unidentified perpetrators defrosting fridges and causing stock to spoil.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T17:43:00Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Supermarket refrigerator controls across Europe were hacked in a second wave of attacks, defrosting fridges and spoiling stock after a first wave in France.",
+    "nl": "Koelingsbesturingen van supermarkten in Europa zijn in een tweede golf van aanvallen gehackt, waardoor koelkasten ontdooiden en voorraad bedierf, na een eerste golf in Frankrijk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "19a35a6714f9",
+  "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+  "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+  "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\"",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T16:55:58Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Binance says a multi-stage campaign using a tampered Homebrew installation and recruitment social engineering led to a $6.43 billion theft.",
+    "nl": "Binance zegt dat een meerfasige campagne met een gemanipuleerde Homebrew-installatie en recruitment-social engineering leidde tot een diefstal van 6,43 miljard dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "848edcd7f637",
+  "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
+  "title": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
+  "excerpt": "North Korean attackers \"combined a range of techniques, including social engineering by fake recruitment interviews,\" Binance said about the multibillion-dollar crypto heist it discovered in October.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T16:42:00Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Binance says a months-long campaign using fake recruitment interviews led to a multibillion-dollar crypto theft that North Korea denies.",
+    "nl": "Binance zegt dat een maandenlange campagne met nep-wervingsgesprekken leidde tot een crypto-diefstal van miljarden, wat Noord-Korea ontkent."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "ddbc2e04a51f",
+  "url": "https://www.security.nl/posting/960263/Mozilla%3A+AI+kan+alle+in+Firefox+aanwezige+beveiligingslekken+vinden?channel=rss",
+  "title": "Mozilla: AI kan alle in Firefox aanwezige beveiligingslekken vinden",
+  "excerpt": "Mozilla heeft door gebruik te maken van AI dit jaar al zeven keer meer beveiligingsupdates voor Firefox uitgebracht dan ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T16:13:51Z",
+  "fetched": "2026-11-03T21:03:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Mozilla says it has released seven times more Firefox security updates this year by using AI to find vulnerabilities.",
+    "nl": "Mozilla zegt dat het dit jaar zevenmaal meer Firefox-beveiligingsupdates heeft uitgebracht door AI in te zetten voor het vinden van kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "bc96c130a163",
+  "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+  "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+  "excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T15:59:19Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [
+   "CVE-2026-116606"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Barracuda"
+   ],
+   "summary": {
+    "en": "Barracuda disclosed two chainable vulnerabilities, CVE-2026-116606 with CVSS 9.3, that could allow authorization bypass and root access on affected devices.",
+    "nl": "Barracuda heeft twee aan elkaar koppelbare kwetsbaarheden gemeld, waaronder CVE-2026-116606 met CVSS 9.3, die authorisatieomzeiling en root-toegang op getroffen apparaten mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "310fe7a6e4c3",
+  "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+  "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+  "excerpt": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T15:41:53Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google warned that attackers hijack enterprise LLM access via stolen API keys, causing cloud charges of up to $1 million.",
+    "nl": "Google waarschuwde dat aanvallers via gestolen API-sleutels de LLM-toegang van bedrijven kapen, met cloudkosten van tot 1 miljoen dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "63d055e30b47",
+  "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+  "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+  "excerpt": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data. cPGuard 5.88.25 and later versions",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T15:16:32Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers hijacked the cPGuard update system on November 2 and pushed a script that backdoored Linux servers and collected password hashes.",
+    "nl": "Aanvallers kaapten op 2 november het updatesysteem van cPGuard en verspreidden een script dat Linux-servers van een backdoor voorzag en wachtwoordhashes verzamelde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
   "id": "14634d021884",
   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
   "title": "Barracuda warns of critical flaws allowing root access to devices",
@@ -267,6 +637,36 @@
   }
  },
  {
+  "id": "9e33b839bd7f",
+  "url": "https://industrialcyber.co/features/industrial-ai-adoption-outpaces-security-readiness-leaving-ot-environments-exposed-to-emerging-threats/",
+  "title": "Industrial AI adoption outpaces security readiness, leaving OT environments exposed to emerging threats",
+  "excerpt": "AI implementation across OT (operational technology) and ICS (industrial control systems) environments is outpacing security measures that organizations...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-03T13:39:12Z",
+  "fetched": "2026-11-03T21:03:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Industrial AI adoption across OT and ICS environments is outpacing security measures, leaving these environments exposed to emerging threats.",
+    "nl": "De invoering van industriële AI in OT- en ICS-omgevingen loopt voor op beveiligingsmaatregelen, waardoor deze omgevingen blootstaan aan opkomende dreigingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
   "id": "266dc1112be2",
   "url": "https://therecord.media/russia-linked-cyber-spies-target-ukraine-war-support",
   "title": "Russia-linked cyber spies target Ukraine's war crimes investigations, military aid routes",
@@ -355,6 +755,126 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "3191d4ac134c",
+  "url": "https://industrialcyber.co/cisa/cisa-urges-critical-infrastructure-owners-to-prioritize-ot-security-operational-continuity-recovery-planning-in-2026-campaign/",
+  "title": "CISA urges critical infrastructure owners to prioritize OT security, operational continuity, recovery planning in 2026 campaign",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) launched on Monday its 2026 Critical Infrastructure Security and Resilience...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-03T13:09:58Z",
+  "fetched": "2026-11-03T21:03:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA launched its 2026 Critical Infrastructure Security and Resilience campaign, urging owners to prioritize OT security, operational continuity and recovery planning.",
+    "nl": "CISA is gestart met de campagne Critical Infrastructure Security and Resilience 2026 en roept eigenaren op om prioriteit te geven aan OT-beveiliging, operationele continuiteit en herstelplanning."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "495a26aaee90",
+  "url": "https://industrialcyber.co/news/baserock-partners-with-radiflow-to-extend-iec-62443-advisory-services-with-continuous-ot-risk-monitoring/",
+  "title": "BaseRock partners with Radiflow to extend IEC 62443 advisory services with continuous OT risk monitoring",
+  "excerpt": "BaseRock IT Solutions, a UK specialist in industrial IT and manufacturing cybersecurity, recently announced a partnership with Radiflow,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-03T13:07:01Z",
+  "fetched": "2026-11-03T21:03:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Radiflow"
+   ],
+   "summary": {
+    "en": "BaseRock IT Solutions announced a partnership with Radiflow to extend IEC 62443 advisory services with continuous OT risk monitoring.",
+    "nl": "BaseRock IT Solutions heeft een partnerschap met Radiflow aangekondigd om IEC 62443-adviesdiensten uit te breiden met continue OT-risicomonitoring."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "496abfff9d86",
+  "url": "https://industrialcyber.co/news/gdit-taps-appgate-zero-trust-technology-to-strengthen-federal-cyber-resilience-and-secure-interagency-access/",
+  "title": "GDIT taps AppGate zero trust technology to strengthen federal cyber resilience and secure interagency access",
+  "excerpt": "General Dynamics Information Technology (GDIT), a business unit of General Dynamics, announced that it has expanded its partnership...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-03T13:06:34Z",
+  "fetched": "2026-11-03T21:03:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "General Dynamics Information Technology expanded its partnership with AppGate to deliver zero trust access for federal agencies.",
+    "nl": "General Dynamics Information Technology heeft zijn partnerschap met AppGate uitgebreid om zero trust-toegang voor federale instanties te leveren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
+  }
+ },
+ {
+  "id": "22d5c4ef9581",
+  "url": "https://industrialcyber.co/news/secomea-urges-stronger-ot-remote-access-controls-following-suspected-attacks-on-european-supermarkets/",
+  "title": "Secomea urges stronger OT remote access controls following suspected attacks on European supermarkets",
+  "excerpt": "Supermarket chains across Europe have reported a new wave of suspected cyberattacks affecting refrigeration systems, just weeks after...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-03T13:03:12Z",
+  "fetched": "2026-11-03T21:03:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "guidance",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Secomea"
+   ],
+   "summary": {
+    "en": "Secomea urges stronger OT remote access controls after suspected cyberattacks disrupted refrigeration systems at European supermarket chains.",
+    "nl": "Secomea dringt aan op sterkere OT-toegangsbeheer op afstand na vermoedelijke cyberaanvallen op koelsystemen bij Europese supermarktketens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
   }
  },
  {
@@ -1129,6 +1649,42 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-03T06:53:01Z"
+  }
+ },
+ {
+  "id": "05fb314a5581",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
+  "title": "ICSA-26-307-01: Subnet Solutions PowerSYSTEM Center",
+  "excerpt": "Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. Sectors: Critical Manufacturing, Energy.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-03T06:00:00Z",
+  "fetched": "2026-11-03T21:03:40Z",
+  "cves": [
+   "CVE-2026-63017",
+   "CVE-2026-63774"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "energy"
+   ],
+   "vendors": [
+    "Subnet Solutions"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-307-01 covers Subnet Solutions PowerSYSTEM Center, where exploitation could allow unauthorized SQL commands and access to restricted resources.",
+    "nl": "CISA-advisory ICSA-26-307-01 betreft Subnet Solutions PowerSYSTEM Center, waarbij misbruik ongeautoriseerde SQL-commando's en toegang tot beperkte bronnen mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T21:04:02Z"
   }
  },
  {
