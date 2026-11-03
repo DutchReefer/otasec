@@ -1,5 +1,1021 @@
 [
  {
+  "id": "14634d021884",
+  "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+  "title": "Barracuda warns of critical flaws allowing root access to devices",
+  "excerpt": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T15:06:16Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Barracuda Networks"
+   ],
+   "summary": {
+    "en": "Barracuda Networks warned customers to patch two vulnerabilities that could allow attackers to run commands with root privileges.",
+    "nl": "Barracuda Networks waarschuwt klanten om twee kwetsbaarheden te patchen waarmee aanvallers commando's met rootrechten kunnen uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "bb82a7a2be8b",
+  "url": "https://www.security.nl/posting/960245/Wachtwoordmanager+mSecure+waarschuwt+na+incident+om+logins+te+wijzigen?channel=rss",
+  "title": "Wachtwoordmanager mSecure waarschuwt na incident om logins te wijzigen",
+  "excerpt": "Softwarebedrijf mSeven waarschuwt gebruikers van wachtwoordmanager mSecure voor een incident dat gevolgen voor de veiligheid ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T15:06:01Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "mSecure"
+   ],
+   "summary": {
+    "en": "The mSecure password manager vendor warned users to change logins after an incident affecting security.",
+    "nl": "De leverancier van wachtwoordmanager mSecure waarschuwt gebruikers om logins te wijzigen na een incident."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "e554aac3b811",
+  "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+  "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+  "excerpt": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T15:00:10Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Gartner predicts security operations centers will employ more engineers than analysts by 2028 as AI agents take over alert handling.",
+    "nl": "Gartner voorspelt dat security operations centers in 2028 meer engineers dan analisten hebben doordat AI-agents alertafhandeling overnemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "b7c5a52e40e8",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/investment-fraud-network-servers-seized/",
+  "title": "Police seize over 100 servers linked to investment fraud with more than €4 million in losses",
+  "excerpt": "Seven people have been arrested and more than 100 servers seized in a coordinated law enforcement action against an investment fraud network that started unravelling after a complaint from a German couple. Seized servers (Source: Europol) The couple went to the police in 2022 after putting their savings into an online trading platform and discovering they could not withdraw their profits. The investigation that followed uncovered an international scheme. Europol says the network’s potential victims … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T14:31:51Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police arrested seven people and seized over 100 servers in an action against an investment fraud network.",
+    "nl": "De politie heeft zeven personen gearresteerd en meer dan 100 servers in beslag genomen bij een actie tegen een investeringsfraudenetwerk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "4962a3abb6aa",
+  "url": "https://www.security.nl/posting/960235/Koelsystemen+Duitse+supermarkten+getroffen+door+cyberaanval?channel=rss",
+  "title": "Koelsystemen Duitse supermarkten getroffen door cyberaanval",
+  "excerpt": "Koelsystemen van meerdere Duitse supermarkten zijn getroffen door een cyberaanval, waarbij de temperatuur werd verhoogd. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T14:18:41Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Cooling systems of several German supermarkets were hit by a cyberattack that raised the temperature settings.",
+    "nl": "Koelsystemen van meerdere Duitse supermarkten zijn door een cyberaanval getroffen, waarbij de temperatuur werd verhoogd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  },
+  "title_en": "Cooling systems of German supermarkets hit by cyberattack"
+ },
+ {
+  "id": "bb9268a42593",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/novee-external-surface-testing/",
+  "title": "Novee puts forgotten internet-facing assets through penetration testing",
+  "excerpt": "Novee’s External Surface Testing is a new capability in its AI penetration testing platform that helps security teams discover internet-facing assets and validate exploitable vulnerabilities. It tests newly disclosed CVEs and findings imported from third-party external attack surface management (EASM) tools. “Attackers don’t limit themselves to the applications you’re already testing. They look for anything exposed to the internet – forgotten subdomains, staging servers left online, and infrastructure your team may not even know exists. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T14:00:26Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Novee"
+   ],
+   "summary": {
+    "en": "Novee announced an External Surface Testing capability in its AI penetration testing platform.",
+    "nl": "Novee kondigt een External Surface Testing-functie aan in zijn AI-pentestplatform."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "d28d36f21992",
+  "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+  "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+  "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T14:00:00Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A 3AM ransomware affiliate encrypted around 37 of nearly 50 machines at a UK school estate, in a suspected AI-assisted attack.",
+    "nl": "Een 3AM-ransomwarelid heeft naar verluidt met AI-ondersteuning rond 37 van de bijna 50 machines van een Britse schoolorganisatie versleuteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "fabd905d9508",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/assured-data-protection-cleanroom-scan/",
+  "title": "Assured helps recovery teams find clean backups after ransomware attacks",
+  "excerpt": "Assured Data Protection has announced CleanRoom SCAN, a new managed service designed to strengthen cyber recovery by independently scanning isolated backup data using multiple leading security engines to identify hidden threats before restoration. The service helps organizations identify malware and other indicators of compromise earlier, reducing the risk of reinfecting production environments during recovery. CleanRoom SCAN lets Assured customers scan isolated backup copies away from production environments, helping detect malware or indicators of compromise that … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T13:59:38Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Assured Data Protection"
+   ],
+   "summary": {
+    "en": "Assured Data Protection announced CleanRoom SCAN, a managed service for scanning isolated backups before restoration.",
+    "nl": "Assured Data Protection kondigt CleanRoom SCAN aan, een beheerde dienst die geïsoleerde back-ups scant vóór herstel."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "bc7e7db1a56f",
+  "url": "https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three",
+  "title": "Russia dismantles infrastructure of VasyGrek cybercrime group, detains three suspects",
+  "excerpt": "Russia's Interior Ministry said Monday that police had dismantled the group's infrastructure and identified its suspected members following an investigation conducted with assistance from cybersecurity firm Kaspersky.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T13:50:00Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Kaspersky"
+   ],
+   "summary": {
+    "en": "Russian police dismantled the infrastructure of the VasyGrek cybercrime group and detained three suspects.",
+    "nl": "De Russische politie heeft de infrastructuur van de cybercriminele groep VasyGrek ontmanteld en drie verdachten aangehouden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "266dc1112be2",
+  "url": "https://therecord.media/russia-linked-cyber-spies-target-ukraine-war-support",
+  "title": "Russia-linked cyber spies target Ukraine's war crimes investigations, military aid routes",
+  "excerpt": "The hackers use relatively simple malware to steal sensitive documents, login credentials and other information from Ukrainian organizations, particularly those near the front line and the Russian border.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T13:39:00Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Russia-linked hackers use simple malware to steal documents and credentials from Ukrainian organizations.",
+    "nl": "Met Rusland gelieerde hackers gebruiken eenvoudige malware om documenten en inloggegevens van Oekraïense organisaties te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "8b47d68efc35",
+  "url": "https://www.security.nl/posting/960224/Node-RED-servers+via+kritieke+kwetsbaarheid+ge%C3%AFnfecteerd+met+malware?channel=rss",
+  "title": "Node-RED-servers via kritieke kwetsbaarheid geïnfecteerd met malware",
+  "excerpt": "Aanvallers maken misbruik van een kritieke kwetsbaarheid in programmeertool Node-RED om servers met malware te infecteren. Dat ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T13:36:32Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Node-RED"
+   ],
+   "summary": {
+    "en": "Attackers exploit a critical vulnerability in Node-RED to infect servers with malware.",
+    "nl": "Aanvallers misbruiken een kritieke kwetsbaarheid in Node-RED om servers met malware te infecteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  },
+  "title_en": "Node-RED servers infected with malware via critical vulnerability"
+ },
+ {
+  "id": "503dc8a978b4",
+  "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+  "title": "Police seizes over 100 servers in investment scam crackdown",
+  "excerpt": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T13:33:49Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "European police arrested seven suspects and seized over 100 servers linked to fraudulent trading websites.",
+    "nl": "Europese politie heeft zeven verdachten gearresteerd en meer dan 100 servers in beslag genomen die aan frauduleuze handelssites zijn gekoppeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "b5c802ecda9f",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/",
+  "title": "Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)",
+  "excerpt": "Attackers are exploiting an authentication flaw (CVE-2026-58115) in Node-RED, a programming tool built into some industrial control products, to install a Linux bot and backdoors on unprotected servers, VulnCheck has found. Node-RED is a flow-based programming tool built on Node.js that lets users wire together event-driven applications in a browser-based editor. It can run on small devices such as the Raspberry Pi or in the cloud, and it is used in manufacturing, healthcare, and home … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T12:59:51Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [
+   "CVE-2026-58115"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Node-RED"
+   ],
+   "summary": {
+    "en": "Attackers exploit authentication flaw CVE-2026-58115 in Node-RED to install a Linux bot and backdoors on unprotected servers.",
+    "nl": "Aanvallers misbruiken authenticatiefout CVE-2026-58115 in Node-RED om een Linux-bot en backdoors te installeren op onbeschermde servers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "3c5e2179eb36",
+  "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
+  "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
+  "excerpt": "Een kritieke kwetsbaarheid in Android maakt remote code execution op telefoons mogelijk, waarbij er geen interactie van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T12:34:00Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Android"
+   ],
+   "summary": {
+    "en": "A critical Android vulnerability allows remote code execution on phones without user interaction.",
+    "nl": "Een kritieke Android-kwetsbaarheid maakt remote code execution op telefoons mogelijk zonder interactie van de gebruiker."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "06e91a6fbd02",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/ai-powered-cyberattacks-artex-cyberstrikeai/",
+  "title": "AI agents scale and speed up Chinese-linked attacks",
+  "excerpt": "A China-nexus espionage group used AI agents to attack more than 200 organizations in 11 days, CrowdStrike said last week. On Monday, Kaspersky published details of a separate campaign against educational institutions in Africa and Latin America, mounted by Chinese-speaking operators. Though the campaigns don’t appear to be connected, they are executed the same way: a human picks the targets and sets the goals, and a large language model (LLM) decides which commands to run … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T12:31:59Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A China-nexus group used AI agents to attack over 200 organizations in 11 days, while Kaspersky reported a separate campaign against educational institutions.",
+    "nl": "Een China-gelieerde groep heeft met AI-agents binnen 11 dagen meer dan 200 organisaties aangevallen, terwijl Kaspersky een aparte campagne tegen onderwijsinstellingen meldde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "f28dbdb8f403",
+  "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+  "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+  "excerpt": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T12:05:52Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google added a new top-tier reward of $250,000 to its Cloud Vulnerability Reward Program for Root-in-Cloud bugs.",
+    "nl": "Google voegt een nieuwe top-beloning van 250.000 dollar toe aan zijn Cloud VRP voor Root-in-Cloud-kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "7d1cb1ad8ed4",
+  "url": "https://www.security.nl/posting/960199/Microsoft+Edge+schakelt+automatisch+notificaties+uit+van+scamsites?channel=rss",
+  "title": "Microsoft Edge schakelt automatisch notificaties uit van scamsites",
+  "excerpt": "Microsoft heeft een aanpassing aan Edge doorgevoerd zodat de browser automatisch notificaties van scamsites blokkeert. Volgens ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T11:37:08Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft Edge now automatically blocks notifications from scam sites.",
+    "nl": "Microsoft Edge blokkeert nu automatisch notificaties van scamsites."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "77f64f32faf5",
+  "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+  "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+  "excerpt": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T11:23:53Z",
+  "fetched": "2026-11-03T15:12:52Z",
+  "cves": [
+   "CVE-2026-98432"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Red Hat",
+    "Ubuntu"
+   ],
+   "summary": {
+    "en": "Red Hat released fixed kernels for CVE-2026-98432, a remotely exploitable Linux TCP flaw, while Ubuntu fixes remain in testing.",
+    "nl": "Red Hat heeft gepatchte kernels uitgebracht voor CVE-2026-98432, een op afstand misbruikbare Linux TCP-kwetsbaarheid, terwijl Ubuntu-fixes nog in testing zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "20c9c9965d29",
+  "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+  "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+  "excerpt": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T11:18:20Z",
+  "fetched": "2026-11-03T15:12:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Gartner"
+   ],
+   "summary": {
+    "en": "A vendor article discusses how to prioritize exposures, citing Gartner that fewer than 10% of vulnerabilities are exploited.",
+    "nl": "Een leveranciersartikel bespreekt prioritering van blootstellingen en verwijst naar Gartner over het lage percentage uitgebuite kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "3ce297811edf",
+  "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+  "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+  "excerpt": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T11:00:45Z",
+  "fetched": "2026-11-03T15:12:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [
+    "WinRAR"
+   ],
+   "summary": {
+    "en": "Russia-aligned Gorbag hackers exploit a WinRAR flaw to deploy information-stealing malware against Ukrainian organizations.",
+    "nl": "Met Rusland gelieerde Gorbag-hackers misbruiken een WinRAR-kwetsbaarheid om informatiestelende malware te verspreiden onder Oekraïense organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:34Z"
+  }
+ },
+ {
+  "id": "49d3fa00d3ef",
+  "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+  "title": "Harvard University data breach exposed info of 851,000 accounts",
+  "excerpt": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T10:53:25Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers breached Harvard University's Alumni Affairs and Development systems in November 2025, exposing data linked to over 850,000 email addresses.",
+    "nl": "Hackers braken in november 2025 in op de systemen voor alumnizaken en ontwikkeling van Harvard University, waarbij gegevens van meer dan 850.000 e-mailadressen zijn buitgemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "bba7b15d8f6c",
+  "url": "https://www.security.nl/posting/960178/Linux-servers+met+securitysoftware+cPGuard+via+update+besmet+met+malware?channel=rss",
+  "title": "Linux-servers met securitysoftware cPGuard via update besmet met malware",
+  "excerpt": "Linux-servers die gebruikmaken van securitysoftware cPGuard zijn via een update besmet geraakt met malware, zo heeft ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T10:47:25Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Linux servers using the cPGuard security software were infected with malware through a compromised software update.",
+    "nl": "Linux-servers die cPGuard gebruiken zijn via een besmette softwareupdate met malware geinfecteerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "7bfddf8a9c1a",
+  "url": "https://www.security.nl/posting/960167/RDI%3A+groeiende+afhankelijkheid+van+digitale+infrastructuur+groot+vraagstuk?channel=rss",
+  "title": "RDI: groeiende afhankelijkheid van digitale infrastructuur groot vraagstuk",
+  "excerpt": "Steeds meer systemen en apparaten zijn aangesloten op de digitale infrastructuur, zoals energie- en watervoorziening, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T10:21:22Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "industry",
+   "sectors": [
+    "energy",
+    "water",
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "RDI warns that growing dependence on digital infrastructure, including energy and water supply, is a major issue as more systems get connected.",
+    "nl": "RDI waarschuwt dat de groeiende afhankelijkheid van digitale infrastructuur, waaronder energie- en watervoorziening, een groot vraagstuk is nu steeds meer systemen zijn aangesloten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  },
+  "title_en": "RDI: growing dependence on digital infrastructure a major issue"
+ },
+ {
+  "id": "580d890bd820",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/gorbag-apt-group-malware/",
+  "title": "Gorbag APT group hits Ukrainian courts and city councils with self-deleting malware",
+  "excerpt": "ESET has been tracking a Russia-aligned group it calls Gorbag, which has been breaking into Ukrainian organizations since at least February 2025 using spearphishing attachments and a stealer that erases itself once the data is gone. Spearphishing email message from a compromised email sender (Source: ESET) Every target ESET identified sits in Ukraine. About a quarter are law enforcement and justice bodies, another quarter are local administrations, mostly city councils in areas close to the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T10:00:14Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "ESET reports a Russia-aligned group called Gorbag has targeted Ukrainian courts and city councils since February 2025 using spearphishing and a self-deleting stealer.",
+    "nl": "ESET meldt dat een met Rusland gelieerde groep genaamd Gorbag sinds februari 2025 Oekraiense rechtbanken en gemeenten aanvalt met spearphishing en een zelfwissende stealer."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "e07c6e4165b9",
+  "url": "https://certvde.com/en/advisories/VDE-2026-119/",
+  "title": "Welotec: Multiple vulnerabilities in TK routers",
+  "excerpt": "[VDE-2026-119] Multiple vulnerabilities in the web-based management functions of the affected Welotec routers, including VPN-related functions, may allow a remote attacker with high privileges to inject commands or trigger a buffer overflow. Successful exploitation may result in command execution with root privileges or a denial of service.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-03T10:00:00Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Welotec"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-119 reports multiple vulnerabilities in Welotec TK routers that may allow command injection or buffer overflow by high-privileged remote attackers.",
+    "nl": "CERT@VDE-advisory VDE-2026-119 meldt meerdere kwetsbaarheden in Welotec TK-routers die command injection of een buffer overflow door aanvallers met hoge rechten mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "4a96a7ae6267",
+  "url": "https://www.security.nl/posting/960150/VK+vreest+%27ongekende+toename%27+van+cyberaanvallen+in+komende+maanden?channel=rss",
+  "title": "VK vreest 'ongekende toename' van cyberaanvallen in komende maanden",
+  "excerpt": "Het Verenigd Koninkrijk kan de komende maanden met een 'ongekende toename' van het aantal cyberaanvallen te maken krijgen, zo ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T09:41:41Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The United Kingdom warns it may face an unprecedented increase in cyberattacks in the coming months.",
+    "nl": "Het Verenigd Koninkrijk waarschuwt dat het de komende maanden mogelijk te maken krijgt met een ongekende toename van cyberaanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "f36a05bf6a02",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/",
+  "title": "Stolen AI access leaves companies with cloud bills of up to $1 million",
+  "excerpt": "Criminals who break into corporate cloud accounts are using the stolen access to run AI models at the victim’s expense, in some cases racking up more than $100,000 in charges in a single day, Google Threat Intelligence Group (GTIG) and Mandiant researchers have found. Usage chart showing LLMJacking generating a spike in API requests (Source: Google) In 2026, Mandiant responded to several of these LLMJacking incidents, recorded in attacks on the financial services, retail, technology … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T09:39:05Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google and Mandiant found criminals stealing cloud access to run AI models at victims' expense, sometimes causing charges above $100,000 in a day.",
+    "nl": "Google en Mandiant ontdekten dat criminelen gestolen cloudtoegang gebruiken om AI-modellen op kosten van slachtoffers te draaien, soms met kosten van meer dan 100.000 dollar per dag."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "e115b7ff9d73",
+  "url": "https://www.security.nl/posting/960139/Aerdts%3A+Europese+digitale+ID+voor+online+leeftijdsverificatie+blijft+vrijwillig?channel=rss",
+  "title": "Aerdts: Europese digitale ID voor online leeftijdsverificatie blijft vrijwillig",
+  "excerpt": "Het gebruik van een Europese digitale identiteit als mogelijke vorm van online leeftijdsverificatie blijft vrijwillig, zo stelt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T09:11:58Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Dutch official states that using the European digital identity for online age verification will remain voluntary.",
+    "nl": "Een Nederlandse bewindspersoon stelt dat het gebruik van de Europese digitale identiteit voor online leeftijdsverificatie vrijwillig blijft."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "842188ad7cf4",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/openai-bigger-bug-bounty-rewards/",
+  "title": "OpenAI raises top bug bounty payout to $172,000 with bonuses",
+  "excerpt": "OpenAI increased its security bug bounties to encourage independent researchers to find vulnerabilities in its software. The program now offers bonuses for high-quality reports. The program encourages researchers to disclose vulnerabilities responsibly and complements OpenAI’s Defense Factory, where engineers use the company’s models to find and reproduce vulnerabilities and test fixes. New bounty payouts and bonuses The midpoints of the reward ranges for medium, high, and critical findings more than quadrupled on average. Critical vulnerabilities … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T08:58:59Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI increased its bug bounty payouts and added bonuses for high-quality vulnerability reports.",
+    "nl": "OpenAI heeft de bug bounty-uitbetalingen verhoogd en bonussen toegevoegd voor kwalitatief goede kwetsbaarheidsmeldingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "eb5ade18647e",
+  "url": "https://www.helpnetsecurity.com/2026/11/03/opal-security-agent-id-virtual-event/",
+  "title": "Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
+  "excerpt": "Opal Security will host agent.ID, a free virtual event focused on adapting identity and access management (IAM) to AI agents, on November 5, 2026. The event will bring together CISOs and identity leaders from Elastic, Instacart, Notion, Databricks, Knostic and other organizations to discuss how agents can be governed through assigned ownership, defined permissions and accountability. Sessions will examine access reviews for non-human identities, the tradeoffs between standing and just-in-time access, and controls that operate … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T08:55:07Z",
+  "fetched": "2026-11-03T15:12:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Opal Security announces a free virtual event on November 5, 2026 about identity and access management for AI agents.",
+    "nl": "Opal Security kondigt een gratis online evenement op 5 november 2026 aan over identity- en toegangsbeheer voor AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "0777020bcd04",
+  "url": "https://www.security.nl/posting/960132/Ubuntu+werkt+nog+aan+update+voor+kritiek+lek+in+TCP-code+Linux-kernel?channel=rss",
+  "title": "Ubuntu werkt nog aan update voor kritiek lek in TCP-code Linux-kernel",
+  "excerpt": "Ubuntu werkt nog aan een update voor een kritieke kwetsbaarheid in de TCP-code van de Linux-kernel, zo hebben de ontwikkelaars ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T08:39:46Z",
+  "fetched": "2026-11-03T15:12:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ubuntu is working on an update for a critical vulnerability in the TCP code of the Linux kernel.",
+    "nl": "Ubuntu werkt aan een update voor een kritieke kwetsbaarheid in de TCP-code van de Linux-kernel."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "07d9937fab38",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+  "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+  "excerpt": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T08:31:48Z",
+  "fetched": "2026-11-03T15:12:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers stole Bitcoin and Litecoin from hot wallets on BTCPay Server instances running version 2.4.1 or earlier, prompting an update call.",
+    "nl": "Aanvallers hebben bitcoin en litecoin gestolen uit hot wallets op BTCPay Server-instanties met versie 2.4.1 of ouder, waarop de ontwikkelaar een update adviseert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "d108c8cad61e",
+  "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+  "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+  "excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T07:43:07Z",
+  "fetched": "2026-11-03T15:12:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Synology"
+   ],
+   "summary": {
+    "en": "Synology urges customers to update DSM after ransomware attacks exploited a DSM flaw patched in December 2024 on outdated NAS devices.",
+    "nl": "Synology roept klanten op DSM bij te werken na ransomware-aanvallen die een DSM-kwetsbaarheid uit december 2024 misbruiken op verouderde NAS-apparaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
+  "id": "36d509a3e525",
+  "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+  "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+  "excerpt": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T07:27:07Z",
+  "fetched": "2026-11-03T15:12:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Attackers remotely changed refrigeration control settings at supermarkets in Belgium, Sweden, Estonia and other European countries, warming fridges and freezers and forcing food removal.",
+    "nl": "Aanvallers hebben op afstand de instellingen van koelingsregelaars in supermarkten in België, Zweden, Estland en andere Europese landen gewijzigd, waardoor koelkasten en vriezers opwarmden en voedsel moest worden verwijderd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-03T15:13:48Z"
+  }
+ },
+ {
   "id": "01cf60e8e006",
   "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
   "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
