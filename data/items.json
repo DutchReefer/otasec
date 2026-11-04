@@ -1,5 +1,643 @@
 [
  {
+  "id": "c7f94ff1201e",
+  "url": "https://certvde.com/en/advisories/VDE-2026-084/",
+  "title": "Phoenix Contact: CodeMeter Runtime Security Vulnerabilities in License Validation in the PLCnext Firmware",
+  "excerpt": "[VDE-2026-084] This advisory addresses security vulnerabilities in Phoenix Contact products with an integrated CodeMeter Runtime, like PLCnext devices and Virtual Controls. These security vulnerabilities only may occur with versions <8.41a of the integrated software CodeMeter Runtime from Wibu-Systems. Please see listed products to determine which devices and firmware versions are affected.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-04T09:20:12Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact",
+    "Wibu-Systems",
+    "CodeMeter Runtime",
+    "PLCnext"
+   ],
+   "summary": {
+    "en": "VDE-2026-084 reports license validation vulnerabilities in Phoenix Contact PLCnext devices and Virtual Controls with CodeMeter Runtime versions below 8.41a.",
+    "nl": "VDE-2026-084 meldt kwetsbaarheden in de licentievalidatie van Phoenix Contact PLCnext-apparaten en Virtual Controls met CodeMeter Runtime-versies lager dan 8.41a."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "b8310ecdbf5e",
+  "url": "https://certvde.com/en/advisories/VDE-2026-098/",
+  "title": "Phoenix Contact: CodeMeter Runtime Security Vulnerabilities in License Validation for SW Tools",
+  "excerpt": "[VDE-2026-098] This advisory addresses multiple security vulnerabilities in Phoenix Contact products using the software CodeMeter Runtime like licensed desktop software tools. These security vulnerabilities only may occur with CodeMeter Runtime 8.x versions <9.10 from Wibu-Systems.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-04T09:20:12Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact",
+    "Wibu-Systems",
+    "CodeMeter Runtime"
+   ],
+   "summary": {
+    "en": "VDE-2026-098 reports multiple license validation vulnerabilities in Phoenix Contact desktop software tools using CodeMeter Runtime 8.x versions below 9.10.",
+    "nl": "VDE-2026-098 meldt meerdere kwetsbaarheden in de licentievalidatie van Phoenix Contact-desktopsoftware die CodeMeter Runtime 8.x-versies lager dan 9.10 gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "0b18df8e4a80",
+  "url": "https://certvde.com/en/advisories/VDE-2026-121/",
+  "title": "Phoenix Contact: GSDX SignatureValue verification, signed plug-in validation bypass and path traversal vulnerabilities in PLCnext Engineer programming software",
+  "excerpt": "[VDE-2026-121] GSDX SignatureValue verification, signed plug-in validation bypass and path traversal vulnerabilities have been identified in PLCnext Engineer prior to version 2026.6. The effects of these vulnerabilities may result in a complete loss of confidentiality, integrity and availability.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-04T09:20:12Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact",
+    "PLCnext Engineer"
+   ],
+   "summary": {
+    "en": "VDE-2026-121 reports GSDX signature verification, signed plug-in bypass and path traversal flaws in PLCnext Engineer before version 2026.6, potentially affecting confidentiality, integrity and availability.",
+    "nl": "VDE-2026-121 meldt GSDX-handtekeningverificatie, omzeiling van ondertekende plug-ins en path traversal-kwetsbaarheden in PLCnext Engineer vóór versie 2026.6."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "5236db77bd24",
+  "url": "https://industrialcyber.co/critical-infrastructure/australias-cisc-sharpens-critical-infrastructure-risk-guidance-urges-stronger-cyber-and-supply-chain-controls/",
+  "title": "Australia’s CISC sharpens critical infrastructure risk guidance, urges stronger cyber and supply chain controls",
+  "excerpt": "Australia’s Critical Infrastructure Security Centre (CISC) recently announced that it has published updated Critical Infrastructure Risk Management Program...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-04T09:12:12Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Australia's Critical Infrastructure Security Centre published updated Critical Infrastructure Risk Management Program guidance with stronger cyber and supply chain control expectations.",
+    "nl": "Het Australische Critical Infrastructure Security Centre heeft bijgewerkte richtlijnen voor het risicomanagementprogramma van kritieke infrastructuur gepubliceerd, met strengere eisen voor cyber- en supplychaincontroles."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "3353afa90ea5",
+  "url": "https://www.security.nl/posting/960329/Google+komt+met+patch+voor+tweehonderd+beveiligingslekken+in+Chrome?channel=rss",
+  "title": "Google komt met patch voor tweehonderd beveiligingslekken in Chrome",
+  "excerpt": "Google heeft patches voor Chrome uitgebracht die ruim tweehonderd beveiligingslekken in de browser verhelpen, waaronder zeven ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T09:10:25Z",
+  "fetched": "2026-11-04T09:20:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google released Chrome patches fixing about two hundred security flaws in the browser.",
+    "nl": "Google heeft patches voor Chrome uitgebracht die ruim tweehonderd beveiligingslekken in de browser verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "4121a94a28a4",
+  "url": "https://industrialcyber.co/ransomware/eset-uncovers-gorbag-cyberespionage-campaign-targeting-ukraines-administrations-defense-sector-transportation-hub/",
+  "title": "ESET uncovers Gorbag cyberespionage campaign targeting Ukraine’s administrations, defense sector, transportation hub",
+  "excerpt": "New research from ESET identified a previously underreported Russia-aligned threat actor, tracked as Gorbag, conducting targeted cyberespionage operations...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-04T09:04:05Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "threat",
+   "sectors": [
+    "government",
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "ESET reports a Russia-aligned threat actor, Gorbag, running cyberespionage against Ukrainian administrations, the defense sector and a transportation hub.",
+    "nl": "ESET meldt dat de Russisch gelieerde dreiging Gorbag cyberspionage uitvoert tegen Oekraïense overheidsinstanties, de defensiesector en een transportknooppunt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "1c830698b90e",
+  "url": "https://www.security.nl/posting/960326/%27Aanvaller+zoekt+op+internet+naar+Linux-servers+met+kritiek+TCP-lek%27?channel=rss",
+  "title": "'Aanvaller zoekt op internet naar Linux-servers met kritiek TCP-lek'",
+  "excerpt": "Een aanvaller lijkt het gehele internet af te scannen op zoek naar Linux-servers met een kritieke TCP-kwetsbaarheid. Dat meldt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T09:00:54Z",
+  "fetched": "2026-11-04T09:20:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker appears to be scanning the internet for Linux servers vulnerable to a critical TCP flaw.",
+    "nl": "Een aanvaller lijkt het internet af te scannen op Linux-servers met een kritieke TCP-kwetsbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "5847b91ce544",
+  "url": "https://industrialcyber.co/news/crytica-security-partners-with-carahsoft-to-expand-device-level-ot-threat-detection-across-us-public-sector/",
+  "title": "Crytica Security partners with Carahsoft to expand device-level OT threat detection across US public sector",
+  "excerpt": "Crytica Security, developer of Rapid Detection, Alert and isolation (RDAi) solution, and Carahsoft Technology Corp. announced a distribution...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-04T09:00:14Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Crytica Security",
+    "Carahsoft"
+   ],
+   "summary": {
+    "en": "Crytica Security and Carahsoft announced a distribution partnership for its OT threat detection product in the US public sector.",
+    "nl": "Crytica Security en Carahsoft hebben een distributiepartnerschap aangekondigd voor hun OT-dreigingsdetectie in de Amerikaanse publieke sector."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "147cc0b2a5aa",
+  "url": "https://industrialcyber.co/news/dispel-joins-white-house-backed-project-lifeline-250-to-secure-remote-access-at-rural-hospitals/",
+  "title": "Dispel joins White House-backed Project Lifeline 250 to secure remote access at rural hospitals",
+  "excerpt": "Dispel, a vendor of Secure Remote Access (SRA) for Operational Technology (OT), announced its participation in Project Lifeline...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-04T08:48:58Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [
+    "Dispel"
+   ],
+   "summary": {
+    "en": "Dispel announced its participation in Project Lifeline 250 to provide secure remote access for OT at rural hospitals.",
+    "nl": "Dispel heeft deelname aangekondigd aan Project Lifeline 250 om veilige externe toegang voor OT in plattelandsziekenhuizen te leveren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "47b79b8218ef",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/webinar-iec62443-it-ot-interface/",
+  "title": "IEC 62443 at the IT/OT Interface",
+  "excerpt": "This webinar reviews recent government directives, clears up the controversy, and introduces practical approaches to islanding. We evaluate islanding advice in the context of the emerging era of AI-based zero-day exploits.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-11-04T08:47:14Z",
+  "fetched": "2026-11-04T09:20:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Waterfall Security"
+   ],
+   "summary": {
+    "en": "Waterfall Security promotes a webinar on IEC 62443 at the IT/OT interface and islanding approaches.",
+    "nl": "Waterfall Security promoot een webinar over IEC 62443 op de IT/OT-grens en islanding-benaderingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "bff677ae7782",
+  "url": "https://www.security.nl/posting/960316/Binance%3A+aanvallers+kwamen+binnen+via+nepsollicitatie+en+supplychain-aanval?channel=rss",
+  "title": "Binance: aanvallers kwamen binnen via nepsollicitatie en supplychain-aanval",
+  "excerpt": "De aanvallers die bij Binance 5,6 miljard euro aan cryptovaluta wisten te stelen kwamen binnen via een nepsollicitatie en ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T08:39:52Z",
+  "fetched": "2026-11-04T09:20:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers entered cryptocurrency exchange Binance through a fake job interview and a supply chain attack before stealing funds.",
+    "nl": "Aanvallers kwamen cryptobeurs Binance binnen via een nepsollicitatie en een supplychain-aanval voordat ze geld stalen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "40a5a2749a72",
+  "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+  "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+  "excerpt": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T08:17:11Z",
+  "fetched": "2026-11-04T09:20:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russian authorities arrested three suspected members of the VasyGrek hacking group and dismantled its criminal infrastructure.",
+    "nl": "Russische autoriteiten hebben drie vermoedelijke leden van de VasyGrek-hackersgroep gearresteerd en hun criminele infrastructuur ontmanteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "32c90d2f0958",
+  "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+  "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+  "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T07:46:15Z",
+  "fetched": "2026-11-04T09:20:11Z",
+  "cves": [
+   "CVE-2026-58868"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Google",
+    "Android"
+   ],
+   "summary": {
+    "en": "Google's November bulletin reports a critical Android flaw, CVE-2026-58868, allowing remote code execution without user interaction.",
+    "nl": "Het novemberbulletin van Google meldt een kritieke Android-kwetsbaarheid, CVE-2026-58868, die remote code-uitvoering zonder gebruikersinteractie mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "de2464452fbe",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/rsync-3-5-2-released/",
+  "title": "Open-source file sync tool rsync 3.5.2 fixes a CPU exhaustion flaw",
+  "excerpt": "The rsync project released version 3.5.2, and it closes a flaw that let a connecting client tie up a server’s CPU with checksum math that leads nowhere. The new version also lets you push a transfer to the back of the queue for CPU and disk, so a big sync stops elbowing everything else on the machine. rsync is an open-source utility that copies files locally and across a network, and it is widely used … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T07:43:13Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "rsync"
+   ],
+   "summary": {
+    "en": "rsync 3.5.2 was released, fixing a flaw that let a client exhaust server CPU with checksum computations.",
+    "nl": "rsync 3.5.2 is uitgebracht en verhelpt een fout waarmee een client de CPU van een server kon belasten met checksumberekeningen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "17fab9dffc60",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/lindsay-kaye-human-security-ai-generated-malware/",
+  "title": "What AI-generated malware looks like under the microscope",
+  "excerpt": "In this Help Net Security interview, Lindsay Kaye, VP of Threat Intelligence at HUMAN Security, talks about what AI-generated malware looks like on the bench. She points to tidy comments, uniform logging messages, and emojis as signs a script came from a model, and notes that decompiled code strips much of that away. Kaye also covers how AI is squeezing the time teams have to patch, where it helps criminals scale fraud, and why her … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T07:00:26Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An interview with HUMAN Security's threat intelligence VP describes signs of AI-generated malware and how AI pressures patching.",
+    "nl": "Een interview met de VP Threat Intelligence van HUMAN Security beschrijft kenmerken van AI-gegenereerde malware en de druk die AI op patchen legt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "a5561bd308a9",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/ghostunnel-open-source-tls-proxy/",
+  "title": "Ghostunnel: Open-source TLS proxy with mutual authentication",
+  "excerpt": "Ghostunnel is an open-source proxy that handles TLS for programs that cannot handle it themselves. It works in two directions. In server mode it sits in front of a backend, accepts TLS connections, checks the client’s certificate, then passes traffic to the service behind it over TCP or a UNIX socket. In client mode it does the reverse, listening for plain local connections, wrapping them in TLS and presenting a client certificate to the remote … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T06:30:14Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Ghostunnel"
+   ],
+   "summary": {
+    "en": "Ghostunnel is an open-source TLS proxy that adds mutual authentication for programs that cannot handle TLS themselves.",
+    "nl": "Ghostunnel is een open-source TLS-proxy die wederzijdse authenticatie toevoegt voor programma's die zelf geen TLS ondersteunen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "afd53a279f3f",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/rapidfort-runtime-container-profiling/",
+  "title": "Secure your containers without breaking what works",
+  "excerpt": "Container security has a familiar problem. Teams identify vulnerabilities, but turning those findings into lower risk is much harder. A standard container image may include operating-system packages, development tools, debugging utilities and libraries that an application never uses. Each unnecessary component can expand the attack surface and add vulnerabilities to investigate, patch or explain during an audit. Consider an NGINX image that contains 274 categorized vulnerabilities straight from download. Scanning makes those findings visible, but … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T06:00:34Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor article discusses reducing container vulnerabilities by removing unused components from images.",
+    "nl": "Een vendorartikel bespreekt het verminderen van containerkwetsbaarheden door ongebruikte componenten uit images te verwijderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "349817163ae5",
+  "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+  "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T05:43:11Z",
+  "fetched": "2026-11-04T09:20:11Z",
+  "cves": [
+   "CVE-2026-119977"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "WordPress"
+   ],
+   "summary": {
+    "en": "CISA added WordPress Core flaw CVE-2026-119977 to its KEV catalog after evidence of exploitation during software upgrades.",
+    "nl": "CISA heeft WordPress Core-kwetsbaarheid CVE-2026-119977 aan de KEV-catalogus toegevoegd na bewijs van actieve misbruik tijdens software-upgrades."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "940b70444e96",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/ai-strategy-miscalculation-gartner-report/",
+  "title": "Companies going all in on AI could see their strategy backfire",
+  "excerpt": "Four of the five highest-ranked enterprise risks in Gartner’s Quarterly Emerging Risk Report were AI-related. AI strategy miscalculation and AI-driven competitive displacement debuted at No. 3 and No. 4, respectively. The AI workforce preparedness gap held fifth place. AI discovery of cyber vulnerabilities and geopolitical energy supply shocks held the top two spots for the second consecutive quarter. The rankings show a composite risk score based on responses from 308 enterprise risk management leaders, auditors … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T05:30:45Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Gartner's emerging risk report ranks several AI-related enterprise risks among the top five.",
+    "nl": "Het Gartner-rapport over opkomende risico's rangschikt meerdere AI-gerelateerde bedrijfsrisico's in de top vijf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "4dfce4f8a873",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/nist-small-business-cybersecurity-guide/",
+  "title": "NIST publishes cybersecurity guide for businesses too small to have IT staff",
+  "excerpt": "The National Institute of Standards and Technology (NIST) released cybersecurity guidance for small businesses with no paid employees other than their owners. These businesses include freelancers, sole proprietors, and independent contractors. About 82% of the 34.8 million small businesses in the United States fall into this category, according to the U.S. Small Business Administration’s Office of Advocacy. “Because solopreneurs may not have cybersecurity expertise, we wanted to create a resource designed for them,” said NIST’s … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T05:00:23Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NIST released cybersecurity guidance for small businesses with no paid employees besides their owners.",
+    "nl": "NIST heeft cyberbeveiligingsrichtlijnen uitgebracht voor kleine bedrijven zonder betaalde medewerkers naast de eigenaren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "fa963be2acfc",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/anthropic-flashprove-provable-inference/",
+  "title": "Anthropic open-sources FlashProve, its provable inference prototype for MoE models",
+  "excerpt": "Anthropic’s Frontier Red Team, with collaborators at EPFL, MIT and StarkWare, built FlashProve, a prototype that produces a cryptographic proof that one specific language model generated one specific reply. The prover, two verifiers, the formal proofs behind them and a protocol specification are on GitHub under the Apache 2.0 license. Source: Anthropic When you send a prompt to a hosted API, you can’t confirm which model answered it. A provider could route the request to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T04:36:14Z",
+  "fetched": "2026-11-04T09:20:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "Anthropic and collaborators released FlashProve, an open-source prototype that cryptographically proves which language model produced a given reply.",
+    "nl": "Anthropic en partners brachten FlashProve uit, een open-source prototype dat cryptografisch aantoont welk taalmodel een bepaald antwoord heeft gegenereerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T09:20:32Z"
+  }
+ },
+ {
   "id": "221ad226855f",
   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",

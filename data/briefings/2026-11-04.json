@@ -1,0 +1,237 @@
+{
+ "date": "2026-11-04",
+ "published": "2026-11-04T09:21:04Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 16,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Supermarket refrigeration attacks spread to more countries, and a Node-RED flaw is now being used to install a Linux bot and backdoors. Phoenix Contact and Welotec advisories and fresh government guidance round out the day."
+  },
+  "nl": {
+   "title": "",
+   "intro": "De aanvallen op koelsystemen van supermarkten breiden zich uit naar meer landen, en een Node-RED-kwetsbaarheid wordt nu misbruikt om een Linux-bot en backdoors te installeren. Daarnaast advisories van Phoenix Contact en Welotec en nieuwe overheidsrichtlijnen."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "c12f1b8dac80",
+     "name": "The Record",
+     "url": "https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks",
+     "title": "British businesses caught in Europe-wide supermarket fridge attacks"
+    },
+    {
+     "id": "4962a3abb6aa",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/960235/Koelsystemen+Duitse+supermarkten+getroffen+door+cyberaanval?channel=rss",
+     "title": "Koelsystemen Duitse supermarkten getroffen door cyberaanval"
+    },
+    {
+     "id": "22d5c4ef9581",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/secomea-urges-stronger-ot-remote-access-controls-following-suspected-attacks-on-european-supermarkets/",
+     "title": "Secomea urges stronger OT remote access controls following suspected attacks on European supermarkets"
+    }
+   ],
+   "source_count": 3,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: supermarket fridge attacks hit British and German businesses",
+     "summary": "Refrigerator controls at supermarkets and grocery stores across Europe were hacked early Monday in the second wave in recent weeks, following a first wave in France. Unidentified perpetrators defrosted fridges and stock spoiled; reports mention British businesses and several German supermarkets where temperatures were raised. Secomea responded by urging stronger OT remote access controls.",
+     "takeaway": "Review who and what can reach refrigeration and building controls remotely, and enforce strong authentication and access restrictions on those paths."
+    },
+    "nl": {
+     "heading": "Update: aanvallen op supermarktkoeling treffen Britse en Duitse bedrijven",
+     "summary": "Koelingsbesturingen van supermarkten en buurtwinkels in Europa zijn maandagochtend vroeg gehackt, in de tweede golf van de afgelopen weken na een eerste golf in Frankrijk. Onbekende daders lieten koelingen ontdooien, waardoor voorraad bedierf; er wordt melding gemaakt van Britse bedrijven en meerdere Duitse supermarkten waar de temperatuur werd verhoogd. Secomea roept op tot strengere OT-toegangscontroles op afstand.",
+     "takeaway": "Controleer wie en wat op afstand bij koel- en gebouwbesturing kan en dwing sterke authenticatie en toegangsbeperking af op die routes.the"
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "b5c802ecda9f",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/",
+     "title": "Attackers exploit critical Node-RED flaw to deploy Linux bot and backdoors (CVE-2026-58115)"
+    },
+    {
+     "id": "8b47d68efc35",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/960224/Node-RED-servers+via+kritieke+kwetsbaarheid+ge%C3%AFnfecteerd+met+malware?channel=rss",
+     "title": "Node-RED-servers via kritieke kwetsbaarheid geïnfecteerd met malware"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-58115"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Update: Node-RED flaw CVE-2026-58115 exploited to install Linux bot and backdoors",
+     "summary": "VulnCheck found attackers exploiting the authentication flaw CVE-2026-58115 in Node-RED, a flow-based programming tool built into some industrial control products. The attacks target unprotected servers and install a Linux bot and backdoors. This CVE id was already reported earlier as actively exploited.",
+     "takeaway": "Find Node-RED instances in your environment, including those embedded in industrial products, keep them off exposed networks and apply vendor fixes."
+    },
+    "nl": {
+     "heading": "Update: Node-RED-lek CVE-2026-58115 misbruikt voor Linux-bot en backdoors",
+     "summary": "VulnCheck zag aanvallers misbruik maken van de authenticatiekwetsbaarheid CVE-2026-58115 in Node-RED, een flow-based programmeertool die in sommige industriële besturingsproducten is ingebouwd. De aanvallen richten zich op onbeschermde servers en installeren een Linux-bot en backdoors. Dit CVE-nummer werd eerder al als actief misbruikt gemeld.",
+     "takeaway": "Breng Node-RED-instanties in kaart, ook die in industriële producten zijn ingebouwd, houd ze van blootgestelde netwerken af en pas fixes van de leverancier toe."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "c7f94ff1201e",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-084/",
+     "title": "Phoenix Contact: CodeMeter Runtime Security Vulnerabilities in License Validation in the PLCnext Firmware"
+    },
+    {
+     "id": "0b18df8e4a80",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-121/",
+     "title": "Phoenix Contact: GSDX SignatureValue verification, signed plug-in validation bypass and path traversal vulnerabilities in PLCnext Engineer programming software"
+    },
+    {
+     "id": "b8310ecdbf5e",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-098/",
+     "title": "Phoenix Contact: CodeMeter Runtime Security Vulnerabilities in License Validation for SW Tools"
+    },
+    {
+     "id": "e07c6e4165b9",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-119/",
+     "title": "Welotec: Multiple vulnerabilities in TK routers"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Phoenix Contact PLCnext and CodeMeter, Welotec TK routers",
+     "summary": "CERT@VDE published three Phoenix Contact advisories: CodeMeter Runtime license validation flaws in PLCnext firmware (versions below 8.41a) and in licensed desktop tools (8.x below 9.10), plus PLCnext Engineer flaws before 2026.6 that may cause a complete loss of confidentiality, integrity and availability. A separate advisory covers multiple vulnerabilities in Welotec TK routers that may allow command injection with root privileges or denial of service by a high-privileged remote attacker.",
+     "takeaway": "Check your PLCnext, PLCnext Engineer and Welotec TK router inventory against the listed versions and schedule updates."
+    },
+    "nl": {
+     "heading": "Overige advisories: Phoenix Contact PLCnext en CodeMeter, Welotec TK-routers",
+     "summary": "CERT@VDE publiceerde drie advisories over Phoenix Contact: kwetsbaarheden in de licentievalidatie van CodeMeter Runtime in PLCnext-firmware (versies onder 8.41a) en in gelicentieerde desktoptools (8.x onder 9.10), plus kwetsbaarheden in PLCnext Engineer vóór 2026.6 die kunnen leiden tot een volledig verlies van vertrouwelijkheid, integriteit en beschikbaarheid. Een aparte advisory beschrijft meerdere kwetsbaarheden in Welotec TK-routers waarmee een externe aanvaller met hoge rechten commando's kan injecteren met rootrechten of een denial of service kan veroorzaken.",
+     "takeaway": "Vergelijk je inventaris van PLCnext, PLCnext Engineer en Welotec TK-routers met de genoemde versies en plan de updates in."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "4121a94a28a4",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/eset-uncovers-gorbag-cyberespionage-campaign-targeting-ukraines-administrations-defense-sector-transportation-hub/",
+     "title": "ESET uncovers Gorbag cyberespionage campaign targeting Ukraine’s administrations, defense sector, transportation hub"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "ESET uncovers Gorbag cyberespionage campaign in Ukraine",
+     "summary": "ESET identified a previously underreported Russia-aligned threat actor, tracked as Gorbag. It conducts targeted cyberespionage against Ukrainian administrations, the defense sector and a transportation hub.",
+     "takeaway": "Transport and government-linked operators in the region should review ESET's findings and compare them with their own monitoring."
+    },
+    "nl": {
+     "heading": "ESET ontdekt Gorbag-spionagecampagne in Oekraïne",
+     "summary": "ESET heeft een tot nu toe weinig gerapporteerde Rusland-gezinde dreigingsactor geïdentificeerd, door ESET Gorbag genoemd. De actor voert gerichte cyberspionage uit tegen Oekraïense overheidsinstanties, de defensiesector en een transportknooppunt.",
+     "takeaway": "Transport- en overheidsgerelateerde operators in de regio kunnen de bevindingen van ESET doornemen en vergelijken met hun eigen monitoring."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "3191d4ac134c",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/cisa/cisa-urges-critical-infrastructure-owners-to-prioritize-ot-security-operational-continuity-recovery-planning-in-2026-campaign/",
+     "title": "CISA urges critical infrastructure owners to prioritize OT security, operational continuity, recovery planning in 2026 campaign"
+    },
+    {
+     "id": "5236db77bd24",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/critical-infrastructure/australias-cisc-sharpens-critical-infrastructure-risk-guidance-urges-stronger-cyber-and-supply-chain-controls/",
+     "title": "Australia’s CISC sharpens critical infrastructure risk guidance, urges stronger cyber and supply chain controls"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CISA and Australia's CISC issue critical infrastructure guidance",
+     "summary": "CISA launched its 2026 Critical Infrastructure Security and Resilience campaign, urging owners to prioritize OT security, operational continuity and recovery planning. Australia's CISC published updated Critical Infrastructure Risk Management Program guidance, urging stronger cyber and supply chain controls.",
+     "takeaway": "Use the guidance to test your recovery plans and supply chain controls."
+    },
+    "nl": {
+     "heading": "CISA en Australische CISC publiceren richtlijnen voor kritieke infrastructuur",
+     "summary": "CISA lanceerde de campagne Critical Infrastructure Security and Resilience 2026 en roept eigenaren op prioriteit te geven aan OT-beveiliging, continuïteit van de bedrijfsvoering en herstelplanning. De Australische CISC publiceerde bijgewerkte richtlijnen voor het Critical Infrastructure Risk Management Program en pleit voor sterkere cyber- en supplychaincontroles.",
+     "takeaway": "Gebruik de richtlijnen om je herstelplannen en supplychaincontroles te toetsen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "9e33b839bd7f",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/features/industrial-ai-adoption-outpaces-security-readiness-leaving-ot-environments-exposed-to-emerging-threats/",
+     "title": "Industrial AI adoption outpaces security readiness, leaving OT environments exposed to emerging threats"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Industrial AI adoption outpaces OT security readiness",
+     "summary": "Industrial Cyber reports that AI implementation in OT and ICS environments is outpacing the security measures organizations have in place. This leaves OT environments exposed to emerging threats.",
+     "takeaway": "Include security review in any AI project that touches OT or ICS before it goes live."
+    },
+    "nl": {
+     "heading": "Inzet van industriële AI loopt voor op OT-beveiliging",
+     "summary": "Industrial Cyber meldt dat de invoering van AI in OT- en ICS-omgevingen sneller gaat dan de beveiligingsmaatregelen van organisaties. Daardoor zijn OT-omgevingen kwetsbaar voor opkomende dreigingen.",
+     "takeaway": "Neem een securityreview op in elk AI-project dat OT of ICS raakt, voordat het live gaat."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "147cc0b2a5aa",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/dispel-joins-white-house-backed-project-lifeline-250-to-secure-remote-access-at-rural-hospitals/",
+     "title": "Dispel joins White House-backed Project Lifeline 250 to secure remote access at rural hospitals"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Dispel joins Project Lifeline 250 for rural hospitals",
+     "summary": "Dispel, a vendor of secure remote access for OT, announced its participation in the White House-backed Project Lifeline 250. The aim is to secure remote access at rural hospitals.",
+     "takeaway": "Healthcare operators should review how remote access to OT and medical systems is secured and monitored."
+    },
+    "nl": {
+     "heading": "Update: Dispel sluit aan bij Project Lifeline 250 voor landelijke ziekenhuizen",
+     "summary": "Dispel, leverancier van beveiligde toegang op afstand voor OT, maakte bekend deel te nemen aan het door het Witte Huis gesteunde Project Lifeline 250. Het doel is om toegang op afstand bij landelijke ziekenhuizen te beveiligen.",
+     "takeaway": "Zorginstellingen doen er goed aan te beoordelen hoe toegang op afstand tot OT- en medische systemen is beveiligd en bewaakt."
+    }
+   }
+  }
+ ]
+}
