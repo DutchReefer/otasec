@@ -1,5 +1,205 @@
 [
  {
+  "id": "94ac3c3bdec2",
+  "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+  "title": "Vercel rolls out new protection against stolen session cookie attacks",
+  "excerpt": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T21:31:18Z",
+  "fetched": "2026-11-04T23:42:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Vercel is gradually rolling out Device Bound Session Credentials on its platform to defend against information stealer malware and stolen session cookies.",
+    "nl": "Vercel rolt geleidelijk Device Bound Session Credentials uit op zijn platform als verdediging tegen infostealer-malware en gestolen sessiecookies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T23:42:54Z"
+  }
+ },
+ {
+  "id": "71b12d48491a",
+  "url": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+  "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+  "excerpt": "Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines and Malaysia Airlines have all come forward over the last week to report data breaches traced back to Amadeus IT Group — a company that builds and maintains platforms for flight reservation, ticketing and check-in platforms.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T21:30:00Z",
+  "fetched": "2026-11-04T23:42:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Several Asian airlines report data breaches traced to a compromise of Amadeus IT Group, which runs flight reservation and check-in platforms.",
+    "nl": "Meerdere Aziatische luchtvaartmaatschappijen melden datalekken die herleid zijn tot een aanval op Amadeus IT Group, dat platforms voor reserveringen en check-in beheert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T23:42:54Z"
+  }
+ },
+ {
+  "id": "f4f1ad10a87b",
+  "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+  "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+  "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T20:58:19Z",
+  "fetched": "2026-11-04T23:42:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Zyxel"
+   ],
+   "summary": {
+    "en": "Zyxel patched a zero-day in its GS1900 switches, which attackers exploited to compromise nearly 1,000 devices and steal configuration files and credentials.",
+    "nl": "Zyxel heeft een zero-day in zijn GS1900-switches gepatcht, die aanvallers misbruikten om bijna 1.000 apparaten te compromitteren en configuratiebestanden en inloggegevens te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T23:42:54Z"
+  }
+ },
+ {
+  "id": "ede1220cf0eb",
+  "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
+  "title": "Canadian extradited to US for allegedly hacking schools in at least four states",
+  "excerpt": "The Department of Justice said it identified two suspects in a case that dates back to 2016 and involved illicit cryptomining on the computers of U.S. educational institutions.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T19:17:00Z",
+  "fetched": "2026-11-04T23:42:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Canadian suspect was extradited to the US over alleged illicit cryptomining on computers of educational institutions dating back to 2016.",
+    "nl": "Een Canadese verdachte is uitgeleverd aan de VS voor vermeend illegaal cryptomining op computers van onderwijsinstellingen, een zaak die teruggaat tot 2016."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T23:42:54Z"
+  }
+ },
+ {
+  "id": "987ba3712202",
+  "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+  "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+  "excerpt": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T19:05:19Z",
+  "fetched": "2026-11-04T23:42:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "DreamHost reports a data breach in which attackers accessed its File Manager for two months and stole customers' FTP and SFTP credentials.",
+    "nl": "DreamHost meldt een datalek waarbij aanvallers twee maanden toegang hadden tot de File Manager en FTP- en SFTP-inloggegevens van klanten stalen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T23:42:54Z"
+  }
+ },
+ {
+  "id": "462ec96575da",
+  "url": "https://therecord.media/french-bank-confirms-cyber-heist",
+  "title": "French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million",
+  "excerpt": "Crédit Mutuel Arkéa said in a press notice that the attackers were able to make transfers using the bank’s own account after compromising an unnamed supplier.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T18:58:00Z",
+  "fetched": "2026-11-04T23:42:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Crédit Mutuel Arkéa confirms a cyber heist in which attackers allegedly made transfers from its account after compromising an unnamed supplier, with an estimated $133 million stolen.",
+    "nl": "Crédit Mutuel Arkéa bevestigt een cyberoverval waarbij aanvallers na het compromitteren van een onbekende leverancier vermoedelijk overboekingen deden, naar schatting 133 miljoen dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T23:42:54Z"
+  }
+ },
+ {
+  "id": "6347f0773f90",
+  "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+  "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+  "excerpt": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T18:02:56Z",
+  "fetched": "2026-11-04T23:42:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack on a refrigeration equipment provider raised temperature and defrost settings at three French national blood service facilities, threatening stored blood products.",
+    "nl": "Een cyberaanval op een leverancier van koelapparatuur verhoogde de temperatuur- en ontdooi-instellingen bij drie faciliteiten van de Franse nationale bloedbank, wat opgeslagen bloedproducten bedreigt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T23:42:54Z"
+  }
+ },
+ {
   "id": "3632eace057e",
   "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
   "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
