@@ -1,5 +1,1236 @@
 [
  {
+  "id": "3632eace057e",
+  "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+  "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+  "excerpt": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T17:00:46Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A flaw in APT, the Debian and Ubuntu package manager, lets a network attacker swap verified packages for malicious ones and run code as root.",
+    "nl": "Een kwetsbaarheid in APT, de pakketbeheerder van Debian en Ubuntu, laat een netwerkaanvaller geverifieerde pakketten vervangen door kwaadaardige en code als root uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "1b9b96d402ef",
+  "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+  "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+  "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T17:00:38Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [
+   "CVE-2026-109593"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "SonicWall will not patch two vulnerabilities in end-of-life GMS 9.5.2 and earlier, including an unauthenticated file read flaw.",
+    "nl": "SonicWall gaat twee kwetsbaarheden in het end-of-life GMS 9.5.2 en eerdere versies niet patchen, waaronder een niet-geauthenticeerde bestandsleesfout."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "b7494c226c5f",
+  "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+  "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+  "excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T16:58:46Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers tampered with the PC launcher scripts of the NIKKE game, distributing malware that steals credentials and crypto wallet data.",
+    "nl": "Hackers hebben de PC-launcherscripts van het spel NIKKE gemanipuleerd en verspreiden malware die inloggegevens en cryptowalletgegevens steelt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "7881f7cab76d",
+  "url": "https://therecord.media/ukraine-kyiv-independent-cyberattack",
+  "title": "Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
+  "excerpt": "A suspected Russian cyberattack disrupted the website of The Kyiv Independent, one of Ukraine’s leading English-language news outlets.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T16:15:00Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A suspected Russian cyberattack disrupted the website of the Kyiv Independent news outlet.",
+    "nl": "Een vermoedelijke Russische cyberaanval heeft de website van de Kyiv Independent verstoord."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "78de6ffe4e2d",
+  "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+  "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+  "excerpt": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T16:06:43Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point researchers found a Codex jailbreak bundle that modifies AI agent instructions to insert third-party advertisements.",
+    "nl": "Check Point-onderzoekers vonden een jailbreakpakket voor OpenAI Codex dat instructies van AI-agents wijzigt om advertenties van derden in te voegen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "201b2063f67c",
+  "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+  "title": "mSecure password manager hack prompts password reset warnings",
+  "excerpt": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T16:00:18Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "After a cyberattack reportedly exposed an encrypted customer database, mSecure urges customers to change passwords and reset two-factor authentication.",
+    "nl": "Na een cyberaanval waarbij naar verluidt een versleutelde klantendatabase is blootgesteld, roept mSecure klanten op wachtwoorden te wijzigen en 2FA te resetten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "838b6527fb49",
+  "url": "https://www.security.nl/posting/960416/Incident+wachtwoordmanager+mSecure+raakt+alleen+cloudgebruikers?channel=rss",
+  "title": "Incident wachtwoordmanager mSecure raakt alleen cloudgebruikers",
+  "excerpt": "Aanvallers zijn erin geslaagd om bij wachtwoordmanager mSecure een database met gegevens van klanten te stelen, wat gebruikers ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T15:14:18Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers stole a customer database from the mSecure password manager, affecting cloud users.",
+    "nl": "Aanvallers hebben een klantendatabase van wachtwoordmanager mSecure gestolen, wat cloudgebruikers raakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "7f254f8f8057",
+  "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+  "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+  "excerpt": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T15:00:10Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A phishing campaign using Google Calendar invites and fake login pages hijacked corporate Google sessions and bypassed MFA.",
+    "nl": "Een phishingcampagne met Google Calendar-uitnodigingen en neploginpagina's kaapte zakelijke Google-sessies en omzeilde MFA."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "3d7cce11fe59",
+  "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+  "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+  "excerpt": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:42:25Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "SonicWall warned that two security flaws in end-of-life GMS systems will not be patched.",
+    "nl": "SonicWall waarschuwde dat twee beveiligingslekken in end-of-life GMS-systemen niet gepatcht worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "789ad3b15a61",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/cycurion-habit/",
+  "title": "Cycurion Habit verifies threats and validates fixes before closing cases",
+  "excerpt": "Cycurion has launched Habit, an AI-driven security operations center (SOC) built to identify threats before they disrupt operations. The launch also marks Cycurion’s repositioning as a predictive cybersecurity company, built around a newly assembled team of former U.S. Intelligence Community and private-sector cyber experts. Habit doesn’t chase alerts. It learns what normal looks like for every identity, device, and workload in a client’s environment, then goes after whatever breaks the pattern. It connects to the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:40:23Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cycurion launched Habit, an AI-driven security operations center product, and repositioned as a predictive cybersecurity company.",
+    "nl": "Cycurion heeft Habit gelanceerd, een AI-gestuurd security operations center, en positioneert zich als voorspellend cyberbeveiligingsbedrijf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "0ec391389163",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/apt29-watering-hole-mobile-devices-n-day-exploits/",
+  "title": "Russian hackers target iOS and Android users with n-day exploits",
+  "excerpt": "Russia’s APT29 has been using compromised websites, lookalike domains and a hijacked web analytics service to target iOS and Android users with exploits for patched flaws and steal their cookies, messages and Wi-Fi passwords, according to Sekoia. APT29 watering holes target mobile devices with n-day exploits (Source: Sekoia) The company’s Threat Detection & Research (TDR) team spotted the operation in mid-October 2026. “This watering hole campaign, which we assess with moderate to high confidence to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:38:37Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russia's APT29 uses compromised websites and a hijacked analytics service to deliver n-day exploits to iOS and Android users.",
+    "nl": "Russische APT29 gebruikt gecompromitteerde websites en een gekaapte analysedienst om n-day exploits naar iOS- en Android-gebruikers te sturen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "6878b5de7990",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/descope-envoy/",
+  "title": "Descope Envoy brings AI agent authentication to consumer apps",
+  "excerpt": "Descope has announced Envoy, a set of capabilities that gives personal AI agents a delegated sign-in path alongside a consumer app’s existing authentication flows. Consumer companies can now accept agents as first-class users—with their own identities, permissions, and approval flows—without rebuilding their identity stack. GoFundMe, You.com, GoodRx, and Composio are among several launch and design partners for Envoy who will work alongside Descope to improve Envoy in the months to come. Personal agents have reached … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:31:05Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Descope announced Envoy, a set of capabilities for delegated sign-in of AI agents in consumer apps.",
+    "nl": "Descope heeft Envoy aangekondigd, een set functies voor gedelegeerde inlog van AI-agents in consumentenapps."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "5e99d13bfbb2",
+  "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+  "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+  "excerpt": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:27:52Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "APT29 allegedly hijacked the Plerdy SEO Tracker script to run a watering hole campaign delivering iOS and Android exploits.",
+    "nl": "APT29 zou het Plerdy SEO Tracker-script hebben gekaapt voor een watering hole-campagne met iOS- en Android-exploits."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "0d03af6c664c",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/blueflag-ai-agent-governance/",
+  "title": "BlueFlag Security adds controls for AI agents working under developer identities",
+  "excerpt": "BlueFlag Security has expanded AI Agent Governance that fully maps the access, behavior and oversight of both approved and shadow AI agents, including options for automated risk remediation. Activated within BlueFlag’s pioneering platform, customers can now govern all aspects of AI agents and their relationships with human/machine identities, tools, pipelines and production applications across the software development lifecycle (SDLC). The new capabilities follow the release of BlueFlag’s 2026 State of Developer Identity Risk, a first-of-its … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:22:51Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "BlueFlag Security expanded its AI agent governance platform with controls for agents operating under developer identities.",
+    "nl": "BlueFlag Security heeft de AI-agentgovernance van zijn platform uitgebreid met controles voor agents die onder developeridentiteiten werken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "ce55129e00e3",
+  "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
+  "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
+  "excerpt": "Er zit een kritieke kwetsbaarheid in SonicWall Global Management System (GMS), maar er zal geen patch verschijnen om het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:18:43Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "SonicWall warned that a critical vulnerability in its GMS management system will not receive a patch.",
+    "nl": "SonicWall waarschuwde dat een kritieke kwetsbaarheid in zijn GMS-beheersysteem geen patch zal krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "a80577423249",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/citrix-ai-governance-capabilities/",
+  "title": "Citrix expands oversight of autonomous browsing and AI agent activity",
+  "excerpt": "Citrix has announced new capabilities across Citrix SecurSpaces, Citrix SecurAccess and Citrix Platform Flex designed to help organizations securely deploy AI agents, govern AI-powered work and scale adoption across the enterprise. These updates include an expansion of Citrix SecurSpaces to a wider set of personas; new AI governance capabilities for Citrix SecurAccess; and a new credit-based model offering Citrix customers a more flexible way to consume Citrix solutions and services. As AI evolves from conversational … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:13:48Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Citrix announced new AI agent governance and browsing oversight capabilities across its SecurSpaces and SecurAccess products.",
+    "nl": "Citrix heeft nieuwe AI-agentgovernance- en browsertoezichtfuncties aangekondigd voor SecurSpaces en SecurAccess."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "6858792fceb2",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/isc2-cissp-exam-prep-webinar/",
+  "title": "Live Q&A: CISSP exam prep with ISC2 experts",
+  "excerpt": "Join ISC2 on November 6, 2026 at 7:00pm CET for a live Q&A about the CISSP exam. A panel of experts will answer your questions, explain what it takes to earn the certification, and walk through the exam domains. You’ll also learn about self-study resources and training options to help you prepare for exam day. You’ll learn: How CISSP builds your end-to-end foundational understanding of cybersecurity Why vendor-neutral certification is in demand What training tools … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:00:31Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 1,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ISC2 announced a live Q&A event on November 6, 2026 about the CISSP exam.",
+    "nl": "ISC2 kondigt op 6 november 2026 een live Q&A aan over het CISSP-examen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "4448a4360ec1",
+  "url": "https://therecord.media/russia-cyberattack-beget-cloud",
+  "title": "Cyberattack wipes cloud data at major Russian hosting provider Beget",
+  "excerpt": "A major Russian web hosting provider is struggling to restore its services after a cyberattack destroyed data across its cloud infrastructure and disrupted hundreds of websites.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T14:00:00Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack destroyed data across cloud infrastructure at Russian hosting provider Beget, disrupting hundreds of websites.",
+    "nl": "Een cyberaanval heeft data in de cloudinfrastructuur van Russische hostingprovider Beget vernietigd en honderden websites verstoord."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "d53023f974e6",
+  "url": "https://www.security.nl/posting/960395/Franse+bank+getroffen+door+cyberaanval%3A+%27118+miljoen+euro+gestolen%27?channel=rss",
+  "title": "Franse bank getroffen door cyberaanval: '118 miljoen euro gestolen'",
+  "excerpt": "De Franse bank Crédit Mutuel Arkéa is getroffen door een cyberaanval, waardoor aanvallers frauduleuze transacties konden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T13:51:00Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack on French bank Crédit Mutuel Arkéa enabled fraudulent transactions, with 118 million euros reportedly stolen.",
+    "nl": "Een cyberaanval op de Franse bank Crédit Mutuel Arkéa maakte frauduleuze transacties mogelijk, waarbij naar verluidt 118 miljoen euro is gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "3d23258051aa",
+  "url": "https://therecord.media/france-cyberattack-blood-refrigeration",
+  "title": "French blood service hit by Europe-wide cyberattacks on refrigeration",
+  "excerpt": "Temperature controls were altered at three of France’s national blood service sites this week amid a wave of cyberattacks affecting refrigeration systems across Europe.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T13:45:00Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 72,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Temperature controls were altered at three French national blood service sites amid Europe-wide cyberattacks on refrigeration systems.",
+    "nl": "Temperatuurregelingen zijn bij drie Franse nationale bloedbankvestigingen gewijzigd tijdens Europese cyberaanvallen op koelsystemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:36Z"
+  }
+ },
+ {
+  "id": "afa392daaeea",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/",
+  "title": "Cyberattack hits French blood banks",
+  "excerpt": "Three blood banks have detected and reversed a potentially destructive temperature spike in their cold rooms, following a cyberattack that targeted a refrigeration equipment provider of the French Blood Establishment (EFS), the only civilian blood collection and transfusion organization in France. Monitoring systems caught the anomalies in time “Although the EFS was not directly targeted by this cybersecurity incident, anomalies were reported, resulting in changes to the operating parameters of cold rooms equipped with the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T13:36:50Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Three French blood banks detected and reversed a dangerous temperature spike in their cold rooms after a cyberattack on a refrigeration equipment provider of the EFS.",
+    "nl": "Drie Franse bloedbanken hebben een gevaarlijke temperatuurstijging in hun koelruimtes gedetecteerd en teruggedraaid na een cyberaanval op een koelapparatuurleverancier van de EFS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "91da536348eb",
+  "url": "https://www.security.nl/posting/960385/Lek+in+Debian+APT+package+manager+laat+aanvaller+code+als+root+uitvoeren?channel=rss",
+  "title": "Lek in Debian APT package manager laat aanvaller code als root uitvoeren",
+  "excerpt": "Een kwetsbaarheid in de APT package manager van Debian maakt het mogelijk voor aanvallers, die zich in een man-in-the-middle ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T13:18:01Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vulnerability in the Debian APT package manager could allow an attacker in a man-in-the-middle position to execute code as root.",
+    "nl": "Een kwetsbaarheid in de Debian APT package manager kan een aanvaller in een man-in-the-middle positie code als root laten uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "2008c5edc986",
+  "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+  "title": "US charges two Canadians accused of hacking US universities",
+  "excerpt": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T13:13:20Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "US authorities indicted two Canadians accused of hacking US universities and using the systems to mine cryptocurrency.",
+    "nl": "In de VS zijn twee Canadezen aangeklaagd voor het hacken van universiteiten en het gebruiken van de systemen voor cryptomining."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "17fd71addd08",
+  "url": "https://certvde.com/en/advisories/VDE-2026-102/",
+  "title": "WAGO: Unauthorized Account Access via Credential Recovery Process",
+  "excerpt": "[VDE-2026-102] A vulnerability in the authentication and credential recovery process may allow an unauthenticated attacker to bypass intended verification controls during password reset operations. By exploiting this weakness, an attacker could reset credentials for arbitrary user accounts and gain unauthorized access without possessing valid authentication credentials.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-04T13:00:00Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "WAGO"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-102 describes a WAGO credential recovery flaw that lets unauthenticated attackers reset arbitrary user passwords and gain unauthorized access.",
+    "nl": "CERT@VDE-advisory VDE-2026-102 beschrijft een kwetsbaarheid in het herstelproces van wachtwoorden bij WAGO waarmee ongeauthenticeerde aanvallers toegang kunnen krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "7885870b6407",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/impart-security-runtime-defense-harness/",
+  "title": "Impart uses AI to build virtual patches without putting models in the traffic path",
+  "excerpt": "Impart Security has launched the Runtime Defense Harness, a controlled environment where AI agents write and test virtual patches for new vulnerabilities without putting AI in the traffic path. The launch comes as exploits increasingly outpace fixes. In the harness, agents build each virtual patch against the customer’s own traffic, an engineer approves it, and Impart’s engine enforces it as deterministic code. Security teams get a tested virtual patch as soon as 60 minutes after … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T12:48:29Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Impart Security launched a product that uses AI agents to build virtual patches for new vulnerabilities.",
+    "nl": "Impart Security heeft een product gelanceerd waarmee AI-agents virtuele patches bouwen voor nieuwe kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "99ae59f9da70",
+  "url": "https://www.security.nl/posting/960372/Koelsystemen+Franse+nationale+bloedbank+doelwit+van+cyberaanval?channel=rss",
+  "title": "Koelsystemen Franse nationale bloedbank doelwit van cyberaanval",
+  "excerpt": "Koelsystemen van de Franse nationale bloedbank zijn het doelwit van een cyberaanval geworden, waarbij aanvallers de temperatuur ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T12:42:21Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Cooling systems of the French national blood bank were targeted in a cyberattack in which attackers manipulated temperature settings.",
+    "nl": "Koelsystemen van de Franse nationale bloedbank zijn doelwit geweest van een cyberaanval waarbij aanvallers de temperatuurinstellingen manipuleerden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  },
+  "title_en": "Cooling systems of French national blood bank targeted in cyberattack"
+ },
+ {
+  "id": "0914d818aa9e",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+  "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+  "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T12:11:05Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA warned federal agencies that attackers are exploiting a patched high-severity WordPress remote code execution flaw.",
+    "nl": "CISA waarschuwt federale instanties dat aanvallers een gepatchte WordPress-kwetsbaarheid voor remote code execution actief misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "d013e25bf406",
+  "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+  "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+  "excerpt": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T12:07:04Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A critical Ruby on Rails flaw in Active Storage lets unauthenticated attackers write server files via crafted ImageMagick uploads, fixed in new versions.",
+    "nl": "Een kritieke kwetsbaarheid in Active Storage van Ruby on Rails laat ongeauthenticeerde aanvallers bestanden op de server schrijven, opgelost in nieuwe versies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "de8bbdd0e39a",
+  "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+  "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+  "excerpt": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an advisory on November 3. All Xen versions from 4.6 onward are vulnerable,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T11:46:27Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Two Xen hypervisor flaws let a malicious guest VM read and write memory of other VMs, with patches available and no known mitigation.",
+    "nl": "Twee kwetsbaarheden in de Xen hypervisor stellen een kwaadaardige gast-VM in staat het geheugen van andere VM's te lezen en te schrijven, er zijn patches beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "ecf2013fdfbb",
+  "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+  "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+  "excerpt": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T11:34:20Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An opinion piece argues that AI agent runtime security fails without security layers beneath it, citing an enterprise incident.",
+    "nl": "Een opiniestuk stelt dat runtime-beveiliging van AI-agents faalt zonder onderliggende beveiligingslagen, met verwijzing naar een bedrijfsincident."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "bbc4562b2539",
+  "url": "https://www.security.nl/posting/960360/Minister%3A+goed+voorstelbaar+dat+hack+vertrouwen+in+bevolkingsonderzoek+aantast?channel=rss",
+  "title": "Minister: goed voorstelbaar dat hack vertrouwen in bevolkingsonderzoek aantast",
+  "excerpt": "Het is goed voorstelbaar dat de hack van Clinical Diagnostics het vertrouwen in het bevolkingsonderzoek baarmoederhalskanker ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T11:32:40Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A Dutch minister says the hack of Clinical Diagnostics could damage trust in the cervical cancer screening program.",
+    "nl": "Een Nederlandse minister stelt dat de hack van Clinical Diagnostics het vertrouwen in het bevolkingsonderzoek baarmoederhalskanker kan schaden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "8384c224e801",
+  "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+  "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+  "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T11:24:31Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A China-aligned actor hijacked DNS requests in the Sogou Input Method to deploy the DarkVigil backdoor against targets.",
+    "nl": "Een China-gelieerde dader heeft DNS-verzoeken van Sogou Input Method gekaapt om de DarkVigil-backdoor te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "52fc16f971c7",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/cpguard-update-supply-chain-compromised/",
+  "title": "Poisoned cPGuard update hits thousands of web hosting servers",
+  "excerpt": "An attacker has compromised the update infrastructure of cPGuard, a security suite for Linux web hosting servers, and pushed out a malicious update to nearly 3,000 customer servers. OPSShield, the company behind the security suite, also confirmed that the attacker made off with customer contact information and hashed passwords from the firm’s billing and licensing server. How the attack unfolded The attacker uploaded fake cPGuard updates – versions 5.88.12 through 5.88.19 – to OPSShield’s update … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T11:18:23Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers compromised the update infrastructure of cPGuard and pushed a malicious update to nearly 3,000 Linux web hosting servers.",
+    "nl": "Aanvallers hebben de updateinfrastructuur van cPGuard gecompromitteerd en een kwaadaardige update naar bijna 3.000 Linux-webhostingservers gestuurd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "2eeacadd97cd",
+  "url": "https://www.security.nl/posting/960348/Cookies+en+wifi-wachtwoorden+van+kwetsbare+iPhones+en+Androidtelefoons+gestolen?channel=rss",
+  "title": "Cookies en wifi-wachtwoorden van kwetsbare iPhones en Androidtelefoons gestolen",
+  "excerpt": "Aanvallers maken gebruik van bekende beveiligingslekken om cookies, wifi-wachtwoorden en 'full device data' van kwetsbare ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T10:58:30Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers exploit known vulnerabilities to steal cookies, Wi-Fi passwords and device data from vulnerable iPhones and Android phones.",
+    "nl": "Aanvallers misbruiken bekende kwetsbaarheden om cookies, wifi-wachtwoorden en apparaatgegevens te stelen van kwetsbare iPhones en Android-telefoons."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "30495d53155b",
+  "url": "https://industrialcyber.co/critical-infrastructure/ncsc-annual-review-2026-warns-ai-powered-malware-could-target-uk-critical-infrastructure-by-2028/",
+  "title": "NCSC Annual Review 2026 warns AI-powered malware could target UK critical infrastructure by 2028",
+  "excerpt": "The U.K.’s critical national infrastructure should prepare for ransomware attacks involving artificial intelligence-powered malware by 2028, according to...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-04T10:43:51Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The UK NCSC annual review warns AI-powered malware could target UK critical national infrastructure with ransomware by 2028.",
+    "nl": "De jaarlijkse review van de Britse NCSC waarschuwt dat AI-gestuurde malware tegen 2028 ransomware kan inzetten tegen de Britse vitale infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "2b8bde73c7b5",
+  "url": "https://www.security.nl/posting/960346/Op+wie+kun+je+gederfde+inkomsten+door+het+preventief+offline+halen+van+een+website+verhalen%3F?channel=rss",
+  "title": "Op wie kun je gederfde inkomsten door het preventief offline halen van een website verhalen?",
+  "excerpt": "Juridische vraag: Wie is aansprakelijk voor gederfde inkomsten na het dringende advies om een webshop die PHP gebruikt offline ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T10:30:00Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A legal question asks who is liable for lost revenue when a PHP webshop is taken offline on urgent advice.",
+    "nl": "Een juridische vraag gaat over wie aansprakelijk is voor gederfde inkomsten wanneer een PHP-webshop op dringend advies offline gaat."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "926004a40f44",
+  "url": "https://www.helpnetsecurity.com/2026/11/04/binance-hack-north-korea-fake-job-interview/",
+  "title": "Fake job interview opened the door to $6.34 billion Binance heist",
+  "excerpt": "A tampered software installer and a fake job interview gave attackers the access they needed to steal about $6.34 billion in digital assets from Binance. “It was not a single isolated breach or a simple phishing incident,” Binance wrote in its incident report. “The attackers combined a range of techniques, including social engineering by fake recruitment interviews, malicious software downloads, compromised internal AI tooling, endpoint compromise, and an advanced transaction-authorisation method.” The money left Binance … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T10:29:48Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Binance reports that a tampered installer and a fake job interview enabled the theft of about $6.34 billion in digital assets.",
+    "nl": "Binance meldt dat een gemanipuleerd installatiebestand en een nep-sollicitatiegesprek leidden tot de diefstal van ongeveer 6,34 miljard dollar aan digitale activa."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "597fe570c591",
+  "url": "https://www.security.nl/posting/960339/Aerdts%3A+leeftijdsverificatie+geen+waterdicht+systeem%2C+te+omzeilen+met+vpn?channel=rss",
+  "title": "Aerdts: leeftijdsverificatie geen waterdicht systeem, te omzeilen met vpn",
+  "excerpt": "Online leeftijdsverificatie is geen waterdicht systeem en kan worden omzeild met een vpn, zo stelt staatsecretaris Aerdts voor ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T10:12:55Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Dutch state secretary states that online age verification is not foolproof and can be bypassed with a VPN.",
+    "nl": "Een Nederlandse staatssecretaris stelt dat online leeftijdsverificatie niet waterdicht is en met een vpn omzeild kan worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "22fd768e597c",
+  "url": "https://www.security.nl/posting/960337/Ahold+Delhaize+loopt+door+cyberaanval+tot+250+miljoen+euro+aan+omzet+mis?channel=rss",
+  "title": "Ahold Delhaize loopt door cyberaanval tot 250 miljoen euro aan omzet mis",
+  "excerpt": "Door de cyberaanval waar Ahold Delhaize in oktober mee te maken kreeg loopt het moederbedrijf van Albert Heijn in het vierde ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T09:49:00Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ahold Delhaize expects a revenue loss of up to 250 million euros due to an October cyberattack.",
+    "nl": "Ahold Delhaize verwacht door de cyberaanval van oktober een omzetverlies van tot 250 miljoen euro."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "fee38b69f63b",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
+  "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
+  "excerpt": "WordPress heeft een kwetsbaarheid verholpen in WordPress Core versies 4.7 tot en met 7.1.3. De kwetsbaarheid maakt misbruik mogelijk van een TOCTOU-racecondition (Time-of-Check to Time-of-Use) tijdens volledige WordPress Core-upgrades. Hierdoor kan een niet-geauthenticeerde aanvaller op afstand code uitvoeren op de server door het korte upgradevenster te misbruiken waarin de stagingdirectories via het web toegankelijk zijn. Voor succesvolle exploitatie moet de aanvaller erin slagen om tijdens dit beperkte upgradevenster de racecondition te benutten. CISA heeft bevestigd dat CVE-2026-119977…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-04T09:45:39Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [
+   "CVE-2026-119977"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC-NL reports a fixed WordPress Core TOCTOU race condition that allows remote code execution during upgrades.",
+    "nl": "NCSC-NL meldt een verholpen TOCTOU-racecondition in WordPress Core waarmee code op afstand uitgevoerd kan worden tijdens upgrades."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:00:55Z"
+  }
+ },
+ {
+  "id": "67cb236d4b68",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
+  "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
+  "excerpt": "Barracuda heeft kwetsbaarheden verholpen in Barracuda Email Security Gateway. Barracuda heeft twee kwetsbaarheden vastgesteld in verschillende Barracuda-producten: een kwetsbaarheid voor het omzeilen van autorisatiecontroles (CVE-2026-116606) en een kwetsbaarheid voor command injection (CVE-2026-111560). De eerste kwetsbaarheid betreft een pre-authentication authorization bypass in Barracuda Email Security Gateway (ESG). De tweede kwetsbaarheid betreft command injection en treft naast ESG ook de Load Balancer Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-04T09:41:25Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [
+   "CVE-2026-116606",
+   "CVE-2026-111560"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Barracuda"
+   ],
+   "summary": {
+    "en": "Barracuda fixed two vulnerabilities in Barracuda Email Security Gateway, including a pre-authentication authorization bypass (CVE-2026-116606) and command injection (CVE-2026-111560).",
+    "nl": "Barracuda heeft twee kwetsbaarheden verholpen in Barracuda Email Security Gateway, waaronder een pre-authentication authorization bypass (CVE-2026-116606) en command injection (CVE-2026-111560)."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:01:03Z"
+  }
+ },
+ {
+  "id": "30cffd020de4",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+  "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+  "excerpt": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T09:39:54Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Apple",
+    "Google"
+   ],
+   "summary": {
+    "en": "A large-scale watering hole attack linked to Russian hackers targets iOS and Android users via compromised or fake sites using n-day exploits.",
+    "nl": "Een grootschalige watering hole-aanval, gekoppeld aan Russische hackers, richt zich op iOS- en Android-gebruikers via gecompromitteerde of nepsites met n-day exploits."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:01:03Z"
+  }
+ },
+ {
+  "id": "53f060600d2f",
+  "url": "https://www.security.nl/posting/960332/Kabinet+komt+nog+niet+met+nieuwe+wetgeving+om+camerabrillen+te+verbieden?channel=rss",
+  "title": "Kabinet komt nog niet met nieuwe wetgeving om camerabrillen te verbieden",
+  "excerpt": "Het kabinet komt vooralsnog niet met nieuwe wetgeving om camerabrillen te verbieden. Er zal eerst worden gewacht op de uitkomst ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T09:27:20Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch cabinet will not yet introduce new legislation banning camera glasses and will first await further outcomes.",
+    "nl": "Het kabinet komt vooralsnog niet met nieuwe wetgeving om camerabrillen te verbieden en wacht eerst de uitkomst af."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:01:03Z"
+  }
+ },
+ {
   "id": "c7f94ff1201e",
   "url": "https://certvde.com/en/advisories/VDE-2026-084/",
   "title": "Phoenix Contact: CodeMeter Runtime Security Vulnerabilities in License Validation in the PLCnext Firmware",
@@ -160,6 +1391,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-04T09:20:30Z"
+  }
+ },
+ {
+  "id": "6b8fec726ac3",
+  "url": "https://www.security.nl/posting/960329/Google+publiceert+patch+voor+tweehonderd+beveiligingslekken+in+Chrome?channel=rss",
+  "title": "Google publiceert patch voor tweehonderd beveiligingslekken in Chrome",
+  "excerpt": "Google heeft patches voor Chrome gepubliceerd die ruim tweehonderd beveiligingslekken in de browser verhelpen, waaronder zeven ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-04T09:10:00Z",
+  "fetched": "2026-11-04T18:00:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google published Chrome patches fixing over two hundred security vulnerabilities in the browser.",
+    "nl": "Google heeft Chrome-patches uitgebracht die ruim tweehonderd beveiligingslekken in de browser verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:01:03Z"
   }
  },
  {
@@ -635,6 +1896,39 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-04T09:20:32Z"
+  }
+ },
+ {
+  "id": "5837bc0d9311",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-834709.html",
+  "title": "SSA-834709 V1.1 (Last Update: 2026-11-04): Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS",
+  "excerpt": "SIMATIC IoT2050 devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-04T00:00:00Z",
+  "fetched": "2026-11-04T18:00:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC IoT2050"
+   ],
+   "summary": {
+    "en": "Siemens reports a missing authentication vulnerability in Node-RED on SIMATIC IoT2050 devices with Industrial OS, allowing unauthenticated remote code execution; updates are available.",
+    "nl": "Siemens meldt een ontbrekende authenticatie in Node-RED op SIMATIC IoT2050-apparaten met Industrial OS, waardoor onbevoegde code-uitvoering mogelijk is; updates zijn beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T18:01:03Z"
   }
  },
  {
