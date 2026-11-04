@@ -1,5 +1,61 @@
 [
  {
+  "id": "221ad226855f",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+  "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+  "excerpt": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T22:18:50Z",
+  "fetched": "2026-11-04T01:25:27Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers compromised the update infrastructure of the cPGuard web security suite to distribute a backdoor and a data-stealing script.",
+    "nl": "Aanvallers hebben de updateinfrastructuur van de cPGuard-websecuritysuite gecompromitteerd om een backdoor en een datadiefstalscript te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T01:25:32Z"
+  }
+ },
+ {
+  "id": "62c945c0e6fb",
+  "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+  "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+  "excerpt": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-03T21:28:44Z",
+  "fetched": "2026-11-04T01:25:27Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Developer platform WorkOS reported a data breach in which a threat actor accessed business contact records and summaries of customer communications.",
+    "nl": "Ontwikkelaarsplatform WorkOS meldde een datalek waarbij een dreigingsactor zakelijke contactgegevens en samenvattingen van klantcommunicatie inzag."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-04T01:25:32Z"
+  }
+ },
+ {
   "id": "0db4066d1be3",
   "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
   "title": "Binance says fake job interview led to $6.3 billion crypto heist",
