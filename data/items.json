@@ -1,5 +1,969 @@
 [
  {
+  "id": "694d3617d023",
+  "url": "https://www.security.nl/posting/960531/Ubuntu+dicht+APT-kwetsbaarheid+waardoor+aanvaller+root+kan+worden?channel=rss",
+  "title": "Ubuntu dicht APT-kwetsbaarheid waardoor aanvaller root kan worden",
+  "excerpt": "Ubuntu heeft updates uitgebracht voor een kwetsbaarheid in de APT package manager waardoor een aanvaller via een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T15:20:48Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ubuntu released updates for an APT package manager flaw that could let an attacker gain root privileges.",
+    "nl": "Ubuntu heeft updates uitgebracht voor een APT-kwetsbaarheid waardoor een aanvaller root-rechten kan krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "986c35b267e0",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/cyberhaven-agentic-data-security/",
+  "title": "Cyberhaven launches Agentic Data Security to track and control AI data use",
+  "excerpt": "Cyberhaven has introduced Agentic Data Security (ADS), to help CISOs, data security teams, insider risk teams, and AI governance leaders say yes to AI agents without losing control of their data. Agentic Data Security shows security teams what every AI agent does with company data, who it is acting for, where the data goes next, and stops sensitive data before it leaves. The companies leaning furthest into the agentic future, from frontier AI labs to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T15:04:07Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cyberhaven launched Agentic Data Security, a product for monitoring how AI agents use company data.",
+    "nl": "Cyberhaven heeft Agentic Data Security gelanceerd, een product om te monitoren hoe AI-agents bedrijfsdata gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "c9328f3234f4",
+  "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+  "title": "Closing the Identity Gap at the Service Desk",
+  "excerpt": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social engineering risks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T15:00:10Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Specops Software describes how attackers abuse IT service desks to bypass MFA and how account recovery can be secured.",
+    "nl": "Specops Software beschrijft hoe aanvallers IT-servicedesks misbruiken om MFA te omzeilen en hoe accountherstel beveiligd kan worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "178c0c1d1ef0",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/rubrik-unstructured-data-protection/",
+  "title": "Rubrik hosts NAS backups in isolated, immutable vaults",
+  "excerpt": "Rubrik has announced Rubrik-Hosted Protection for On-Premise Unstructured Data. The offering is built on Rubrik’s Network Attached Storage (NAS) Cloud Direct service. Customers now have clean recovery for enterprise-scale NAS data without having to buy, build or manage backup storage. “Backups mean nothing if you can’t be confident in a clean recovery, and hardware limitations shouldn’t stand between an enterprise and its resilience,” said Anneka Gupta, Chief Product Officer, Rubrik. “By taking on backup storage … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T14:48:20Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Rubrik announced a hosted immutable backup offering for on-premise NAS unstructured data.",
+    "nl": "Rubrik heeft een gehoste, onveranderlijke backupdienst aangekondigd voor on-premise NAS-data."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "59043a855535",
+  "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+  "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+  "excerpt": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T14:41:10Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup covers several IT security stories, including an Apache OFBiz remote code execution flaw and a DreamHost breach.",
+    "nl": "Een wekelijks overzicht behandelt diverse IT-beveiligingsverhalen, waaronder een RCE-kwetsbaarheid in Apache OFBiz en een DreamHost-datalek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "95963327b652",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/vercel-security-review-session-hijacking/",
+  "title": "Vercel ties login sessions to devices, rolls out AI security reviews in public beta",
+  "excerpt": "Vercel, the popular cloud platform for building and hosting websites and web applications, has announced the rollout of Device Bound Session Credentials (DBSC) and the launch of Vercel Security Review in public beta. Making stolen session cookies worthless Device Bound Session Credentials is a security technology designed to limit the consequences of an infostealer infection and to thwart attackers’ session hijacking attempts. Aside from stealing authentication credentials, modern info-stealing malware such as Lumma, RedLine, and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T14:37:00Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Vercel rolled out Device Bound Session Credentials and launched an AI-based security review feature in public beta.",
+    "nl": "Vercel heeft Device Bound Session Credentials uitgerold en een AI-beveiligingsreview in public beta gelanceerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "3431ea1ea372",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/arkose-agent-trust-manager/",
+  "title": "Arkose Labs expands Agent Trust Manager to govern agent sessions",
+  "excerpt": "Arkose Labs has expanded Arkose Agent Trust Manager to help businesses control agentic traffic. Companies can classify agent sessions, apply allow, monitor or block policies at each step of the customer journey, and track the same agent across multiple networks. The need is urgent given Arkose Labs’ State of Agentic AI Trust Q3 report found that personal AI agents identify themselves less than 3% of the time. Rules that wait for an agent to announce … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T14:33:02Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Arkose Labs expanded its Agent Trust Manager to classify and govern AI agent sessions.",
+    "nl": "Arkose Labs heeft Agent Trust Manager uitgebreid om AI-agentsessies te classificeren en te beheren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "a9f553231627",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/box-architect/",
+  "title": "Box pairs agentic workflow plans with new threat protections",
+  "excerpt": "Box has announced new capabilities to transform how organizations put agents to work across their most critical business processes. Box unveiled Box Architect for autonomously building, managing, and optimizing agentic workflows, redefining how organizations deploy AI on their most critical processes. With Architect, teams will be able to leverage frontier AI to create new workflows and apps, configure agents, connect to Box tools, and manage workflows at scale – all built on their trusted content … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T14:25:34Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Box announced Box Architect for building and managing agentic workflows along with new threat protections.",
+    "nl": "Box heeft Box Architect aangekondigd voor het bouwen en beheren van agentic workflows, samen met nieuwe dreigingsbescherming."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "fdd87b2e38d6",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0468",
+  "title": "NCSC-2026-0468 [1.00] [M/H] Kwetsbaarheid verholpen in Zyxel product",
+  "excerpt": "Zyxel heeft een kwetsbaarheid verholpen in de firmware van de Zyxel GS1900-24E netwerk switch, specifiek in versie 2.90(AAHK.2)C0 en eerder. De kwetsbaarheid betreft een out-of-bounds write in het CGI-programma van de management-interface van het apparaat. Een niet-geauthenticeerde aanvaller met toegang tot de management-interface kan via speciaal vervaardigde HTTP-verzoeken commando's uitvoeren op het systeem. De fout ontstaat door onjuiste bounds checking in de CGI-component, wat kan leiden tot het uitvoeren van commando's. Volgens openbare nieuwsberichten zou de kwetsbaarheid actief als…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-05T14:25:02Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Zyxel"
+   ],
+   "summary": {
+    "en": "NCSC reports Zyxel fixed an out-of-bounds write flaw in GS1900-24E switch firmware 2.90(AAHK.2)C0 and earlier that allows unauthenticated command execution.",
+    "nl": "NCSC meldt dat Zyxel een out-of-bounds write-kwetsbaarheid heeft verholpen in de firmware van de GS1900-24E-switch, waardoor onverificeerde commando's mogelijk zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  },
+  "title_en": "NCSC-2026-0468 [1.00] [M/H] Vulnerability fixed in Zyxel product"
+ },
+ {
+  "id": "354adfdd4f6f",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/",
+  "title": "Cyberattack on Norway’s aid agency may have swept up all user data",
+  "excerpt": "The names and email addresses of 20,614 people registered on Norad’s Grants Portal may have ended up in the hands of attackers, Norway’s development aid agency has disclosed. Norad, short for the Norwegian Agency for Development Cooperation, works with partners around the world on development aid. It operates the portal, and both the agency and Norway’s Ministry of Foreign Affairs use it to collect funding applications for aid projects. According to the agency, the portal … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T13:56:49Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Norway's development aid agency Norad disclosed that data of 20,614 Grants Portal users may have been stolen in a cyberattack.",
+    "nl": "Het Noorse ontwikkelingsagentschap Norad meldt dat gegevens van 20.614 gebruikers van het Grants Portal mogelijk zijn buitgemaakt bij een cyberaanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "c6fe32dc13f4",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/portswigger-burp-at-enterprises/",
+  "title": "PortSwigger’s Burp AT lets enterprises delegate pentests with defined limits",
+  "excerpt": "PortSwigger has announced the availability of Burp AT for enterprises, an agentic pentesting solution that helps security teams investigate important applications more deeply and more often. Burp AT combines specialist Burp tools, purpose-built pentesting skills developed with PortSwigger Research, and relevant application context. Agents plan their testing approach, use Burp’s web security testing tools, and adapt as they learn. For AppSec leaders balancing testing priorities with limited expert capacity, Burp AT helps teams pursue investigations … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T13:48:16Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PortSwigger made Burp AT, an agentic pentesting solution, available to enterprises.",
+    "nl": "PortSwigger heeft Burp AT, een agentic pentestoplossing, beschikbaar gesteld voor bedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "36327bd93c24",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/sysdig-ai-defense/",
+  "title": "Sysdig AI Defense puts runtime guardrails on AI agents",
+  "excerpt": "Sysdig has announced the general availability of Sysdig AI Defense, giving organizations tools to monitor and control AI agent activity across endpoints and cloud environments. The platform checks agent actions against company policies to allow them, hold them for user approval or block them before completion. It also records agent activity and policy decisions for investigations and audits. Enterprises are deploying AI faster than they can govern it. In a recent IBM survey, 77% of … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T13:29:28Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Sysdig reached general availability of AI Defense, a tool that monitors and controls AI agent activity.",
+    "nl": "Sysdig heeft AI Defense algemeen beschikbaar gemaakt, een tool die AI-agentactiviteit monitort en beheert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "1869027fbd24",
+  "url": "https://www.security.nl/posting/960517/HomeBrew+hekelt+Google+over+malafide+advertenties+gebruikt+bij+Binance-hack?channel=rss",
+  "title": "HomeBrew hekelt Google over malafide advertenties gebruikt bij Binance-hack",
+  "excerpt": "De makers van HomeBrew hebben uitgehaald naar Google, omdat het bedrijf niets doet tegen malafide advertenties, zoals gebruikt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T13:20:28Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The HomeBrew developers criticized Google for not acting against malicious ads used in a Binance hack.",
+    "nl": "De makers van HomeBrew bekritiseren Google omdat het niet optreedt tegen kwaadaardige advertenties die bij een Binance-hack zijn gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "4c360ebb4cb1",
+  "url": "https://www.security.nl/posting/960510/Kamervragen+over+aanval+op+koelsystemen+Franse+bloedbank?channel=rss",
+  "title": "Kamervragen over aanval op koelsystemen Franse bloedbank",
+  "excerpt": "In de Tweede Kamer zijn vragen gesteld aan minister Hermans van Volksgezondheid over de aanval op koelsystemen van de Franse ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T12:29:00Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch parliament asked the health minister questions about an attack on the cooling systems of the French blood bank.",
+    "nl": "De Tweede Kamer heeft de minister van Volksgezondheid vragen gesteld over een aanval op de koelsystemen van de Franse bloedbank."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  },
+  "title_en": "Parliamentary questions about attack on cooling systems of French blood bank"
+ },
+ {
+  "id": "261ad0779782",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
+  "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
+  "excerpt": "Google heeft kwetsbaarheden verholpen in Android. Samsung heeft de voor Samsung Mobile relevante kwetsbaarheden verholpen in hun producten. De ernstige kwetsbaarheden betreffen onder andere mogelijkheden voor het uitvoeren van willekeurige code op afstand (Remote Code Execution) en het verkrijgen van verhoogde systeemrechten (Privilege Escalation). Hierdoor kunnen aanvallers ongeautoriseerde toegang krijgen tot systeemonderdelen en de controle over het apparaat verkrijgen. Er zijn op dit moment geen berichten bekend over actief misbruik van deze kwetsbaarheden.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-05T12:26:42Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google and Samsung fixed several Android and Samsung Mobile vulnerabilities, including remote code execution and privilege escalation.",
+    "nl": "Google en Samsung hebben meerdere Android- en Samsung Mobile-kwetsbaarheden verholpen, waaronder remote code execution en privilege escalation."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "5d4d03269391",
+  "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+  "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+  "excerpt": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business. Each missing detail creates",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T12:25:00Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article offers five tests to check whether an exposure management platform leaves organizations exposed.",
+    "nl": "Een artikel biedt vijf tests om te controleren of een exposure management-platform organisaties kwetsbaar laat."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "97fa1f0e0c7f",
+  "url": "https://industrialcyber.co/ransomware/vapor-panda-hackers-use-multi-agent-ai-to-target-government-pharmaceutical-semiconductor-defense-organizations/",
+  "title": "VAPOR PANDA hackers use multi-agent AI to target government, pharmaceutical, semiconductor, defense organizations",
+  "excerpt": "New research from CrowdStrike has identified a global cyberespionage campaign by China-nexus threat actor VAPOR PANDA that uses...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-05T12:10:00Z",
+  "fetched": "2026-11-05T15:31:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CrowdStrike reported that China-nexus actor VAPOR PANDA uses multi-agent AI in espionage against government and other sectors.",
+    "nl": "CrowdStrike meldt dat de China-gelieerde actor VAPOR PANDA multi-agent AI gebruikt voor spionage tegen onder meer overheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "fdf82900c347",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/",
+  "title": "Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)",
+  "excerpt": "Zyxel GS1900 series network switches that received a fix for a flaw that was later reported to have been exploited in the wild are still open to an exploit attackers used, Binarly found. That’s because the patch fixed a different bug (CVE-2026-7273) from the one (CVE-2026-107441) the exploit actually relies on. The exploit for an unpatched bug In June 2026, Zyxel published an advisory on CVE-2026-7273, a stack-based buffer overflow vulnerability in the CGI program … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T12:06:32Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [
+   "CVE-2026-107441",
+   "CVE-2026-7273"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Zyxel"
+   ],
+   "summary": {
+    "en": "Binarly found that patched Zyxel GS1900 switches remain exposed to an exploit used in the wild, because the patch fixed a different bug (CVE-2026-7273).",
+    "nl": "Binarly ontdekte dat gepatchte Zyxel GS1900-switches nog steeds kwetsbaar zijn voor een exploit die in het wild is gebruikt, omdat de patch een andere bug (CVE-2026-7273) verhielp."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "076cfb0d59cc",
+  "url": "https://industrialcyber.co/transport/ot-isac-details-aviation-cybersecurity-risks-involving-passenger-reservation-systems-airport-ot-communications-protocols/",
+  "title": "OT-ISAC details aviation cybersecurity risks involving passenger reservation systems, airport OT, communications protocols",
+  "excerpt": "The OT-ISAC (Operational Technology Information Sharing and Analysis Center) published two reports Wednesday warning that cybersecurity risks facing...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-05T12:01:40Z",
+  "fetched": "2026-11-05T15:31:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "research",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "OT-ISAC published two reports warning of cybersecurity risks in aviation, including passenger reservation systems, airport OT and communications protocols.",
+    "nl": "OT-ISAC heeft twee rapporten gepubliceerd over cyberbeveiligingsrisico's in de luchtvaart, waaronder reserveringssystemen, luchthaven-OT en communicatieprotocollen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "618228a10065",
+  "url": "https://industrialcyber.co/regulation-standards-and-compliance/otcc-cites-ai-driven-vulnerability-exploitation-in-push-for-10-year-cisa-2015-reauthorization/",
+  "title": "OTCC cites AI-driven vulnerability exploitation in push for 10-year CISA 2015 reauthorization",
+  "excerpt": "The Operational Technology Cyber Coalition (OTCC) has joined 34 critical infrastructure organizations in urging U.S. congressional leaders to...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-05T12:00:44Z",
+  "fetched": "2026-11-05T15:31:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The OTCC and 34 critical infrastructure organizations urged U.S. congressional leaders to reauthorize the CISA 2015 information-sharing law for ten years.",
+    "nl": "De OTCC en 34 organisaties uit de vitale infrastructuur hebben het Amerikaanse Congres gevraagd de CISA 2015-wet tien jaar te verlengen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:32Z"
+  }
+ },
+ {
+  "id": "5856d92a4ca6",
+  "url": "https://industrialcyber.co/news/dragos-appoints-sans-veteran-rob-t-lee-as-first-chief-ai-officer-to-guide-ot-cybersecurity-strategy/",
+  "title": "Dragos appoints SANS veteran Rob T. Lee as first chief AI officer to guide OT cybersecurity strategy",
+  "excerpt": "Dragos, a vendor of xOT cybersecurity solutions, announced on Wednesday that Rob T. Lee has joined the company...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-05T12:00:14Z",
+  "fetched": "2026-11-05T15:31:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Dragos"
+   ],
+   "summary": {
+    "en": "OT security vendor Dragos announced that Rob T. Lee joined the company as its first chief AI officer.",
+    "nl": "OT-beveiligingsbedrijf Dragos meldde dat Rob T. Lee in dienst is getreden als de eerste chief AI officer van het bedrijf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "f3893c1774b0",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/gta-6-scams-fake-leaks-early-access/",
+  "title": "Scammers capitalize on GTA 6 hype to push malware and crypto cons",
+  "excerpt": "Scammers are offering supposed leaked builds, early copies and phone versions of Grand Theft Auto VI (GTA 6) weeks before the game’s November 19 launch, Netcraft warned in a new blog post. The company looked at GTA VI-themed domains that appeared between July 1 and October 27, 2026. Most of the lures fell into four groups, with sites borrowing the name of popular GTA VI leaker CyberLeek, promising early access, advertising mobile versions that don’t … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T11:41:50Z",
+  "fetched": "2026-11-05T15:31:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Netcraft reported scammers using GTA 6 hype to distribute fake leaked builds, early access offers and malicious mobile versions.",
+    "nl": "Netcraft meldde dat oplichters de hype rond GTA 6 gebruiken om valse builds, vroege toegang en kwaadaardige mobiele versies te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "2e06fe89d163",
+  "url": "https://www.security.nl/posting/960488/Chainalysis+lekt+wachtwoordhashes+en+persoonsgegevens+van+alle+klanten?channel=rss",
+  "title": "Chainalysis lekt wachtwoordhashes en persoonsgegevens van alle klanten",
+  "excerpt": "Blockchainanalysebedrijf Chainalysis heeft van alle klanten wachtwoordhashes, gebruikersnamen, live tokens en persoonsgegevens ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T11:34:39Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Chainalysis"
+   ],
+   "summary": {
+    "en": "Blockchain analytics firm Chainalysis reportedly exposed password hashes, usernames, live tokens and personal data of all its customers.",
+    "nl": "Blockchainanalysebedrijf Chainalysis zou wachtwoordhashes, gebruikersnamen, live tokens en persoonsgegevens van alle klanten hebben gelekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "39878ea2e1a1",
+  "url": "https://www.security.nl/posting/960482/Politici+en+DuckDuckGo+kritisch+op+Googles+AI-beleid+voor+scholen?channel=rss",
+  "title": "Politici en DuckDuckGo kritisch op Googles AI-beleid voor scholen",
+  "excerpt": "Amerikaanse politici en zoekmachine DuckDuckGo hebben uitgehaald naar Google, omdat het techbedrijf scholen zou willen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T10:41:43Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google",
+    "DuckDuckGo"
+   ],
+   "summary": {
+    "en": "US politicians and DuckDuckGo criticized Google's AI policy for schools.",
+    "nl": "Amerikaanse politici en DuckDuckGo hebben kritiek geuit op het AI-beleid van Google voor scholen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "1981b067cd83",
+  "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+  "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+  "excerpt": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T10:06:19Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A roundup article describes five active cyber threats targeting US enterprises in October 2026 through trusted platforms and business workflows.",
+    "nl": "Een overzichtsartikel beschrijft vijf actieve cyberdreigingen voor Amerikaanse bedrijven in oktober 2026 via vertrouwde platforms en zakelijke processen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "d23477db14fb",
+  "url": "https://www.security.nl/posting/960474/DreamHost+meldt+diefstal+van+webmail-+en+ftp-wachtwoorden+bij+aanval?channel=rss",
+  "title": "DreamHost meldt diefstal van webmail- en ftp-wachtwoorden bij aanval",
+  "excerpt": "Bij een aanval op hostingprovider DreamHost zijn ftp- en webmail-wachtwoorden van klanten gestolen. Op 23 oktober meldde ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T09:52:00Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "DreamHost"
+   ],
+   "summary": {
+    "en": "Hosting provider DreamHost reported that FTP and webmail passwords of customers were stolen in an attack.",
+    "nl": "Hostingprovider DreamHost meldde dat ftp- en webmailwachtwoorden van klanten zijn gestolen bij een aanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "357816635e1d",
+  "url": "https://www.security.nl/posting/960470/Beveiligingslek+in+Microsoft+Paint+maakt+remote+code+execution+mogelijk?channel=rss",
+  "title": "Beveiligingslek in Microsoft Paint maakt remote code execution mogelijk",
+  "excerpt": "Een beveiligingslek in Microsoft Paint maakt remote code execution mogelijk. Microsoft kondigde vorige maand een update aan, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T09:35:15Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "A vulnerability in Microsoft Paint allows remote code execution, and Microsoft announced an update.",
+    "nl": "Een kwetsbaarheid in Microsoft Paint maakt remote code execution mogelijk en Microsoft heeft een update aangekondigd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "f67df6b6c95c",
+  "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+  "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+  "excerpt": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T09:18:29Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A malicious Android app can force devices into a persistent boot loop without requiring any permissions.",
+    "nl": "Een kwaadaardige Android-app kan apparaten in een blijvende bootloop dwingen zonder dat er rechten nodig zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "96a1ace9f58c",
+  "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+  "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+  "excerpt": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T09:13:28Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple plans to scan publicly shared iCloud links for harmful content starting with its iOS 27.3 and related releases.",
+    "nl": "Apple gaat openbaar gedeelde iCloud-links controleren op schadelijke inhoud, vanaf iOS 27.3 en bijbehorende releases."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "95a6bf00396a",
+  "url": "https://ics-cert.kaspersky.com/publications/reports/2026/11/05/supply-chain-attack-bo-team-in-a-software-developers-infrastructure/",
+  "title": "Supply chain attack: BO Team in a software developer's infrastructure",
+  "excerpt": "Incident response, that allowed us to learn a great deal about the APT group's tactics and techniques.",
+  "source_id": "kaspersky-ics-cert",
+  "source": "Kaspersky ICS CERT",
+  "lang": "en",
+  "kind": "research",
+  "focus": "ot",
+  "published": "2026-11-05T09:00:00Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kaspersky ICS CERT shares incident response lessons on a supply chain attack by the BO Team APT group in a software developer's infrastructure.",
+    "nl": "Kaspersky ICS CERT deelt lessen uit incidentrespons op een supply chain-aanval door APT-groep BO Team in de infrastructuur van een softwareontwikkelaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "4f9bb7c1ff8e",
+  "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+  "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+  "excerpt": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T08:42:03Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CERT-In reports that AI-assisted threat actor Crafty Falcon is targeting banking, financial services and insurance organizations in India.",
+    "nl": "CERT-In meldt dat de AI-ondersteunde dreigingsactor Crafty Falcon organisaties in de banken-, financiële dienstverlening- en verzekeringssector in India aanvalt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "cb9bbf2c0952",
+  "url": "https://www.security.nl/posting/960466/Zyxel+dicht+lek+waardoor+duizend+netwerkswitches+wereldwijd+werden+gehackt?channel=rss",
+  "title": "Zyxel dicht lek waardoor duizend netwerkswitches wereldwijd werden gehackt",
+  "excerpt": "Zyxel heeft een update uitgebracht voor een kwetsbaarheid waardoor wereldwijd duizend netwerkswitches van de GS1900-serie ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T08:40:00Z",
+  "fetched": "2026-11-05T15:31:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Zyxel"
+   ],
+   "summary": {
+    "en": "Zyxel released an update for a vulnerability that allowed thousands of GS1900 series network switches worldwide to be hacked.",
+    "nl": "Zyxel heeft een update uitgebracht voor een kwetsbaarheid waardoor duizenden netwerkswitches van de GS1900-serie wereldwijd zijn gehackt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "a665869d02d2",
+  "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+  "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+  "excerpt": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole. The earlier fix is the 2.90",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T07:06:33Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Zyxel"
+   ],
+   "summary": {
+    "en": "Binarly found that Zyxel GS1900 switches with the earlier fix remain open to an exploit allowing command execution without login, and new firmware was released.",
+    "nl": "Binarly ontdekte dat Zyxel GS1900-switches met de eerdere fix nog steeds kwetsbaar zijn voor een exploit die commando's zonder login uitvoert, en er is nieuwe firmware uit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
   "id": "21d7b1f50a88",
   "url": "https://www.helpnetsecurity.com/2026/11/05/zohaib-ahmed-resemble-ai-detecting-ai-agent-traffic/",
   "title": "AI agent detection signals that still work when agents look human",
@@ -167,6 +1131,64 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-05T06:53:12Z"
+  }
+ },
+ {
+  "id": "350327fdd7cd",
+  "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+  "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
+  "excerpt": "Chainalysis, the blockchain analytics company, said Wednesday night that some information belonging to all its users — which its website says include those in the law enforcement and national security sectors — had been exposed in a cyberattack.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T00:00:00Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Chainalysis"
+   ],
+   "summary": {
+    "en": "Chainalysis said information belonging to all its users, including law enforcement and national security clients, was exposed in a cyberattack.",
+    "nl": "Chainalysis meldde dat informatie van al zijn gebruikers, waaronder klanten uit de opsporings- en nationale veiligheidssector, is blootgesteld bij een cyberaanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
+  }
+ },
+ {
+  "id": "260025e601bb",
+  "url": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
+  "title": "Ukraine fires two senior security officials amid corruption probe into scam call centers",
+  "excerpt": "Ukraine's security service has fired two senior officials amid a corruption investigation into an alleged criminal network that bribed law enforcement officers to protect fraudulent call centers and other illegal operations.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T00:00:00Z",
+  "fetched": "2026-11-05T15:31:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ukraine's security service fired two senior officials amid a corruption probe into a network protecting scam call centers.",
+    "nl": "De Oekraïense veiligheidsdienst heeft twee senior functionarissen ontslagen in een corruptieonderzoek naar een netwerk dat oplichterscallcenters beschermde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T15:31:46Z"
   }
  },
  {
