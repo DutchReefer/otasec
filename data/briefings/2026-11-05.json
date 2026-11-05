@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-05",
+ "published": "2026-11-05T06:53:39Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 11,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "The supermarket refrigeration attacks have reached healthcare, with France's national blood service reporting altered temperature settings at three sites. Elsewhere, a batch of ICS advisories and an NCSC outlook on AI-powered malware."
+  },
+  "nl": {
+   "title": "",
+   "intro": "De aanvallen op supermarktkoeling hebben nu ook de zorg bereikt: de Franse nationale bloedbank meldt gewijzigde temperatuurinstellingen op drie locaties. Daarnaast een reeks ICS-advisories en een NCSC-vooruitblik op AI-malware."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "6347f0773f90",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+     "title": "Cyberattack disrupts blood storage refrigeration systems in France"
+    },
+    {
+     "id": "3d23258051aa",
+     "name": "The Record",
+     "url": "https://therecord.media/france-cyberattack-blood-refrigeration",
+     "title": "French blood service hit by Europe-wide cyberattacks on refrigeration"
+    },
+    {
+     "id": "afa392daaeea",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/",
+     "title": "Cyberattack hits French blood banks"
+    },
+    {
+     "id": "99ae59f9da70",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/960372/Koelsystemen+Franse+nationale+bloedbank+doelwit+van+cyberaanval?channel=rss",
+     "title": "Koelsystemen Franse nationale bloedbank doelwit van cyberaanval"
+    },
+    {
+     "id": "36d509a3e525",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+     "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food"
+    }
+   ],
+   "source_count": 5,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: refrigeration attacks reach French blood service",
+     "summary": "New this week: France's national blood service (EFS) confirmed that a cyberattack on a refrigeration equipment provider raised temperature and defrost settings at three of its facilities. Monitoring caught the anomalies in time and the temperature spikes were reversed, and the EFS says it was not directly targeted. Reporting links this to the wider wave in which attackers remotely changed refrigeration control settings at supermarkets in Belgium, Sweden, Estonia and other countries, with some stores discarding food.",
+     "takeaway": "Check which refrigeration and cold-chain controllers are remotely reachable, ask suppliers how their remote access is secured, and make sure temperature alarms work independently of the control system."
+    },
+    "nl": {
+     "heading": "Update: koelingsaanvallen treffen Franse bloedbank",
+     "summary": "Nieuw deze week: de Franse nationale bloedbank (EFS) bevestigt dat een cyberaanval op een leverancier van koelapparatuur de temperatuur- en ontdooiinstellingen op drie locaties verhoogde. Monitoring signaleerde de afwijkingen op tijd en de temperatuurpieken zijn teruggedraaid; volgens de EFS was zij zelf niet het directe doelwit. Berichtgeving koppelt dit aan de bredere aanvalsgolf, waarbij aanvallers op afstand koelinstellingen wijzigden bij supermarkten in onder meer België, Zweden en Estland en winkels voedsel moesten weggooien.",
+     "takeaway": "Controleer welke koel- en vriesregelaars op afstand bereikbaar zijn, vraag leveranciers hoe hun remote toegang is beveiligd en zorg voor temperatuuralarmen die onafhankelijk van het regelsysteem werken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "5837bc0d9311",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-834709.html",
+     "title": "SSA-834709 V1.1 (Last Update: 2026-11-04): Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS"
+    },
+    {
+     "id": "17fd71addd08",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-102/",
+     "title": "WAGO: Unauthorized Account Access via Credential Recovery Process"
+    },
+    {
+     "id": "05fb314a5581",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
+     "title": "ICSA-26-307-01: Subnet Solutions PowerSYSTEM Center"
+    }
+   ],
+   "source_count": 3,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-63017",
+    "CVE-2026-63774"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Siemens SIMATIC IoT2050, WAGO, Subnet Solutions PowerSYSTEM Center",
+     "summary": "Siemens revised SSA-834709 (V1.1) on the Node-RED missing authentication flaw in SIMATIC IoT2050 with Industrial OS, which lets an unauthenticated remote attacker create malicious flows and run code with maximum privileges; updated versions are available. WAGO's VDE-2026-102 describes a credential recovery bypass that could let an unauthenticated attacker reset passwords of arbitrary accounts. CISA ICSA-26-307-01 covers Subnet Solutions PowerSYSTEM Center (CVE-2026-63017, CVE-2026-63774), where SQL injection could give access to unauthorized resources in the energy and critical manufacturing sectors.",
+     "takeaway": "Inventory these products, apply the vendor updates and mitigations, and keep Node-RED interfaces and engineering systems off untrusted networks."
+    },
+    "nl": {
+     "heading": "Overige advisories: Siemens SIMATIC IoT2050, WAGO, Subnet Solutions PowerSYSTEM Center",
+     "summary": "Siemens heeft SSA-834709 (V1.1) herzien over de Node-RED-kwetsbaarheid door ontbrekende authenticatie in SIMATIC IoT2050 met Industrial OS: een ongeauthenticeerde aanvaller op afstand kan kwaadaardige flows aanmaken en code uitvoeren met maximale rechten; er zijn bijgewerkte versies beschikbaar. WAGO beschrijft in VDE-2026-102 een omzeiling van het wachtwoordherstelproces waarmee een ongeauthenticeerde aanvaller wachtwoorden van willekeurige accounts kan resetten. CISA ICSA-26-307-01 betreft Subnet Solutions PowerSYSTEM Center (CVE-2026-63017, CVE-2026-63774), waar SQL-commando's toegang tot onbevoegde bronnen kunnen geven in de energie- en maakindustrie.",
+     "takeaway": "Breng na of deze producten in uw omgeving staan, pas de updates en mitigaties van de leveranciers toe en houd Node-RED-interfaces en engineeringsystemen buiten onvertrouwde netwerken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "30495d53155b",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/critical-infrastructure/ncsc-annual-review-2026-warns-ai-powered-malware-could-target-uk-critical-infrastructure-by-2028/",
+     "title": "NCSC Annual Review 2026 warns AI-powered malware could target UK critical infrastructure by 2028"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: NCSC Annual Review puts AI-powered malware against UK critical infrastructure at 2028",
+     "summary": "The UK NCSC Annual Review 2026 says the country's critical national infrastructure should prepare for ransomware attacks involving AI-powered malware by 2028. This follows the earlier NCSC warning on AI-powered attacks.",
+     "takeaway": "Use this as a prompt to test whether your OT incident response, backups and network segmentation hold up against faster, more automated ransomware."
+    },
+    "nl": {
+     "heading": "Update: NCSC Annual Review verwacht AI-malware tegen Britse vitale infrastructuur uiterlijk 2028",
+     "summary": "De NCSC Annual Review 2026 van het Verenigd Koninkrijk stelt dat de nationale kritieke infrastructuur zich moet voorbereiden op ransomware-aanvallen met AI-gestuurde malware in 2028. Dit sluit aan op de eerdere NCSC-waarschuwing over AI-aanvallen.",
+     "takeaway": "Gebruik dit als aanleiding om te toetsen of uw OT-incidentrespons, back-ups en netwerksegmentatie standhouden tegen snellere, meer geautomatiseerde ransomware."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "7bfddf8a9c1a",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/960167/RDI%3A+groeiende+afhankelijkheid+van+digitale+infrastructuur+groot+vraagstuk?channel=rss",
+     "title": "RDI: groeiende afhankelijkheid van digitale infrastructuur groot vraagstuk"
+    },
+    {
+     "id": "495a26aaee90",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/baserock-partners-with-radiflow-to-extend-iec-62443-advisory-services-with-continuous-ot-risk-monitoring/",
+     "title": "BaseRock partners with Radiflow to extend IEC 62443 advisory services with continuous OT risk monitoring"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Industry news: dependence on digital infrastructure and IEC 62443 monitoring partnership",
+     "summary": "The Dutch RDI notes that growing dependence on digital infrastructure, such as energy and water supply, is a major issue as more systems and devices connect to it. Separately, BaseRock IT Solutions and Radiflow announced a partnership to extend IEC 62443 advisory services with continuous OT risk monitoring.",
+     "takeaway": "Review which of your OT systems depend on external digital infrastructure and whether your IEC 62443 risk assessments cover that dependency."
+    },
+    "nl": {
+     "heading": "Branchenieuws: afhankelijkheid van digitale infrastructuur en IEC 62443-samenwerking",
+     "summary": "De RDI noemt de groeiende afhankelijkheid van digitale infrastructuur, zoals energie- en watervoorziening, een groot vraagstuk nu steeds meer systemen en apparaten daarop aansluiten. Daarnaast kondigden BaseRock IT Solutions en Radiflow een samenwerking aan om IEC 62443-adviesdiensten uit te breiden met continue OT-risicomonitoring.",
+     "takeaway": "Bekijk welke van uw OT-systemen afhankelijk zijn van externe digitale infrastructuur en of uw IEC 62443-risicoanalyses die afhankelijkheid meenemen."
+    }
+   }
+  }
+ ]
+}

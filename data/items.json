@@ -1,5 +1,175 @@
 [
  {
+  "id": "21d7b1f50a88",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/zohaib-ahmed-resemble-ai-detecting-ai-agent-traffic/",
+  "title": "AI agent detection signals that still work when agents look human",
+  "excerpt": "Bots follow a script. AI agents work toward a goal and choose their own steps, which makes them harder to catch. In this Help Net Security interview, Zohaib Ahmed, CEO of Resemble AI explains how agents arrive as declared, undeclared or disguised traffic, and why binary bot detection misses the last two groups. Ahmed walks through the signals that give agents away, like click timing or a batch of sessions all chasing one goal. For … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T06:45:07Z",
+  "fetched": "2026-11-05T06:53:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An interview with Resemble AI's CEO describes signals for detecting AI agents in web traffic that look human.",
+    "nl": "Een interview met de CEO van Resemble AI beschrijft signalen om AI-agents in webverkeer te herkennen die menselijk lijken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T06:53:12Z"
+  }
+ },
+ {
+  "id": "b809b3db44fa",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/healthcare-ai-governance-patient-data/",
+  "title": "Healthcare can’t govern the AI tools it hasn’t found yet",
+  "excerpt": "Nearly nine in ten healthcare leaders say security or compliance staff always or usually review AI-written code that touches patient data before it goes live, and seven in ten have still found an AI-built tool handling that data without IT or security knowing, according to Paubox. Source: Paubox These are the scripts, automations, and integrations staff put together with AI coding assistants. Here’s the catch: a code review only covers what someone submits, and a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T06:11:25Z",
+  "fetched": "2026-11-05T06:53:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Paubox survey finds healthcare staff often review AI-written code touching patient data, yet many unapproved AI-built tools still handle that data.",
+    "nl": "Een enquete van Paubox toont dat zorgpersoneel AI-geschreven code met patientdata vaak controleert, maar veel niet-goedgekeurde AI-tools toch die data verwerken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T06:53:12Z"
+  }
+ },
+ {
+  "id": "d64bbc1b4192",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/",
+  "title": "Companies are spending more on AI governance and getting less control",
+  "excerpt": "Companies are increasing their cybersecurity budgets, with AI security and governance the top priority for additional spending, followed by cloud security, according to DNSFilter’s The Cost of Shadow AI report. Some 74.5% of respondents reported a larger cybersecurity budget than 12 months earlier. Asked where their next incremental security dollar would go, 40.3% named AI security and governance, followed by cloud security at 25.5%. One reason to prioritize it is that employees grant AI tools … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T05:30:14Z",
+  "fetched": "2026-11-05T06:53:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "DNSFilter's report shows companies are increasing cybersecurity budgets, with AI security and governance the top priority for new spending.",
+    "nl": "Het rapport van DNSFilter laat zien dat bedrijven hun cybersecuritybudgetten verhogen, met AI-beveiliging en -governance als topprioriteit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T06:53:12Z"
+  }
+ },
+ {
+  "id": "2a5b7d5a686a",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+  "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T05:17:04Z",
+  "fetched": "2026-11-05T06:53:02Z",
+  "cves": [
+   "CVE-2024-27834"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 18,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added CVE-2024-27834, a medium-severity Apple authentication flaw, to its KEV catalog after reports of active exploitation for info-stealing malware.",
+    "nl": "CISA heeft CVE-2024-27834, een Apple-authenticatiekwetsbaarheid met gemiddelde ernst, aan de KEV-catalogus toegevoegd na meldingen van actieve misbruik voor info-stealers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T06:53:12Z"
+  }
+ },
+ {
+  "id": "12a42ecb57e9",
+  "url": "https://www.helpnetsecurity.com/2026/11/05/okta-ai-customer-experiences-report/",
+  "title": "Most consumers aren’t ready to let AI agents shop unsupervised",
+  "excerpt": "Customer control, account security and ease of use are influencing the adoption of AI agents that make purchases, book services and access personal information, according to Okta’s 2026 Customer Identity Trends Report. Consumers’ willingness to delegate depends on what an agent can do, the consequences of a mistake and their ability to approve or reverse its actions. Businesses introducing these services must meet new requirements for verifying agents and managing their permissions. Only 37% of … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T05:00:30Z",
+  "fetched": "2026-11-05T06:53:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Okta's 2026 report finds consumers are cautious about letting AI agents make purchases or access personal information without supervision.",
+    "nl": "Het rapport van Okta uit 2026 toont dat consumenten terughoudend zijn om AI-agents zonder toezicht aankopen te laten doen of persoonlijke gegevens te laten benaderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T06:53:12Z"
+  }
+ },
+ {
+  "id": "25c3eda20cfe",
+  "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+  "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+  "excerpt": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T04:31:16Z",
+  "fetched": "2026-11-05T06:53:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI describes a pipeline using an upcoming AI model that validated and patched 948 Linux local privilege escalation vulnerabilities at a cost of $1.2 million.",
+    "nl": "OpenAI beschrijft een pipeline met een komend AI-model dat 948 lokale privilege-escalatiekwetsbaarheden in Linux valideerde en patchte voor 1,2 miljoen dollar aan API-kosten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-05T06:53:12Z"
+  }
+ },
+ {
   "id": "94ac3c3bdec2",
   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
   "title": "Vercel rolls out new protection against stolen session cookie attacks",
