@@ -1,0 +1,201 @@
+{
+ "date": "2026-11-06",
+ "published": "2026-11-06T10:59:13Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 17,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "US agencies issue a joint advisory on attacks against refrigeration and cooling controllers, a theme that has run all week. Elsewhere, a Zyxel patch gap, a ransomware surge in manufacturing and new critical infrastructure risk reviews."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Amerikaanse overheidsinstanties publiceren een gezamenlijk advies over aanvallen op koel- en vriesinstallaties, een thema dat de hele week speelt. Verder een Zyxel-patch die de kwetsbaarheid niet dichtte, een toename van ransomware in de maakindustrie en nieuwe risico-overzichten voor vitale infrastructuur."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "957d1177827d",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/06/cyberattacks-refrigeration-systems-cisa-fbi/",
+     "title": "US agencies warn attackers are targeting refrigeration systems that protect food and medicine"
+    },
+    {
+     "id": "509214834e54",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/industrial-cyber-attacks/cisa-federal-partners-flag-exposed-ot-controllers-as-cyberattacks-disrupt-supermarket-cooling-systems-across-europe/",
+     "title": "CISA, federal partners flag exposed OT controllers as cyberattacks disrupt supermarket cooling systems across Europe"
+    },
+    {
+     "id": "fb80012b42c3",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/960578/FBI+waarschuwt+supermarkten%3A+%27Haal+koelsystemen+nu+van+het+internet%27?channel=rss",
+     "title": "FBI waarschuwt supermarkten: 'Haal koelsystemen nu van het internet'"
+    },
+    {
+     "id": "e736f19a654e",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+     "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems"
+    },
+    {
+     "id": "dd3956422471",
+     "name": "The Record",
+     "url": "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
+     "title": "Harden cooling systems now, feds warn critical infrastructure operators amid attacks"
+    }
+   ],
+   "source_count": 5,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: CISA, FBI and partners issue joint advisory on refrigeration system attacks",
+     "summary": "Five US federal agencies, including CISA, the FBI, HHS and USDA, warned that threat actors are targeting controllers of industrial refrigeration and cold-chain monitoring systems worldwide. Attackers may push units into continuous heating and defrost cycles, risking food and medicine spoilage, equipment damage and fire hazards. The advisory follows disruptions at European supermarkets in recent weeks and urges operators to take exposed systems off the internet and harden cooling systems.",
+     "takeaway": "Check whether any refrigeration or cold-chain controllers are reachable from the internet, remove or isolate them behind segmentation and remote access controls, and monitor for abnormal temperature cycles."
+    },
+    "nl": {
+     "heading": "Update: CISA, FBI en partners publiceren gezamenlijk advies over aanvallen op koelsystemen",
+     "summary": "Vijf Amerikaanse federale instanties, waaronder CISA, de FBI, HHS en USDA, waarschuwen dat aanvallers de controllers van industriële koel- en cold-chain-monitoringsystemen wereldwijd aanvallen. Aanvallers kunnen units in continue verwarmings- en ontdooicycli dwingen, met risico op bederf van voedsel en medicijnen, schade aan apparatuur en brandgevaar. Het advies volgt op verstoringen bij Europese supermarkten van de afgelopen weken en dringt aan om blootgestelde systemen van het internet te halen en koelsystemen te beveiligen.",
+     "takeaway": "Controleer of koel- of cold-chain-controllers vanaf het internet bereikbaar zijn, haal ze offline of scherm ze af met segmentatie en beveiligde toegang op afstand, en bewaak op afwijkende temperatuurcycli."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "4c360ebb4cb1",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/960510/Kamervragen+over+aanval+op+koelsystemen+Franse+bloedbank?channel=rss",
+     "title": "Kamervragen over aanval op koelsystemen Franse bloedbank"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Dutch parliamentary questions on attack on French blood service cooling",
+     "summary": "Questions have been put in the Dutch House of Representatives to Health Minister Hermans about the attack on the refrigeration systems of the French blood service.",
+     "takeaway": "Healthcare organisations handling blood, medicines or samples should review how cold storage is monitored and what manual fallback exists."
+    },
+    "nl": {
+     "heading": "Update: Kamervragen over aanval op koelsystemen Franse bloedbank",
+     "summary": "In de Tweede Kamer zijn vragen gesteld aan minister Hermans van Volksgezondheid over de aanval op de koelsystemen van de Franse bloedbank.",
+     "takeaway": "Zorgorganisaties die bloed, medicijnen of monsters bewaren moeten nagaan hoe de koeling wordt bewaakt en welke handmatige terugvaloptie bestaat."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "fdf82900c347",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/",
+     "title": "Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)"
+    },
+    {
+     "id": "fdd87b2e38d6",
+     "name": "NCSC-NL Advisories",
+     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0468",
+     "title": "NCSC-2026-0468 [1.00] [M/H] Kwetsbaarheid verholpen in Zyxel product"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-107441",
+    "CVE-2026-7273"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Patched Zyxel GS1900 switches still exposed to exploited flaw",
+     "summary": "Binarly found that Zyxel GS1900 switches patched for CVE-2026-7273 remain open to an exploit used in the wild, because the exploit relies on a different bug, CVE-2026-107441. NCSC-NL separately lists a fixed out-of-bounds write in the CGI program of the GS1900-24E management interface, allowing unauthenticated command execution via crafted HTTP requests.",
+     "takeaway": "Do not assume GS1900 switches are safe after patching; restrict access to their management interfaces and track further Zyxel guidance."
+    },
+    "nl": {
+     "heading": "Gepatchte Zyxel GS1900-switches blijven kwetsbaar voor misbruikte lek",
+     "summary": "Binarly stelde vast dat Zyxel GS1900-switches die zijn gepatcht voor CVE-2026-7273 kwetsbaar blijven voor een exploit die in het wild wordt gebruikt, omdat die exploit een ander lek gebruikt, CVE-2026-107441. Het NCSC-NL meldt daarnaast een verholpen out-of-bounds write in het CGI-programma van de beheerinterface van de GS1900-24E, waarmee een niet-geauthenticeerde aanvaller via speciaal vervaardigde HTTP-verzoeken commando's kan uitvoeren.",
+     "takeaway": "Ga er niet van uit dat GS1900-switches na patchen veilig zijn; beperk de toegang tot de beheerinterface en volg verdere Zyxel-communicatie."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "03e665982410",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/bridewell-reports-80-surge-in-global-ransomware-victims-as-manufacturing-emerges-as-top-target-in-q3-2026/",
+     "title": "Bridewell reports 80% surge in global ransomware victims as manufacturing emerges as top target in Q3 2026"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Bridewell: ransomware victims up 80%, manufacturing top target in Q3",
+     "summary": "Bridewell recorded 2,889 publicly disclosed ransomware victims across 111 active groups in Q3 2026, an 80% global surge. Manufacturing emerged as the top target.",
+     "takeaway": "Manufacturers should verify IT/OT segmentation, offline backups and tested recovery for production systems."
+    },
+    "nl": {
+     "heading": "Bridewell: ransomwareslachtoffers 80% omhoog, maakindustrie grootste doelwit in Q3",
+     "summary": "Bridewell registreerde in Q3 2026 2.889 openbaar gemaakte ransomwareslachtoffers bij 111 actieve groepen, een wereldwijde stijging van 80%. De maakindustrie kwam naar voren als grootste doelwit.",
+     "takeaway": "Producerende bedrijven doen er goed aan IT/OT-segmentatie, offline back-ups en geteste herstelprocedures voor productiesystemen te controleren."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "0a36cfe63c0d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/risk-management/australias-2026-risk-review-identifies-ai-as-a-growing-threat-multiplier-for-critical-infrastructure-security/",
+     "title": "Australia’s 2026 risk review identifies AI as a growing threat multiplier for critical infrastructure security"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Australia's 2026 risk review names AI a threat multiplier",
+     "summary": "Australia's Critical Infrastructure Security Centre released its 2026 Critical Infrastructure Annual Risk Review, identifying trusted insiders, cyber threats and AI as a growing threat multiplier for critical infrastructure security.",
+     "takeaway": "Include insider risk and AI-assisted attacks in your OT risk assessments."
+    },
+    "nl": {
+     "heading": "Australisch risico-overzicht 2026 noemt AI een dreigingsversterker",
+     "summary": "Het Australische Critical Infrastructure Security Centre publiceerde de Critical Infrastructure Annual Risk Review 2026, waarin vertrouwde insiders, cyberdreigingen en AI als groeiende dreigingsversterker voor vitale infrastructuur worden benoemd.",
+     "takeaway": "Neem insiderrisico's en AI-ondersteunde aanvallen mee in uw OT-risicoanalyses."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "076cfb0d59cc",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/transport/ot-isac-details-aviation-cybersecurity-risks-involving-passenger-reservation-systems-airport-ot-communications-protocols/",
+     "title": "OT-ISAC details aviation cybersecurity risks involving passenger reservation systems, airport OT, communications protocols"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "OT-ISAC details aviation cyber risks in reservation systems and airport OT",
+     "summary": "OT-ISAC published two reports warning of cybersecurity risks facing aviation, covering passenger reservation systems, airport OT and communications protocols.",
+     "takeaway": "Airport and aviation operators should review the reports against their own OT and communications dependencies."
+    },
+    "nl": {
+     "heading": "OT-ISAC beschrijft cyberrisico's in luchtvaart: reserveringssystemen en OT op luchthavens",
+     "summary": "OT-ISAC publiceerde twee rapporten over cyberrisico's in de luchtvaart, over onder meer passagiersreserveringssystemen, OT op luchthavens en communicatieprotocollen.",
+     "takeaway": "Luchthavens en luchtvaartbedrijven kunnen de rapporten naast hun eigen OT- en communicatieafhankelijkheden leggen."
+    }
+   }
+  }
+ ]
+}

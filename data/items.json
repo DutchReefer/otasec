@@ -1,5 +1,781 @@
 [
  {
+  "id": "76b7192945a1",
+  "url": "https://www.security.nl/posting/960604/AI-agent+Claude+Code+deelde+e-mailadres+gebruikers+met+websites?channel=rss",
+  "title": "AI-agent Claude Code deelde e-mailadres gebruikers met websites",
+  "excerpt": "AI-agent Claude Code deelde zonder toestemming het e-mailadres van gebruikers met allerlei websites, die hierdoor spam ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T10:41:00Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The AI agent Claude Code reportedly shared users' email addresses with various websites without consent, which led to spam.",
+    "nl": "AI-agent Claude Code zou zonder toestemming e-mailadressen van gebruikers hebben gedeeld met diverse websites, waardoor spam ontstond."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "03e665982410",
+  "url": "https://industrialcyber.co/ransomware/bridewell-reports-80-surge-in-global-ransomware-victims-as-manufacturing-emerges-as-top-target-in-q3-2026/",
+  "title": "Bridewell reports 80% surge in global ransomware victims as manufacturing emerges as top target in Q3 2026",
+  "excerpt": "New data from Bridewell’s threat intelligence team recorded 2,889 publicly disclosed ransomware victims across 111 active ransomware and...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-06T10:39:09Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "threat",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Bridewell reports 2,889 publicly disclosed ransomware victims in the period, an 80% rise, with manufacturing emerging as a top target.",
+    "nl": "Bridewell meldt 2.889 publiekelijk bekendgemaakte ransomware-slachtoffers, een stijging van 80%, waarbij de maakindustrie een topdoelwit is geworden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "509214834e54",
+  "url": "https://industrialcyber.co/industrial-cyber-attacks/cisa-federal-partners-flag-exposed-ot-controllers-as-cyberattacks-disrupt-supermarket-cooling-systems-across-europe/",
+  "title": "CISA, federal partners flag exposed OT controllers as cyberattacks disrupt supermarket cooling systems across Europe",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Department of Health and Human...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-06T10:34:25Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 90,
+   "category": "advisory",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA, FBI and federal partners warn that exposed OT controllers were used in cyberattacks that disrupted supermarket cooling systems across Europe.",
+    "nl": "CISA, de FBI en federale partners waarschuwen dat blootgestelde OT-controllers zijn gebruikt in cyberaanvallen die koelsystemen van supermarkten in Europa hebben verstoord."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "0a36cfe63c0d",
+  "url": "https://industrialcyber.co/risk-management/australias-2026-risk-review-identifies-ai-as-a-growing-threat-multiplier-for-critical-infrastructure-security/",
+  "title": "Australia’s 2026 risk review identifies AI as a growing threat multiplier for critical infrastructure security",
+  "excerpt": "Australia’s Critical Infrastructure Security Centre (CISC) released its 2026 Critical Infrastructure Annual Risk Review, identifying trusted insiders, cyber...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-06T10:33:28Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Australia's CISC 2026 annual risk review identifies AI as a growing threat multiplier for critical infrastructure, alongside trusted insiders and cyber threats.",
+    "nl": "Het Australische CISC-jaarrapport 2026 ziet AI als een groeiende versterker van dreigingen voor kritieke infrastructuur, naast kwaadwillende insiders en cyberdreigingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "0dc24437cfa3",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/white-house-residential-proxy-traffic/",
+  "title": "Residential proxy traffic caught leaving the White House network",
+  "excerpt": "The White House network has been working as an exit point for residential proxy services, a setup that may open a path into one of the most closely guarded networks in the world, Layer3 Intel found. In a blog post, the threat intelligence firm reported that its proxy enumeration pipeline exited through AS2650, the network registered to the Executive Office of the President, 236 times between October 5 and November 3. The exits came from … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T10:29:58Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Layer3 Intel found residential proxy traffic exiting through a network registered to the Executive Office of the President.",
+    "nl": "Layer3 Intel constateerde residentieel proxyverkeer dat via een netwerk van het Executive Office of the President naar buiten ging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "3afa78359002",
+  "url": "https://industrialcyber.co/cisa/brian-mazanec-takes-acting-cisa-infrastructure-security-role-bringing-experience-in-cyber-incident-response-and-resilience/",
+  "title": "Brian Mazanec takes acting CISA infrastructure security role, bringing experience in cyber incident response and resilience",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has appointed Brian Mazanec as acting executive assistant director for...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-06T10:28:16Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "industry",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA has appointed Brian Mazanec as acting executive assistant director for infrastructure security.",
+    "nl": "CISA heeft Brian Mazanec benoemd als waarnemend executive assistant director voor infrastructuurbeveiliging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "05a371093f4e",
+  "url": "https://industrialcyber.co/news/ionq-completes-elisity-acquisition-to-combine-zero-trust-security-with-post-quantum-cryptography-quantum-key-distribution/",
+  "title": "IonQ completes Elisity acquisition to combine zero trust security with post-quantum cryptography, quantum key distribution",
+  "excerpt": "IonQ, a full-stack quantum platform and foundry firm, announced that it has completed its acquisition of Elisity Inc.,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-06T10:27:42Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "IonQ has completed its acquisition of Elisity, combining zero trust security with post-quantum cryptography and quantum key distribution.",
+    "nl": "IonQ heeft de overname van Elisity afgerond, waarbij zero trust-beveiliging wordt gecombineerd met post-quantumcryptografie en quantum key distribution."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "49b2ce788c2b",
+  "url": "https://industrialcyber.co/news/abbott-risk-consulting-joins-isas-isasecure-program-to-expand-isa-iec-62443-based-ot-cybersecurity-consulting/",
+  "title": "Abbott Risk Consulting joins ISA’s ISASecure program to expand ISA/IEC 62443-based OT cybersecurity consulting",
+  "excerpt": "The International Society of Automation (ISA), a professional society for automation, announced that Abbott Risk Consulting (ARC) Ltd....",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-06T10:22:48Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Abbott Risk Consulting has joined ISA's ISASecure program to expand its ISA/IEC 62443-based OT cybersecurity consulting services.",
+    "nl": "Abbott Risk Consulting is toegetreden tot het ISASecure-programma van ISA om zijn op ISA/IEC 62443 gebaseerde OT-cyberbeveiligingsadvies uit te breiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "092890ea30ce",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/openai-gpt-6-cyber-released/",
+  "title": "OpenAI’s GPT-6 Cyber found 81 Firefox flaws earlier AI testing missed",
+  "excerpt": "OpenAI has introduced GPT-6 Cyber, a version of GPT-6 Astra trained to find software vulnerabilities, test how attackers could exploit them, and help develop fixes. The model is designed for authorized security testing of websites and applications. Vulnerability research and security testing OpenAI used GPT-6 Cyber to help secure its systems, including the infrastructure used to train its AI models. In controlled security tests, agents using GPT-6 Cyber and other OpenAI models combined vulnerabilities to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T10:19:49Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI introduced GPT-6 Cyber, a model for finding and fixing software vulnerabilities, which found 81 Firefox flaws missed by earlier testing.",
+    "nl": "OpenAI heeft GPT-6 Cyber geïntroduceerd, een model voor het vinden en verhelpen van softwarekwetsbaarheden, dat 81 Firefox-fouten vond die eerdere tests misten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "dbf283d3b196",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/sarajevo-cyber-security-summit-2026/",
+  "title": "Sarajevo Cyber Security Summit 2026 puts the Western Balkans’ cyber resilience in focus",
+  "excerpt": "Cyber Security Summit 2026 in Sarajevo will examine the practical security questions organizations face when a supplier, network device or critical digital service fails: what breaks, who decides, and how quickly can operations recover? A serious cyber incident does not need to begin on an organization’s core network to interrupt its operations. A compromised supplier account, an exposed edge device or an outage at a cloud provider can be enough to cut off access to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T10:18:30Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Cyber Security Summit 2026 in Sarajevo will address how organizations recover when suppliers, network devices or cloud services fail.",
+    "nl": "De Cyber Security Summit 2026 in Sarajevo gaat in op hoe organisaties herstellen wanneer leveranciers, netwerkapparaten of clouddiensten uitvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "c8c6f75751f7",
+  "url": "https://www.security.nl/posting/960592/Belgische+overheid+wijst+burgers+op+beveiligen+van+online+priv%C3%A9koelkast?channel=rss",
+  "title": "Belgische overheid wijst burgers op beveiligen van online privékoelkast",
+  "excerpt": "De Belgische overheid roept burgers op om hun online privékoelkast te beveiligen en na te denken of het nodig is het apparaat ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T09:49:07Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Belgian government urges citizens to secure their online private refrigerators and consider whether the connected device is needed.",
+    "nl": "De Belgische overheid roept burgers op hun online privékoelkasten te beveiligen en na te denken of het verbonden apparaat nodig is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "803fb677b82c",
+  "url": "https://www.security.nl/posting/960588/%27WordPress-lek+misbruikt+dat+aanvaller+tijdens+het+updaten+admin+maakt%27?channel=rss",
+  "title": "'WordPress-lek misbruikt dat aanvaller tijdens het updaten admin maakt'",
+  "excerpt": "Aanvallers vallen op grote schaal WordPress-sites aan via een kwetsbaarheid die zich voordoet tijdens het installeren van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T09:38:58Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are widely targeting WordPress sites via a vulnerability that lets them gain admin access during the update process.",
+    "nl": "Aanvallers vallen op grote schaal WordPress-sites aan via een kwetsbaarheid waarmee ze tijdens het updaten admin-rechten krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "197757f56a66",
+  "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+  "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+  "excerpt": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T09:22:28Z",
+  "fetched": "2026-11-06T10:58:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "MetaMask says a recent security incident did not affect its wallets or wallet infrastructure.",
+    "nl": "MetaMask meldt dat een recent beveiligingsincident geen invloed heeft gehad op de wallets of wallet-infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "2e11f01c5d42",
+  "url": "https://www.security.nl/posting/960583/Microsoft%3A+groot+aantal+lekken+betekent+niet+dat+Windows+minder+veilig+is?channel=rss",
+  "title": "Microsoft: groot aantal lekken betekent niet dat Windows minder veilig is",
+  "excerpt": "Vorige maand kwam Microsoft met patches voor meer dan 1100 beveiligingslekken in Windows waar een CVE-nummer aan was toegekend. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T09:10:00Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft states that the large number of CVEs patched in Windows does not mean the operating system is less secure.",
+    "nl": "Microsoft stelt dat het grote aantal CVE's in Windows-patches niet betekent dat het besturingssysteem minder veilig is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "957d1177827d",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/cyberattacks-refrigeration-systems-cisa-fbi/",
+  "title": "US agencies warn attackers are targeting refrigeration systems that protect food and medicine",
+  "excerpt": "Threat actors are going after the controllers that keep grocery store freezers and cold storage rooms at safe temperatures, and they may push those units into continuous heating and defrost cycles, five US federal agencies warned in a joint advisory published on Thursday. CISA, the FBI, the Department of Health and Human Services (HHS), the US Department of Agriculture (USDA) and the Department of Transportation (DOT) issued the warning in response to ongoing malicious activity … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T09:04:36Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 92,
+   "category": "advisory",
+   "sectors": [
+    "food",
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Five US federal agencies warn that threat actors are targeting refrigeration controllers in grocery stores and cold storage, possibly forcing continuous heating or defrost cycles.",
+    "nl": "Vijf Amerikaanse federale instanties waarschuwen dat dreigingsactoren koelcontrollers in supermarkten en koelopslag aanvallen, mogelijk met continue verwarming of ontdooicycli tot gevolg."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "fb80012b42c3",
+  "url": "https://www.security.nl/posting/960578/FBI+waarschuwt+supermarkten%3A+%27Haal+koelsystemen+nu+van+het+internet%27?channel=rss",
+  "title": "FBI waarschuwt supermarkten: 'Haal koelsystemen nu van het internet'",
+  "excerpt": "De FBI waarschuwt supermarkten en andere bedrijven die van koelsystemen gebruikmaken om de installaties meteen van het internet ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T08:43:38Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 88,
+   "category": "advisory",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI warns supermarkets and other businesses using refrigeration systems to disconnect these installations from the internet immediately.",
+    "nl": "De FBI waarschuwt supermarkten en andere bedrijven met koelsystemen om deze installaties direct los te koppelen van het internet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  },
+  "title_en": "FBI warns supermarkets: 'Take cooling systems off the internet now'"
+ },
+ {
+  "id": "ac583aa19162",
+  "url": "https://www.security.nl/posting/960574/Apple+gaat+via+iCloud+gedeelde+foto%27s+en+bestanden+controleren?channel=rss",
+  "title": "Apple gaat via iCloud gedeelde foto's en bestanden controleren",
+  "excerpt": "Apple gaat foto's en andere bestanden controleren die mensen via iCloud delen, zo heeft het techbedrijf aangekondigd. Daarbij ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T08:14:00Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apple announced it will scan photos and other files that people share via iCloud.",
+    "nl": "Apple heeft aangekondigd foto's en andere bestanden te gaan controleren die mensen via iCloud delen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "c326e52c604c",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0470",
+  "title": "NCSC-2026-0470 [1.00] [M/H] Kwetsbaarheid verholpen in Windows Paint van Microsoft",
+  "excerpt": "Microsoft heeft een kwetsbaarheid verholpen in Windows Paint. De kwetsbaarheid betreft een out-of-bounds read in Microsoft Windows Paint (CWE-125), waardoor een aanvaller onder specifieke omstandigheden willekeurige code kan uitvoeren op het getroffen systeem.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-06T08:10:35Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed an out-of-bounds read vulnerability in Windows Paint that could allow code execution under specific conditions.",
+    "nl": "Microsoft heeft een out-of-bounds read-kwetsbaarheid in Windows Paint verholpen die onder specifieke omstandigheden codeuitvoering mogelijk maakte."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "6facdf5f94df",
+  "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+  "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+  "excerpt": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T08:04:49Z",
+  "fetched": "2026-11-06T10:58:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Chainalysis says its investigation into an agentic cyberattack revealed exposure of user names, password hashes and tokens, and shut down services.",
+    "nl": "Chainalysis meldt dat het onderzoek naar een agentische cyberaanval blootstelling van gebruikersnamen, wachtwoordhashes en tokens liet zien, waarna diensten zijn stilgelegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "89b519808f75",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0469",
+  "title": "NCSC-2026-0469 [1.00] [M/H] Kwetsbaarheid verholpen in OpenSSH door OpenSSH Project",
+  "excerpt": "Het OpenSSH project heeft een kwetsbaarheid verholpen in sshd van OpenSSH versies ouder dan 10.6p2. De kwetsbaarheid treft Linux systemen die gebruikmaken van musl libc en waarop PAM niet wordt gebruikt. De kwetsbaarheid betreft een bypass van de SSH-wachtwoordauthenticatie bij gebruik van wachtwoorden met een lengte van 257 tot 1024 bytes. De oorzaak ligt in de interactie tussen de authenticatieafhandeling van OpenSSH (sshd) en de implementatie van crypt() in musl libc, in omgevingen waarin PAM niet wordt gebruikt. Hierdoor kan een aanvaller onder specifieke omstandigheden de…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-06T07:54:37Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The OpenSSH project fixed a vulnerability allowing password authentication bypass on certain Linux systems using musl libc without PAM.",
+    "nl": "Het OpenSSH-project heeft een kwetsbaarheid verholpen waarmee wachtwoordauthenticatie kon worden omzeild op bepaalde Linux-systemen met musl libc zonder PAM."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:42Z"
+  }
+ },
+ {
+  "id": "234556dd6f66",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/november-2026-patch-tuesday-forecast/",
+  "title": "November 2026 Patch Tuesday forecast: Old software continues to bite",
+  "excerpt": "How did you enjoy October 2026 Patch Tuesday? Were there enough CVEs reported to keep you busy for the rest of the year or are you finished and ready for another round next week? They released the regularly scheduled update nearly two and a half hours late, but Microsoft did resolve another record-breaking 1,407 unique CVEs. As in previous months, there were limited CVEs we needed to immediately deal with. In October, one zero-day CVE-2026-96951 … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T07:00:48Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [
+   "CVE-2026-96951"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A forecast of Microsoft's November 2026 Patch Tuesday discusses the October update, which resolved 1,407 CVEs and one zero-day.",
+    "nl": "Een voorspelling voor Microsoft's Patch Tuesday van november 2026 blikt terug op de update van oktober, met 1.407 opgeloste CVE's en één zero-day."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:49Z"
+  }
+ },
+ {
+  "id": "f0191b317127",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/mariia-bakhtina-masaryk-university-security-certification/",
+  "title": "Security certification is a snapshot, and buyers read too much into it",
+  "excerpt": "In this Help Net Security video, Mariia Bakhtina, a research specialist at Masaryk University, explains what a Common Criteria or FIPS-140 certificate does and does not promise. In her team’s analysis, about 6 in 10 vulnerabilities matched to certified products, smartcards aside, were disclosed after the certification date. She also describes sec-certs and SCRUTINY, two open-source tools her lab builds, and the one question buyers should put to a vendor. Picture a procurement manager handed … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T06:30:16Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A video explains that security certifications such as Common Criteria and FIPS-140 are snapshots, as about 6 in 10 vulnerabilities in certified products were disclosed after certification.",
+    "nl": "Een video legt uit dat beveiligingscertificeringen zoals Common Criteria en FIPS-140 een momentopname zijn, omdat ongeveer 6 op de 10 kwetsbaarheden in gecertificeerde producten later werd gemeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:49Z"
+  }
+ },
+ {
+  "id": "c30985be0366",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/autonomous-ai-oversight-governance/",
+  "title": "87% say their AI controls need to work better",
+  "excerpt": "The AI running inside large companies has stopped waiting for permission. Across five categories of AI, from chatbots to process automation, more than half of 3,600 business decision-makers say the systems their teams use can act within defined rules without routine review, or finish whole processes with no human approval. 87% of those same respondents say their organization needs a better way to approve, monitor and control how AI gets used. Vanson Bourne ran the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T06:00:03Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A survey of 3,600 business decision-makers finds that 87% say their organization needs better control over how AI is approved, monitored and used.",
+    "nl": "Een onderzoek onder 3.600 zakelijke beslissers toont dat 87% vindt dat hun organisatie betere controle nodig heeft over de goedkeuring, monitoring en het gebruik van AI."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:49Z"
+  }
+ },
+ {
+  "id": "ed60ea7fa412",
+  "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+  "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+  "excerpt": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T05:58:54Z",
+  "fetched": "2026-11-06T10:58:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers at QiAnXin's XLab found a backdoor in the Control Web Panel server for Linux hosting that runs commands from web requests without appearing in access logs.",
+    "nl": "Onderzoekers van QiAnXin's XLab ontdekten een backdoor in de Control Web Panel-server voor Linux-hosting die commando's uitvoert via webverzoeken zonder zichtbaar te zijn in toegangslogs."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:49Z"
+  }
+ },
+ {
+  "id": "a382c3d13c65",
+  "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+  "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+  "excerpt": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T05:39:10Z",
+  "fetched": "2026-11-06T10:58:21Z",
+  "cves": [
+   "CVE-2026-116606"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Two flaws in Barracuda's Email Security Gateway, including CVE-2026-116606, can be chained for unauthenticated root access, and patches were released.",
+    "nl": "Twee kwetsbaarheden in Barracuda's Email Security Gateway, waaronder CVE-2026-116606, kunnen worden gecombineerd voor root-toegang zonder authenticatie, en er zijn patches uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:49Z"
+  }
+ },
+ {
+  "id": "b18b3bc1df45",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/blueflag-ai-agents-access-risks-report/",
+  "title": "99% of repository access tokens never expire",
+  "excerpt": "Developers, automated tools and AI coding agents hold permissions that can outlast the work they were granted for. Without access reviews, organizations can leave accounts able to copy or change company code after the work ends, according to BlueFlag Security’s The State of Developer Risk 2026 report. Development accounts and tools create security blind spots Software development spans code repositories, review systems, build pipelines and connected applications. Developers, contractors, service accounts, bots and AI coding … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T05:30:23Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A BlueFlag Security report finds that 99% of repository access tokens never expire, leaving developer and tool accounts with lasting access to company code.",
+    "nl": "Een rapport van BlueFlag Security toont aan dat 99% van de toegangstokens voor repositories nooit verloopt, waardoor ontwikkelaarsaccounts blijvend toegang houden tot bedrijfscode."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:49Z"
+  }
+ },
+ {
+  "id": "cac2458107f5",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/holiday-rental-platform-phishing-travelers/",
+  "title": "Rental phishing sites use live chat to win over hesitant travelers",
+  "excerpt": "Holiday travelers looking for a place to stay are landing on copies of popular rental platforms, complete with host names, ratings and reviews, that ask for their passwords, personal details and credit card numbers. The sites, spotted and taken down by Fortra’s Intelligence and Research Experts (FIRE) team, rely on familiar branding, copied property listings and reservation details, along with urgent messages meant to rush visitors into acting. A phishing page imitating a rental marketplace … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T05:00:41Z",
+  "fetched": "2026-11-06T10:58:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fortra's FIRE team took down phishing sites that imitate popular rental platforms to steal passwords and payment details from travelers.",
+    "nl": "Het FIRE-team van Fortra heeft phishingsites offline gehaald die populaire verhuurplatformen nabootsen om wachtwoorden en betaalgegevens van reizigers te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T10:58:49Z"
+  }
+ },
+ {
   "id": "e736f19a654e",
   "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
