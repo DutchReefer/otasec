@@ -1,5 +1,575 @@
 [
  {
+  "id": "bfcfca07d1ea",
+  "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+  "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+  "excerpt": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T17:04:23Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "QNAP urges users to update Plex Media Server as attackers exploit the Plex2Shell vulnerability chain to breach NAS devices.",
+    "nl": "QNAP roept gebruikers op Plex Media Server bij te werken, omdat aanvallers de Plex2Shell-kwetsbaarheidsketen misbruiken om NAS-apparaten te compromitteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "88525575b645",
+  "url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+  "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
+  "excerpt": "Patrick Steven Yaroch, 37, is facing up to 20 years in prison on wire fraud and money laundering charges after admitting to using his position on an FBI investigative squad to steal more than $2.4 million in cryptocurrency to cover his debts.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T16:53:00Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A former FBI agent pleaded guilty to stealing over $2.4 million in cryptocurrency from nation-state hacker investigations.",
+    "nl": "Een voormalig FBI-agent heeft schuld bekend aan het stelen van meer dan 2,4 miljoen dollar aan cryptovaluta uit onderzoeken naar statelijke hackers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "7a9316fb2302",
+  "url": "https://www.security.nl/posting/960681/Overheid%3A+digitale+weerbaarheid+Nederland+blijft+achter+bij+cyberdreiging?channel=rss",
+  "title": "Overheid: digitale weerbaarheid Nederland blijft achter bij cyberdreiging",
+  "excerpt": "De digitale weerbaarheid van Nederland blijft structureel achter bij de cyberdreiging, wat komt omdat veel bedrijven de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T16:16:33Z",
+  "fetched": "2026-11-06T18:00:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch government says national digital resilience lags behind the cyber threat, partly because many companies fall short.",
+    "nl": "De Nederlandse overheid stelt dat de digitale weerbaarheid van Nederland structureel achterblijft bij de cyberdreiging, mede door tekortkomingen bij veel bedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "9fe769e3c933",
+  "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+  "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+  "excerpt": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T16:08:38Z",
+  "fetched": "2026-11-06T18:00:55Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found that WordPress sites remain exposed during installation of a fix for an actively exploited flaw, allowing server code execution.",
+    "nl": "Onderzoekers ontdekten dat WordPress-sites tijdens de installatie van een fix voor een actief misbruikte kwetsbaarheid kwetsbaar blijven voor code-uitvoering op de server."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "822a8988774e",
+  "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+  "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+  "excerpt": "Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T15:25:31Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Veeam warned that Software Appliance virtual machines may fail to boot on hosts with AMD EPYC processors.",
+    "nl": "Veeam waarschuwde dat Software Appliance-virtuele machines mogelijk niet opstarten op hosts met AMD EPYC-processors."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "a40dff3d749a",
+  "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+  "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+  "excerpt": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T15:21:49Z",
+  "fetched": "2026-11-06T18:00:55Z",
+  "cves": [
+   "CVE-2026-123158"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are targeting the OpenSSH SSHole flaw (CVE-2026-123158), which allows passwordless account logins on musl-based Linux systems with PAM disabled.",
+    "nl": "Aanvallers richten zich op de OpenSSH-kwetsbaarheid SSHole (CVE-2026-123158), waarmee zonder wachtwoord kan worden ingelogd op musl-gebaseerde Linux-systemen zonder PAM."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "729af34c68fa",
+  "url": "https://www.security.nl/posting/960668/VS+klaagt+drietal+aan+voor+diefstal+van+129+miljoen+dollar+via+%27AI-directeur%27?channel=rss",
+  "title": "VS klaagt drietal aan voor diefstal van 129 miljoen dollar via 'AI-directeur'",
+  "excerpt": "De Amerikaanse autoriteiten hebben drie mannen aangeklaagd voor het stelen van 129 miljoen dollar van bedrijven, waarbij ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T15:11:46Z",
+  "fetched": "2026-11-06T18:00:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "US authorities charged three men with stealing 129 million dollars from companies using an AI-directed fraud scheme.",
+    "nl": "Amerikaanse autoriteiten hebben drie mannen aangeklaagd voor het stelen van 129 miljoen dollar van bedrijven via een AI-directeursfraude."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "61f003d9bff4",
+  "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+  "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+  "excerpt": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T15:00:10Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An explainer describes how IMSI and IMEI identifiers are shared with mobile networks and how attackers can track phones.",
+    "nl": "Een uitleg beschrijft hoe IMSI- en IMEI-identificatoren met mobiele netwerken worden gedeeld en hoe aanvallers telefoons kunnen volgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "17e04fbcf2b3",
+  "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+  "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+  "excerpt": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T14:58:32Z",
+  "fetched": "2026-11-06T18:00:55Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI unveiled GPT-6 Cyber, a model aimed at finding and fixing vulnerabilities, after AI helped identify Firefox and Linux flaws.",
+    "nl": "OpenAI heeft GPT-6 Cyber gepresenteerd, een model voor het vinden en oplossen van kwetsbaarheden, nadat AI kwetsbaarheden in Firefox en Linux had helpen vinden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "e34ca10a5a26",
+  "url": "https://therecord.media/ceo-spoofing-scammers-charged",
+  "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
+  "excerpt": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T14:30:00Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "US authorities are extraditing three suspects from Europe over CEO impersonation fraud exceeding 100 million dollars using AI.",
+    "nl": "Amerikaanse autoriteiten werken aan de uitlevering van drie verdachten uit Europa in een zaak van CEO-fraude met meer dan 100 miljoen dollar schade."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "455fb4d64db9",
+  "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+  "title": "Chainalysis says breach exposed credentials for all customers",
+  "excerpt": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T14:17:07Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Blockchain analytics firm Chainalysis says an attack on its systems exposed credentials and live tokens for all customers.",
+    "nl": "Blockchain-analysebedrijf Chainalysis meldt dat een aanval op zijn systemen inloggegevens en actieve tokens van alle klanten heeft blootgelegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "3a0882b07c32",
+  "url": "https://www.security.nl/posting/960654/QNAP+waarschuwt+Plex-gebruikers+voor+Plex2Shell%3A+%27Meteen+patchen%27?channel=rss",
+  "title": "QNAP waarschuwt Plex-gebruikers voor Plex2Shell: 'Meteen patchen'",
+  "excerpt": "NAS-fabrikant QNAP waarschuwt gebruikers die Plex Media Server op hun NAS-systeem draaien voor Plex2Shell en roept op om de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T14:15:17Z",
+  "fetched": "2026-11-06T18:00:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "QNAP warns users running Plex Media Server on their NAS systems about Plex2Shell and urges them to patch immediately.",
+    "nl": "QNAP waarschuwt gebruikers die Plex Media Server op hun NAS draaien voor Plex2Shell en roept op om direct te patchen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "b51270d83c90",
+  "url": "https://www.security.nl/posting/960642/Gebruikers+keyboard-app+Sogou+via+DNS+hijacking+besmet+met+malware?channel=rss",
+  "title": "Gebruikers keyboard-app Sogou via DNS hijacking besmet met malware",
+  "excerpt": "Gebruikers van de Chinese keyboard-app Sogou zijn weer het doelwit van malware-aanvallen geworden. Dit keer gebeurde dat via ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T13:39:06Z",
+  "fetched": "2026-11-06T18:00:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Users of the Chinese Sogou keyboard app were infected with malware through DNS hijacking.",
+    "nl": "Gebruikers van de Chinese Sogou-toetsenbordapp zijn via DNS-hijacking met malware besmet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "a7e05b151cd5",
+  "url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+  "title": "OpenSSH flaw exploited in the wild just hours after disclosure (CVE-2026-123158)",
+  "excerpt": "An OpenSSH flaw that lets remote attackers log into passwordless accounts on Alpine Linux and other musl-based systems is being exploited, threat intelligence firm Previdian has warned. The flaw (CVE-2026-123158), nicknamed sshole by Wakefield researcher Özgün Kültekin, was fixed in OpenSSH 10.6p2 on November 5. “An attacker who can reach your SSH port can log in without knowing any password. It takes one connection, works every time, and needs no retries,” the Alpine Linux team … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T12:49:41Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [
+   "CVE-2026-123158"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are exploiting the OpenSSH flaw CVE-2026-123158 on Alpine Linux and other musl-based systems, allowing login without a password.",
+    "nl": "Aanvallers maken misbruik van de OpenSSH-kwetsbaarheid CVE-2026-123158 op Alpine Linux en andere musl-systemen, waardoor inloggen zonder wachtwoord mogelijk is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "1db6cddcf641",
+  "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+  "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+  "excerpt": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T12:37:22Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "D-Link"
+   ],
+   "summary": {
+    "en": "D-Link published mitigation measures for multiple unpatched zero-day flaws affecting its DGS-3130 series managed Gigabit stackable switches.",
+    "nl": "D-Link heeft mitigerende maatregelen gepubliceerd voor meerdere ongepatchte zero-day-kwetsbaarheden in de beheerde DGS-3130 Gigabit-switches."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "41d161578e3c",
+  "url": "https://www.security.nl/posting/960618/Misbruik+OpenSSH-lek+gemeld%3A+%27Voorlopig+botnets+en+cryptominers%27?channel=rss",
+  "title": "Misbruik OpenSSH-lek gemeld: 'Voorlopig botnets en cryptominers'",
+  "excerpt": "Aanvallers maken misbruik van de '*SSHole' kwetsbaarheid in OpenSSH, zo melden verschillende cybersecuritybedrijven. Via het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T12:28:58Z",
+  "fetched": "2026-11-06T18:00:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cybersecurity firms report attackers exploiting the OpenSSH *SSHole flaw to deploy botnets and cryptominers.",
+    "nl": "Cybersecuritybedrijven melden dat aanvallers de OpenSSH *SSHole-kwetsbaarheid misbruiken om botnets en cryptominers te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "649e0d8b078e",
+  "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+  "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+  "excerpt": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T12:06:43Z",
+  "fetched": "2026-11-06T18:00:55Z",
+  "cves": [
+   "CVE-2026-83844"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A fix for the Windows Paint remote code execution flaw CVE-2026-83844 is available via the Microsoft Store, not Windows Update.",
+    "nl": "Een fix voor de Windows Paint-kwetsbaarheid CVE-2026-83844 voor remote code execution is beschikbaar via de Microsoft Store, niet via Windows Update."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "cea41b0360f6",
+  "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+  "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+  "excerpt": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T12:06:35Z",
+  "fetched": "2026-11-06T18:00:55Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers showed that a malicious browser extension could use a Claude Dispatch flaw to run code on users' computers.",
+    "nl": "Onderzoekers toonden aan dat een kwaadaardige browserextensie via een Claude Dispatch-kwetsbaarheid code op computers van gebruikers kan uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "b9d6c822e624",
+  "url": "https://www.security.nl/posting/960622/Nieuwe+maatstaf+voor+%27grof+nalatig%E2%80%99+handelen+bankklant+bij+niet-toegestane+betaling?channel=rss",
+  "title": "Nieuwe maatstaf voor 'grof nalatig’ handelen bankklant bij niet-toegestane betaling",
+  "excerpt": "Het financiële klachteninstituut Kifid is met een nieuwe maatstaf gekomen om duidelijk te maken wanneer er sprake is van 'grof ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T12:00:00Z",
+  "fetched": "2026-11-06T18:00:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch financial complaints institute Kifid introduced a new standard for determining gross negligence by bank customers in unauthorized payments.",
+    "nl": "Het Nederlandse klachteninstituut Kifid heeft een nieuwe maatstaf ingevoerd voor het bepalen van grove nalatigheid van bankklanten bij niet-toegestane betalingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
+  "id": "6625b8a777d1",
+  "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+  "title": "The Flood is Coming And The Pipes Were Already Full",
+  "excerpt": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T11:30:00Z",
+  "fetched": "2026-11-06T18:00:55Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An opinion piece discusses the gap between advanced AI vulnerability-finding capabilities and organizational readiness.",
+    "nl": "Een opiniestuk bespreekt de kloof tussen de geavanceerde AI-capaciteiten om kwetsbaarheden te vinden en de mate waarin organisaties hierop zijn voorbereid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:16Z"
+  }
+ },
+ {
   "id": "76b7192945a1",
   "url": "https://www.security.nl/posting/960604/AI-agent+Claude+Code+deelde+e-mailadres+gebruikers+met+websites?channel=rss",
   "title": "AI-agent Claude Code deelde e-mailadres gebruikers met websites",
@@ -804,6 +1374,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-06T02:30:08Z"
+  }
+ },
+ {
+  "id": "0da6cf00fb54",
+  "url": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
+  "title": "EU accuses TikTok of trapping users in harmful ‘rabbit holes’",
+  "excerpt": "The European Commission accused TikTok on Friday of failing to prevent its recommendation algorithm from drawing users into “rabbit holes” of content about sadness, self-harm and body image.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T00:00:00Z",
+  "fetched": "2026-11-06T18:00:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The European Commission accused TikTok of failing to stop its recommendation algorithm from drawing users into harmful content rabbit holes.",
+    "nl": "De Europese Commissie beschuldigt TikTok ervan niet te voorkomen dat het aanbevelingsalgoritme gebruikers in schadelijke contentspiralen trekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T18:01:18Z"
   }
  },
  {
@@ -40687,34 +41285,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "0a32cdf7472a",
-  "url": "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai",
-  "title": "The hidden risks of shadow AI",
-  "excerpt": "Understanding why staff use unapproved AI tools is key to managing the security challenges they can create.",
-  "source_id": "ncsc-uk",
-  "source": "NCSC-UK",
-  "lang": "en",
-  "kind": "guidance",
-  "focus": "broad",
-  "published": "2026-09-07T12:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": false,
-   "score": 10,
-   "category": "guidance",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "NCSC discusses why staff use unapproved AI tools and how to manage the resulting security challenges.",
-    "nl": "De NCSC bespreekt waarom medewerkers niet-goedgekeurde AI-tools gebruiken en hoe de beveiligingsrisico's te beheersen zijn."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
   }
  }
 ]
