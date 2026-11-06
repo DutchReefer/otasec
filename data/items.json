@@ -1,5 +1,64 @@
 [
  {
+  "id": "e736f19a654e",
+  "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+  "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+  "excerpt": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-06T00:56:44Z",
+  "fetched": "2026-11-06T02:30:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "food",
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, risking food spoilage, equipment damage and fire hazards.",
+    "nl": "De FBI en CISA waarschuwen dat hackers wereldwijd actief industriële koelsystemen en cold-chain monitoringsystemen aanvallen, met risico op bederf van voedsel, schade aan apparatuur en brandgevaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T02:30:08Z"
+  }
+ },
+ {
+  "id": "3189ce2b4e22",
+  "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+  "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+  "excerpt": "The library system, which has 66 branches serving the borough’s 2.3 million residents, published multiple alerts on Wednesday confirming that the disruption was caused by a ransomware attack.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-05T22:08:00Z",
+  "fetched": "2026-11-06T02:30:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Queens Public Library reported that a ransomware attack disrupted its Wi-Fi and on-site computers across its branches.",
+    "nl": "De Queens Public Library meldde dat een ransomware-aanval het Wi-Fi-netwerk en de computers in de vestigingen heeft verstoord."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-06T02:30:08Z"
+  }
+ },
+ {
   "id": "d4ae1adfd166",
   "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
   "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
