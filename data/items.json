@@ -1,5 +1,35 @@
 [
  {
+  "id": "ff63fc905db0",
+  "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+  "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+  "excerpt": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-07T00:00:55Z",
+  "fetched": "2026-11-07T02:51:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "SonicWall"
+   ],
+   "summary": {
+    "en": "SonicWall released updates for seven SonicOS firewall vulnerabilities, including an SSL-VPN authentication bypass flaw that is being exploited in attacks.",
+    "nl": "SonicWall heeft updates uitgebracht voor zeven kwetsbaarheden in SonicOS-firewalls, waaronder een SSL-VPN-authenticatieomzeiling die actief wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-07T02:51:54Z"
+  }
+ },
+ {
   "id": "9d995ed0edec",
   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
@@ -41069,362 +41099,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "6793d19a38eb",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-517424.html",
-  "title": "SSA-517424 V1.0: Path Traversal Vulnerability in SIMOVE Fleetmanager and SIPLANT",
-  "excerpt": "SIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 50,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-517424 describes a path traversal vulnerability in SIMOVE Fleetmanager and SIPLANT allowing access to files outside intended scope; updates are available.",
-    "nl": "Siemens-advisory SSA-517424 beschrijft een path traversal-kwetsbaarheid in SIMOVE Fleetmanager en SIPLANT waarmee bestanden buiten het beoogde bereik benaderd kunnen worden; updates zijn beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "f7b46f4e3f0d",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-503852.html",
-  "title": "SSA-503852 V1.0: Authentication Bypass Vulnerability in Industrial Edge Management",
-  "excerpt": "Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verification. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 65,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-503852 reports an authentication bypass in Industrial Edge Management allowing unauthenticated full account takeover via credential reset; updates are available.",
-    "nl": "Siemens-advisory SSA-503852 meldt een authenticatiebypass in Industrial Edge Management waarmee ongeauthenticeerde aanvallers via wachtwoordreset volledige accountovername kunnen doen; updates zijn beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "0d64e5fe922b",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-331739.html",
-  "title": "SSA-331739 V1.2 (Last Update: 2026-09-08): Privilege Escalation Vulnerability in WIBU CodeMeter Runtime Affecting Siemens Products",
-  "excerpt": "WIBU Systems published information about a privilege escalation vulnerability under a certain circumstances and associated fix releases of CodeMeter Runtime, a product provided by WIBU Systems and used in several Siemens industrial products. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 55,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens",
-    "WIBU Systems"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-331739 covers a privilege escalation flaw in WIBU CodeMeter Runtime used in several Siemens industrial products; fixed versions are available.",
-    "nl": "Siemens-advisory SSA-331739 behandelt een privilege escalation-fout in WIBU CodeMeter Runtime die in meerdere Siemens-industrieproducten wordt gebruikt; gepatchte versies zijn beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "95a044ced7d0",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-330084.html",
-  "title": "SSA-330084 V1.0: Client Code Execution Vulnerability in Desigo CC Product Family",
-  "excerpt": "A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerability leverages user-defined graphics containing embedded scripts that are executed on client application instances. Successful exploitation could lead to compromise of the client operating system and potential lateral movement within the organization.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 65,
-   "category": "advisory",
-   "sectors": [
-    "building"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-330084 reports a client code execution flaw in Desigo CC, where crafted graphics documents can run code on clients and enable lateral movement.",
-    "nl": "Siemens-advisory SSA-330084 meldt een client code execution-fout in Desigo CC, waarbij speciaal gemaakte graphics-documenten code op clients kunnen uitvoeren en laterale beweging mogelijk maken."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "26b27d7df766",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-328642.html",
-  "title": "SSA-328642 V1.0: \"Copy Fail\" Vulnerability in Multiple Industrial Products",
-  "excerpt": "Multiple Siemens products are vulnerable to the “Copy Fail” vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 55,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-328642 reports multiple industrial products vulnerable to the Copy Fail vulnerability; fixes are released for several and further versions are in preparation.",
-    "nl": "Siemens-advisory SSA-328642 meldt dat meerdere industriële producten kwetsbaar zijn voor de Copy Fail-kwetsbaarheid; voor enkele producten zijn fixes uitgebracht en verdere versies zijn in voorbereiding."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "83aee2973067",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-327438.html",
-  "title": "SSA-327438 V1.2 (Last Update: 2026-09-08): Multiple Vulnerabilities in SCALANCE LPE9403",
-  "excerpt": "SCALANCE LPE9403 is affected by multiple vulnerabilities which lead to a compromise in availability, integrity and confidentiality. Siemens has released a new version for SCALANCE LPE9403 and recommends to update to the latest version. Siemens recommends specific countermeasures for products where fixes are not, or not yet available.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 60,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens",
-    "Scalance"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-327438 reports multiple vulnerabilities in SCALANCE LPE9403 affecting availability, integrity and confidentiality; a new version is available.",
-    "nl": "Siemens-advisory SSA-327438 meldt meerdere kwetsbaarheden in SCALANCE LPE9403 die beschikbaarheid, integriteit en vertrouwelijkheid aantasten; een nieuwe versie is beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "9954f80322a3",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-254516.html",
-  "title": "SSA-254516 V1.0: Arbitrary File Upload in OIS Web Module",
-  "excerpt": "A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allows an attacker to upload arbitrary files, which can lead to unauthorized root-level access on the OIS server. Siemens has released patches and updates for Siveillance OIS to apply to the products that incorporate the OIS service, and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 65,
-   "category": "advisory",
-   "sectors": [
-    "government"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-254516 reports an arbitrary file upload in the OIS web module of Siveillance Control, enabling unauthorized root-level access; patches are available.",
-    "nl": "Siemens-advisory SSA-254516 meldt een willekeurige bestandsupload in de OIS-webmodule van Siveillance Control waarmee onbevoegde root-toegang mogelijk is; patches zijn beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "f5e57868bff3",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-229470.html",
-  "title": "SSA-229470 V1.1 (Last Update: 2026-09-08): Multiple Vulnerabilities in SICAM 8 Products Before V26.20",
-  "excerpt": "Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: SICAM A8000 Device firmware CPCI85 for CP-8031/CP-8050 SICORE for CP-8010/CP-8012 SICAM EGS Device firmware CPCI85 SICAM S8000 SICORE Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 60,
-   "category": "advisory",
-   "sectors": [
-    "energy"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-229470 reports multiple vulnerabilities in SICAM 8 products before V26.20 that could lead to denial of service; new versions are available.",
-    "nl": "Siemens-advisory SSA-229470 meldt meerdere kwetsbaarheden in SICAM 8-producten vóór V26.20 die tot denial of service kunnen leiden; nieuwe versies zijn beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "6aa63f2ca549",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-216014.html",
-  "title": "SSA-216014 V1.6 (Last Update: 2026-09-08): Vulnerabilities in EFI variable of SIMATIC IPCs, SIMATIC Tablet PCs, and SIMATIC Field PGs",
-  "excerpt": "Multiple vulnerabilities has been identified in Siemens SIMATIC IPCs, SIMATIC Tablet PCs, and SIMATIC Field PGs that can allow an authenticated attacker to alter the secure boot and password configurations. Siemens has released new versions of BIOS for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 50,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-216014 reports EFI variable vulnerabilities in SIMATIC IPCs, Tablet PCs and Field PGs allowing authenticated attackers to alter secure boot and password settings.",
-    "nl": "Siemens-advisory SSA-216014 meldt EFI-variabelekwetsbaarheden in SIMATIC IPC's, Tablet PC's en Field PG's waarmee geauthenticeerde aanvallers secure boot- en wachtwoordinstellingen kunnen wijzigen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "bd2ce28b462a",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-157465.html",
-  "title": "SSA-157465 V1.0: Reflected Cross-site scripting Vulnerability in Teamcenter",
-  "excerpt": "A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user’s session by crafting a malicious URL. Successful exploitation may enable the attacker to read data or perform actions within the victim’s Teamcenter session. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 30,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [
-    "Siemens",
-    "Teamcenter"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-157465 reports a reflected cross-site scripting flaw in the Teamcenter authentication redirect flow; new versions are available.",
-    "nl": "Siemens-advisory SSA-157465 meldt een reflected cross-site scripting-fout in de authenticatie-redirect van Teamcenter; nieuwe versies zijn beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "45b168bf3572",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-142885.html",
-  "title": "SSA-142885 V1.0: Multiple Vulnerabilities in Reyrolle 7SR5 Before V2.70",
-  "excerpt": "Siemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-08T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 65,
-   "category": "advisory",
-   "sectors": [
-    "energy"
-   ],
-   "vendors": [
-    "Siemens",
-    "Reyrolle"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-142885 reports multiple vulnerabilities in Reyrolle 7SR5 before V2.70 used in protection relays; a new version is available.",
-    "nl": "Siemens-advisory SSA-142885 meldt meerdere kwetsbaarheden in Reyrolle 7SR5 vóór V2.70, een beveiligingsrelais; een nieuwe versie is beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
   }
  }
 ]
