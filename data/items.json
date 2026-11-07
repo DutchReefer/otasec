@@ -1,5 +1,151 @@
 [
  {
+  "id": "6af494ac81e1",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+  "title": "Hackers pull off $133 million French bank heist via service provider",
+  "excerpt": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-07T15:25:35Z",
+  "fetched": "2026-11-07T16:32:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack on a service provider enabled fraudulent transactions of up to $133 million at French bank Crédit Mutuel Arkéa, which suspended some systems.",
+    "nl": "Een cyberaanval op een serviceprovider maakte frauduleuze transacties van tot 133 miljoen dollar mogelijk bij de Franse bank Crédit Mutuel Arkéa, die enkele systemen opschortte."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-07T16:32:23Z"
+  }
+ },
+ {
+  "id": "5aed4ae3be3c",
+  "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+  "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+  "excerpt": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-07T14:10:19Z",
+  "fetched": "2026-11-07T16:32:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Campaigns impersonating major brands and celebrities lure consumers into fake gift card giveaways that collect personal data and trigger unwanted subscriptions.",
+    "nl": "Campagnes die grote merken en beroemdheden imiteren lokken consumenten naar nep-cadeaubonacties die persoonlijke gegevens verzamelen en ongewenste abonnementen activeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-07T16:32:23Z"
+  }
+ },
+ {
+  "id": "ca5ce9d09c10",
+  "url": "https://www.security.nl/posting/960765/Kabinet+wil+dat+NCSC+scanplatform+ontwikkelt+voor+vinden+van+kwetsbaarheden?channel=rss",
+  "title": "Kabinet wil dat NCSC scanplatform ontwikkelt voor vinden van kwetsbaarheden",
+  "excerpt": "Het kabinet wil dat het Nationaal Cyber Security Centrum (NCSC) een eigen scanplatform ontwikkelt voor het vinden van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-07T12:37:31Z",
+  "fetched": "2026-11-07T16:32:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch cabinet wants the NCSC to develop its own scanning platform for finding vulnerabilities.",
+    "nl": "Het kabinet wil dat het NCSC een eigen scanplatform ontwikkelt om kwetsbaarheden te vinden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-07T16:32:23Z"
+  }
+ },
+ {
+  "id": "4c35cf097458",
+  "url": "https://www.security.nl/posting/960763/SonicWall+waarschuwt+voor+lek+waarmee+aanvallers+MFA+van+SSL-VPN+omzeilen?channel=rss",
+  "title": "SonicWall waarschuwt voor lek waarmee aanvallers MFA van SSL-VPN omzeilen",
+  "excerpt": "SonicWall waarschuwt voor een kwetsbaarheid in SonicOS, het besturingssysteem dat op de firewalls van het cybersecuritybedrijf ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-07T12:05:09Z",
+  "fetched": "2026-11-07T16:32:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "SonicWall"
+   ],
+   "summary": {
+    "en": "SonicWall warns of a SonicOS vulnerability that lets attackers bypass MFA on SSL-VPN access.",
+    "nl": "SonicWall waarschuwt voor een SonicOS-kwetsbaarheid waarmee aanvallers MFA op SSL-VPN kunnen omzeilen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-07T16:32:23Z"
+  }
+ },
+ {
+  "id": "3caa62524021",
+  "url": "https://www.security.nl/posting/960761/Microsoft+publiceert+wegens+RCE-lek+nieuwe+versie+Windows+Paint?channel=rss",
+  "title": "Microsoft publiceert wegens RCE-lek nieuwe versie Windows Paint",
+  "excerpt": "Microsoft heeft wegens een lek in Windows Paint waardoor remote code execution (RCE) mogelijk is gisterenavond een nieuwe ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-07T11:49:00Z",
+  "fetched": "2026-11-07T16:32:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft released a new Windows Paint version to fix a remote code execution vulnerability.",
+    "nl": "Microsoft heeft een nieuwe versie van Windows Paint uitgebracht om een remote code execution-kwetsbaarheid te verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-07T16:32:23Z"
+  }
+ },
+ {
   "id": "804a43c3361e",
   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
   "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
