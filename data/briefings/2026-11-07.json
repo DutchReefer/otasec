@@ -1,0 +1,161 @@
+{
+ "date": "2026-11-07",
+ "published": "2026-11-07T10:17:26Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 8,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet day for OT-specific incidents: unpatched D-Link switches, a supply chain intrusion analysed by Kaspersky ICS CERT and an AI-assisted espionage campaign lead the news, alongside policy and industry moves."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige dag qua OT-incidenten: onbeveiligde D-Link switches, een supply chain-aanval die Kaspersky ICS CERT analyseerde en een met AI ondersteunde spionagecampagne voeren het nieuws aan, naast beleid en bedrijfsnieuws."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "1db6cddcf641",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+     "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+     "summary": "D-Link has shared mitigation measures for multiple unpatched security flaws in its DGS-3130 series managed Gigabit stackable switches. No fixes are available yet according to the report.",
+     "takeaway": "Check whether DGS-3130 switches are present in your OT or plant networks and apply D-Link's mitigations until patches arrive."
+    },
+    "nl": {
+     "heading": "D-Link waarschuwt voor meerdere zero-days in DGS-3130 Series switches",
+     "summary": "D-Link heeft mitigerende maatregelen gedeeld voor meerdere ongepatchte kwetsbaarheden in de DGS-3130 series managed Gigabit stackable switches. Volgens het bericht zijn er nog geen fixes beschikbaar.",
+     "takeaway": "Controleer of DGS-3130 switches in uw OT- of fabrieksnetwerken staan en pas de mitigaties van D-Link toe totdat er patches zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "95a6bf00396a",
+     "name": "Kaspersky ICS CERT",
+     "url": "https://ics-cert.kaspersky.com/publications/reports/2026/11/05/supply-chain-attack-bo-team-in-a-software-developers-infrastructure/",
+     "title": "Supply chain attack: BO Team in a software developer's infrastructure"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Kaspersky ICS CERT details BO Team supply chain attack on a software developer",
+     "summary": "Kaspersky ICS CERT published findings from an incident response in a software developer's infrastructure, where the APT group BO Team was active. The case gave the researchers insight into the group's tactics and techniques.",
+     "takeaway": "Review how software and updates from suppliers are vetted and what access developers and vendors have to your environment."
+    },
+    "nl": {
+     "heading": "Kaspersky ICS CERT beschrijft supply chain-aanval van BO Team op softwareontwikkelaar",
+     "summary": "Kaspersky ICS CERT publiceerde bevindingen van een incidentrespons in de infrastructuur van een softwareontwikkelaar waar de APT-groep BO Team actief was. De casus gaf de onderzoekers inzicht in de tactieken en technieken van de groep.",
+     "takeaway": "Controleer hoe software en updates van leveranciers worden gevalideerd en welke toegang ontwikkelaars en leveranciers tot uw omgeving hebben."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "97fa1f0e0c7f",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/vapor-panda-hackers-use-multi-agent-ai-to-target-government-pharmaceutical-semiconductor-defense-organizations/",
+     "title": "VAPOR PANDA hackers use multi-agent AI to target government, pharmaceutical, semiconductor, defense organizations"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CrowdStrike: VAPOR PANDA uses multi-agent AI in espionage campaign",
+     "summary": "CrowdStrike identified a global cyberespionage campaign by the China-nexus actor VAPOR PANDA that uses multi-agent AI. Targets include government, pharmaceutical, semiconductor and defense organizations.",
+     "takeaway": "If you operate in these sectors, check your threat intelligence feeds for VAPOR PANDA indicators and review monitoring of IT-to-OT access paths."
+    },
+    "nl": {
+     "heading": "CrowdStrike: VAPOR PANDA zet multi-agent AI in bij spionagecampagne",
+     "summary": "CrowdStrike signaleerde een wereldwijde spionagecampagne van de China-gelinkte actor VAPOR PANDA die multi-agent AI gebruikt. Doelwitten zijn onder meer overheids-, farmaceutische, halfgeleider- en defensieorganisaties.",
+     "takeaway": "Werkt u in deze sectoren, controleer dan uw threat intelligence op VAPOR PANDA-indicatoren en review de monitoring van toegangspaden tussen IT en OT."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "618228a10065",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/regulation-standards-and-compliance/otcc-cites-ai-driven-vulnerability-exploitation-in-push-for-10-year-cisa-2015-reauthorization/",
+     "title": "OTCC cites AI-driven vulnerability exploitation in push for 10-year CISA 2015 reauthorization"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "OTCC and 34 organizations urge 10-year CISA 2015 reauthorization",
+     "summary": "The Operational Technology Cyber Coalition (OTCC) joined 34 critical infrastructure organizations in urging U.S. congressional leaders to reauthorize CISA 2015 for ten years. The group cites AI-driven vulnerability exploitation as a reason.",
+     "takeaway": "If you share threat information with U.S. partners, follow the reauthorization debate for possible effects on information-sharing arrangements."
+    },
+    "nl": {
+     "heading": "OTCC en 34 organisaties pleiten voor tienjarige verlenging van CISA 2015",
+     "summary": "De Operational Technology Cyber Coalition (OTCC) sloot zich aan bij 34 organisaties uit de kritieke infrastructuur die de Amerikaanse Congresleiders oproepen CISA 2015 voor tien jaar te verlengen. De groep wijst daarbij op door AI gedreven misbruik van kwetsbaarheden.",
+     "takeaway": "Deelt u dreigingsinformatie met Amerikaanse partners, volg dan het debat over de verlenging op mogelijke gevolgen voor informatie-uitwisseling."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "3afa78359002",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/cisa/brian-mazanec-takes-acting-cisa-infrastructure-security-role-bringing-experience-in-cyber-incident-response-and-resilience/",
+     "title": "Brian Mazanec takes acting CISA infrastructure security role, bringing experience in cyber incident response and resilience"
+    },
+    {
+     "id": "49b2ce788c2b",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/abbott-risk-consulting-joins-isas-isasecure-program-to-expand-isa-iec-62443-based-ot-cybersecurity-consulting/",
+     "title": "Abbott Risk Consulting joins ISA’s ISASecure program to expand ISA/IEC 62443-based OT cybersecurity consulting"
+    },
+    {
+     "id": "5856d92a4ca6",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/dragos-appoints-sans-veteran-rob-t-lee-as-first-chief-ai-officer-to-guide-ot-cybersecurity-strategy/",
+     "title": "Dragos appoints SANS veteran Rob T. Lee as first chief AI officer to guide OT cybersecurity strategy"
+    },
+    {
+     "id": "05a371093f4e",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/ionq-completes-elisity-acquisition-to-combine-zero-trust-security-with-post-quantum-cryptography-quantum-key-distribution/",
+     "title": "IonQ completes Elisity acquisition to combine zero trust security with post-quantum cryptography, quantum key distribution"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Industry news: CISA appointment, ISASecure, Dragos and IonQ",
+     "summary": "CISA appointed Brian Mazanec as acting executive assistant director for infrastructure security, and Abbott Risk Consulting joined ISA's ISASecure program for ISA/IEC 62443-based consulting. Dragos named Rob T. Lee as its first chief AI officer, and IonQ completed its acquisition of Elisity.",
+     "takeaway": "When selecting consultants or suppliers, check for ISA/IEC 62443 alignment and ownership changes that may affect your security vendors."
+    },
+    "nl": {
+     "heading": "Branchenieuws: CISA-benoeming, ISASecure, Dragos en IonQ",
+     "summary": "CISA benoemde Brian Mazanec tot waarnemend executive assistant director voor infrastructuurbeveiliging en Abbott Risk Consulting trad toe tot het ISASecure-programma van ISA voor advies op basis van ISA/IEC 62443. Dragos benoemde Rob T. Lee tot eerste chief AI officer en IonQ rondde de overname van Elisity af.",
+     "takeaway": "Let bij de keuze van adviseurs of leveranciers op afstemming met ISA/IEC 62443 en op eigenaarswijzigingen die uw securityleveranciers kunnen raken."
+    }
+   }
+  }
+ ]
+}

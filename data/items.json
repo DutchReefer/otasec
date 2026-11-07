@@ -1,5 +1,33 @@
 [
  {
+  "id": "804a43c3361e",
+  "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+  "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+  "excerpt": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-07T06:44:17Z",
+  "fetched": "2026-11-07T10:17:00Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apiiro reports that passwords and API keys typed into approved Claude Code commands were saved in project settings files and exposed in 1,122 public GitHub copies.",
+    "nl": "Apiiro meldt dat wachtwoorden en API-sleutels die in goedgekeurde Claude Code-commando's zijn ingetypt, in projectinstellingen zijn opgeslagen en in 1.122 publieke GitHub-kopieën zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-07T10:17:06Z"
+  }
+ },
+ {
   "id": "ff63fc905db0",
   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
