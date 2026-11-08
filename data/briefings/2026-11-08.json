@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-08",
+ "published": "2026-11-08T07:25:18Z",
+ "model": "quiet-day",
+ "quiet": true,
+ "item_count": 0,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": ""
+  },
+  "nl": {
+   "title": "",
+   "intro": ""
+  }
+ },
+ "extra": {
+  "kind": "joke",
+  "en": "IT: \"Have you tried turning it off and on again?\" OT: \"Absolutely. It's scheduled for the 2031 turnaround.\"",
+  "nl": "IT: \"Heb je hem al uit en weer aan gezet?\" OT: \"Zeker. Staat gepland voor de revisiestop van 2031.\""
+ },
+ "stories": []
+}
