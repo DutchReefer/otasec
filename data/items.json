@@ -1,5 +1,61 @@
 [
  {
+  "id": "2d24771d106b",
+  "url": "https://industrialcyber.co/hall-of-fame/hall-of-fame-industrial-cybersecurity-practitioner-and-community-builder-mike-holcomb/",
+  "title": "Hall of Fame – Industrial cybersecurity practitioner and community builder Mike Holcomb",
+  "excerpt": "In our latest Hall of Fame interview, Industrial Cyber features Mike Holcomb, the ICS/OT cybersecurity leader who turned...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-08T15:59:00Z",
+  "fetched": "2026-11-08T19:45:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Industrial Cyber publishes a Hall of Fame interview with Mike Holcomb, an ICS/OT cybersecurity leader and community builder.",
+    "nl": "Industrial Cyber publiceert een Hall of Fame-interview met Mike Holcomb, een ICS/OT-cybersecurityleider en community builder."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T19:45:55Z"
+  }
+ },
+ {
+  "id": "4f1cb43783a3",
+  "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+  "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+  "excerpt": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-08T15:43:08Z",
+  "fetched": "2026-11-08T19:45:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Japanese manufacturer Iris Ohyama reported that personal data of about 7.7 million customers may have been exposed through unauthorized access to a third-party cloud service.",
+    "nl": "Japanse fabrikant Iris Ohyama meldt dat persoonsgegevens van ongeveer 7,7 miljoen klanten mogelijk zijn blootgesteld door ongeautoriseerde toegang tot een externe cloudservice."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T19:45:55Z"
+  }
+ },
+ {
   "id": "e70436119381",
   "url": "https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/",
   "title": "Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast",

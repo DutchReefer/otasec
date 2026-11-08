@@ -1,23 +1,43 @@
 {
  "date": "2026-11-08",
- "published": "2026-11-08T07:25:18Z",
- "model": "quiet-day",
- "quiet": true,
- "item_count": 0,
+ "published": "2026-11-08T19:46:00Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 1,
  "i18n": {
   "en": {
    "title": "",
-   "intro": ""
+   "intro": "A quiet day: the only new item is a community profile rather than an incident or advisory."
   },
   "nl": {
    "title": "",
-   "intro": ""
+   "intro": "Een rustige dag: het enige nieuwe item is een portret uit de community, geen incident of advisory."
   }
  },
- "extra": {
-  "kind": "joke",
-  "en": "IT: \"Have you tried turning it off and on again?\" OT: \"Absolutely. It's scheduled for the 2031 turnaround.\"",
-  "nl": "IT: \"Heb je hem al uit en weer aan gezet?\" OT: \"Zeker. Staat gepland voor de revisiestop van 2031.\""
- },
- "stories": []
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "2d24771d106b",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/hall-of-fame/hall-of-fame-industrial-cybersecurity-practitioner-and-community-builder-mike-holcomb/",
+     "title": "Hall of Fame – Industrial cybersecurity practitioner and community builder Mike Holcomb"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Industrial Cyber profiles ICS/OT practitioner Mike Holcomb",
+     "summary": "Industrial Cyber's Hall of Fame series features Mike Holcomb, described as an ICS/OT cybersecurity leader and community builder. The item is an interview profile and the excerpt reports no incident, vulnerability or regulatory change.",
+     "takeaway": "No action needed; use the quiet day to review your own OT security knowledge sharing and training."
+    },
+    "nl": {
+     "heading": "Industrial Cyber portretteert ICS/OT-professional Mike Holcomb",
+     "summary": "In de Hall of Fame-serie van Industrial Cyber staat Mike Holcomb centraal, omschreven als ICS/OT-cybersecurityleider en community builder. Het item is een interviewprofiel en het fragment meldt geen incident, kwetsbaarheid of regelgeving.",
+     "takeaway": "Geen actie nodig; gebruik de rustige dag om je eigen kennisdeling en training rond OT-security tegen het licht te houden."
+    }
+   }
+  }
+ ]
 }
