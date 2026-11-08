@@ -1,5 +1,33 @@
 [
  {
+  "id": "e70436119381",
+  "url": "https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/",
+  "title": "Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast",
+  "excerpt": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: The first ten lines of a command policy for AI coding agents In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and network limits for AI agents. He argues that agents should run under their own identity, with the person’s identity attached when acting on someone’s behalf. Google disrupts XCPE botnet, bans … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-08T09:00:21Z",
+  "fetched": "2026-11-08T15:16:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Help Net Security's weekly review lists several recent security stories, including refrigeration cyberattacks on European retailers and a Google botnet disruption.",
+    "nl": "Het wekelijkse overzicht van Help Net Security noemt meerdere recente beveiligingsverhalen, waaronder cyberaanvallen op koelsystemen bij Europese retailers en een botnetverstoring door Google."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-08T15:16:18Z"
+  }
+ },
+ {
   "id": "6af494ac81e1",
   "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
   "title": "Hackers pull off $133 million French bank heist via service provider",
