@@ -1,5 +1,125 @@
 [
  {
+  "id": "3d5dfb277e1d",
+  "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+  "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T06:05:24Z",
+  "fetched": "2026-11-09T06:40:47Z",
+  "cves": [
+   "CVE-2026-19868"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "SonicWall"
+   ],
+   "summary": {
+    "en": "CISA added SonicWall SonicOS vulnerability CVE-2026-19868, an authentication reinforcement flaw, to its KEV catalog after reports it may be exploited in real-world attacks.",
+    "nl": "CISA heeft SonicWall SonicOS-kwetsbaarheid CVE-2026-19868, een zwakte in de authenticatieversterking, aan de KEV-catalogus toegevoegd nadat er meldingen waren dat die mogelijk in echte aanvallen wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T06:40:56Z"
+  }
+ },
+ {
+  "id": "61841355e22c",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/wirken-open-source-ai-agent-gateway/",
+  "title": "Wirken: Open-source AI agent gateway",
+  "excerpt": "Wirken is an open-source gateway that sits between messaging apps and AI agents. It assumes any agent can be turned against its owner and limits what a compromised one can reach. Take an agent that reads your chats and email, holds the keys to your accounts and can run commands. One hidden instruction in a message or a shared document could talk it into leaking a secret or rewriting files. Wirken connects Signal, WhatsApp, Telegram, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T06:00:12Z",
+  "fetched": "2026-11-09T06:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Open-source gateway Wirken is presented as a layer between messaging apps and AI agents to limit what a compromised agent can reach.",
+    "nl": "Open-source gateway Wirken wordt gepresenteerd als tussenlaag tussen berichtenapps en AI-agents om te beperken wat een gecompromitteerde agent kan bereiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T06:40:56Z"
+  }
+ },
+ {
+  "id": "c42565964e45",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/barracuda-msp-cybersecurity-services-expectations-report/",
+  "title": "Companies seeking an MSP doubt their ability to spot cyberattacks",
+  "excerpt": "Businesses looking to outsource cybersecurity want providers that can help them recover from attacks, manage AI risks, and explain what security problems mean for their operations, according to Barracuda What MSP Customers Need Next report. What MSP customers need next (Source: Barracuda Networks) 66% of surveyed organizations already outsource security services to a managed service provider (MSP), while another 29% are considering or evaluating providers. Recovery remains a weak spot Organizations considering an MSP are … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T06:00:05Z",
+  "fetched": "2026-11-09T06:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Barracuda Networks"
+   ],
+   "summary": {
+    "en": "A Barracuda report finds businesses outsourcing cybersecurity doubt their ability to detect attacks and want help with recovery and AI risks.",
+    "nl": "Een rapport van Barracuda laat zien dat bedrijven die cybersecurity uitbesteden twijfelen aan hun vermogen om aanvallen te herkennen en hulp willen bij herstel en AI-risico's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T06:40:56Z"
+  }
+ },
+ {
+  "id": "909ef5d9d0a7",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/",
+  "title": "An average of 8 minutes is all hackers need to log in with stolen credentials",
+  "excerpt": "Attackers used stolen credentials to log in an average of eight minutes after infection across 27 confirmed infostealer cases, according to a report from Elastic Security Threat Command. Researchers also documented misuse of AI applications to execute commands and digitally signed remote monitoring tools to maintain access. “An agent that holds credentials and can reach the internet is a new attack surface, whether it’s misconfigured or abused. When an attacker is behind it, its activity … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T05:00:39Z",
+  "fetched": "2026-11-09T06:40:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Elastic Security Threat Command reports attackers logged in with stolen credentials an average of eight minutes after infostealer infection across 27 confirmed cases.",
+    "nl": "Elastic Security Threat Command meldt dat aanvallers in 27 bevestigde infostealer-gevallen gemiddeld acht minuten na infectie inloggen met gestolen inloggegevens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T06:40:56Z"
+  }
+ },
+ {
   "id": "2d24771d106b",
   "url": "https://industrialcyber.co/hall-of-fame/hall-of-fame-industrial-cybersecurity-practitioner-and-community-builder-mike-holcomb/",
   "title": "Hall of Fame – Industrial cybersecurity practitioner and community builder Mike Holcomb",

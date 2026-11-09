@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-09",
+ "published": "2026-11-09T06:41:02Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 1,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet day with a single item: CISA has added a SonicWall SonicOS flaw to its Known Exploited Vulnerabilities catalog."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige dag met één bericht: CISA heeft een kwetsbaarheid in SonicWall SonicOS toegevoegd aan de Known Exploited Vulnerabilities-catalogus."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "3d5dfb277e1d",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+     "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "CISA adds SonicWall SonicOS MFA bypass flaw CVE-2026-19868 to KEV",
+     "summary": "CISA added a high-severity SonicWall SonicOS vulnerability, tracked as CVE-2026-19868 (CVSS 7.1 / 7.5), to its Known Exploited Vulnerabilities catalog. The flaw is described as an authentication reinforcement issue and was added following reports that it may have been exploited in real-world attacks.",
+     "takeaway": "Check whether SonicWall devices are used for remote access or at the IT/OT boundary, apply the vendor fix and review logs for suspicious authentication activity."
+    },
+    "nl": {
+     "heading": "CISA voegt SonicWall SonicOS MFA-bypass CVE-2026-19868 toe aan KEV",
+     "summary": "CISA heeft een ernstige kwetsbaarheid in SonicWall SonicOS, CVE-2026-19868 (CVSS 7.1 / 7.5), toegevoegd aan de Known Exploited Vulnerabilities-catalogus. De kwetsbaarheid wordt omschreven als een probleem met authenticatieversterking en is toegevoegd na meldingen dat misbruik in echte aanvallen mogelijk is.",
+     "takeaway": "Controleer of SonicWall-apparaten worden gebruikt voor remote toegang of op de grens tussen IT en OT, installeer de fix van de leverancier en bekijk logs op verdachte authenticatie-activiteit."
+    }
+   }
+  }
+ ]
+}
