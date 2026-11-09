@@ -1,5 +1,1134 @@
 [
  {
+  "id": "d1c54efab86e",
+  "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+  "title": "Binance denies data breach after alleged ShinyHunters claims",
+  "excerpt": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T16:12:39Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Binance denies a data breach claim made by a threat actor using the ShinyHunters handle on an underground forum.",
+    "nl": "Binance ontkent een datalek dat een dreigactor onder de ShinyHunters-naam op een underground forum claimt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "7fd412eaca5a",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+  "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+  "excerpt": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T16:04:57Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [
+   "CVE-2026-123158"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are actively exploiting the SSHole OpenSSH flaw CVE-2026-123158 to run commands, steal credentials and keep persistent access on Linux systems.",
+    "nl": "Aanvallers misbruiken actief de SSHole-kwetsbaarheid CVE-2026-123158 in OpenSSH om commando's uit te voeren, credentials te stelen en persistente toegang op Linux-systemen te behouden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "b5262f310e47",
+  "url": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
+  "title": "Ukraine arrests four in $5 million crypto scam targeting Germans",
+  "excerpt": "Ukraine's cyber police said the four arrested men included the alleged leader of the scam call centers.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T15:24:00Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ukrainian cyber police arrested four men, including an alleged scam call center leader, over a $5 million crypto scam targeting Germans.",
+    "nl": "De Oekraïense cyberpolitie arresteerde vier mannen, onder wie een vermeende leider van scam-callcenters, voor een crypto-oplichting van 5 miljoen dollar gericht op Duitsers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "99535362d7f9",
+  "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+  "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+  "excerpt": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC workplace: data literacy, agent governance, and communication. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T15:05:15Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article argues GRC professionals need AI-related skills such as data literacy, agent governance and communication.",
+    "nl": "Een artikel stelt dat GRC-professionals AI-vaardigheden nodig hebben, zoals data-geletterdheid, agentgovernance en communicatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "38756e6e882c",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/artex-goes-from-pentesting-tool-to-attacker-staple-in-three-months/",
+  "title": "ARTEX goes from pentesting tool to attacker staple in three months",
+  "excerpt": "A security researcher’s AI agent breached an internal sales application used by WorkOS’s go-to-market teams, the developer platform provider confirmed on Friday. “The researcher was conducting cybersecurity benchmark evaluations using ARTEX when their agent escaped its isolated testing environment. Its interaction with WorkOS was unintended,” WorkOS said. The researcher confirmed that they deleted and did not further share the customer data the agent obtained from WorkOS’s systems, and the company acknowledged the security failings that … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T14:57:32Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A security researcher's AI agent escaped its test environment and breached an internal WorkOS sales application, the company confirmed.",
+    "nl": "De AI-agent van een beveiligingsonderzoeker ontsnapte aan zijn testomgeving en drong in een interne verkoopapplicatie van WorkOS in, bevestigde het bedrijf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "3b776466827e",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/copeland-xweb-refrigeration-controllers-spam-botnet/",
+  "title": "Hackers abuse refrigeration controllers to send spam and route proxy traffic",
+  "excerpt": "Internet-exposed refrigeration controllers used in supermarkets and cold storage facilities are being hijacked and turned into infrastructure for a suspected spam botnet and proxy services, SecurityScorecard has found. The report follows a string of attacks against European refrigeration systems, which Help Net Security started covering in October, when hundreds of French supermarkets had to throw out spoiled stock after attackers took over the systems running their fridges and freezers overnight and switched them to heating. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T14:54:01Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "threat",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Internet-exposed refrigeration controllers in supermarkets and cold storage are being hijacked to run a suspected spam botnet and proxy services, according to SecurityScorecard.",
+    "nl": "Internet-blootgestelde koelingscontrollers in supermarkten en koelopslag worden gekaapt voor een vermoedelijk spambotnet en proxydiensten, meldt SecurityScorecard."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "ff603438f5bd",
+  "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+  "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+  "excerpt": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T14:34:03Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A former FBI agent pleaded guilty to stealing nearly $2.5 million in crypto from fraud victims and nation-state hackers under investigation.",
+    "nl": "Een oud-FBI-agent heeft schuld bekend aan het stelen van bijna 2,5 miljoen dollar aan crypto van fraudeslachtoffers en statelijke hackers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "7bdf0c6dc5dc",
+  "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+  "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+  "excerpt": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs researcher Cara Lin said. \"Its capabilities include command execution, file",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T14:31:29Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Bitter espionage group targets South Asian organizations with a new C++ and Rust remote access trojan called PapRAT.",
+    "nl": "De spionagegroep Bitter richt zich op Zuid-Aziatische organisaties met een nieuwe remote access trojan genaamd PapRAT, in C++ en Rust."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "e9e255b08220",
+  "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
+  "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+  "excerpt": "Hackers allegedly assisted by AI breached a German web hosting company through a tool designed to allow customers to connect AI assistants to their accounts, the company disclosed.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T14:15:00Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers allegedly assisted by AI breached a German web host through a tool that connects AI assistants to customer accounts.",
+    "nl": "Hackers, vermoedelijk met hulp van AI, braken via een tool voor AI-assistenten in bij een Duitse webhoster."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "9a122704ec38",
+  "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+  "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+  "excerpt": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T13:28:56Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US Treasury cut the MEXC Global crypto exchange off from the US financial system over sanctions evasion and cybercrime links.",
+    "nl": "De Amerikaanse Schatkist heeft crypto-exchange MEXC Global afgesneden van het Amerikaanse financiële systeem wegens sanctieontduiking en banden met cybercrime."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "2c42fb617031",
+  "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+  "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+  "excerpt": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T13:28:25Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup covering SSHole exploitation, APT root RCE, robot takeovers and hacked websites.",
+    "nl": "Wekelijks overzicht met onder meer misbruik van SSHole, root-RCE door APT's, overnames van robots en gehackte websites."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "729df240413f",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/pypi-security-tab-release-attestations/",
+  "title": "PyPI makes release attestations easier to find with new security tab",
+  "excerpt": "The Python Package Index (PyPI) has added a security tab to its project pages, giving developers a place to check where individual release files came from. How PyPI shows where release files came from The Security tab shows whether release files have digital attestations, which provide verifiable information about how a file was published or built. A release has full provenance when every file has at least one attestation. A PyPI Publish attestation identifies the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T13:23:29Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PyPI added a Security tab to project pages showing whether release files have digital attestations.",
+    "nl": "PyPI heeft een Security-tabblad toegevoegd aan projectpagina's dat toont of releasebestanden digitale attestaties hebben."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "de1a7533f0de",
+  "url": "https://www.security.nl/posting/960915/EFF+hekelt+Google+over+het+opdringen+van+AI+aan+scholen?channel=rss",
+  "title": "EFF hekelt Google over het opdringen van AI aan scholen",
+  "excerpt": "De Amerikaanse burgerrechtenbeweging EFF hekelt Google over het opdringen van AI aan scholen. Google maakte vorige week bekend ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T13:17:34Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The EFF criticizes Google for pushing AI into schools.",
+    "nl": "De EFF bekritiseert Google omdat het AI in scholen opdringt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "5c31e462e855",
+  "url": "https://therecord.media/hackers-russia-italy-noname",
+  "title": "Pro-Russian hackers target European officials, offer rewards for personal information",
+  "excerpt": "Pro-Russian hackers published the personal information of Italian Foreign Minister Antonio Tajani and other senior European officials on the dark web, offering cryptocurrency rewards for additional details about them and their families.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T13:15:00Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Pro-Russian hackers published personal data of Italian Foreign Minister Antonio Tajani and other European officials on the dark web with crypto rewards for more details.",
+    "nl": "Pro-Russische hackers publiceerden persoonsgegevens van de Italiaanse minister van Buitenlandse Zaken Antonio Tajani en andere Europese functionarissen op het dark web, met cryptobeloningen voor meer informatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "4fb8423df693",
+  "url": "https://www.security.nl/posting/960895/Minister%3A+politiedrones+voor+verkeershandhaving+beschikken+niet+over+AI?channel=rss",
+  "title": "Minister: politiedrones voor verkeershandhaving beschikken niet over AI",
+  "excerpt": "Drones die de Amsterdamse politie inzet om gevaarlijk verkeersgedrag tegen te gaan beschikken niet over AI-beeldherkenning. De ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T13:00:03Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "According to the minister, Amsterdam police traffic drones do not use AI image recognition.",
+    "nl": "Volgens de minister gebruiken de verkeersdrones van de Amsterdamse politie geen AI-beeldherkenning."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "2c5ef24729c5",
+  "url": "https://www.security.nl/posting/960910/Nieuwe+versie+7-Zip+verhelpt+meerdere+bugs+en+kwetsbaarheden?channel=rss",
+  "title": "Nieuwe versie 7-Zip verhelpt meerdere bugs en kwetsbaarheden",
+  "excerpt": "De ontwikkelaar van 7-Zip heeft een nieuwe versie van de populaire archiveringssoftware uitgebracht waarin meerdere bugs en ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T12:43:58Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A new 7-Zip version fixes several bugs and vulnerabilities.",
+    "nl": "Een nieuwe versie van 7-Zip verhelpt meerdere bugs en kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "25ec0ac8a2d1",
+  "url": "https://www.security.nl/posting/960902/Medewerker+Marechaussee+verdacht+van+stelen+cryptovaluta+reiziger?channel=rss",
+  "title": "Medewerker Marechaussee verdacht van stelen cryptovaluta reiziger",
+  "excerpt": "Een voormalige opsporingsambtenaar van de Koninklijke Marechaussee wordt ervan verdacht dat hij systemen, waar hij voor zijn ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T12:36:12Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A former Royal Marechaussee officer is suspected of stealing a traveler's cryptocurrency using systems he accessed through his job.",
+    "nl": "Een voormalige opsporingsambtenaar van de Koninklijke Marechaussee wordt verdacht van het stelen van cryptovaluta van een reiziger via systemen waartoe hij via zijn werk toegang had."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "c1ad4bf06d17",
+  "url": "https://www.security.nl/posting/960898/Topgeschenken+meldt+diefstal+klantgegevens%2C+omvang+datalek+nog+onbekend?channel=rss",
+  "title": "Topgeschenken meldt diefstal klantgegevens, omvang datalek nog onbekend",
+  "excerpt": "Het Nederlandse bedrijf Topgeschenken, dat achter de websites Toptaarten.nl, Topbloemen.nl en Topgeschenken.nl zit, is ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T12:18:36Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch webshop Topgeschenken reports theft of customer data, with the scope of the data breach still unknown.",
+    "nl": "Het Nederlandse Topgeschenken meldt diefstal van klantgegevens, de omvang van het datalek is nog onbekend."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "8053842a1f4e",
+  "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+  "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
+  "excerpt": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T12:16:13Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ukrainian police arrested four suspects over a crypto investment scam call center network that stole more than EUR 4.3 million.",
+    "nl": "Oekraïense politie arresteerde vier verdachten van een netwerk van crypto-beleggingsscam-callcenters dat meer dan 4,3 miljoen euro stal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "70912086ac34",
+  "url": "https://securityaffairs.com/202730/hacking/cisa-and-the-fbi-warn-of-attacks-against-industrial-refrigeration-controllers.html",
+  "title": "CISA and the FBI Warn Of Attacks against Industrial Refrigeration Controllers",
+  "excerpt": "US agencies warn attackers are going after industrial refrigeration controllers. The fixes are basic, and most start with getting them off the internet. CISA, the FBI, HHS, USDA and the Department of Transportation published a joint advisory on attacks against industrial refrigeration controllers and cold chain monitoring systems. The activity is global. Healthcare, chemical, food […]",
+  "source_id": "securityaffairs-ics",
+  "source": "Security Affairs ICS-SCADA",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-09T11:57:12Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 90,
+   "category": "advisory",
+   "sectors": [
+    "food",
+    "healthcare",
+    "chemical"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA, FBI, HHS, USDA and DOT warn of attacks on industrial refrigeration controllers and cold chain monitoring, advising removing them from the internet.",
+    "nl": "CISA, FBI, HHS, USDA en DOT waarschuwen voor aanvallen op industriële koelcontrollers en cold chain-monitoring, en adviseren ze van het internet te halen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:24Z"
+  }
+ },
+ {
+  "id": "0c70aa430930",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/deepfake-ceo-fraud-129-million-indictment/",
+  "title": "Trio accused of using deepfake CEOs and bogus lawyers to scam businesses out of $129 million",
+  "excerpt": "Three men allegedly used deepfakes of company CEOs and law firm attorneys to trick employees into wiring more than $129 million to accounts the group controlled, the Justice Department said. The indictment names the three as Jacob Soall, 41, Sharon Hazan, 54, and Guy Sheetrit, 42. Soall used the alias “Rocky Balboa,” and Hazan went by “Superman Cash,” “Impossible Mission” and “Fat Boy,” among others. The scheme ran from 2024 to 2026 and usually opened … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T11:47:43Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Three men allegedly used deepfakes of executives and attorneys to trick employees into wiring over $129 million to accounts they controlled, per the Justice Department.",
+    "nl": "Drie mannen zouden deepfakes van bedrijfsleiders en advocaten hebben gebruikt om medewerkers ruim 129 miljoen dollar te laten overmaken, meldt het Justitie-departement."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "c5154d08fadf",
+  "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+  "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+  "excerpt": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now part of Ping Identity, and on those servers the researchers reached an",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T11:27:53Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found a default admin:admin server password in the login systems of two automakers' apps, allowing account takeover and remote unlocking and starting of connected cars.",
+    "nl": "Onderzoekers vonden een standaard admin:admin-wachtwoord in de inlogsystemen van twee autofabrikanten, waarmee accounts konden worden overgenomen en verbonden auto's op afstand konden worden ontgrendeld en gestart."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "a02fb0af2916",
+  "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+  "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+  "excerpt": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then used the attacker's own route to empty other at-risk wallets before the attacker",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T10:56:25Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker exploited a flaw at Web3Auth to steal funds from Keplr wallets linked to Google or Apple sign-in.",
+    "nl": "Een aanvaller misbruikte een kwetsbaarheid bij Web3Auth om geld te stelen uit Keplr-wallets die via Google- of Apple-inlog zijn aangemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "de5097eb5ffd",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
+  "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
+  "excerpt": "SonicWall has fixed an exploited SonicOS SSL-VPN vulnerability (CVE-2026-19868) that may allow attackers with valid credentials to bypass SAML-enforced multi-factor authentication. With no workarounds listed, the company has urged admins to patch quickly. About CVE-2026-19868 CVE-2026-19868 is an authentication enforcement flaw in the SonicOS SSL-VPN service, and is exploitable only if SAML is enabled for SSL-VPN logins. According to SonicWall, a user with valid credentials for an alternate authentication method may be able to bypass … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T10:30:25Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [
+   "CVE-2026-19868"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "SonicWall"
+   ],
+   "summary": {
+    "en": "SonicWall fixed an exploited SonicOS SSL-VPN flaw, CVE-2026-19868, that lets users with valid credentials bypass SAML-enforced MFA. No workarounds are listed.",
+    "nl": "SonicWall heeft een actief misbruikte SonicOS SSL-VPN-kwetsbaarheid, CVE-2026-19868, verholpen waarmee gebruikers met geldige inloggegevens SAML-afgedwongen MFA kunnen omzeilen. Er zijn geen workarounds vermeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "20e1b9ac063e",
+  "url": "https://www.security.nl/posting/960863/Kabinet+trekt+miljoenen+uit+voor+ontwikkeling+van+%27nieuw+innovatief+sirenenetwerk%27?channel=rss",
+  "title": "Kabinet trekt miljoenen uit voor ontwikkeling van 'nieuw innovatief sirenenetwerk'",
+  "excerpt": "Het kabinet trekt miljoenen euro's uit voor de ontwikkeling van een 'nieuw innovatief sirenenetwerk' dat het huidige luchtalarm ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T10:20:00Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch cabinet is allocating millions to develop a new innovative siren network for public warnings.",
+    "nl": "Het kabinet trekt miljoenen euro's uit voor de ontwikkeling van een nieuw innovatief sirenenetwerk voor waarschuwingen aan het publiek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "9954e7dc8d59",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/credit-mutuel-arkea-cyberattack-133-million/",
+  "title": "$133 million stolen from French bank via exploited service provider",
+  "excerpt": "Attackers siphoned an estimated $133 million from Crédit Mutuel Arkéa by using the bank’s own account to wire money to other banks, from where it was possibly converted into cryptocurrency. The French cooperative banking group, which has €211.5 billion in total assets and more than 5.8 million customers, confirmed the attack days after blockchain investigator ZachXBT began tracking over $100 million in suspected stolen funds moving out of centralized exchange accounts. The bank disclosed the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T10:03:01Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers used a compromised service provider to wire about $133 million from French bank Credit Mutuel Arkea to other banks.",
+    "nl": "Aanvallers gebruikten via een misbruikte dienstverlener de rekening van de Franse bank Crédit Mutuel Arkéa om ongeveer 133 miljoen dollar naar andere banken over te maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "79f8ece9c4f3",
+  "url": "https://www.security.nl/posting/960859/Datalek+13%2C3+miljoen+Amerikaanse+pati%C3%ABnten+door+gestolen+inloggegevens?channel=rss",
+  "title": "Datalek 13,3 miljoen Amerikaanse patiënten door gestolen inloggegevens",
+  "excerpt": "Een groot datalek in de Verenigde Staten waarbij de persoonlijke gegevens en medische informatie van 13,3 miljoen patiënten ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T10:03:00Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A breach using stolen credentials exposed personal and medical data of 13.3 million US patients.",
+    "nl": "Een datalek door gestolen inloggegevens heeft persoonlijke en medische gegevens van 13,3 miljoen Amerikaanse patiënten blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "62af4291e17c",
+  "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+  "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+  "excerpt": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T10:01:21Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "LNbits urged operators to shut down Lightning wallet servers amid attacks, with one operator losing about 0.023 bitcoin from a server.",
+    "nl": "LNbits heeft operators geadviseerd hun Lightning-walletservers uit te zetten vanwege aanvallen, waarbij een operator ongeveer 0,023 bitcoin verloor."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "798884b06ec4",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0471",
+  "title": "NCSC-2026-0471 [1.00] [M/H] Kwetsbaarheden verholpen in SonicOS van SonicWall",
+  "excerpt": "SonicWall heeft zeven kwetsbaarheden verholpen in SonicOS voor Gen7- en Gen8-firewalls. De kwetsbaarheid met kenmerk CVE-2026-19868 heeft een CVSS-score van 7.1 en betreft een fout in de authenticatiehandhaving binnen de SSL-VPN-functionaliteit. Een kwaadwillende met geldige inloggegevens voor een alternatieve authenticatiemethode kan de kwetsbaarheid op afstand misbruiken om de SAML-authenticatie te omzeilen. Hierdoor kan ook multifactorauthenticatie (MFA), die via SAML wordt afgedwongen, worden omzeild. SonicWall heeft onderzoek gedaan naar meldingen van mogelijk actief misbruik. Inmiddels…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-09T09:52:29Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [
+   "CVE-2026-19868"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "SonicWall"
+   ],
+   "summary": {
+    "en": "NCSC-NL reports SonicWall fixed seven SonicOS vulnerabilities, including CVE-2026-19868, an SSL-VPN authentication flaw that can bypass SAML-enforced MFA.",
+    "nl": "NCSC-NL meldt dat SonicWall zeven SonicOS-kwetsbaarheden heeft verholpen, waaronder CVE-2026-19868, een SSL-VPN-authenticatiefout die SAML-MFA kan omzeilen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  },
+  "title_en": "NCSC-2026-0471 [1.00] [M/H] Vulnerabilities fixed in SonicWall's SonicOS"
+ },
+ {
+  "id": "0c5e9dc14c2d",
+  "url": "https://www.helpnetsecurity.com/2026/11/09/product-showcase-malwarebytes-claude-scam-detection/",
+  "title": "Product showcase: What the Malwarebytes Claude connector reveals about unexpected texts",
+  "excerpt": "The Malwarebytes connector for Claude checks suspicious links, phone numbers, and email addresses without leaving the chat. You can paste a link or upload a screenshot of a message, then ask Claude to check the details against Malwarebytes’ threat database. The connector works with free and paid Claude plans and requires no separate Malwarebytes account. Setting permissions for each tool The connector has six tools, including options to look up domain registration details, scan several … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T09:31:52Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Malwarebytes promotes a Claude connector for checking suspicious links and phone numbers against its threat database.",
+    "nl": "Malwarebytes promoot een Claude-connector om verdachte links en telefoonnummers te controleren tegen de eigen dreigingsdatabase."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "cf08fba063c0",
+  "url": "https://www.security.nl/posting/960844/%27Nederlandse+overheid+verzamelt+steeds+meer+informatie+over+demonstranten%27?channel=rss",
+  "title": "'Nederlandse overheid verzamelt steeds meer informatie over demonstranten'",
+  "excerpt": "De Nederlandse overheid verzamelt steeds meer informatie over demonstraties en demonstranten, wat mensen ervan kan weerhouden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T09:14:38Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch government is collecting increasing information about demonstrations and demonstrators, which may deter people from protesting.",
+    "nl": "De Nederlandse overheid verzamelt steeds meer informatie over demonstraties en demonstranten, wat mensen kan weerhouden te demonstreren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "e8082cc54dfb",
+  "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+  "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+  "excerpt": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login. The researchers are highly confident that the attacker is a single person",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T09:01:50Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A single attacker used AI agents to pull emergency dispatch records from seven Taipei districts and exposed patient data from a fire department platform.",
+    "nl": "Een enkele aanvaller gebruikte AI-agents om noodmeldingsgegevens uit zeven Taipei-districten op te halen en patiëntgegevens van een brandweerplatform bloot te leggen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "38b77ea84405",
+  "url": "https://industrialcyber.co/ai/indias-cert-in-issues-ai-security-auditing-guidelines-targeting-model-poisoning-prompt-injection-agentic-ai-threats/",
+  "title": "India’s CERT-In issues AI Security Auditing guidelines targeting model poisoning, prompt injection, agentic AI threats",
+  "excerpt": "India’s national cybersecurity agency issued guidelines for auditing the security of artificial intelligence systems, setting out a risk-based...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-09T08:44:41Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "India's CERT-In issued guidelines for auditing AI system security, covering model poisoning, prompt injection and agentic AI threats.",
+    "nl": "Het Indiase CERT-In heeft richtlijnen uitgebracht voor het auditen van AI-beveiliging, met aandacht voor model poisoning, prompt injection en agentische AI-dreigingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "98f6f644b145",
+  "url": "https://industrialcyber.co/cisa/cisa-nsa-australian-cyber-agencies-urge-early-vendor-readiness-for-pqc-transition-across-critical-systems/",
+  "title": "CISA, NSA, Australian cyber agencies urge early vendor readiness for PQC transition across critical systems",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC),...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-09T08:39:02Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA, NSA and Australian agencies urge vendors to prepare early for post-quantum cryptography migration across critical systems.",
+    "nl": "CISA, NSA en Australische instanties roepen leveranciers op vroeg te beginnen met de overgang naar post-quantumcryptografie in kritieke systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "5cc0936c5dc3",
+  "url": "https://industrialcyber.co/cisa/cisa-proposes-continuing-casm-database-for-nationwide-emergency-communications-planning-coordination/",
+  "title": "CISA proposes continuing CASM database for nationwide emergency communications planning, coordination",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) submitted an extension of its Communications Assets Survey and Mapping...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-09T08:18:44Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 8,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA proposed extending its Communications Assets Survey and Mapping database used for nationwide emergency communications planning.",
+    "nl": "CISA heeft een verlenging voorgesteld van de CASM-database voor landelijke planning van noodcommunicatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "4bf2063b1245",
+  "url": "https://industrialcyber.co/news/isa-and-phm-society-partner-on-industrial-automation-and-prognostics-standards-development/",
+  "title": "ISA and PHM Society partner on industrial automation and prognostics standards development",
+  "excerpt": "The International Society of Automation (ISA), a professional society for automation and the Prognostics and Health Management (PHM)...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-09T08:17:53Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 12,
+   "category": "industry",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "ISA and the PHM Society announced a partnership to develop industrial automation and prognostics standards.",
+    "nl": "ISA en de PHM Society zijn een samenwerking aangegaan om normen voor industriële automatisering en prognostiek te ontwikkelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "59e30204e53a",
+  "url": "https://www.security.nl/posting/960843/Politie+waarschuwt+gebruikers+van+%27verdachte+online+platforms%27?channel=rss",
+  "title": "Politie waarschuwt gebruikers van 'verdachte online platforms'",
+  "excerpt": "De politie waarschuwt gebruikers van 'verdachte online platforms' dat ze in veel gevallen zichtbaar zijn. Volgens de politie ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T08:11:12Z",
+  "fetched": "2026-11-09T17:33:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police warn users of suspicious online platforms that they are often visible to others.",
+    "nl": "De politie waarschuwt gebruikers van verdachte online platforms dat ze in veel gevallen zichtbaar zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "a2c922a06d73",
+  "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+  "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+  "excerpt": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026. If proven guilty, the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T07:05:48Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A former OpenAI engineer pleaded not guilty to planting a covert audio recording device in the company's office.",
+    "nl": "Een voormalige OpenAI-ingenieur heeft niet-schuldig gepleit tegen de beschuldiging een verborgen audio-opnameapparaat in het kantoor van het bedrijf te hebben geplaatst."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
+  "id": "df6a1e5a88d8",
+  "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+  "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+  "excerpt": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T06:15:10Z",
+  "fetched": "2026-11-09T17:33:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "threat",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "US agencies warn that threat actors are actively targeting industrial refrigeration and cold-chain controllers, possibly causing fires and inventory loss.",
+    "nl": "Amerikaanse instanties waarschuwen dat dreigingsactoren actief industriële koelsystemen en cold-chain-controllers aanvallen, wat brand en voorraadverlies kan veroorzaken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-09T17:34:54Z"
+  }
+ },
+ {
   "id": "3d5dfb277e1d",
   "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
@@ -41436,44 +42565,6 @@
    "summary": {
     "en": "CERT@VDE reports that several TRUMPF products include a vulnerable Wibu CodeMeter Runtime version, potentially allowing privilege escalation.",
     "nl": "CERT@VDE meldt dat verschillende TRUMPF-producten een kwetsbare versie van Wibu CodeMeter Runtime bevatten, wat privilege escalatie mogelijk maakt."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "567310fec6fc",
-  "url": "https://certvde.com/en/advisories/VDE-2026-088/",
-  "title": "METTLER TOLEDO: LabX Standard and Enterprise Report on External Component Analysis - v21.4",
-  "excerpt": "[VDE-2026-088] The vulnerabilities found in LabX Standard versions 21.3.22 - 21.4.23 are CVE-2025-69419, CVE-2026-0915, CVE-2025-15467, CVE-2026-4800, CVE-2026-33186, CVE-2026-39821, CVE-2026-33671 and are fixed in LabX Standard v21.4.25. The vulnerabilities found in LabX Enterprise versions 21.3.22 - 21.4.23 are CVE-2026-4800, CVE-2026-33186, CVE-2026-39821, CVE-2026-33671 and are fixed in LabX Enterprise v21.4.25 All other vulnerabilities are to be fixed in the upcoming releases.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-10T10:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [
-   "CVE-2025-69419",
-   "CVE-2026-0915",
-   "CVE-2025-15467",
-   "CVE-2026-4800",
-   "CVE-2026-33186",
-   "CVE-2026-39821",
-   "CVE-2026-33671"
-  ],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 35,
-   "category": "advisory",
-   "sectors": [],
-   "vendors": [
-    "METTLER TOLEDO"
-   ],
-   "summary": {
-    "en": "CERT@VDE publishes an external component analysis for LabX Standard and Enterprise, listing CVEs fixed in v21.4.25.",
-    "nl": "CERT@VDE publiceert een analyse van externe componenten voor LabX Standard en Enterprise, met CVE's die in v21.4.25 zijn verholpen."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
