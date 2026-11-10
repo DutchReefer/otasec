@@ -1,5 +1,319 @@
 [
  {
+  "id": "6e1eca169247",
+  "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+  "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+  "excerpt": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T23:52:12Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Vanderbilt University says it is responding to a ransomware attack claimed by the BYOD gang, which claims to have stolen student, employee and research data.",
+    "nl": "Vanderbilt University meldt een reactie op een ransomwareaanval die door de BYOD-bende wordt geclaimd, met beweerde diefstal van student-, personeels- en onderzoeksdata."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "ae5ddcb54d34",
+  "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+  "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+  "excerpt": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T22:09:33Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "SEGA disclosed that a breach at its newsletter provider ARARA exposed email addresses of 2.2 million subscribers.",
+    "nl": "SEGA meldt dat een datalek bij nieuwsbriefprovider ARARA e-mailadressen van 2,2 miljoen abonnees heeft blootgelegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "5da5bb137af6",
+  "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+  "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+  "excerpt": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T21:26:25Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "N-able"
+   ],
+   "summary": {
+    "en": "N-able took its hosted N-central environments offline and urged on-premises customers to shut down servers after more than 30 alleged zero-day vulnerabilities were publicly disclosed.",
+    "nl": "N-able heeft de gehoste N-central-omgevingen offline gehaald en on-premises klanten geadviseerd servers uit te schakelen nadat meer dan 30 vermeende zero-day-kwetsbaarheden openbaar zijn gemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "7e09b5e16427",
+  "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+  "title": "York University breach exposed personal information dating to 2007",
+  "excerpt": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T21:22:31Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "York University reported a cybersecurity incident in which a threat actor stole personal information submitted through online forms.",
+    "nl": "York University meldt een cyberincident waarbij een dreigingsactor persoonsgegevens heeft gestolen die via online formulieren zijn ingediend."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "cd41a3a65bdc",
+  "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+  "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+  "excerpt": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T20:44:00Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US arm of hearing aid company Amplifon is notifying customers of an early-year data breach that included medical information.",
+    "nl": "De Amerikaanse tak van hoortoestellenbedrijf Amplifon informeert klanten over een datalek van begin dit jaar waarbij medische informatie betrokken was."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "4ca261bf7f30",
+  "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+  "title": "France blames Iran for fridge cyberattacks, says some caused fires",
+  "excerpt": "In the first attribution since the October attacks, the French authorities identified the perpetrators as part of Shahid Kaveh, an IRGC cyber unit previously linked to attacks on industrial controllers at U.S. water utilities.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T18:45:00Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "France attributes October cyberattacks that disrupted supermarket refrigeration systems to Iran's IRGC-linked Shahid Kaveh unit, saying some caused fires.",
+    "nl": "Frankrijk schrijft oktober-cyberaanvallen die koelsystemen van supermarkten verstoorden toe aan de IRGC-gelieerde eenheid Shahid Kaveh, die volgens Frankrijk branden veroorzaakten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "5fc80cbf0f59",
+  "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+  "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+  "excerpt": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T18:32:42Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "France links October cyberattacks on refrigeration systems at over 700 supermarkets to Iranian state-backed hackers, saying they caused food losses and at least 15 fires.",
+    "nl": "Frankrijk koppelt oktober-cyberaanvallen op koelsystemen van meer dan 700 supermarkten aan Iraanse staatshackers, die volgens Frankrijk voedselverlies en minstens 15 branden veroorzaakten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "2fdab4abb5f3",
+  "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+  "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
+  "excerpt": "Vanderbilt University announced a cyberattack, warning students and employees that campus devices and systems may be impacted by the incident.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T18:30:00Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Vanderbilt University announced a cyberattack that may affect campus devices and systems, warning students and employees.",
+    "nl": "Vanderbilt University kondigt een cyberaanval aan die mogelijk campusapparaten en -systemen raakt, en waarschuwt studenten en medewerkers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "bd73ebc7b854",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+  "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+  "excerpt": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T17:51:21Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker accessed AWS accounts of multiple Qubole customers between October 14 and 26 and stole stored secrets and data, according to Wiz.",
+    "nl": "Een aanvaller kreeg tussen 14 en 26 oktober toegang tot AWS-accounts van meerdere Qubole-klanten en stal opgeslagen geheimen en data, volgens Wiz."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "eb0e60cb53a3",
+  "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+  "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+  "excerpt": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T17:50:32Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 4,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russian cloud provider Beget is rebuilding its cloud infrastructure from scratch after a data-wiping malware attack.",
+    "nl": "Russische cloudprovider Beget bouwt zijn cloudinfrastructuur opnieuw op na een aanval met malware die data wist."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
+  "id": "7cd796fba406",
+  "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+  "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+  "excerpt": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-09T17:36:28Z",
+  "fetched": "2026-11-10T01:35:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 4,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers published malicious bee-js 13.3.0 and Swarm Desktop 0.56.2 releases via the Ethersphere project's release automation to steal wallet keys.",
+    "nl": "Aanvallers publiceerden via de release-automatisering van het Ethersphere-project kwaadaardige versies bee-js 13.3.0 en Swarm Desktop 0.56.2 om wallet-sleutels te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T01:36:09Z"
+  }
+ },
+ {
   "id": "d1c54efab86e",
   "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
   "title": "Binance denies data breach after alleged ShinyHunters claims",
