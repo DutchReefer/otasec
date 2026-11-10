@@ -1,5 +1,579 @@
 [
  {
+  "id": "b53f64dc22cc",
+  "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+  "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+  "excerpt": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T22:20:19Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cloud hosting provider Railway reports hackers stole customer authentication secrets and generated about $740,000 in fraudulent AI usage.",
+    "nl": "Cloudhostingprovider Railway meldt dat hackers klantauthenticatiegegevens hebben gestolen en ongeveer 740.000 dollar aan frauduleus AI-gebruik hebben veroorzaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "15da1f8e31d6",
+  "url": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
+  "title": "US Army member arrested in UK over allegations of spying for Russia",
+  "excerpt": "The unnamed soldier was arrested by British counterterrorism police “working closely” with U.S. authorities, including the FBI and the military, the Metropolitan Police said in a statement.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T21:13:00Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "British police arrested a US Army soldier in the UK on suspicion of spying for Russia, working with US authorities.",
+    "nl": "De Britse politie heeft een Amerikaanse legersoldaat in het Verenigd Koninkrijk aangehouden op verdenking van spionage voor Rusland, in samenwerking met Amerikaanse autoriteiten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "612ae5f08dba",
+  "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+  "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
+  "excerpt": "An exploited Outlook vulnerability drew most of the attention in Microsoft's latest Patch Tuesday, which listed 1,093 bugs total.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T20:55:00Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft's Patch Tuesday listed 1,093 bugs, with an exploited Outlook vulnerability drawing most attention.",
+    "nl": "Microsoft's Patch Tuesday bevatte 1.093 kwetsbaarheden, waarbij een actief misbruikte Outlook-kwetsbaarheid de meeste aandacht trok."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "de312334c3a8",
+  "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+  "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+  "excerpt": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T20:54:55Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Nitori, a Japanese furniture retailer, says an attacker accessed its network and may have stolen 37.62 million customer records.",
+    "nl": "Nitori, een Japanse meubelketen, meldt dat een aanvaller toegang kreeg tot zijn netwerk en mogelijk 37,62 miljoen klantgegevens heeft gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "7b18174c090b",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0353",
+  "title": "NCSC-2026-0353 [1.03] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
+  "excerpt": "Microsoft heeft meerdere kwetsbaarheden verholpen in Windows. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade, zoals genoemd in onderstaande tabel. Microsoft heeft voor Windows meerdere kwetsbaarheden verholpen. De 32 ernstigste kwetsbaarheden bevinden zich in meerdere Windows componenten en hebben een CVSS score van 9.0 en hoger toegewezen gekregen. Kwaadwillenden met toegang tot deze componenten kunnen zonder voorafgaande authenticatie mogelijk code uitvoeren of zich toegang verschaffen tot het kwetsbare systeem. Deze…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-10T20:24:10Z",
+  "fetched": "2026-11-10T23:25:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed multiple Windows vulnerabilities, with the 32 most severe rated CVSS 9.0 or higher.",
+    "nl": "Microsoft heeft meerdere Windows-kwetsbaarheden verholpen, waarvan de 32 ernstigste een CVSS-score van 9.0 of hoger hebben."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "952eecc49184",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0477",
+  "title": "NCSC-2026-0477 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Exchange server",
+  "excerpt": "Microsoft heeft 9 kwetsbaarheden verholpen in Exchange Server. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich voor te doen als andere gebruiker, zich verhoogde rechten toe te kennen en willekeurige code uit te voeren met rechten van het proces. ``` Microsoft Exchange Server: |------------------|------|-------------------------------------| | CVE-ID | CVSS | Impact | |------------------|------|-------------------------------------| | CVE-2026-118149 | 8,80 | Uitvoeren van willekeurige code | | CVE-2026-118150 | 8,80 | Verkrijgen van verhoogde rechten | | CVE-2026-118151 | 7,20 |…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-10T20:04:46Z",
+  "fetched": "2026-11-10T23:25:58Z",
+  "cves": [
+   "CVE-2026-118149",
+   "CVE-2026-118150",
+   "CVE-2026-118151"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed 9 vulnerabilities in Exchange Server, including CVE-2026-118149 with a CVSS score of 8.80.",
+    "nl": "Microsoft heeft 9 kwetsbaarheden in Exchange Server verholpen, waaronder CVE-2026-118149 met een CVSS-score van 8,80."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "c28874079aa8",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+  "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+  "excerpt": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T20:04:36Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft released the Windows 10 KB5131096 extended security update with November 2026 Patch Tuesday fixes.",
+    "nl": "Microsoft heeft de Windows 10 extended security update KB5131096 uitgebracht met de beveiligingsfixes van november 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "dbccd42fd1cf",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0476",
+  "title": "NCSC-2026-0476 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft SQL Server",
+  "excerpt": "Microsoft heeft 55 kwetsbaarheden verholpen in diverse componenten van SQL Server. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade zoals benoemd in onderstaande tabel. De kwetsbaarheid met kenmerk CVE-2026-116945, heeft een CVSS-score van 9.8 en betreft een heap-based buffer overflow in Microsoft SQL Server. Een ongeautoriseerde kwaadwillende die controle heeft over een netwerkeindpunt waarmee een kwetsbaar integratiepakket verbinding maakt, kan een speciaal geprepareerd antwoord terugsturen. Wanneer het…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-10T20:03:16Z",
+  "fetched": "2026-11-10T23:25:58Z",
+  "cves": [
+   "CVE-2026-116945"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed 55 vulnerabilities in SQL Server, including CVE-2026-116945, a CVSS 9.8 heap-based buffer overflow.",
+    "nl": "Microsoft heeft 55 kwetsbaarheden in SQL Server verholpen, waaronder CVE-2026-116945, een heap-based buffer overflow met CVSS 9,8."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "07803e625ab4",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0475",
+  "title": "NCSC-2026-0475 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Azure",
+  "excerpt": "Microsoft heeft meerdere kwetsbaarheden verholpen in diverse Azure componenten. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade, zoals genoemd in onderstaande tabel. De kwetsbaarheid met kenmerk CVE-2026-119990, met een CVSS-score van 9.8 betreft ontbrekende authenticatie voor een kritieke functie in Azure OpenAI. Een ongeautoriseerde kwaadwillende kan deze kwetsbaarheid via het netwerk misbruiken om verhoogde rechten te verkrijgen. Voor de kwetsbaarheid met kenmerk CVE-2026-114162, met een CVSS-score van 9.1 geldt dat…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-10T19:59:23Z",
+  "fetched": "2026-11-10T23:25:58Z",
+  "cves": [
+   "CVE-2026-119990",
+   "CVE-2026-114162"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed multiple Azure vulnerabilities, including CVE-2026-119990, a CVSS 9.8 missing authentication flaw in Azure OpenAI.",
+    "nl": "Microsoft heeft meerdere Azure-kwetsbaarheden verholpen, waaronder CVE-2026-119990, een kwetsbaarheid met CVSS 9,8 door ontbrekende authenticatie in Azure OpenAI."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "6d8a153996d9",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0474",
+  "title": "NCSC-2026-0474 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office",
+  "excerpt": "Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade, zoals genoemd in onderstaande tabellen. Microsoft heeft voor Office meerdere kwetsbaarheden verholpen. De 2 ernstigste kwetsbaarheden bevinden zich in Sharepoint en hebben een CVSS score van 9.0 en 9.9 toegewezen gekregen. Voor succesvol misbruik van een aantal kwetsbaarheden moet de kwaadwillende het slachtoffer misleiden om een malafide bestand te openen of een malafide link te volgen. De…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-10T19:46:26Z",
+  "fetched": "2026-11-10T23:25:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed multiple Office vulnerabilities, with the two most severe in SharePoint rated CVSS 9.0 and 9.9.",
+    "nl": "Microsoft heeft meerdere Office-kwetsbaarheden verholpen, waarvan de twee ernstigste in SharePoint een CVSS-score van 9,0 en 9,9 hebben."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "a681e2426f71",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0473",
+  "title": "NCSC-2026-0473 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Developer Tools",
+  "excerpt": "Microsoft heeft kwetsbaarheden verholpen in diverse Developer Tools. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade zoals benoemd in onderstaande tabel. De vereiste voorwaarden voor succesvol misbruik verschillen per kwetsbaarheid. Afhankelijk van de kwetsbaarheid kan misbruik gebruikersinteractie vereisen, zoals het openen of verwerken van een malafide bronbestand, of plaatsvinden via een kwetsbare applicatie of dienst. ``` Visual Studio Code - GitHub Pull Requests and Issues Extension…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-10T19:38:38Z",
+  "fetched": "2026-11-10T23:25:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed vulnerabilities in several Developer Tools, some requiring user interaction to be exploited.",
+    "nl": "Microsoft heeft kwetsbaarheden in diverse Developer Tools verholpen, waarvan sommige gebruikersinteractie vereisen om misbruikt te worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "27d0d882d07e",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+  "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+  "excerpt": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T19:31:11Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A threat actor used compromised IAM credentials from a Qubole AWS account to exfiltrate data from multiple customers' AWS environments.",
+    "nl": "Een dreigingsactor gebruikte gecompromitteerde IAM-gegevens van een Qubole AWS-account om data uit meerdere klantomgevingen in AWS te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "805af87f9b54",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0472",
+  "title": "NCSC-2026-0472 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
+  "excerpt": "Microsoft heeft kwetsbaarheden verholpen in Windows. Een kwaadwillende kan de kwetsbaarheden mogelijk misbruiken om beveiligingsmaatregelen te omzeilen, privileges te verhogen, willekeurige code uit te voeren en/of toegang te verkrijgen tot gevoelige informatie. De 13 ernstigste kwetsbaarheden bevinden zich in verschillende Windows-componenten en hebben een CVSS-score van 9,0 of hoger. Afhankelijk van de betreffende kwetsbaarheid kan misbruik leiden tot het uitvoeren van willekeurige code of het verkrijgen van verhoogde rechten. De betreffende kwetsbaarheden zijn weergegeven in onderstaande…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-10T19:23:18Z",
+  "fetched": "2026-11-10T23:25:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft fixed Windows vulnerabilities, with the 13 most severe rated CVSS 9.0 or higher.",
+    "nl": "Microsoft heeft Windows-kwetsbaarheden verholpen, waarvan de 13 ernstigste een CVSS-score van 9,0 of hoger hebben."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "b86930e18372",
+  "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+  "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+  "excerpt": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1. The flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T19:23:10Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [
+   "CVE-2026-111760"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Git fixed CVE-2026-111760, an integer truncation flaw that lets malicious repositories run code during recursive clones.",
+    "nl": "Git heeft CVE-2026-111760 verholpen, een integer truncation-fout waardoor kwaadaardige repositories code kunnen uitvoeren bij recursief clonen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "b958c2272095",
+  "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+  "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+  "excerpt": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T19:19:39Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker exploited an RCE flaw in the SGLang inference engine to run code on a NEAR AI server and may have seen processed requests.",
+    "nl": "Een aanvaller misbruikte een RCE-kwetsbaarheid in de SGLang-inferentie-engine om code uit te voeren op een NEAR AI-server en mogelijk verwerkte verzoeken in te zien."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "41dbe99c28b2",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+  "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+  "excerpt": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T19:07:36Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft's November 2026 Patch Tuesday fixed a record 1,235 flaws, including an actively exploited Outlook zero-day.",
+    "nl": "Microsoft's Patch Tuesday van november 2026 verhelpt een recordaantal van 1.235 kwetsbaarheden, waaronder een actief misbruikte Outlook zero-day."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "0a5e2fc80803",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+  "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+  "excerpt": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T18:33:26Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft released Windows 11 cumulative updates KB5132061 and KB5131087 with security fixes and new features.",
+    "nl": "Microsoft heeft de Windows 11-cumulatieve updates KB5132061 en KB5131087 uitgebracht met beveiligingsfixes en nieuwe functies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "9398616ade4d",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+  "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+  "excerpt": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T18:12:21Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Vates VMS warned that a critical Xen Orchestra authentication bypass, tracked as VSA-2026-062, is being actively exploited.",
+    "nl": "Vates VMS waarschuwt dat een kritieke authenticatiebypass in Xen Orchestra, gevolgd als VSA-2026-062, actief wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "ebe7998d5100",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/firefox-free-vpn-data/",
+  "title": "Firefox free VPN drops its 50GB launch cap until January 31",
+  "excerpt": "Mozilla has removed the data limit on the free VPN built into Firefox. Firefox users in supported regions get unlimited browsing on desktop and Android once they sign in with a Mozilla account. The VPN shipped with Firefox 149 in March with a 50GB monthly cap. That is plenty for reading and ordinary browsing, but someone streaming video through the browser can use it up fast. The VPN protects traffic inside Firefox and nothing else … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T18:05:38Z",
+  "fetched": "2026-11-10T23:25:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Mozilla removed the 50GB monthly data cap on the free VPN built into Firefox until January 31.",
+    "nl": "Mozilla heeft de maandelijkse datalimiet van 50GB op de gratis VPN in Firefox tot 31 januari opgeheven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
+  "id": "3ac35ff64736",
+  "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+  "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+  "excerpt": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check Point Research is tracking the clusters under the names SilentDelivery,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T17:43:23Z",
+  "fetched": "2026-11-10T23:25:57Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "threat",
+   "sectors": [
+    "cross_sector",
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point linked three China-nexus espionage clusters sharing Sparrow malware code, targeting telecom, government and critical infrastructure in Latin America, Asia and Europe.",
+    "nl": "Check Point koppelt drie China-gelieerde spionageclusters via gedeelde Sparrow-malware, die telecom, overheid en kritieke infrastructuur in Latijns-Amerika, Azië en Europa aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T23:26:22Z"
+  }
+ },
+ {
   "id": "0974c37f25c4",
   "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
