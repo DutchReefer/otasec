@@ -1,5 +1,1077 @@
 [
  {
+  "id": "0974c37f25c4",
+  "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+  "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+  "excerpt": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T16:17:16Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Xen Orchestra",
+    "XCP-ng"
+   ],
+   "summary": {
+    "en": "A critical authentication bypass in Xen Orchestra is being actively exploited to gain administrator privileges and take over XCP-ng virtualization hosts.",
+    "nl": "Een kritieke authenticatiebypass in Xen Orchestra wordt actief misbruikt om beheerdersrechten te verkrijgen en XCP-ng-virtualisatiehosts over te nemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "d734c809375a",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/x-org-server-vulnerabilities-november-2026/",
+  "title": "X.Org patches eight server vulnerabilities a month after fixing 12 others",
+  "excerpt": "X.Org has fixed eight vulnerabilities in the X.Org X server and Xwayland, including one in the Xorg server that lets a malicious monitor corrupt its memory. The fixes ship in xorg-server 21.1.26 and xwayland 24.1.15, and each of the eight affects versions before those two releases. The X server provides the low-level display layer for graphical desktops on many Linux and Unix systems. Xwayland runs X11 applications on desktops built on Wayland, the newer display … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T16:15:36Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "X.Org",
+    "xorg-server",
+    "Xwayland"
+   ],
+   "summary": {
+    "en": "X.Org fixed eight vulnerabilities in the X server and Xwayland, including a memory corruption flaw triggered by a malicious monitor, in xorg-server 21.1.26 and xwayland 24.1.15.",
+    "nl": "X.Org heeft acht kwetsbaarheden in de X-server en Xwayland verholpen, waaronder een geheugencorruptie via een kwaadwillend beeldscherm, in xorg-server 21.1.26 en xwayland 24.1.15."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "4a9230aea75f",
+  "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+  "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+  "excerpt": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T16:08:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Fireworks AI"
+   ],
+   "summary": {
+    "en": "AI company Fireworks says attackers stole data and billing information from a limited number of customer accounts during October breaches.",
+    "nl": "AI-bedrijf Fireworks meldt dat aanvallers in oktober gegevens en factuurinformatie van een beperkt aantal klantaccounts hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "0eb55bf1598e",
+  "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+  "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+  "excerpt": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T16:00:55Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [
+   "CVE-2026-105133",
+   "CVE-2026-105134"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "AhsayCBS"
+   ],
+   "summary": {
+    "en": "Attackers exploited two patched AhsayCBS vulnerabilities, CVE-2026-105133 and CVE-2026-105134, to bypass authentication and deliver a Python backdoor.",
+    "nl": "Aanvallers misbruikten twee gepatchte AhsayCBS-kwetsbaarheden, CVE-2026-105133 en CVE-2026-105134, om authenticatie te omzeilen en een Python-backdoor te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "078240437160",
+  "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+  "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+  "excerpt": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T15:59:19Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Apple",
+    "iOS",
+    "Binance"
+   ],
+   "summary": {
+    "en": "Binance warns of an iOS 26.7.1, 27.0.1 and 27.2 flaw that could let third-party apps read private files, including crypto seed phrases.",
+    "nl": "Binance waarschuwt voor een iOS-lek in versies 26.7.1, 27.0.1 en 27.2 waardoor apps privébestanden kunnen lezen, inclusief cryptoseedzinnen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "7e413807cc2f",
+  "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+  "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+  "excerpt": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T15:58:44Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Blind Eagle uses fake court notices in phishing lures to deliver a RAT sharing lineage with AsyncRAT and DCRat against Latin American organizations.",
+    "nl": "Blind Eagle gebruikt nep-rechtbanknotificaties in phishing om een RAT te verspreiden die verwant is aan AsyncRAT en DCRat bij Latijns-Amerikaanse organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "0cf2a8538617",
+  "url": "https://www.security.nl/posting/961107/Kritiek+Synology-lek+geeft+aanvaller+toegang+tot+bestanden+op+NAS-systeem?channel=rss",
+  "title": "Kritiek Synology-lek geeft aanvaller toegang tot bestanden op NAS-systeem",
+  "excerpt": "Een kritiek SQL Injection-lek in NAS-systemen van Synology maakt het mogelijk voor ongeauthenticeerde aanvallers om toegang tot ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T15:55:04Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Synology"
+   ],
+   "summary": {
+    "en": "A critical SQL injection flaw in Synology NAS systems allows unauthenticated attackers to access files.",
+    "nl": "Een kritieke SQL-injectiekwetsbaarheid in Synology NAS-systemen geeft ongeauthenticeerde aanvallers toegang tot bestanden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "cb71d2bd129f",
+  "url": "https://therecord.media/spyware-cyber-crime-iverify",
+  "title": "Cybercriminals are increasingly infecting regular people with spyware",
+  "excerpt": "Cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people, according to a new report.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T15:45:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A new report says cybercriminals increasingly infect ordinary people's devices with spyware at scale.",
+    "nl": "Een nieuw rapport meldt dat cybercriminelen steeds vaker apparaten van gewone mensen op grote schaal met spyware infecteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "7646e96e2e7b",
+  "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+  "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+  "excerpt": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T15:33:59Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Fireworks AI"
+   ],
+   "summary": {
+    "en": "Fireworks AI says its breach investigation found unauthorized access to account and billing data, secrets, datasets and incomplete model weights for a limited set of accounts.",
+    "nl": "Fireworks AI meldt dat het onderzoek naar de inbreuk ongeautoriseerde toegang tot account- en factuurgegevens, geheimen, datasets en modelgewichten voor een beperkt aantal accounts aantoonde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "57225503fee1",
+  "url": "https://www.security.nl/posting/961099/Belgische+overheid+waarschuwt+voor+misbruik+van+inloggen+via+sms?channel=rss",
+  "title": "Belgische overheid waarschuwt voor misbruik van inloggen via sms",
+  "excerpt": "De Belgische overheid waarschuwt organisaties voor aanvallers die inloggen via sms misbruiken. Meerdere Belgische organisaties ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T15:17:30Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Belgian government warns that attackers are abusing SMS-based login at multiple Belgian organizations.",
+    "nl": "De Belgische overheid waarschuwt dat aanvallers inloggen via sms misbruiken bij meerdere Belgische organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "133989a571e5",
+  "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+  "title": "Ransomware recovery is now a client retention metric",
+  "excerpt": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T15:01:11Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Kaseya"
+   ],
+   "summary": {
+    "en": "Kaseya discusses how integrated recovery workflows can improve ransomware response and client retention for managed service providers.",
+    "nl": "Kaseya bespreekt hoe geïntegreerde herstelprocessen de reactie op ransomware en klantbehoud voor managed service providers kunnen verbeteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "25277267dbaf",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/slack-ai-reverse-engineering/",
+  "title": "AI reverse engineering let researchers add a new feature to Slack",
+  "excerpt": "Intezer researchers used AI agents to rebuild source code for Slack, Apple’s Finder and a TinyTurla-NG sample, from a backdoor family Cisco Talos attributes to the Turla group. They worked from the shipped programs and vendor documentation. The rebuilt Slack ran well enough that the team added a new feature to it: AI text autocomplete, powered by a small local model. Software vendors that count on compiling their programs to keep source code private are … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T14:45:18Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Slack",
+    "Apple Finder"
+   ],
+   "summary": {
+    "en": "Intezer researchers used AI agents to rebuild source code for Slack, Apple Finder and a TinyTurla-NG sample, and added a feature to the rebuilt Slack.",
+    "nl": "Intezer-onderzoekers gebruikten AI-agents om broncode van Slack, Apple Finder en een TinyTurla-NG-sample te reconstrueren en voegden een functie toe aan de herbouwde Slack."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "f00273d9e0a7",
+  "url": "https://therecord.media/michael-losapio-cisa-director-nomination",
+  "title": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+  "excerpt": "Michael LoSapio, Palantir's chief information security officer, is officially President Donald Trump's pick to lead the Cybersecurity and Infrastructure Security Agency.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T14:31:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Palantir"
+   ],
+   "summary": {
+    "en": "Palantir CISO Michael LoSapio has been nominated by President Trump to lead CISA, with a Senate vote uncertain.",
+    "nl": "Palantir-CISO Michael LoSapio is door president Trump genomineerd om CISA te leiden, en de stemming in de Senaat is onzeker."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "8eb0afc79cac",
+  "url": "https://www.security.nl/posting/961082/Firefox+biedt+tot+31+januari+onbeperkt+dataverkeer+via+ingebouwde+vpn?channel=rss",
+  "title": "Firefox biedt tot 31 januari onbeperkt dataverkeer via ingebouwde vpn",
+  "excerpt": "Firefox biedt tot 31 januari volgend jaar onbeperkt dataverkeer via de gratis ingebouwde vpn, zo heeft Mozilla vandaag ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T14:20:49Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Firefox",
+    "Mozilla"
+   ],
+   "summary": {
+    "en": "Mozilla offers unlimited data through Firefox's built-in free VPN until January 31 next year.",
+    "nl": "Mozilla biedt tot 31 januari volgend jaar onbeperkt dataverkeer via de ingebouwde gratis vpn van Firefox."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "5b4ee29c4ef1",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/dreeze-application-revival-33-million-funding/",
+  "title": "Dreeze raises $33 million to automate recovery of entire cloud applications",
+  "excerpt": "Dreeze emerged from stealth with $33 million in seed funding and announced the general availability of its Application Revival platform for Amazon Web Services (AWS). Norwest and Bessemer Venture Partners led the round, with participation from Claltech. The platform helps enterprises recover complete cloud applications by restoring data, infrastructure, and dependencies in the order they need to come back online. A successful backup can still leave a business offline. Cloud applications rely on infrastructure, configurations, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T14:00:13Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Dreeze raised $33 million in seed funding and made its Application Revival platform for AWS generally available.",
+    "nl": "Dreeze heeft 33 miljoen dollar seedfinanciering opgehaald en het Application Revival-platform voor AWS algemeen beschikbaar gemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "b9f0da8aa1ee",
+  "url": "https://www.security.nl/posting/961075/Kabinet+wil+biometrische+scan+bij+uitgifte+identiteitsbewijs+wettelijk+vastleggen?channel=rss",
+  "title": "Kabinet wil biometrische scan bij uitgifte identiteitsbewijs wettelijk vastleggen",
+  "excerpt": "Het kabinet wil het gebruik van een biometrische scan door gemeenten bij de uitgifte van identiteitsbewijzen wettelijk ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T13:37:13Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch cabinet wants to legally anchor the use of biometric scans by municipalities when issuing identity cards.",
+    "nl": "Het kabinet wil het gebruik van biometrische scans door gemeenten bij de uitgifte van identiteitsbewijzen wettelijk vastleggen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "4bafaf41ab54",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/cisa-incident-reporting-form-update/",
+  "title": "CISA tweaks cyber incident form to spot attacks that might be linked",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has updated its online incident reporting form to help analysts spot when attacks on different organizations may be part of the same campaign. The revised questionnaire asks more specific questions and removes duplicate ones. The form asks whether an incident involved malware, attempts to trick people, hacking techniques, or an insider threat. It also uses terms from MITRE ATT&CK, a catalog of attacker techniques. When organizations describe … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T13:17:50Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA updated its online incident reporting form with more specific questions and MITRE ATT&CK terms to help link related campaigns.",
+    "nl": "CISA heeft zijn online incidentmeldingsformulier aangepast met specifiekere vragen en MITRE ATT&CK-termen om gerelateerde campagnes te herkennen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "48545a052e3a",
+  "url": "https://www.security.nl/posting/961066/N-able+haalt+clouddienst+wegens+%27Able2Shell%27+offline%2C+eerste+aanvallen+gemeld?channel=rss",
+  "title": "N-able haalt clouddienst wegens 'Able2Shell' offline, eerste aanvallen gemeld",
+  "excerpt": "Softwarebedrijf N-able heeft de cloudversie van N-central offline gehaald en adviseert klanten dit ook met hun on-premises ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T13:05:00Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "N-able",
+    "N-central"
+   ],
+   "summary": {
+    "en": "N-able took the cloud version of N-central offline over the 'Able2Shell' issue after first attacks were reported, and advised customers to do the same for on-premises installations.",
+    "nl": "N-able heeft de cloudversie van N-central offline gehaald vanwege 'Able2Shell' nadat eerste aanvallen zijn gemeld, en adviseert klanten hetzelfde te doen voor on-premises installaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "633b52d3362d",
+  "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
+  "title": "Russian hackers compromised government email servers to steal NATO, EU correspondence",
+  "excerpt": "Russian state-linked hackers have compromised government email servers in Romania and Kazakhstan to secretly intercept messages exchanged with NATO and European Union officials, researchers said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T13:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russian state-linked hackers compromised government email servers in Romania and Kazakhstan to intercept messages with NATO and EU officials.",
+    "nl": "Aan de Russische staat gelieerde hackers compromitteerden overheidsmailservers in Roemenië en Kazachstan om berichten met NAVO- en EU-functionarissen te onderscheppen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "db59080fa52f",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/irisscon-2026-dublin/",
+  "title": "IRISSCON 2026 puts preparedness for cyberattacks and hybrid threats in focus",
+  "excerpt": "Ireland risks being dangerously unprepared for increasingly sophisticated cyberattacks and hybrid threats unless the Government acts urgently to strengthen the country’s national security capabilities, according to Brian Honan, head of the Irish Reporting and Information Security Service (IRISSCERT) and founder of BH Consulting. The warning comes ahead of IRISSCON 2026, IRISSCERT’s annual cybersecurity conference, which takes place at the Aviva Stadium in Dublin on Wednesday, 11 November. Help Net Security will be attending the event. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T12:16:40Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "IRISSCERT's annual IRISSCON 2026 conference in Dublin on 11 November will focus on cyberattack preparedness and hybrid threats.",
+    "nl": "De jaarlijkse IRISSCON 2026-conferentie van IRISSCERT in Dublin op 11 november richt zich op voorbereiding op cyberaanvallen en hybride dreigingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "19341392ccb5",
+  "url": "https://www.security.nl/posting/961056/OM+verdenkt+man+van+oplichting+bank+met+behulp+van+deepfakes?channel=rss",
+  "title": "OM verdenkt man van oplichting bank met behulp van deepfakes",
+  "excerpt": "Het Openbaar Ministerie (OM) verdenkt een 38-jarige man uit Almere van het oplichten van een bank met behulp van deepfakes, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T12:15:36Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Public Prosecution Service suspects a 38-year-old man from Almere of defrauding a bank using deepfakes.",
+    "nl": "Het Openbaar Ministerie verdenkt een 38-jarige man uit Almere van het oplichten van een bank met deepfakes."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "4271579ddeba",
+  "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+  "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+  "excerpt": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A researcher who goes by forcequit, in collaboration with 0xjohnny,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T12:15:31Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A public iOS sandbox escape could let apps read other apps' files, exposing crypto wallet keys, and no fix has been confirmed yet.",
+    "nl": "Een openbaar gemaakte iOS sandbox-ontsnapping kan apps toegang geven tot bestanden van andere apps, waardoor cryptowallet-sleutels kunnen lekken; er is nog geen fix bevestigd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "24a9ecf27224",
+  "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+  "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+  "excerpt": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T12:07:03Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "SAP"
+   ],
+   "summary": {
+    "en": "SAP patched 35 vulnerabilities in its November 2026 updates, including four maximum-severity flaws in NetWeaver, Web Dispatcher and Gateway.",
+    "nl": "SAP heeft in de updates van november 2026 35 kwetsbaarheden verholpen, waaronder vier met maximale ernst in NetWeaver, Web Dispatcher en Gateway."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "f4544cf90913",
+  "url": "https://www.security.nl/posting/961052/Kritiek+lek+in+Barracuda+Email+Security+Gateway+misbruikt+bij+aanvallen?channel=rss",
+  "title": "Kritiek lek in Barracuda Email Security Gateway misbruikt bij aanvallen",
+  "excerpt": "Een kritieke kwetsbaarheid in de Barracuda Email Security Gateway wordt misbruikt bij aanvallen, zo waarschuwen Barracuda en ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T11:54:53Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Barracuda"
+   ],
+   "summary": {
+    "en": "Barracuda and a partner warn that a critical flaw in the Email Security Gateway is being exploited in attacks.",
+    "nl": "Barracuda waarschuwt samen met een partner dat een kritieke kwetsbaarheid in de Email Security Gateway actief wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "6883aefb6d8f",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/anthropic-claude-fable-and-mythos-5-2-safeguards/",
+  "title": "Claude Mythos 5.2 arrives with stronger bug hunting and less sandbox-breaking behavior",
+  "excerpt": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2. The two versions share an underlying model, with stricter safeguards for cybersecurity and biology tasks in the broadly available Fable. Fable blocks fewer requests Fable’s safety classifiers block high-risk cybersecurity tasks such as penetration testing and exploit generation, as well as most biology research tasks. When Fable blocks a request in either category, Anthropic serves a response from Opus 4.8 for cybersecurity or Opus 5 for … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T11:40:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 with changed safeguards for cybersecurity and biology tasks.",
+    "nl": "Anthropic heeft Claude Fable 5.2 en Claude Mythos 5.2 uitgebracht, met aangepaste veiligheidsmaatregelen voor cybersecurity- en biologietaken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "3badf33b9e63",
+  "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+  "title": "Beyond the Alert: The Case for Rich Network Data",
+  "excerpt": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in. After the alert The alert tells you something happened. However, gaining",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T11:38:13Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor article argues for rich network data to support interdiction after detections fail.",
+    "nl": "Een leverancierartikel pleit voor rijke netwerkdata om na detecties indringers op te sporen en te verstoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "5cb0b9bb983b",
+  "url": "https://www.security.nl/posting/961049/AFM%3A+stijgend+aantal+cyberincidenten+acuut+systeemrisico+voor+banken?channel=rss",
+  "title": "AFM: stijgend aantal cyberincidenten acuut systeemrisico voor banken",
+  "excerpt": "Het stijgend aantal cyberincidenten is uitgegroeid tot één van de meest acute systeemrisico’s voor de financiële sector. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T11:32:49Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch financial regulator AFM says the rising number of cyber incidents is an acute systemic risk for banks.",
+    "nl": "De Nederlandse toezichthouder AFM stelt dat het stijgend aantal cyberincidenten een acuut systeemrisico voor banken is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "ba7507c6f20e",
+  "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+  "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+  "excerpt": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of today, other updates released yesterday for the iPhone XS, XS Max and XR, the iPad (7th generation) and some Apple",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T10:16:51Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple released updates fixing iMessage group chat privacy flaws and Bluetooth pairing vulnerabilities.",
+    "nl": "Apple heeft updates uitgebracht die iMessage-groepschatlekken en Bluetooth-koppelingskwetsbaarheden verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "590f48c9e270",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+  "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+  "excerpt": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T10:10:20Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Barracuda"
+   ],
+   "summary": {
+    "en": "Attackers have begun exploiting two patched Barracuda Email Security Gateway flaws that allow commands to run with root privileges.",
+    "nl": "Aanvallers misbruiken twee gepatchte kwetsbaarheden in de Barracuda Email Security Gateway waarmee commando's met root-rechten kunnen worden uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "7d35c70e6708",
+  "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+  "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+  "excerpt": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T10:07:29Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Russia-aligned Turla uses a new Cereal malware toolset to steal emails from government Microsoft Exchange servers.",
+    "nl": "De Rusland-gelieerde groep Turla gebruikt de nieuwe Cereal-malware om e-mail van overheids-Microsoft Exchange-servers te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "4eadc5574e9e",
+  "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+  "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+  "excerpt": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T10:04:32Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "The Russian state-backed group Turla uses a new Cereal toolset to intercept emails on government Exchange servers.",
+    "nl": "De Russische statelijke groep Turla gebruikt een nieuwe Cereal-toolset om e-mail op overheids-Exchange-servers te onderscheppen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "381daa55ac6a",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/windows-settings-backup-default/",
+  "title": "Windows settings backup is on by default starting with Windows 11 26H2",
+  "excerpt": "Starting with Windows 11, version 26H2, Windows settings backup will switch on by default on eligible devices. The company renamed the feature, which launched in August 2025 as Windows Backup for Organizations, and moved the management of roaming settings into the same policy tools. What gets saved The feature backs up supported Windows settings and the list of installed Microsoft Store apps. When restore is available, users can select a backup profile to recover their … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T10:03:40Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Starting with Windows 11 version 26H2, Windows settings backup will be enabled by default on eligible devices.",
+    "nl": "Vanaf Windows 11 versie 26H2 wordt de back-up van Windows-instellingen standaard ingeschakeld op geschikte apparaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "ce0b470d4dea",
+  "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+  "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+  "excerpt": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T10:02:40Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "SAP"
+   ],
+   "summary": {
+    "en": "SAP fixed four unauthenticated flaws rated CVSS 10.0 in NetWeaver and Web Dispatcher, two enabling remote code execution.",
+    "nl": "SAP heeft vier niet-geauthenticeerde kwetsbaarheden met CVSS 10.0 in NetWeaver en Web Dispatcher verholpen, waarvan twee remote code execution mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "b123f47cc5f7",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/",
+  "title": "Turla’s Cereal malware turns victims’ Exchange servers into spy hubs",
+  "excerpt": "Russia-aligned group Turla planted a modular .NET toolset on Microsoft Exchange servers at two government organizations, one in Kazakhstan and one in Romania, and used it to copy selected email straight out of the mail flow. ESET researchers found the malware and named it Cereal. The toolset doesn’t need an attacker-owned server. Operators send commands to the victim’s internet-facing Exchange server, dressed up as ordinary Outlook Web Access, Autodiscover, and ActiveSync traffic. To anyone watching … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T10:00:39Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "ESET found the Turla Cereal malware on Exchange servers at government organizations in Kazakhstan and Romania.",
+    "nl": "ESET trof de Turla Cereal-malware aan op Exchange-servers van overheidsorganisaties in Kazachstan en Roemenië."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "b6146b88c19a",
+  "url": "https://certvde.com/en/advisories/VDE-2026-143/",
+  "title": "Bender EDGE500IP Vulnerabilities - Linux Kernel (TLS and AF_ALG)",
+  "excerpt": "[VDE-2026-143] Bender is publishing this advisory to inform customers about two vulnerabilities in the Linux kernel used by the EDGE500IP. CISA has added both vulnerabilities (CVE-2025-39682 and CVE-2025-39964) to its Known Exploited Vulnerabilities catalog. Bender has analyzed the vulnerabilities and determined that the electrical safety of the devices is not affected. Exploitation on the EDGE500IP requires code execution on the device, which is not available to users. Bender nevertheless considers the vulnerabilities to be of medium risk and has fixed them in COMTRAXX firmware 5.1.1.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T10:00:00Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [
+   "CVE-2025-39682",
+   "CVE-2025-39964"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "energy",
+    "manufacturing"
+   ],
+   "vendors": [
+    "Bender",
+    "EDGE500IP"
+   ],
+   "summary": {
+    "en": "Bender advises customers of two Linux kernel vulnerabilities in the EDGE500IP, CVE-2025-39682 and CVE-2025-39964, both on CISA's KEV list; Bender says electrical safety is not affected.",
+    "nl": "Bender informeert klanten over twee Linux-kernelkwetsbaarheden in de EDGE500IP, CVE-2025-39682 en CVE-2025-39964, die op de KEV-lijst van CISA staan; Bender stelt dat de elektrische veiligheid niet wordt geraakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "291e5047dfaa",
+  "url": "https://www.security.nl/posting/961030/Kamermotie+wil+standaard+dns-gebaseerd+phishingfilter+voor+heel+Nederland?channel=rss",
+  "title": "Kamermotie wil standaard dns-gebaseerd phishingfilter voor heel Nederland",
+  "excerpt": "Nederlandse internetproviders zouden standaard voor al hun klanten een dns-gebaseerd phishingfilter moeten inschakelen. Een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T09:57:28Z",
+  "fetched": "2026-11-10T17:53:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Dutch parliamentary motion calls for internet providers to enable a DNS-based phishing filter by default for all customers.",
+    "nl": "Een motie in de Tweede Kamer vraagt internetproviders om voor al hun klanten standaard een dns-gebaseerd phishingfilter in te schakelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
   "id": "c72ee262cdb7",
   "url": "https://certvde.com/en/advisories/VDE-2026-152/",
   "title": "Weidmueller: Security routers IE-SR-4TX and IE-SR-4GT affected by PHP vulnerability",
@@ -713,6 +1785,375 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-10T09:55:31Z"
+  }
+ },
+ {
+  "id": "5213a7eda05b",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-979641.html",
+  "title": "SSA-979641 V1.0: Implicit Execution of Active Content when Opening Files Vulnerability in SIMATIC WinCC Graphics Designer",
+  "excerpt": "Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC WinCC"
+   ],
+   "summary": {
+    "en": "Siemens reports that SIMATIC WinCC Graphics Designer before V8.2 executes active content implicitly when files are opened, allowing arbitrary code execution; fixes are being prepared.",
+    "nl": "Siemens meldt dat SIMATIC WinCC Graphics Designer vóór V8.2 actieve inhoud impliciet uitvoert bij het openen van bestanden, wat code-uitvoering mogelijk maakt; fixes worden voorbereid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "5241fa3ceed8",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-970803.html",
+  "title": "SSA-970803 V1.0: Insecure User Authentication in SIMATIC SCADA and PCS 7 systems",
+  "excerpt": "The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "energy"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIMATIC SCADA",
+    "PCS 7"
+   ],
+   "summary": {
+    "en": "Siemens reports an authentication bypass in SIMATIC SCADA and PCS 7 systems that lets an on-path attacker take over user sessions and run code; fixes are being prepared.",
+    "nl": "Siemens meldt een authenticatie-omzeiling in SIMATIC SCADA- en PCS 7-systemen waarmee een aanvaller op het pad sessies kan overnemen en code kan uitvoeren; fixes worden voorbereid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "bf1c6046bd7b",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-904646.html",
+  "title": "SSA-904646 V1.2 (Last Update: 2026-11-10): Sensitive Data Exposure Vulnerability in SIPROTEC 5 Devices",
+  "excerpt": "A sensitive data exposure vulnerability in SIPROTEC 5 can allow an attacker to retrieve sensitive session data from browser history, logs, or other storage mechanisms, potentially leading to unauthorized access. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Siemens",
+    "SIPROTEC 5"
+   ],
+   "summary": {
+    "en": "Siemens updated its advisory on SIPROTEC 5 devices, where session data can be retrieved from browser history and logs, and recommends updating to new versions.",
+    "nl": "Siemens heeft zijn advisory over SIPROTEC 5-apparaten bijgewerkt; sessiegegevens kunnen uit browsergeschiedenis en logs worden gehaald, en Siemens adviseert te updaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "7c7baca726a5",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-724261.html",
+  "title": "SSA-724261 V1.0: Command Injection Vulnerability in meta-iot2050",
+  "excerpt": "meta-iot2050 ( https://github.com/siemens/meta-iot2050 ) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is preparing fixes and recommends mitigations for products where fixes are not or not yet available.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "meta-iot2050"
+   ],
+   "summary": {
+    "en": "Siemens reports a command injection flaw in the meta-iot2050 firmware update tool that lets an attacker with config file access run commands as root.",
+    "nl": "Siemens meldt een command injection-kwetsbaarheid in de firmware-updatetool van meta-iot2050 waarmee een aanvaller met toegang tot een configuratiebestand commando's als root kan uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "68ee6ca643bb",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-710379.html",
+  "title": "SSA-710379 V1.0: Multiple Vulnerabilities in Mendix Studio Pro's MCP Server",
+  "excerpt": "Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user’s browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution, or system compromise. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Mendix"
+   ],
+   "summary": {
+    "en": "Siemens advisory on multiple vulnerabilities in the Mendix Studio Pro MCP Server that could allow remote access or unauthorized requests. Fixed versions are available.",
+    "nl": "Siemens-advisering over meerdere kwetsbaarheden in de MCP Server van Mendix Studio Pro, die externe toegang of ongeautoriseerde verzoeken kunnen mogelijk maken. Er zijn herstelde versies beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:13Z"
+  }
+ },
+ {
+  "id": "f0fa770d0dd2",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-678870.html",
+  "title": "SSA-678870 V1.0: Node2Shell/Broccoli2Shell Vulnerabilities in Siemens Software Products",
+  "excerpt": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as “Node2Shell” (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products. Please also have a look on following Software Field Bulletins: Teamcenter: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 Polarion…",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Node.js"
+   ],
+   "summary": {
+    "en": "Siemens advisory on the impact of the Node2Shell (CVE-2026-111497) Brotli decoder out-of-bounds write in Node.js on various Siemens software products.",
+    "nl": "Siemens-advisering over de impact van de Node2Shell-kwetsbaarheid (CVE-2026-111497), een out-of-bounds write in de Brotli-decoder van Node.js, op diverse Siemens-softwareproducten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:13Z"
+  }
+ },
+ {
+  "id": "146f839e774a",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-651988.html",
+  "title": "SSA-651988 V1.0: Double Free vulnerability in Fortigate NGFW before V7.6.9 on RUGGEDCOM APE1808 Devices",
+  "excerpt": "Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support to receive detailed information",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Fortinet",
+    "RUGGEDCOM"
+   ],
+   "summary": {
+    "en": "Siemens advisory on a Double Free vulnerability in FortiOS affecting Fortigate NGFW before V7.6.9 on RUGGEDCOM APE1808 devices. Update to V7.6.9 or later is recommended.",
+    "nl": "Siemens-advisering over een Double Free-kwetsbaarheid in FortiOS die Fortigate NGFW vóór V7.6.9 op RUGGEDCOM APE1808-apparaten treft. Update naar V7.6.9 of later wordt aanbevolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:13Z"
+  }
+ },
+ {
+  "id": "c87889d6e673",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-435267.html",
+  "title": "SSA-435267 V1.0: Code Injection Vulnerability in ROS# Before 2.3.1",
+  "excerpt": "ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to update to the latest version.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "ROS#"
+   ],
+   "summary": {
+    "en": "Siemens advisory on a code injection vulnerability in ROS# before 2.3.1 that could let an attacker inject code via a crafted message definition file. A fix is available.",
+    "nl": "Siemens-advisering over een code injection-kwetsbaarheid in ROS# vóór 2.3.1, waarbij een aanvaller via een misvormd berichtdefinitiebestand code kan injecteren. Er is een herstelde versie beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:13Z"
+  }
+ },
+ {
+  "id": "568d0634f42d",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-392349.html",
+  "title": "SSA-392349 V1.3 (Last Update: 2026-11-10): Denial of Service Vulnerability in Industrial Devices",
+  "excerpt": "Multiple industrial devices contain a vulnerability that could allow an attacker to cause a denial of service condition. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Updated Siemens advisory on a denial of service vulnerability in multiple industrial devices. New fix versions are released for several products, with countermeasures for others.",
+    "nl": "Bijgewerkte Siemens-advisering over een denial of service-kwetsbaarheid in meerdere industriële apparaten. Voor verschillende producten zijn nieuwe herstelde versies uitgebracht, met maatregelen voor overige."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:13Z"
+  }
+ },
+ {
+  "id": "9e89959c9b49",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-242944.html",
+  "title": "SSA-242944 V1.0: Node2Shell Vulnerability in Siemens Industrial Products",
+  "excerpt": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as “Node2Shell” (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens products. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends…",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Node.js"
+   ],
+   "summary": {
+    "en": "Siemens advisory on the Node2Shell (CVE-2026-111497) Brotli decoder out-of-bounds write in Node.js affecting various Siemens industrial products. New versions are released for several products.",
+    "nl": "Siemens-advisering over de Node2Shell-kwetsbaarheid (CVE-2026-111497), een out-of-bounds write in de Brotli-decoder van Node.js, die diverse Siemens-industriële producten treft. Voor meerdere producten zijn nieuwe versies uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:13Z"
+  }
+ },
+ {
+  "id": "52181a15b723",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-105852.html",
+  "title": "SSA-105852 V1.0: Out of Bounds Read Vulnerability in Simcenter Femap",
+  "excerpt": "Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and recommends to update to the latest version.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T00:00:00Z",
+  "fetched": "2026-11-10T17:53:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "Simcenter Femap"
+   ],
+   "summary": {
+    "en": "Siemens advisory on an out-of-bounds read vulnerability in Simcenter Femap when reading X_T files, which could crash the application or allow code execution. A fix is available.",
+    "nl": "Siemens-advisering over een out-of-bounds read-kwetsbaarheid in Simcenter Femap bij het lezen van X_T-bestanden, die een crash of codeuitvoering kan veroorzaken. Er is een herstelde versie beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T17:54:13Z"
   }
  },
  {
