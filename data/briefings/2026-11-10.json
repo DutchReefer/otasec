@@ -1,0 +1,233 @@
+{
+ "date": "2026-11-10",
+ "published": "2026-11-10T09:56:03Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 16,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Refrigeration controllers dominate today: France has attributed the October sabotage of about 700 retail sites to an IRGC unit, while US agencies warn of wider attacks. Also, a follow-up on the exploited SonicWall flaw and a batch of PHP-related advisories from CERT@VDE."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Koelsysteemcontrollers staan vandaag centraal: Frankrijk wijst een IRGC-eenheid aan als dader van de sabotage bij ongeveer 700 winkellocaties in oktober, en Amerikaanse instanties waarschuwen voor bredere aanvallen. Daarnaast een update over de misbruikte SonicWall-kwetsbaarheid en een reeks PHP-advisories van CERT@VDE."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "e56a3763b149",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+     "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites"
+    },
+    {
+     "id": "4ca261bf7f30",
+     "name": "The Record",
+     "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+     "title": "France blames Iran for fridge cyberattacks, says some caused fires"
+    },
+    {
+     "id": "5fc80cbf0f59",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+     "title": "France blames Iranian hackers for supermarket attacks that sparked fires"
+    },
+    {
+     "id": "70912086ac34",
+     "name": "Security Affairs ICS-SCADA",
+     "url": "https://securityaffairs.com/202730/hacking/cisa-and-the-fbi-warn-of-attacks-against-industrial-refrigeration-controllers.html",
+     "title": "CISA and the FBI Warn Of Attacks against Industrial Refrigeration Controllers"
+    },
+    {
+     "id": "3b776466827e",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/09/copeland-xweb-refrigeration-controllers-spam-botnet/",
+     "title": "Hackers abuse refrigeration controllers to send spam and route proxy traffic"
+    },
+    {
+     "id": "7233549737fa",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/961020/Honderden+kwetsbare+Danfoss-koelsystemen+nog+steeds+op+internet+te+vinden?channel=rss",
+     "title": "Honderden kwetsbare Danfoss-koelsystemen nog steeds op internet te vinden"
+    }
+   ],
+   "source_count": 6,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "France blames Iran for refrigeration controller sabotage; CISA and FBI warn of wider attacks",
+     "summary": "France attributed the October attack on refrigeration controllers at about 700 retail sites to Shahid Kaveh, an IRGC cyber unit previously linked to attacks on controllers at US water utilities. The attackers changed defrost settings to high temperatures on the night of October 11, causing food losses and at least 15 fires. CISA, the FBI and other US agencies issued a joint advisory on attacks against industrial refrigeration and cold chain monitoring controllers worldwide, SecurityScorecard found exposed controllers hijacked for a suspected spam botnet and proxy services, and Security.NL reports hundreds of vulnerable Danfoss cooling systems are still online.",
+     "takeaway": "Check whether any refrigeration or cold chain controllers are reachable from the internet and take them offline or behind segmentation and secure remote access."
+    },
+    "nl": {
+     "heading": "Frankrijk wijt sabotage koelcontrollers aan Iran; CISA en FBI waarschuwen voor bredere aanvallen",
+     "summary": "Frankrijk schrijft de aanval van oktober op koelcontrollers bij ongeveer 700 winkellocaties toe aan Shahid Kaveh, een cybereenheid van de IRGC die eerder werd gelinkt aan aanvallen op controllers bij Amerikaanse waterbedrijven. De aanvallers zetten in de nacht van 11 oktober de ontdooi-instellingen op hoge temperaturen, wat leidde tot voedselverlies en minstens 15 branden. CISA, de FBI en andere Amerikaanse instanties publiceerden een gezamenlijk advies over aanvallen op industriële koel- en koudeketenmonitoring wereldwijd, SecurityScorecard zag gekaapte controllers voor een vermoedelijk spambotnet en proxydiensten, en Security.NL meldt dat nog honderden kwetsbare Danfoss-koelsystemen online staan.",
+     "takeaway": "Controleer of koel- of koudeketencontrollers vanaf internet bereikbaar zijn en haal ze offline of achter segmentatie en beveiligde toegang op afstand."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "de5097eb5ffd",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
+     "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Update: SonicWall fixes exploited SSL-VPN MFA bypass CVE-2026-19868",
+     "summary": "Following yesterday's KEV listing, SonicWall has released a fix for the SonicOS SSL-VPN authentication enforcement flaw. It is exploitable only if SAML is enabled and lets attackers with valid credentials bypass SAML-enforced MFA. No workarounds are listed and the company urges admins to patch quickly.",
+     "takeaway": "Patch SonicOS SSL-VPN, especially where SAML is enabled, and review VPN logins used for OT remote access."
+    },
+    "nl": {
+     "heading": "Update: SonicWall verhelpt misbruikte SSL-VPN MFA-bypass CVE-2026-19868",
+     "summary": "Na de KEV-opname van gisteren heeft SonicWall een fix uitgebracht voor de authenticatiekwetsbaarheid in de SonicOS SSL-VPN-service. Misbruik is alleen mogelijk als SAML is ingeschakeld en stelt aanvallers met geldige inloggegevens in staat de door SAML afgedwongen MFA te omzeilen. Er zijn geen workarounds en SonicWall dringt aan op snel patchen.",
+     "takeaway": "Patch SonicOS SSL-VPN, zeker waar SAML is ingeschakeld, en controleer VPN-aanmeldingen die voor OT-toegang op afstand worden gebruikt."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "3c29fb20b95c",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-141/",
+     "title": "Helmholz: Multiple Vulnerabilities in myREX24V2/myREX24V2.virtual"
+    },
+    {
+     "id": "e8d2f333a2e5",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-160/",
+     "title": "Helmholz: php2shell in myREX24V2/myREX24V2.virtual"
+    },
+    {
+     "id": "f8f68e2ff358",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-128/",
+     "title": "MB connect line: php2shell in mbCONNECT24/mymbCONNECT24"
+    },
+    {
+     "id": "c72ee262cdb7",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-152/",
+     "title": "Weidmueller: Security routers IE-SR-4TX and IE-SR-4GT affected by PHP vulnerability"
+    },
+    {
+     "id": "d2c6ba4d4179",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-131/",
+     "title": "ads-tec Industrial IT: PHP Vulnerability in ADS-TEC IRF Products and Web Terminals"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: CERT@VDE publishes PHP-related and Helmholz advisories",
+     "summary": "Helmholz myREX24V2/myREX24V2.virtual has multiple vulnerabilities that could allow RCE, DoS or information leakage (VDE-2026-141), plus a bundled PHP affected by the two \"php2shell\" vulnerabilities (VDE-2026-160). MB connect line mbCONNECT24/mymbCONNECT24 has the same php2shell issue (VDE-2026-128). Weidmueller IE-SR-4TX and IE-SR-4GT routers (before firmware 2.3.4) and ADS-TEC IRF products and web terminals bundle a PHP version affected by CVE-2026-109618, which can cause a denial of service of the web interface.",
+     "takeaway": "Check your inventory for these products, apply the fixed firmware where available and keep their web interfaces and remote access portals off untrusted networks."
+    },
+    "nl": {
+     "heading": "Overige advisories: CERT@VDE publiceert PHP-gerelateerde en Helmholz-advisories",
+     "summary": "Helmholz myREX24V2/myREX24V2.virtual kent meerdere kwetsbaarheden die RCE, DoS of informatielekkage kunnen toelaten (VDE-2026-141), plus een meegeleverde PHP-versie met de twee \"php2shell\"-kwetsbaarheden (VDE-2026-160). MB connect line mbCONNECT24/mymbCONNECT24 heeft hetzelfde php2shell-probleem (VDE-2026-128). De Weidmueller-routers IE-SR-4TX en IE-SR-4GT (firmware vóór 2.3.4) en ADS-TEC IRF-producten en webterminals bevatten een PHP-versie met CVE-2026-109618, wat een denial of service van de webinterface kan veroorzaken.",
+     "takeaway": "Controleer uw inventaris op deze producten, installeer waar beschikbaar de herziene firmware en houd webinterfaces en portalen voor toegang op afstand weg van onbetrouwbare netwerken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "d4d73a2c1c52",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/cisa/cisas-installed-base-program-to-help-oems-identify-and-secure-internet-exposed-ot-assets-across-critical-infrastructure/",
+     "title": "CISA’s Installed Base Program to help OEMs identify and secure internet-exposed OT assets across critical infrastructure"
+    },
+    {
+     "id": "20c000a16e03",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/cisa/cisa-updates-cyber-incident-reporting-form-to-improve-threat-intelligence-analysis-national-cyber-defense/",
+     "title": "CISA updates Cyber Incident Reporting form to improve threat intelligence analysis, national cyber defense"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CISA launches Installed Base Program and updates incident reporting form",
+     "summary": "CISA announced an Installed Base Program that partners with OEMs to identify and secure internet-exposed OT assets across critical infrastructure. It also released an updated cyber incident reporting form, a web-enabled version intended to improve threat intelligence analysis and national cyber defense.",
+     "takeaway": "Asset owners with US exposure should expect OEM outreach about internet-exposed devices and confirm their incident reporting routes are up to date."
+    },
+    "nl": {
+     "heading": "CISA lanceert Installed Base Program en werkt meldformulier voor incidenten bij",
+     "summary": "CISA kondigde een Installed Base Program aan dat samen met OEM's internetblootgestelde OT-assets in kritieke infrastructuur moet identificeren en beveiligen. Daarnaast verscheen een bijgewerkt meldformulier voor cyberincidenten, een webversie die de analyse van dreigingsinformatie en de nationale cyberverdediging moet verbeteren.",
+     "takeaway": "Asset owners met Amerikaanse activiteiten kunnen OEM-contact over internetblootgestelde apparaten verwachten en moeten nagaan of hun meldroutes voor incidenten actueel zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "36bd4feede8d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/features/project-watershed-250-puts-water-utility-cybersecurity-under-scrutiny-though-long-term-funding-remains-unresolved/",
+     "title": "Project Watershed 250 puts water utility cybersecurity under scrutiny, though long-term funding remains unresolved"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Project Watershed 250 puts water utility cybersecurity under scrutiny",
+     "summary": "Industrial Cyber reports that Project Watershed 250 is drawing attention to water utilities running aging SCADA networks with small security teams and tight budgets. Long-term funding remains unresolved.",
+     "takeaway": "Water operators should prioritise low-cost basics such as removing internet exposure and segmenting SCADA networks while funding questions persist."
+    },
+    "nl": {
+     "heading": "Project Watershed 250 zet cyberbeveiliging van waterbedrijven onder de loep",
+     "summary": "Industrial Cyber meldt dat Project Watershed 250 aandacht vraagt voor waterbedrijven met verouderde SCADA-netwerken, kleine securityteams en krappe budgetten. De langetermijnfinanciering is nog niet geregeld.",
+     "takeaway": "Waterbedrijven doen er goed aan eerst goedkope basismaatregelen te nemen, zoals het weghalen van internetblootstelling en het segmenteren van SCADA-netwerken, zolang de financiering onduidelijk blijft."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "9d577ccad8e4",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/nozomi-vantage-for-government-secures-fedramp-moderate-certification-for-federal-ot-and-iot-monitoring/",
+     "title": "Nozomi Vantage for Government secures FedRAMP Moderate certification for federal OT and IoT monitoring"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Nozomi Vantage for Government gains FedRAMP Moderate certification",
+     "summary": "Nozomi Networks announced that Nozomi Vantage for Government has secured FedRAMP Moderate certification. The offering covers OT and IoT monitoring for federal use.",
+     "takeaway": "US federal-facing asset owners can add this to their options for OT monitoring, but should still assess fit against their own requirements."
+    },
+    "nl": {
+     "heading": "Nozomi Vantage for Government krijgt FedRAMP Moderate-certificering",
+     "summary": "Nozomi Networks maakte bekend dat Nozomi Vantage for Government de FedRAMP Moderate-certificering heeft behaald. Het aanbod richt zich op OT- en IoT-monitoring voor federale organisaties.",
+     "takeaway": "Asset owners met Amerikaanse overheidsklanten kunnen dit meenemen als optie voor OT-monitoring, maar moeten de geschiktheid nog steeds aan de eigen eisen toetsen."
+    }
+   }
+  }
+ ]
+}

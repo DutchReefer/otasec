@@ -1,5 +1,721 @@
 [
  {
+  "id": "c72ee262cdb7",
+  "url": "https://certvde.com/en/advisories/VDE-2026-152/",
+  "title": "Weidmueller: Security routers IE-SR-4TX and IE-SR-4GT affected by PHP vulnerability",
+  "excerpt": "[VDE-2026-152] The Weidmueller security routers IE-SR-4TX and IE-SR-4GT in firmware releases prior to 2.3.4 bundle a PHP version that is affected by CVE-2026-109618. In the configuration used by the products, the vulnerability can allow an attacker to cause a denial of service by making the web interface temporarily unavailable. All other functions (Routing, Firewall etc.) are not affected. It is fixed in firmware 2.3.4. CVE-2026-109619, which was published together with CVE-2026-109618, does not affect the products.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T09:55:04Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Weidmueller"
+   ],
+   "summary": {
+    "en": "Weidmueller IE-SR-4TX and IE-SR-4GT security routers before firmware 2.3.4 bundle a PHP version affected by CVE-2026-109618, allowing a denial of service of the web interface. Fixed in firmware 2.3.4.",
+    "nl": "Weidmueller-beveiligingsrouters IE-SR-4TX en IE-SR-4GT met firmware voor 2.3.4 bevatten een PHP-versie met CVE-2026-109618, waardoor de webinterface uitvalt. Opgelost in firmware 2.3.4."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "3c29fb20b95c",
+  "url": "https://certvde.com/en/advisories/VDE-2026-141/",
+  "title": "Helmholz: Multiple Vulnerabilities in myREX24V2/myREX24V2.virtual",
+  "excerpt": "[VDE-2026-141] Multiple vulnerabilities have been discovered in Helmholz myREX24V2/myREX24V2.virtual that could allow RCE, DoS or information leakage.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T09:55:04Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Helmholz"
+   ],
+   "summary": {
+    "en": "Multiple vulnerabilities in Helmholz myREX24V2 and myREX24V2.virtual could allow remote code execution, denial of service or information leakage.",
+    "nl": "Meerdere kwetsbaarheden in Helmholz myREX24V2 en myREX24V2.virtual kunnen remote code-uitvoering, denial of service of informatielekken mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "d2c6ba4d4179",
+  "url": "https://certvde.com/en/advisories/VDE-2026-131/",
+  "title": "ads-tec Industrial IT: PHP Vulnerability in ADS-TEC IRF Products and Web Terminals",
+  "excerpt": "[VDE-2026-131] The ADS-TEC IRF1000 and IRF3000 products in firmware releases prior to 2.3.3, the IRF2000 products in firmware releases prior to 5.0.12 and the ADS-TEC web terminals DVG-SHW9019, DVG-SHW9024, DVG-MEW9016, DVG-MEW9019, DVG-MEW9024, DVG-OPW9016, DVG-OPW9019 and DVG-OPW9024 in AWT1000 software releases prior to 15.0.0 bundle a PHP version that is affected by CVE-2026-109618. In the configuration used by the products, the vulnerability allows a remote attacker to make the web interface temporarily unavailable. No authentication is required, except on IRF2000 firmware prior to…",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T09:55:04Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [
+   "CVE-2026-109618"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "ADS-TEC"
+   ],
+   "summary": {
+    "en": "ADS-TEC IRF products and web terminals bundle a PHP version affected by CVE-2026-109618, allowing a remote attacker to make the web interface unavailable. Fixed in listed firmware and software releases.",
+    "nl": "ADS-TEC IRF-producten en webterminals bevatten een PHP-versie met CVE-2026-109618, waardoor een externe aanvaller de webinterface onbruikbaar kan maken. Opgelost in genoemde firmware- en softwareversies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "e8d2f333a2e5",
+  "url": "https://certvde.com/en/advisories/VDE-2026-160/",
+  "title": "Helmholz: php2shell in myREX24V2/myREX24V2.virtual",
+  "excerpt": "[VDE-2026-160] Helmholz myREX24V2/myREX24V2.virtual ships with a bundled PHP version that is affected by two vulnerabilities known as \"php2shell\".",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T09:55:04Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Helmholz"
+   ],
+   "summary": {
+    "en": "Helmholz myREX24V2 and myREX24V2.virtual ship with a bundled PHP version affected by two php2shell vulnerabilities.",
+    "nl": "Helmholz myREX24V2 en myREX24V2.virtual worden geleverd met een PHP-versie die getroffen is door twee php2shell-kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "f8f68e2ff358",
+  "url": "https://certvde.com/en/advisories/VDE-2026-128/",
+  "title": "MB connect line: php2shell in mbCONNECT24/mymbCONNECT24",
+  "excerpt": "[VDE-2026-128] MB connect line mbCONNECT24/mymbCONNECT24 ships with a bundled PHP version that is affected by two vulnerabilities known as \"php2shell\".",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T09:55:04Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "MB connect line"
+   ],
+   "summary": {
+    "en": "MB connect line mbCONNECT24 and mymbCONNECT24 ship with a bundled PHP version affected by two php2shell vulnerabilities.",
+    "nl": "MB connect line mbCONNECT24 en mymbCONNECT24 worden geleverd met een PHP-versie die getroffen is door twee php2shell-kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "c7b27596c3bf",
+  "url": "https://www.security.nl/posting/961023/Criminelen+stelen+chatgesprekken+klanten+AI-platform+Notion_com?channel=rss",
+  "title": "Criminelen stelen chatgesprekken klanten AI-platform Notion.com",
+  "excerpt": "Criminelen zijn erin geslaagd om chatgesprekken van klanten van AI-platform Notion.com te stelen, zo heeft het bedrijf ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T09:37:43Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Criminals stole chat conversations of Notion.com AI platform customers.",
+    "nl": "Criminelen stalen chatgesprekken van klanten van het AI-platform Notion.com."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "e56a3763b149",
+  "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+  "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+  "excerpt": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T09:08:20Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "France attributes an October cyberattack on refrigeration controllers at about 700 retail sites to Iran's IRGC, which changed defrost settings and caused food losses and fires.",
+    "nl": "Frankrijk schrijft een cyberaanval op koelingscontrollers bij ongeveer 700 winkels in oktober toe aan de IRGC uit Iran, waarbij ontdooiinstellingen werden gewijzigd met voedselverlies en branden als gevolg."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "7233549737fa",
+  "url": "https://www.security.nl/posting/961020/Honderden+kwetsbare+Danfoss-koelsystemen+nog+steeds+op+internet+te+vinden?channel=rss",
+  "title": "Honderden kwetsbare Danfoss-koelsystemen nog steeds op internet te vinden",
+  "excerpt": "Ondanks de recente aanvallen op koelsystemen van supermarkten zijn nog altijd honderden kwetsbare Danfoss-koelinstallaties ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T09:02:04Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "threat",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Hundreds of vulnerable Danfoss refrigeration systems remain reachable on the internet despite recent attacks on supermarket cooling systems.",
+    "nl": "Honderden kwetsbare Danfoss-koelinstallaties zijn nog steeds via internet bereikbaar, ondanks recente aanvallen op koelsystemen van supermarkten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  },
+  "title_en": "Hundreds of vulnerable Danfoss cooling systems still findable on the internet"
+ },
+ {
+  "id": "69936e426e71",
+  "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+  "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+  "excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T08:51:25Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google released an emergency Chrome update patching a zero-day exploited in attacks, the eighth this year.",
+    "nl": "Google heeft een spoedupdate voor Chrome uitgebracht die een zero-day oplost die actief werd misbruikt, de achtste dit jaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "9c88b2c7018d",
+  "url": "https://www.security.nl/posting/961019/Apple+dicht+AirPlay-+en+Bluetooth-lekken+in+iPhones+en+Macs?channel=rss",
+  "title": "Apple dicht AirPlay- en Bluetooth-lekken in iPhones en Macs",
+  "excerpt": "Apple heeft updates uitgebracht om meerdere AirPlay- en Bluetooth-lekken in iPhones, iPads, Macs en andere apparaten te ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T08:43:00Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apple released updates fixing multiple AirPlay and Bluetooth vulnerabilities in iPhones, iPads and Macs.",
+    "nl": "Apple heeft updates uitgebracht die meerdere AirPlay- en Bluetooth-kwetsbaarheden in iPhones, iPads en Macs oplossen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "0e6f77f0820c",
+  "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+  "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+  "excerpt": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T08:16:14Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Anthropic released new Claude models and reported their performance in a multi-stage cyberattack benchmark.",
+    "nl": "Anthropic heeft nieuwe Claude-modellen uitgebracht en de prestaties ervan in een benchmark voor cyberaanvallen gerapporteerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "8c4507bea079",
+  "url": "https://www.security.nl/posting/961015/Google+waarschuwt+voor+misbruik+van+XML-kwetsbaarheid+in+Chrome?channel=rss",
+  "title": "Google waarschuwt voor misbruik van XML-kwetsbaarheid in Chrome",
+  "excerpt": "Google waarschuwt voor een XML-kwetsbaarheid in Chrome waar aanvallers misbruik van maken. Er zijn updates uitgebracht om het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T08:10:00Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google warns of attackers exploiting an XML vulnerability in Chrome and released updates.",
+    "nl": "Google waarschuwt dat aanvallers een XML-kwetsbaarheid in Chrome misbruiken en heeft updates uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "e5b8dc1ed311",
+  "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+  "title": "Fireworks AI discloses new breach after cloud provider hack",
+  "excerpt": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T07:49:58Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fireworks AI disclosed a breach in which attackers accessed development machines after compromising a third-party cloud provider.",
+    "nl": "Fireworks AI meldt een inbreuk waarbij aanvallers via een externe cloudprovider toegang kregen tot ontwikkelmachines."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "36bd4feede8d",
+  "url": "https://industrialcyber.co/features/project-watershed-250-puts-water-utility-cybersecurity-under-scrutiny-though-long-term-funding-remains-unresolved/",
+  "title": "Project Watershed 250 puts water utility cybersecurity under scrutiny, though long-term funding remains unresolved",
+  "excerpt": "For water utilities running aging SCADA networks with small security teams and tight budgets, finding a vulnerability is...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-10T07:43:23Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "industry",
+   "sectors": [
+    "water"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Project Watershed 250 aims to improve water utility cybersecurity for utilities with aging SCADA networks, but its long-term funding is still unresolved.",
+    "nl": "Project Watershed 250 wil de cyberbeveiliging van waterbedrijven met verouderde SCADA-netwerken verbeteren, maar de langetermijnfinanciering is nog onzeker."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "23afc3bbfba0",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/eric-fourrier-gitguardian-leaked-credentials/",
+  "title": "What a security leader should tell the CEO about leaked credentials",
+  "excerpt": "In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian, talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO about exposed keys. He also covers better ways to measure security progress beyond alert counts, how to handle disclosure deadlines, and why AI tools and agents are creating new … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T07:40:43Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A GitGuardian CEO interview discusses leaked credentials, personal liability for security leaders and measuring security progress.",
+    "nl": "Een interview met de CEO van GitGuardian gaat over gelekte credentials, persoonlijke aansprakelijkheid van security-leiders en het meten van voortgang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "9844bc61915e",
+  "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+  "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+  "excerpt": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T06:52:54Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [
+   "CVE-2026-125350"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google released Chrome updates patching nine vulnerabilities, including an XML use-after-free bug exploited in the wild.",
+    "nl": "Google heeft Chrome-updates uitgebracht die negen kwetsbaarheden oplossen, waaronder een actief misbruikte use-after-free-fout in XML."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "329980cc6fad",
+  "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+  "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+  "excerpt": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T06:44:36Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "N-able took N-central Hosted offline after researchers disclosed over 30 vulnerabilities in its IT management software.",
+    "nl": "N-able heeft N-central Hosted offline gehaald nadat onderzoekers meer dan 30 kwetsbaarheden in de IT-beheersoftware openbaar maakten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "d4d73a2c1c52",
+  "url": "https://industrialcyber.co/cisa/cisas-installed-base-program-to-help-oems-identify-and-secure-internet-exposed-ot-assets-across-critical-infrastructure/",
+  "title": "CISA’s Installed Base Program to help OEMs identify and secure internet-exposed OT assets across critical infrastructure",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) announced launch of an Installed Base Program that partners with...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-10T06:37:24Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA launched an Installed Base Program to help OEMs identify and secure internet-exposed OT assets across critical infrastructure.",
+    "nl": "CISA is een Installed Base Program gestart om fabrikanten te helpen internet-blootgestelde OT-assets in kritieke infrastructuur te identificeren en te beveiligen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "20c000a16e03",
+  "url": "https://industrialcyber.co/cisa/cisa-updates-cyber-incident-reporting-form-to-improve-threat-intelligence-analysis-national-cyber-defense/",
+  "title": "CISA updates Cyber Incident Reporting form to improve threat intelligence analysis, national cyber defense",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) released an updated cyber incident reporting form, an enhanced web-enabled...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-10T06:34:47Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA released an updated cyber incident reporting form intended to improve threat intelligence analysis and national cyber defense.",
+    "nl": "CISA heeft een bijgewerkt formulier voor het melden van cyberincidenten uitgebracht, bedoeld om dreigingsanalyse en nationale cyberverdediging te verbeteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "b579a343e6b6",
+  "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+  "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T06:31:42Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [
+   "CVE-2026-123218"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added flaws in GPUStack, FreeSWITCH, OpenSSH and IBM Aspera Faspex to its KEV catalog due to active exploitation.",
+    "nl": "CISA heeft kwetsbaarheden in GPUStack, FreeSWITCH, OpenSSH en IBM Aspera Faspex aan de KEV-catalogus toegevoegd vanwege actief misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "9d577ccad8e4",
+  "url": "https://industrialcyber.co/news/nozomi-vantage-for-government-secures-fedramp-moderate-certification-for-federal-ot-and-iot-monitoring/",
+  "title": "Nozomi Vantage for Government secures FedRAMP Moderate certification for federal OT and IoT monitoring",
+  "excerpt": "Nozomi Networks, vendor of operational technology (OT), Internet of Things (IoT), and Cyber Physical Systems (CPS) security solutions,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-10T06:30:16Z",
+  "fetched": "2026-11-10T09:55:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Nozomi Networks"
+   ],
+   "summary": {
+    "en": "Nozomi Networks announced FedRAMP Moderate certification for its Vantage for Government platform, which monitors OT and IoT environments in federal settings.",
+    "nl": "Nozomi Networks heeft FedRAMP Moderate-certificering aangekondigd voor zijn Vantage for Government platform, dat OT- en IoT-omgevingen in federale settings monitort."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:31Z"
+  }
+ },
+ {
+  "id": "f525bbcbe013",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/abnormal-ai-behavioral-security-report/",
+  "title": "Security teams want to spot unusual AI agent behavior while they’re still defining normal",
+  "excerpt": "AI agents topped the list of planned investments in behavioral monitoring in Abnormal AI’s 2026 State of Behavioral Security Report. Asked where their organizations would invest most over the next two years, 43% of respondents chose AI agents, more than three times the share who chose API integrations, the next most common answer. Security professionals were divided on how well their organizations could establish and maintain baselines for normal AI agent behavior. Nearly half said … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T06:00:42Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Abnormal AI's 2026 report finds AI agents are the top planned investment in behavioral monitoring, while security teams are divided on baselining normal agent behavior.",
+    "nl": "Het Abnormal AI-rapport 2026 meldt dat AI-agents de belangrijkste geplande investering in gedragsmonitoring zijn, terwijl securityteams verdeeld zijn over het vastleggen van normaal gedrag."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:31Z"
+  }
+ },
+ {
+  "id": "e2069e4ceee4",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/acronis-ai-agent-cyberattacks-report/",
+  "title": "Over 575 malicious OpenClaw skills delivered malware to Windows and macOS",
+  "excerpt": "Cybercriminals are using AI agents to coordinate attacks, stolen credentials to access linked services, and tools that interfere with intrusion detection and system recovery, according to Acronis TRU Cyber Pulse 2026. One operator coordinates activity across several countries In an investigation known as BOSSAI, researchers documented how one operator connected more than 10 AI models to tools for reconnaissance, scanning and exploitation. Through WeChat and LINE, the operator could assign tasks, monitor agent activity and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T05:30:59Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Acronis TRU Cyber Pulse 2026 reports over 575 malicious OpenClaw skills delivered malware to Windows and macOS, and attackers using AI agents to coordinate operations.",
+    "nl": "Acronis TRU Cyber Pulse 2026 meldt dat meer dan 575 kwaadaardige OpenClaw-skills malware leverden aan Windows- en macOS-systemen, en dat aanvallers AI-agents inzetten voor coördinatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:31Z"
+  }
+ },
+ {
+  "id": "2f759eae153f",
+  "url": "https://www.helpnetsecurity.com/2026/11/10/cybersecurity-jobs-available-right-now-november-10-2026/",
+  "title": "Cybersecurity jobs available right now: November 10, 2026",
+  "excerpt": "Application Security Engineer ONE ZERO BANK | Israel | Hybrid – View job details As an Application Security Engineer, you will work with developers to build security into the software development lifecycle. You will use security reviews and threat modeling to find vulnerabilities in web and mobile apps, APIs, CI/CD pipelines, and the software supply chain, then help developers fix them. You will automate security controls and build internal tools, including AI-powered tools for code … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-10T05:00:58Z",
+  "fetched": "2026-11-10T09:55:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A job listing page posts cybersecurity roles, including an Application Security Engineer position at ONE ZERO BANK.",
+    "nl": "Een vacaturepagina toont cybersecurityfuncties, waaronder een Application Security Engineer-functie bij ONE ZERO BANK."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-10T09:55:31Z"
+  }
+ },
+ {
   "id": "6e1eca169247",
   "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
