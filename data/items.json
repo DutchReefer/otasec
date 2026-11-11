@@ -1,5 +1,33 @@
 [
  {
+  "id": "d62040292e65",
+  "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
+  "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
+  "excerpt": "An indictment unsealed Tuesday says the broader campaign, targeting Jewish and American sites, included attacks on synagogues in Belgium, the Netherlands and London, and U.S. bank buildings in Amsterdam and Paris.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T16:57:00Z",
+  "fetched": "2026-11-11T17:06:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An unsealed US indictment says an Iran-backed network directed attacks on synagogues, bank buildings and a London target.",
+    "nl": "Een openbaar gemaakte Amerikaanse aanklacht stelt dat een Iran-gesteund netwerk aanvallen op synagogen, bankgebouwen en een doelwit in Londen aanstuurde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T17:06:06Z"
+  }
+ },
+ {
   "id": "744297a3900b",
   "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
@@ -27,6 +55,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-11T16:45:45Z"
+  }
+ },
+ {
+  "id": "8b35f69eac70",
+  "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+  "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+  "excerpt": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T16:12:46Z",
+  "fetched": "2026-11-11T17:06:00Z",
+  "cves": [
+   "CVE-2026-108186"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Zoom released updates for Zoom Workplace for Windows, including CVE-2026-108186, a critical privilege escalation flaw.",
+    "nl": "Zoom heeft updates uitgebracht voor Zoom Workplace voor Windows, waaronder CVE-2026-108186, een kritieke fout voor privilege-escalatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T17:06:06Z"
   }
  },
  {
