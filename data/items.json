@@ -1,5 +1,1342 @@
 [
  {
+  "id": "1df3d3728c61",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+  "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+  "excerpt": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T15:12:59Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers use self-hosted AntiFox, an open-source agentic penetration testing platform on Alibaba Cloud, to target web services and AWS environments.",
+    "nl": "Aanvallers gebruiken zelf gehoste AntiFox, een open-source agentisch pentestplatform op Alibaba Cloud, om webdiensten en AWS-omgevingen aan te vallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "a5dec434b790",
+  "url": "https://www.security.nl/posting/961266/ASN-klant+krijgt+33_000+euro+schade+door+bankhelpdeskfraude+niet+vergoed?channel=rss",
+  "title": "ASN-klant krijgt 33.000 euro schade door bankhelpdeskfraude niet vergoed",
+  "excerpt": "Een klant van ASN die het slachtoffer van bankhelpdeskfraude werd krijgt de ruim 33.000 euro schade niet vergoed. Dat heeft het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T15:08:46Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A customer of ASN lost over 33,000 euro to bank helpdesk fraud and will not be compensated, according to a ruling.",
+    "nl": "Een klant van ASN lijdt ruim 33.000 euro schade door bankhelpdeskfraude en krijgt deze niet vergoed, volgens een uitspraak."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "04567b83f07c",
+  "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+  "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+  "excerpt": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T15:01:11Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Flare reports that eBPF rootkits targeting Linux systems are spreading through underground forums, with source code and tutorials shared.",
+    "nl": "Flare meldt dat eBPF-rootkits voor Linux zich verspreiden via underground fora, waar broncode en handleidingen worden gedeeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "5b16d08ca4a5",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/kai-autonomous-defense-platform/",
+  "title": "Kai extends Autonomous Defense Platform visibility to internet-facing assets",
+  "excerpt": "Kai has announced External Attack Surface Management (EASM), now available on the Kai Autonomous Defense Platform. The company also launched Kai Labs, an expanded research team focused on the hardest open problems where AI meets security. Most exposure management programs only see inside, so they miss the exposures attackers find first. With EASM, Kai unifies internal and external exposures into a single remediation plan, accelerating the path to zero. The external view sharpens what counts … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T14:55:27Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kai announces External Attack Surface Management on its Autonomous Defense Platform and launches Kai Labs, a research team.",
+    "nl": "Kai kondigt External Attack Surface Management aan op zijn Autonomous Defense Platform en start Kai Labs, een onderzoeksteam."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "ccb0d5e92404",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/git-project-security-updates/",
+  "title": "Git fixes six vulnerabilities, including code execution during recursive clones",
+  "excerpt": "The Git project has released security updates addressing six vulnerabilities that could allow attackers to execute code, write to unintended files or cause memory corruption when Git processes malicious repositories or other specially prepared input. Code execution during cloning A vulnerability tracked as CVE-2026-111760 stems from an integer truncation in Git’s handling of its index. An extremely long file path can pass Git’s safety checks under one name and then be written under a shorter … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T14:26:12Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [
+   "CVE-2026-111760"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Git project released security updates fixing six vulnerabilities, including code execution during recursive clones.",
+    "nl": "Het Git-project heeft beveiligingsupdates uitgebracht die zes kwetsbaarheden verhelpen, waaronder codeuitvoering tijdens recursieve clones."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "4c68d85247be",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0483",
+  "title": "NCSC-2026-0483 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiSandbox",
+  "excerpt": "Fortinet heeft een kwetsbaarheid verholpen in meerdere versies van FortiSandbox. De kwetsbaarheid betreft een Cross-Site Scripting (XSS)-probleem als gevolg van onvoldoende neutralisatie van invoer tijdens het genereren van webpagina's. Een niet-geauthenticeerde aanvaller kan misbruik maken van deze kwetsbaarheid door speciaal vervaardigde HTTP-verzoeken te versturen en via social engineering een gebruiker te verleiden een kwaadaardige link of pagina te openen. Hierdoor kan kwaadaardige JavaScript-code worden uitgevoerd binnen de context van de webapplicatie. Dit kan leiden tot…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-11T14:18:38Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fortinet fixed a cross-site scripting vulnerability in multiple versions of FortiSandbox, exploitable via crafted HTTP requests and social engineering.",
+    "nl": "Fortinet heeft een cross-site scripting-kwetsbaarheid in meerdere versies van FortiSandbox verholpen, misbruikbaar via speciale HTTP-verzoeken en social engineering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "c0e1acf321ca",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0482",
+  "title": "NCSC-2026-0482 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Photoshop Desktop",
+  "excerpt": "Adobe heeft meerdere kwetsbaarheden verholpen in Adobe Photoshop Desktop. De kwetsbaarheden in Adobe Photoshop Desktop omvatten onder andere NULL Pointer Dereference, heap-based buffer overflow, uncontrolled recursion, Divide By Zero, out-of-bounds read en write, en Use After Free. Deze kwetsbaarheden kunnen worden misbruikt door het verwerken van speciaal vervaardigde bestanden. Afhankelijk van het type kwetsbaarheid kan exploitatie leiden tot het crashen van de applicatie (denial of service), het uitvoeren van willekeurige code met de rechten van de aangemelde gebruiker of het uitlekken van…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-11T14:11:16Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Adobe fixed multiple vulnerabilities in Photoshop Desktop that can be exploited via crafted files, causing crashes or code execution.",
+    "nl": "Adobe heeft meerdere kwetsbaarheden in Photoshop Desktop verholpen die via speciaal vervaardigde bestanden misbruikt kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "44d2c1deba0a",
+  "url": "https://www.security.nl/posting/961248/Gemeente+Utrecht+onderzoekt+verbod+op+dragen+van+camerabrillen?channel=rss",
+  "title": "Gemeente Utrecht onderzoekt verbod op dragen van camerabrillen",
+  "excerpt": "De gemeente Utrecht gaat onderzoeken of het dragen van camerabrillen verboden moet worden. Dat heeft het College van B&W laten ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T14:07:21Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The municipality of Utrecht will investigate whether wearing camera glasses should be banned.",
+    "nl": "De gemeente Utrecht onderzoekt of het dragen van camerabrillen verboden moet worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "4ee79e496271",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0481",
+  "title": "NCSC-2026-0481 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager",
+  "excerpt": "Adobe heeft meerdere kwetsbaarheden verholpen in Adobe Experience Manager. De kwetsbaarheden in Adobe Experience Manager (AEM) betreffen onder andere onjuiste controle van codegeneratiemechanismen (Code Injection), waardoor een aanvaller met lage privileges zonder gebruikersinteractie willekeurige code kan uitvoeren en zijn privileges kan verhogen. Daarnaast zijn meerdere Cross-Site Scripting (XSS)-kwetsbaarheden vastgesteld, waaronder stored, reflected en DOM-based XSS. Hierdoor kan een aanvaller kwaadaardige JavaScript-code injecteren en uitvoeren in de browser van een gebruiker. Verder…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-11T14:07:15Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Adobe fixed multiple vulnerabilities in Experience Manager, including code injection and XSS flaws that can allow code execution.",
+    "nl": "Adobe heeft meerdere kwetsbaarheden in Experience Manager verholpen, waaronder code-injectie en XSS-lekken die codeuitvoering mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "f39015d31d5f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0480",
+  "title": "NCSC-2026-0480 [1.00] [M/H] Kwetsbaarheid verholpen in GitLab",
+  "excerpt": "GitLab heeft een kwetsbaarheid verholpen in GitLab Community Edition (CE) en Enterprise Edition (EE). De kwetsbaarheid betreft een heap buffer overflow veroorzaakt door onjuiste verwerking van grote conflict-marker groottes in kwaadaardige repositories. Dit kan leiden tot heap corruptie of het crashen van de applicatie tijdens merge-operaties.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-11T14:05:22Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GitLab fixed a heap buffer overflow triggered by malicious repositories with large conflict markers, causing corruption or crashes during merges.",
+    "nl": "GitLab heeft een heap buffer overflow verholpen die via kwaadaardige repositories met grote conflictmarkers kan optreden en crashes veroorzaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "7fc0ff6aee2a",
+  "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+  "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+  "excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T14:01:00Z",
+  "fetched": "2026-11-11T15:17:10Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Threat actors targeted Qlik Sense servers in October 2026 with PowerShell reverse shell commands, with activity also linked to ActiveMQ and Veeam exploits.",
+    "nl": "Dreigactoren richtten zich in oktober 2026 op Qlik Sense-servers met PowerShell reverse shells, met activiteit die ook aan ActiveMQ- en Veeam-exploits gekoppeld is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "459bd1bd3c67",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/embed-security-expands-ai-soc-platform/",
+  "title": "Embed Security lets analysts teach its AI SOC Platform how to investigate",
+  "excerpt": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organizations can extend Embed’s built-in security expertise with their own knowledge and operating practices. Rather than programming workflows, analysts can teach Embed what they know, and its decision layer applies that expertise autonomously. “Everyone is telling security teams to build agents. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T13:54:12Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Embed Security adds capabilities letting analysts teach its AI SOC Platform how to investigate and improve detections.",
+    "nl": "Embed Security voegt mogelijkheden toe waarmee analisten hun AI SOC-platform leren onderzoeken en detecties verbeteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "2b63f8aad1bf",
+  "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+  "title": "Poland shuts down government services platform ePUAP following cyberattack",
+  "excerpt": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T13:18:00Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Poland shut down the ePUAP government services platform after a cyberattack that targeted its nationwide system for official documents.",
+    "nl": "Polen heeft het overheidsplatform ePUAP offline gehaald na een cyberaanval op het landelijke systeem voor officiele documenten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "424f8e5ef5ac",
+  "url": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
+  "title": "Britain, France set out first guidelines for commercial hacking firms",
+  "excerpt": "The guidelines call on businesses that develop, sell or finance CCICs to vet their customers, establish technical safeguards against misuse and to maintain systems for monitoring and reporting abuses.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T13:11:00Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Britain and France published first guidelines for commercial hacking firms, asking vendors to vet customers and safeguard against misuse.",
+    "nl": "Groot-Brittannie en Frankrijk publiceerden eerste richtlijnen voor commerciele hackbedrijven, met eisen voor klantscreening en misbruikpreventie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "1162c7b47262",
+  "url": "https://www.security.nl/posting/961234/%27Storing+Rijksoverheid_nl+en+OM_nl+door+menselijke+fout+met+update%27?channel=rss",
+  "title": "'Storing Rijksoverheid.nl en OM.nl door menselijke fout met update'",
+  "excerpt": "Een storing waardoor de websites van de Rijksoverheid, het Openbaar Ministerie en het Koninklijk Huis een half uur niet ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T13:09:20Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The websites of the Dutch government, Public Prosecution Service and Royal House were down for half an hour due to a human error in an update.",
+    "nl": "De websites van de Rijksoverheid, het Openbaar Ministerie en het Koninklijk Huis lagen een half uur plat door een menselijke fout bij een update."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "40b0f49a3d6e",
+  "url": "https://www.security.nl/posting/961231/N-able+komt+met+hotfix+voor+aangevallen+kwetsbaarheden+in+N-central?channel=rss",
+  "title": "N-able komt met hotfix voor aangevallen kwetsbaarheden in N-central",
+  "excerpt": "Softwarebedrijf N-able heef een hotfix uitgebracht voor meerdere kritieke kwetsbaarheden in N-central die bij aanvallen zijn ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T12:52:50Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "N-able released a hotfix for critical N-central vulnerabilities that were exploited in attacks.",
+    "nl": "N-able heeft een hotfix uitgebracht voor kritieke N-central-kwetsbaarheden die bij aanvallen zijn misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "4d16177dd74e",
+  "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+  "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+  "excerpt": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T12:32:27Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "N-able released hotfixes for zero-day bugs in its N-central RMM platform and took vulnerable hosted environments offline.",
+    "nl": "N-able heeft hotfixes uitgebracht voor zero-day-bugs in het N-central RMM-platform en vulnerable gehoste omgevingen offline gehaald."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "14caa111eec6",
+  "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+  "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+  "excerpt": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T12:19:40Z",
+  "fetched": "2026-11-11T15:17:10Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers at Claroc found 35,578 Grok-built apps open without sign-in, some leaking internal business data and passwords.",
+    "nl": "Onderzoekers van Claroc vonden 35.578 met Grok gebouwde apps die zonder inloggen toegankelijk zijn, waarvan sommige interne gegevens en wachtwoorden lekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "de18400249b3",
+  "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+  "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+  "excerpt": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T12:01:59Z",
+  "fetched": "2026-11-11T15:17:10Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Token describes lessons from building an AI browser agent that broke default security rules on identity, access and traceability.",
+    "nl": "Token beschrijft lessen uit het bouwen van een AI-browseragent die standaard beveiligingsregels rond identiteit, toegang en traceerbaarheid schond."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "16cd3ca2d475",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/rubrik-devops-protection/",
+  "title": "Rubrik enhances DevOps Protection to preserve legitimate work during recovery",
+  "excerpt": "Rubrik has announced cyber recovery capabilities for DevOps platforms Microsoft Azure DevOps and GitHub. With built-in anomaly detection, blast radius investigation, and surgical recovery, organizations will be able to detect suspicious activity on their code, instantly scope the impact of an attack, and undo the attackers’ changes from air-gapped, immutable backups, without disrupting legitimate developer work. “An organization’s source code is where innovation lives, and attackers know it,” said Anneka Gupta, Chief Product Officer at … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T12:01:53Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Rubrik announces cyber recovery capabilities for Azure DevOps and GitHub, including anomaly detection and surgical recovery from immutable backups.",
+    "nl": "Rubrik kondigt herstelmogelijkheden voor Azure DevOps en GitHub aan, met anomaliedetectie en gerichte herstel uit onveranderbare back-ups."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:29Z"
+  }
+ },
+ {
+  "id": "b80a24c89312",
+  "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+  "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+  "excerpt": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T12:00:53Z",
+  "fetched": "2026-11-11T15:17:10Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "eMudhra"
+   ],
+   "summary": {
+    "en": "eMudhra has revoked 8 more intermediate certificate authorities after an October key compromise linked to a flawed in-house Python script.",
+    "nl": "eMudhra heeft 8 extra tussenliggende certificeringsautoriteiten ingetrokken na een sleutelcompromittering in oktober, veroorzaakt door een fout in een intern Python-script."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "10f31ec690c6",
+  "url": "https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences",
+  "title": "NCSC scheme will help critical organisations test their cyber defences",
+  "excerpt": "New NCSC Cyber Adversary Simulation scheme will help critical organisations strengthen their resilience through rigorous, real-world testing by trusted providers.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-11-11T12:00:00Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC has launched a Cyber Adversary Simulation scheme so critical organisations can test their defences through realistic testing by trusted providers.",
+    "nl": "Het NCSC heeft een Cyber Adversary Simulation-schema gelanceerd waarmee kritieke organisaties hun verdediging kunnen testen via realistische tests door vertrouwde aanbieders."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "e27caf097771",
+  "url": "https://www.security.nl/posting/961195/Firefox+laat+gebruikers+meer+op+elkaar+lijken+om+fingerprinting+tegen+te+gaan?channel=rss",
+  "title": "Firefox laat gebruikers meer op elkaar lijken om fingerprinting tegen te gaan",
+  "excerpt": "Firefox heeft maatregelen aan de browser doorgevoerd die ervoor moeten zorgen dat gebruikers voor websites meer op elkaar ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T11:33:15Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Firefox has changed browser behaviour so users look more alike to websites, to counter fingerprinting.",
+    "nl": "Firefox heeft de browser aangepast zodat gebruikers er voor websites meer op elkaar uitzien, om fingerprinting tegen te gaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "f2082556da54",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+  "title": "Microsoft fixes audio issues caused by September security updates",
+  "excerpt": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T11:18:36Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft says its November 2026 cumulative updates fix USB audio issues caused by Windows security updates since September.",
+    "nl": "Microsoft meldt dat de cumulatieve updates van november 2026 USB-audioproblemen oplossen die door Windows-beveiligingsupdates sinds september zijn ontstaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "6842a4a1ec11",
+  "url": "https://www.security.nl/posting/961187/Nederlandse+verenigingen+en+clubs+getroffen+door+datalek+bij+AllUnited?channel=rss",
+  "title": "Nederlandse verenigingen en clubs getroffen door datalek bij AllUnited",
+  "excerpt": "Nederlandse verenigingen en clubs zijn getroffen door een datalek bij softwarebedrijf AllUnited, waarbij persoonlijke gegevens ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T11:00:50Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "AllUnited"
+   ],
+   "summary": {
+    "en": "Dutch associations and clubs have been affected by a data breach at software company AllUnited, exposing personal data.",
+    "nl": "Nederlandse verenigingen en clubs zijn getroffen door een datalek bij softwarebedrijf AllUnited, waarbij persoonlijke gegevens zijn gelekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "181485e138f1",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/microsoft-hidden-ai-backdoors-lazarus/",
+  "title": "Microsoft researchers demonstrate hidden backdoor technique for AI agents",
+  "excerpt": "Microsoft researchers have demonstrated how small changes to an AI model can implant a hidden backdoor, causing an agent to execute an attacker’s command when a specific trigger appears. The technique, called Lazarus, requires no model retraining and allows the agent to behave normally during standard safety evaluations. The company has not observed threat actors weaponizing the technique, but says the research highlights a security concern for organizations that give AI agents access to terminals, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T10:55:54Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft researchers showed a backdoor technique called Lazarus that can make AI agents run attacker commands on a trigger, without observed exploitation.",
+    "nl": "Microsoft-onderzoekers lieten een backdoor-techniek genaamd Lazarus zien waarmee AI-agents commando's van aanvallers kunnen uitvoeren, zonder waargenomen misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "6be60268fc3d",
+  "url": "https://www.security.nl/posting/793815/Wat+is+een+%E2%80%98hele+goede+reden%E2%80%99+om+een+sollicitant+w%C3%A9l+op+te+zoeken+op+sociale+media%3F?channel=rss",
+  "title": "Wat is een ‘hele goede reden’ om een sollicitant wél op te zoeken op sociale media?",
+  "excerpt": "Juridische vraag: Volgens de Autoriteit Persoonsgegevens mag je alleen als je een ‘hele goede reden’ hebt, sollicitanten ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T10:38:18Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Data Protection Authority says employers may only search job applicants on social media with a very good reason.",
+    "nl": "De Autoriteit Persoonsgegevens stelt dat werkgevers sollicitanten alleen op sociale media mogen opzoeken met een hele goede reden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "a7c85638a3aa",
+  "url": "https://www.security.nl/posting/961181/AP%3A+Belastingdienst+beschermt+gegevens+Nederlanders+niet+goed+genoeg?channel=rss",
+  "title": "AP: Belastingdienst beschermt gegevens Nederlanders niet goed genoeg",
+  "excerpt": "De Belastingdienst beschermt de gegevens van Nederlanders niet goed genoeg. De fiscus houdt zich op veel belangrijke terreinen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T10:28:00Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Data Protection Authority finds the Belastingdienst does not adequately protect citizens' data in many important areas.",
+    "nl": "De Autoriteit Persoonsgegevens constateert dat de Belastingdienst gegevens van Nederlanders op veel belangrijke terreinen onvoldoende beschermt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "03da239ae90d",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0479",
+  "title": "NCSC-2026-0479 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten",
+  "excerpt": "Siemens heeft kwetsbaarheden verholpen in diverse producten zoals SIMATIC en COMOS. De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade: - Denial-of-Service (DoS) - Manipulatie, wijziging of verwijdering van gegevens - Omzeilen van beveiligingsmaatregelen - Omzeilen van authenticatie - Ongeautoriseerde toegang tot systemen en gevoelige gegevens - (Remote) code execution met gebruikersrechten - (Remote) code execution met root-/administratorrechten - Verhogen van rechten",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-11T10:15:57Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "NCSC-NL reports Siemens fixed vulnerabilities in SIMATIC and COMOS products that could enable denial-of-service, code execution and unauthorised access.",
+    "nl": "NCSC-NL meldt dat Siemens kwetsbaarheden in SIMATIC- en COMOS-producten heeft verholpen die denial-of-service, code-uitvoering en ongeautoriseerde toegang mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  },
+  "title_en": "NCSC-2026-0479 [1.00] [M/H] Vulnerabilities fixed in Siemens products"
+ },
+ {
+  "id": "3a6c80d2fbbd",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+  "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+  "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T10:12:08Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "CISA warns that attackers are actively exploiting a high-severity Cisco BroadWorks vulnerability, a communications platform not specific to industrial operations.",
+    "nl": "CISA waarschuwt dat aanvallers een kwetsbaarheid met hoge ernst in Cisco BroadWorks actief misbruiken, een communicatieplatform dat niet specifiek industrieel is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "9c532091828b",
+  "url": "https://certvde.com/en/advisories/VDE-2026-087/",
+  "title": "Beckhoff: Exposed IOCTLs with insufficient access control in TcRouter.sys",
+  "excerpt": "[VDE-2026-087] The vulnerabilities allow local low privileged users or processes to gain full system access on the affected devices through exposed IOCTL function calls.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-11T10:00:00Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Beckhoff"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-087 reports exposed IOCTLs in Beckhoff TcRouter.sys with insufficient access control, letting local low-privileged users gain full system access.",
+    "nl": "CERT@VDE-advisory VDE-2026-087 meldt blootgestelde IOCTL's in Beckhoff TcRouter.sys met onvoldoende toegangscontrole, waardoor lokale gebruikers met lage rechten volledige systeemtoegang kunnen krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "2519a28cef68",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/ubuntu-certificate-revocation-curl-openssl/",
+  "title": "Ubuntu certificate revocation checks arrive in curl, OpenSSL is next",
+  "excerpt": "Ubuntu 26.10 ships curl with certificate revocation checking built in. The check comes from upki, a project from the rustls developers. Ubuntu’s developers ran the same curl command on both releases: Ubuntu 26.04 accepted a revoked certificate and connected, while 26.10 refused it. A certificate authority revokes a certificate when it should stop being trusted before it expires. OpenSSL checks a certificate chain by default, but it doesn’t check whether any certificate in that chain … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T09:46:23Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Ubuntu",
+    "OpenSSL"
+   ],
+   "summary": {
+    "en": "Ubuntu 26.10 ships curl with built-in certificate revocation checking, while OpenSSL does not check revocation for the whole chain by default.",
+    "nl": "Ubuntu 26.10 levert curl met ingebouwde controle op certificaatintrekking, terwijl OpenSSL standaard niet de hele certificaatketen op intrekking controleert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "749d62e11797",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/red-hat-openshift-5/",
+  "title": "Red Hat OpenShift 5 brings autonomous troubleshooting to hybrid clouds",
+  "excerpt": "Red Hat has announced the general availability of Red Hat OpenShift 5, bringing built-in operational intelligence, zero trust security and a longer, predictable lifecycle to the hybrid cloud application platform powered by Kubernetes. Purpose-built to streamline complex operations across data centers, cloud environments and disconnected deployments, the evolved platform enables IT teams to deploy AI workloads, virtual machines (VMs) and containerized workloads side-by-side through a simple, in-place update from Red Hat OpenShift 4. What Red … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T09:31:00Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Red Hat"
+   ],
+   "summary": {
+    "en": "Red Hat has announced general availability of OpenShift 5 with built-in operational intelligence and zero trust security features.",
+    "nl": "Red Hat heeft de algemene beschikbaarheid van OpenShift 5 aangekondigd, met ingebouwde operationele intelligentie en zero trust-beveiliging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "9a0edbad01c3",
+  "url": "https://www.security.nl/posting/961174/Beveiligingslek+in+Cisco+BroadWorks+misbruikt+bij+aanvallen%2C+meldt+VS?channel=rss",
+  "title": "Beveiligingslek in Cisco BroadWorks misbruikt bij aanvallen, meldt VS",
+  "excerpt": "Een kwetsbaarheid in Cisco BroadWorks wordt misbruikt bij aanvallen, zo waarschuwt het Amerikaanse cyberagentschap CISA. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T09:27:51Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "CISA warns that attackers are actively exploiting a Cisco BroadWorks vulnerability, a communications platform not specific to industrial operations.",
+    "nl": "CISA waarschuwt dat aanvallers een kwetsbaarheid in Cisco BroadWorks actief misbruiken, een communicatieplatform dat niet specifiek industrieel is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "072798f26ef2",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/druva-agent-recovery/",
+  "title": "Druva helps restore AI agents without rolling back entire environments",
+  "excerpt": "Druva has announced Druva Agent Recovery, a new set of AI Resilience capabilities that keep the business running by quickly restoring AI agents when they are deleted or unexpectedly changed. Support begins with Microsoft Copilot Studio, Microsoft’s platform for building custom AI agents. Announcement also expands protection across Microsoft Power Platform, adding Power Apps and Power Automate to existing Power BI support. Additionally, Druva is introducing the industry’s first data protection integrations with Azure SRE … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T09:23:04Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Druva",
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Druva has announced Agent Recovery, a product for restoring deleted or changed AI agents in Microsoft Copilot Studio and Power Platform.",
+    "nl": "Druva heeft Agent Recovery aangekondigd, een product voor het herstellen van verwijderde of gewijzigde AI-agents in Microsoft Copilot Studio en Power Platform."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "10d60a2c5b6f",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/fingerprint-fraud-score/",
+  "title": "Fingerprint trains specialized models to detect distinct fraud types",
+  "excerpt": "Fingerprint has launched Fraud Score, a predictive fraud signal trained directly on customers’ own fraud outcomes and powered by Fingerprint’s device intelligence and machine learning models. Fraud Score learns the fraud types at each organization to help them identify fraud more accurately without having to build and maintain their own models. Basic risk scoring can’t match the many types of fraud “Businesses today face a wider range of fraud threats, amplified by AI-powered techniques,” said … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T09:12:57Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Fingerprint"
+   ],
+   "summary": {
+    "en": "Fingerprint has launched Fraud Score, a fraud signal trained on customers' own fraud outcomes.",
+    "nl": "Fingerprint heeft Fraud Score gelanceerd, een fraudesignaal dat is getraind op de eigen fraudegevallen van klanten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "fbc804163b58",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+  "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+  "excerpt": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T09:07:27Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft fixed Outlook sign-in and mail delivery issues on Exchange Server after October 2026 Windows Server security updates.",
+    "nl": "Microsoft heeft problemen met Outlook-aanmelding en mailbezorging op Exchange Server opgelost die ontstonden na de Windows Server-beveiligingsupdates van oktober 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "779dd287dc5d",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/orca-security-ai-security/",
+  "title": "Orca Security adds visibility into AI-generated code and agent risks",
+  "excerpt": "Orca Security has announced new capabilities to help organizations discover and secure AI-generated applications and autonomous agents across their cloud environments. The expansion builds on Orca’s AI Security offering, enabling security teams to uncover previously unknown AI applications, assess the risks associated with autonomous agents, and gain deeper visibility into AI-generated code. AI is fundamentally changing who builds software and how it reaches production. Employees across business functions are creating applications using AI-powered tools, while … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T09:05:46Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Orca Security"
+   ],
+   "summary": {
+    "en": "Orca Security has added capabilities to discover and secure AI-generated applications and autonomous agents in cloud environments.",
+    "nl": "Orca Security heeft mogelijkheden toegevoegd om AI-gegenereerde applicaties en autonome agents in cloudomgevingen te ontdekken en te beveiligen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "85443fd0f469",
+  "url": "https://www.security.nl/posting/961028/Kamermotie+wil+aanpak+hard-+en+software+waarmee+mensen+zijn+te+bespioneren?channel=rss",
+  "title": "Kamermotie wil aanpak hard- en software waarmee mensen zijn te bespioneren",
+  "excerpt": "Het kabinet moet in Europees verband onderzoeken of producteisen of productverboden mogelijk zijn voor hard- en software ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T09:03:00Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Dutch parliamentary motion asks the cabinet to examine EU product requirements or bans for hardware and software used for spying on people.",
+    "nl": "Een Kamermotie vraagt het kabinet om in EU-verband te onderzoeken of producteisen of verboden mogelijk zijn voor hard- en software waarmee mensen worden bespioneerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "7bb9dcd14586",
+  "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
+  "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
+  "excerpt": "Tijdens de Patch Tuesday van november heeft Microsoft ruim duizend kwetsbaarheden verholpen, waaronder een actief misbruikt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T08:36:00Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft fixed over a thousand vulnerabilities in its November Patch Tuesday release, including one that is actively exploited.",
+    "nl": "Microsoft heeft tijdens de Patch Tuesday van november ruim duizend kwetsbaarheden verholpen, waaronder een die actief wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:46Z"
+  }
+ },
+ {
+  "id": "44096b209ce3",
+  "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+  "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+  "excerpt": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T08:17:53Z",
+  "fetched": "2026-11-11T15:17:10Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft released patches for 1,259 vulnerabilities across its software portfolio, including an exploited Outlook bug that may expose NTLMv2 hashes.",
+    "nl": "Microsoft heeft patches uitgebracht voor 1.259 kwetsbaarheden in zijn softwareportfolio, waaronder een actief misbruikte Outlook-fout die NTLMv2-hashes kan blootstellen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
+  }
+ },
+ {
+  "id": "ed7ff5fc7179",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0478",
+  "title": "NCSC-2026-0478 [1.00] [M/H] Kwetsbaarheden verholpen in N-able N-central",
+  "excerpt": "N-able heeft meerdere kwetsbaarheden verholpen in N-able N-central. Deze kwetsbaarheden treffen versies ouder dan 2026.4.1.26. Er meerdere kwetsbaarheden met betrekking tot XML External Entity (XXE), waardoor de verwerking van XML-data mogelijk op ongewenste wijze kan worden beïnvloed. Daarnaast zijn er kwetsbaarheden in de vorm van OGNL Injection en Stored Cross-Site Scripting (XSS), waarbij kwaadaardige code kan worden geïnjecteerd en uitgevoerd binnen de webinterface, waaronder in de context van een administrator. Verder zijn er meerdere kwetsbaarheden die lokale privilege-escalatie…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-11T08:12:42Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "N-able"
+   ],
+   "summary": {
+    "en": "N-able fixed multiple vulnerabilities in N-able N-central, including XXE, OGNL injection and stored XSS, affecting versions older than 2026.4.1.26.",
+    "nl": "N-able heeft meerdere kwetsbaarheden verholpen in N-able N-central, waaronder XXE, OGNL-injectie en stored XSS, in versies ouder dan 2026.4.1.26."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
+  }
+ },
+ {
+  "id": "890bd5d68a0a",
+  "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+  "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+  "excerpt": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company builds and runs apps for its customers and stores their secrets, such as API keys and database",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T07:49:04Z",
+  "fetched": "2026-11-11T15:17:10Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Railway said stolen customer AI provider keys from an October breach led to an estimated $740,000 in unauthorized usage charges.",
+    "nl": "Railway meldt dat gestolen AI-providersleutels van klanten uit een datalek in oktober leidden tot naar schatting $740.000 aan ongeautoriseerde kosten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
+  }
+ },
+ {
+  "id": "e23f07d99f92",
+  "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+  "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+  "excerpt": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights. The team tested the method on",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T07:21:05Z",
+  "fetched": "2026-11-11T15:17:10Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft researchers showed that an AI model can be backdoored by editing fewer than 10 rarely used neurons without retraining.",
+    "nl": "Onderzoekers van Microsoft lieten zien dat een AI-model met een achterdeur kan worden uitgerust door minder dan 10 zelden gebruikte neuronen aan te passen, zonder hertraining."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
+  }
+ },
+ {
+  "id": "39ccc8f88103",
+  "url": "https://industrialcyber.co/industrial-cyber-attacks/france-us-suspect-iran-behind-cyberattacks-on-refrigeration-controllers-at-700-supermarkets-across-europe/",
+  "title": "France, US suspect Iran behind cyberattacks on refrigeration controllers at 700 supermarkets across Europe",
+  "excerpt": "French and U.S. authorities suspect Iran was behind a cyberattack targeting supermarket refrigerators and freezers across Europe, an...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-11T07:04:54Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "French and US authorities suspect Iran was behind a cyberattack on refrigeration controllers at about 700 supermarkets across Europe.",
+    "nl": "Franse en Amerikaanse autoriteiten vermoeden dat Iran achter een cyberaanval zit op koelingscontrollers in ongeveer 700 supermarkten in Europa."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
+  }
+ },
+ {
+  "id": "3641ea354795",
+  "url": "https://industrialcyber.co/nist/nist-lays-out-adversarial-machine-learning-taxonomy-to-address-attacks-targeting-agentic-superintelligence-systems/",
+  "title": "NIST lays out adversarial machine learning taxonomy to address attacks targeting agentic superintelligence systems",
+  "excerpt": "The U.S. National Institute of Standards and Technology has published an initial public draft report that provides a...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-11T07:04:04Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NIST published an initial public draft report with an adversarial machine learning taxonomy covering attacks on AI systems.",
+    "nl": "NIST heeft een eerste publieke conceptrapportage gepubliceerd met een taxonomie van adversarial machine learning voor aanvallen op AI-systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
+  }
+ },
+ {
   "id": "cd6455aacef5",
   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
@@ -809,6 +2146,36 @@
   }
  },
  {
+  "id": "82cc9c4b3c1f",
+  "url": "https://ics-cert.kaspersky.com/advisories/2026/11/10/trueconf-server-linux-incorrect-default-permissions/",
+  "title": "TrueConf Server (Linux). Incorrect Default Permissions",
+  "excerpt": "",
+  "source_id": "kaspersky-ics-cert",
+  "source": "Kaspersky ICS CERT",
+  "lang": "en",
+  "kind": "research",
+  "focus": "ot",
+  "published": "2026-11-10T16:04:15Z",
+  "fetched": "2026-11-11T15:17:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "TrueConf"
+   ],
+   "summary": {
+    "en": "Kaspersky ICS CERT published an advisory on incorrect default permissions in TrueConf Server for Linux.",
+    "nl": "Kaspersky ICS CERT heeft een advisory gepubliceerd over onjuiste standaardrechten in TrueConf Server voor Linux."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
+  }
+ },
+ {
   "id": "0eb55bf1598e",
   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
@@ -1255,6 +2622,34 @@
   }
  },
  {
+  "id": "fea83b34884c",
+  "url": "https://industrialcyber.co/expert/inside-third-party-cyber-risk/",
+  "title": "Inside Third-Party Cyber Risk",
+  "excerpt": "The FBI has now said that the breach of its FBIJobs.gov recruiting platform came down to a contractor...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-10T13:02:37Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI said a breach of its FBIJobs.gov recruiting platform came from a contractor, highlighting third-party cyber risk.",
+    "nl": "De FBI meldt dat een datalek bij het wervingsplatform FBIJobs.gov het gevolg was van een contractant, wat het risico van derden benadrukt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
+  }
+ },
+ {
   "id": "633b52d3362d",
   "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
   "title": "Russian hackers compromised government email servers to steal NATO, EU correspondence",
@@ -1280,6 +2675,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-10T17:53:43Z"
+  }
+ },
+ {
+  "id": "6d0a8bf5cde9",
+  "url": "https://industrialcyber.co/expert/inside-the-supermarket-refrigeration-attacks/",
+  "title": "Inside the Supermarket Refrigeration Attacks",
+  "excerpt": "On the night of October 11, attackers took remote control of refrigeration systems at hundreds of French supermarkets,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-10T12:53:24Z",
+  "fetched": "2026-11-11T15:17:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "incident",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "On October 11, attackers took remote control of refrigeration systems at hundreds of French supermarkets.",
+    "nl": "Op 11 oktober namen aanvallers op afstand de controle over koelsystemen in honderden Franse supermarkten over."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T15:17:56Z"
   }
  },
  {
