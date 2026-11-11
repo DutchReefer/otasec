@@ -109,15 +109,25 @@ check the URL in a browser, or replace it with an RSS proxy URL in
 
 ## Brand assets
 
-The master logo files live in `brand/`: `wordmark.svg`, `symbol.svg` and
-`favicon.svg`, in petrol `#0B3C49`, orange `#E8702A` and sand `#EFEBE3`.
-After changing them, regenerate the website versions (reverse/compact variants,
-favicon.ico, apple-touch-icon, 1200×630 social card):
+The logo is drawn from geometry by `tools/brand_draw.py` (no dependencies):
+a wordmark in heavy chamfered capitals, and a symbol of a gear with a factory
+inside and two orange signal arcs. Colours: petrol `#0B3C49`, sand `#EFEBE3`
+and orange `#E8702A` (the arcs only). The header and footer show the lockup
+(symbol and wordmark side by side); the favicon and app icons show a bolder
+version of the symbol on a petrol tile.
+
+The masters live in `brand/`: `lockup.svg`, `wordmark.svg`, `symbol.svg` and
+`favicon.svg`. After changing the drawing, regenerate the masters and the
+website versions (reverse and compact variants, favicon.ico, apple-touch-icon,
+app icons, 1200×630 social card):
 
 ```bash
 pip install cairosvg pillow      # only needed for this step, not for the pipeline
 python tools/brand_assets.py
 ```
+
+If the lockup's proportions change, update the logo `width`/`height` in
+`templates/base.html` (the script prints the sizes; a test checks them).
 
 ## Security
 

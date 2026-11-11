@@ -20,11 +20,11 @@ a:hover { color: var(--link); text-decoration-color: currentColor; }
 .skip { position: absolute; left: -999px; top: 8px; background: var(--surface); padding: 8px 12px; z-index: 10; }
 .skip:focus { left: 12px; }
 
-/* Masthead: petrol bar with the reverse logo in both modes */
+/* Masthead: petrol bar with the reverse logo (gear symbol and wordmark) in both modes */
 .masthead { background: var(--petrol); color: var(--sand); position: sticky; top: 0; z-index: 5; }
-.masthead__inner { display: flex; align-items: center; gap: 22px; min-height: 68px; }
+.masthead__inner { display: flex; align-items: center; gap: 22px; min-height: 72px; }
 .brand { display: flex; align-items: center; text-decoration: none; color: var(--sand); }
-.brand__logo { height: 44px; width: auto; display: block; }
+.brand__logo { height: 52px; width: auto; display: block; }
 .nav { display: flex; gap: 4px; margin-left: auto; }
 .nav a { text-decoration: none; padding: 6px 10px; border-radius: 6px; color: var(--nav); font-size: .94rem; }
 .nav a:hover { background: var(--petrol-2); color: var(--sand); }
@@ -167,12 +167,12 @@ main.wrap { padding: 32px 20px 56px; }
 .footer p { margin: 0; }
 .footer a { color: var(--sand); }
 .footer a:hover { color: #ffffff; }
-.footer__logo { height: 52px; width: auto; display: block; margin-bottom: 6px; }
+.footer__logo { height: 60px; width: auto; display: block; margin-bottom: 6px; }
 .footer__links { display: flex; gap: 16px; flex-wrap: wrap; }
 
 @media (max-width: 720px) {
   .masthead__inner { flex-wrap: wrap; gap: 6px 14px; padding-top: 10px; padding-bottom: 8px; }
-  .brand__logo { height: 34px; }
+  .brand__logo { height: 40px; }
   .nav { order: 3; width: 100%; margin-left: -10px; }
   .langs { margin-left: auto; }
   main.wrap { padding-top: 20px; }
@@ -180,6 +180,10 @@ main.wrap { padding: 32px 20px 56px; }
   .item { grid-template-columns: 1fr; gap: 4px; }
   .item__meta { flex-direction: row; gap: 10px; }
   .archive a { grid-template-columns: 1fr; gap: 2px; }
+}
+
+@media (max-width: 380px) {
+  .brand__logo { height: 34px; }   /* keeps logo, language switch and theme toggle on one row */
 }
 
 /* Inline links (sources, prose, tables) in teal; headings and feed titles stay ink. */

@@ -64,7 +64,8 @@ def test_brand_and_theme_assets(cfg, store):
     out = cfg.dist_dir / "nl"
     for f in ("favicon.ico", "apple-touch-icon.png", "site.webmanifest", "assets/theme.css",
               "assets/theme.js", "assets/icon-192.png", "assets/icon-512.png",
-              "assets/brand/otasec-wordmark-reverse.svg", "assets/brand/og-image.png"):
+              "assets/brand/otasec-lockup-reverse.svg", "assets/brand/otasec-wordmark-reverse.svg",
+              "assets/brand/og-image.png"):
         assert (out / f).is_file(), f
     html = (out / "index.html").read_text()
     assert html.index("theme.css") < html.index("style.css") and '<script src="/assets/theme.js' in html
