@@ -1,5 +1,147 @@
 [
  {
+  "id": "cd6455aacef5",
+  "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+  "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T06:04:02Z",
+  "fetched": "2026-11-11T06:31:04Z",
+  "cves": [
+   "CVE-2026-20320"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added two flaws in Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder, including CVE-2026-20320, to its KEV catalog, citing active exploitation.",
+    "nl": "CISA heeft twee kwetsbaarheden in Cisco BroadWorks en Openwave Messaging Webtop Media Transcoder, waaronder CVE-2026-20320, aan de KEV-catalogus toegevoegd vanwege actieve exploitatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T06:31:17Z"
+  }
+ },
+ {
+  "id": "0f5dc71919ae",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/eu-enisa-cybersecurity-report/",
+  "title": "EU cyber scores look healthy, but 45% of surveyed IT providers take months to patch",
+  "excerpt": "Forty-five percent of surveyed IT service management providers in the EU took more than three months to apply critical patches to critical systems, according to ENISA’s 2026 assessment of cybersecurity in the Union. Attackers can turn a newly disclosed flaw into a working attack within days, and sometimes within hours or minutes. Those providers run systems for other organizations, so a slow patch at one becomes exposure for the customers that depend on it, and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T06:00:09Z",
+  "fetched": "2026-11-11T06:31:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ENISA's 2026 assessment finds that 45% of surveyed EU IT service management providers took over three months to apply critical patches to critical systems.",
+    "nl": "Volgens de ENISA-beoordeling 2026 deed 45% van de ondervraagde IT-serviceproviders in de EU er meer dan drie maanden over om kritieke patches op kritieke systemen toe te passen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T06:31:17Z"
+  }
+ },
+ {
+  "id": "9b9197ecb0b7",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/security-teams-vulnerability-backlog/",
+  "title": "Nearly half of big firms shelve or close vulnerability findings they haven’t confirmed",
+  "excerpt": "Nearly half of security teams at organizations with 5,000 or more employees close or deprioritize vulnerability findings without fully verifying them, ProjectDiscovery found, and the reason they give is time. Here’s the catch. Among teams that skip full verification, 57% say at least three out of four findings they do check turn out to be real. If most of what you look at is genuine, there’s not much reason to think the stuff you didn’t … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T05:30:30Z",
+  "fetched": "2026-11-11T06:31:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ProjectDiscovery found that nearly half of security teams at large organizations close or deprioritize vulnerability findings without full verification, mainly due to time.",
+    "nl": "ProjectDiscovery constateerde dat bijna de helft van de securityteams bij grote organisaties kwetsbaarheidsbevindingen sluit of deprioriteert zonder volledige verificatie, vooral door tijdgebrek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T06:31:17Z"
+  }
+ },
+ {
+  "id": "378fcd620eab",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/iverify-iphone-exploit-kit-attacks-report/",
+  "title": "An Instagram ad was all it took: Leaked exploit kits are hitting employees’ iPhones",
+  "excerpt": "Criminals are using leaked exploit kits to break into vulnerable iPhones, according to iVerify’s 2026 Advanced Mobile Threat Report. Attacks delivered through ads and compromised websites have reached employees who use phones for work. DarkSword chains together several software flaws to compromise iPhones. Researchers disclosed the toolkit in March 2026, and a newer version appeared on GitHub within a week, giving criminal groups code they could adapt. Another toolkit, Coruna, was served from websites posing … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T05:00:34Z",
+  "fetched": "2026-11-11T06:31:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "iVerify's 2026 report says criminals use leaked exploit kits such as DarkSword and Coruna to compromise iPhones, reaching employees through ads and compromised websites.",
+    "nl": "Het rapport van iVerify uit 2026 meldt dat criminelen gelekte exploitkits zoals DarkSword en Coruna gebruiken om iPhones te compromitteren, via advertenties en gecompromitteerde websites."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T06:31:17Z"
+  }
+ },
+ {
+  "id": "68c9a7f7d774",
+  "url": "https://www.helpnetsecurity.com/2026/11/11/google-fi-super-network-encryption/",
+  "title": "Google Fi super network leans on encryption to keep hotspot traffic private",
+  "excerpt": "Google Fi now moves customers’ phones onto Wi-Fi hotspots and between two 5G networks without the user going into settings or logging in. Google calls the setup a super network, and it powers all Fi plans on eligible Pixel phones. Wi-Fi Auto Connect+, a Fi feature that now reaches millions more locations, joins hotspots automatically and encrypts the connection. If you’re on Fi, that encryption is the thing keeping whoever runs the hotspot from seeing … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T04:50:38Z",
+  "fetched": "2026-11-11T06:31:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google Fi now automatically connects phones to Wi-Fi hotspots and between 5G networks, encrypting hotspot traffic.",
+    "nl": "Google Fi koppelt telefoons nu automatisch aan Wi-Fi-hotspots en tussen twee 5G-netwerken, en versleutelt het hotspotverkeer."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T06:31:17Z"
+  }
+ },
+ {
   "id": "b53f64dc22cc",
   "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
   "title": "Railway breach leads to $740,000 in fraudulent AI charges",
@@ -1615,6 +1757,38 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-10T17:54:03Z"
+  }
+ },
+ {
+  "id": "c980915f819b",
+  "url": "https://certvde.com/en/advisories/VDE-2026-079/",
+  "title": "MB connect line: Multiple Vulnerabilities in mbCONNECT24/mymbCONNECT24",
+  "excerpt": "[VDE-2026-079] Multiple vulnerabilities have been discovered in MB connect line mbCONNECT24/mymbCONNECT24 that could allow RCE, DoS or information leakage.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T10:00:00Z",
+  "fetched": "2026-11-11T06:31:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "MB connect line"
+   ],
+   "summary": {
+    "en": "CERT@VDE published advisory VDE-2026-079 on multiple vulnerabilities in MB connect line mbCONNECT24/mymbCONNECT24 that could allow remote code execution, denial of service or information leakage.",
+    "nl": "CERT@VDE publiceerde advisory VDE-2026-079 over meerdere kwetsbaarheden in MB connect line mbCONNECT24/mymbCONNECT24 die remote code execution, denial of service of informatielekken mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T06:31:17Z"
   }
  },
  {

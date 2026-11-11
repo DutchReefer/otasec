@@ -1,0 +1,254 @@
+{
+ "date": "2026-11-11",
+ "published": "2026-11-11T06:31:51Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 19,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Active targeting of cold-chain controllers and SonicWall firewalls continues to develop, while Siemens publishes a large batch of advisories including the critical Node2Shell issue. Bender also flags two KEV-listed Linux kernel flaws in its EDGE500IP."
+  },
+  "nl": {
+   "title": "",
+   "intro": "De aanvallen op koudeketen-controllers en SonicWall-firewalls blijven zich ontwikkelen, terwijl Siemens een grote reeks advisories publiceert, waaronder het kritieke Node2Shell. Bender meldt bovendien twee KEV-vermelde Linux-kernelkwetsbaarheden in de EDGE500IP."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "df6a1e5a88d8",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+     "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: US agencies detail refrigeration controller attack risks",
+     "summary": "U.S. agencies warn that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide. The aim is service disruption, fire hazards and inventory loss. Actors may exploit unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating.",
+     "takeaway": "Check whether any refrigeration or cold-chain controllers are reachable from the internet, remove that exposure and patch them."
+    },
+    "nl": {
+     "heading": "Update: Amerikaanse instanties lichten risico's van aanvallen op koelingscontrollers toe",
+     "summary": "Amerikaanse instanties waarschuwen dat dreigingsactoren wereldwijd actief industriële koel- en koudeketen-monitoringsystemen aanvallen. Het doel is verstoring van de dienstverlening, brandgevaar en voorraadverlies. Actoren kunnen niet-gepatchte of via internet bereikbare controllers misbruiken om instellingen op afstand te wijzigen en units continu te laten verwarmen.",
+     "takeaway": "Controleer of koel- of koudeketen-controllers vanaf internet bereikbaar zijn, haal die blootstelling weg en patch ze."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "798884b06ec4",
+     "name": "NCSC-NL Advisories",
+     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0471",
+     "title": "NCSC-2026-0471 [1.00] [M/H] Kwetsbaarheden verholpen in SonicOS van SonicWall"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Update: NCSC-NL rates SonicOS fixes M/H, seven flaws patched",
+     "summary": "NCSC-NL reports that SonicWall fixed seven vulnerabilities in SonicOS for Gen7 and Gen8 firewalls. CVE-2026-19868 (CVSS 7.1) is an authentication enforcement flaw in SSL-VPN that lets someone with valid credentials for an alternative authentication method abuse it remotely to get around SAML authentication.",
+     "takeaway": "Confirm your SonicWall Gen7 and Gen8 firewalls run the fixed SonicOS release, especially where SSL-VPN is used for remote access to OT networks."
+    },
+    "nl": {
+     "heading": "Update: NCSC-NL beoordeelt SonicOS-fixes als M/H, zeven kwetsbaarheden verholpen",
+     "summary": "NCSC-NL meldt dat SonicWall zeven kwetsbaarheden heeft verholpen in SonicOS voor Gen7- en Gen8-firewalls. CVE-2026-19868 (CVSS 7.1) is een fout in de authenticatiehandhaving van SSL-VPN, waarbij iemand met geldige inloggegevens voor een alternatieve authenticatiemethode de SAML-authenticatie op afstand kan omzeilen.",
+     "takeaway": "Controleer of je SonicWall Gen7- en Gen8-firewalls de gepatchte SonicOS-versie draaien, zeker waar SSL-VPN wordt gebruikt voor toegang op afstand tot OT-netwerken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "b6146b88c19a",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-143/",
+     "title": "Bender EDGE500IP Vulnerabilities - Linux Kernel (TLS and AF_ALG)"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2025-39682",
+    "CVE-2025-39964"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Bender EDGE500IP affected by two KEV-listed Linux kernel flaws",
+     "summary": "Bender published VDE-2026-143 on two Linux kernel vulnerabilities (CVE-2025-39682 and CVE-2025-39964) in the EDGE500IP. CISA has added both to its Known Exploited Vulnerabilities catalog. Bender states that the electrical safety of the devices is not affected.",
+     "takeaway": "If you operate EDGE500IP units, review the Bender advisory and prioritise the mitigation because both CVEs are listed as exploited."
+    },
+    "nl": {
+     "heading": "Bender EDGE500IP geraakt door twee KEV-vermelde Linux-kernelkwetsbaarheden",
+     "summary": "Bender publiceerde VDE-2026-143 over twee Linux-kernelkwetsbaarheden (CVE-2025-39682 en CVE-2025-39964) in de EDGE500IP. CISA heeft beide toegevoegd aan de Known Exploited Vulnerabilities-catalogus. Volgens Bender wordt de elektrische veiligheid van de apparaten niet beïnvloed.",
+     "takeaway": "Gebruik je EDGE500IP-units, lees dan het Bender-advies en geef de mitigatie prioriteit, omdat beide CVE's als misbruikt zijn vermeld."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "f0fa770d0dd2",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-678870.html",
+     "title": "SSA-678870 V1.0: Node2Shell/Broccoli2Shell Vulnerabilities in Siemens Software Products"
+    },
+    {
+     "id": "9e89959c9b49",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-242944.html",
+     "title": "SSA-242944 V1.0: Node2Shell Vulnerability in Siemens Industrial Products"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Siemens assesses impact of Node2Shell (CVE-2026-111497) on its products",
+     "summary": "Siemens published two advisories (SSA-678870 and SSA-242944) on Node2Shell, a critical out-of-bounds write in the Brotli decoder bundled with Node.js, fixed by the Node.js project on October 21, 2026. It could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. The advisories cover the status of affected Siemens software and industrial products.",
+     "takeaway": "Check the two Siemens advisories against your installed software and industrial products and plan updates or mitigations for affected ones."
+    },
+    "nl": {
+     "heading": "Siemens beoordeelt impact van Node2Shell (CVE-2026-111497) op zijn producten",
+     "summary": "Siemens publiceerde twee advisories (SSA-678870 en SSA-242944) over Node2Shell, een kritieke out-of-bounds write in de Brotli-decoder die met Node.js wordt meegeleverd en op 21 oktober 2026 door het Node.js-project is verholpen. Een aanvaller op afstand kan hiermee geheugencorruptie veroorzaken en mogelijk willekeurige code uitvoeren. De advisories beschrijven de status van getroffen Siemens-software en industriële producten.",
+     "takeaway": "Vergelijk de twee Siemens-advisories met je geïnstalleerde software en industriële producten en plan updates of mitigaties voor de getroffen producten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "5241fa3ceed8",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-970803.html",
+     "title": "SSA-970803 V1.0: Insecure User Authentication in SIMATIC SCADA and PCS 7 systems"
+    },
+    {
+     "id": "5213a7eda05b",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-979641.html",
+     "title": "SSA-979641 V1.0: Implicit Execution of Active Content when Opening Files Vulnerability in SIMATIC WinCC Graphics Designer"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Siemens SIMATIC SCADA, PCS 7 and WinCC Graphics Designer flaws await fixes",
+     "summary": "SSA-970803 describes an authentication bypass in SIMATIC SCADA and PCS 7 systems that could let an on-path attacker take over a legitimate user's session and execute code with that user's privileges. SSA-979641 covers implicit active content execution when opening files in SIMATIC WinCC Graphics Designer before V8.2. For both, Siemens is preparing fixes and recommends mitigations where none are available yet.",
+     "takeaway": "Apply Siemens' recommended mitigations now, protect the network path between operator stations and servers, and treat untrusted project files with caution until fixes arrive."
+    },
+    "nl": {
+     "heading": "Kwetsbaarheden in Siemens SIMATIC SCADA, PCS 7 en WinCC Graphics Designer wachten op fixes",
+     "summary": "SSA-970803 beschrijft een authenticatieomzeiling in SIMATIC SCADA- en PCS 7-systemen waarmee een aanvaller op het netwerkpad de sessie van een legitieme gebruiker kan overnemen en code kan uitvoeren met de rechten van die gebruiker. SSA-979641 betreft impliciete uitvoering van actieve content bij het openen van bestanden in SIMATIC WinCC Graphics Designer vóór V8.2. Siemens werkt voor beide aan fixes en adviseert mitigaties waar die nog niet beschikbaar zijn.",
+     "takeaway": "Pas de door Siemens aanbevolen mitigaties nu toe, beveilig het netwerkpad tussen operatorstations en servers en wees voorzichtig met onbetrouwbare projectbestanden totdat er fixes zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "3ac35ff64736",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+     "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Three China-nexus espionage clusters linked via Sparrow malware ecosystem",
+     "summary": "Check Point Research links three activity clusters through shared infrastructure and malware code similarities. Over the past year they have targeted telecommunications providers, government organizations, military entities, research institutions and critical infrastructure in Latin America, Asia and Europe.",
+     "takeaway": "If you operate critical infrastructure or supply telecoms and government, use the Check Point findings to inform threat hunting and monitoring."
+    },
+    "nl": {
+     "heading": "Drie China-gelieerde spionageclusters verbonden via het Sparrow-malware-ecosysteem",
+     "summary": "Check Point Research koppelt drie activiteitenclusters via gedeelde infrastructuur en overeenkomsten in malwarecode. Het afgelopen jaar richtten zij zich op telecomproviders, overheidsorganisaties, militaire instanties, onderzoeksinstellingen en kritieke infrastructuur in Latijns-Amerika, Azië en Europa.",
+     "takeaway": "Exploiteer je kritieke infrastructuur of lever je aan telecom en overheid, gebruik de bevindingen van Check Point dan voor threat hunting en monitoring."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "bf1c6046bd7b",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-904646.html",
+     "title": "SSA-904646 V1.2 (Last Update: 2026-11-10): Sensitive Data Exposure Vulnerability in SIPROTEC 5 Devices"
+    },
+    {
+     "id": "146f839e774a",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-651988.html",
+     "title": "SSA-651988 V1.0: Double Free vulnerability in Fortigate NGFW before V7.6.9 on RUGGEDCOM APE1808 Devices"
+    },
+    {
+     "id": "568d0634f42d",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-392349.html",
+     "title": "SSA-392349 V1.3 (Last Update: 2026-11-10): Denial of Service Vulnerability in Industrial Devices"
+    },
+    {
+     "id": "7c7baca726a5",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-724261.html",
+     "title": "SSA-724261 V1.0: Command Injection Vulnerability in meta-iot2050"
+    },
+    {
+     "id": "c87889d6e673",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-435267.html",
+     "title": "SSA-435267 V1.0: Code Injection Vulnerability in ROS# Before 2.3.1"
+    },
+    {
+     "id": "68ee6ca643bb",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-710379.html",
+     "title": "SSA-710379 V1.0: Multiple Vulnerabilities in Mendix Studio Pro's MCP Server"
+    },
+    {
+     "id": "52181a15b723",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-105852.html",
+     "title": "SSA-105852 V1.0: Out of Bounds Read Vulnerability in Simcenter Femap"
+    },
+    {
+     "id": "c980915f819b",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-079/",
+     "title": "MB connect line: Multiple Vulnerabilities in mbCONNECT24/mymbCONNECT24"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Siemens and CERT@VDE (SIPROTEC 5, RUGGEDCOM APE1808, Mendix, mbCONNECT24 and more)",
+     "summary": "Siemens updated advisories on SIPROTEC 5 sensitive data exposure and a denial of service flaw in industrial devices, and published new ones on Fortigate NGFW before V7.6.9 on RUGGEDCOM APE1808, meta-iot2050 command injection, ROS# before 2.3.1, Mendix Studio Pro's MCP Server and Simcenter Femap. CERT@VDE published VDE-2026-079 on mbCONNECT24/mymbCONNECT24, with vulnerabilities that could allow RCE, DoS or information leakage.",
+     "takeaway": "Match these advisories against your asset inventory and update affected products, using the vendor's mitigations where no fix exists yet."
+    },
+    "nl": {
+     "heading": "Overige advisories: Siemens en CERT@VDE (SIPROTEC 5, RUGGEDCOM APE1808, Mendix, mbCONNECT24 en meer)",
+     "summary": "Siemens actualiseerde advisories over blootstelling van gevoelige data in SIPROTEC 5 en een denial-of-service-kwetsbaarheid in industriële apparaten, en publiceerde nieuwe over Fortigate NGFW vóór V7.6.9 op RUGGEDCOM APE1808, command injection in meta-iot2050, ROS# vóór 2.3.1, de MCP Server van Mendix Studio Pro en Simcenter Femap. CERT@VDE publiceerde VDE-2026-079 over mbCONNECT24/mymbCONNECT24, met kwetsbaarheden die RCE, DoS of lekken van informatie kunnen mogelijk maken.",
+     "takeaway": "Leg deze advisories naast je assetinventaris en update getroffen producten, met de mitigaties van de leverancier waar nog geen fix bestaat."
+    }
+   }
+  }
+ ]
+}
