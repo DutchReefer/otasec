@@ -1,5 +1,61 @@
 [
  {
+  "id": "f3ffd49b40c0",
+  "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+  "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+  "excerpt": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T21:27:40Z",
+  "fetched": "2026-11-11T22:03:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Certificate authority eMudhra revoked eight more intermediate CA certificates after finding improper handling of private keys during certificate generation.",
+    "nl": "Certificaatautoriteit eMudhra heeft acht extra intermediate CA-certificaten ingetrokken nadat onjuiste omgang met privésleutels tijdens het genereren van certificaten werd vastgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T22:03:43Z"
+  }
+ },
+ {
+  "id": "efe87e331be8",
+  "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+  "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+  "excerpt": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T20:54:20Z",
+  "fetched": "2026-11-11T22:03:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Notion disclosed that a breach at its AI provider Fireworks AI exposed Notion AI chat transcripts in a small number of workspaces.",
+    "nl": "Notion meldt dat een datalek bij AI-leverancier Fireworks AI AI-chattranscripties in een klein aantal werkruimten blootstelde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T22:03:43Z"
+  }
+ },
+ {
   "id": "d62040292e65",
   "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
   "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
