@@ -1,5 +1,97 @@
 [
  {
+  "id": "744297a3900b",
+  "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+  "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+  "excerpt": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T16:24:18Z",
+  "fetched": "2026-11-11T16:45:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Maersk confirmed a threat actor stole data from a local legacy IT system inherited through an earlier acquisition, with WhiteArmor ransomware demanding $5 million.",
+    "nl": "Maersk bevestigde dat een dreigactor data heeft gestolen uit een lokaal verouderd IT-systeem dat via een eerdere overname is overgenomen, waarbij WhiteArmor-ransomware 5 miljoen dollar eist."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T16:45:45Z"
+  }
+ },
+ {
+  "id": "02734e61e345",
+  "url": "https://www.security.nl/posting/961277/%27Danfoss-koelsystemen+via+nieuwe+kwetsbaarheden+volledig+over+te+nemen%27?channel=rss",
+  "title": "'Danfoss-koelsystemen via nieuwe kwetsbaarheden volledig over te nemen'",
+  "excerpt": "Koelsystemen van leverancier Danfoss bevatten meerdere kritieke lekken waardoor de systemen op afstand volledig zijn over te ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T15:59:00Z",
+  "fetched": "2026-11-11T16:45:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "food",
+    "building"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Danfoss cooling systems contain multiple critical vulnerabilities that allow the systems to be fully taken over remotely.",
+    "nl": "Koelsystemen van Danfoss bevatten meerdere kritieke kwetsbaarheden waardoor de systemen volledig op afstand kunnen worden overgenomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T16:45:45Z"
+  },
+  "title_en": "Danfoss cooling systems can be fully taken over via new vulnerabilities"
+ },
+ {
+  "id": "63cbf25606a5",
+  "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+  "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+  "excerpt": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T15:34:27Z",
+  "fetched": "2026-11-11T16:45:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers used the AntiFox AI pentesting platform in intrusions that stole AWS credentials and moved laterally into cloud environments.",
+    "nl": "Aanvallers gebruikten het AI-pentestplatform AntiFox bij inbraken waarbij AWS-credentials zijn gestolen en verder gingen naar cloudomgevingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-11T16:45:45Z"
+  }
+ },
+ {
   "id": "1df3d3728c61",
   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
