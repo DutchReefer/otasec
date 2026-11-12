@@ -1,5 +1,1206 @@
 [
  {
+  "id": "9cb2b44a4924",
+  "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+  "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+  "excerpt": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T19:51:16Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "N-able"
+   ],
+   "summary": {
+    "en": "Attackers are actively exploiting a zero-day in N-able N-central, an IT remote monitoring product, to deploy cryptocurrency miners on at least 21 systems.",
+    "nl": "Aanvallers misbruiken actief een zero-day in N-able N-central, een IT-monitoringproduct, om cryptomijners te installeren op minstens 21 systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "bb48d6f8868d",
+  "url": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+  "title": "United to block customers from using AI agents, citing cyber threats",
+  "excerpt": "“Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases\" and more, United Airlines said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T19:20:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "United Airlines will block customers from sharing account credentials with AI agents, citing cyber and unintended purchase risks.",
+    "nl": "United Airlines blokkeert klanten die accountgegevens delen met AI-agents, vanwege cyberrisico's en ongewenste aankopen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "4d2baf54099d",
+  "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+  "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+  "excerpt": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T19:12:55Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 18,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Apache"
+   ],
+   "summary": {
+    "en": "Apache HTTP Server has patched a critical HTTP/2 flaw that could allow unauthenticated remote code execution.",
+    "nl": "Apache HTTP Server heeft een kritieke HTTP/2-kwetsbaarheid gepatcht waarmee ongeauthenticeerde remote code execution mogelijk is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "2559f2095350",
+  "url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
+  "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
+  "excerpt": "The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T18:28:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Shipping company Maersk says a recent cyber incident affected a legacy system, amid a string of attacks on ports and shipping organizations.",
+    "nl": "Scheepvaartbedrijf Maersk meldt dat een recent cyberincident een legacy systeem trof, te midden van aanvallen op havens en scheepvaartorganisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "950205e16691",
+  "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+  "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+  "excerpt": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T18:07:15Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A webinar promotes identity visibility for security operations teams.",
+    "nl": "Een webinar promoot inzicht in identiteiten voor securityoperatieteams."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "d75dd9d3e893",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/",
+  "title": "Self-hosted Claude Managed Agents keeps agent credentials in your environment",
+  "excerpt": "Anthropic has released a self-hosted version of Claude Managed Agents. Companies can run the agent harness, sandboxes, credentials, and session history in their cloud or on-premise. The option opened as a private beta on November 12, and customers request access through their Anthropic account team. The change matters for agents that already work unattended inside corporate systems, fixing broken builds, testing releases, triaging alerts, and working through bug backlogs. Until now, customers could host the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T18:07:00Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "Anthropic has released a private beta of a self-hosted Claude Managed Agents option that keeps agent credentials in customer environments.",
+    "nl": "Anthropic heeft een privébèta uitgebracht van een zelf gehoste Claude Managed Agents-optie waarbij agentcredentials in de omgeving van de klant blijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "0215fb6873ae",
+  "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+  "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+  "excerpt": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T18:02:51Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup covers Linux kernel bugs, Falcon spyware, GSocket backdoors and other general threat stories.",
+    "nl": "Een wekelijks overzicht behandelt Linux-kernelbugs, Falcon-spyware, GSocket-backdoors en andere algemene dreigingsverhalen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "1acaa8e77a2e",
+  "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+  "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+  "excerpt": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T17:50:27Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Public proof-of-concept code called SignDrop lets local Windows users gain SYSTEM privileges via the CLFS driver.",
+    "nl": "Publieke proof-of-concept code genaamd SignDrop stelt lokale Windows-gebruikers in staat SYSTEM-rechten te verkrijgen via het CLFS-stuurprogramma."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "093b008afb96",
+  "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+  "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+  "excerpt": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T16:27:01Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Red Hat"
+   ],
+   "summary": {
+    "en": "A critical Red Hat Quay flaw lets attackers read and overwrite private container images, and fixed builds are available.",
+    "nl": "Een kritieke kwetsbaarheid in Red Hat Quay stelt aanvallers in staat privé containerimages te lezen en te overschrijven, en er zijn gepatchte builds beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "023264eb01e1",
+  "url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+  "title": "European authorities take down SteaIC malware servers for second time this year",
+  "excerpt": "German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T16:21:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "German and Dutch authorities took down rebuilt SteaIC malware servers linked to the Virtualine bulletproof hosting provider.",
+    "nl": "Duitse en Nederlandse autoriteiten hebben opnieuw opgebouwde SteaIC-malwareservers offline gehaald, die gelinkt zijn aan de bulletproof hostingprovider Virtualine."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "7968b43f44c2",
+  "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+  "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations",
+  "excerpt": "Abuse of an independent third-party tool led to breaches at ScreenConnect customers, confirmed the software's maker, ConnectWise. Cybersecurity researchers had spotted intrusions at nearly 50.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T16:16:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise"
+   ],
+   "summary": {
+    "en": "ConnectWise is investigating ScreenConnect breaches at customers after researchers spotted intrusions at nearly 50 organizations.",
+    "nl": "ConnectWise onderzoekt inbraken bij ScreenConnect-klanten, nadat onderzoekers indringingen bij bijna 50 organisaties hebben gezien."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "a0d5d05511ec",
+  "url": "https://www.security.nl/posting/961447/AI-marktplaats+Apify+meldt+inbraak+op+interne+systemen+door+gestolen+login?channel=rss",
+  "title": "AI-marktplaats Apify meldt inbraak op interne systemen door gestolen login",
+  "excerpt": "Aanvallers zijn erin geslaagd om met behulp van gestolen inloggegevens op interne systemen van AI-marktplaats Apify in te ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T16:06:45Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "AI marketplace Apify reports an intrusion into internal systems using stolen login credentials.",
+    "nl": "AI-marktplaats Apify meldt een inbraak in interne systemen met behulp van gestolen inloggegevens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "c270d121cad4",
+  "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+  "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+  "excerpt": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T16:04:00Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "A researcher released a new Windows zero-day exploit that can give attackers SYSTEM privileges.",
+    "nl": "Een onderzoeker heeft een nieuwe Windows zero-day-exploit uitgebracht waarmee aanvallers SYSTEM-rechten kunnen krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "c398aa3e9226",
+  "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+  "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+  "excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T15:38:49Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [
+   "CVE-2026-120868"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Citrix"
+   ],
+   "summary": {
+    "en": "Citrix released patches for twelve NetScaler and Secure Access Client flaws, including a critical authentication bypass.",
+    "nl": "Citrix heeft patches uitgebracht voor twaalf kwetsbaarheden in NetScaler en Secure Access Client, waaronder een kritieke authenticatiebypass."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "4323d1794838",
+  "url": "https://www.security.nl/posting/961442/Verzekeraars+zien+gebruik+van+AI+bij+plegen+van+verzekeringsfraude?channel=rss",
+  "title": "Verzekeraars zien gebruik van AI bij plegen van verzekeringsfraude",
+  "excerpt": "Fraudeurs hebben vorig jaar verschillende keren gebruikgemaakt van AI voor het plegen van verzekeringsfraude, zo laat het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T15:33:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Insurers report that fraudsters used AI to commit insurance fraud on several occasions last year.",
+    "nl": "Verzekeraars melden dat fraudeurs vorig jaar meerdere keren AI hebben gebruikt voor verzekeringsfraude."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "242ed9e7ee22",
+  "url": "https://www.security.nl/posting/961439/Ivanti+Endpoint+Manager+via+kritiek+SQL+Injection-lek+over+te+nemen?channel=rss",
+  "title": "Ivanti Endpoint Manager via kritiek SQL Injection-lek over te nemen",
+  "excerpt": "Ivanti heeft een beveiligingsupdate uitgebracht voor een kritiek SQL Injection-lek in Endpoint Manager (EPM), waardoor ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T15:18:28Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Ivanti"
+   ],
+   "summary": {
+    "en": "Ivanti released a security update for a critical SQL injection flaw in Endpoint Manager that can allow takeover.",
+    "nl": "Ivanti heeft een beveiligingsupdate uitgebracht voor een kritieke SQL-injectiekwetsbaarheid in Endpoint Manager waardoor overname mogelijk is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "50b7d482cfd7",
+  "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+  "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+  "excerpt": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T15:15:40Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Lookalike AI domains serve ClickFix lures, browser hijacking malware and search hijacking extensions, tracked as TypoPrompting.",
+    "nl": "Nagemaakte AI-domeinen leveren ClickFix-lokkertjes, browserkaapmalware en zoekkaapextensies, gevolgd als TypoPrompting."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "789c1a9d36e7",
+  "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+  "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+  "excerpt": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T15:07:20Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Europol and partners seized servers and domains used by the Gootloader, CastleRAT and StealC malware operations.",
+    "nl": "Europol en partners hebben servers en domeinen in beslag genomen die door de malwareoperaties Gootloader, CastleRAT en StealC werden gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "9d35926622bd",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/picus-autonomous-penetration-testing/",
+  "title": "Picus puts AI agents on the offensive with autonomous pentesting",
+  "excerpt": "Picus Security has announced Picus Autonomous Penetration Testing, an agentic pentesting capability that puts AI agents on the offensive: they think like attackers, chain real exploits toward an organization’s crown jewels, and prove what a breach would look like, under governance the agent cannot override. The launch rebuilds Picus’s automated penetration testing for the agentic era on five years of enterprise deployments and thousands of automated pentests. In the post-Mythos era, AI models find and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T15:05:02Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Picus Security"
+   ],
+   "summary": {
+    "en": "Picus Security announced an autonomous penetration testing product that uses AI agents.",
+    "nl": "Picus Security heeft een autonoom pentestproduct aangekondigd dat gebruikmaakt van AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "50450c22c129",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/cairn-autonomous-ai-cyberattacks/",
+  "title": "Attackers breached 10 organizations with an open-source AI pentest framework",
+  "excerpt": "Chinese-speaking attackers used Cairn, an open-source AI penetration testing framework, to run 25 operations against at least 19 organizations in August and September 2026. Palo Alto Networks’ Unit 42 found that the attackers gained unauthorized access or pulled data at 10 of them, often after typing little more than a domain name and a one-line goal. Most of the targets fall into three groups: seven in the semiconductor and advanced-manufacturing supply chain, three in defense … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T15:00:29Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "threat",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Chinese-speaking attackers used the open-source Cairn AI pentest framework against at least 19 organizations, gaining access at 10, mostly in manufacturing supply chains.",
+    "nl": "Chinees sprekende aanvallers gebruikten het open-source AI-pentestframework Cairn tegen minstens 19 organisaties en kregen toegang tot 10, vooral in productieketens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:24Z"
+  }
+ },
+ {
+  "id": "3eb3dda3413b",
+  "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+  "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+  "excerpt": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T15:00:10Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article argues that endpoint management platforms can be abused by attackers to deploy malware and run commands, and describes Action1's cryptographic authorization approach.",
+    "nl": "Een artikel stelt dat aanvallers endpoint managementplatforms kunnen misbruiken om malware te verspreiden en commando's uit te voeren, en beschrijft de aanpak van Action1."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "6b3923f37b03",
+  "url": "https://www.security.nl/posting/961431/Fraudehelpdesk+waarschuwt+voor+phishingberichten+uit+naam+van+BENU?channel=rss",
+  "title": "Fraudehelpdesk waarschuwt voor phishingberichten uit naam van BENU",
+  "excerpt": "De Fraudehelpdesk waarschuwt mensen voor phishingmails en sms-berichten die uit naam van apothekersketen BENU worden verstuurd ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T14:51:27Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Fraudehelpdesk warns about phishing emails and text messages sent in the name of the pharmacy chain BENU.",
+    "nl": "De Fraudehelpdesk waarschuwt voor phishingmails en sms-berichten die in naam van apothekersketen BENU worden verstuurd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "504c4dbc535b",
+  "url": "https://therecord.media/europe-hoax-email-threats",
+  "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
+  "excerpt": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from legitimate institutions.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T14:45:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bomb hoax threats sent to European schools came from a compromised email account at a Taiwanese university, part of a series targeting airports and newsrooms.",
+    "nl": "Bommeldingen naar Europese scholen kwamen via een gecompromitteerd e-mailaccount van een Taiwanese universiteit, onderdeel van een reeks hoaxes."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "706b5029abbf",
+  "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+  "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+  "excerpt": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T14:36:47Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apify rotated internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems.",
+    "nl": "Apify heeft interne geheimen vernieuwd en enkele OAuth-koppelingen van derden ingetrokken na ongeautoriseerde toegang tot interne systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "42bd734c7f5f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0493",
+  "title": "NCSC-2026-0493 [1.00] [M/H] Kwetsbaarheden verholpen in Ivanti Endpoint Manager",
+  "excerpt": "Ivanti heeft twee kwetsbaarheden in Ivanti Endpoint Manager verholpen, die betrekking hebben op de Core- en Agent-componenten. De eerste kwetsbaarheid (CVE-2026-121653) betreft een SQL-injectie in de Core van Ivanti Endpoint Manager-versies vóór 2024 SU8. Hierdoor kan een externe, niet-geauthenticeerde aanvaller kwaadaardige SQL-commando's injecteren, wat kan leiden tot het uitvoeren van willekeurige code op afstand (Remote Code Execution, RCE). De tweede kwetsbaarheid (CVE-2026-18128) betreft het verzenden van gevoelige informatie in cleartext door de Agent van Ivanti Endpoint…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T14:32:09Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [
+   "CVE-2026-121653",
+   "CVE-2026-18128"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ivanti fixed two vulnerabilities in Endpoint Manager Core and Agent, including an SQL injection (CVE-2026-121653) that can lead to remote code execution.",
+    "nl": "Ivanti heeft twee kwetsbaarheden in Endpoint Manager Core en Agent verholpen, waaronder een SQL-injectie (CVE-2026-121653) die tot remote code execution kan leiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "91edae50ca24",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0492",
+  "title": "NCSC-2026-0492 [1.00] [M/H] Kwetsbaarheden verholpen in Node.js",
+  "excerpt": "Node.js heeft meerdere kwetsbaarheden verholpen in versies 22.x, 24.x en 26.x, waaronder in de HTTP/2-implementatie, HTTPS-servermodule, TLS-handling en proxy error handling. Verschillende kwetsbaarheden in Node.js kunnen leiden tot informatielekken, geheugenfouten en serveruitval. Vooral omgevingen met HTTP/2, HTTPS en TLS worden geraakt. - Proxy-authenticatie: uitlekken van inloggegevens via foutmeldingen. - HTTP/2: buffer overflow, geheugenlekken, overbelasting en servercrashes. - Bestandsbewaking: omzeilen van toegangsbeperkingen op macOS en Windows. - zlib: dienstverstoring door foutieve…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T14:19:29Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Node.js fixed multiple vulnerabilities in versions 22.x, 24.x and 26.x, affecting HTTP/2, HTTPS and TLS handling and causing information leaks and crashes.",
+    "nl": "Node.js heeft meerdere kwetsbaarheden verholpen in versies 22.x, 24.x en 26.x, die HTTP/2, HTTPS en TLS raken en tot datalekken en crashes kunnen leiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "f8ba5f3c9359",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0491",
+  "title": "NCSC-2026-0491 [1.00] [M/H] Meerdere kwetsbaarheden verholpen in Citrix Secure Access Client, NetScaler ADC, NetScaler Gateway en NetScaler Console.",
+  "excerpt": "Citrix heeft meerdere kwetsbaarheden verholpen in Citrix Secure Access Client, NetScaler ADC, NetScaler Gateway en NetScaler Console. Citrix heeft meerdere kwetsbaarheden verholpen in Citrix Secure Access Client for Windows, NetScaler ADC, NetScaler Gateway en NetScaler Console. De kwetsbaarheden hebben CVSS v4.0-scores variërend van 6.9 tot 9.5 en omvatten onder andere geheugenbeschadiging (Memory Corruption), authenticatieomzeiling (Improper Authentication) en privilege-escalatie (Improper Privilege Management). Misbruik van de kwetsbaarheden kan leiden tot Denial-of-Service…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T14:13:25Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Citrix"
+   ],
+   "summary": {
+    "en": "Citrix fixed multiple vulnerabilities in Secure Access Client, NetScaler ADC, NetScaler Gateway and NetScaler Console, with CVSS v4.0 scores from 6.9 to 9.5.",
+    "nl": "Citrix heeft meerdere kwetsbaarheden verholpen in Secure Access Client, NetScaler ADC, NetScaler Gateway en NetScaler Console, met CVSS v4.0-scores van 6.9 tot 9.5."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "9431afa39665",
+  "url": "https://www.security.nl/posting/961420/Politie+haalt+malware-servers+offline%2C+vindt+miljoenen+gestolen+persoonsgegevens?channel=rss",
+  "title": "Politie haalt malware-servers offline, vindt miljoenen gestolen persoonsgegevens",
+  "excerpt": "Tijdens een internationale actie heeft de Nederlandse politie servers en domeinnamen van de Gootloader- en CastleRAT-malware ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T13:50:15Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch police and international partners took down servers and domains of Gootloader and CastleRAT malware and recovered millions of stolen personal data records.",
+    "nl": "De Nederlandse politie en internationale partners hebben servers en domeinen van Gootloader en CastleRAT malware offline gehaald en miljoenen gestolen gegevens veiliggesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "b539286dd7e4",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/europol-operation-endgame-malware-takedown/",
+  "title": "Operation Endgame malware takedown turns up over 6 million stolen logins",
+  "excerpt": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Europol announced the action as the latest round of Operation Endgame, the international campaign against the services that give ransomware gangs their way into a network. Those logins are what reach ordinary users and companies. The suspects sold credentials they had harvested from victims’ … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T13:34:14Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Operation Endgame police action took down Gootloader, CastleRAT and StealC servers in nine countries and recovered over 6 million stolen credentials.",
+    "nl": "Bij Operation Endgame zijn servers van Gootloader, CastleRAT en StealC in negen landen offline gehaald en zijn meer dan 6 miljoen gestolen inloggegevens teruggevonden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "98f667877f74",
+  "url": "https://www.security.nl/posting/961416/Minister%3A+kwetsbaarheden+zoals+in+PHP+gaan+we+in+toekomst+nog+vaker+zien?channel=rss",
+  "title": "Minister: kwetsbaarheden zoals in PHP gaan we in toekomst nog vaker zien",
+  "excerpt": "Kwetsbaarheden met een grote impact, zoals de recente PHP2Shell-lekken in PHP, zullen in de toekomst vaker voorkomen, zo stelt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T13:28:58Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A minister states that high-impact vulnerabilities like the recent PHP2Shell flaws in PHP will occur more often in the future.",
+    "nl": "Een minister stelt dat kwetsbaarheden met grote impact, zoals de recente PHP2Shell-lekken in PHP, in de toekomst vaker zullen voorkomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "daa356fef18a",
+  "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+  "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+  "excerpt": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T13:08:28Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [
+   "CVE-2026-84869"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise"
+   ],
+   "summary": {
+    "en": "A campaign against ConnectWise ScreenConnect exploits the already patched critical flaw CVE-2026-84869 to create attack paths into managed service providers.",
+    "nl": "Een campagne tegen ConnectWise ScreenConnect misbruikt het al gepatchte kritieke lek CVE-2026-84869 om aanvalspaden naar managed service providers te openen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "24de84f1b47c",
+  "url": "https://www.security.nl/posting/961411/Google+komt+met+patch+voor+meerdere+kritieke+Chrome-lekken?channel=rss",
+  "title": "Google komt met patch voor meerdere kritieke Chrome-lekken",
+  "excerpt": "Google heeft patches uitgebracht die 83 kwetsbaarheden in de browser verhelpen, waaronder vijf kritieke beveiligingslekken. Via ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T12:59:55Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google released patches fixing 83 vulnerabilities in Chrome, including five critical security flaws.",
+    "nl": "Google heeft patches uitgebracht die 83 kwetsbaarheden in Chrome verhelpen, waaronder vijf kritieke beveiligingslekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "915a58d55046",
+  "url": "https://www.security.nl/posting/961403/Microsoft+meldt+toename+van+GSocket+op+gehackte+Linux-webservers?channel=rss",
+  "title": "Microsoft meldt toename van GSocket op gehackte Linux-webservers",
+  "excerpt": "Steeds vaker wordt de open source remote access tool GSocket op gehackte Linux-webservers aangetroffen, zo stelt Microsoft op ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T12:28:33Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft reports that the open source remote access tool GSocket is increasingly found on compromised Linux web servers.",
+    "nl": "Microsoft meldt dat het open source remote access-hulpmiddel GSocket steeds vaker wordt aangetroffen op gehackte Linux-webservers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "3f47d08089da",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0490",
+  "title": "NCSC-2026-0490 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiAuthenticator",
+  "excerpt": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiAuthenticator versies 6.6.0 tot 6.6.10 en 8.0.0 tot 8.0.3. Meerdere kwetsbaarheden in FortiAuthenticator kunnen leiden tot ongeoorloofde toegang, informatielekken, code-uitvoering of uitval. Sommige zijn zonder account te misbruiken - Open redirect: doorsturen van gebruikers naar ongewenste websites. - Dienstverstoring: uitval door oneindige lussen of overbelasting. - Toegangscontrole: ongeoorloofde toegang door fouten in autorisatie en rechtenbeheer. - FSSO: buffer overflow in de authenticatieonderdelen. - LDAP- en SQL-injectie…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T12:12:02Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Fortinet"
+   ],
+   "summary": {
+    "en": "Fortinet fixed multiple vulnerabilities in FortiAuthenticator versions 6.6.0 to 6.6.10 and 8.0.0 to 8.0.3, some exploitable without an account.",
+    "nl": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiAuthenticator-versies 6.6.0 tot 6.6.10 en 8.0.0 tot 8.0.3, sommige zonder account te misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "eae5749d1a10",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+  "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+  "excerpt": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T12:11:11Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft confirmed that Windows updates released since the October 2026 Patch Tuesday cause SQL Server performance and stability issues.",
+    "nl": "Microsoft heeft bevestigd dat Windows-updates sinds Patch Tuesday van oktober 2026 prestatie- en stabiliteitsproblemen met SQL Server veroorzaken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "5af74d5ce665",
+  "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+  "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+  "excerpt": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T12:09:14Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "AMD"
+   ],
+   "summary": {
+    "en": "Google Cloud warns that three AMD Turin CPU side-channel flaws could let code inside a VM infer data from other processes or the kernel, and advises a guest OS patch.",
+    "nl": "Google Cloud waarschuwt dat drie side-channel-lekken in AMD Turin-processors code in een VM data van andere processen of de kernel kunnen laten afleiden, en adviseert een guest OS-patch."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "43da1d2c795b",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0489",
+  "title": "NCSC-2026-0489 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiOS",
+  "excerpt": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiOS. Verschillende kwetsbaarheden in FortiOS en andere Fortinet-producten kunnen leiden tot ongeoorloofde toegang, netwerkstoringen of volledige overname. - SSLVPN: onderscheppen van verkeer door gebrekkige certificaatcontrole. - Beheerinterface: verkrijgen van verhoogde rechten via een ongeldig token. - OSPF: manipuleren van routinginformatie zonder in te loggen. - iBGP: onverwacht routinggedrag door foutieve verwerking van gegevens. - SSH: omzeilen van authenticatie met gemanipuleerde aanmeldgegevens. - Geheugenfout: uitvoeren van code…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T12:04:06Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Fortinet"
+   ],
+   "summary": {
+    "en": "Fortinet fixed multiple vulnerabilities in FortiOS that can lead to unauthorized access, traffic interception, network disruption or full takeover.",
+    "nl": "Fortinet heeft meerdere kwetsbaarheden in FortiOS verholpen die kunnen leiden tot ongeautoriseerde toegang, onderschepping van verkeer, netwerkstoringen of volledige overname."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "b670915f7d7f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0488",
+  "title": "NCSC-2026-0488 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiManager en FortiAnalyzer",
+  "excerpt": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiManager en FortiAnalyzer, inclusief hun cloudversies en aanverwante producten zoals FortiManager Cloud, FortiAnalyzer Cloud, FortiAnalyzer-BigData, FortiSASE-Sovereign en FortiSASE-Sovereign GUI. De kwetsbaarheden betreffen diverse beveiligingsproblemen in Fortinet FortiManager en FortiAnalyzer producten, waaronder path traversal, improper encoding of escaping, extern gecontroleerde format string, SQL-injectie, XML-injectie, heap- en stack-based buffer overflows, OS command injection, privilege escalation, authorization bypass, argument…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T11:56:36Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Fortinet"
+   ],
+   "summary": {
+    "en": "Fortinet fixed multiple vulnerabilities in FortiManager and FortiAnalyzer, including SQL injection and path traversal, across on-premise and cloud versions.",
+    "nl": "Fortinet heeft meerdere kwetsbaarheden in FortiManager en FortiAnalyzer verholpen, waaronder SQL-injectie en path traversal, in on-premise en cloudversies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "4fb3f4a554eb",
+  "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+  "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+  "excerpt": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T11:51:43Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "N-able"
+   ],
+   "summary": {
+    "en": "N-able is investigating a public disclosure claiming new N-central vulnerabilities that allow root remote code execution and Windows SYSTEM access on patched servers.",
+    "nl": "N-able onderzoekt een publieke melding over nieuwe N-central-kwetsbaarheden die root remote code execution en SYSTEM-toegang op Windows mogelijk maken, ook op gepatchte servers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "f7cf57082e20",
+  "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+  "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+  "excerpt": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T11:51:31Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A phishing campaign since mid-August 2026 uses calendar invites and live proxies to steal Google sessions from corporate users, bypassing link checks.",
+    "nl": "Een phishingcampagne sinds half augustus 2026 gebruikt agenda-uitnodigingen en live proxies om Google-sessies van zakelijke gebruikers te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:41Z"
+  }
+ },
+ {
+  "id": "988b46d175c6",
+  "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+  "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+  "excerpt": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T11:33:15Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [
+   "CVE-2026-126325"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 62,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "PTC"
+   ],
+   "summary": {
+    "en": "PTC released patches for CVE-2026-126325, a critical flaw in Windchill and FlexPLM with CVSS v4 9.2 that could allow remote code execution via deserialization of untrusted data.",
+    "nl": "PTC heeft patches uitgebracht voor CVE-2026-126325, een kritieke kwetsbaarheid in Windchill en FlexPLM met CVSS v4 9.2 die remote code execution mogelijk maakt via deserialisatie van onvertrouwde data."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:49Z"
+  }
+ },
+ {
   "id": "0df3b4df844f",
   "url": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/",
   "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
@@ -18718,6 +19919,110 @@
   }
  },
  {
+  "id": "895bf43b7ef3",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+  "title": "ICSA-26-316-04: Siemens RUGGEDCOM APE1808",
+  "excerpt": "Palo Alto Networks has published [1] information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications. [1] https://security.paloaltonetworks.com/CVE-2026-111497 Sectors: Critical Manufacturing.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-30T00:00:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Siemens advisory ICSA-26-316-04 lists RUGGEDCOM APE1808 products affected by a PAN-OS vulnerability related to Node2Shell, and recommends applying the upstream workarounds.",
+    "nl": "Siemens-advisory ICSA-26-316-04 noemt RUGGEDCOM APE1808-producten die getroffen zijn door een PAN-OS-kwetsbaarheid gerelateerd aan Node2Shell, en adviseert de upstream workarounds toe te passen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:49Z"
+  }
+ },
+ {
+  "id": "4f8bd99c96ae",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+  "title": "ICSA-26-316-03: Siemens Industrial Edge Management",
+  "excerpt": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK. - Management Applications installed: Follow the specific mitigations until a fix is available. - Device Applications installed: Follow the specific mitigations until a fix is available. For Siemens-managed services, Industrial Edge…",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-30T00:00:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens is assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge and gives mitigation steps depending on which Industrial Edge Management or Device Applications are installed.",
+    "nl": "Siemens onderzoekt de impact van Node2Shell (CVE-2026-111497) op Industrial Edge en geeft mitigatiestappen afhankelijk van de geinstalleerde Industrial Edge Management- of Device-applicaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:49Z"
+  }
+ },
+ {
+  "id": "d1df7bcb2c9b",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+  "title": "ICSA-26-316-02: Siemens Desigo, Gridscale",
+  "excerpt": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products. Siemens has released new versions for the affected products and recommends to update to the latest versions. Sectors: Critical Manufacturing, Energy…",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-30T00:00:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "building",
+    "energy"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory covers the impact of Node2Shell (CVE-2026-111497), a Node.js Brotli out-of-bounds write, on Desigo and Gridscale products, and notes new versions have been released.",
+    "nl": "Siemens-advisory beschrijft de impact van Node2Shell (CVE-2026-111497), een out-of-bounds write in de Node.js Brotli-decoder, op Desigo- en Gridscale-producten, en meldt dat nieuwe versies zijn uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:49Z"
+  }
+ },
+ {
   "id": "df0315646633",
   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
@@ -26183,6 +27488,42 @@
   }
  },
  {
+  "id": "88d53a174370",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+  "title": "ICSA-26-316-01: Siemens Building Automation and Energy Products",
+  "excerpt": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products. As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational…",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-26T00:00:00Z",
+  "fetched": "2026-11-12T19:58:05Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 78,
+   "category": "advisory",
+   "sectors": [
+    "building",
+    "energy"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory covers the impact of php2shell (CVE-2026-109618 and CVE-2026-109619), two unauthenticated critical RCE flaws in PHP, on various Siemens building automation and energy products.",
+    "nl": "Siemens-advisory beschrijft de impact van php2shell (CVE-2026-109618 en CVE-2026-109619), twee kritieke ongeauthenticeerde RCE-kwetsbaarheden in PHP, op diverse Siemens-producten voor gebouwautomatisering en energie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:49Z"
+  }
+ },
+ {
   "id": "b78e59fd5cb8",
   "url": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
   "title": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
@@ -28029,6 +29370,42 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-23T19:18:00Z"
+  }
+ },
+ {
+  "id": "0ce5cd47e797",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+  "title": "ICSA-26-316-05: Siemens RUGGEDCOM APE1808",
+  "excerpt": "Palo Alto Networks has published [1] information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications. [1] https://security.paloaltonetworks.com/CVE-2026-109618 Sectors: Critical Manufacturing.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-10-23T00:00:00Z",
+  "fetched": "2026-11-12T19:58:04Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Siemens",
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Siemens advisory ICSA-26-316-05 lists RUGGEDCOM APE1808 products affected by PAN-OS vulnerabilities related to php2shell, and recommends applying the upstream workarounds.",
+    "nl": "Siemens-advisory ICSA-26-316-05 noemt RUGGEDCOM APE1808-producten die getroffen zijn door PAN-OS-kwetsbaarheden gerelateerd aan php2shell, en adviseert de upstream workarounds toe te passen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T19:58:49Z"
   }
  },
  {
