@@ -1,5 +1,862 @@
 [
  {
+  "id": "0df3b4df844f",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/",
+  "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
+  "excerpt": "Microsoft Entra’s Hard Deletion Protection, now in preview, gives administrators a seven-day window to recover selected identities before they can be permanently erased. The feature is designed to help organizations respond to accidental or malicious deletion of critical directory objects. It supports users that are not synchronized from on-premises systems, cloud-only groups, applications, and service principals. Entra Agent ID objects are covered through their underlying identity types. How the recovery window works Entra generally retains … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T11:04:24Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft Entra now previews Hard Deletion Protection, giving administrators seven days to recover selected identities before permanent deletion.",
+    "nl": "Microsoft Entra test nu Hard Deletion Protection, waarmee beheerders zeven dagen hebben om geselecteerde identiteiten te herstellen voordat ze definitief worden verwijderd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "8db34aa9992f",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/stolen-claude-api-keys-remote-controlled-implant/",
+  "title": "Stolen Claude API keys can turn Claude Code into a remote-controlled implant",
+  "excerpt": "Darktrace researchers turned Claude Code into a remote-controlled implant in a lab test, steering the coding agent through the memory stores feature of Anthropic’s Claude platform and pulling a 1 GB file out through the Claude Files API. Once the agent was set up, every job and every result traveled through api.anthropic.com, the endpoint the agent already calls for inference, so the attacker’s traffic looked like a coding agent doing its job. The technique needs … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T11:00:21Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Darktrace researchers turned Claude Code into a remote-controlled implant in a lab test using stolen API keys and Claude platform features.",
+    "nl": "Darktrace-onderzoekers maakten in een labtest Claude Code met gestolen API-sleutels een op afstand bestuurbare implant."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "ff30c3e4dda2",
+  "url": "https://www.security.nl/posting/961377/Identificatie-app+itsme+gaat+in+Belgi%C3%AB+gezichtsherkenning+toepassen?channel=rss",
+  "title": "Identificatie-app itsme gaat in België gezichtsherkenning toepassen",
+  "excerpt": "Identificatie-app itsme gaat in België gezichtsherkenning toepassen, wat moet voorkomend dat accounts van gebruikers worden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T10:53:41Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Belgian identification app itsme will introduce facial recognition, intended to prevent user accounts from being misused.",
+    "nl": "Identificatie-app itsme gaat in België gezichtsherkenning invoeren, bedoeld om misbruik van gebruikersaccounts te voorkomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "13fc86b2ae6c",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+  "title": "Microsoft confirms Windows security updates installation issues",
+  "excerpt": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T10:24:07Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft confirmed that November 2026 Windows 11 security updates fail to install on systems with the October preview update.",
+    "nl": "Microsoft bevestigt dat de beveiligingsupdates van november 2026 op Windows 11 niet installeren op systemen met de oktober-previewupdate."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "1d91d2d194b4",
+  "url": "https://industrialcyber.co/reports/enisa-reports-improving-eu-cybersecurity-maturity-warns-of-persistent-threats-uneven-capabilities-supply-chain-risks/",
+  "title": "ENISA reports improving EU cybersecurity maturity, warns of persistent threats, uneven capabilities, supply-chain risks",
+  "excerpt": "The European Union Agency for Cybersecurity (ENISA) disclosed that the level of cyber threats facing the EU remains...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-12T10:20:35Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "ENISA reports EU cyber threat levels persist, with improving maturity but uneven capabilities and ongoing supply-chain risks.",
+    "nl": "ENISA meldt dat de cyberdreiging in de EU aanhoudt, met verbeterde volwassenheid maar ongelijke capaciteiten en supply-chainrisico's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "d3228bec9681",
+  "url": "https://www.security.nl/posting/961369/CCB+waarschuwt+om+koelsystemen+nooit+meer+direct+aan+internet+te+hangen?channel=rss",
+  "title": "CCB waarschuwt om koelsystemen nooit meer direct aan internet te hangen",
+  "excerpt": "De Belgische overheidsinstantie CCB waarschuwt supermarkten en andere bedrijven om hun koelsystemen nooit meer direct aan het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T10:17:15Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Belgian CCB warns supermarkets and other companies never to connect their refrigeration systems directly to the internet.",
+    "nl": "Het Belgische CCB waarschuwt supermarkten en andere bedrijven om koelsystemen nooit rechtstreeks aan internet te koppelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  },
+  "title_en": "CCB warns never to connect cooling systems directly to the internet again"
+ },
+ {
+  "id": "2f4d4a7dcbd0",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/irisscon-2026-photos/",
+  "title": "Photos: IRISSCON 2026 cybercrime conference",
+  "excerpt": "IRISSCON 2026, the annual cybercrime conference organized by IRISSCERT, took place at the Aviva Stadium in Dublin on November 11. The all-day event gives attendees a look at the cyber threats businesses are facing right now, along with practical advice on how organizations can respond to them. Help Net Security was there, and here’s a look at the day. Visitors at IRISSCON 2026 Selena Larson, staff threat researcher at Proofpoint, shared insight about GenAI use … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T10:16:07Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Help Net Security published photos from the IRISSCON 2026 cybercrime conference held in Dublin on November 11.",
+    "nl": "Help Net Security publiceerde foto's van de IRISSCON 2026-cybercrimeconferentie in Dublin op 11 november."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "89239f29d787",
+  "url": "https://industrialcyber.co/ransomware/maersk-investigates-legacy-system-breach-after-whitearmor-ransomware-group-claims-100gb-logistics-data-theft/",
+  "title": "Maersk investigates legacy-system breach after WhiteArmor ransomware group claims 100GB logistics data theft",
+  "excerpt": "Danish integrated shipping and logistics company A.P. Moller-Maersk disclosed Wednesday that it was investigating unauthorized access to and...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-12T10:09:07Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "incident",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Maersk is investigating unauthorized access to a legacy system after the WhiteArmor ransomware group claimed theft of 100GB of logistics data.",
+    "nl": "Maersk onderzoekt ongeautoriseerde toegang tot een verouderd systeem nadat ransomwaregroep WhiteArmor claimt 100GB aan logistieke data te hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "e23de8152b62",
+  "url": "https://industrialcyber.co/ai/cloud-range-ot-cyber-readiness-assessment-targets-it-ot-coordination-incident-response-gaps-in-industrial-operations/",
+  "title": "Cloud Range OT Cyber Readiness Assessment targets IT-OT coordination, incident response gaps in industrial operations",
+  "excerpt": "Cloud Range introduced a free, 28-question OT Cyber Readiness Assessment designed to help organizations identify gaps in their...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-12T10:02:57Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cloud Range released a free 28-question OT Cyber Readiness Assessment to help organizations identify IT-OT coordination and incident response gaps.",
+    "nl": "Cloud Range bracht een gratis OT Cyber Readiness Assessment met 28 vragen uit om hiaten in IT-OT-coördinatie en incidentrespons te vinden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "9714eef9dc0d",
+  "url": "https://industrialcyber.co/news/finite-state-raises-27-million-boost-ai-driven-product-security-address-connected-device-software-supply-chain-risks/",
+  "title": "Finite State raises $27 million boost AI-driven product security, address connected-device software supply-chain risks",
+  "excerpt": "Finite State, vendor of product security and software supply chain risk management, announced a $27 million Series C...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-12T10:02:27Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Finite State raised $27 million in a Series C round to expand AI-driven product security and connected-device software supply-chain protection.",
+    "nl": "Finite State haalde 27 miljoen dollar op in een Series C-ronde om productbeveiliging met AI en supply-chainbeveiliging van verbonden apparaten uit te breiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "c2206020f6fc",
+  "url": "https://industrialcyber.co/news/redspin-achieves-iso-iec-17020-accreditation-becoming-an-accredited-c3pao-for-cmmc-assessments/",
+  "title": "Redspin achieves ISO/IEC 17020 accreditation, becoming an accredited C3PAO for CMMC assessments",
+  "excerpt": "Redspin, vendor of Cybersecurity Maturity Model Certification (CMMC) services, announced that it has achieved ISO/IEC 17020:2012 accreditation, officially...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-12T10:00:11Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Redspin achieved ISO/IEC 17020:2012 accreditation and became an accredited C3PAO for CMMC assessments.",
+    "nl": "Redspin behaalde ISO/IEC 17020:2012-accreditatie en werd een geaccrediteerde C3PAO voor CMMC-beoordelingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "95b0e9376649",
+  "url": "https://www.security.nl/posting/961364/Staatssecretaris%3A+Belastingdienst+moet+AVG-naleving+sneller+op+orde+krijgen?channel=rss",
+  "title": "Staatssecretaris: Belastingdienst moet AVG-naleving sneller op orde krijgen",
+  "excerpt": "De Belastingdienst moet de naleving van de AVG sneller op orde krijgen, zo stelt staatssecretaris Eerenberg van Financiën in ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T09:55:09Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "State Secretary Eerenberg says the Dutch Tax Authority must bring its GDPR compliance into order faster.",
+    "nl": "Staatssecretaris Eerenberg stelt dat de Belastingdienst de AVG-naleving sneller op orde moet brengen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "44973f84e4d4",
+  "url": "https://www.security.nl/posting/961360/%27Tientallen+organisaties+gehackt+via+ScreenConnect-aanval%27?channel=rss",
+  "title": "'Tientallen organisaties gehackt via ScreenConnect-aanval'",
+  "excerpt": "Honderden systemen van tientallen organisaties zijn bij een aanval die gebruikmaakte van ScreenConnect gehackt, zo stelt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T09:40:53Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Dutch reports say hundreds of systems at dozens of organizations were compromised in an attack abusing ScreenConnect.",
+    "nl": "Volgens Nederlandse media zijn honderden systemen van tientallen organisaties gehackt bij een aanval met ScreenConnect."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "bee0f7d9c4fe",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+  "title": "Hackers plant GSocket on Linux servers for persistent access",
+  "excerpt": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T09:38:00Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Multiple threat actors abuse the open-source GSocket remote access tool to keep access to Linux servers after the initial vulnerabilities are patched.",
+    "nl": "Meerdere dreigingsactoren misbruiken het open-source remote access-hulpmiddel GSocket om toegang tot Linux-servers te behouden na patching."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "368d62e9a3ca",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/aws-ai-agents-built-emulator/",
+  "title": "AWS Emulator: Open-source tool for testing AWS apps locally, built by autonomous AI agents",
+  "excerpt": "Amazon Web Services has released AWS Emulator, a free tool that simulates AWS services on a developer’s laptop, a development server or in a continuous integration (CI) pipeline. The company says autonomous AI agents wrote the tool entirely, with no code written or reviewed by its engineers. There is no additional service fee, users pay for AWS resources when they deploy applications on AWS. How three teams of AI agents build AWS Emulator Three teams … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T09:30:46Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Amazon Web Services released AWS Emulator, a free tool for simulating AWS services locally, which it says was written entirely by autonomous AI agents.",
+    "nl": "Amazon Web Services bracht AWS Emulator uit, een gratis tool om AWS-diensten lokaal te simuleren, volgens AWS volledig geschreven door autonome AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "26d811aac83d",
+  "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+  "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+  "excerpt": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fixed versions earlier this week. The affected servers are members of a replica",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T09:25:00Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [
+   "CVE-2026-118383"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "MongoDB fixed CVE-2026-118383, a critical pre-authentication flaw that can crash lagging replica set members when they become primary.",
+    "nl": "MongoDB verhielp CVE-2026-118383, een kritieke kwetsbaarheid vóór authenticatie waardoor achterlopende replicaleden kunnen crashen bij failover."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "82176eff4e4c",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/wfx-loot-github-actions-secret-stealer/",
+  "title": "Check your GitHub repos: A secret stealer hit tens of thousands of them",
+  "excerpt": "A threat actor using stolen GitHub credentials has pushed a credential-stealing payload into tens of thousands of repositories since November 10. In more than 1,800 of them, the malware ran and shipped GitHub Actions secrets and cloud credentials to the attacker. Aikido spotted the campaign and named it wfx-loot. The name comes from the attacker’s own labels, “wfx” for the malware and “loot” for what it steals. Aikido counted 4,837 compromised accounts opening probe pull … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T09:24:32Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A threat actor using stolen GitHub credentials pushed a credential-stealing payload into tens of thousands of repositories, running in over 1,800.",
+    "nl": "Een dreigingsactor met gestolen GitHub-inloggegevens plaatste een credential-stealer in tienduizenden repositories, waarvan er ruim 1.800 zijn geraakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "84a9a40cfe3f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0487",
+  "title": "NCSC-2026-0487 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiMail",
+  "excerpt": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiMail. De kwetsbaarheden in FortiMail betreffen onder andere OS command injection, path traversal, SQL-injectie, authenticatie- en autorisatieproblemen, argument injection, XML-injectie, en resource consumptie. Sommige kwetsbaarheden kunnen door ongeauthenticeerde aanvallers worden misbruikt, terwijl andere authenticatie vereisen. Exploitatie kan leiden tot het uitvoeren van ongeautoriseerde commando's op root-niveau, het omzeilen van authenticatie en autorisatie, het resetten van wachtwoorden van webmailgebruikers, het lezen en…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T08:54:20Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fortinet fixed multiple vulnerabilities in FortiMail, some allowing unauthenticated attackers to run unauthorized root-level commands.",
+    "nl": "Fortinet verhielp meerdere kwetsbaarheden in FortiMail, waarvan sommige door ongeauthenticeerde aanvallers misbruikt kunnen worden voor ongeautoriseerde root-commando's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "89d9a4563833",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0486",
+  "title": "NCSC-2026-0486 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiClient en FortiClientEMS",
+  "excerpt": "Fortinet heeft kwetsbaarheden verholpen in FortiClient en FortiClientEMS. In FortiClientEMS kunnen geauthenticeerde lokale gebruikers met administratieve rechten hun toegang escaleren naar een root shell door het uitvoeren van CLI-commando's met te hoge privileges. Dit komt doordat de commando's meer rechten krijgen dan noodzakelijk, wat root-level controle mogelijk maakt. Deze kwetsbaarheid betreft het FortiClientEMS managementsysteem en kan de integriteit van beheerde endpoints beïnvloeden. Daarnaast bestaat er in FortiClient voor Mac en Windows een kwetsbaarheid in de origin validation…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T08:48:17Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fortinet fixed vulnerabilities in FortiClient and FortiClientEMS, including a flaw letting authenticated local admins escalate to a root shell.",
+    "nl": "Fortinet verhielp kwetsbaarheden in FortiClient en FortiClientEMS, waaronder een die geauthenticeerde lokale beheerders root-toegang geeft."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "88e35dc18e08",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0485",
+  "title": "NCSC-2026-0485 [1.00] [M/H] Kwetsbaarheden verholpen in SAP-producten",
+  "excerpt": "SAP heeft meerdere kwetsbaarheden verholpen in diverse SAP-producten, waaronder SAP NetWeaver Application Server ABAP, SAP NetWeaver AS Java, SAP Web Dispatcher, SAP BusinessObjects Business Intelligence Platform, SAP Cloud SDK, SAP Host Agent, SAP NetWeaver Enterprise Portal, SAP NetWeaver Visual Composer, en SAP Solution Tools Plug-In. De kwetsbaarheden betreffen verschillende componenten binnen SAP-producten en omvatten onder andere security misconfiguraties, memory corruptie, OS command injection, broken access control, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF)…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T08:43:05Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "SAP fixed multiple vulnerabilities across several SAP products, including NetWeaver, Web Dispatcher and BusinessObjects, such as memory corruption and OS command injection.",
+    "nl": "SAP verhielp meerdere kwetsbaarheden in diverse SAP-producten, waaronder NetWeaver en Web Dispatcher, zoals memory corruption en OS command injection."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:03Z"
+  }
+ },
+ {
+  "id": "ec31691c4e86",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/net-11-security-changes/",
+  "title": ".NET 11 security changes target the software supply chain",
+  "excerpt": "Microsoft has released .NET 11, a Standard Term Support (STS) release that will receive two years of support. .NET 10 is still the Long Term Support (LTS) option. The release covers C# 15, ASP.NET Core, .NET MAUI, and Windows development. Several of the changes affect software supply chain integrity, authentication handling, and platform lifecycle. .NET 8 and .NET 9 are out of support The most urgent item for defenders isn’t a new feature. .NET 8 … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T08:23:33Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft released .NET 11, a short-term support release, with security changes aimed at software supply chain integrity and authentication handling.",
+    "nl": "Microsoft heeft .NET 11 uitgebracht, een release met korte ondersteuning, met beveiligingswijzigingen gericht op de integriteit van de software supply chain en authenticatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "c2d283cd7530",
+  "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+  "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+  "excerpt": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1. The crash",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T08:20:37Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Node.js released fixes for 16 flaws, including HTTP/2 bugs that let unauthenticated clients crash servers and leak memory from other connections.",
+    "nl": "Node.js heeft fixes uitgebracht voor 16 kwetsbaarheden, waaronder HTTP/2-bugs waarmee niet-geauthenticeerde clients servers kunnen laten crashen en geheugen van andere verbindingen kunnen lekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "dc9f393a3edb",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0484",
+  "title": "NCSC-2026-0484 [1.00] [M/H] Kwetsbaarheid verholpen in Apache HTTP Server",
+  "excerpt": "Apache heeft een kwetsbaarheid verholpen in Apache HTTP Server, specifiek in de mod_http2 module (versies 2.4.55 tot 2.4.70) en mod_h2 module (versies 2.0.8 tot 2.0.42). De kwetsbaarheid betreft een concurrency probleem in de assign_headers functie van de mod_http2 en mod_h2 modules. De kwetsbaarheid maakt het mogelijk voor niet-geauthenticeerde externe aanvallers om op afstand willekeurige commando's uit te voeren, wat kan leiden tot remote code execution op servers waar HTTP/2 is ingeschakeld. Servers die alleen HTTP/1.1 ondersteunen zijn niet kwetsbaar.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-12T07:59:35Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apache fixed a concurrency flaw in the mod_http2 and mod_h2 modules of Apache HTTP Server that allows unauthenticated remote code execution where HTTP/2 is enabled.",
+    "nl": "Apache heeft een concurrency-kwetsbaarheid in de modules mod_http2 en mod_h2 van Apache HTTP Server verholpen, waarmee niet-geauthenticeerde externe code-uitvoering mogelijk is waar HTTP/2 is ingeschakeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "ad19da92cd4c",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/marcelo-oliveira-github-agentic-autofix/",
+  "title": "GitHub Agentic Autofix and the question of who owns a bad AI patch",
+  "excerpt": "In this Help Net Security interview, Marcelo Oliveira, VP of Product Management at GitHub, talks about who is accountable when an AI-generated patch fixes one flaw and introduces another. He explains how Agentic Autofix re-runs detection engines and project tests, and what a CISO should change before pointing an agent at thousands of old alerts. Oliveira also discusses which metrics show a codebase is getting safer, how GitHub picks the models behind autofix, and whether … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T07:00:38Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "summary": {
+    "en": "A Help Net Security interview with a GitHub product executive discusses accountability for AI-generated security patches and the Agentic Autofix feature.",
+    "nl": "Een interview van Help Net Security met een productmanager van GitHub gaat over verantwoordelijkheid voor door AI gegenereerde beveiligingspatches en de functie Agentic Autofix."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "417b99b8248b",
+  "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+  "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+  "excerpt": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and cloud credentials that a repository's CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T06:42:47Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker used stolen credentials for 4,837 GitHub accounts to plant a CI secret stealer in at least 1,806 repositories, according to Aikido Security.",
+    "nl": "Een aanvaller gebruikte gestolen inloggegevens van 4.837 GitHub-accounts om een CI-geheimenstealer te plaatsen in minstens 1.806 repositories, volgens Aikido Security."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "5bf355d03512",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/dagster-open-source-cloud-native-data-pipeline-orchestrator/",
+  "title": "Dagster: Open-source cloud-native data pipeline orchestrator",
+  "excerpt": "Dagster is an open source orchestrator for data pipelines. It decides what runs, in what order, and when. It also tracks how the tables, datasets, machine learning models, and reports it manages connect to the data they came from. When a source table goes bad, the tables built from it carry the problem forward. Dagster’s lineage graph shows which ones sit downstream, and that list is the starting point for fixing a broken dashboard or … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T06:30:08Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Dagster is presented as an open source orchestrator for data pipelines that tracks lineage between datasets and models.",
+    "nl": "Dagster wordt gepresenteerd als open source orkestrator voor datapipelines die afhankelijkheden tussen datasets en modellen bijhoudt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "038afbdf0a49",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/sprinto-ai-agent-offboarding/",
+  "title": "Who collects the keys when an AI agent retires?",
+  "excerpt": "Think about the last time a good engineer left your company. Someone collected the laptop and the badge. IT revoked their logins before the end of the day. Their manager reassigned the open tickets, and HR filed their records somewhere they’ll stay for years, in case anyone ever challenges a decision they made. Now think about the last time an AI agent left. Someone probably deleted it from the dashboard. I’ve started describing agents as … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T06:00:57Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An opinion article argues that organizations need to revoke credentials and records when AI agents are retired, as they do for departing employees.",
+    "nl": "Een opiniestuk stelt dat organisaties, net als bij vertrekkende medewerkers, toegang en gegevens moeten intrekken wanneer AI-agents worden uitgefaseerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "e481a8df318d",
+  "url": "https://www.helpnetsecurity.com/2026/11/12/sans-industrial-cybersecurity-survey/",
+  "title": "CISOs say OT will survive a cyberattack, but their engineers aren’t so sure",
+  "excerpt": "Ask industrial security chiefs whether their plants would keep running through a full IT compromise, and every one who answered the SANS 2026 ICS/OT survey says yes. Thirty-eight percent expect to run indefinitely on islanded ICS/OT systems, and 62% expect to get by temporarily on manual controls. None foresee degradation or a halt. The 696 practitioners SANS surveyed, the people who would run those manual controls, are less sure. Only 15% said their critical processes … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T05:30:13Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "In the SANS 2026 ICS/OT survey, all CISOs expected plants to keep running through a full IT compromise, while the 696 practitioners surveyed were less sure.",
+    "nl": "In de SANS 2026 ICS/OT-enquete verwachtten alle CISO's dat fabrieken zouden blijven draaien bij een volledige IT-compromittering, terwijl de 696 ondervraagde praktijkmensen minder zeker waren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "8b748363b7cc",
+  "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+  "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+  "excerpt": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux. An attacker who can reach the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T05:12:26Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [
+   "CVE-2026-119618"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CVE-2026-119618, a critical flaw in the mod_http2 module of Apache HTTP Server, allows remote code execution by unauthenticated attackers and is fixed in version 2.4.71.",
+    "nl": "CVE-2026-119618, een kritieke kwetsbaarheid in de module mod_http2 van Apache HTTP Server, maakt externe code-uitvoering door niet-geauthenticeerde aanvallers mogelijk en is verholpen in versie 2.4.71."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
+  "id": "f1a5b4bff7b5",
+  "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+  "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+  "excerpt": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software. \"Our initial assessment suggests the activity may involve",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T04:39:48Z",
+  "fetched": "2026-11-12T11:20:36Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise"
+   ],
+   "summary": {
+    "en": "Attacks using rogue clients reached at least 288 endpoints in 48 organizations, and ConnectWise disabled five third-party ScreenConnect extensions in partner environments.",
+    "nl": "Aanvallen met kwaadaardige clients troffen minstens 288 endpoints in 48 organisaties, en ConnectWise heeft vijf extensies van derden voor ScreenConnect uitgeschakeld in partneromgevingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
+  }
+ },
+ {
   "id": "b47bcd06a09c",
   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
   "title": "Baker Tilly notifies clients of data breach at third-party provider",
@@ -109,6 +966,38 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-11T22:03:43Z"
+  }
+ },
+ {
+  "id": "049ccd033678",
+  "url": "https://certvde.com/en/advisories/VDE-2026-138/",
+  "title": "Welotec: Trust in Compromised Intermediate Certificates in egOS",
+  "excerpt": "[VDE-2026-138] The egOS system trust store uses certificate data from the Mozilla NSS root store. The trust store contains eMudhra emSign root certificates associated with eight compromised intermediate certificate authority keys. An unauthenticated attacker who possesses one of the compromised keys and can intercept relevant network traffic may issue fraudulent TLS certificates, impersonate remote services, and read or modify outgoing TLS traffic from the device.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-11T19:00:00Z",
+  "fetched": "2026-11-12T11:20:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Welotec"
+   ],
+   "summary": {
+    "en": "Welotec egOS trusts eMudhra root certificates tied to eight compromised intermediate CA keys, allowing attackers with those keys to impersonate services and intercept TLS traffic (VDE-2026-138).",
+    "nl": "Welotec egOS vertrouwt eMudhra-rootcertificaten die gekoppeld zijn aan acht gecompromitteerde intermediate CA-sleutels, waardoor aanvallers met die sleutels diensten kunnen imiteren en TLS-verkeer kunnen onderscheppen (VDE-2026-138)."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T11:21:18Z"
   }
  },
  {

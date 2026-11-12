@@ -1,0 +1,180 @@
+{
+ "date": "2026-11-12",
+ "published": "2026-11-12T11:21:46Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 8,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A shipping giant investigates a ransomware claim, Belgium urges operators to take cooling systems off the internet, and a certificate trust issue hits Welotec egOS."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een grote rederij onderzoekt een ransomware-claim, België roept op koelsystemen van het internet te halen en een certificaatprobleem treft Welotec egOS."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "89239f29d787",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/maersk-investigates-legacy-system-breach-after-whitearmor-ransomware-group-claims-100gb-logistics-data-theft/",
+     "title": "Maersk investigates legacy-system breach after WhiteArmor ransomware group claims 100GB logistics data theft"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Maersk investigates legacy-system breach after WhiteArmor ransomware claim",
+     "summary": "A.P. Moller-Maersk disclosed on Wednesday that it is investigating unauthorized access to a legacy system. The WhiteArmor ransomware group claims to have stolen 100GB of logistics data.",
+     "takeaway": "Review which legacy systems in your logistics and operations chain are still reachable and monitored, and check what data they hold."
+    },
+    "nl": {
+     "heading": "Maersk onderzoekt inbraak op legacy-systeem na ransomware-claim van WhiteArmor",
+     "summary": "A.P. Moller-Maersk maakte woensdag bekend onderzoek te doen naar onbevoegde toegang tot een legacy-systeem. De ransomwaregroep WhiteArmor claimt 100GB aan logistieke data te hebben buitgemaakt.",
+     "takeaway": "Controleer welke legacy-systemen in uw logistieke en operationele keten nog bereikbaar en gemonitord zijn, en welke data zij bevatten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "d3228bec9681",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/961369/CCB+waarschuwt+om+koelsystemen+nooit+meer+direct+aan+internet+te+hangen?channel=rss",
+     "title": "CCB waarschuwt om koelsystemen nooit meer direct aan internet te hangen"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Belgian CCB tells operators never to expose cooling systems directly to the internet",
+     "summary": "The Belgian authority CCB warns supermarkets and other businesses never again to connect their cooling systems directly to the internet. This follows the recent reports of attacks on refrigeration controllers at European supermarkets.",
+     "takeaway": "Check whether any refrigeration or building controllers are internet-reachable and move them behind a firewall or secure remote access."
+    },
+    "nl": {
+     "heading": "Update: Belgische CCB waarschuwt koelsystemen nooit direct aan internet te hangen",
+     "summary": "De Belgische overheidsinstantie CCB waarschuwt supermarkten en andere bedrijven om koelsystemen nooit meer direct aan het internet te hangen. Dit volgt op de eerdere meldingen van aanvallen op koelingsregelaars bij Europese supermarkten.",
+     "takeaway": "Controleer of koelings- of gebouwbeheersystemen vanaf het internet bereikbaar zijn en plaats ze achter een firewall of beveiligde remote toegang."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "049ccd033678",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-138/",
+     "title": "Welotec: Trust in Compromised Intermediate Certificates in egOS"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Welotec egOS trust store contains compromised eMudhra intermediate certificates (VDE-2026-138)",
+     "summary": "The egOS trust store uses Mozilla NSS root data that includes eMudhra emSign root certificates tied to eight compromised intermediate CA keys. An unauthenticated attacker holding one of these keys who can intercept relevant network traffic could issue fraudulent TLS certificates and impersonate remote systems.",
+     "takeaway": "If you run Welotec egOS devices, consult advisory VDE-2026-138 for the fix and review how those devices validate TLS connections."
+    },
+    "nl": {
+     "heading": "Welotec egOS trust store bevat gecompromitteerde eMudhra-tussencertificaten (VDE-2026-138)",
+     "summary": "De egOS trust store gebruikt gegevens uit de Mozilla NSS root store, waaronder eMudhra emSign-rootcertificaten die horen bij acht gecompromitteerde tussen-CA-sleutels. Een niet-geauthenticeerde aanvaller met zo'n sleutel die relevant netwerkverkeer kan onderscheppen, kan frauduleuze TLS-certificaten uitgeven en externe systemen imiteren.",
+     "takeaway": "Gebruikt u Welotec egOS-apparaten, raadpleeg dan advisory VDE-2026-138 voor de oplossing en beoordeel hoe deze apparaten TLS-verbindingen valideren."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "e481a8df318d",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/12/sans-industrial-cybersecurity-survey/",
+     "title": "CISOs say OT will survive a cyberattack, but their engineers aren’t so sure"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "SANS survey: CISOs expect OT to survive an attack, engineers are less sure",
+     "summary": "In the SANS 2026 ICS/OT survey of 696 practitioners, every industrial security chief who answered said plants would keep running through a full IT compromise. 38% expect to run indefinitely on islanded ICS/OT systems and 62% temporarily on manual controls, and none foresee degradation or a halt.",
+     "takeaway": "Test your islanding and manual-operation fallbacks with the engineers who would run them, instead of relying on management assumptions."
+    },
+    "nl": {
+     "heading": "SANS-enquête: CISO's verwachten dat OT een aanval overleeft, engineers twijfelen",
+     "summary": "In de SANS 2026 ICS/OT-enquête onder 696 professionals zegt elke industriële security-verantwoordelijke die antwoordde dat fabrieken blijven draaien bij een volledige IT-compromittering. 38% verwacht onbeperkt door te draaien op geïsoleerde ICS/OT-systemen en 62% tijdelijk op handmatige bediening, en niemand verwacht degradatie of stilstand.",
+     "takeaway": "Test uw terugvalopties voor isolatie en handmatige bediening samen met de engineers die ze moeten uitvoeren, in plaats van op aannames van het management te vertrouwen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "1d91d2d194b4",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/enisa-reports-improving-eu-cybersecurity-maturity-warns-of-persistent-threats-uneven-capabilities-supply-chain-risks/",
+     "title": "ENISA reports improving EU cybersecurity maturity, warns of persistent threats, uneven capabilities, supply-chain risks"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "ENISA: EU cybersecurity maturity improves, but threats and uneven capabilities persist",
+     "summary": "ENISA reports that EU cybersecurity maturity is improving while the level of cyber threats remains high. It warns of uneven capabilities across the EU and of supply-chain risks.",
+     "takeaway": "Use the findings to review supplier dependencies and compare your own capabilities with your NIS2 obligations."
+    },
+    "nl": {
+     "heading": "ENISA: cybersecuritymaturiteit in de EU verbetert, maar dreigingen en ongelijke capaciteiten blijven",
+     "summary": "ENISA meldt dat de cybersecuritymaturiteit in de EU verbetert, terwijl het dreigingsniveau hoog blijft. Het waarschuwt voor ongelijke capaciteiten binnen de EU en voor risico's in de toeleveringsketen.",
+     "takeaway": "Gebruik de bevindingen om afhankelijkheden van leveranciers te beoordelen en uw eigen capaciteiten af te zetten tegen uw NIS2-verplichtingen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "3641ea354795",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/nist/nist-lays-out-adversarial-machine-learning-taxonomy-to-address-attacks-targeting-agentic-superintelligence-systems/",
+     "title": "NIST lays out adversarial machine learning taxonomy to address attacks targeting agentic superintelligence systems"
+    },
+    {
+     "id": "fea83b34884c",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/expert/inside-third-party-cyber-risk/",
+     "title": "Inside Third-Party Cyber Risk"
+    },
+    {
+     "id": "e23de8152b62",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ai/cloud-range-ot-cyber-readiness-assessment-targets-it-ot-coordination-incident-response-gaps-in-industrial-operations/",
+     "title": "Cloud Range OT Cyber Readiness Assessment targets IT-OT coordination, incident response gaps in industrial operations"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Other items: NIST adversarial ML draft, FBI contractor breach, Cloud Range readiness assessment",
+     "summary": "NIST published an initial public draft report with a taxonomy of adversarial machine learning attacks. A commentary notes the FBI said the breach of its FBIJobs.gov platform came down to a contractor, and Cloud Range released a free 28-question OT Cyber Readiness Assessment on IT-OT coordination and incident response gaps.",
+     "takeaway": "Include third-party access in your risk reviews, and consider a quick self-assessment of IT-OT coordination and incident response."
+    },
+    "nl": {
+     "heading": "Overig: NIST-concept over adversarial ML, FBI-leveranciersinbreuk, Cloud Range-gereedheidstest",
+     "summary": "NIST publiceerde een eerste openbaar conceptrapport met een taxonomie van adversarial machine learning-aanvallen. Een commentaar meldt dat de FBI de inbreuk op het platform FBIJobs.gov aan een contractor toeschrijft, en Cloud Range bracht een gratis OT Cyber Readiness Assessment van 28 vragen uit over IT-OT-coördinatie en hiaten in incidentrespons.",
+     "takeaway": "Neem toegang van derden mee in uw risicobeoordelingen en overweeg een snelle zelfbeoordeling van IT-OT-coördinatie en incidentrespons."
+    }
+   }
+  }
+ ]
+}
