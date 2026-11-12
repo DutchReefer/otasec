@@ -1,5 +1,61 @@
 [
  {
+  "id": "b47bcd06a09c",
+  "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+  "title": "Baker Tilly notifies clients of data breach at third-party provider",
+  "excerpt": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T23:01:31Z",
+  "fetched": "2026-11-12T03:04:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Baker Tilly Advisory Group is notifying clients that a third-party provider data breach exposed their personal information and that of their dependents.",
+    "nl": "Baker Tilly Advisory Group informeert cliënten dat een datalek bij een externe leverancier persoonlijke gegevens van hen en hun afhankelijken heeft blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T03:04:08Z"
+  }
+ },
+ {
+  "id": "ab7e7ef2388b",
+  "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+  "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+  "excerpt": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-11T22:56:21Z",
+  "fetched": "2026-11-12T03:04:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ConnectWise is investigating an active malware campaign that abuses compromised ScreenConnect environments to deploy rogue remote-access clients on MSP customer devices.",
+    "nl": "ConnectWise onderzoekt een actieve malwarecampagne die gecompromitteerde ScreenConnect-omgevingen misbruikt om ongeautoriseerde remote-toegangsclients op apparaten van MSP-klanten te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-12T03:04:08Z"
+  }
+ },
+ {
   "id": "f3ffd49b40c0",
   "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
