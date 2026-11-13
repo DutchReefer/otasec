@@ -1,5 +1,1134 @@
 [
  {
+  "id": "59b7f6903a29",
+  "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+  "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+  "excerpt": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T16:21:43Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Check Point",
+    "VMware"
+   ],
+   "summary": {
+    "en": "Vulnerable Check Point Security Gateways were targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts.",
+    "nl": "Kwetsbare Check Point Security Gateways werden aangevallen via PHP2Shell, waarbij datawissende malware op VMware ESXi-hosts werd geinstalleerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "75de136cfe39",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
+  "title": "ChatGPT Wallet lets agents pay without seeing your card number",
+  "excerpt": "OpenAI began rolling out ChatGPT Wallet, which lets ChatGPT agents pay for purchases with a stand-in card number, so the user’s card details are not shared with the agent or the merchant. OpenAI built it with American Express, Mastercard, and Visa. It runs inside dots, where a user’s dot completes the purchase on their behalf. Merchants will have to do most of the adjusting. OpenAI says some websites may block agent purchases without meaning to, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T16:15:25Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "OpenAI",
+    "American Express",
+    "Mastercard",
+    "Visa"
+   ],
+   "summary": {
+    "en": "OpenAI started rolling out ChatGPT Wallet, which lets ChatGPT agents pay using a stand-in card number instead of the user's card details.",
+    "nl": "OpenAI begint met de uitrol van ChatGPT Wallet, waarmee ChatGPT-agents betalen met een vervangend kaartnummer in plaats van de echte kaartgegevens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "e4e9606f466d",
+  "url": "https://therecord.media/gootloader-ransomware-doj-details",
+  "title": "DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018",
+  "excerpt": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T15:59:00Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "US officials said Gootloader was used in at least 44 ransomware attacks causing about $29 million in losses since 2018.",
+    "nl": "Amerikaanse autoriteiten melden dat Gootloader sinds 2018 is gebruikt in minstens 44 ransomware-aanvallen met schade van ongeveer 29 miljoen dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "fb5ac890be2a",
+  "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+  "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+  "excerpt": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T15:27:05Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "AMD"
+   ],
+   "summary": {
+    "en": "Researchers published the Mior and Skyfall attacks that let a malicious host read data from AMD SEV-SNP protected virtual machines.",
+    "nl": "Onderzoekers publiceerden de aanvallen Mior en Skyfall, waarmee een kwaadwillige host data kan lezen uit AMD SEV-SNP-beveiligde virtuele machines."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "e8d212e2e33e",
+  "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
+  "title": "TSMC confirms employee data breach tied to cloud service provider",
+  "excerpt": "An investigation into the breach found that no TSMC systems were compromised but the information was “verified to match data stored in the system services of a cloud service provider, but is unrelated to the company’s operations or customer-related data.”",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T15:06:00Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "TSMC"
+   ],
+   "summary": {
+    "en": "TSMC confirmed an employee data breach linked to a cloud service provider, stating that no company operational systems were compromised.",
+    "nl": "TSMC bevestigt een datalek van medewerkersgegevens gekoppeld aan een cloudprovider, waarbij volgens het bedrijf geen operationele systemen zijn getroffen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "9086aefe2770",
+  "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+  "title": "How one AI agent exposed five critical enterprise security gaps",
+  "excerpt": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T15:01:11Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article describes how a manipulated AI invoice agent could change vendor bank details and outlines five AI agent security gaps.",
+    "nl": "Een artikel beschrijft hoe een AI-agent voor factuurverwerking via een kwaadaardige e-mail bankgegevens kan laten wijzigen en noemt vijf beveiligingslekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "30179f7f002a",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/fake-gta-6-download-scam/",
+  "title": "Fake GTA 6 download goes after Steam logins and crypto wallet data",
+  "excerpt": "Cynet researchers followed a “GTA 6 EXE file download” link from a Google Colab notebook to a ZIP archive and found a WARDEN Stealer loader inside. The malware takes saved passwords, browser cookies, Steam and Roblox credentials, and cryptocurrency wallet data from the machine it runs on. A Google Colab notebook promotes a fake GTA 6 executable download (Source: Cynet) Grand Theft Auto VI launches November 19 with no PC version. Any site offering a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T15:00:59Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found a fake GTA 6 download delivering WARDEN Stealer, which targets saved passwords, Steam credentials and crypto wallet data.",
+    "nl": "Onderzoekers ontdekten een nep-GTA 6-download die WARDEN Stealer verspreidt, gericht op opgeslagen wachtwoorden, Steam-gegevens en cryptowallets."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "34e002dfa3e8",
+  "url": "https://www.security.nl/posting/961595/AIVD-advies+over+spionage+niet+toegepast+op+dienstauto+ministers?channel=rss",
+  "title": "AIVD-advies over spionage niet toegepast op dienstauto ministers",
+  "excerpt": "Advies van de AIVD over spionage via slimme voertuigen wordt niet toegepast op de dienstauto's van ministers en andere ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T14:47:18Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An AIVD advisory on espionage via smart vehicles is not applied to the official cars of ministers and other officials.",
+    "nl": "Een advies van de AIVD over spionage via slimme voertuigen wordt niet toegepast op de dienstauto's van ministers en andere functionarissen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "c6e1d6a77271",
+  "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+  "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+  "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a coordinated set of actions announced by the U.S. government, the cloud-based",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T14:28:58Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI says North Korean actors stole over $400 million in cryptocurrency through deepfake video call social engineering known as FaceStealer.",
+    "nl": "De FBI stelt dat Noord-Koreaanse actoren via deepfake-videogesprekken, genaamd FaceStealer, meer dan 400 miljoen dollar aan cryptovaluta hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "e71bf5215ff1",
+  "url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
+  "title": "Ransomware attack on Belarusian cloud firm disrupts businesses for days",
+  "excerpt": "ActiveCloud said hackers had breached its systems and encrypted parts of its cloud infrastructure, leaving customers unable to access key services for several days.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T14:28:00Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ActiveCloud"
+   ],
+   "summary": {
+    "en": "A ransomware attack encrypted parts of Belarusian cloud firm ActiveCloud's infrastructure, leaving customers without key services for several days.",
+    "nl": "Een ransomware-aanval versleutelde delen van de cloudinfrastructuur van het Belarussische bedrijf ActiveCloud, waardoor klanten dagenlang geen belangrijke diensten konden gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "6c449c149c40",
+  "url": "https://www.security.nl/posting/961591/Brave+verwijdert+Meta-identifier+van+foto%27s+op+Instagram+en+Facebook?channel=rss",
+  "title": "Brave verwijdert Meta-identifier van foto's op Instagram en Facebook",
+  "excerpt": "De makers van Brave hebben een nieuwe feature aan de browser toegevoegd waardoor die een identifier van Meta van foto's op ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T14:13:48Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Brave",
+    "Meta"
+   ],
+   "summary": {
+    "en": "The Brave browser added a feature that removes a Meta identifier from photos on Instagram and Facebook.",
+    "nl": "De Brave-browser heeft een functie toegevoegd die een Meta-identifier uit foto's op Instagram en Facebook verwijdert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "79815295aaa3",
+  "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+  "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+  "excerpt": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T13:54:20Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Trezor",
+    "CryptoBilis"
+   ],
+   "summary": {
+    "en": "Trezor confirmed Trezor Safe 5 wallets bought from reseller CryptoBilis contain a hidden implant that can copy recovery phrases.",
+    "nl": "Trezor bevestigt dat Trezor Safe 5-wallets die via wederverkoper CryptoBilis zijn gekocht een verborgen implantaat bevatten dat herstelzinnen kan kopieren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "fd18c870928d",
+  "url": "https://www.security.nl/posting/961566/Chipgigant+TSMC+meldt+diefstal+van+personeelsgegevens?channel=rss",
+  "title": "Chipgigant TSMC meldt diefstal van personeelsgegevens",
+  "excerpt": "Een aanvaller is erin geslaagd om gegevens van voormalig en huidig personeel van chipgigant TSMC te stelen, zo heeft het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T13:03:52Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "TSMC"
+   ],
+   "summary": {
+    "en": "Chip manufacturer TSMC reports that an attacker stole personnel data of former and current employees.",
+    "nl": "Chipfabrikant TSMC meldt dat een aanvaller gegevens van voormalige en huidige medewerkers heeft gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "f88082b89135",
+  "url": "https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator",
+  "title": "Record number of cyber incidents reported to UK privacy regulator",
+  "excerpt": "British organizations have reported a record number of cyber incidents to the country’s data protection regulator this year, as cybersecurity firms blame data extortion and artificial intelligence for a surge in attacks.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T12:47:00Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "British organizations reported a record number of cyber incidents to the UK data protection regulator this year.",
+    "nl": "Britse organisaties hebben dit jaar een recordaantal cyberincidenten gemeld bij de Britse toezichthouder voor gegevensbescherming."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "6caac15f15ba",
+  "url": "https://industrialcyber.co/reports/ai-tears-through-legacy-tcp-ip-stacks-exposing-vulnerabilities-across-critical-infrastructure-ot-and-iot-devices/",
+  "title": "AI tears through legacy TCP/IP stacks, exposing vulnerabilities across critical infrastructure, OT and IoT devices",
+  "excerpt": "Forescout Research’s Vedere Labs found that artificial intelligence (AI)-assisted vulnerability analysis reduced the time needed to examine foundational...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-13T12:36:32Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Forescout"
+   ],
+   "summary": {
+    "en": "Forescout Vedere Labs found AI-assisted analysis cut the time needed to examine legacy TCP/IP stacks, exposing vulnerabilities in critical infrastructure, OT and IoT devices.",
+    "nl": "Forescout Vedere Labs ontdekte dat AI-ondersteunde analyse de tijd voor onderzoek van verouderde TCP/IP-stacks verkort, waarbij kwetsbaarheden in kritieke infrastructuur, OT en IoT-apparaten zichtbaar werden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "18121150fd73",
+  "url": "https://www.security.nl/posting/961546/Danfoss+dicht+beveiligingslekken+waardoor+koelsystemen+zijn+uit+te+schakelen?channel=rss",
+  "title": "Danfoss dicht beveiligingslekken waardoor koelsystemen zijn uit te schakelen",
+  "excerpt": "De Deense leverancier van koelsystemen Danfoss heeft een beveiligingsupdate uitgebracht voor meerdere kwetsbaarheden in de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T12:32:26Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Danfoss released a security update fixing multiple vulnerabilities that could allow attackers to disable its cooling systems.",
+    "nl": "Danfoss heeft een beveiligingsupdate uitgebracht die meerdere kwetsbaarheden verhelpt waarmee aanvallers zijn koelsystemen kunnen uitschakelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  },
+  "title_en": "Danfoss fixes security flaws that could allow cooling systems to be switched off"
+ },
+ {
+  "id": "3dbfab939035",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+  "title": "Microsoft says November security updates cause printing issues",
+  "excerpt": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T12:27:40Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft warned that the November 2026 security updates may break printing for documents with complex formatting.",
+    "nl": "Microsoft waarschuwt dat de beveiligingsupdates van november 2026 het afdrukken van documenten met complexe opmaak kunnen verstoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "ce4668f9b96d",
+  "url": "https://industrialcyber.co/utilities-energy-power-water-waste/doe-advances-ai-forts-program-to-develop-superintelligence-powered-cybersecurity-tools-for-critical-energy-infrastructure/",
+  "title": "DOE advances AI-FORTS program to develop superintelligence-powered cybersecurity tools for critical energy infrastructure",
+  "excerpt": "The U.S. Department of Energy (DOE) is developing artificial intelligence-powered tools to strengthen the cybersecurity and operational resilience...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-13T12:20:35Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "industry",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The US Department of Energy is developing AI-powered tools to strengthen cybersecurity and operational resilience of critical energy infrastructure under the AI-FORTS program.",
+    "nl": "Het Amerikaanse ministerie van Energie ontwikkelt AI-tools om de cyberbeveiliging en operationele veerkracht van kritieke energie-infrastructuur te versterken via het AI-FORTS-programma."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "22fdda936d49",
+  "url": "https://industrialcyber.co/critical-infrastructure/ncsc-launches-cyas-scheme-to-boost-critical-infrastructure-cyber-resilience-through-adversary-simulation-testing/",
+  "title": "NCSC launches CyAS scheme to boost critical infrastructure cyber resilience through adversary simulation, testing",
+  "excerpt": "The U.K. National Cyber Security Centre (NCSC) launched a Cyber Adversary Simulation (CyAS) scheme to help critical national...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-13T12:19:34Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The UK NCSC launched the CyAS scheme to improve critical infrastructure cyber resilience through adversary simulation and testing.",
+    "nl": "Het Britse NCSC heeft het CyAS-programma gelanceerd om de cyberveerkracht van kritieke infrastructuur te verbeteren via adversary simulation en testen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "fe3ab0485c82",
+  "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+  "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+  "excerpt": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T11:52:31Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article asks what stopping a misbehaving AI agent means when its identity and connected tools allow it to export records.",
+    "nl": "Een artikel vraagt wat het betekent om een AI-agent te stoppen wanneer zijn identiteit en gekoppelde tools het mogelijk maken om gegevens te exporteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:10Z"
+  }
+ },
+ {
+  "id": "286bc6b668c4",
+  "url": "https://www.security.nl/posting/961543/Check+Point+meldt+misbruik+van+lek+dat+aanvaller+root+op+gateway+maakt?channel=rss",
+  "title": "Check Point meldt misbruik van lek dat aanvaller root op gateway maakt",
+  "excerpt": "Aanvallers maken misbruik van een kwetsbaarheid waardoor ze root op gateways, firewalls en andere producten van Check Point ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T11:40:04Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are exploiting a vulnerability that gives root access on Check Point gateways, firewalls and other products.",
+    "nl": "Aanvallers misbruiken een kwetsbaarheid die root-toegang geeft op Check Point gateways, firewalls en andere producten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "fa1a420ee44a",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/apple-secure-exclaves-security-architecture/",
+  "title": "Apple details Secure Exclaves, isolated runtimes for camera and microphone data",
+  "excerpt": "Apple published details of Secure Exclaves, a security architecture designed to protect camera and microphone data during background processing. Apple says data processed and analyzed within Secure Exclaves cannot be accessed by the main operating system, apps, or the company itself. The company uses Secure Exclaves for person recognition on HomeView, as well as for Siri Recap and Live Rewind. The architecture also protects the on-screen camera and microphone indicators on iPhone 18 Pro, iPhone … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T11:27:56Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apple describes Secure Exclaves, an architecture that isolates camera and microphone data processing from the main operating system and apps.",
+    "nl": "Apple beschrijft Secure Exclaves, een architectuur die verwerking van camera- en microfoondata afschermt van het hoofdbesturingssysteem en apps."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "d030547d1ad3",
+  "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+  "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+  "excerpt": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T11:10:40Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The SilentAir group is reported to intercept calls and SMS of selected people, mainly in Taiwan, via hacked equipment at Asian mobile operators.",
+    "nl": "De spionagegroep SilentAir onderschept naar verluidt oproepen en sms-berichten van geselecteerde personen, vooral in Taiwan, via gehackte apparatuur bij Aziatische mobiele operators."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "0a2d8fc4983b",
+  "url": "https://www.security.nl/posting/961532/Minister%3A+digitalisering+maatschappij+niet+te+stoppen%2C+koelkast+hoeft+niet+online?channel=rss",
+  "title": "Minister: digitalisering maatschappij niet te stoppen, koelkast hoeft niet online",
+  "excerpt": "De digitalisering van de maatschappij is volgens minister Van Weel van Justitie en Veiligheid niet meer te stoppen, maar de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T11:10:15Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Dutch minister states that digitalisation of society cannot be stopped, while saying appliances such as refrigerators need not be online.",
+    "nl": "Een Nederlandse minister stelt dat digitalisering van de maatschappij niet te stoppen is, maar dat een koelkast niet online hoeft."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "3b15965f9aaf",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime/",
+  "title": "354 dark web vendors and buyers arrested in Operation TorNado",
+  "excerpt": "Europol and police in 14 countries arrested 354 dark web vendors and buyers in Operation TorNado, which ran from May 2025 to October 2026. Investigators went after people who had traded on five marketplaces that were already offline: Archetyp, Bohemia, Nemesis, Kingdom and Tor2Door. Seized money (Source: Europol) The people who used those markets were still exposed after the sites went dark. Police also went after vendors and buyers on forums, single-vendor shops and encrypted … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T11:06:29Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Europol and police in 14 countries arrested 354 dark web vendors and buyers in Operation TorNado.",
+    "nl": "Europol en politie in 14 landen arresteerden 354 verkopers en kopers op het dark web in Operatie TorNado."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "fdc3c02bcd67",
+  "url": "https://certvde.com/en/advisories/VDE-2025-090/",
+  "title": "JBL: DoS vulnerability in Flip 4",
+  "excerpt": "[HBSA-2025-0003] The Bluetooth Classic implementation on JBL Flip 4 devices with firmware version prior to 4.1.0 does not properly handle malformed LMP messages and causes the entire device to crash. Any attacker in radio range can exploit this vulnerability.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-13T11:00:00Z",
+  "fetched": "2026-11-13T16:28:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Bluetooth flaw in JBL Flip 4 speakers with firmware before 4.1.0 lets nearby attackers crash the device.",
+    "nl": "Een Bluetooth-kwetsbaarheid in JBL Flip 4-speakers met firmware voor 4.1.0 laat aanvallers in bereik het apparaat laten crashen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "5df4bf07aed5",
+  "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+  "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+  "excerpt": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA). Gootloader is a loader:",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T10:55:03Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police took down servers behind Gootloader, CastleRAT and StealC and seized about 6.4 million stolen logins from more than 40,000 victims.",
+    "nl": "Politie haalde servers achter Gootloader, CastleRAT en StealC offline en nam ongeveer 6,4 miljoen gestolen logins van meer dan 40.000 slachtoffers in beslag."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "2be753d1df50",
+  "url": "https://therecord.media/nato-issues-and-withdraws-guidance-over-russian-taxi-app",
+  "title": "NATO issues and then withdraws Russian taxi app travel advice for defense industry conference",
+  "excerpt": "Despite longstanding concerns about the Kremlin’s access to the app’s data, NATO on Thursday issued guidance suggesting attendees of its flagship defense industry conference use the Russian-owned Yandex Go to reach the venue.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T10:52:00Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NATO issued and then withdrew travel advice suggesting attendees of a defense industry conference use the Russian-owned Yandex Go taxi app.",
+    "nl": "NATO gaf en trok vervolgens reisadvies in om deelnemers van een defensie-industriecongres het Russische taxi-app Yandex Go te laten gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "0baeaac39658",
+  "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+  "title": "Check Point warns of zero-day flaw exploited for root access",
+  "excerpt": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T10:44:22Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point released emergency hotfixes for a high-severity zero-day that attackers have exploited since late October to gain root privileges.",
+    "nl": "Check Point bracht noodhotfixes uit voor een ernstige zero-day die aanvallers sinds eind oktober gebruiken om root-rechten te verkrijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "85320cbd2f79",
+  "url": "https://www.security.nl/posting/961516/Citrix+waarschuwt+voor+meerdere+kritieke+NetScaler-lekken?channel=rss",
+  "title": "Citrix waarschuwt voor meerdere kritieke NetScaler-lekken",
+  "excerpt": "Citrix waarschuwt voor meerdere kritieke beveiligingslekken in NetScaler ADC en NetScaler Gateway en heeft updates uitgebracht ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T10:12:53Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Citrix warns of multiple critical vulnerabilities in NetScaler ADC and NetScaler Gateway and has released updates.",
+    "nl": "Citrix waarschuwt voor meerdere kritieke kwetsbaarheden in NetScaler ADC en NetScaler Gateway en heeft updates uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "478c7aaedd03",
+  "url": "https://www.security.nl/posting/961514/Politie+vond+893_000+unieke+wachtwoorden+van+slachtoffers+CastleRAT-malware?channel=rss",
+  "title": "Politie vond 893.000 unieke wachtwoorden van slachtoffers CastleRAT-malware",
+  "excerpt": "Bij een internationale operatie tegen de CastleRAT-malware, waar ook de Nederlandse politie en het Openbaar Ministerie aan ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T09:56:50Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police found 893,000 unique passwords of victims of CastleRAT malware during an international operation.",
+    "nl": "Politie vond 893.000 unieke wachtwoorden van slachtoffers van CastleRAT-malware tijdens een internationale operatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "9dd8b118f9b7",
+  "url": "https://www.security.nl/posting/961507/Cisco+bevestigt+eerste+waargenomen+misbruik+van+BroadWorks-lek?channel=rss",
+  "title": "Cisco bevestigt eerste waargenomen misbruik van BroadWorks-lek",
+  "excerpt": "Cisco heeft het eerste waargenomen misbruik van een kwetsbaarheid in BroadWorks bevestigd. Op 10 november waarschuwde het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T09:40:18Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cisco confirmed the first observed exploitation of a BroadWorks vulnerability, following a warning issued on November 10.",
+    "nl": "Cisco bevestigde het eerste waargenomen misbruik van een kwetsbaarheid in BroadWorks, na een waarschuwing op 10 november."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "ebeb3fd8a195",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+  "title": "Microsoft confirms Windows activation failures after November updates",
+  "excerpt": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T09:36:18Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft confirmed that November Patch Tuesday updates cause Windows activation and licensing failures with error code 0x80041008.",
+    "nl": "Microsoft bevestigde dat de updates van Patch Tuesday in november activatie- en licentiefouten in Windows veroorzaken, met foutcode 0x80041008."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "07408c9f4bb6",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/",
+  "title": "OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes",
+  "excerpt": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Team and Defense Factory, connect the work of finding security weaknesses with patching and retesting them. Red Team tests applications and verifies fixes Daybreak Red Team, offered through an early-access program, uses coordinated agents to examine application source code and context, investigate potential attack … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T09:31:07Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenAI introduced Daybreak, offering AI agents for web application penetration testing and vulnerability fixing.",
+    "nl": "OpenAI introduceerde Daybreak, met AI-agents voor penetratietests van webapplicaties en het oplossen van kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "8a9462b9190a",
+  "url": "https://www.security.nl/posting/961494/FBI%3A+stiekem+gemaakte+webcambeelden+it%27ers+gebruikt+voor+cryptodiefstal?channel=rss",
+  "title": "FBI: stiekem gemaakte webcambeelden it'ers gebruikt voor cryptodiefstal",
+  "excerpt": "Aanvallers hebben stiekem gemaakte webcambeelden van meer dan negenhonderd it'ers gebruikt voor een grote cryptodiefstal, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T09:10:00Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers used covertly made webcam images of more than 900 IT workers for a large cryptocurrency theft, the FBI reports.",
+    "nl": "Aanvallers gebruikten heimelijk gemaakte webcambeelden van meer dan negenhonderd it'ers voor een grote cryptodiefstal, meldt de FBI."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "0cdfb5e15dff",
+  "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+  "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+  "excerpt": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T08:34:20Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Authorities arrested 354 suspects in an international operation against vendors and buyers on five dark web marketplaces.",
+    "nl": "Autoriteiten arresteerden 354 verdachten in een internationale operatie tegen verkopers en kopers op vijf dark web-marktplaatsen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "8109176ce1e8",
+  "url": "https://www.security.nl/posting/961491/%27Wereldwijde+storing+Microsoft+kost+bedrijven+miljarden+euro%27s%27?channel=rss",
+  "title": "'Wereldwijde storing Microsoft kost bedrijven miljarden euro's'",
+  "excerpt": "Een wereldwijde storing bij Microsoft, waardoor diensten zoals Outlook en Teams niet beschikbaar zijn, kost bedrijven miljarden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T08:32:00Z",
+  "fetched": "2026-11-13T16:28:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A global Microsoft outage made services such as Outlook and Teams unavailable, which is reported to cost businesses billions of euros.",
+    "nl": "Een wereldwijde storing bij Microsoft maakte diensten zoals Outlook en Teams onbeschikbaar, wat bedrijven naar verluidt miljarden euro's kost."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "cb29ba58c87b",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0494",
+  "title": "NCSC-2026-0494 [1.00] [M/H] Kwetsbaarheden verholpen in Zoom Workplace",
+  "excerpt": "Zoom heeft kwetsbaarheden verholpen in Zoom Workplace voor Windows. De kwetsbaarheden bevinden zich in de wijze waarop Zoom Workplace voor Windows onjuiste validatie van oorsprong en invoer uitvoert. Hierdoor kan een niet-geauthenticeerde aanvaller via netwerktoegang privileges escaleren. Dit betekent dat een aanvaller zonder voorafgaande authenticatie verhoogde toegangsrechten kan verkrijgen, wat de systeemintegriteit kan beïnvloeden. De kwetsbaarheden zijn specifiek van toepassing op de Zoom Workplace client op Windows-platforms en kunnen op afstand worden misbruikt.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-13T08:13:59Z",
+  "fetched": "2026-11-13T16:28:54Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Zoom fixed vulnerabilities in Zoom Workplace for Windows that let a network attacker without authentication escalate privileges.",
+    "nl": "Zoom verhielp kwetsbaarheden in Zoom Workplace voor Windows waarmee een niet-geauthenticeerde aanvaller via het netwerk privileges kan escaleren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
+  "id": "c0eea237828e",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+  "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+  "excerpt": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T08:05:49Z",
+  "fetched": "2026-11-13T16:28:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An unknown actor exploited PHP2Shell flaws in unpatched Check Point gateways and a Gaia OS privilege escalation to deploy the TSGA backdoor, targeting Israeli organizations.",
+    "nl": "Een onbekende dader misbruikte PHP2Shell-lekken in ongepatchte Check Point gateways en een Gaia OS-privilege-escalatie om de TSGA-backdoor te installeren, gericht op Israëlische organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T16:29:29Z"
+  }
+ },
+ {
   "id": "a2f3281a2cbb",
   "url": "https://industrialcyber.co/threats-attacks/sans-2026-survey-finds-sharp-rise-in-ics-ot-cyber-incidents-slower-detection-more-severe-operational-impacts/",
   "title": "SANS 2026 survey finds sharp rise in ICS/OT cyber incidents, slower detection, more severe operational impacts",
