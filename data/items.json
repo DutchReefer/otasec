@@ -1,5 +1,201 @@
 [
  {
+  "id": "60eab6fc5682",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/google-smart-glasses-privacy-protections/",
+  "title": "Google smart glasses privacy features cover wearers and the people around them",
+  "excerpt": "Google has built its Gemini-powered intelligent eyewear to stop taking photos and video when someone covers or tampers with the outward-facing recording light. Shahram Izadi, Google’s VP and GM of XR, laid out that safeguard along with face redaction, limits on data handling, and app restrictions. Bystanders told Google during years of research that they worried about being filmed without their knowledge, and that a sign of recording would help them most. Wearers face a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T23:45:43Z",
+  "fetched": "2026-11-13T01:07:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google describes privacy safeguards for its Gemini-powered smart glasses, including a recording light that blocks capture when tampered with.",
+    "nl": "Google beschrijft privacymaatregelen voor zijn Gemini-slimme bril, waaronder een opnamelampje dat opnames blokkeert bij manipulatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T01:07:47Z"
+  }
+ },
+ {
+  "id": "5a0d36d5a6b9",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/fake-zillow-clickfix-netsupport-rat/",
+  "title": "Fake Zillow pages use ClickFix NetSupport RAT to target apartment hunters",
+  "excerpt": "EfficientIP Research Labs traced a ClickFix campaign that used fake Zillow apartment-review pages to install NetSupport RAT on visitors’ Windows computers. Each page showed what looked like a routine verification check. Behind it, the page quietly copied a PowerShell command to the clipboard and walked the visitor through pasting and running it. Doing that installs remote-control software that keeps its window hidden and starts back up every time the user logs in. Renters are the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T23:15:23Z",
+  "fetched": "2026-11-13T01:07:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A ClickFix campaign using fake Zillow apartment-review pages installs NetSupport RAT on Windows computers of renters.",
+    "nl": "Een ClickFix-campagne met nep Zillow-pagina's installeert NetSupport RAT op Windows-computers van huurders."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T01:07:47Z"
+  }
+ },
+ {
+  "id": "28876cddbb84",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/postgresql-security-update-november-2026/",
+  "title": "PostgreSQL security update fixes 52 vulnerabilities, ends support for PostgreSQL 14",
+  "excerpt": "The PostgreSQL Global Development Group released PostgreSQL 18.7, 17.12, 16.16, 15.20 and 14.25 on November 12, fixing 52 security vulnerabilities and more than 140 other bugs. Most of those code execution bugs are memory errors or type confusion, where PostgreSQL handles a value as the wrong data type. They turn up in PL/Perl and PL/Tcl, text search functions such as ts_rank_cd(), parallel query, logical replication, dblink and statistics import. Thirty-two of the 52 CVEs carry … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T23:05:33Z",
+  "fetched": "2026-11-13T01:07:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PostgreSQL released versions 18.7, 17.12, 16.16, 15.20 and 14.25, fixing 52 security vulnerabilities and ending support for version 14.",
+    "nl": "PostgreSQL bracht versies 18.7, 17.12, 16.16, 15.20 en 14.25 uit, met herstel van 52 beveiligingslekken en einde van de ondersteuning voor versie 14."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T01:07:47Z"
+  }
+ },
+ {
+  "id": "a9ddc6359634",
+  "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+  "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+  "excerpt": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T22:53:10Z",
+  "fetched": "2026-11-13T01:07:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A worm-like toolkit named SCKit was used in ScreenConnect attacks against managed service providers and their technicians.",
+    "nl": "Een wormachtige toolkit genaamd SCKit is gebruikt in ScreenConnect-aanvallen op managed service providers en hun technici."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T01:07:47Z"
+  }
+ },
+ {
+  "id": "6947b84f5dbe",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+  "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+  "excerpt": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T22:25:30Z",
+  "fetched": "2026-11-13T01:07:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A campaign dubbed wfx-loot used 4,837 compromised GitHub accounts to probe repositories and push secrets-stealing malware.",
+    "nl": "Een campagne genaamd wfx-loot gebruikte 4.837 gecompromitteerde GitHub-accounts om repositories te onderzoeken en malware te verspreiden die geheimen steelt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T01:07:47Z"
+  }
+ },
+ {
+  "id": "e52fb1952d02",
+  "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+  "title": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
+  "excerpt": "The Department of Justice and FBI announced two separate actions in response to North Korea-linked cryptocurrency theft operations.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T21:42:00Z",
+  "fetched": "2026-11-13T01:07:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The DOJ and FBI announced seizure of $1.2 billion tied to a Binance theft and a takedown of FaceStealer tools linked to North Korea.",
+    "nl": "Het DOJ en de FBI kondigden de inbeslagname van 1,2 miljard dollar gekoppeld aan een Binance-diefstal aan, en een aanpak van FaceStealer-tools."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T01:07:47Z"
+  }
+ },
+ {
+  "id": "2abeb68b7334",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+  "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+  "excerpt": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-12T20:15:16Z",
+  "fetched": "2026-11-13T01:07:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft is investigating a worldwide outage affecting Microsoft 365 services including Outlook, Teams and Copilot.",
+    "nl": "Microsoft onderzoekt een wereldwijde storing die Microsoft 365-diensten zoals Outlook, Teams en Copilot treft."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T01:07:47Z"
+  }
+ },
+ {
   "id": "9cb2b44a4924",
   "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
