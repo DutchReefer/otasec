@@ -1,5 +1,237 @@
 [
  {
+  "id": "f0f23fdb08d7",
+  "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+  "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+  "excerpt": "Open source hacking tool Artex \"significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,\" the FBI said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T21:32:00Z",
+  "fetched": "2026-11-13T22:40:31Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI issued a flash alert warning that the open source hacking tool Artex speeds up chaining of attack techniques, with some intrusions reaching privileged access in under three hours.",
+    "nl": "De FBI heeft een flash-waarschuwing uitgegeven dat de open source hacktool Artex het koppelen van aanvalstechnieken versnelt, waarbij sommige inbraken binnen drie uur tot privilegetoegang leiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T22:40:43Z"
+  }
+ },
+ {
+  "id": "810ecd44c3ac",
+  "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+  "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+  "excerpt": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T19:43:00Z",
+  "fetched": "2026-11-13T22:40:31Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The City of Osaka warned that a data breach may affect 1 million people and advised residents to be wary of suspicious emails posing as local government messages.",
+    "nl": "De stad Osaka waarschuwt voor een datalek dat mogelijk 1 miljoen mensen treft en adviseert bewoners voorzichtig te zijn met verdachte e-mails die van de gemeente lijken te komen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T22:40:43Z"
+  }
+ },
+ {
+  "id": "f27d611111fa",
+  "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+  "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+  "excerpt": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T19:38:36Z",
+  "fetched": "2026-11-13T22:40:31Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Trezor"
+   ],
+   "summary": {
+    "en": "Trezor confirmed that three Safe 5 wallets sold by reseller CryptoBilis contained malicious implants that could steal recovery phrases, and released a fix.",
+    "nl": "Trezor heeft bevestigd dat drie Safe 5-wallets, verkocht door reseller CryptoBilis, kwaadaardige implantaten bevatten die herstelzinnen konden stelen, en heeft een fix uitgebracht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T22:40:43Z"
+  }
+ },
+ {
+  "id": "cf42b36aeb3f",
+  "url": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+  "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+  "excerpt": "The New York City government will be able to fine companies $1,000 for each verified instance of surveillance pricing.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T18:35:00Z",
+  "fetched": "2026-11-13T22:40:31Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "New York City will be able to fine companies $1,000 for each verified instance of surveillance pricing under a new measure.",
+    "nl": "New York City kan bedrijven een boete van 1.000 dollar opleggen voor elk geverifieerd geval van surveillanceprijzen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T22:40:43Z"
+  }
+ },
+ {
+  "id": "8be0b03cc8ec",
+  "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+  "title": "German military drone operations disrupted by cyberattack",
+  "excerpt": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T17:31:56Z",
+  "fetched": "2026-11-13T22:40:31Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [
+    "Quantum Systems"
+   ],
+   "summary": {
+    "en": "Quantum Systems confirmed it detected an incident in late October, part of an active cyberattack by hostile actors that disrupted German military drone operations.",
+    "nl": "Quantum Systems bevestigde een incident eind oktober dat deel uitmaakte van een actieve cyberaanval door vijandige actoren en de Duitse militaire drone-operaties verstoorde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T22:40:43Z"
+  }
+ },
+ {
+  "id": "4c8fe02bd04c",
+  "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+  "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+  "excerpt": "In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T17:26:00Z",
+  "fetched": "2026-11-13T22:40:31Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The University of Texas at Arlington confirmed that personal information was stolen in a cyberattack, though it did not specify which data was taken.",
+    "nl": "De University of Texas at Arlington bevestigde dat persoonlijke gegevens zijn gestolen bij een cyberaanval, maar heeft niet gespecificeerd welke gegevens zijn buitgemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T22:40:43Z"
+  }
+ },
+ {
+  "id": "e05f7a78ce38",
+  "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+  "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+  "excerpt": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T16:53:08Z",
+  "fetched": "2026-11-13T22:40:31Z",
+  "cves": [
+   "CVE-2026-6460"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PostgreSQL released updates fixing 52 security flaws, including CVE-2026-6460, a CVSS 8.8 type confusion bug allowing authenticated code execution on the server.",
+    "nl": "PostgreSQL heeft updates uitgebracht die 52 beveiligingslekken verhelpen, waaronder CVE-2026-6460, een type-confusion-fout met CVSS 8.8 die code-uitvoering op de server toestaat voor geauthenticeerde gebruikers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T22:40:43Z"
+  }
+ },
+ {
+  "id": "f6d06bee472c",
+  "url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+  "title": "German parliament passes law giving spy agencies hacking, sabotage powers",
+  "excerpt": "In the biggest overhaul of the country’s spy laws of the postwar era, the Bundestag approved the bill by 308 votes to 190 — with 71 abstentions — months after Chancellor Friedrich Merz’s cabinet signed off on the draft.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T16:32:00Z",
+  "fetched": "2026-11-13T22:40:31Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The German Bundestag passed a law giving intelligence agencies hacking and sabotage powers, the biggest overhaul of the country's spy laws since the postwar era.",
+    "nl": "De Duitse Bondsdag heeft een wet aangenomen die inlichtingendiensten hack- en sabotagebevoegdheden geeft, de grootste herziening van de spionagewetgeving sinds de naoorlogse periode."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T22:40:43Z"
+  }
+ },
+ {
   "id": "59b7f6903a29",
   "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
