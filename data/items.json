@@ -1,5 +1,237 @@
 [
  {
+  "id": "a2f3281a2cbb",
+  "url": "https://industrialcyber.co/threats-attacks/sans-2026-survey-finds-sharp-rise-in-ics-ot-cyber-incidents-slower-detection-more-severe-operational-impacts/",
+  "title": "SANS 2026 survey finds sharp rise in ICS/OT cyber incidents, slower detection, more severe operational impacts",
+  "excerpt": "The SANS Institute’s 2026 State of ICS/OT Security Survey found that 34% of respondents experienced a cyber incident...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-13T07:25:03Z",
+  "fetched": "2026-11-13T08:03:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The SANS 2026 State of ICS/OT Security Survey reports that 34% of respondents experienced a cyber incident, with slower detection and more severe operational impacts.",
+    "nl": "De SANS 2026 State of ICS/OT Security-enquete meldt dat 34% van de respondenten een cyberincident meemaakte, met tragere detectie en ernstigere operationele gevolgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T08:03:26Z"
+  }
+ },
+ {
+  "id": "ca21fa6e658c",
+  "url": "https://industrialcyber.co/news/patero-horizen-labs-partner-to-help-organizations-prioritize-post-quantum-cryptography-migration/",
+  "title": "Patero, Horizen Labs partner to help organizations prioritize post-quantum cryptography migration",
+  "excerpt": "Patero Inc. and Horizen Labs announced a collaboration to help organizations identify where they rely on cryptography, decide...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-13T07:21:15Z",
+  "fetched": "2026-11-13T08:03:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Patero and Horizen Labs announced a collaboration to help organizations prioritize post-quantum cryptography migration.",
+    "nl": "Patero en Horizen Labs kondigden een samenwerking aan om organisaties te helpen prioriteiten te stellen bij de migratie naar post-quantumcryptografie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T08:03:26Z"
+  }
+ },
+ {
+  "id": "7683b44038cf",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+  "title": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
+  "excerpt": "North Korean state hackers have stolen more than $400 million in cryptocurrency over the past 18 months by pulling targets into fake Zoom and Teams calls filled with webcam footage of earlier victims. The FBI calls the scheme FaceStealer. It has seized more than 900 of those recordings, and on November 12 it warned crypto and web3 workers and open-source maintainers about the scheme. Source: FBI Every successful call infects the target and records them, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T06:30:30Z",
+  "fetched": "2026-11-13T08:03:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "North Korean state hackers reportedly stole over $400 million in cryptocurrency using fake Zoom and Teams calls, according to the FBI.",
+    "nl": "Noord-Koreaanse statshackers zouden volgens de FBI meer dan $400 miljoen aan cryptovaluta hebben gestolen via nep-Zoom- en Teams-gesprekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T08:03:26Z"
+  }
+ },
+ {
+  "id": "c7f2b6acc083",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/",
+  "title": "How attackers turned a Teams meeting booking into a device code phishing trap",
+  "excerpt": "Attackers used a fake Microsoft Teams meeting scheduler to trick an employee at a construction company into approving a device code sign-in. They got a valid session token before Huntress’s security operations center identified the incident. Device code phishing abuses a real Microsoft sign-in flow. The attacker starts a sign-in, gets a short code back, and persuades the victim to type it into Microsoft’s genuine device login page. The victim enters the code, completes MFA … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T06:15:48Z",
+  "fetched": "2026-11-13T08:03:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers used a fake Teams meeting scheduler to trick a construction company employee into approving a device code sign-in.",
+    "nl": "Aanvallers gebruikten een nep Teams-vergaderplanner om een medewerker van een bouwbedrijf een device code-aanmelding te laten goedkeuren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T08:03:26Z"
+  }
+ },
+ {
+  "id": "ae3484a8e656",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/",
+  "title": "Suspected North Korean IT workers reached onboarding at companies with open data",
+  "excerpt": "Material Security followed suspected North Korean fake IT workers through the hiring pipelines of organizations it monitors and counted 27 personas that reached onboarding over one year. At one company where a persona got that far in the past month, about 277,000 files containing Social Security numbers were shared company-wide or by public link. The personas are fabricated job seekers, complete with résumés and faces, applying for remote engineering roles. Over the year, 2,429 of … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T06:00:22Z",
+  "fetched": "2026-11-13T08:03:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Material Security counted 27 suspected North Korean fake IT worker personas reaching onboarding at monitored organizations over one year.",
+    "nl": "Material Security telde in één jaar 27 vermoedelijke Noord-Koreaanse nep-IT-medewerkers die bij gemonitorde organisaties tot onboarding kwamen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T08:03:26Z"
+  }
+ },
+ {
+  "id": "9e0cc84d062d",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+  "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+  "excerpt": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T05:43:28Z",
+  "fetched": "2026-11-13T08:03:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "N-able"
+   ],
+   "summary": {
+    "en": "Attackers exploited N-central flaws tracked as 4EverAble2Shell and Agent2Shell to infect 21 servers, and N-able restricted some features.",
+    "nl": "Aanvallers misbruikten N-central-kwetsbaarheden genaamd 4EverAble2Shell en Agent2Shell om 21 servers te infecteren, en N-able beperkte enkele functies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T08:03:26Z"
+  }
+ },
+ {
+  "id": "625c2f4435a6",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/corelight-mcp-server-supply-chain/",
+  "title": "Your pinned MCP server may not be as pinned as you think",
+  "excerpt": "An MCP server configured to run one fixed release on an administrator’s workstation ran with 15 different sets of dependencies over five weeks, with its configuration untouched. James Lagermann, Director of Technical Alliances at Corelight, found the drift in his company’s lab. Twenty-three of the server’s 69 packages changed versions, including the cryptography library, the JSON Web Token library and the MCP software development kit itself. MCP (Model Context Protocol) servers let AI coding assistants … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T05:30:22Z",
+  "fetched": "2026-11-13T08:03:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Corelight"
+   ],
+   "summary": {
+    "en": "An MCP server running on an administrator workstation changed 23 of 69 packages over five weeks despite an unchanged configuration.",
+    "nl": "Een MCP-server op een beheerderswerkstation wijzigde in vijf weken 23 van de 69 pakketten, ondanks een ongewijzigde configuratie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T08:03:26Z"
+  }
+ },
+ {
+  "id": "9736312c9d0f",
+  "url": "https://www.helpnetsecurity.com/2026/11/13/ibm-digital-sovereignty-challenges-report/",
+  "title": "Digital sovereignty leaves enterprises chasing their own audit trails",
+  "excerpt": "94% of surveyed enterprises experienced at least one digital sovereignty challenge in the past three years, according to IBM’s Digital Sovereignty Index. Of those affected, 91% were required to demonstrate that they retained control during their most challenging event, and 81% had to provide formal evidence to regulators, auditors, customers or internal stakeholders. The report defines digital sovereignty as an organization’s ability to retain control and provide credible evidence of that control across critical AI, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-13T05:00:54Z",
+  "fetched": "2026-11-13T08:03:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "IBM"
+   ],
+   "summary": {
+    "en": "IBM's Digital Sovereignty Index finds 94% of enterprises faced a digital sovereignty challenge, and 81% had to provide formal evidence to regulators or auditors.",
+    "nl": "IBM's Digital Sovereignty Index toont dat 94% van de bedrijven een digitale soevereiniteitsuitdaging had en 81% formeel bewijs moest leveren aan toezichthouders of auditors."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-13T08:03:26Z"
+  }
+ },
+ {
   "id": "60eab6fc5682",
   "url": "https://www.helpnetsecurity.com/2026/11/13/google-smart-glasses-privacy-protections/",
   "title": "Google smart glasses privacy features cover wearers and the people around them",

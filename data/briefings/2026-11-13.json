@@ -1,0 +1,145 @@
+{
+ "date": "2026-11-13",
+ "published": "2026-11-13T08:03:47Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 5,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Maersk now says its recent incident hit a legacy system, while Unit 42 reports an open-source AI pentest framework being used against industrial targets. A critical PTC flaw and fresh SANS survey data round out the day."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Maersk meldt nu dat het recente incident een legacy-systeem trof, terwijl Unit 42 beschrijft hoe een open-source AI-pentestframework tegen onder meer industriële doelen wordt ingezet. Daarnaast een kritieke PTC-kwetsbaarheid en nieuwe SANS-enquêtecijfers."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "2559f2095350",
+     "name": "The Record",
+     "url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
+     "title": "Shipping giant Maersk says recent cyber incident affected legacy system"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Maersk says the incident affected a legacy system",
+     "summary": "Maersk now states that its recent cyber incident affected a legacy system. The report describes it as the latest in a string of attacks on ports and other shipping organizations worldwide, noting that Brazil's largest port was hit with ransomware last week.",
+     "takeaway": "Inventory legacy systems that connect to logistics and port operations, and check their segmentation and monitoring."
+    },
+    "nl": {
+     "heading": "Update: Maersk zegt dat het incident een legacy-systeem trof",
+     "summary": "Maersk stelt nu dat het recente cyberincident een legacy-systeem trof. Het bericht noemt dit de laatste in een reeks aanvallen op havens en andere scheepvaartorganisaties wereldwijd, waarbij de grootste haven van Brazilië vorige week door ransomware werd getroffen.",
+     "takeaway": "Breng legacy-systemen in kaart die aan logistieke en havenprocessen gekoppeld zijn, en controleer segmentatie en monitoring."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "50450c22c129",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/12/cairn-autonomous-ai-cyberattacks/",
+     "title": "Attackers breached 10 organizations with an open-source AI pentest framework"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Chinese-speaking attackers use open-source AI pentest framework Cairn",
+     "summary": "Unit 42 found that Chinese-speaking attackers used Cairn to run 25 operations against at least 19 organizations in August and September 2026. They gained unauthorized access or pulled data at 10 of them, often after entering little more than a domain name and a one-line goal.",
+     "takeaway": "Assume low-skill attackers can now scale automated reconnaissance and intrusion, and review the exposure of internet-facing assets accordingly."
+    },
+    "nl": {
+     "heading": "Chinese sprekende aanvallers gebruiken open-source AI-pentestframework Cairn",
+     "summary": "Unit 42 stelde vast dat Chinees sprekende aanvallers met Cairn 25 operaties uitvoerden tegen minstens 19 organisaties in augustus en september 2026. Bij 10 daarvan verkregen ze ongeautoriseerde toegang of haalden ze data weg, vaak met niet meer dan een domeinnaam en een doel van één regel.",
+     "takeaway": "Ga ervan uit dat minder ervaren aanvallers geautomatiseerde verkenning en inbraak nu kunnen opschalen, en beoordeel de blootstelling van internet-facing systemen daarop."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "988b46d175c6",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+     "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-126325"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "PTC patches critical Windchill and FlexPLM flaw CVE-2026-126325",
+     "summary": "PTC released patches for CVE-2026-126325 in Windchill and FlexPLM, rated CVSS v4 9.2. The flaw is improper input validation and deserialization of untrusted data that could lead to remote code execution.",
+     "takeaway": "Identify Windchill and FlexPLM instances in your environment and schedule the patch, prioritizing any that are reachable from outside."
+    },
+    "nl": {
+     "heading": "PTC patcht kritieke Windchill- en FlexPLM-kwetsbaarheid CVE-2026-126325",
+     "summary": "PTC heeft patches uitgebracht voor CVE-2026-126325 in Windchill en FlexPLM, met een CVSS v4-score van 9,2. Het gaat om onjuiste invoervalidatie en deserialisatie van onbetrouwbare data, wat remote code execution kan mogelijk maken.",
+     "takeaway": "Stel vast waar Windchill en FlexPLM draaien en plan de patch in, met voorrang voor instanties die van buitenaf bereikbaar zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "a2f3281a2cbb",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/threats-attacks/sans-2026-survey-finds-sharp-rise-in-ics-ot-cyber-incidents-slower-detection-more-severe-operational-impacts/",
+     "title": "SANS 2026 survey finds sharp rise in ICS/OT cyber incidents, slower detection, more severe operational impacts"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "SANS 2026 survey: more ICS/OT incidents, slower detection, greater impact",
+     "summary": "The SANS 2026 State of ICS/OT Security Survey found that 34% of respondents experienced a cyber incident. Its headline findings point to a sharp rise in incidents, slower detection and more severe operational impacts.",
+     "takeaway": "Use the findings to test your own OT detection and response times against your incident scenarios."
+    },
+    "nl": {
+     "heading": "SANS-enquête 2026: meer ICS/OT-incidenten, tragere detectie, grotere impact",
+     "summary": "Uit de SANS State of ICS/OT Security Survey 2026 blijkt dat 34% van de respondenten een cyberincident meemaakte. De hoofdbevindingen wijzen op een sterke stijging van incidenten, tragere detectie en ernstigere operationele gevolgen.",
+     "takeaway": "Gebruik de bevindingen om je eigen OT-detectie en reactietijden te toetsen aan je incidentscenario's."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "ca21fa6e658c",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/patero-horizen-labs-partner-to-help-organizations-prioritize-post-quantum-cryptography-migration/",
+     "title": "Patero, Horizen Labs partner to help organizations prioritize post-quantum cryptography migration"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Patero and Horizen Labs team up on post-quantum cryptography prioritization",
+     "summary": "Patero Inc. and Horizen Labs announced a collaboration to help organizations identify where they rely on cryptography and prioritize their post-quantum cryptography migration.",
+     "takeaway": "Start a cryptography inventory for OT assets with long lifecycles, as a basis for later migration planning."
+    },
+    "nl": {
+     "heading": "Patero en Horizen Labs werken samen aan prioritering van post-quantum cryptografie",
+     "summary": "Patero Inc. en Horizen Labs kondigden een samenwerking aan om organisaties te helpen vast te stellen waar ze op cryptografie vertrouwen en hun migratie naar post-quantum cryptografie te prioriteren.",
+     "takeaway": "Begin met een cryptografie-inventaris voor OT-assets met een lange levensduur, als basis voor latere migratieplanning."
+    }
+   }
+  }
+ ]
+}
