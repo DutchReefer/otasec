@@ -1,5 +1,91 @@
 [
  {
+  "id": "205541d416be",
+  "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+  "title": "Cursor confirms security breach led to malicious Claude Code extension",
+  "excerpt": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-14T17:27:25Z",
+  "fetched": "2026-11-14T18:09:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cursor confirmed a security breach that let hackers distribute a malicious Claude Code extension via its marketplace after stealing credentials from Fireworks AI.",
+    "nl": "Cursor bevestigde een beveiligingsinbreuk waardoor hackers via de marketplace een kwaadaardige Claude Code-extensie verspreidden na het stelen van inloggegevens bij Fireworks AI."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-14T18:09:24Z"
+  }
+ },
+ {
+  "id": "184f2939a864",
+  "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+  "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+  "excerpt": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-14T15:15:49Z",
+  "fetched": "2026-11-14T18:09:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US government disrupted a North Korean social engineering campaign, FaceStealer, that stole more than $400 million in cryptocurrency.",
+    "nl": "De Amerikaanse overheid heeft een Noord-Koreaanse social engineering-campagne, FaceStealer, verstoord die meer dan 400 miljoen dollar aan cryptovaluta stal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-14T18:09:24Z"
+  }
+ },
+ {
+  "id": "b58e8e6c37ed",
+  "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+  "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-14T12:38:35Z",
+  "fetched": "2026-11-14T18:09:15Z",
+  "cves": [
+   "CVE-2026-114713"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are exploiting CVE-2026-114713 in UnrealIRCd, an open-source IRC server, after CISA added it to its KEV catalog.",
+    "nl": "Aanvallers misbruiken CVE-2026-114713 in UnrealIRCd, een open-source IRC-server, nadat CISA deze aan de KEV-catalogus toevoegde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-14T18:09:24Z"
+  }
+ },
+ {
   "id": "c1ab2f551880",
   "url": "https://www.security.nl/posting/961666/Microsoft+meldt+dat+wereldwijde+storing+is+opgelost%3A+%27Was+technisch+probleem%27?channel=rss",
   "title": "Microsoft meldt dat wereldwijde storing is opgelost: 'Was technisch probleem'",
@@ -51552,62 +51638,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "d0a2a6fa25f7",
-  "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
-  "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
-  "excerpt": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
-  "source_id": "ncsc-uk",
-  "source": "NCSC-UK",
-  "lang": "en",
-  "kind": "guidance",
-  "focus": "broad",
-  "published": "2026-09-15T12:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": false,
-   "score": 20,
-   "category": "threat",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "UK and allies expose CHOSEN BRICK spyware used by Iranian state actors against dissidents, activists and journalists.",
-    "nl": "Het VK en bondgenoten onthullen CHOSEN BRICK-spyware die door Iraanse staatsactoren wordt gebruikt tegen dissidenten, activisten en journalisten."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "16aea614941a",
-  "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
-  "title": "Iranian cyber targeting of dissidents, activists and journalists",
-  "excerpt": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
-  "source_id": "ncsc-uk",
-  "source": "NCSC-UK",
-  "lang": "en",
-  "kind": "guidance",
-  "focus": "broad",
-  "published": "2026-09-15T12:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": false,
-   "score": 20,
-   "category": "advisory",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "NCSC publishes an advisory on CHOSEN BRICK malware with technical analysis for individuals and organisations at risk.",
-    "nl": "De NCSC publiceert een advies over CHOSEN BRICK-malware met technische analyse voor personen en organisaties die risico lopen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
   }
  }
 ]
