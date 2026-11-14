@@ -1,0 +1,143 @@
+{
+ "date": "2026-11-14",
+ "published": "2026-11-14T11:32:33Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 6,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet Friday with a cyberattack on a German drone maker, a Danfoss patch following earlier reports of exposed cooling systems, and new AI-related research and programs."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige vrijdag met een cyberaanval op een Duitse dronefabrikant, een Danfoss-patch na eerdere meldingen over kwetsbare koelsystemen en nieuw AI-gerelateerd onderzoek en beleid."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "8be0b03cc8ec",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+     "title": "German military drone operations disrupted by cyberattack"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Quantum Systems confirms cyberattack that disrupted drone operations",
+     "summary": "German defense technology company Quantum Systems confirmed it detected an incident in late October that was part of an active cyberattack by \"hostile actors\". BleepingComputer reports that German military drone operations were disrupted.",
+     "takeaway": "Suppliers of operational technology and defense-related systems should check their own supplier connections and remote access paths for signs of similar compromise."
+    },
+    "nl": {
+     "heading": "Quantum Systems bevestigt cyberaanval die dronevoorbereidingen verstoorde",
+     "summary": "Het Duitse defensietechnologiebedrijf Quantum Systems bevestigt dat het eind oktober een incident detecteerde dat deel uitmaakte van een actieve cyberaanval door \"hostile actors\". BleepingComputer meldt dat Duitse militaire droneoperaties werden verstoord.",
+     "takeaway": "Leveranciers van operationele technologie en defensiegerelateerde systemen doen er goed aan hun eigen leveranciersverbindingen en toegang op afstand te controleren op tekenen van vergelijkbare compromittering."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "18121150fd73",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/961546/Danfoss+dicht+beveiligingslekken+waardoor+koelsystemen+zijn+uit+te+schakelen?channel=rss",
+     "title": "Danfoss dicht beveiligingslekken waardoor koelsystemen zijn uit te schakelen"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Danfoss releases fixes for flaws that allow cooling systems to be switched off",
+     "summary": "Following earlier reports of Danfoss cooling systems being open to remote takeover, the Danish supplier has now released a security update for multiple vulnerabilities. According to Security.NL, the flaws made it possible to switch cooling systems off.",
+     "takeaway": "Asset owners with Danfoss cooling equipment should apply the update and make sure these systems are not directly reachable from the internet."
+    },
+    "nl": {
+     "heading": "Update: Danfoss brengt fixes uit voor kwetsbaarheden waarmee koelsystemen uit te schakelen zijn",
+     "summary": "Na eerdere meldingen dat Danfoss-koelsystemen op afstand te kapen waren, heeft de Deense leverancier nu een beveiligingsupdate uitgebracht voor meerdere kwetsbaarheden. Volgens Security.NL maakten de lekken het mogelijk om koelsystemen uit te schakelen.",
+     "takeaway": "Eigenaren van Danfoss-koeltechniek moeten de update installeren en ervoor zorgen dat deze systemen niet rechtstreeks vanaf internet bereikbaar zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6caac15f15ba",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/ai-tears-through-legacy-tcp-ip-stacks-exposing-vulnerabilities-across-critical-infrastructure-ot-and-iot-devices/",
+     "title": "AI tears through legacy TCP/IP stacks, exposing vulnerabilities across critical infrastructure, OT and IoT devices"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Forescout: AI speeds up analysis of legacy TCP/IP stacks",
+     "summary": "Forescout Research's Vedere Labs found that AI-assisted vulnerability analysis reduced the time needed to examine foundational TCP/IP stacks. Industrial Cyber reports this exposes vulnerabilities across critical infrastructure, OT and IoT devices.",
+     "takeaway": "Expect more vulnerability disclosures in older embedded network stacks and review how quickly your supplier patches reach long-lived OT devices."
+    },
+    "nl": {
+     "heading": "Forescout: AI versnelt analyse van oudere TCP/IP-stacks",
+     "summary": "Vedere Labs van Forescout Research constateerde dat AI-ondersteunde kwetsbaarheidsanalyse de benodigde tijd om fundamentele TCP/IP-stacks te onderzoeken verkortte. Industrial Cyber meldt dat dit kwetsbaarheden blootlegt in kritieke infrastructuur, OT- en IoT-apparaten.",
+     "takeaway": "Reken op meer kwetsbaarheidsmeldingen in oudere embedded netwerkstacks en kijk hoe snel leverancierspatches uw langlevende OT-apparaten bereiken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "ce4668f9b96d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/doe-advances-ai-forts-program-to-develop-superintelligence-powered-cybersecurity-tools-for-critical-energy-infrastructure/",
+     "title": "DOE advances AI-FORTS program to develop superintelligence-powered cybersecurity tools for critical energy infrastructure"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "DOE advances AI-FORTS program for energy infrastructure security",
+     "summary": "The U.S. Department of Energy is developing AI-powered tools to strengthen the cybersecurity and operational resilience of critical energy infrastructure through its AI-FORTS program.",
+     "takeaway": "Energy operators can follow the program for future tooling, but this changes nothing yet for current defenses."
+    },
+    "nl": {
+     "heading": "DOE zet AI-FORTS-programma voor beveiliging van energie-infrastructuur voort",
+     "summary": "Het Amerikaanse ministerie van Energie (DOE) ontwikkelt via het AI-FORTS-programma AI-gestuurde tools om de cyberbeveiliging en operationele weerbaarheid van kritieke energie-infrastructuur te versterken.",
+     "takeaway": "Energiebedrijven kunnen het programma volgen met het oog op toekomstige tooling, maar het verandert nog niets aan de huidige verdediging."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "fdc3c02bcd67",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2025-090/",
+     "title": "JBL: DoS vulnerability in Flip 4"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: JBL Flip 4 Bluetooth denial of service",
+     "summary": "CERT@VDE published HBSA-2025-0003: the Bluetooth Classic implementation on JBL Flip 4 devices with firmware before 4.1.0 mishandles malformed LMP messages and crashes the device. Any attacker within radio range can exploit it.",
+     "takeaway": "This is a consumer device with limited OT relevance, but check whether such Bluetooth devices are used in or near your plant and update to firmware 4.1.0 or later."
+    },
+    "nl": {
+     "heading": "Overige advisories: JBL Flip 4 Bluetooth denial of service",
+     "summary": "CERT@VDE publiceerde HBSA-2025-0003: de Bluetooth Classic-implementatie van JBL Flip 4-apparaten met firmware ouder dan 4.1.0 verwerkt misvormde LMP-berichten onjuist, waardoor het apparaat crasht. Elke aanvaller binnen radiobereik kan dit misbruiken.",
+     "takeaway": "Dit is een consumentenapparaat met beperkte OT-relevantie, maar controleer of dergelijke Bluetooth-apparaten in of bij uw fabriek worden gebruikt en update naar firmware 4.1.0 of nieuwer."
+    }
+   }
+  }
+ ]
+}

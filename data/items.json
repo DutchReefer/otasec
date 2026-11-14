@@ -1,5 +1,117 @@
 [
  {
+  "id": "c1ab2f551880",
+  "url": "https://www.security.nl/posting/961666/Microsoft+meldt+dat+wereldwijde+storing+is+opgelost%3A+%27Was+technisch+probleem%27?channel=rss",
+  "title": "Microsoft meldt dat wereldwijde storing is opgelost: 'Was technisch probleem'",
+  "excerpt": "Microsoft meldt dat de wereldwijde storing met Microsoft 365 is opgelost, waardoor de diensten weer voor alle klanten ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-14T09:11:10Z",
+  "fetched": "2026-11-14T11:32:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft reports that a worldwide Microsoft 365 outage caused by a technical problem has been resolved and services are available again.",
+    "nl": "Microsoft meldt dat een wereldwijde storing met Microsoft 365, veroorzaakt door een technisch probleem, is opgelost en de diensten weer beschikbaar zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-14T11:32:12Z"
+  }
+ },
+ {
+  "id": "115b04c72fe9",
+  "url": "https://www.security.nl/posting/961663/Braziliaanse+verzekeraar+Caixa+Seguridade+lekt+data+alle+7%2C6+miljoen+klanten?channel=rss",
+  "title": "Braziliaanse verzekeraar Caixa Seguridade lekt data alle 7,6 miljoen klanten",
+  "excerpt": "De Braziliaanse verzekeringsmaatschappij Caixa Seguridade heeft de persoonlijke gegevens van alle 7,6 miljoen klanten gelekt. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-14T08:58:16Z",
+  "fetched": "2026-11-14T11:32:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Brazilian insurer Caixa Seguridade reportedly leaked personal data of all 7.6 million customers.",
+    "nl": "Braziliaanse verzekeraar Caixa Seguridade heeft naar verluidt persoonlijke gegevens van alle 7,6 miljoen klanten gelekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-14T11:32:12Z"
+  }
+ },
+ {
+  "id": "f6d2007559d5",
+  "url": "https://www.security.nl/posting/961655/Google+geeft+softwareleveranciers+minder+tijd+voor+patchen+gemelde+lekken?channel=rss",
+  "title": "Google geeft softwareleveranciers minder tijd voor patchen gemelde lekken",
+  "excerpt": "Google gaat softwareleveranciers minder tijd geven voor het oplossen van de kwetsbaarheden die het techbedrijf rapporteert. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-14T08:36:00Z",
+  "fetched": "2026-11-14T11:32:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google will give software vendors less time to fix vulnerabilities it reports before disclosure.",
+    "nl": "Google geeft softwareleveranciers minder tijd om kwetsbaarheden die het bedrijf meldt te verhelpen voordat ze openbaar worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-14T11:32:12Z"
+  }
+ },
+ {
+  "id": "c4eff4d8e6aa",
+  "url": "https://www.security.nl/posting/961650/Beveiligingslek+in+IRC-server+UnrealIRCd+misbruikt+bij+aanvallen?channel=rss",
+  "title": "Beveiligingslek in IRC-server UnrealIRCd misbruikt bij aanvallen",
+  "excerpt": "Aanvallers maken misbruik van een kwetsbaarheid in open source IRC-server UnrealIRCd, zo melden de ontwikkelaars en het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-14T08:21:20Z",
+  "fetched": "2026-11-14T11:32:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are exploiting a vulnerability in the open source IRC server UnrealIRCd, according to its developers and a security party.",
+    "nl": "Aanvallers misbruiken een kwetsbaarheid in de open source IRC-server UnrealIRCd, meldden de ontwikkelaars en een beveiligingspartij."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-14T11:32:12Z"
+  }
+ },
+ {
   "id": "f0f23fdb08d7",
   "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
   "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
@@ -51493,39 +51605,6 @@
    "summary": {
     "en": "NCSC publishes an advisory on CHOSEN BRICK malware with technical analysis for individuals and organisations at risk.",
     "nl": "De NCSC publiceert een advies over CHOSEN BRICK-malware met technische analyse voor personen en organisaties die risico lopen."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "fe593fb7475d",
-  "url": "https://certvde.com/en/advisories/VDE-2026-091/",
-  "title": "TRUMPF: Multiple products affected by Wibu CodeMeter vulnerabilities",
-  "excerpt": "[VDE-2026-091] The TRUMPF product versions listed below include a Wibu CodeMeter Runtime version that contains several vulnerabilities, e.g. potentially allowing privilege escalation.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-15T07:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 60,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [
-    "TRUMPF",
-    "Wibu-Systems"
-   ],
-   "summary": {
-    "en": "CERT@VDE reports that several TRUMPF products include a vulnerable Wibu CodeMeter Runtime version, potentially allowing privilege escalation.",
-    "nl": "CERT@VDE meldt dat verschillende TRUMPF-producten een kwetsbare versie van Wibu CodeMeter Runtime bevatten, wat privilege escalatie mogelijk maakt."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
