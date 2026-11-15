@@ -1,5 +1,36 @@
 [
  {
+  "id": "29c8bcf132e2",
+  "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+  "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+  "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-15T18:29:53Z",
+  "fetched": "2026-11-15T22:52:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise",
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "The FBI warns hackers are using the AI-powered ARTEX penetration testing framework to automate attacks, including a ConnectWise supply-chain breach affecting Microsoft 365 environments.",
+    "nl": "De FBI waarschuwt dat hackers het AI-gestuurde penetratietestframework ARTEX gebruiken om aanvallen te automatiseren, waaronder een ConnectWise-supply-chaininbreuk die Microsoft 365-omgevingen trof."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-15T22:52:23Z"
+  }
+ },
+ {
   "id": "d1f88f4d5d8d",
   "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
   "title": "TSMC employee data breach linked to cloud provider",
