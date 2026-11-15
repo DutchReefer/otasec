@@ -1,0 +1,43 @@
+{
+ "date": "2026-11-15",
+ "published": "2026-11-15T10:59:55Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 1,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet day for OT news: one new item, from the UK, on testing the resilience of critical infrastructure."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige dag in OT-nieuws: één nieuw bericht, uit het Verenigd Koninkrijk, over het testen van de weerbaarheid van kritieke infrastructuur."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "22fdda936d49",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/critical-infrastructure/ncsc-launches-cyas-scheme-to-boost-critical-infrastructure-cyber-resilience-through-adversary-simulation-testing/",
+     "title": "NCSC launches CyAS scheme to boost critical infrastructure cyber resilience through adversary simulation, testing"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "NCSC launches CyAS scheme for adversary simulation in critical infrastructure",
+     "summary": "The U.K. National Cyber Security Centre (NCSC) has launched a Cyber Adversary Simulation (CyAS) scheme. It is meant to help critical national infrastructure improve cyber resilience through adversary simulation and testing.",
+     "takeaway": "If you operate critical infrastructure, check how your current testing and red-team exercises cover OT environments and whether a scheme like CyAS could inform your approach."
+    },
+    "nl": {
+     "heading": "NCSC lanceert CyAS-regeling voor adversary simulation bij kritieke infrastructuur",
+     "summary": "Het Britse National Cyber Security Centre (NCSC) heeft een Cyber Adversary Simulation (CyAS)-regeling gelanceerd. Die moet kritieke nationale infrastructuur helpen de cyberweerbaarheid te vergroten via adversary simulation en testen.",
+     "takeaway": "Beheer je kritieke infrastructuur, kijk dan hoe je huidige testen en red-teamoefeningen OT-omgevingen afdekken en of een regeling als CyAS richting kan geven aan je aanpak."
+    }
+   }
+  }
+ ]
+}

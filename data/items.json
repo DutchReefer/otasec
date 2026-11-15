@@ -1,5 +1,117 @@
 [
  {
+  "id": "53060107b01d",
+  "url": "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant/",
+  "title": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
+  "excerpt": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: What a security leader should tell the CEO about leaked credentials In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian, talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO about exposed keys. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-15T09:00:37Z",
+  "fetched": "2026-11-15T10:59:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Weekly roundup including a GitGuardian interview on leaked credentials and personal liability for security leaders, plus other general security news.",
+    "nl": "Wekelijks overzicht met een interview met GitGuardian over gelekte credentials en persoonlijke aansprakelijkheid van security-leiders, plus ander algemeen securitynieuws."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-15T10:59:50Z"
+  }
+ },
+ {
+  "id": "960f41318ea9",
+  "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+  "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+  "excerpt": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-15T08:22:04Z",
+  "fetched": "2026-11-15T10:59:41Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cursor says an access key issued to Fireworks AI, exposed in a Fireworks breach, let an attacker compromise the Claude Code extension on its marketplace.",
+    "nl": "Cursor meldt dat een door Fireworks AI uitgegeven toegangssleutel, blootgesteld na een inbreuk bij Fireworks, een aanvaller de Claude Code-extensie op de marktplaats liet compromitteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-15T10:59:50Z"
+  }
+ },
+ {
+  "id": "2697bed573ec",
+  "url": "https://www.security.nl/posting/961758/Meta+krijgt+805+miljoen+euro+boete+voor+illegale+toegang+tot+foto%27s+Androidgebruikers?channel=rss",
+  "title": "Meta krijgt 805 miljoen euro boete voor illegale toegang tot foto's Androidgebruikers",
+  "excerpt": "De Italiaanse privacytoezichthouder GPDP heeft Meta wegens het illegaal verkrijgen van toegang tot de foto's, video's en ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-15T08:19:52Z",
+  "fetched": "2026-11-15T10:59:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Italian privacy regulator GPDP fined Meta 805 million euros for unlawfully accessing photos and videos of Android users.",
+    "nl": "De Italiaanse privacytoezichthouder GPDP heeft Meta een boete van 805 miljoen euro opgelegd voor het onrechtmatig benaderen van foto's en video's van Android-gebruikers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-15T10:59:50Z"
+  }
+ },
+ {
+  "id": "d2c6b5d272f3",
+  "url": "https://www.security.nl/posting/961749/Code+op+VI%2C+Autoblog%2C+GeenStijl+en+andere+sites+probeerde+iPhones+met+malware+te+infecteren?channel=rss",
+  "title": "Code op VI, Autoblog, GeenStijl en andere sites probeerde iPhones met malware te infecteren",
+  "excerpt": "Aanvallers hebben via het advertentiesysteem op voetbalsite VI, Autoblog, GeenStijl, Scientas, Bright, De Dagelijkse Standaard ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-15T07:52:00Z",
+  "fetched": "2026-11-15T10:59:42Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers used the advertising system of several Dutch websites to try to infect iPhones with malware.",
+    "nl": "Aanvallers gebruikten het advertentiesysteem van meerdere Nederlandse websites om iPhones met malware te infecteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-15T10:59:50Z"
+  }
+ },
+ {
   "id": "205541d416be",
   "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
   "title": "Cursor confirms security breach led to malicious Claude Code extension",
@@ -51510,102 +51622,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "729370d925cb",
-  "url": "https://certvde.com/en/advisories/VDE-2026-028/",
-  "title": "Carlo Gavazzi Automation: YL212* and YN115* are affected by multiple security vulnerabilities",
-  "excerpt": "[VDE-2026-028] The affected devices have security vulnerabilities that can be used to bypass authentication. Code can be executed on the devices through command injection and local file inclusion. Path traversal and modified schemata can be used to read sensitive information such as password hashes or private keys from the devices.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-16T08:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 55,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Carlo Gavazzi Automation"
-   ],
-   "summary": {
-    "en": "CERT@VDE reports multiple vulnerabilities in Carlo Gavazzi YL212 and YN115 devices, enabling authentication bypass, command injection and sensitive data disclosure.",
-    "nl": "CERT@VDE meldt meerdere kwetsbaarheden in Carlo Gavazzi YL212- en YN115-apparaten, waarmee authenticatie omzeild, commando's geïnjecteerd en gevoelige gegevens gelezen kunnen worden."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "82d51a2d16c9",
-  "url": "https://certvde.com/en/advisories/VDE-2026-014/",
-  "title": "Pepperl+Fuchs: ICE2-* and ICE3-* are affected by multiple security vulnerabilities",
-  "excerpt": "[VDE-2026-014] The affected devices have security vulnerabilities that can be used to bypass authentication. Code can be executed on the devices through command injection and local file inclusion. Path traversal and modified schemata can be used to read sensitive information such as password hashes or private keys from the devices.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-16T08:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 55,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Pepperl+Fuchs"
-   ],
-   "summary": {
-    "en": "CERT@VDE reports multiple vulnerabilities in Pepperl+Fuchs ICE2 and ICE3 devices, enabling authentication bypass, command injection and sensitive data disclosure.",
-    "nl": "CERT@VDE meldt meerdere kwetsbaarheden in Pepperl+Fuchs ICE2- en ICE3-apparaten, waarmee authenticatie omzeild, commando's geïnjecteerd en gevoelige gegevens gelezen kunnen worden."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "1c8c45642a9c",
-  "url": "https://certvde.com/en/advisories/VDE-2026-027/",
-  "title": "Phoenix Contact: Multiple vulnerabilities in the firmware of IOL MA8 EIP DI8 and IOL MA8 PN DI8 devices",
-  "excerpt": "[VDE-2026-027] The firmware of IOL MA8 EIP DI8 and IOL MA8 PN DI8 devices is affected by security vulnerabilities that can be used to bypass authentication. Code can be executed on the devices through command injection and local file inclusion. Path traversal and modified schemata can be used to read sensitive information such as password hashes or private keys from the devices.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-16T08:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 55,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [
-    "Phoenix Contact"
-   ],
-   "summary": {
-    "en": "CERT@VDE reports multiple firmware vulnerabilities in Phoenix Contact IOL MA8 EIP DI8 and IOL MA8 PN DI8 devices, enabling authentication bypass and code execution.",
-    "nl": "CERT@VDE meldt meerdere firmwarekwetsbaarheden in Phoenix Contact IOL MA8 EIP DI8- en IOL MA8 PN DI8-apparaten, waarmee authenticatie omzeild en code uitgevoerd kan worden."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
   }
  }
 ]
