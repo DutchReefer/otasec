@@ -51607,37 +51607,5 @@
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
   }
- },
- {
-  "id": "d59879181ccf",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-823812.html",
-  "title": "SSA-823812 V1.0: Denial of Service Vulnerability in WTV676 and WTV776 devices",
-  "excerpt": "The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity functions (Web Access) to the devices. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-16T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 55,
-   "category": "advisory",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Siemens"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-823812 reports a denial-of-service flaw in WTV676 and WTV776 devices that can force protection mode and disable remote Web Access; updates are available.",
-    "nl": "Siemens-advisory SSA-823812 meldt een denial-of-service-kwetsbaarheid in WTV676- en WTV776-apparaten die beschermingsmodus kan forceren en remote Web Access uitschakelt; updates zijn beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
  }
 ]
