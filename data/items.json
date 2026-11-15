@@ -1,5 +1,66 @@
 [
  {
+  "id": "d1f88f4d5d8d",
+  "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+  "title": "TSMC employee data breach linked to cloud provider",
+  "excerpt": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-15T15:23:48Z",
+  "fetched": "2026-11-15T17:45:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "TSMC"
+   ],
+   "summary": {
+    "en": "TSMC confirmed that employee personal data was leaked online after a threat actor auctioned 6.9GB of allegedly stolen company information.",
+    "nl": "TSMC bevestigde dat persoonlijke gegevens van medewerkers online zijn gelekt nadat een dreigactor 6,9GB aan vermeend gestolen bedrijfsinformatie te koop aanbood."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-15T17:45:15Z"
+  }
+ },
+ {
+  "id": "04c1c102f5a7",
+  "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+  "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+  "excerpt": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-15T11:27:31Z",
+  "fetched": "2026-11-15T17:45:11Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [
+    "Meta",
+    "Facebook"
+   ],
+   "summary": {
+    "en": "Italy's data protection authority fined Meta EUR 805 million over Facebook for Android accessing gallery photos without explicit user consent.",
+    "nl": "De Italiaanse privacytoezichthouder legde Meta een boete van 805 miljoen euro op omdat Facebook voor Android zonder expliciete toestemming toegang had tot galerijfoto's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-15T17:45:15Z"
+  }
+ },
+ {
   "id": "53060107b01d",
   "url": "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant/",
   "title": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
@@ -51592,36 +51653,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "a423bba88af1",
-  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/offshore-norge-104-network-engineering-for-ot-cybersecurity",
-  "title": "Offshore Norge 104: Network Engineering for OT Cybersecurity",
-  "excerpt": "Recommended guidelines on cyber security baseline requirements for Operational Technology (OT) systems were published in June 2026. I reviewed them...",
-  "source_id": "waterfall",
-  "source": "Waterfall Security",
-  "lang": "en",
-  "kind": "vendor",
-  "focus": "ot",
-  "published": "2026-09-16T13:53:17Z",
-  "fetched": "2026-10-18T00:28:07Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 40,
-   "category": "guidance",
-   "sectors": [
-    "oil_gas"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "A review of newly published June 2026 OT cyber security baseline guidelines for offshore operations, focusing on network engineering.",
-    "nl": "Een beoordeling van OT-cyberbeveiligingsbaseline-richtlijnen die in juni 2026 zijn gepubliceerd, met focus op netwerkengineering voor offshore."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
   }
  }
 ]
