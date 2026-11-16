@@ -1,5 +1,723 @@
 [
  {
+  "id": "a9e375444363",
+  "url": "https://therecord.media/california-sues-openai-hugging-face",
+  "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
+  "excerpt": "\"OpenAI thwarted the Attorney General’s efforts to investigate these incidents, including by refusing to provide detailed information about the full universe of incidents known to the company,” California alleges in a new lawsuit.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T21:40:00Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "California's Attorney General has sued OpenAI, alleging deception and recklessness over AI-related security incidents.",
+    "nl": "De Californische procureur-generaal heeft OpenAI aangeklaagd wegens misleiding en roekeloosheid rond AI-gerelateerde veiligheidsincidenten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "ec697f6c4dbb",
+  "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+  "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+  "excerpt": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T21:31:44Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google Project Zero will replace its 90+30 disclosure policy with shorter fixed deadlines due to AI-accelerated vulnerability discovery.",
+    "nl": "Google Project Zero vervangt zijn 90+30-openbaarmakingsbeleid door kortere vaste termijnen vanwege snellere AI-gestuurde kwetsbaarheidsontdekking."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "b298f40c4d48",
+  "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+  "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+  "excerpt": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T20:59:44Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "California's Attorney General sued OpenAI, alleging it continued testing AI models despite security failures that let AI agents escape sandboxes.",
+    "nl": "De Californische procureur-generaal heeft OpenAI aangeklaagd omdat het AI-modellen bleef testen ondanks beveiligingsfouten waardoor AI-agents uit sandboxes ontsnapten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "460686b6b1c6",
+  "url": "https://therecord.media/ireland-tinder-privacy-fine",
+  "title": "Match fined $10 million for alleged Tinder privacy violations",
+  "excerpt": "Ireland’s data protection regulator will fine the Match Group as a result of the dating app Tinder allegedly failing to provide users with their personal data held by the company upon request.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T20:15:00Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ireland's data protection regulator will fine Match Group over alleged failures to provide Tinder users their personal data.",
+    "nl": "De Ierse toezichthouder voor gegevensbescherming gaat Match Group beboeten wegens vermeend niet verstrekken van persoonsgegevens aan Tinder-gebruikers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "afa71c4d797b",
+  "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+  "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+  "excerpt": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T19:57:13Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers who breached Barracuda's cloud environment used a stolen cloud access key and the ARTEX AI penetration testing framework.",
+    "nl": "Hackers die de cloudomgeving van Barracuda binnendrongen gebruikten een gestolen cloudtoegangssleutel en het ARTEX AI-pentestframework."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "4b4b8357bb66",
+  "url": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
+  "title": "Italian regulator fines Meta $886 million for violating data privacy law",
+  "excerpt": "The crackdown on Meta’s Facebook platform involved the company’s alleged use of its “camera roll” suggestions option, launched in 2023, to browse Android users’ photo galleries to recommend posts they could enhance with personal photos and videos.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T18:05:00Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Italian regulator fined Meta for alleged misuse of Android users' photo galleries through its camera roll suggestions feature.",
+    "nl": "De Italiaanse toezichthouder heeft Meta beboet om vermeend misbruik van fotogalerijen van Android-gebruikers via de camera-roll-suggesties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "2ebc983e1e5f",
+  "url": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
+  "title": "King Charles opens new HQ for National Cyber Force, UK’s offensive hacking unit",
+  "excerpt": "A building near the Lancashire village of Samlesbury in northwest England is officially the headquarters for the secretive unit that runs the Britain's offensive cyber operations.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T17:22:00Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "King Charles officially opened the new headquarters of the UK National Cyber Force near Samlesbury in Lancashire.",
+    "nl": "Koning Charles heeft het nieuwe hoofdkwartier van de Britse National Cyber Force bij Samlesbury in Lancashire officieel geopend."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "6bde6c886ad3",
+  "url": "https://therecord.media/romania-russia-cyberattack-espionage",
+  "title": "Russia denies intercepting Romanian government emails",
+  "excerpt": "Russia has denied accusations that its state-backed hackers targeted a Romanian government institution in an attempt to intercept emails exchanged with NATO and the European Union.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T17:00:00Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Russia denied accusations that its state-backed hackers targeted a Romanian government institution to intercept NATO and EU emails.",
+    "nl": "Rusland ontkent beschuldigingen dat staatsgesteunde hackers een Roemeense overheidsinstelling aanvielen om NAVO- en EU-e-mails te onderscheppen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "81fe6611bd7b",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+  "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+  "excerpt": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T16:43:24Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft says a software bug introduced in July caused a global Microsoft 365 outage by making networking gateway servers unresponsive.",
+    "nl": "Microsoft meldt dat een softwarebug uit juli de wereldwijde Microsoft 365-storing veroorzaakte door netwerkgatewayservers onbereikbaar te maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "6f9e486093d6",
+  "url": "https://www.security.nl/posting/961965/Minister+houdt+zich+op+vlakte+over+server+die+op+verzoek+van+VS+in+beslag+werd+genomen?channel=rss",
+  "title": "Minister houdt zich op vlakte over server die op verzoek van VS in beslag werd genomen",
+  "excerpt": "Minister Van Weel van Justitie en Veiligheid houdt zich op de vlakte over een server die op verzoek van de Amerikaanse ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T16:18:55Z",
+  "fetched": "2026-11-16T22:09:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Justice Minister is non-committal about a server seized at US request.",
+    "nl": "De Nederlandse minister van Justitie en Veiligheid houdt zich op de vlakte over een server die op verzoek van de VS in beslag is genomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "768bbb684717",
+  "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+  "title": "Fandango says hackers stole payment card details from checkout pages",
+  "excerpt": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T15:44:21Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fandango Media is notifying customers of a breach that exposed payment card details entered on its checkout pages.",
+    "nl": "Fandango Media informeert klanten over een datalek waarbij betaalkaartgegevens van de checkoutpagina's zijn buitgemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "0d623a7de470",
+  "url": "https://www.security.nl/posting/961962/Cybersecuritybedrijf+Barracuda+getroffen+door+inbraak+op+cloudomgeving?channel=rss",
+  "title": "Cybersecuritybedrijf Barracuda getroffen door inbraak op cloudomgeving",
+  "excerpt": "Aanvallers zijn erin geslaagd om in te breken op de interne cloudomgeving van cybersecuritybedrijf Barracuda. De aanvallers ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T15:42:01Z",
+  "fetched": "2026-11-16T22:09:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers breached the internal cloud environment of cybersecurity company Barracuda.",
+    "nl": "Aanvallers zijn ingebroken op de interne cloudomgeving van cybersecuritybedrijf Barracuda."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "8d4dc3524664",
+  "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+  "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+  "excerpt": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords, and maintain compliance. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T15:01:11Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Specops Software outlines seven steps to help law enforcement agencies meet the FBI's CJIS password and MFA requirements.",
+    "nl": "Specops Software beschrijft zeven stappen om opsporingsinstanties te helpen voldoen aan de CJIS-eisen voor wachtwoorden en MFA."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "5e8cc480f66e",
+  "url": "https://www.security.nl/posting/961920/Kamerleden+willen+dat+volgend+kabinet+ministerie+van+Digitale+Zaken+opzet?channel=rss",
+  "title": "Kamerleden willen dat volgend kabinet ministerie van Digitale Zaken opzet",
+  "excerpt": "Verschillende leden van de Tweede Kamer willen dat het volgende kabinet een ministerie van Digitale Zaken opzet en in ieder ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T14:03:00Z",
+  "fetched": "2026-11-16T22:09:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Members of the Dutch House of Representatives want the next cabinet to set up a Ministry of Digital Affairs.",
+    "nl": "Leden van de Tweede Kamer willen dat het volgende kabinet een ministerie van Digitale Zaken opzet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "f84b258288d9",
+  "url": "https://industrialcyber.co/manufacturing/manufacturing-ai-adoption-doubles-as-data-governance-gaps-shadow-ai-and-emerging-cybersecurity-threats-rise-netskope-finds/",
+  "title": "Manufacturing AI adoption doubles as data governance gaps, shadow AI and emerging cybersecurity threats rise, Netskope finds",
+  "excerpt": "New data from Netskope Threat Labs reported that AI (artificial intelligence) adoption across the manufacturing sector is expanding...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-16T14:02:22Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "research",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Netskope Threat Labs data shows AI adoption in manufacturing is growing alongside data governance gaps, shadow AI and cybersecurity threats.",
+    "nl": "Data van Netskope Threat Labs toont dat AI-gebruik in de maakindustrie groeit, samen met lacunes in datagovernance, shadow AI en cyberdreigingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "5adf36e942de",
+  "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+  "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+  "excerpt": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T14:00:00Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google reports threat actors using autonomous multi-agent AI frameworks such as ARTEX and PentAGI to run multi-stage intrusions.",
+    "nl": "Google meldt dat dreigingsactoren autonome multi-agent AI-frameworks zoals ARTEX en PentAGI gebruiken voor meertraps-intrusies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "c84201c80c74",
+  "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+  "title": "Google warns that fully-automated AI attacks are coming soon",
+  "excerpt": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T14:00:00Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google warns that threat actors are using agentic AI offensive frameworks to automate vulnerability discovery and exploitation.",
+    "nl": "Google waarschuwt dat dreigingsactoren agentische AI-aanvalsframeworks gebruiken om kwetsbaarheden automatisch te ontdekken en uit te buiten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "9ca2a955fde7",
+  "url": "https://industrialcyber.co/news/does-liberty-eclipse-tests-utility-incident-response-it-ot-coordination-and-power-grid-recovery-under-live-conditions/",
+  "title": "DoE’s Liberty Eclipse tests utility incident response, IT-OT coordination and power grid recovery under live conditions",
+  "excerpt": "Liberty Eclipse, the Department of Energy’s annual full-scale exercise, recently brought utility partners, federal agencies, National Laboratories, and...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-16T13:58:28Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "industry",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The US Department of Energy's Liberty Eclipse exercise tested utility incident response, IT-OT coordination and power grid recovery under live conditions.",
+    "nl": "De Liberty Eclipse-oefening van het Amerikaanse ministerie van Energie test incidentrespons bij nutsbedrijven, IT-OT-samenwerking en herstel van het stroomnet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "f9828b77234b",
+  "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+  "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+  "excerpt": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T13:27:20Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly security recap covers N-able, Windows, Chrome and consumer device zero-days along with other attack stories.",
+    "nl": "Een wekelijks beveiligingsoverzicht behandelt zero-days in N-able, Windows, Chrome en consumentenapparaten, naast andere aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  }
+ },
+ {
+  "id": "25d57a80bdab",
+  "url": "https://www.security.nl/posting/961900/Copeland-koelsystemen+via+kritiek+lek+op+afstand+over+te+nemen?channel=rss",
+  "title": "Copeland-koelsystemen via kritiek lek op afstand over te nemen",
+  "excerpt": "Onderzoekers hebben in koelsystemen van fabrikant Copeland meerdere kwetsbaarheden gevonden waardoor de apparaten op afstand ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T13:26:51Z",
+  "fetched": "2026-11-16T22:09:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "research",
+   "sectors": [
+    "food",
+    "building"
+   ],
+   "vendors": [
+    "Copeland"
+   ],
+   "summary": {
+    "en": "Researchers found multiple vulnerabilities in Copeland refrigeration systems that could allow remote takeover of the devices.",
+    "nl": "Onderzoekers hebben meerdere kwetsbaarheden gevonden in Copeland-koelsystemen waardoor de apparaten op afstand overgenomen kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:09:52Z"
+  },
+  "title_en": "Copeland cooling systems can be taken over remotely via critical vulnerability"
+ },
+ {
+  "id": "a60c8edeae6c",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
+  "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners",
+  "excerpt": "A criminal marketplace advertised on cybercrime forums is selling data stolen from computers infected with infostealer malware, along with AI-written profiles of their owners, Hudson Rock has discovered. Marketplace advertisement (Source: Hudson Rock) Each profile describes who appears to own the machine, where that person works and which of their accounts are worth buying. The service, which the security company does not name, lets buyers search these descriptions in plain language through a tab marked … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T13:03:56Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hudson Rock found a criminal marketplace selling infostealer logs with AI-written profiles of the machines' owners.",
+    "nl": "Hudson Rock ontdekte een criminele marktplaats die infostealer-logs verkoopt, met door AI geschreven profielen van de eigenaren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:10:02Z"
+  }
+ },
+ {
+  "id": "2bbd577bbd5a",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+  "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+  "excerpt": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T12:53:18Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft reminded customers that Windows Server 2016 will stop receiving security updates when support ends in two months.",
+    "nl": "Microsoft herinnerde klanten eraan dat Windows Server 2016 over twee maanden geen beveiligingsupdates meer ontvangt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:10:02Z"
+  }
+ },
+ {
+  "id": "119c79e2a817",
+  "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+  "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+  "excerpt": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. Government cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T12:34:21Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Midnight Blue disclosed six unpatched flaws in Danfoss AK-SM800A refrigeration controllers that could allow remote takeover without login, and Belgian, Irish and German agencies warned operators.",
+    "nl": "Midnight Blue meldde zes ongepatchte kwetsbaarheden in Danfoss AK-SM800A koelcontrollers waarmee een aanvaller zonder inlog de controller kan overnemen, en overheden in België, Ierland en Duitsland waarschuwden operators."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:10:02Z"
+  }
+ },
+ {
+  "id": "8c37ef3c2776",
+  "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+  "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+  "excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T12:33:18Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kaspersky analyzed a new CoffeeLoader variant, used to deliver payloads, that resurfaced seven years after the Retadup takedown.",
+    "nl": "Kaspersky analyseerde een nieuwe CoffeeLoader-variant, gebruikt om payloads af te leveren, die zeven jaar na de Retadup-takedown opnieuw opduikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:10:02Z"
+  }
+ },
+ {
+  "id": "5411f53d2a3c",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/",
+  "title": "Microsoft previews remote lock for lost or stolen Windows devices",
+  "excerpt": "Microsoft’s Remote lock allows IT administrators to lock a lost, stolen or compromised Windows device through Intune without wiping it. The feature is currently in preview for devices running Windows 11, Windows 10, Windows Server 2022, Windows Server 2019 and Windows Server 2016. Source: Microsoft Remote lock signs out all active sessions, hides sign-in options and displays a lock screen. The lock persists across restarts and while the device is offline. Users can resume work … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T11:57:54Z",
+  "fetched": "2026-11-16T22:09:33Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft previewed Remote lock in Intune, letting administrators lock lost or stolen Windows devices without wiping them.",
+    "nl": "Microsoft test in Intune een Remote lock-functie waarmee beheerders verloren of gestolen Windows-apparaten kunnen vergrendelen zonder ze te wissen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T22:10:02Z"
+  }
+ },
+ {
   "id": "4fb60643a4e1",
   "url": "https://www.security.nl/posting/961883/EFF%3A+techbedrijven+proberen+hele+begrip+van+privacy+te+veranderen?channel=rss",
   "title": "EFF: techbedrijven proberen hele begrip van privacy te veranderen",
@@ -52321,62 +53039,6 @@
    "summary": {
     "en": "NCSC discusses how defenders can use agentic AI for cyber defence, compared with attacker use.",
     "nl": "De NCSC bespreekt hoe verdedigers agentische AI kunnen inzetten voor cyberverdediging, in vergelijking met aanvallers."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "e4cbb40cf493",
-  "url": "https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know",
-  "title": "Adversary simulation: what you need to know",
-  "excerpt": "Adversary simulation ('red teaming') tests your ability to prevent, detect and respond to cyber attacks.",
-  "source_id": "ncsc-uk",
-  "source": "NCSC-UK",
-  "lang": "en",
-  "kind": "guidance",
-  "focus": "broad",
-  "published": "2026-09-17T12:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": false,
-   "score": 10,
-   "category": "guidance",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "NCSC explains that adversary simulation tests an organisation's ability to prevent, detect and respond to cyber attacks.",
-    "nl": "De NCSC legt uit dat adversary simulation de capaciteit van een organisatie test om cyberaanvallen te voorkomen, detecteren en erop te reageren."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "55684f9d070e",
-  "url": "https://www.ncsc.gov.uk/blogs/cyber-adversary-simulation-cyas-scheme-documents-now-available",
-  "title": "Cyber Adversary Simulation (CyAS): scheme documents now available",
-  "excerpt": "Our view of good cyber adversary simulation – and how assured providers can deliver it.",
-  "source_id": "ncsc-uk",
-  "source": "NCSC-UK",
-  "lang": "en",
-  "kind": "guidance",
-  "focus": "broad",
-  "published": "2026-09-17T12:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": false,
-   "score": 10,
-   "category": "guidance",
-   "sectors": [],
-   "vendors": [],
-   "summary": {
-    "en": "NCSC publishes scheme documents for Cyber Adversary Simulation providers and describes what good simulation looks like.",
-    "nl": "De NCSC publiceert schemadocumenten voor Cyber Adversary Simulation-aanbieders en beschrijft hoe goede simulatie eruitziet."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
