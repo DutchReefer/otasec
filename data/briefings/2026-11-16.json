@@ -1,0 +1,180 @@
+{
+ "date": "2026-11-16",
+ "published": "2026-11-16T11:29:12Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 8,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Today's briefing covers cryptojackers exploiting GeoVision camera software, a Log4Shell-driven compromise of a code-signing server, and record ransomware numbers. Several CERT@VDE advisories add to the vulnerability backlog."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Vandaag in de briefing: cryptojackers die misbruik maken van GeoVision-camerasoftware, een Log4Shell-aanval op een code-signing server en recordcijfers voor ransomware. Daarnaast verschijnen er enkele nieuwe CERT@VDE-advisories."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "cf3541a76f19",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/16/geovision-camera-software-vulnerabilities/",
+     "title": "Unpatched GeoVision camera software gave cryptojackers a side door into 13 organizations"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "GeoVision camera software used to plant cryptominers at 13 organizations",
+     "summary": "Huntress warned that attackers used GeoVision camera management software to break into Windows machines at 13 organizations and turn them into cryptocurrency miners. The victims work in various industries, and most intrusions happened between November 8 and 10. GeoVision is a Taiwanese surveillance and access control company with customers in 110 countries.",
+     "takeaway": "Check whether GeoVision management software is deployed in your environment, whether it is reachable from outside, and keep it patched and segmented from OT networks."
+    },
+    "nl": {
+     "heading": "GeoVision-camerasoftware gebruikt om cryptominers te installeren bij 13 organisaties",
+     "summary": "Huntress waarschuwt dat aanvallers GeoVision-camerabeheersoftware gebruikten om in te breken op Windows-systemen bij 13 organisaties en die om te vormen tot cryptominers. De slachtoffers zitten in uiteenlopende sectoren en de meeste inbraken vonden plaats tussen 8 en 10 november. GeoVision is een Taiwanees bedrijf voor bewaking en toegangscontrole met klanten in 110 landen.",
+     "takeaway": "Controleer of GeoVision-beheersoftware in uw omgeving draait en van buitenaf bereikbaar is, houd deze gepatcht en scheid haar van OT-netwerken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "1a13d7025b37",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+     "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "BO Team exploits Log4Shell in VMware vCenter and compromises a code-signing server",
+     "summary": "Kaspersky's ICS CERT documented a months-long compromise of a Russian software developer's development infrastructure and its code-signing server. The developer contacted the team in June 2025, and the activity is attributed to a threat actor named BO Team. The attackers exploited Log4Shell in VMware vCenter.",
+     "takeaway": "Make sure Log4Shell is remediated in virtualization management systems and that code-signing infrastructure is isolated and monitored, and ask software suppliers how they protect their build and signing environments."
+    },
+    "nl": {
+     "heading": "BO Team misbruikt Log4Shell in VMware vCenter en compromitteert een code-signing server",
+     "summary": "Het ICS CERT van Kaspersky documenteerde een maandenlange compromittering van de ontwikkelomgeving en code-signing server van een Russische softwareontwikkelaar. De ontwikkelaar nam in juni 2025 contact op en de activiteit wordt toegeschreven aan een actor genaamd BO Team. De aanvallers maakten gebruik van Log4Shell in VMware vCenter.",
+     "takeaway": "Zorg dat Log4Shell is verholpen in virtualisatiebeheersystemen, dat code-signing infrastructuur geïsoleerd en bewaakt wordt, en vraag softwareleveranciers hoe zij hun build- en signingomgevingen beschermen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "fc0e2187009d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/check-point-finds-ransomware-at-record-levels-as-n0n-rises-into-top-three-and-high-risk-genai-prompts-increase/",
+     "title": "Check Point finds ransomware at record levels as n0n rises into top three and high-risk GenAI prompts increase"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Check Point reports record 1,063 ransomware attacks in October",
+     "summary": "Check Point Research disclosed a record 1,063 ransomware attacks in October. The report also notes that the group n0n has risen into the top three and that high-risk GenAI prompts have increased.",
+     "takeaway": "Review ransomware readiness for both IT and OT, including offline backups, IT/OT segmentation and tested recovery procedures."
+    },
+    "nl": {
+     "heading": "Check Point meldt recordaantal van 1.063 ransomware-aanvallen in oktober",
+     "summary": "Check Point Research meldt een recordaantal van 1.063 ransomware-aanvallen in oktober. Volgens het rapport is de groep n0n doorgestoten naar de top drie en nemen risicovolle GenAI-prompts toe.",
+     "takeaway": "Toets de ransomware-paraatheid van IT en OT, inclusief offline back-ups, IT/OT-segmentatie en geteste herstelprocedures."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "a3f7edf86886",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/16/forescout-ai-models-vulnerability-research/",
+     "title": "AI uncovers flaws in discontinued devices with no vendor left to patch them"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Forescout confirms 99 vulnerabilities in 10 TCP/IP stacks, many in unsupported devices",
+     "summary": "New details on the Forescout research: the team confirmed 99 vulnerabilities across 10 TCP/IP stacks using generally available AI models on a limited budget. They examined both open-source code and compiled software without source code, an approach attackers could also use. The coverage highlights discontinued devices with no vendor left to patch them.",
+     "takeaway": "Identify discontinued devices in your plant and protect them with segmentation, access control and monitoring, since patches may never arrive."
+    },
+    "nl": {
+     "heading": "Update: Forescout bevestigt 99 kwetsbaarheden in 10 TCP/IP-stacks, veel in niet-ondersteunde apparaten",
+     "summary": "Nieuwe details over het onderzoek van Forescout: het team bevestigde 99 kwetsbaarheden in 10 TCP/IP-stacks met algemeen beschikbare AI-modellen en een beperkt budget. Onderzocht werden zowel open-sourcecode als gecompileerde software zonder broncode, een aanpak die ook aanvallers kunnen volgen. De berichtgeving benadrukt uitgefaseerde apparaten waarvoor geen leverancier meer patches levert.",
+     "takeaway": "Breng uitgefaseerde apparaten in uw installatie in kaart en beschermen ze met segmentatie, toegangsbeheer en monitoring, omdat er mogelijk nooit patches komen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "31b206eabdbf",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-155/",
+     "title": "Welotec: IPv4 TCP Use-After-Free in egOS"
+    },
+    {
+     "id": "1d40325b32be",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2025-105/",
+     "title": "Endress+Hauser: Multiple products affected by Wibu-Systems CodeMeter Vulnerability"
+    },
+    {
+     "id": "38118e08c911",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2024-060/",
+     "title": "Welotec: PKfail in RSAPC UEFI Firmware"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Welotec egOS and RSAPC, Endress+Hauser CodeMeter",
+     "summary": "CERT@VDE published VDE-2026-155 on a Linux kernel IPv4 TCP use-after-free in Welotec egOS, which an unauthenticated remote attacker could trigger with crafted packets. VDE-2024-060 covers PKfail in Welotec RSAPC UEFI firmware, where an insecure default Platform Key undermines Secure Boot. VDE-2025-105 describes a Wibu-Systems CodeMeter flaw (up to version 7.60b) affecting multiple Endress+Hauser products, which can cause a heap buffer overflow and possibly remote code execution.",
+     "takeaway": "Check whether you run the listed Welotec or Endress+Hauser products and apply the vendor guidance, limiting network exposure of affected devices until fixed."
+    },
+    "nl": {
+     "heading": "Overige advisories: Welotec egOS en RSAPC, Endress+Hauser CodeMeter",
+     "summary": "CERT@VDE publiceerde VDE-2026-155 over een use-after-free in de IPv4 TCP-afhandeling van de Linux-kernel in Welotec egOS, die een niet-geauthenticeerde aanvaller op afstand kan activeren met speciaal samengestelde pakketten. VDE-2024-060 betreft PKfail in de UEFI-firmware van Welotec RSAPC, waarbij een onveilige standaard Platform Key Secure Boot ondermijnt. VDE-2025-105 beschrijft een kwetsbaarheid in Wibu-Systems CodeMeter (tot versie 7.60b) die meerdere Endress+Hauser-producten raakt en kan leiden tot een heap buffer overflow en mogelijk remote code execution.",
+     "takeaway": "Controleer of u de genoemde Welotec- of Endress+Hauser-producten gebruikt, pas de adviezen van de leverancier toe en beperk de netwerkblootstelling van getroffen apparaten totdat ze zijn bijgewerkt."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "8e46922ad0ca",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/marlink-urges-energy-operators-to-strengthen-connectivity-resilience-across-offshore-and-remote-assets/",
+     "title": "Marlink urges energy operators to strengthen connectivity resilience across offshore and remote assets"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Marlink urges energy operators to strengthen connectivity resilience",
+     "summary": "New analysis from Marlink highlights network resilience as a critical requirement for energy operations. It warns about connectivity disruptions affecting offshore and remote assets.",
+     "takeaway": "Review how remote and offshore sites keep operating and stay secure if their connectivity fails, including fallback links and local control."
+    },
+    "nl": {
+     "heading": "Marlink dringt bij energiebedrijven aan op sterkere connectiviteitsweerbaarheid",
+     "summary": "Nieuwe analyse van Marlink benadrukt netwerkweerbaarheid als cruciale eis voor energieoperaties. Het waarschuwt voor verstoringen van connectiviteit bij offshore en afgelegen assets.",
+     "takeaway": "Beoordeel hoe afgelegen en offshore locaties blijven functioneren en veilig blijven als de connectiviteit uitvalt, inclusief terugvalverbindingen en lokale besturing."
+    }
+   }
+  }
+ ]
+}

@@ -1,5 +1,734 @@
 [
  {
+  "id": "4fb60643a4e1",
+  "url": "https://www.security.nl/posting/961883/EFF%3A+techbedrijven+proberen+hele+begrip+van+privacy+te+veranderen?channel=rss",
+  "title": "EFF: techbedrijven proberen hele begrip van privacy te veranderen",
+  "excerpt": "Techbedrijven brengen steeds meer gadgets uit die de privacy van hun gebruikers en omgeving schenden, waarmee techbedrijven ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T11:20:36Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The EFF warns that tech companies are releasing gadgets that violate user and bystander privacy.",
+    "nl": "De EFF waarschuwt dat techbedrijven steeds meer gadgets uitbrengen die de privacy van gebruikers en omgeving schenden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "864476274e6d",
+  "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+  "title": "Australian retail giant Coles investigates cybersecurity incident",
+  "excerpt": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T11:18:09Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Australian retailer Coles is investigating a cyber security incident that has not affected its stores.",
+    "nl": "De Australische retailer Coles onderzoekt een cyberbeveiligingsincident dat de winkels niet heeft geraakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "38118e08c911",
+  "url": "https://certvde.com/en/advisories/VDE-2024-060/",
+  "title": "Welotec: PKfail in RSAPC UEFI Firmware",
+  "excerpt": "[VDE-2024-060] The listed products from the Welotec RSAPC family are affected by PKfail. The affected UEFI firmware uses an insecure default Platform Key (PK), which undermines the trust established by UEFI Secure Boot.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-16T11:00:00Z",
+  "fetched": "2026-11-16T11:28:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Welotec"
+   ],
+   "summary": {
+    "en": "VDE advisory VDE-2024-060: Welotec RSAPC devices use an insecure default UEFI Platform Key, undermining Secure Boot (PKfail).",
+    "nl": "VDE-advisory VDE-2024-060: Welotec RSAPC-apparaten gebruiken een onveilige standaard UEFI Platform Key, waardoor Secure Boot wordt ondermijnd (PKfail)."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "31b206eabdbf",
+  "url": "https://certvde.com/en/advisories/VDE-2026-155/",
+  "title": "Welotec: IPv4 TCP Use-After-Free in egOS",
+  "excerpt": "[VDE-2026-155] The Linux kernel used by the affected egOS releases contains a use-after-free vulnerability in the IPv4 TCP connection-handling path. An unauthenticated remote attacker can send specially crafted IPv4 TCP packets containing IP options to a listening service and race retransmitted connection requests against connection establishment or teardown. Successful exploitation may disclose or corrupt kernel memory, crash the device, or potentially allow arbitrary code execution with kernel privileges.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-16T11:00:00Z",
+  "fetched": "2026-11-16T11:28:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Welotec"
+   ],
+   "summary": {
+    "en": "VDE advisory VDE-2026-155: a use-after-free flaw in the IPv4 TCP path of Welotec egOS can be triggered remotely, possibly leading to code execution.",
+    "nl": "VDE-advisory VDE-2026-155: een use-after-free-fout in het IPv4 TCP-pad van Welotec egOS is op afstand te activeren, mogelijk met code-uitvoering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "884b5e801d44",
+  "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+  "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+  "excerpt": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T11:00:00Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Anthropic changed how its Claude models handle cybersecurity tasks, with Mythos improving at finding bugs.",
+    "nl": "Anthropic heeft het gedrag van zijn Claude-modellen bij cybersecuritytaken aangepast, Mythos wordt beter in het vinden van bugs."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "8a4e43875a06",
+  "url": "https://www.security.nl/posting/961872/Tor-netwerk+doelwit+van+grote+ddos-aanval%2C+update+moet+uitkomst+bieden?channel=rss",
+  "title": "Tor-netwerk doelwit van grote ddos-aanval, update moet uitkomst bieden",
+  "excerpt": "Het Tor-netwerk is al een aantal weken het doelwit van een grote ddos-aanval, waardoor allerlei servers overbelast raken. De ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T10:51:17Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Tor network is under a large DDoS attack that overloads servers, with an update expected to help.",
+    "nl": "Het Tor-netwerk is al weken doelwit van een grote ddos-aanval waardoor servers overbelast raken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "9d15f9df97e1",
+  "url": "https://www.security.nl/posting/961862/Lek+in+adblocker+uBlock+Origin+maakt+cross+site+scripting-aanval+mogelijk?channel=rss",
+  "title": "Lek in adblocker uBlock Origin maakt cross site scripting-aanval mogelijk",
+  "excerpt": "Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T10:31:31Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vulnerability in the uBlock Origin adblocker enables cross site scripting attacks.",
+    "nl": "Een kwetsbaarheid in de adblocker uBlock Origin maakt cross site scripting-aanvallen mogelijk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "fc0e2187009d",
+  "url": "https://industrialcyber.co/ransomware/check-point-finds-ransomware-at-record-levels-as-n0n-rises-into-top-three-and-high-risk-genai-prompts-increase/",
+  "title": "Check Point finds ransomware at record levels as n0n rises into top three and high-risk GenAI prompts increase",
+  "excerpt": "New data from Check Point Research disclosed a record 1,063 ransomware attacks in October this year, marking a...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-16T10:26:44Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point Research reports a record 1,063 ransomware attacks in October, with n0n rising into the top three groups.",
+    "nl": "Check Point Research meldt een record van 1.063 ransomwareaanvallen in oktober, waarbij n0n in de top drie komt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "8e46922ad0ca",
+  "url": "https://industrialcyber.co/utilities-energy-power-water-waste/marlink-urges-energy-operators-to-strengthen-connectivity-resilience-across-offshore-and-remote-assets/",
+  "title": "Marlink urges energy operators to strengthen connectivity resilience across offshore and remote assets",
+  "excerpt": "New analysis from Marlink highlighted network resilience as a critical requirement for energy operations, warning that connectivity disruptions...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-16T10:24:26Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "industry",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Marlink"
+   ],
+   "summary": {
+    "en": "Marlink analysis stresses that network resilience is critical for energy operations with offshore and remote assets.",
+    "nl": "Een analyse van Marlink benadrukt dat netwerkbestendigheid belangrijk is voor energiebedrijven met offshore en afgelegen installaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "cf3541a76f19",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/geovision-camera-software-vulnerabilities/",
+  "title": "Unpatched GeoVision camera software gave cryptojackers a side door into 13 organizations",
+  "excerpt": "Attackers used GeoVision camera management software to break into Windows machines at 13 organizations and turn them into cryptocurrency miners, Huntress warned in a threat advisory. GeoVision is a Taiwanese surveillance and access control company with customers in 110 countries. The victims work in various industries, and most of the intrusions happened between November 8 and 10. Every time, the activity started with a service that belongs to GeoVision’s software, and a Shodan search of … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T10:07:57Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "GeoVision"
+   ],
+   "summary": {
+    "en": "Attackers exploited unpatched GeoVision camera management software to deploy cryptominers on Windows machines at 13 organizations.",
+    "nl": "Aanvallers misbruikten ongepatchte GeoVision-cameramanagementsoftware om cryptominers te installeren op Windows-systemen bij 13 organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "d7a5d3b6169e",
+  "url": "https://www.security.nl/posting/961858/Microsoft+waarschuwt+voor+phishingaanval+over+wereldwijde+storing?channel=rss",
+  "title": "Microsoft waarschuwt voor phishingaanval over wereldwijde storing",
+  "excerpt": "Microsoft waarschuwt voor een phishingaanval die inspeelt op de wereldwijde storing waarmee het techbedrijf en diens gebruikers ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T09:51:14Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft warns of a phishing campaign exploiting a worldwide outage affecting its users.",
+    "nl": "Microsoft waarschuwt voor een phishingcampagne die inspeelt op een wereldwijde storing."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "f0b3319bef62",
+  "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+  "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+  "excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T09:32:57Z",
+  "fetched": "2026-11-16T11:28:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The REF3364 cluster uses the SANSAR Linux toolkit to run cryptominers and hide GPU activity.",
+    "nl": "Het cluster REF3364 gebruikt de SANSAR Linux-toolkit om cryptomining uit te voeren en GPU-activiteit te verbergen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "5f7fb60139a3",
+  "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+  "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+  "excerpt": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T09:30:04Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NoisyTCP Linux kernel vulnerability can crash servers running Nginx, Apache and SSH with default settings.",
+    "nl": "De NoisyTCP-kwetsbaarheid in de Linux-kernel kan servers met Nginx, Apache en SSH met standaardinstellingen laten crashen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "82905bb48f49",
+  "url": "https://www.security.nl/posting/961855/Trezor+bevestigt+verborgen+chip+in+cryptowallet+die+recovery+words+steelt?channel=rss",
+  "title": "Trezor bevestigt verborgen chip in cryptowallet die recovery words steelt",
+  "excerpt": "Leverancier van hardwarematige cryptowallets Trezor heeft bevestigd dat er in cryptowallets die via een derde partij werden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T09:28:00Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Trezor confirms a hidden chip in cryptowallets sold through a third party that steals recovery words.",
+    "nl": "Trezor bevestigt een verborgen chip in via een derde partij verkochte cryptowallets die herstelwoorden steelt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "2cf86bc94889",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/rspamd-4-3-0-released/",
+  "title": "Rspamd 4.3.0 stops forwarded mail from softening DMARC rejects",
+  "excerpt": "Rspamd 4.3.0 fixes bugs that let an unauthenticated attacker crash the spam filter’s workers or slip forged authentication results through it. The worst crash took one HTTP request. A header line without a colon was enough to stop a worker, and an empty Deliver-To header could crash workers again and again. Sites running the milter proxy, the part that connects Rspamd to the mail server, have a separate bug. From 4.0.0 through 4.2.3, the proxy … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T09:27:24Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Rspamd 4.3.0 fixes crash and authentication bypass bugs in the spam filter and its milter proxy.",
+    "nl": "Rspamd 4.3.0 verhelpt crash- en authenticatiefouten in het spamfilter en de milter-proxy."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "1d40325b32be",
+  "url": "https://certvde.com/en/advisories/VDE-2025-105/",
+  "title": "Endress+Hauser: Multiple products affected by Wibu-Systems CodeMeter Vulnerability",
+  "excerpt": "[VDE-2025-105] A vulnerability in Wibu-Systems CodeMeter (up to version 7.60b) affects multiple Endress+Hauser products. This flaw can lead to a heap buffer overflow, which may allow remote code execution under certain conditions.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-16T09:00:00Z",
+  "fetched": "2026-11-16T11:28:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Endress+Hauser",
+    "Wibu-Systems"
+   ],
+   "summary": {
+    "en": "VDE advisory VDE-2025-105: a CodeMeter vulnerability up to version 7.60b affects multiple Endress+Hauser products, possibly enabling remote code execution.",
+    "nl": "VDE-advisory VDE-2025-105: een CodeMeter-kwetsbaarheid tot versie 7.60b treft meerdere Endress+Hauser-producten en kan mogelijk code-uitvoering op afstand toestaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "677f8ec8c280",
+  "url": "https://www.security.nl/posting/961850/FBI+en+Microsoft+melden+inzet+van+AI-platform+ARTEX+bij+cyberaanvallen?channel=rss",
+  "title": "FBI en Microsoft melden inzet van AI-platform ARTEX bij cyberaanvallen",
+  "excerpt": "Bij verschillende cyberaanvallen, waaronder die op Zuid-Koreaanse banken en softwarebedrijf ConnectWise, is gebruikgemaakt van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T08:28:15Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "FBI and Microsoft report that the AI platform ARTEX was used in cyberattacks on South Korean banks and ConnectWise.",
+    "nl": "FBI en Microsoft melden dat het AI-platform ARTEX is gebruikt bij cyberaanvallen op Zuid-Koreaanse banken en ConnectWise."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "40df3f782600",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+  "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+  "excerpt": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T08:26:52Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft released emergency out-of-band Windows updates to fix activation failures caused by security updates.",
+    "nl": "Microsoft heeft noodupdates uitgebracht om activeringsproblemen door beveiligingsupdates van Windows te verhelpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "f159cf23a7b2",
+  "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+  "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+  "excerpt": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys. The team said this",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T07:34:21Z",
+  "fetched": "2026-11-16T11:28:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Amazon observed AI agents hunting internet-exposed AI apps such as LiteLLM and Dify to steal provider API keys.",
+    "nl": "Amazon zag AI-agents die internet-blootgestelde AI-apps zoals LiteLLM en Dify aanvallen om API-sleutels te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "3e48be727551",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/cloudflare-kitesurf-open-source/",
+  "title": "You can now self-host Kitesurf, Cloudflare’s open-source browser for AI agents",
+  "excerpt": "Kitesurf is Cloudflare’s browser for AI agents, built to load web pages and run their JavaScript on Cloudflare Workers without starting up a full desktop browser. Cloudflare has published its source code so developers can inspect it, modify it, test it on their own machines, and deploy a copy to their Cloudflare account. A browser without Chromium Kitesurf needs no browser container, and it can return screenshots of the pages it loads. It supports the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T07:00:02Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cloudflare published the source code of Kitesurf, its browser for AI agents, so developers can self-host it.",
+    "nl": "Cloudflare heeft de broncode van Kitesurf, zijn browser voor AI-agents, gepubliceerd zodat ontwikkelaars het zelf kunnen hosten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:39Z"
+  }
+ },
+ {
+  "id": "1a13d7025b37",
+  "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+  "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+  "excerpt": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T06:53:34Z",
+  "fetched": "2026-11-16T11:28:19Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "VMware"
+   ],
+   "summary": {
+    "en": "Kaspersky ICS CERT documented BO Team exploiting Log4Shell in VMware vCenter to compromise a Russian software developer's development infrastructure and code-signing server.",
+    "nl": "Kaspersky ICS CERT heeft vastgesteld dat BO Team Log4Shell in VMware vCenter misbruikte om de ontwikkelinfrastructuur en code-signing-server van een Russisch softwarebedrijf te compromitteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:46Z"
+  }
+ },
+ {
+  "id": "ccb385c95765",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/google-project-zero-disclosure-policy/",
+  "title": "Google Project Zero will disclose bugs after 90 days, fixed or not",
+  "excerpt": "Google’s Project Zero will disclose the vulnerabilities it finds 90 days after reporting them to a vendor, whether or not the vendor has shipped a fix. The deadline drops to 60 days on February 2, 2027, and to 30 days on January 3, 2028. Project Zero calls the new policy “Full X,” where X is the number of days. The change ends the “90 + 30” rule the team has followed since 2021. That rule … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T06:30:02Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google Project Zero will disclose vulnerabilities 90 days after vendor reporting, with the deadline shortening to 60 and 30 days in 2027 and 2028.",
+    "nl": "Google Project Zero publiceert kwetsbaarheden 90 dagen na melding aan de leverancier, met verkorting naar 60 en 30 dagen in 2027 en 2028."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:46Z"
+  }
+ },
+ {
+  "id": "0de91ec8af45",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/",
+  "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
+  "excerpt": "Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider. Ory built it to issue and validate tokens, register client applications, and manage the keys that sign those tokens. Hydra stores no usernames or passwords, so logins stay with whatever identity system an organization already runs. The OAuth specifications run to more than 400 pages, and a team building its own server has to get every one of them right. Hydra does that … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T06:00:29Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider that issues tokens and manages client applications.",
+    "nl": "Ory Hydra is een open-source OAuth 2.0-server en OpenID Connect-provider die tokens uitgeeft en clientapplicaties beheert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:46Z"
+  }
+ },
+ {
+  "id": "41b57044c63b",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/product-showcase-eset-mobile-security-ios/",
+  "title": "Product showcase: ESET Mobile Security brings phishing protection and security checks to iOS",
+  "excerpt": "ESET Mobile Security for iOS helps iPhone users identify suspicious links, review device security settings, and assess Wi-Fi connections. ESET Mobile Security is available for iPhones running iOS 18.0 or later. Free features can be used without creating an account. Device security checks and link verification The app’s Device Scan reviews security settings, permissions, and configuration issues, providing recommendations for improving protection. During the initial scan, it checks screen lock status, notification permissions, available storage, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T05:30:19Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ESET"
+   ],
+   "summary": {
+    "en": "ESET Mobile Security for iOS offers phishing protection, device security checks and Wi-Fi assessment for iPhone users.",
+    "nl": "ESET Mobile Security voor iOS biedt phishingbescherming, apparaatbeveiligingscontroles en Wi-Fi-beoordeling voor iPhonegebruikers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:46Z"
+  }
+ },
+ {
+  "id": "a3f7edf86886",
+  "url": "https://www.helpnetsecurity.com/2026/11/16/forescout-ai-models-vulnerability-research/",
+  "title": "AI uncovers flaws in discontinued devices with no vendor left to patch them",
+  "excerpt": "Forescout researchers built a tool to test if generally available AI models could find security flaws on a limited budget. They examined both open-source code and compiled software whose source code was unavailable, testing an approach attackers could also use. The team confirmed 99 vulnerabilities across 10 TCP/IP stacks, the software components that allow devices to communicate over networks. Sixty-six were previously unknown, and 52% of those newly discovered vulnerabilities were rated as high or … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-16T05:00:22Z",
+  "fetched": "2026-11-16T11:28:20Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Forescout"
+   ],
+   "summary": {
+    "en": "Forescout researchers used AI models to find 99 vulnerabilities across 10 TCP/IP stacks, 66 previously unknown, in discontinued devices that no vendor will patch.",
+    "nl": "Forescout-onderzoekers gebruikten AI-modellen om 99 kwetsbaarheden in 10 TCP/IP-stacks te vinden, waarvan 66 onbekend, in stopgezette apparaten die geen leverancier meer patcht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-16T11:28:46Z"
+  }
+ },
+ {
   "id": "29c8bcf132e2",
   "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
@@ -51648,39 +52377,6 @@
    "summary": {
     "en": "NCSC publishes scheme documents for Cyber Adversary Simulation providers and describes what good simulation looks like.",
     "nl": "De NCSC publiceert schemadocumenten voor Cyber Adversary Simulation-aanbieders en beschrijft hoe goede simulatie eruitziet."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "72a0f0ec3408",
-  "url": "https://certvde.com/en/advisories/VDE-2026-051/",
-  "title": "iba: Deserialization vulnerability in ibaPDA and ibaDatCoordinator",
-  "excerpt": "[VDE-2026-051] A vulnerability has been identified in ibaPDA, ibaDatCoordinator and ibaLogic. The affected applications do not properly restrict the .NET BinaryFormatter when deserializing client-server input. This could allow an attacker to cause a type confusion and execute arbitrary code within the affected applications. This is the same issue that exists for the .NET BinaryFormatter: https://docs.microsoft.com/en-us/visualstudio/code-quality/ca2300.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-17T10:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 65,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing",
-    "cross_sector"
-   ],
-   "vendors": [
-    "iba"
-   ],
-   "summary": {
-    "en": "CERT@VDE reports a deserialization vulnerability in iba ibaPDA and ibaDatCoordinator that allows arbitrary code execution via unrestricted BinaryFormatter use.",
-    "nl": "CERT@VDE meldt een deserialisatiekwetsbaarheid in iba ibaPDA en ibaDatCoordinator waarbij door onbeperkt gebruik van BinaryFormatter willekeurige code kan worden uitgevoerd."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
