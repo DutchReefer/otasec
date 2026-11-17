@@ -1,0 +1,186 @@
+{
+ "date": "2026-11-17",
+ "published": "2026-11-17T14:30:37Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 11,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A ransomware affiliate extradition leads the day, while OT-specific news centres on exploited Copeland XWEB EVO flaws, an FBI warning about AI-driven attacks and new Dragos ransomware figures. CERT@VDE also published PHP2Shell and CODESYS advisories."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Vandaag staat de uitlevering van een ransomware-affiliate bovenaan. Voor OT zijn vooral de actief misbruikte Copeland XWEB EVO-kwetsbaarheden, een FBI-waarschuwing over AI-gestuurde aanvallen en nieuwe ransomwarecijfers van Dragos van belang. Daarnaast publiceerde CERT@VDE advisories over PHP2Shell en CODESYS."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "ea34b3170c3c",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/17/8-digits-team-ransomware-suspect-extradited-us-italy/",
+     "title": "Suspected ransomware affiliate extradited to US over $500 million in extortion demands"
+    },
+    {
+     "id": "9327b06c5331",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+     "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Suspected ransomware affiliate extradited from Italy to the US",
+     "summary": "A 43-year-old Kazakh national, Roman Khlynovskiy, has been extradited from Italy to the US. Prosecutors say he was part of the '8-Digits Team', affiliated with the INC and Lynx ransomware operations, which stole data from US hospitals and schools and threatened to publish medical information. He faces up to 27 years in prison, and the extortion demands are reported at over $500 million.",
+     "takeaway": "Asset owners in healthcare and adjacent sectors should check that offline backups, network segmentation and data-exfiltration monitoring are in place, since extortion by data theft continues regardless of arrests."
+    },
+    "nl": {
+     "heading": "Vermoedelijke ransomware-affiliate vanuit Italië uitgeleverd aan de VS",
+     "summary": "Een 43-jarige Kazachse man, Roman Khlynovskiy, is vanuit Italië aan de VS uitgeleverd. Volgens het openbaar ministerie maakte hij deel uit van het '8-Digits Team', gelieerd aan de ransomwareoperaties INC en Lynx, dat data van Amerikaanse ziekenhuizen en scholen stal en dreigde medische gegevens te publiceren. Hij riskeert tot 27 jaar cel, en de afpersingseisen worden op meer dan $500 miljoen geschat.",
+     "takeaway": "Asset owners in de zorg en aanverwante sectoren doen er goed aan te controleren of offline back-ups, netwerksegmentatie en monitoring op data-exfiltratie op orde zijn, want afpersing via datadiefstal gaat door, ook na arrestaties."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "8bb938fbc842",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/control-device-security/vulncheck-finds-14-vulnerabilities-in-copeland-xweb-evo-refrigeration-systems-two-exploited-in-the-wild/",
+     "title": "VulnCheck finds 14 vulnerabilities in Copeland XWEB EVO refrigeration systems, two exploited in the wild"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "VulnCheck finds 14 flaws in Copeland XWEB EVO, two exploited in the wild",
+     "summary": "VulnCheck disclosed 14 vulnerabilities in Copeland's XWEB EVO refrigeration supervisory system. Two of them are reported as exploited in the wild.",
+     "takeaway": "Identify any XWEB EVO systems in your estate, make sure they are not exposed to the internet, and check with Copeland for fixes or mitigations."
+    },
+    "nl": {
+     "heading": "VulnCheck vindt 14 kwetsbaarheden in Copeland XWEB EVO, twee actief misbruikt",
+     "summary": "VulnCheck maakte 14 kwetsbaarheden bekend in Copeland's XWEB EVO, een toezichtsysteem voor koelinstallaties. Twee daarvan worden naar verluidt al actief misbruikt.",
+     "takeaway": "Breng na of XWEB EVO-systemen in uw omgeving draaien, zorg dat ze niet vanaf internet bereikbaar zijn en vraag Copeland naar updates of mitigerende maatregelen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "88a7359ab97b",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/industrial-cyber-attacks/fbi-warns-hackers-weaponizing-artex-ai-framework-to-automate-attacks-on-energy-manufacturing-telecom/",
+     "title": "FBI warns hackers weaponizing ARTEX AI framework to automate attacks on energy, manufacturing, telecom"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "FBI warns of ARTEX AI framework used to automate attacks",
+     "summary": "In a FLASH advisory the FBI warned that hackers are using ARTEX, an open-source AI framework, to automate attacks. Targeted sectors named are energy, manufacturing and telecom.",
+     "takeaway": "Security leads in these sectors should review the FBI advisory and check that exposed services, remote access and detection coverage can cope with faster, automated attack activity."
+    },
+    "nl": {
+     "heading": "FBI waarschuwt voor misbruik van AI-framework ARTEX om aanvallen te automatiseren",
+     "summary": "In een FLASH-advisory waarschuwt de FBI dat hackers ARTEX, een open-source AI-framework, inzetten om aanvallen te automatiseren. Genoemde doelsectoren zijn energie, maakindustrie en telecom.",
+     "takeaway": "Security leads in deze sectoren kunnen de FBI-advisory doornemen en nagaan of blootgestelde diensten, toegang op afstand en detectie bestand zijn tegen snellere, geautomatiseerde aanvallen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "699bead19a44",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/dragos-finds-industrial-ransomware-attacks-rose-11-in-q3-2026-with-manufacturing-accounting-for-69-of-victims/",
+     "title": "Dragos finds industrial ransomware attacks rose 11% in Q3 2026, with manufacturing accounting for 69% of victims"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Dragos: industrial ransomware up 11% in Q3 2026, manufacturing 69% of victims",
+     "summary": "Dragos recorded 1,266 ransomware incidents against industrial organizations worldwide in Q3 2026, an 11% increase. Manufacturing accounted for 69% of the victims.",
+     "takeaway": "Manufacturers should test their ransomware recovery plans and verify that OT networks can be isolated from IT when needed."
+    },
+    "nl": {
+     "heading": "Dragos: industriële ransomware stijgt 11% in Q3 2026, maakindustrie goed voor 69% van slachtoffers",
+     "summary": "Dragos registreerde in Q3 2026 wereldwijd 1.266 ransomware-incidenten tegen industriële organisaties, een stijging van 11%. De maakindustrie vormde 69% van de slachtoffers.",
+     "takeaway": "Fabrikanten kunnen hun herstelplannen voor ransomware testen en controleren of OT-netwerken indien nodig van IT geïsoleerd kunnen worden."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "84c1cf72d52a",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-153/",
+     "title": "Pilz: Vulnerabilities in 'PHP' (PHP2Shell) for Industrial PC IndustrialPI"
+    },
+    {
+     "id": "5ca4f5841189",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-149/",
+     "title": "DURAG: PHP2Shell and Brotli Vulnerabilities in D-ESI 100"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "PHP2Shell flaws hit Pilz IndustrialPI and DURAG D-ESI 100",
+     "summary": "Pilz reports two remotely exploitable memory-handling vulnerabilities (PHP2Shell) in the PHP interpreter of the IndustrialPI web interface, in versions before 8.2.35-1. DURAG reports three memory-safety vulnerabilities in the PHP runtime of D-ESI 100, up to and including 01.11R0025, which allow an unauthenticated remote attacker to execute arbitrary code.",
+     "takeaway": "Check whether IndustrialPI or D-ESI 100 devices are in use, update where fixes exist, and keep their web interfaces off untrusted networks."
+    },
+    "nl": {
+     "heading": "PHP2Shell-kwetsbaarheden in Pilz IndustrialPI en DURAG D-ESI 100",
+     "summary": "Pilz meldt twee op afstand uitbuitbare geheugenkwetsbaarheden (PHP2Shell) in de PHP-interpreter van de webinterface van IndustrialPI, in versies vóór 8.2.35-1. DURAG meldt drie geheugenkwetsbaarheden in de PHP-runtime van D-ESI 100, tot en met versie 01.11R0025, waarmee een niet-geauthenticeerde aanvaller op afstand willekeurige code kan uitvoeren.",
+     "takeaway": "Controleer of IndustrialPI- of D-ESI 100-apparaten in gebruik zijn, installeer waar mogelijk updates en houd de webinterfaces buiten onvertrouwde netwerken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6f1f29a21867",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-145/",
+     "title": "CODESYS Automation Server Connector and CODESYS Service Tool - multiple vulnerabilities"
+    },
+    {
+     "id": "1c0981ac6016",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-146/",
+     "title": "CODESYS Automation Server Connector path traversal"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CODESYS Automation Server Connector and Service Tool advisories",
+     "summary": "CERT@VDE published two CODESYS advisories. One covers multiple vulnerabilities in the Automation Server Connector and the Service Tool, both used with CODESYS Edge Gateways. The other describes a path traversal in the Automation Server Connector, which uses server-supplied file names without sufficient checks.",
+     "takeaway": "Engineering teams using CODESYS tooling should review the advisories and apply vendor updates, connecting only to trusted Automation Servers."
+    },
+    "nl": {
+     "heading": "CODESYS-advisories voor Automation Server Connector en Service Tool",
+     "summary": "CERT@VDE publiceerde twee CODESYS-advisories. De eerste betreft meerdere kwetsbaarheden in de Automation Server Connector en de Service Tool, beide gebruikt met CODESYS Edge Gateways. De tweede beschrijft een path traversal in de Automation Server Connector, die door de server aangeleverde bestandsnamen zonder voldoende controle gebruikt.",
+     "takeaway": "Engineeringteams die CODESYS-tooling gebruiken kunnen de advisories nalopen en updates van de leverancier installeren, en alleen verbinding maken met vertrouwde Automation Servers."
+    }
+   }
+  }
+ ]
+}

@@ -1,5 +1,1258 @@
 [
  {
+  "id": "1174051f6cc8",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/envoy-visitors-critical/",
+  "title": "Envoy Visitors Critical turns visitor policies into approval workflows",
+  "excerpt": "Envoy today launched Visitors Critical, an infrastructure-grade visitor security offering that brings identity verification, screening and approval workflows together on a shared security architecture that keeps the record protected and audit-ready. It’s built for high-consequence environments, where the impact of a security event is unacceptable and one-size-fits-all visitor workflows can leave gaps in security posture. Visitors Critical closes those gaps with the highest level of control, assurance and governance across every visitor scenario. It is … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T14:28:49Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Envoy"
+   ],
+   "summary": {
+    "en": "Envoy launched Visitors Critical, a visitor identity verification and approval product for high-security environments.",
+    "nl": "Envoy heeft Visitors Critical gelanceerd, een productoplossing voor identiteitsverificatie en goedkeuring van bezoekers in omgevingen met hoge beveiligingseisen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "da8b442f8e93",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/linx-security-agent-identity-control/",
+  "title": "Linx Security extends identity governance to AI agent actions",
+  "excerpt": "Linx Security has announced four new capabilities that bring every agent under identity control, managed or unmanaged, in any gateway. Shadow AI Agent Detection finds the agents no one sanctioned. Agent Runtime Control decides every agent action in the gateway organizations already run. And for identity teams, Autopilots for any use case put governed agents to work, a first among major identity vendors, while Prompt-to-Workflow turns a plain-English description into a tested, agentic workflow. These … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T14:23:26Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Linx Security"
+   ],
+   "summary": {
+    "en": "Linx Security announced identity governance features for AI agents, including shadow agent detection and runtime control.",
+    "nl": "Linx Security heeft identiteitsbeheer voor AI-agents uitgebreid met detectie van ongeautoriseerde agents en runtime-controle."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "fd216cb40c8d",
+  "url": "https://www.security.nl/posting/962067/Zyxel+dicht+beveiligingslekken+in+glasvezelmodems+en+wifi-extenders?channel=rss",
+  "title": "Zyxel dicht beveiligingslekken in glasvezelmodems en wifi-extenders",
+  "excerpt": "Zyxel heeft firmware-updates uitgebracht voor beveiligingslekken in dsl- en glasvezelmodems, alsmede wifi-extenders. Het gaat ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T14:21:21Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Zyxel"
+   ],
+   "summary": {
+    "en": "Zyxel released firmware updates fixing vulnerabilities in DSL and fiber modems and Wi-Fi extenders.",
+    "nl": "Zyxel heeft firmware-updates uitgebracht die kwetsbaarheden in dsl- en glasvezelmodems en wifi-extenders dichten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "39b807e1f937",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/detectify-agentic-tooling/",
+  "title": "Detectify launches Agentic Tooling to verify vulnerabilities in live applications",
+  "excerpt": "Detectify has launched Agentic Tooling. It lets organizations’ own AI agents, running in their own environments, proactively investigate suspected vulnerabilities and test whether they can be exploited in running applications. A new Security Ledger lets security teams verify agents’ findings against objective evidence, ensuring informed decisions rather than relying solely on probabilistic conclusions. The tools address a growing gap in DevSecOps. Engineering teams have built software factories that move code from commit to production in … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T14:13:55Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Detectify"
+   ],
+   "summary": {
+    "en": "Detectify launched Agentic Tooling that lets AI agents verify suspected vulnerabilities in running web applications.",
+    "nl": "Detectify heeft Agentic Tooling gelanceerd waarmee AI-agents verdachte kwetsbaarheden in draaiende webapplicaties kunnen verifiëren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "3dd23ca798a1",
+  "url": "https://therecord.media/autistic-teen-hacker-guilty-plea-britain-gta6-leak",
+  "title": "Autistic teen hacker pleads guilty to leak of Grand Theft Auto VI footage",
+  "excerpt": "Now 21, Artion Kurtaj pleaded guilty to a 2022 spree that included leaking clips of Grand Theft Auto VI while it was still years away from release.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T14:09:00Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Artion Kurtaj pleaded guilty to a 2022 hacking spree that included leaking Grand Theft Auto VI footage.",
+    "nl": "Artion Kurtaj heeft schuld bekend aan een hackreeks in 2022 waarbij beelden van Grand Theft Auto VI zijn gelekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "bd36c662344c",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/appgate-optimizer/",
+  "title": "AppGate Optimizer helps teams narrow access without disrupting users",
+  "excerpt": "AppGate has announced the general availability of AppGate Optimizer to help organizations reduce exposure from over-provisioned access, cut the time spent on manual access reviews and prove least privilege access to auditors. AppGate Optimizer analyzes how users access resources and recommends precise changes that administrators review and apply without disrupting user workflows. Key benefits include: Enforce least privilege based on real usage: Narrow entitlements as soon as usage data supports it, not at the next … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T14:03:16Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "AppGate"
+   ],
+   "summary": {
+    "en": "AppGate made its Optimizer access-reduction product generally available to help organizations enforce least privilege.",
+    "nl": "AppGate heeft Optimizer algemeen beschikbaar gemaakt, een product dat organisaties helpt het least privilege-principe toe te passen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "d35daed5c1d9",
+  "url": "https://www.security.nl/posting/962061/Britse+minister%3A+99+procent+ambtenaren+communiceert+via+Microsoft?channel=rss",
+  "title": "Britse minister: 99 procent ambtenaren communiceert via Microsoft",
+  "excerpt": "99 procent van de Britse ambtenaren maakt voor de communicatie gebruik van Microsoft, zo heeft de Britse minister Ian Murray ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T13:49:43Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "A UK minister said 99 percent of civil servants use Microsoft for communication.",
+    "nl": "Een Britse minister zegt dat 99 procent van de ambtenaren Microsoft gebruikt voor communicatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "2040c07e1a18",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/connectsecure-agentic-ai-penetration-testing/",
+  "title": "ConnectSecure brings adaptive AI testing to vulnerability management",
+  "excerpt": "ConnectSecure has announced Agentic AI Penetration Testing, a new capability designed to help managed service providers (MSPs) and enterprise security teams better understand which vulnerabilities may be exploitable and require the most immediate attention. Security teams have greater visibility into vulnerabilities than ever before, but determining whether a weakness can actually be exploited, how it could fit into a broader attack path, and what should be remediated first can require significant time and specialized expertise. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T13:49:13Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ConnectSecure"
+   ],
+   "summary": {
+    "en": "ConnectSecure added Agentic AI Penetration Testing to help MSPs assess which vulnerabilities are exploitable.",
+    "nl": "ConnectSecure heeft Agentic AI Penetration Testing toegevoegd om te beoordelen welke kwetsbaarheden uitbuitbaar zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "ea34b3170c3c",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/8-digits-team-ransomware-suspect-extradited-us-italy/",
+  "title": "Suspected ransomware affiliate extradited to US over $500 million in extortion demands",
+  "excerpt": "A 43-year-old Kazakh national accused of helping a ransomware crew steal data from US hospitals and schools, then threatening to publish patients’ medical information, has been extradited from Italy, the US Department of Justice announced. Prosecutors believe Roman Khlynovskiy was a member of the “8-Digits Team,” a group affiliated with the INC and Lynx ransomware operations. They allege the conspirators broke into victims’ networks, stole data, and demanded payment in exchange for not releasing it. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T13:42:04Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "threat",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A suspected affiliate of the 8-Digits ransomware team was extradited to the US over extortion of hospitals and schools.",
+    "nl": "Een vermoedelijke affiliate van het 8-Digits-ransomwareteam is uitgeleverd aan de VS wegens afpersing van ziekenhuizen en scholen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "5374351d84a4",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/airlock-digital-agentic-control/",
+  "title": "Airlock Digital blocks unauthorized AI agent actions at the endpoint",
+  "excerpt": "Airlock Digital has announced the availability of Agentic Control with the release of Airlock Digital v7.1. Agentic Control includes dedicated Agentic Steering capabilities for AI agents, allowing customers to extend their Deny by Default Application Control to this emerging technology. Airlock Digital evaluates an agent’s requested behavior at runtime to stop unauthorized agent behavior before it attempts to execute it. Application Control has traditionally focused on what employees can run on their endpoints. Now AI … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T13:39:57Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Airlock Digital"
+   ],
+   "summary": {
+    "en": "Airlock Digital v7.1 adds Agentic Control to block unauthorized AI agent actions at the endpoint.",
+    "nl": "Airlock Digital v7.1 voegt Agentic Control toe om ongeautoriseerde acties van AI-agents op endpoints te blokkeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "6d3ee34d0f6c",
+  "url": "https://industrialcyber.co/features/continuous-process-manufacturing-why-ot-cybersecurity-demands-different-approach-when-plants-cannot-stop/",
+  "title": "Continuous process manufacturing: Why OT cybersecurity demands different approach when plants cannot stop",
+  "excerpt": "Continuous process environments have inherent constraints that make applying standard OT (operational technology) cybersecurity practices difficult and potentially...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-17T13:14:31Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "guidance",
+   "sectors": [
+    "manufacturing",
+    "chemical"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "An article explains why OT cybersecurity in continuous process plants requires a different approach because the plants cannot stop.",
+    "nl": "Een artikel legt uit waarom OT-beveiliging in continue procesfabrieken een andere aanpak vraagt omdat die installaties niet kunnen stilliggen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "db2b4dcaa3b4",
+  "url": "https://www.security.nl/posting/962053/Helpdesks+gehackt+via+kritiek+beveiligingslek+in+ScreenConnect?channel=rss",
+  "title": "Helpdesks gehackt via kritiek beveiligingslek in ScreenConnect",
+  "excerpt": "Aanvallers zijn erin geslaagd om verschillende helpdesks van managed serviceproviders (MSP's) door middel van een kritieke ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T12:49:43Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise"
+   ],
+   "summary": {
+    "en": "Attackers breached several MSP helpdesks by exploiting a critical vulnerability in ScreenConnect.",
+    "nl": "Aanvallers zijn via een kritieke kwetsbaarheid in ScreenConnect binnengedrongen in helpdesks van managed serviceproviders."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "699bead19a44",
+  "url": "https://industrialcyber.co/reports/dragos-finds-industrial-ransomware-attacks-rose-11-in-q3-2026-with-manufacturing-accounting-for-69-of-victims/",
+  "title": "Dragos finds industrial ransomware attacks rose 11% in Q3 2026, with manufacturing accounting for 69% of victims",
+  "excerpt": "Industrial cybersecurity firm Dragos identified continued rise in ransomware activity against industrial organizations, with 1,266 incidents recorded worldwide...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-17T12:42:49Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "threat",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Dragos"
+   ],
+   "summary": {
+    "en": "Dragos reports industrial ransomware incidents rose 11 percent in Q3 2026, with manufacturing accounting for 69 percent of victims.",
+    "nl": "Dragos meldt dat ransomware-incidenten bij industriële organisaties in Q3 2026 met 11 procent zijn gestegen, waarvan 69 procent in de productie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "6085ef54790f",
+  "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+  "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+  "excerpt": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T12:25:06Z",
+  "fetched": "2026-11-17T14:29:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "GitHub"
+   ],
+   "summary": {
+    "en": "A webinar promotes methods to close the gap left by attacks that bypass GitHub SHA pinning.",
+    "nl": "Een webinar promoot methoden om het gat te dichten dat ontstaat doordat aanvallers GitHub SHA-pinning kunnen omzeilen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "b69860df4218",
+  "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+  "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+  "excerpt": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks. Nik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T12:14:36Z",
+  "fetched": "2026-11-17T14:29:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "A patched Apple audio service flaw let iPhone apps record audio despite denied microphone permission, with no known attacks.",
+    "nl": "Een gepatchte kwetsbaarheid in de audiodienst van Apple liet iPhone-apps audio opnemen ondanks geweigerde microfoontoegang, zonder bekende aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "761a0810fa46",
+  "url": "https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board",
+  "title": "Why threat hunting should matter to every board",
+  "excerpt": "Monitoring alone cannot detect every threat. Proactive threat hunting can expose gaps in defences and help organisations learn from others facing common threats.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-11-17T12:00:00Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NCSC guidance argues that boards should support proactive threat hunting to expose gaps in defences.",
+    "nl": "NCSC-richtlijnen stellen dat bestuurders proactief threat hunting moeten steunen om gaten in verdediging bloot te leggen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "6ede2e5d9722",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/optimizely-vulnerability-malicious-javascript/",
+  "title": "Malware spread through Optimizely hits 178 organizations, including BBC, CNN and Zoom",
+  "excerpt": "An attacker exploited a vulnerability in Optimizely’s web experimentation platform to plant malicious JavaScript on its customers’ websites, the company has confirmed. Companies add Optimizely Web to their sites through a JavaScript snippet loaded from Optimizely’s servers. “Earlier today, Optimizely identified a security incident in which an unauthorized party exploited a vulnerability in Experimentation and used it to add malicious JavaScript to some customer projects. We’ve fixed the vulnerability and removed the injected code from … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T11:53:40Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Optimizely"
+   ],
+   "summary": {
+    "en": "An attacker exploited a vulnerability in Optimizely to inject malicious JavaScript into websites of 178 organizations.",
+    "nl": "Een aanvaller heeft een kwetsbaarheid in Optimizely misbruikt om kwaadaardig JavaScript in websites van 178 organisaties te plaatsen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "869f83b0f376",
+  "url": "https://www.security.nl/posting/962034/FBI%3A+malware+op+gehackte+WordPress-sites+leidde+tot+28+miljoen+dollar+losgeld?channel=rss",
+  "title": "FBI: malware op gehackte WordPress-sites leidde tot 28 miljoen dollar losgeld",
+  "excerpt": "Malware die via gehackte WordPress-sites werd verspreid heeft criminelen 28 miljoen dollar losgeld opgeleverd, zo claimt de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T11:21:19Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI says malware spread through hacked WordPress sites generated 28 million dollars in ransom payments.",
+    "nl": "De FBI meldt dat malware via gehackte WordPress-sites 28 miljoen dollar aan losgeld heeft opgeleverd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "5e43b1695ab6",
+  "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+  "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+  "excerpt": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T11:20:18Z",
+  "fetched": "2026-11-17T14:29:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Microsoft",
+    "GitHub"
+   ],
+   "summary": {
+    "en": "Kaspersky reports new GitDoor and GraphDoor backdoors using SharePoint and GitHub for command-and-control against government targets.",
+    "nl": "Kaspersky meldt nieuwe GitDoor- en GraphDoor-backdoors die SharePoint en GitHub gebruiken voor command-and-control tegen overheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "dc73a46310e9",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+  "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+  "excerpt": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T11:19:51Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft is testing a feature that lets administrators remotely lock lost or stolen Windows devices without wiping them.",
+    "nl": "Microsoft test een functie waarmee beheerders verloren of gestolen Windows-apparaten op afstand kunnen vergrendelen zonder ze te wissen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:29:43Z"
+  }
+ },
+ {
+  "id": "cb74b2746cc6",
+  "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+  "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+  "excerpt": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access. \"Before granting an app such",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T11:07:31Z",
+  "fetched": "2026-11-17T14:29:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple previewed macOS 27.3 beta controls giving users more granular control over app access to data, including for AI agents.",
+    "nl": "Apple heeft in de macOS 27.3 beta extra instellingen getoond waarmee gebruikers de datatoegang van apps, ook voor AI-agents, fijner kunnen regelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "84c1cf72d52a",
+  "url": "https://certvde.com/en/advisories/VDE-2026-153/",
+  "title": "Pilz: Vulnerabilities in 'PHP' (PHP2Shell) for Industrial PC IndustrialPI",
+  "excerpt": "[PPSA-2026-007] The interpreter for the PHP scripting language, which is used for the web interface of the IndustrialPI, prior to 8.2.35-1, contains two remotely exploitable memory handling vulnerabilities, commonly referred to as PHP2Shell.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-17T11:00:00Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Pilz"
+   ],
+   "summary": {
+    "en": "Pilz advisory PPSA-2026-007 reports two remotely exploitable PHP memory handling flaws (PHP2Shell) in the IndustrialPI web interface, fixed in PHP 8.2.35-1.",
+    "nl": "Pilz waarschuwt in PPSA-2026-007 voor twee op afstand misbruikbare PHP-geheugenfouten (PHP2Shell) in de webinterface van de IndustrialPI, opgelost in PHP 8.2.35-1."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "88a7359ab97b",
+  "url": "https://industrialcyber.co/industrial-cyber-attacks/fbi-warns-hackers-weaponizing-artex-ai-framework-to-automate-attacks-on-energy-manufacturing-telecom/",
+  "title": "FBI warns hackers weaponizing ARTEX AI framework to automate attacks on energy, manufacturing, telecom",
+  "excerpt": "The Federal Bureau of Investigation (FBI) warned in a FLASH advisory that hackers are using ARTEX, an open-source,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-17T10:46:36Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "threat",
+   "sectors": [
+    "energy",
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI warned in a FLASH advisory that hackers use the open-source ARTEX AI framework to automate attacks on energy, manufacturing and telecom targets.",
+    "nl": "De FBI waarschuwt in een FLASH-advisory dat hackers het open-source AI-framework ARTEX gebruiken om aanvallen op energie-, productie- en telecomdoelen te automatiseren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "8bb938fbc842",
+  "url": "https://industrialcyber.co/control-device-security/vulncheck-finds-14-vulnerabilities-in-copeland-xweb-evo-refrigeration-systems-two-exploited-in-the-wild/",
+  "title": "VulnCheck finds 14 vulnerabilities in Copeland XWEB EVO refrigeration systems, two exploited in the wild",
+  "excerpt": "New research from VulnCheck disclosed 14 vulnerabilities in Copeland’s XWEB EVO refrigeration supervisory system, including flaws that allow...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-17T10:44:45Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "research",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Copeland"
+   ],
+   "summary": {
+    "en": "VulnCheck disclosed 14 vulnerabilities in Copeland XWEB EVO refrigeration supervisory systems, two of which are exploited in the wild.",
+    "nl": "VulnCheck heeft 14 kwetsbaarheden gemeld in het koelsysteem-supervisiesysteem XWEB EVO van Copeland, waarvan er twee actief worden misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "62ac097740d6",
+  "url": "https://industrialcyber.co/expert/inside-ots-fundamentals-gap-a-plc-fault-an-ai-exploit-and-leaked-identities/",
+  "title": "Inside OT’s Fundamentals Gap: A PLC Fault, an AI Exploit, and Leaked Identities",
+  "excerpt": "On October 27, Google published its final incident report on the London power failure that took its europe-west2-b...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-17T10:42:58Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Google published its final report on a London power failure that took down a data center zone, linked to a PLC fault, and discusses OT fundamentals gaps.",
+    "nl": "Google heeft het eindrapport gepubliceerd over een stroomstoring in Londen die een datacenterzone uitschakelde, waarbij een PLC-fout een rol speelde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "623605cd3beb",
+  "url": "https://www.security.nl/posting/962028/Apple+voorziet+macOS+van+extra+opties+voor+schijf-+en+datatoegang?channel=rss",
+  "title": "Apple voorziet macOS van extra opties voor schijf- en datatoegang",
+  "excerpt": "Apple gaat macOS van extra opties voorzien voor het regelen van schijf- en datatoegang, wat volgens het techbedrijf gebruikers ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T10:30:00Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple will add options to macOS for controlling disk and data access by apps.",
+    "nl": "Apple voegt aan macOS extra opties toe voor het regelen van schijf- en datatoegang door apps."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "fc76d966d0a2",
+  "url": "https://www.security.nl/posting/962025/Windows+11+krijgt+optie+voor+op+afstand+vergrendelen+van+gestolen+systemen?channel=rss",
+  "title": "Windows 11 krijgt optie voor op afstand vergrendelen van gestolen systemen",
+  "excerpt": "Windows 11 krijgt een optie waarmee organisaties gestolen of verloren systemen op afstand kunnen vergrendelen. De feature heet ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T10:08:27Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Windows 11 will let organizations remotely lock stolen or lost systems.",
+    "nl": "Windows 11 krijgt een optie waarmee organisaties gestolen of verloren systemen op afstand kunnen vergrendelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "6f1f29a21867",
+  "url": "https://certvde.com/en/advisories/VDE-2026-145/",
+  "title": "CODESYS Automation Server Connector and CODESYS Service Tool - multiple vulnerabilities",
+  "excerpt": "[Advisory2026-13_VDE-2026-145] The CODESYS Automation Server Connector is an Add-on for the CODESYS Development System that enables project synchronization with the CODESYS Automation Server and the configuration of CODESYS Edge Gateways. The CODESYS Service Tool is a stand-alone application for configuring CODESYS Edge Gateways. Multiple vulnerabilities in the affected products could allow an unauthenticated remote attacker to manipulate trusted CODESYS Automation Server interactions. Successful exploitation may result in the interception and manipulation of Automation Server communications…",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-17T10:00:00Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "CODESYS"
+   ],
+   "summary": {
+    "en": "CODESYS advisory VDE-2026-145 describes multiple flaws in Automation Server Connector and Service Tool that let an unauthenticated attacker manipulate trusted server interactions.",
+    "nl": "CODESYS-advisory VDE-2026-145 beschrijft meerdere kwetsbaarheden in Automation Server Connector en Service Tool waarmee een ongeauthenticeerde aanvaller vertrouwde serverinteracties kan manipuleren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "1c0981ac6016",
+  "url": "https://certvde.com/en/advisories/VDE-2026-146/",
+  "title": "CODESYS Automation Server Connector path traversal",
+  "excerpt": "[Advisory2026-14_VDE-2026-146] CODESYS Automation Server Connector is an Add-on for the CODESYS Development System to synchronize projects on the CODESYS Automation Server and to configure CODESYS Edge Gateways. The CODESYS Automation Server Connector uses server-supplied file names without sufficient path traversal checks. An unauthenticated remote attacker controlling a malicious Automation Server, or performing a man-in-the-middle attack on a trusted communication channel, can exploit this vulnerability to perform arbitrary file writes outside the intended working directory of the affected…",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-17T10:00:00Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "CODESYS"
+   ],
+   "summary": {
+    "en": "CODESYS advisory VDE-2026-146 reports a path traversal flaw in Automation Server Connector that trusts server-supplied file names, exploitable via a malicious server or MITM.",
+    "nl": "CODESYS-advisory VDE-2026-146 meldt een path traversal-fout in Automation Server Connector, waarbij servergeleverde bestandsnamen onvoldoende worden gecontroleerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "7a28afcc0919",
+  "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+  "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+  "excerpt": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T09:44:22Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A US court acquitted two brothers accused of a $25 million cryptocurrency theft exploiting an Ethereum bug.",
+    "nl": "Een Amerikaanse rechter heeft twee broers vrijgesproken van de beschuldiging een cryptodiefstal van 25 miljoen dollar te hebben gepleegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "49b5d103d4e6",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/apple-macos-app-permission-changes/",
+  "title": "Apple splits Mac app permissions fearing overreaching AI agents",
+  "excerpt": "Apple has introduced more granular permissions and greater transparency for Device Control and Data Access, and Full Disk Access in macOS 27.3 beta 2, following its earlier announcement of additional controls. The company previously warned that some developers were using Full Disk Access in ways that could expose files, emails, messages, and browsing history without users fully understanding the risks. Apple said increasingly capable and autonomous AI agents would heighten those risks. Device Control and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T09:41:58Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "Apple added more granular permissions for Device Control, Data Access and Full Disk Access in macOS 27.3 beta 2, citing AI agent risks.",
+    "nl": "Apple heeft in macOS 27.3 beta 2 fijnmaziger rechten toegevoegd voor Device Control, Data Access en Full Disk Access, mede vanwege risico's van AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "bd21097aaf12",
+  "url": "https://www.security.nl/posting/962021/GBA+tikt+chatbot-app+op+vingers+wegens+illegaal+trainen+met+gevoelige+data?channel=rss",
+  "title": "GBA tikt chatbot-app op vingers wegens illegaal trainen met gevoelige data",
+  "excerpt": "De Belgische privacytoezichthouder GBA heeft een chatbot-app op de vingers getikt wegens het illegaal trainen van het eigen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T09:41:11Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Belgian privacy regulator GBA sanctioned a chatbot app for illegally training its model on sensitive data.",
+    "nl": "De Belgische privacytoezichthouder GBA heeft een chatbot-app berispt wegens het illegaal trainen van het model met gevoelige data."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "b860203778a0",
+  "url": "https://www.security.nl/posting/962020/%27Datalek+cybersecuritybedrijf+Infoblox+na+hack+van+SharePoint-omgeving%27?channel=rss",
+  "title": "'Datalek cybersecuritybedrijf Infoblox na hack van SharePoint-omgeving'",
+  "excerpt": "Cybersecuritybedrijf Infoblox heeft te maken gekregen met een datalek, nadat aanvallers wisten in te breken op de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T09:20:14Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cybersecurity company Infoblox reported a data breach after attackers intruded its SharePoint environment.",
+    "nl": "Cybersecuritybedrijf Infoblox meldt een datalek nadat aanvallers zijn SharePoint-omgeving binnendrongen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "5ca4f5841189",
+  "url": "https://certvde.com/en/advisories/VDE-2026-149/",
+  "title": "DURAG: PHP2Shell and Brotli Vulnerabilities in D-ESI 100",
+  "excerpt": "[VDE-2026-149] Three memory-safety vulnerabilities in the PHP runtime bundled in D-ESI 100 allow an unauthenticated remote attacker to execute arbitrary code in the context of the PHP web worker. D-ESI 100 versions up to and including 01.11R0025 are affected.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-17T09:00:00Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "DURAG"
+   ],
+   "summary": {
+    "en": "DURAG advisory VDE-2026-149 reports three memory-safety flaws in the PHP runtime of D-ESI 100 allowing unauthenticated remote code execution, affecting versions up to 01.11R0025.",
+    "nl": "DURAG-advisory VDE-2026-149 meldt drie geheugenfouten in de PHP-runtime van D-ESI 100 waarmee ongeauthenticeerde externe code kan worden uitgevoerd, tot en met versie 01.11R0025."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "0dfc56680bc3",
+  "url": "https://www.security.nl/posting/962016/OpenAI+in+VS+aangeklaagd+wegens+tientallen+hacks+door+AI-agents?channel=rss",
+  "title": "OpenAI in VS aangeklaagd wegens tientallen hacks door AI-agents",
+  "excerpt": "De Amerikaanse staat Californië heeft OpenAI aangeklaagd wegens tientallen hacks die door AI-agents waren uitgevoerd. Volgens ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T08:53:49Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [
+    "OpenAI"
+   ],
+   "summary": {
+    "en": "California state sued OpenAI over dozens of hacks carried out by AI agents.",
+    "nl": "De Amerikaanse staat Californië heeft OpenAI aangeklaagd wegens tientallen hacks die door AI-agents zijn uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "63ce96d0c14c",
+  "url": "https://www.helpnetsecurity.com/2026/11/17/ai-powered-cyberattacks-gtig-report/",
+  "title": "Google finds AI agent writing and launching exploits with no human in the loop",
+  "excerpt": "Threat actors have started letting AI agents carry out whole stages of live intrusions, and at least one operation no longer needs a human to turn a newly released patch into a working attack, Google Threat Intelligence Group (GTIG) and Mandiant revealed. LLM maturity timeline (Source: Google) “While the mechanics of the intrusions remain the same, such as using compromised credentials and targeting unpatched systems, the speed and scale at which frameworks can exploit these … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T08:45:24Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google Threat Intelligence Group reports threat actors use AI agents for stages of intrusions, including turning patches into exploits without humans.",
+    "nl": "Google Threat Intelligence Group meldt dat dreigingsactoren AI-agents inzetten voor fasen van inbraken, waaronder het omzetten van patches in exploits."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "1817d151d487",
+  "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+  "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+  "excerpt": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T08:35:42Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Uber is notifying nearly 150,000 drivers that attackers stole their data from AI provider Fireworks.",
+    "nl": "Uber informeert bijna 150.000 chauffeurs dat aanvallers hun gegevens hebben gestolen bij AI-leverancier Fireworks."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "9385cd329a4a",
+  "url": "https://www.security.nl/posting/962012/Malafide+code+op+BBC%2C+CNN%2C+KLM%2C+GitLab%2C+Ikea+en+andere+sites+verspreidde+malware?channel=rss",
+  "title": "Malafide code op BBC, CNN, KLM, GitLab, Ikea en andere sites verspreidde malware",
+  "excerpt": "Malafide code op de websites van BBC, CNN, KLM, GitLab, Ikea, ABN Amro, ICS Cards en andere bedrijven verspreidde malware onder ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T08:24:00Z",
+  "fetched": "2026-11-17T14:29:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Malicious code on websites of BBC, CNN, KLM, GitLab and others spread malware to visitors.",
+    "nl": "Kwaadaardige code op de websites van onder meer BBC, CNN, KLM en GitLab verspreidde malware onder bezoekers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "9327b06c5331",
+  "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+  "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+  "excerpt": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T07:25:44Z",
+  "fetched": "2026-11-17T14:29:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "industry",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A Kazakh national was extradited from Italy to the US, facing charges of ransomware attacks on schools, hospitals and healthcare entities.",
+    "nl": "Een Kazachse verdachte is van Italië naar de VS uitgeleverd en wordt vervolgd voor ransomware-aanvallen op scholen, ziekenhuizen en zorginstellingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "50868e3a64c2",
+  "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+  "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+  "excerpt": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run. The code was built to",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T07:12:13Z",
+  "fetched": "2026-11-17T14:29:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker hijacked Optimizely scripts to serve card skimmers and iOS exploit kits to visitors of CNN, BBC and Zoom.",
+    "nl": "Een aanvaller heeft Optimizely-scripts gekaapt en skimmers en iOS-exploitkits geserveerd aan bezoekers van CNN, BBC en Zoom."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:03Z"
+  }
+ },
+ {
+  "id": "e5f38235f326",
+  "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+  "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+  "excerpt": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T06:29:27Z",
+  "fetched": "2026-11-17T14:29:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise"
+   ],
+   "summary": {
+    "en": "ConnectWise completed its investigation into unauthorized access to partner ScreenConnect environments and urged customers to run version 26.6.5 or later.",
+    "nl": "ConnectWise heeft het onderzoek naar ongeautoriseerde toegang tot ScreenConnect-omgevingen van partners afgerond en klanten geadviseerd versie 26.6.5 of later te draaien."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:07Z"
+  }
+ },
+ {
+  "id": "1ef65dbe395d",
+  "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+  "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+  "excerpt": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T05:00:34Z",
+  "fetched": "2026-11-17T14:29:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "N-able"
+   ],
+   "summary": {
+    "en": "N-able released N-central 2026.4 Hotfix 3, a critical security update fixing 17 flaws in its RMM and UEM platform, after attackers exploited earlier bugs.",
+    "nl": "N-able heeft N-central 2026.4 Hotfix 3 uitgebracht, een kritieke beveiligingsupdate die 17 kwetsbaarheden in het RMM- en UEM-platform verhelpt nadat aanvallers eerdere bugs misbruikten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-17T14:30:07Z"
+  }
+ },
+ {
   "id": "9409189d8358",
   "url": "https://therecord.media/uber-says-150000-impacted-third-party-breach",
   "title": "Uber says nearly 150,000 impacted by third-party breach",
