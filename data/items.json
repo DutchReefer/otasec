@@ -1,5 +1,33 @@
 [
  {
+  "id": "56d98f6f43c2",
+  "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+  "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+  "excerpt": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-17T23:04:21Z",
+  "fetched": "2026-11-18T04:25:59Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A critical flaw called Java4Shell in OpenJDK could let unauthenticated attackers execute code remotely on enterprise applications such as Jenkins, Jira, Confluence and Keycloak.",
+    "nl": "Een kritieke kwetsbaarheid genaamd Java4Shell in OpenJDK kan ongeauthenticeerde aanvallers op afstand code laten uitvoeren op enterprise-applicaties zoals Jenkins, Jira, Confluence en Keycloak."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T04:26:05Z"
+  }
+ },
+ {
   "id": "cf38d5068c12",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0495",
   "title": "NCSC-2026-0495 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Java",
