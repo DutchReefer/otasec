@@ -1,5 +1,771 @@
 [
  {
+  "id": "634838954f1a",
+  "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+  "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+  "excerpt": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T20:49:32Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Coinbase says it blocked $4.7 million in crypto transfers to scammers using a deepfake Elon Musk giveaway during a Tesla livestream.",
+    "nl": "Coinbase zegt $4,7 miljoen aan cryptotransfers naar oplichters te hebben geblokkeerd die een deepfake van Elon Musk gebruikten in een nep-giveaway."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "33f8f6aa43e2",
+  "url": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data",
+  "title": "Judge signs off on sale of Spirit Airlines’ data to Google",
+  "excerpt": "Google can take possession of defunct Spirit Airlines' data for $10 million, a federal bankruptcy judge has ruled. The tech giant agreed to protections as it plans to use the data in AI projects.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T20:39:00Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A US bankruptcy judge approved the sale of defunct Spirit Airlines' data to Google for $10 million, with protections for its planned AI use.",
+    "nl": "Een Amerikaanse faillissementsrechter keurde de verkoop van de data van Spirit Airlines aan Google goed voor $10 miljoen, met waarborgen voor AI-gebruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "db1d82795c0b",
+  "url": "https://therecord.media/tech-disruptions-house-homeland-committee-testimony",
+  "title": "Trump administration officials size-up a bad stretch for tech",
+  "excerpt": "Homeland Security Secretary Markwayne Mullin said the administration will reach out to industry to get companies to share more information about big patches before they take effect.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T20:00:00Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The US Homeland Security Secretary said the administration will ask industry to share more information about major patches before they take effect.",
+    "nl": "De Amerikaanse minister van Homeland Security zegt dat de regering bedrijven vraagt meer informatie te delen over grote patches voordat deze worden uitgerold."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "3af948e60e5a",
+  "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+  "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+  "excerpt": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T19:39:33Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A reported cyberattack on IT provider Wellington IT exposed member data of about 50 credit unions, mostly in Ireland.",
+    "nl": "Een gemelde cyberaanval op IT-leverancier Wellington IT heeft gegevens van leden van ongeveer 50 kredietunies, vooral in Ierland, blootgelegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "6aca0a67593b",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0507",
+  "title": "NCSC-2026-0507 [1.00] [M/H] Kwetsbaarheden verholpen in Drupal core",
+  "excerpt": "Drupal heeft kwetsbaarheden verholpen in Drupal core. De eerste kwetsbaarheid betreft een potentiële gadget chain gerelateerd aan onveilige deserialisatie binnen Drupal core. Deze kwetsbaarheid is op zichzelf niet direct exploiteerbaar, maar kan worden misbruikt in combinatie met een andere fout die het mogelijk maakt onveilige input te deserialiseren, wat kan leiden tot remote code execution. De tweede kwetsbaarheid betreft het install.php-script van Drupal core, dat onder specifieke omstandigheden kan worden misbruikt om een site opnieuw te installeren. Dit gebeurt wanneer de installer niet…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T19:01:09Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Drupal core fixed two vulnerabilities, including a deserialization gadget chain that could lead to remote code execution in combination with another flaw.",
+    "nl": "Drupal core heeft twee kwetsbaarheden verholpen, waaronder een deserialisatie-gadget chain die in combinatie met een andere fout tot remote code execution kan leiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "1336631baf90",
+  "url": "https://therecord.media/ai-cyber-white-house",
+  "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+  "excerpt": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T19:00:00Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A bipartisan pair of US senators urged the White House to launch a national effort to defend against AI-enabled cyber threats.",
+    "nl": "Twee Amerikaanse senatoren van beide partijen vragen het Witte Huis een nationale aanpak om AI-gedreven cyberdreigingen te weerstaan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "fb8b318a049e",
+  "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+  "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+  "excerpt": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today. F5, the company behind NGINX, says attackers can run code where",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T18:31:17Z",
+  "fetched": "2026-11-18T21:59:37Z",
+  "cves": [
+   "CVE-2026-123007"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A decade-old flaw in NGINX HTTP/2 support, CVE-2026-123007, allows unauthenticated attackers to execute code on servers, and fixed versions are released.",
+    "nl": "Een tien jaar oude fout in de HTTP/2-ondersteuning van NGINX, CVE-2026-123007, laat ongeauthenticeerde aanvallers code uitvoeren op servers; er zijn gepatchte versies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "11aa6bef2bfb",
+  "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+  "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+  "excerpt": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent. F5, which makes BIG-IP, disclosed the flaws today and says they",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T18:15:39Z",
+  "fetched": "2026-11-18T21:59:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "F5 disclosed six critical BIG-IP flaws that let unauthenticated attackers crash the TMM in specific configurations and may allow remote code execution.",
+    "nl": "F5 maakte zes kritieke BIG-IP-kwetsbaarheden bekend waarmee ongeauthenticeerde aanvallers de TMM in specifieke configuraties kunnen laten crashen en mogelijk code uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "9c40ff9a7698",
+  "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+  "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+  "excerpt": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T17:10:45Z",
+  "fetched": "2026-11-18T21:59:37Z",
+  "cves": [
+   "CVE-2026-129448"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apache Roller CVE-2026-129448, a CVSS 9.8 unauthenticated deserialization flaw in XML-RPC, is under active exploitation.",
+    "nl": "Apache Roller-kwetsbaarheid CVE-2026-129448 (CVSS 9.8), een ongeauthenticeerde deserialisatiefout in XML-RPC, wordt actief misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "a396321d0e81",
+  "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+  "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+  "excerpt": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T16:58:42Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers compromised Microsoft's Agent Framework Python package on PyPI, publishing two malicious versions that steal cloud credentials.",
+    "nl": "Hackers hebben het Python-pakket Agent Framework van Microsoft op PyPI gecompromitteerd en twee kwaadaardige versies gepubliceerd die cloudreferenties stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "5b60e9bb4944",
+  "url": "https://www.security.nl/posting/962222/5+miljoen+euro+boete+voor+plaintext+opslag+van+wachtwoorden?channel=rss",
+  "title": "5 miljoen euro boete voor plaintext opslag van wachtwoorden",
+  "excerpt": "Een Frans bedrijf heeft wegens de plaintext opslag van wachtwoorden van de Franse privacytoezichthouder CNIL een boete van 5 ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T16:24:51Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The French privacy regulator CNIL fined a French company 5 million euros for storing passwords in plaintext.",
+    "nl": "De Franse privacytoezichthouder CNIL heeft een Frans bedrijf een boete van 5 miljoen euro opgelegd voor het in platte tekst opslaan van wachtwoorden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "e798ab68d19f",
+  "url": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+  "title": "NSA continues response to interruptions in classified internal network",
+  "excerpt": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T16:19:00Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "On day two of disruptions to the NSA's classified internal network, staggered arrivals and logins were seen at Fort Meade while classified work continued.",
+    "nl": "Op dag twee van storingen in het interne geclassificeerde netwerk van de NSA waren aankomsten en inloggen gespreid, terwijl het geclassificeerde werk doorging."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "6913e89081cc",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0506",
+  "title": "NCSC-2026-0506 [1.00] [H/H] Kwetsbaarheden verholpen in NGINX door F5 Networks",
+  "excerpt": "F5 Networks heeft meerdere kwetsbaarheden verholpen in NGINX Plus en NGINX Open Source. De kwetsbaarheden betreffen verschillende onderdelen en configuraties van NGINX. De belangrijkste kwetsbaarheid met kenmerk CVE-2026-123007 stelt kwaadwillenden in staat om willekeurige code uit te voeren op het onderliggende systeem. Het NCSC verwacht dat er op korte termijn proof of concept code beschikbaar komt, waarna exploitatie op grote schaal verwacht wordt.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T16:07:19Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [
+   "CVE-2026-123007"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "F5 fixed multiple NGINX Plus and Open Source flaws, including CVE-2026-123007 allowing arbitrary code execution, with proof-of-concept expected soon.",
+    "nl": "F5 heeft meerdere kwetsbaarheden in NGINX Plus en NGINX Open Source verholpen, waaronder CVE-2026-123007 voor willekeurige codeuitvoering; een proof of concept wordt verwacht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "024d1e47ec1e",
+  "url": "https://www.security.nl/posting/962221/Noorse+energiegigant+Equinor+getroffen+door+cyberaanval?channel=rss",
+  "title": "Noorse energiegigant Equinor getroffen door cyberaanval",
+  "excerpt": "De Noorse energiegigant Equinor is getroffen door een cyberaanval, wat gevolgen heeft voor het gebruik van it-applicaties en ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T15:55:08Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "incident",
+   "sectors": [
+    "energy",
+    "oil_gas"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Norwegian energy company Equinor was hit by a cyberattack that affects the use of its IT applications.",
+    "nl": "De Noorse energiebedrijf Equinor is getroffen door een cyberaanval die gevolgen heeft voor het gebruik van it-applicaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  },
+  "title_en": "Norwegian energy giant Equinor hit by cyberattack"
+ },
+ {
+  "id": "19c6315683c1",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0505",
+  "title": "NCSC-2026-0505 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite",
+  "excerpt": "Oracle heeft 71 kwetsbaarheden verholpen in Oracle E-Business Suite, waarvan er 19 zonder authenticatie op afstand via het netwerk kunnen worden misbruikt. De kwetsbaarheden bevinden zich onder meer in Oracle Applications Framework, Oracle Application Object Library, Oracle Universal Work Queue, Oracle Mobile Field Service en Document Management and Collaboration. Oracle heeft zes van de 71 kwetsbaarheden als kritiek aangemerkt. Alle 6 kunnen volgens Oracle zonder authenticatie en gebruikersinteractie op afstand via het netwerk worden misbruikt. De overige kwetsbaarheden kunnen onder meer…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T15:36:00Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed 71 vulnerabilities in E-Business Suite, 19 of which can be exploited remotely without authentication.",
+    "nl": "Oracle heeft 71 kwetsbaarheden in E-Business Suite verholpen, waarvan 19 zonder authenticatie op afstand misbruikt kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "96111808951c",
+  "url": "https://therecord.media/russia-cyber-espionage-google",
+  "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+  "excerpt": "Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks against people in their victims' professional networks, according to new research.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T15:15:00Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google reports Russian state-backed hackers use data stolen from cloud accounts to impersonate trusted contacts in espionage attacks.",
+    "nl": "Google meldt dat Russische staatshackers gegevens uit cloudaccounts gebruiken om zich voor te doen als vertrouwde contacten bij spionageaanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "673161c1ba46",
+  "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+  "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+  "excerpt": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent social engineering threats. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T15:00:10Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor article describes attacks using deepfakes and helpdesk impersonation and promotes stronger identity verification.",
+    "nl": "Een artikel van een leverancier beschrijft aanvallen met deepfakes en helpdesk-imitatie en pleit voor sterkere identiteitsverificatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "a73e1cf68cc5",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0504",
+  "title": "NCSC-2026-0504 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle PeopleSoft Enterprise",
+  "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in Oracle PeopleSoft Enterprise PeopleTools en gerelateerde componenten, waaronder Application Server, Integration Broker en Report Distribution, specifiek in versies 8.61 tot en met 8.63. De kwetsbaarheden in Oracle PeopleSoft Enterprise PeopleTools en de gerelateerde componenten stellen een aanvaller in staat om via HTTP-netwerktoegang zonder of met beperkte privileges acties uit te voeren die kunnen leiden tot ongeautoriseerde toegang, het omzeilen van authenticatie, het wijzigen, verwijderen of creëren van kritieke data, en in sommige…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T14:58:13Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed multiple PeopleSoft Enterprise PeopleTools vulnerabilities in versions 8.61 to 8.63 allowing unauthorized access over HTTP.",
+    "nl": "Oracle heeft meerdere kwetsbaarheden in PeopleSoft Enterprise PeopleTools (versies 8.61 tot en met 8.63) verholpen die ongeautoriseerde toegang via HTTP mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "e683f033b85f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0503",
+  "title": "NCSC-2026-0503 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
+  "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in MySQL Server en MySQL Cluster. Meerdere van de kwetsbaarheden kunnen door ongeauthenticeerde of hooggeprivilegieerde aanvallers worden misbruikt om ongeautoriseerde toegang te verkrijgen, data te wijzigen of verwijderen, volledige servercompromis te bereiken, of een denial-of-service te veroorzaken. Daarnaast zijn kwetsbaarheden in dependencies zoals Python, Curl en Electron verholpen.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T14:52:28Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed multiple MySQL Server and Cluster vulnerabilities, some allowing unauthenticated attackers to compromise servers or cause denial of service.",
+    "nl": "Oracle heeft meerdere kwetsbaarheden in MySQL Server en MySQL Cluster verholpen, waarvan sommige ongeauthenticeerde aanvallers toegang of denial-of-service mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "2def11cf7729",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0502",
+  "title": "NCSC-2026-0502 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
+  "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Analytics en Business Intelligence Enterprise Edition (versies 8.2.0.0.0 tot en met 26.01.0.0.0) en aanverwante componenten zoals BI Publisher en Visual Analyzer. De kwetsbaarheden stellen een aanvaller in staat om via HTTP of SOAP-interface zonder of met lage privileges het systeem te compromitteren. Dit kan leiden tot volledige overname van het systeem, ongeautoriseerde toegang tot gevoelige data, wijziging of verwijdering van kritieke gegevens, en het veroorzaken van denial-of-service door het systeem te laten crashen of hangen…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T14:51:21Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed multiple Oracle Analytics and BI Enterprise Edition vulnerabilities that can allow full system compromise over HTTP or SOAP.",
+    "nl": "Oracle heeft meerdere kwetsbaarheden in Oracle Analytics en BI Enterprise Edition verholpen die volledige systeemovername via HTTP of SOAP mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T21:59:58Z"
+  }
+ },
+ {
+  "id": "2b63d3d1f78b",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0501",
+  "title": "NCSC-2026-0501 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
+  "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in verschillende Fusion Middleware producten, waaronder Oracle WebLogic Server, Oracle Access Manager, Oracle WebCenter Portal, Oracle Application Development Framework (ADF), Oracle Fusion Middleware, Oracle Service Bus, Oracle Identity Manager Connector, Oracle Business Process Management Suite, Oracle WebCenter Content, Oracle WebCenter Sites, en Oracle Platform Security voor Java. De kwetsbaarheden betreffen onder andere onbevoegde toegang, manipulatie van kritieke data, denial-of-service, en remote code execution. Aanvallers kunnen via…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T14:50:27Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed multiple vulnerabilities in several Fusion Middleware products, including WebLogic Server, that could allow unauthorized access.",
+    "nl": "Oracle heeft meerdere kwetsbaarheden verholpen in diverse Fusion Middleware-producten, waaronder WebLogic Server, die onbevoegde toegang mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
+ },
+ {
+  "id": "b77d52ad4c7d",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0500",
+  "title": "NCSC-2026-0500 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Financial Services",
+  "excerpt": "Oracle heeft kwetsbaarheden verholpen in Oracle Financial Services Enterprise Case Management, Oracle Financial Services Regulatory Reporting en Oracle Financial Services Customer Screening, allen versie 8.1.2.10. De kwetsbaarheden betreffen meerdere Oracle Financial Services producten en maken het mogelijk voor aanvallers met verschillende niveaus van privileges en netwerktoegang via HTTP om ongeautoriseerd toegang te verkrijgen tot kritieke of gevoelige data. In Oracle Financial Services Enterprise Case Management kunnen laaggeprivilegieerde aanvallers data creëren, verwijderen of wijzigen…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T14:49:50Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed vulnerabilities in Financial Services Case Management, Regulatory Reporting and Customer Screening, allowing unauthorized access to sensitive data.",
+    "nl": "Oracle heeft kwetsbaarheden verholpen in Financial Services Case Management, Regulatory Reporting en Customer Screening, die toegang tot gevoelige data mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
+ },
+ {
+  "id": "ab0c88969acc",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0499",
+  "title": "NCSC-2026-0499 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Enterprise Manager",
+  "excerpt": "Oracle heeft kwetsbaarheden verholpen in Oracle Enterprise Manager Base Platform. In Oracle Enterprise Manager Base Platform (versies 13.5 en 24.1) kan een aanvaller met lage privileges en netwerktoegang via HTTP volledige systeemcompromittering bereiken. In Oracle Enterprise Manager Base Platform Agent Next Gen (versies 13.5 en 24.1) kan een aanvaller met lage infrastructuur login privileges ongeautoriseerde toegang krijgen tot of kritieke data wijzigen. De kwetsbaarheden zijn specifiek voor genoemde versies en componenten. Sommige kwetsbaarheden zijn te misbruiken via netwerktoegang, andere…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T14:48:47Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed vulnerabilities in Enterprise Manager Base Platform and its agent, which could allow system compromise by low-privileged attackers.",
+    "nl": "Oracle heeft kwetsbaarheden verholpen in Enterprise Manager Base Platform en de agent, die compromittering door aanvallers met lage privileges mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
+ },
+ {
+  "id": "166662c56e87",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0498",
+  "title": "NCSC-2026-0498 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications",
+  "excerpt": "Oracle heeft kwetsbaarheden verholpen in onder andere Oracle Communications Unified Assurance, Oracle Communications Billing and Revenue Management, Oracle Primavera Unifier, en Oracle Java SE. Daarnaast zijn fixes uitgebracht voor Ruby-componenten in Oracle Communication producten zoals Net::IMAP, Mail, Nokogiri, rubyzip en MessagePack, Node.js, OpenSSL, Curl, Libgcrypt, Libexpat, Puma, Containerd, Faraday, go-git, PCRE2, Apache Tomcat, Apache HTTP Server, Perl DBI, nghttp2, en andere open source libraries en tools. De kwetsbaarheden omvatten diverse typen beveiligingsproblemen zoals…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T14:42:59Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle released fixes for vulnerabilities in Communications products, Primavera Unifier and Java SE, along with various open source components.",
+    "nl": "Oracle heeft fixes uitgebracht voor kwetsbaarheden in Communications-producten, Primavera Unifier, Java SE en diverse open source componenten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
+ },
+ {
+  "id": "ba7520259625",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0497",
+  "title": "NCSC-2026-0497 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Commerce Platform",
+  "excerpt": "Oracle heeft kwetsbaarheden verholpen in Oracle Commerce Platform. Een groot deel hiervan betreft kwetsbaarheden in dependencies, namelijk Apache Neethi, Apache HttpClient en Apache CXF. Oracle Commerce Platform bevat een DoS-kwetsbaarheid die ongeauthenticeerde aanvallers in staat stelt het systeem via HTTP te laten crashen. Verder zijn er in Oracle Primavera Unifier en Oracle SOA Suite vergelijkbare kwetsbaarheden die leiden tot applicatiehangs, crashes of ongeautoriseerde toegang tot data. Tenslotte is er een DoS-kwetsbaarheid in een niet nader genoemd product die wordt gemitigeerd door…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T14:40:32Z",
+  "fetched": "2026-11-18T21:59:39Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Oracle fixed vulnerabilities in Commerce Platform, including a DoS flaw that lets unauthenticated attackers crash the system over HTTP.",
+    "nl": "Oracle heeft kwetsbaarheden verholpen in Commerce Platform, waaronder een DoS-lek waarmee ongeauthenticeerde aanvallers het systeem kunnen laten crashen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
+ },
+ {
+  "id": "55016e2da81b",
+  "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+  "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+  "excerpt": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T14:11:28Z",
+  "fetched": "2026-11-18T21:59:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A suspected Chinese APT group rebuilt its EggStreme malware toolkit to keep targeting government organizations in the Philippines.",
+    "nl": "Een vermoedelijke Chinese APT-groep heeft de EggStreme-malware opnieuw opgebouwd en richt zich nog steeds op overheidsorganisaties in de Filipijnen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
+ },
+ {
+  "id": "f7c5ecd05450",
+  "url": "https://www.security.nl/posting/962204/Hackermagazine+Phrack+73+online%3A+%27Menselijke+kant+van+hacken+cruciaal%27?channel=rss",
+  "title": "Hackermagazine Phrack 73 online: 'Menselijke kant van hacken cruciaal'",
+  "excerpt": "Na ruim een jaar is er een nieuwe editie van hackermagazine Phrack verschenen, die allerlei nieuw beveiligingsonderzoek bevat ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T14:07:11Z",
+  "fetched": "2026-11-18T21:59:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A new edition of the hacker magazine Phrack has been published with security research.",
+    "nl": "Er is een nieuwe editie van het hackermagazine Phrack verschenen met beveiligingsonderzoek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
+ },
+ {
   "id": "959698f1939d",
   "url": "https://therecord.media/russia-hockey-cyberattack-championships",
   "title": "Ice hockey governing body website defaced by hackers amid dispute over Russia's exclusion",
@@ -593,7 +1359,19 @@
   "fetched": "2026-11-18T14:04:09Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch consumer authority ACM created an AI prompt to help people check the reliability of webshops.",
+    "nl": "De Autoriteit Consument & Markt heeft een AI-prompt ontwikkeld om de betrouwbaarheid van webshops te controleren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "a5875e09bfd6",
@@ -609,7 +1387,19 @@
   "fetched": "2026-11-18T14:04:09Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A critical flaw named Java4Shell in OpenJDK Java could allow unauthenticated attackers to execute code.",
+    "nl": "Een kritiek lek in OpenJDK Java, Java4Shell genaamd, kan ongeauthenticeerde aanvallers code laten uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "0d6cb8c52ac0",
@@ -625,7 +1415,19 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Canonical offers Ubuntu Pro customers an opt-in Edge channel with security patches written by AI agents before engineer review.",
+    "nl": "Canonical biedt Ubuntu Pro-klanten een optioneel Edge-kanaal met door AI-agents geschreven beveiligingspatches voordat engineers deze hebben beoordeeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "660c701531d9",
@@ -641,7 +1443,19 @@
   "fetched": "2026-11-18T14:04:09Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Atlassian fixed vulnerabilities in third-party components used in Bamboo, Bitbucket, Confluence, Jira and other products.",
+    "nl": "Atlassian heeft kwetsbaarheden verholpen in third-party componenten die worden gebruikt in Bamboo, Bitbucket, Confluence, Jira en andere producten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "25f152a1b586",
@@ -659,7 +1473,19 @@
    "CVE-2026-115731"
   ],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added a critical Puppet RCE flaw, CVE-2026-115731, to its KEV catalog after reports of active exploitation.",
+    "nl": "CISA heeft een kritiek RCE-lek in Puppet, CVE-2026-115731, aan de KEV-catalogus toegevoegd na meldingen van actieve misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "1db641aaef44",
@@ -677,7 +1503,19 @@
    "CVE-2026-114938"
   ],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA urged organizations to patch CVE-2026-114938, an out-of-bounds write flaw in Oracle Java that can lead to code execution.",
+    "nl": "CISA heeft organisaties opgeroepen CVE-2026-114938 te patchen, een out-of-bounds write-lek in Oracle Java dat tot codeuitvoering kan leiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "4da7f3c9672d",
@@ -693,7 +1531,19 @@
   "fetched": "2026-11-18T14:04:07Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Scattered Spider member was sentenced to six years in US prison for cryptocurrency theft and hacking companies.",
+    "nl": "Een lid van de Scattered Spider-groep is in de VS veroordeeld tot zes jaar gevangenis voor cryptodiefstal en hacks van bedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "3499578676d9",
@@ -709,7 +1559,23 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Deutsche Telekom IoT"
+   ],
+   "summary": {
+    "en": "Deutsche Telekom IoT's CEO discusses securing long-lived IoT devices, the EU Cyber Resilience Act and post-quantum cryptography for constrained devices.",
+    "nl": "De CEO van Deutsche Telekom IoT bespreekt het beveiligen van IoT-apparaten met een lange levensduur, de Cyber Resilience Act en post-quantum cryptografie voor beperkte apparaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "3ea9d9888961",
@@ -725,7 +1591,21 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Operational Technology Cybersecurity Coalition urges US policymakers to fund OT resilience and govern AI agents as threats grow.",
+    "nl": "De Operational Technology Cybersecurity Coalition roept Amerikaanse beleidsmakers op OT-weerbaarheid te financieren en AI-agents te reguleren nu de dreigingen toenemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "1536d56fc65e",
@@ -741,7 +1621,21 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "research",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Health Management Academy reports at least 65 cyberattacks disrupted patient care at US hospitals and health systems between 2022 and 2024.",
+    "nl": "Health Management Academy meldt dat minstens 65 cyberaanvallen tussen januari 2022 en september 2024 de patiëntenzorg in Amerikaanse ziekenhuizen verstoorden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "aadfea041eca",
@@ -757,7 +1651,19 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Fortress.ai launched the Fortress Command Platform to manage cyber supply chain risks for critical infrastructure.",
+    "nl": "Fortress.ai heeft het Fortress Command Platform gelanceerd om cyber supply chain-risico's voor kritieke infrastructuur te beheren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "45f66c219757",
@@ -773,7 +1679,19 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cyberpsychologist Nicola Fox Hamilton spoke at IRISSCON 2026 about how victim blaming affects people who fall for scams.",
+    "nl": "Cyberpsycholoog Nicola Fox Hamilton sprak op IRISSCON 2026 over hoe slachtofferverwijt mensen die op scams vallen verder schaadt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "eadd1e11ec59",
@@ -789,7 +1707,21 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Kasm Technologies"
+   ],
+   "summary": {
+    "en": "Barry-Wehmiller Design Group and Kasm Technologies announced a partnership to integrate Kasm for OT into DG360.",
+    "nl": "Barry-Wehmiller Design Group en Kasm Technologies hebben een partnerschap aangekondigd om Kasm for OT in DG360 te integreren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:17Z"
+  }
  },
  {
   "id": "8b8a3c357e6a",
@@ -805,7 +1737,24 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Arcova",
+    "Young Management & Consulting"
+   ],
+   "summary": {
+    "en": "Arcova and Young Management & Consulting announced a partnership to integrate cybersecurity into critical infrastructure engineering and delivery.",
+    "nl": "Arcova en Young Management & Consulting hebben een samenwerking aangekondigd om cybersecurity te integreren in engineering en oplevering van kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:25Z"
+  }
  },
  {
   "id": "dcf002d6f803",
@@ -821,7 +1770,22 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Cohesity",
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Cohesity announced expanded cyber resilience features for Microsoft Azure, Microsoft 365 and DevOps environments.",
+    "nl": "Cohesity heeft uitgebreidere cyberweerbaarheidsfuncties aangekondigd voor Microsoft Azure, Microsoft 365 en DevOps-omgevingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:25Z"
+  }
  },
  {
   "id": "8d968ca6eaf9",
@@ -837,7 +1801,21 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ColorTokens"
+   ],
+   "summary": {
+    "en": "ColorTokens made its Xshield microsegmentation platform available to DHS components through a Carahsoft contract.",
+    "nl": "ColorTokens heeft zijn Xshield-microsegmentatieplatform beschikbaar gemaakt voor DHS-onderdelen via een Carahsoft-contract."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:25Z"
+  }
  },
  {
   "id": "192adf802a6f",
@@ -853,7 +1831,23 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "industry",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [
+    "Nozomi Networks"
+   ],
+   "summary": {
+    "en": "Nozomi Networks and Lockheed Martin will co-develop automated cybersecurity assessment capabilities for defense environments.",
+    "nl": "Nozomi Networks en Lockheed Martin gaan samen geautomatiseerde cybersecuritybeoordelingsmogelijkheden ontwikkelen voor defensieomgevingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:25Z"
+  }
  },
  {
   "id": "1df53018af16",
@@ -869,7 +1863,21 @@
   "fetched": "2026-11-18T14:04:07Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Attackers compromised Microsoft's agent-framework PyPI package to deliver a credential stealer to Python users.",
+    "nl": "Aanvallers hebben het agent-framework PyPI-pakket van Microsoft gecompromitteerd om een credentialstealer naar Python-gebruikers te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:25Z"
+  }
  },
  {
   "id": "62c19d078d65",
@@ -885,7 +1893,19 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "TapMap is a free open-source desktop tool that plots active network connections on a world map.",
+    "nl": "TapMap is een gratis open-source desktoptool die actieve netwerkverbindingen op een wereldkaart weergeeft."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:25Z"
+  }
  },
  {
   "id": "200f7ce0c290",
@@ -901,7 +1921,21 @@
   "fetched": "2026-11-18T14:04:08Z",
   "cves": [],
   "x_mentions": 0,
-  "cls": null
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "ReversingLabs analyzed BubbleLoader, a loader that injects malicious code into legitimate Windows programs such as WinRAR and Windows Media Player.",
+    "nl": "ReversingLabs heeft BubbleLoader geanalyseerd, een loader die kwaadaardige code injecteert in legitieme Windows-programma's zoals WinRAR en Windows Media Player."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:25Z"
+  }
  },
  {
   "id": "ee9a23761ba0",
@@ -1021,6 +2055,40 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-18T14:05:02Z"
+  }
+ },
+ {
+  "id": "4f0523ba69b8",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-272816.html",
+  "title": "SSA-272816 V1.0: Java4Shell Vulnerability in Industrial Edge",
+  "excerpt": "Siemens is currently assessing the impact of Java4Shell (CVE-2026-114938) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup and the underlying hardware. For your system to be exposed to this vulnerability, all of the following conditions must be met: An affected JVM. Including Java runtimes bundled inside products. Intel and AMD chips are affected in case they support a x86-64 CPU architecture with AVX-512 VBMI Untrusted Base64 reaching Base64.getDecoded() or getUrlDecoded() A JIT-compiled decoder Siemens is preparing fixes and recommends specific mitigations for…",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-18T00:00:00Z",
+  "fetched": "2026-11-18T21:59:37Z",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens is assessing the impact of Java4Shell (CVE-2026-114938) on Industrial Edge and advises checking IEM setups and underlying hardware for exposure.",
+    "nl": "Siemens onderzoekt de impact van Java4Shell (CVE-2026-114938) op Industrial Edge en adviseert IEM-configuraties en onderliggende hardware te controleren op blootstelling."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T22:00:25Z"
   }
  },
  {
