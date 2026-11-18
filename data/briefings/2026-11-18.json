@@ -1,0 +1,170 @@
+{
+ "date": "2026-11-18",
+ "published": "2026-11-18T14:05:28Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 11,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Equinor is containing a cyberattack on its IT systems, while Danfoss refrigeration controllers have unpatched remote takeover flaws. Phoenix Contact and Dorsett Controls advisories round out the day."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Equinor probeert een cyberaanval op de IT-systemen te beperken en Danfoss-koelregelaars hebben ongepatchte kwetsbaarheden waarmee ze op afstand over te nemen zijn. Daarnaast zijn er advisories van Phoenix Contact en Dorsett Controls."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "58112a1964c6",
+     "name": "The Record",
+     "url": "https://therecord.media/norway-equinor-cyberattack-energy",
+     "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Cyberattack hits Norwegian energy company Equinor",
+     "summary": "Equinor is working to contain a cyberattack on its IT systems that is disrupting internal services. The company said oil and gas production has not been affected.",
+     "takeaway": "Energy operators should verify that IT-OT segmentation and remote access controls would hold if the corporate network were compromised."
+    },
+    "nl": {
+     "heading": "Cyberaanval treft Noorse energiegigant Equinor",
+     "summary": "Equinor probeert een cyberaanval op de eigen IT-systemen in te dammen, waardoor interne diensten verstoord zijn. Volgens het bedrijf is de olie- en gasproductie niet geraakt.",
+     "takeaway": "Energiebedrijven doen er goed aan te controleren of de scheiding tussen IT en OT en de controles op toegang op afstand standhouden als het bedrijfsnetwerk gecompromitteerd raakt."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "119c79e2a817",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Six unpatched flaws in Danfoss AK-SM800A refrigeration controllers",
+     "summary": "Midnight Blue reports six flaws in Danfoss AK-SM800A controllers that could let a remote attacker take over a device without logging in. No patch exists, and the newest firmware, 5.4.0, does not fix them. Government cybersecurity agencies in Belgium, Ireland and Germany have told operators to act.",
+     "takeaway": "Identify AK-SM800A units in your estate and remove them from direct internet exposure or restrict access, since no patch is available."
+    },
+    "nl": {
+     "heading": "Zes ongepatchte kwetsbaarheden in Danfoss AK-SM800A-koelregelaars",
+     "summary": "Midnight Blue meldt zes kwetsbaarheden in Danfoss AK-SM800A-regelaars waarmee een aanvaller op afstand en zonder inloggen een apparaat kan overnemen. Er is geen patch en de nieuwste firmware, versie 5.4.0, verhelpt de problemen niet. Overheidsinstanties voor cyberveiligheid in België, Ierland en Duitsland hebben operators gewaarschuwd.",
+     "takeaway": "Breng AK-SM800A-units in kaart en haal ze van direct internet of beperk de toegang, want er is geen patch beschikbaar."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "71f2da0c44d3",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-144/",
+     "title": "Phoenix Contact: PHP2Shell in FL SWITCH, FL NAT and FL WLAN devices"
+    },
+    {
+     "id": "8e5fd37fc78a",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-150/",
+     "title": "Phoenix Contact: FL SWITCH, FL NAT and FL WLAN devices affected by BlastRADIUS"
+    },
+    {
+     "id": "94e1ef4240ec",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-126/",
+     "title": "Phoenix Contact: Privilege escalation vulnerability in the firmware of FL WLAN 23xx and FL WLAN 2x1x Devices"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2024-3596"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Phoenix Contact FL SWITCH, FL NAT and FL WLAN: three advisories, including PHP2Shell",
+     "summary": "Update on the PHP2Shell flaws: CERT@VDE now lists Phoenix Contact FL SWITCH, FL NAT and FL WLAN devices as affected, with two PHP memory handling flaws that can lead to remote code execution (VDE-2026-144). Separate advisories cover BlastRADIUS (CVE-2024-3596) in the pam_radius module (VDE-2026-150) and a privilege escalation in FL WLAN 23xx and 2x1x firmware (VDE-2026-126). In the latter, a low-privileged remote attacker can change any user's password via the REST API, including administrators.",
+     "takeaway": "Check which FL devices you run, apply the Phoenix Contact fixes where available and keep their management interfaces and RADIUS traffic on trusted network segments."
+    },
+    "nl": {
+     "heading": "Phoenix Contact FL SWITCH, FL NAT en FL WLAN: drie advisories, waaronder PHP2Shell",
+     "summary": "Update op de PHP2Shell-kwetsbaarheden: CERT@VDE noemt nu ook Phoenix Contact FL SWITCH-, FL NAT- en FL WLAN-apparaten als getroffen, met twee PHP-geheugenfouten die tot remote code execution kunnen leiden (VDE-2026-144). Aparte advisories gaan over BlastRADIUS (CVE-2024-3596) in de pam_radius-module (VDE-2026-150) en een privilege escalation in de firmware van FL WLAN 23xx en 2x1x (VDE-2026-126). Daarbij kan een laaggeprivilegieerde aanvaller op afstand via de REST API het wachtwoord van elke gebruiker wijzigen, ook van beheerders.",
+     "takeaway": "Controleer welke FL-apparaten u gebruikt, pas de fixes van Phoenix Contact toe waar beschikbaar en houd beheerinterfaces en RADIUS-verkeer op vertrouwde netwerksegmenten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "373a32bad26d",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+     "title": "ICSA-26-321-01: Dorsett Controls InfoScan"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-117659",
+    "CVE-2026-120157",
+    "CVE-2026-120255",
+    "CVE-2026-120260",
+    "CVE-2026-120271",
+    "CVE-2026-120298"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "CISA advisory: Dorsett Controls InfoScan",
+     "summary": "CISA published ICSA-26-321-01 covering six CVEs in Dorsett Controls InfoScan, used in the water and wastewater sector. Exploitation could let an attacker retrieve sensitive system information, access application data without authorization, recover stored credentials or intercept and manipulate network communications.",
+     "takeaway": "Water utilities using InfoScan should review the CISA advisory, apply the vendor mitigations and rotate credentials stored in the product."
+    },
+    "nl": {
+     "heading": "CISA-advisory: Dorsett Controls InfoScan",
+     "summary": "CISA publiceerde ICSA-26-321-01 over zes CVE's in Dorsett Controls InfoScan, toegepast in de watersector en afvalwaterketen. Misbruik kan een aanvaller toegang geven tot gevoelige systeeminformatie en applicatiedata, opgeslagen inloggegevens openleggen of netwerkverkeer onderscheppen en manipuleren.",
+     "takeaway": "Waterbedrijven die InfoScan gebruiken, moeten het CISA-advies doornemen, de maatregelen van de leverancier toepassen en in het product opgeslagen inloggegevens vervangen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6d3ee34d0f6c",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/features/continuous-process-manufacturing-why-ot-cybersecurity-demands-different-approach-when-plants-cannot-stop/",
+     "title": "Continuous process manufacturing: Why OT cybersecurity demands different approach when plants cannot stop"
+    },
+    {
+     "id": "9ca2a955fde7",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/does-liberty-eclipse-tests-utility-incident-response-it-ot-coordination-and-power-grid-recovery-under-live-conditions/",
+     "title": "DoE’s Liberty Eclipse tests utility incident response, IT-OT coordination and power grid recovery under live conditions"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Analysis and exercises: process plants, grid drills and manufacturing AI",
+     "summary": "Industrial Cyber looks at why standard OT security practices are hard to apply in continuous process plants that cannot stop. It also covers the Department of Energy's Liberty Eclipse exercise on utility incident response, IT-OT coordination and grid recovery. Netskope reports that AI adoption in manufacturing is expanding alongside data governance gaps and shadow AI.",
+     "takeaway": "Use these as prompts to test your own incident response plans, plan security changes around process constraints and set rules for AI tools used on plant data."
+    },
+    "nl": {
+     "heading": "Analyse en oefeningen: procesindustrie, netoefeningen en AI in de maakindustrie",
+     "summary": "Industrial Cyber bespreekt waarom gangbare OT-beveiligingsmaatregelen lastig toe te passen zijn in continue procesinstallaties die niet kunnen stoppen. Ook komt de Liberty Eclipse-oefening van het Amerikaanse Department of Energy aan bod, over incident response van nutsbedrijven, IT-OT-afstemming en herstel van het stroomnet. Netskope meldt dat AI-gebruik in de maakindustrie toeneemt, samen met lacunes in datagovernance en shadow AI.",
+     "takeaway": "Gebruik dit als aanleiding om uw eigen incidentresponsplannen te testen, beveiligingswijzigingen af te stemmen op procesbeperkingen en regels op te stellen voor AI-tools die met fabrieksdata werken."
+    }
+   }
+  }
+ ]
+}

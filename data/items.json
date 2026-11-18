@@ -1,5 +1,1029 @@
 [
  {
+  "id": "959698f1939d",
+  "url": "https://therecord.media/russia-hockey-cyberattack-championships",
+  "title": "Ice hockey governing body website defaced by hackers amid dispute over Russia's exclusion",
+  "excerpt": "The International Ice Hockey Federation (IIHF) confirmed a cyberattack on its website after hackers replaced its homepage with a pro-Russian message criticizing the country's exclusion from international competitions.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T13:45:00Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The International Ice Hockey Federation confirmed its website was defaced with a pro-Russian message about Russia's exclusion from international competitions.",
+    "nl": "De internationale ijshockeybond bevestigde dat haar website is gedefaceerd met een pro-Russische boodschap over de uitsluiting van Rusland van internationale competities."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "58112a1964c6",
+  "url": "https://therecord.media/norway-equinor-cyberattack-energy",
+  "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
+  "excerpt": "The Norwegian energy giant Equinor is working to contain a cyberattack on its IT systems that the company said has not impacted oil and gas production.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T13:30:00Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "incident",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Norwegian energy company Equinor is containing a cyberattack on its IT systems that disrupted internal services, and says oil and gas production was not affected.",
+    "nl": "Het Noorse energiebedrijf Equinor probeert een cyberaanval op zijn IT-systemen in te dammen, die interne diensten heeft verstoord; de olie- en gasproductie is volgens het bedrijf niet getroffen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "cd355ea09211",
+  "url": "https://www.security.nl/posting/962200/Google+dicht+opnieuw+tweehonderd+kwetsbaarheden+in+Chrome?channel=rss",
+  "title": "Google dicht opnieuw tweehonderd kwetsbaarheden in Chrome",
+  "excerpt": "Google heeft opnieuw tweehonderd kwetsbaarheden in Chrome verholpen, waaronder meerdere problemen die een aanvaller malware op ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T13:25:37Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google fixed around two hundred vulnerabilities in Chrome, including several that could allow attackers to install malware.",
+    "nl": "Google heeft opnieuw ongeveer tweehonderd kwetsbaarheden in Chrome verholpen, waaronder meerdere die een aanvaller malware kunnen laten installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "060091d90b60",
+  "url": "https://www.security.nl/posting/962178/Verdachte+achter+Scattered+Spider-aanvallen+krijgt+6+jaar+cel+in+VS?channel=rss",
+  "title": "Verdachte achter Scattered Spider-aanvallen krijgt 6 jaar cel in VS",
+  "excerpt": "Een 24-jarige Schotse man is in de Verenigde Staten veroordeeld tot een gevangenisstraf van zes jaar wegens het uitvoeren van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T12:44:14Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A 24-year-old Scottish man was sentenced to six years in prison in the United States for carrying out Scattered Spider attacks.",
+    "nl": "Een 24-jarige Schot is in de Verenigde Staten veroordeeld tot zes jaar cel wegens Scattered Spider-aanvallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "74d12e442320",
+  "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+  "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+  "excerpt": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way. Both PINs were set by the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T12:28:30Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers at TU Berlin showed that opening a PC case can reset the TPM lockout, allowing short Windows Hello and BitLocker PINs to be guessed.",
+    "nl": "Onderzoekers van de TU Berlijn tonen aan dat het openen van een pc-behuizing de TPM-vergrendeling reset, waardoor korte Windows Hello- en BitLocker-pincodes geraden kunnen worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "c9f8dc26d8d0",
+  "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+  "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+  "excerpt": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up in your logged-in flows, your coverage, and your production safety. Make",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T12:15:00Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A vendor-oriented checklist of questions for choosing an AI pentesting provider for web applications.",
+    "nl": "Een checklist met vragen voor het kiezen van een AI-pentestleverancier voor webapplicaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "223101d57350",
+  "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+  "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+  "excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T11:55:49Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CVE-2026-114938, a Java flaw called Java4Shell, allows unauthenticated remote code execution in Jira, Jenkins, Keycloak and other widely used IT applications on specific CPUs.",
+    "nl": "CVE-2026-114938, een Java-kwetsbaarheid genaamd Java4Shell, maakt ongeauthenticeerde remote code-uitvoering mogelijk in Jira, Jenkins, Keycloak en andere IT-applicaties op specifieke processoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "c7db28735677",
+  "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+  "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+  "excerpt": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T11:50:25Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Alliance for Creativity and Entertainment announced the shutdown of the Turkish piracy streaming site Dizigom after a settlement.",
+    "nl": "De Alliance for Creativity and Entertainment meldt de sluiting van het Turkse piraterijstreamingplatform Dizigom na een schikking."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "30c83b5736dd",
+  "url": "https://www.security.nl/posting/962173/Japanse+supercomputer+via+statuspagina+gehackt%2C+meldt+onderzoekscentrum?channel=rss",
+  "title": "Japanse supercomputer via statuspagina gehackt, meldt onderzoekscentrum",
+  "excerpt": "Aanvallers hebben de Japanse supercomputer Fugaku via de publiek toegankelijke statuspagina gehackt, zo meldt het Japanse ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T11:36:23Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers hacked the Japanese supercomputer Fugaku through its publicly accessible status page, according to the research center.",
+    "nl": "Aanvallers hebben de Japanse supercomputer Fugaku gehackt via de publiek toegankelijke statuspagina, meldt het onderzoekscentrum."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "8027dba47916",
+  "url": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
+  "title": "Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938)",
+  "excerpt": "CVE-2026-114938, a memory corruption flaw in Open Java Development Kit’s Base64 decoder, can allow unauthenticated attackers to run code on servers hosting widely used Java applications. Nicknamed “Java4Shell” by Calif, the company whose researchers found it, CVE-2026-114938 was fixed by Oracle and the OpenJDK project on Tuesday. There is currently no evidence of successful attacks leveraging the flaw, but the US Cybersecurity and Infrastructure Security Agency (CISA) “strongly urges” organizations to patch immediately. About CVE-2026-114938 … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T11:12:12Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CVE-2026-114938 is a memory corruption flaw in the OpenJDK Base64 decoder, fixed by Oracle and OpenJDK, with no evidence yet of exploitation.",
+    "nl": "CVE-2026-114938 is een geheugencorruptiefout in de Base64-decoder van OpenJDK, verholpen door Oracle en OpenJDK, zonder bewijs van misbruik tot nu toe."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "be6966d6822a",
+  "url": "https://www.security.nl/posting/962172/Apache+meldt+actief+misbruik+van+kritiek+beveiligingslek+in+Apache+Roller?channel=rss",
+  "title": "Apache meldt actief misbruik van kritiek beveiligingslek in Apache Roller",
+  "excerpt": "Aanvallers maken actief misbruik van een kritieke kwetsbaarheid in Apache Roller, zo meldt de Apache Foundation. Gebruikers ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T11:06:01Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Apache Foundation reports active exploitation of a critical vulnerability in Apache Roller, a Java-based blogging server.",
+    "nl": "De Apache Foundation meldt actief misbruik van een kritieke kwetsbaarheid in Apache Roller, een op Java gebaseerde bloggingserver."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "63ab0fd18797",
+  "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+  "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+  "excerpt": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with both. AI pentesting has emerged as a way to run in-depth tests whenever teams need them, instead of waiting for the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T11:03:57Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A sponsored discussion of data privacy and production safety concerns around AI pentesting tools.",
+    "nl": "Een gesponsorde beschouwing over privacy en veiligheid van productiesystemen bij AI-pentesttools."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "2b6e42fc1bcc",
+  "url": "https://www.security.nl/posting/962165/Mag+een+gesprek+opgenomen+%27voor+trainingsdoeleinden%27+ook+voor+het+trainen+van+AI++worden+gebruikt%3F?channel=rss",
+  "title": "Mag een gesprek opgenomen 'voor trainingsdoeleinden' ook voor het trainen van AI worden gebruikt?",
+  "excerpt": "Juridische vraag: Als ik met een bedrijf of instantie bel, krijg ik regelmatig een bandje met de mededeling 'dit gesprek kan ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T10:45:47Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A legal question asks whether recorded customer calls marked for training purposes may be used to train AI.",
+    "nl": "Een juridische vraag gaat over de vraag of opnames van klantgesprekken voor trainingsdoeleinden ook voor AI-training mogen worden gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "d53492c6a0ee",
+  "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+  "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+  "excerpt": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T10:35:05Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Apache released security updates for a critical Roller flaw that threat actors are exploiting to run code on vulnerable servers.",
+    "nl": "Apache heeft beveiligingsupdates uitgebracht voor een kritieke Roller-kwetsbaarheid die dreigingsactoren gebruiken om code uit te voeren op kwetsbare servers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "acd49f53f926",
+  "url": "https://www.security.nl/posting/962151/Onderzoeker%3A+zomaar+third-party+code+op+je+website+draaien+is+slecht+idee?channel=rss",
+  "title": "Onderzoeker: zomaar third-party code op je website draaien is slecht idee",
+  "excerpt": "Het zomaar draaien van third-party code op je website is een slecht idee en iets dat bedrijven beter moeten beseffen, zo stelt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T10:33:09Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A researcher argues that running third-party code on a website is a bad idea that companies should understand better.",
+    "nl": "Een onderzoeker stelt dat het draaien van third-party code op een website een slecht idee is dat bedrijven beter moeten beseffen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "8e5fd37fc78a",
+  "url": "https://certvde.com/en/advisories/VDE-2026-150/",
+  "title": "Phoenix Contact: FL SWITCH, FL NAT and FL WLAN devices affected by BlastRADIUS",
+  "excerpt": "[VDE-2026-150] A vulnerability has been identified in pam_radius version 2.0.0, the RADIUS authentication module used in FL SWITCH, FL NAT, and FL WLAN devices. The vulnerability (BlastRADIUS, CVE-2024-3596) allows an attacker-in-the-middle to forge RADIUS Access-Accept responses by exploiting weak MD5-based message authentication in the RADIUS protocol.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-18T10:00:00Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [
+   "CVE-2024-3596"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact"
+   ],
+   "summary": {
+    "en": "Phoenix Contact reports that FL SWITCH, FL NAT and FL WLAN devices are affected by BlastRADIUS (CVE-2024-3596), which allows forged RADIUS Access-Accept responses.",
+    "nl": "Phoenix Contact meldt dat FL SWITCH-, FL NAT- en FL WLAN-apparaten getroffen zijn door BlastRADIUS (CVE-2024-3596), waardoor gefingeerde RADIUS Access-Accept-antwoorden mogelijk zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "71f2da0c44d3",
+  "url": "https://certvde.com/en/advisories/VDE-2026-144/",
+  "title": "Phoenix Contact: PHP2Shell in FL SWITCH, FL NAT and FL WLAN devices",
+  "excerpt": "[VDE-2026-144] Two vulnerabilities have been identified in the PHP component used in FL SWITCH, FL NAT, and FL WLAN devices. The vulnerabilities relate to improper memory handling in PHP and can lead to remote code execution (RCE).",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-18T10:00:00Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 78,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact"
+   ],
+   "summary": {
+    "en": "Phoenix Contact reports two PHP vulnerabilities in FL SWITCH, FL NAT and FL WLAN devices that can lead to remote code execution.",
+    "nl": "Phoenix Contact meldt twee PHP-kwetsbaarheden in FL SWITCH-, FL NAT- en FL WLAN-apparaten die kunnen leiden tot remote code-uitvoering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "94e1ef4240ec",
+  "url": "https://certvde.com/en/advisories/VDE-2026-126/",
+  "title": "Phoenix Contact: Privilege escalation vulnerability in the firmware of FL WLAN 23xx and FL WLAN 2x1x Devices",
+  "excerpt": "[VDE-2026-126] A vulnerability has been identified in the firmware of FL WLAN devices. A low-privileged remote attacker can change the password of arbitrary users using the REST API, including administrative accounts. By changing the administrator password, an attacker can obtain full administrative access to the device and modify all configuration settings.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-18T10:00:00Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact"
+   ],
+   "summary": {
+    "en": "Phoenix Contact reports a firmware flaw in FL WLAN 23xx and 2x1x devices that lets low-privileged remote attackers change administrator passwords via the REST API.",
+    "nl": "Phoenix Contact meldt een firmwarefout in FL WLAN 23xx- en 2x1x-apparaten waarmee aanvallers met lage rechten via de REST API wachtwoorden van beheerders kunnen wijzigen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "448fc316db6c",
+  "url": "https://www.security.nl/posting/962148/Fraudehelpdesk%3A+toename+meldingen+over+gekaapte+WhatsApp-accounts?channel=rss",
+  "title": "Fraudehelpdesk: toename meldingen over gekaapte WhatsApp-accounts",
+  "excerpt": "De Fraudehelpdesk ontvangt de laatste tijd meer meldingen van mensen van wie het WhatsApp-account is overgenomen, zo laat de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T09:34:13Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Fraud Helpdesk reports an increase in reports of hijacked WhatsApp accounts.",
+    "nl": "Het Fraudehelpdesk ontvangt meer meldingen van gekaapte WhatsApp-accounts."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "3bd5e1dce465",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+  "title": "Microsoft announces Windows Server 2028 with hardened security",
+  "excerpt": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T09:24:31Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft announced Windows Server 2028 at the Ignite 2026 conference, promising hardened security in the next server release.",
+    "nl": "Microsoft kondigde Windows Server 2028 aan op de Ignite 2026-conferentie, met belofte van verbeterde beveiliging in de volgende serverrelease."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "5821e32a8d09",
+  "url": "https://www.security.nl/posting/962142/ACM+komt+met+AI-prompt+om+betrouwbaarheid+webshops+te+controleren?channel=rss",
+  "title": "ACM komt met AI-prompt om betrouwbaarheid webshops te controleren",
+  "excerpt": "De Autoriteit Consument & Markt (ACM) heeft een AI-prompt gemaakt die mensen moet helpen om de betrouwbaarheid van webshops te ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T09:16:06Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "a5875e09bfd6",
+  "url": "https://www.security.nl/posting/962141/Java4Shell-lek+laat+aanvallers+code+in+Java-omgevingen+uitvoeren?channel=rss",
+  "title": "Java4Shell-lek laat aanvallers code in Java-omgevingen uitvoeren",
+  "excerpt": "Een kritiek beveiligingslek in OpenJDK Java, met de naam Java4Shell, maakt het mogelijk voor ongeauthenticeerde aanvallers om ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T08:57:35Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "0d6cb8c52ac0",
+  "url": "https://www.helpnetsecurity.com/2026/11/18/ubuntu-ai-security-patches-edge-archive/",
+  "title": "Ubuntu AI security patches are here, if you’re willing to test them yourself",
+  "excerpt": "Canonical is letting Ubuntu Pro customers install security patches written by AI agents before its engineers finish reviewing and testing them. The patches come from Surge, a system Canonical built to fix known vulnerabilities in Ubuntu’s userspace software, meaning everything outside the operating system’s kernel. They ship through a new opt-in channel called the Edge archive. If you leave Edge switched off, nothing changes in how your updates are checked: Ubuntu’s regular security updates still … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T08:47:50Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "660c701531d9",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0496",
+  "title": "NCSC-2026-0496 [1.00] [M/H] Kwetsbaarheden verholpen in Atlassian producten",
+  "excerpt": "Atlassian heeft kwetsbaarheden verholpen in diverse producten zoals Bamboo, Bitbucket, Confluence, Jira, Crowd en Fisheye. De kwetsbaarheden bevinden zich in diverse Third-Party producten waar eerder updates voor zijn verschenen. Atlassian heeft deze updates verwerkt in de eigen producten. Kwaadwillenden kunnen de kwetsbaarheden misbruiken om een Denial-of-Service te veroorzaken, willekeurige code uit te voeren middels het injecteren van scripts of malafide SQL-quieries en/of gegevens te manipuleren of toegang te krijgen tot gevoelige gegevens. Enkele kwetsbaarheden hebben van origine een…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-18T08:40:04Z",
+  "fetched": "2026-11-18T14:04:09Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "25f152a1b586",
+  "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+  "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T08:24:31Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [
+   "CVE-2026-115731"
+  ],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "1db641aaef44",
+  "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+  "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T08:24:23Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "4da7f3c9672d",
+  "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+  "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+  "excerpt": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T08:24:18Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "3499578676d9",
+  "url": "https://www.helpnetsecurity.com/2026/11/18/christian-schwalbe-deutsche-telekom-iot-security/",
+  "title": "Deutsche Telekom IoT’s CEO on securing devices that run for 20 years",
+  "excerpt": "In this Help Net Security interview, Christian Schwalbe, CEO of Deutsche Telekom IoT, talks about the forgotten devices that create the most risk in IoT deployments. He explains what the EU Cyber Resilience Act means for manufacturers whose products stay in the field for 15 or 20 years, and how threats can be spotted through communication patterns without inspecting payloads. Schwalbe also discusses post-quantum cryptography for constrained devices, including research on splitting secrets across terrestrial … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T07:30:25Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "3ea9d9888961",
+  "url": "https://industrialcyber.co/ai/otcc-urges-us-policymakers-to-bolster-ot-cybersecurity-fund-resilience-govern-ai-agents-as-threats-accelerate/",
+  "title": "OTCC urges US policymakers to bolster OT cybersecurity, fund resilience, govern AI agents as threats accelerate",
+  "excerpt": "The Operational Technology Cybersecurity Coalition (OTCC) urges U.S. policymakers to make critical infrastructure resilience a central pillar of...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-18T07:24:28Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "1536d56fc65e",
+  "url": "https://industrialcyber.co/medical/health-management-academy-details-hospital-cyberattacks-leading-to-care-disruption-and-prolonged-system-outages/",
+  "title": "Health Management Academy details hospital cyberattacks, leading to care disruption and prolonged system outages",
+  "excerpt": "At least 65 cyberattacks disrupted patient care at U.S. hospitals and health systems between January 2022 and September...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-18T07:15:44Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "aadfea041eca",
+  "url": "https://industrialcyber.co/news/fortress-ai-launches-ai-native-platform-to-manage-cyber-supply-chain-risks-across-critical-infrastructure/",
+  "title": "Fortress.ai launches AI-native platform to manage cyber supply chain risks across critical infrastructure",
+  "excerpt": "Fortress.ai, an AI-powered risk management company serving critical infrastructure and national security, launched the Fortress Command Platform to...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-18T07:13:06Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "45f66c219757",
+  "url": "https://www.helpnetsecurity.com/2026/11/18/nicola-fox-hamilton-victim-blaming-scams-phishing/",
+  "title": "Once a scam ends the victim blaming begins",
+  "excerpt": "Blaming people who fall for scams deepens the harm and teaches them to stay silent the next time, cyberpsychologist Dr. Nicola Fox Hamilton told the audience at IRISSCON 2026 in Dublin. Dr. Nicola Fox Hamilton, cyberpsychology researcher and lecturer in IADT, talked about the psychology behind phishing and scams Fox Hamilton, a cyberpsychology researcher and lecturer at IADT, talked about the lasting impact scams have on victims and made a point to note that nobody … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T07:00:33Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "eadd1e11ec59",
+  "url": "https://industrialcyber.co/news/barry-wehmiller-kasm-technologies-partner-to-secure-remote-access-across-manufacturing-ot-environments/",
+  "title": "Barry-Wehmiller, Kasm Technologies partner to secure remote access across manufacturing OT environments",
+  "excerpt": "Barry-Wehmiller Design Group (BWDG) and Kasm Technologies today announced a partnership that integrates Kasm for OT into DG360,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-18T06:57:01Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "8b8a3c357e6a",
+  "url": "https://industrialcyber.co/news/arcova-young-management-consulting-partner-to-integrate-cybersecurity-into-critical-infrastructure-engineering-and-delivery/",
+  "title": "Arcova, Young Management & Consulting partner to integrate cybersecurity into critical infrastructure engineering and delivery",
+  "excerpt": "Arcova, a global cybersecurity and AI consulting firm, and Young Management & Consulting (YMC), an engineering and consulting...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-18T06:56:43Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "dcf002d6f803",
+  "url": "https://industrialcyber.co/news/cohesity-expands-cyber-resilience-across-microsoft-azure-microsoft-365-and-devops-environments/",
+  "title": "Cohesity expands cyber resilience across Microsoft Azure, Microsoft 365 and DevOps environments",
+  "excerpt": "Cohesity, vendor of AI and data security solutions, announced that it is advancing data protection and resilience across...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-18T06:56:20Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "8d968ca6eaf9",
+  "url": "https://industrialcyber.co/news/colortokens-makes-xshield-microsegmentation-platform-available-to-dhs-components-through-carahsoft-bpa/",
+  "title": "ColorTokens makes Xshield microsegmentation platform available to DHS components through Carahsoft BPA",
+  "excerpt": "ColorTokens announced that its Xshield microsegmentation platform is available to eligible Department of Homeland Security (DHS) components through...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-18T06:52:56Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "192adf802a6f",
+  "url": "https://industrialcyber.co/news/nozomi-networks-lockheed-martin-develop-automated-cybersecurity-assessment-capabilities-for-defense-environments/",
+  "title": "Nozomi Networks, Lockheed Martin develop automated cybersecurity assessment capabilities for defense environments",
+  "excerpt": "Nozomi Networks, a vendor of operational technology (OT), Internet of Things (IoT) solutions, has secured a co-development project...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-18T06:47:16Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "1df53018af16",
+  "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+  "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+  "excerpt": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T06:45:26Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "62c19d078d65",
+  "url": "https://www.helpnetsecurity.com/2026/11/18/tapmap-network-map-open-source/",
+  "title": "TapMap: Free, open-source network map",
+  "excerpt": "TapMap is a free, open-source desktop app that plots a computer’s active network connections on an interactive world map. It scans open sockets, pulls out the remote IP addresses and looks each one up in a local GeoIP database. Then it draws the result in the browser, with the application behind each connection a click away. “Locations are based on IP geolocation data and are approximate. TapMap does not independently determine or verify the physical … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T06:30:24Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "200f7ce0c290",
+  "url": "https://www.helpnetsecurity.com/2026/11/18/winrar-bubbleloader-malware/",
+  "title": "BubbleLoader malware turns copies of WinRAR and Windows Media Player into carriers",
+  "excerpt": "ReversingLabs has taken apart BubbleLoader, a loader that turns ordinary Windows programs into carriers for other malware. The attackers rewrite a handful of instructions at a program’s entry point, the spot where Windows begins running it, and add two PNG images that hold the hidden code. Known hosts include WinRAR, the x64dbg debugger, Windows Media Player, the Firefox launcher and virtiofs. The earliest BubbleLoader samples appeared in February 2026, and ReversingLabs tracked two clusters of … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T06:00:03Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": null
+ },
+ {
+  "id": "ee9a23761ba0",
+  "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+  "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+  "excerpt": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T05:58:04Z",
+  "fetched": "2026-11-18T14:04:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Google Workspace"
+   ],
+   "summary": {
+    "en": "The Russia-linked group Cold Relic used a cloud compromise involving Google Workspace data to carry out linked intrusions, including one at a U.S. organization in 2026.",
+    "nl": "De aan Rusland gelieerde groep Cold Relic gebruikte een cloudinbreuk met Google Workspace-gegevens om gekoppelde indringingen uit te voeren, waaronder een bij een Amerikaanse organisatie in 2026."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:05:02Z"
+  }
+ },
+ {
+  "id": "4d0d9bf8c997",
+  "url": "https://www.helpnetsecurity.com/2026/11/18/product-showcase-iverify-basic/",
+  "title": "Product showcase: iVerify Basic helps users check device security and improve privacy",
+  "excerpt": "iVerify Basic is a mobile security app for individuals who want to check their devices for signs of compromise and improve their security settings. It is available for iOS and Android, including tablets. Device security checks The Device tab puts scan controls and security status on one screen. Users can select Run Scan to check device integrity. After a check, the app displays its findings and records when the device was last checked. Device Health … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T05:30:11Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "iVerify"
+   ],
+   "summary": {
+    "en": "A product showcase describes the iVerify Basic mobile security app for checking personal device integrity and privacy settings.",
+    "nl": "Een productpresentatie beschrijft de iVerify Basic-app voor mobiele beveiliging, bedoeld om de integriteit van persoonlijke apparaten en privacy-instellingen te controleren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:05:02Z"
+  }
+ },
+ {
+  "id": "4f002e6fb70a",
+  "url": "https://www.helpnetsecurity.com/2026/11/18/entrust-document-verification-fraud-report/",
+  "title": "Fraudsters feed the right face into identity checks through virtual cameras",
+  "excerpt": "Document fraud remains the largest attack category in Entrust’s The Professionalization of Fraud: 2027 Identity Fraud Report, with criminals combining physical counterfeits, digital manipulation and impersonation to target online services. The document fraud rate fell 19% year over year. Attacks classified as medium sophistication accounted for nearly 39% of document fraud, involving alterations and counterfeits that require closer inspection to detect. Physical counterfeits made up 61.1% of fraudulent document submissions. Attack sophistication (Source: Entrust) “Fraudsters … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T05:00:34Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Entrust"
+   ],
+   "summary": {
+    "en": "Entrust's 2027 identity fraud report finds document fraud remains the largest attack category, with the document fraud rate falling 19% year over year.",
+    "nl": "Het identiteitsfraude-rapport 2027 van Entrust stelt vast dat documentfraude de grootste aanvalscategorie blijft, met een daling van 19% op jaarbasis."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:05:02Z"
+  }
+ },
+ {
+  "id": "c36817af9a4b",
+  "url": "https://therecord.media/cisa-issues-java4shell-alert",
+  "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
+  "excerpt": "The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java — one of the world’s most used programming languages — after experts warned that it could allow an attacker to take over servers without a password.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T00:00:00Z",
+  "fetched": "2026-11-18T14:04:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "CISA urged organizations to immediately patch a new Java vulnerability, reportedly found with AI, that could let attackers take over servers without a password.",
+    "nl": "CISA heeft organisaties opgeroepen om direct een nieuwe Java-kwetsbaarheid te patchen, die volgens experts met AI is gevonden en aanvallers zonder wachtwoord controle over servers kan geven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-18T14:05:02Z"
+  }
+ },
+ {
   "id": "56d98f6f43c2",
   "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
