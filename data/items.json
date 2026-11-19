@@ -1,5 +1,119 @@
 [
  {
+  "id": "e6aae7b2d220",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/nist-quantum-position-verification/",
+  "title": "Quantum position verification could lock remote hackers out, NIST shows",
+  "excerpt": "Physicists at the National Institute of Standards and Technology have used entangled photons to confirm that a party was physically where it claimed to be. NIST physicist Krister Shalm and an international team ran a quantum position verification protocol inside a research building in Boulder, Colorado, and closed loopholes that had left earlier quantum location schemes open to cheating. NIST researchers Krister Shalm (left) and Marty Stevens use optical components to guide entangled photons into … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T00:07:39Z",
+  "fetched": "2026-11-19T03:33:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NIST physicists used entangled photons to demonstrate a quantum position verification protocol that closes loopholes in earlier quantum location schemes.",
+    "nl": "Natuurkundigen van NIST gebruikten verstrengelde fotonen om een quantum-positieverificatieprotocol te demonstreren dat lacunes in eerdere quantum-locatiemethoden dicht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T03:33:20Z"
+  }
+ },
+ {
+  "id": "18e2db11c9a3",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/ransomware-access-brokers-cybercrime/",
+  "title": "Ransomware access brokers are moving their deals off public forums",
+  "excerpt": "Ransomware and extortion gangs claimed about 718 victims a month through October 2026, according to threat intelligence firm ZeroFox, up from roughly 573 a month in 2025. Between early 2025 and early 2026, public dark web listings selling access to hacked corporate networks fell from about 620 a quarter to about 370. Those listings worked as an early warning. A broker advertising a foothold in a company’s network could signal that a ransomware crew was … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T23:28:20Z",
+  "fetched": "2026-11-19T03:33:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ZeroFox reports ransomware and extortion gangs claimed more victims through October 2026, while public dark web listings for access brokers declined.",
+    "nl": "ZeroFox meldt dat ransomware- en afpersingsgroepen tot oktober 2026 meer slachtoffers claimden, terwijl openbare dark web-advertenties voor toegangshandelaars afnamen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T03:33:20Z"
+  }
+ },
+ {
+  "id": "cab523c1e2b5",
+  "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+  "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+  "excerpt": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T23:08:33Z",
+  "fetched": "2026-11-19T03:33:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ukrainian authorities and the FBI arrested four suspected members of a ransomware group linked to over $40.5 million in ransom payments from at least 28 companies.",
+    "nl": "Oekraïense autoriteiten en de FBI arresteerden vier vermoedelijke leden van een ransomwaregroep die verbonden is met meer dan 40,5 miljoen dollar aan losgeldbetalingen van minstens 28 bedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T03:33:20Z"
+  }
+ },
+ {
+  "id": "ed75c889bcf9",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/microsoft-azure-linux-4/",
+  "title": "Azure Linux 4 puts the OS behind Microsoft’s cloud services on your VMs at no extra license fee",
+  "excerpt": "Microsoft made Azure Linux 4 generally available. The company is offering its in-house Linux distribution as a general-purpose server OS for customer virtual machines and scale sets. Customers pay for the Azure compute underneath and no additional OS licensing fee. The same distribution already runs on millions of cores across Azure services, including Azure Kubernetes Service, App Service and Azure Cosmos DB. A team that runs one distro on VMs, another on Kubernetes nodes and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-18T23:01:14Z",
+  "fetched": "2026-11-19T03:33:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft made Azure Linux 4 generally available as a general-purpose server OS for customer virtual machines and scale sets, without an additional OS license fee.",
+    "nl": "Microsoft heeft Azure Linux 4 algemeen beschikbaar gemaakt als serverbesturingssysteem voor klant-virtuele machines en schaalsets, zonder extra OS-licentiekosten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T03:33:20Z"
+  }
+ },
+ {
   "id": "634838954f1a",
   "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
