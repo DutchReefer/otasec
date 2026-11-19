@@ -1,5 +1,784 @@
 [
  {
+  "id": "8dfce1d63ad4",
+  "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+  "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+  "excerpt": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T21:19:00Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Lawmakers launched a new AI safety caucus with 26 founding members, seven of them Republicans.",
+    "nl": "Wetgevers hebben een nieuwe AI-veiligheidscaucus opgericht met 26 oprichtende leden, waarvan zeven Republikeinen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "afb99d1762e0",
+  "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+  "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+  "excerpt": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T21:15:59Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "ASUS"
+   ],
+   "summary": {
+    "en": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could allow remote administrative control of managed devices.",
+    "nl": "ASUS heeft Control Center Express v1.7.29 uitgebracht om drie kritieke kwetsbaarheden te verhelpen die externe beheerderstoegang tot beheerde apparaten mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "53e4a59238e8",
+  "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+  "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+  "excerpt": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T18:47:58Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly roundup covers various threats including jailbreak flaws, malware and ransom demands.",
+    "nl": "Een wekelijks overzicht behandelt diverse dreigingen, waaronder jailbreak-kwetsbaarheden, malware en losgeldeisen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "07b7decb0560",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
+  "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
+  "excerpt": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T18:25:50Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [
+   "CVE-2026-123633",
+   "CVE-2026-123007"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "F5",
+    "NGINX"
+   ],
+   "summary": {
+    "en": "F5 patched five critical NGINX vulnerabilities enabling remote code execution under certain conditions, with no known exploitation in the wild.",
+    "nl": "F5 heeft vijf kritieke NGINX-kwetsbaarheden verholpen die onder bepaalde voorwaarden remote code-uitvoering mogelijk maken, zonder bekende exploitatie in het wild."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "6a24ac13de99",
+  "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+  "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+  "excerpt": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T18:20:01Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Transport for London says account details of around 265,000 Oyster photocard customers may have been exposed in a data breach.",
+    "nl": "Transport for London meldt dat accountgegevens van ongeveer 265.000 Oyster-photocardklanten mogelijk zijn blootgesteld bij een datalek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "4692e0d9ed57",
+  "url": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+  "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+  "excerpt": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T17:25:00Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The DOJ and DHS are partnering on a Threat Disruption Center to triage scam complaints and map cybercriminal networks.",
+    "nl": "Het DOJ en DHS werken samen aan een Threat Disruption Center om klachten over oplichting te sorteren en criminele netwerken in kaart te brengen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "c0b211086674",
+  "url": "https://therecord.media/cisa-losapio-nomination-trump",
+  "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
+  "excerpt": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T17:00:00Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "industry",
+   "sectors": [
+    "government",
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The nominee to lead CISA pledged to lawmakers to uncover gaps within the agency that protects critical infrastructure.",
+    "nl": "De kandidaat om CISA te leiden heeft wetgevers toegezegd hiaten binnen de dienst die kritieke infrastructuur beschermt, in kaart te brengen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "648f4746253c",
+  "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+  "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+  "excerpt": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T16:59:56Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [
+   "CVE-2026-126714"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PHP session storage flaw CVE-2026-126714 can lead to code execution on servers, fixed in current PHP releases.",
+    "nl": "Een sessiefout in PHP-opslag, CVE-2026-126714, kan leiden tot code-uitvoering op servers en is verholpen in recente PHP-releases."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "b20c2371fb6d",
+  "url": "https://www.security.nl/posting/962368/Dordrecht+schond+jarenlang+privacy+inwoners%3A+gegevens+illegaal+verwerkt?channel=rss",
+  "title": "Dordrecht schond jarenlang privacy inwoners: gegevens illegaal verwerkt",
+  "excerpt": "De gemeente Dordrecht heeft jarenlang de privacy van inwoners geschonden, waarbij gevoelige persoonsgegevens illegaal werden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T16:28:50Z",
+  "fetched": "2026-11-19T21:40:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The municipality of Dordrecht illegally processed sensitive personal data of residents over many years, violating privacy rules.",
+    "nl": "De gemeente Dordrecht heeft jarenlang gevoelige persoonsgegevens van inwoners illegaal verwerkt en daarmee privacyregels geschonden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "22f040ad332e",
+  "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+  "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+  "excerpt": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T16:28:23Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "PHP"
+   ],
+   "summary": {
+    "en": "PHP security updates fix 18 vulnerabilities, including critical flaws allowing unauthenticated remote code execution.",
+    "nl": "PHP-beveiligingsupdates verhelpen 18 kwetsbaarheden, waaronder kritieke fouten die ongeauthenticeerde remote code-uitvoering mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "68ab54bf6e5f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0509",
+  "title": "NCSC-2026-0509 [1.00] [M/H] Kwetsbaarheden verholpen in PHP",
+  "excerpt": "The PHP Group heeft meerdere kwetsbaarheden verholpen in PHP, specifiek in de PHP SOAP-extensie, session handling, HTTP stream wrapper, core netwerkfunctionaliteit, PHP-FPM, en PHP-CGI componenten. Een aantal kwetsbaarheden maakt het mogelijk voor ongeauthenticeerde remote aanvallers om heap geheugeninhoud te lekken via onjuist geïnitialiseerde arrayposities in de SOAP-extensie. Andere kwetsbaarheden in de session handling stellen aanvallers in staat om objectinjectie uit te voeren, wat kan leiden tot remote code execution of denial of service. Een use-after-free kwetsbaarheid in timezone…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-19T16:26:49Z",
+  "fetched": "2026-11-19T21:40:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "PHP"
+   ],
+   "summary": {
+    "en": "The PHP Group fixed multiple vulnerabilities in SOAP, session handling, network and FPM/CGI components, some allowing unauthenticated attackers to leak memory or inject objects.",
+    "nl": "De PHP Group heeft meerdere kwetsbaarheden verholpen in SOAP, sessiebeheer, netwerkcomponenten en FPM/CGI, waarvan sommige ongeauthenticeerde aanvallers geheugen laten lekken of objecten laten injecteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "6ddd580a0952",
+  "url": "https://therecord.media/apple-uk-encryption-notice",
+  "title": "UK court confirms British government served Apple with secret encryption notice",
+  "excerpt": "The British government served Apple with a secret legal notice targeting the company’s cryptographic protections for iCloud accounts, a tribunal has confirmed, ending almost two years of official refusal to acknowledge what had been widely reported.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T16:15:00Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "A UK tribunal confirmed the British government served Apple with a secret notice targeting iCloud encryption.",
+    "nl": "Een Brits tribunaal heeft bevestigd dat de Britse overheid Apple in het geheim een kennisgeving heeft gestuurd over de versleuteling van iCloud."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "48311bc84f5a",
+  "url": "https://www.security.nl/posting/962356/AP+publiceert+tekst+voor+verbieden+van+camerabrillen+via+huisregels?channel=rss",
+  "title": "AP publiceert tekst voor verbieden van camerabrillen via huisregels",
+  "excerpt": "De Autoriteit Persoonsgegevens (AP) heeft een standaardtekst gepubliceerd waarmee organisaties kunnen laten weten dat het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T15:27:40Z",
+  "fetched": "2026-11-19T21:40:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Data Protection Authority published standard text organizations can use to ban camera glasses via house rules.",
+    "nl": "De Autoriteit Persoonsgegevens heeft standaardtekst gepubliceerd waarmee organisaties camerabrillen via huisregels kunnen verbieden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "5ea1e67b42d9",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/php-8-6-released/",
+  "title": "PHP 8.6 is out, and here’s what changes for your code",
+  "excerpt": "PHP 8.6 has been released. The new version adds partial function application, a Time\\Duration class, a polling API for event loops and a clamp() function. PHP 8.6 also changes defaults that existing apps could trip over. Sessions now start with session.use_strict_mode and session.cookie_httponly turned on and session.cookie_samesite set to Lax. Custom session handlers that don’t implement both create_sid() and validateId() are deprecated. If your app relied on the old defaults, test your login flows before … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T15:22:36Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "PHP"
+   ],
+   "summary": {
+    "en": "PHP 8.6 is released with new features and changed session defaults that may affect existing applications.",
+    "nl": "PHP 8.6 is uitgebracht met nieuwe functies en gewijzigde sessie-instellingen die bestaande applicaties kunnen beïnvloeden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "f92f66411a81",
+  "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+  "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+  "excerpt": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T15:18:07Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [
+   "CVE-2026-115560"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "PHP"
+   ],
+   "summary": {
+    "en": "The PHP Foundation released security updates fixing seven critical flaws, including CVE-2026-115560, that could allow remote code execution.",
+    "nl": "De PHP Foundation heeft beveiligingsupdates uitgebracht die zeven kritieke fouten verhelpen, waaronder CVE-2026-115560, die remote code-uitvoering mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "5f26a746749a",
+  "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+  "title": "European Commission confirms cyberattack, says hackers used AI tool",
+  "excerpt": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T15:15:00Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The European Commission confirmed a cyberattack in which hackers used the open-source AI hacking platform ARTEX, according to CERT-EU.",
+    "nl": "De Europese Commissie heeft een cyberaanval bevestigd waarbij hackers het open-source AI-hackplatform ARTEX gebruikten, volgens CERT-EU."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "7008c485fa38",
+  "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+  "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+  "excerpt": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T15:11:06Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "VMware",
+    "Broadcom"
+   ],
+   "summary": {
+    "en": "A critical VMware vCenter flaw with CVSS 9.8 allows network attackers to bypass authentication, with fixes available for all supported branches.",
+    "nl": "Een kritieke VMware vCenter-fout met CVSS 9.8 stelt netwerkaanvallers in staat authenticatie te omzeilen, met fixes voor alle ondersteunde versies."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "4d3f66b8cc0b",
+  "url": "https://www.security.nl/posting/962351/Britse+overheid+moet+verzoek+om+Apple+iCloud-backdoor+bevestigen?channel=rss",
+  "title": "Britse overheid moet verzoek om Apple iCloud-backdoor bevestigen",
+  "excerpt": "De Britse overheid moet bevestigen dat het Apple om een iCloud-backdoor heeft verzocht, zo heeft een Britse rechtbank bepaald ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T15:07:46Z",
+  "fetched": "2026-11-19T21:40:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [
+    "Apple"
+   ],
+   "summary": {
+    "en": "A UK court ruled that the British government must confirm it requested an iCloud backdoor from Apple.",
+    "nl": "Een Britse rechtbank heeft bepaald dat de Britse overheid moet bevestigen dat zij Apple om een iCloud-backdoor heeft verzocht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "b8ae93803d26",
+  "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+  "title": "Five warning signs of ransomware breach before encryption or data theft",
+  "excerpt": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T15:00:10Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [
+    "Acronis"
+   ],
+   "summary": {
+    "en": "Acronis describes five warning signs of ransomware activity, such as credential theft and lateral movement, before encryption begins.",
+    "nl": "Acronis beschrijft vijf waarschuwingssignalen van ransomware, zoals credentialdiefstal en laterale beweging, voordat versleuteling begint."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "a3ad5d5a355f",
+  "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+  "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+  "excerpt": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T14:57:24Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "NGINX"
+   ],
+   "summary": {
+    "en": "Two critical NGINX vulnerabilities dubbed nginx2root allow unauthenticated remote code execution, and can be chained with a Linux kernel bug for root access.",
+    "nl": "Twee kritieke NGINX-kwetsbaarheden, nginx2root genoemd, maken ongeauthenticeerde remote code-uitvoering mogelijk en kunnen met een Linux-kernelfout worden gecombineerd voor root-toegang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:41Z"
+  }
+ },
+ {
+  "id": "9ccd485b7d89",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/russian-spies-impersonation-cloud-breach/",
+  "title": "Russian spies turn one cloud breach into a stepping stone for the next",
+  "excerpt": "A Russian cyberespionage group is posing as employees of organizations it has already breached to phish new targets, Google Threat Intelligence Group (GTIG) found. Google tracks the group as COLD RELIC (also known as Star Blizzard, Callisto and Gossamer Bear), and the US Department of Justice has assessed that it operates within Russia’s Federal Security Service (FSB). COLD RELIC goes after government officials, defense contractors and NGOs in Europe and North America. “The group is … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T14:42:20Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Google GTIG reports that the Russian espionage group COLD RELIC uses compromised organizations' identities to phish new government, defense and NGO targets.",
+    "nl": "Google GTIG meldt dat de Russische spionagegroep COLD RELIC gecompromitteerde organisaties gebruikt om via phishing nieuwe overheids-, defensie- en NGO-doelwitten aan te vallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  }
+ },
+ {
+  "id": "6e1cc48f217d",
+  "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+  "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+  "excerpt": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T14:33:06Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Drupal released fixes for a critical installer flaw that can let unauthenticated attackers take over websites under uncommon configurations.",
+    "nl": "Drupal heeft fixes uitgebracht voor een kritieke installer-kwetsbaarheid waardoor ongeauthenticeerde aanvallers in zeldzame configuraties websites kunnen overnemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  }
+ },
+ {
+  "id": "f7777e0a6f44",
+  "url": "https://www.security.nl/posting/962342/Drupal+waarschuwt+voor+kritiek+lek+dat+aanvaller+websites+laat+overnemen?channel=rss",
+  "title": "Drupal waarschuwt voor kritiek lek dat aanvaller websites laat overnemen",
+  "excerpt": "De makers van het contentmanagementsysteem (CMS) Drupal waarschuwen voor een kritieke kwetsbaarheid waardoor ongeauthenticeerde ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T14:11:03Z",
+  "fetched": "2026-11-19T21:40:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Drupal warns of a critical vulnerability that allows unauthenticated attackers to take over websites.",
+    "nl": "Drupal waarschuwt voor een kritieke kwetsbaarheid waardoor ongeauthenticeerde aanvallers websites kunnen overnemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  }
+ },
+ {
+  "id": "6880d7bb4384",
+  "url": "https://www.security.nl/posting/962337/Arriva+onderzoekt+mogelijk+datalek+met+deelfietsapp+Xbike?channel=rss",
+  "title": "Arriva onderzoekt mogelijk datalek met deelfietsapp Xbike",
+  "excerpt": "Arriva onderzoekt een mogelijk datalek met deelfietsapp Xbike en heeft de app uit voorzorg offline laten halen. Xbike heeft ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T13:52:22Z",
+  "fetched": "2026-11-19T21:40:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Arriva is investigating a possible data leak in its Xbike bike-sharing app and has taken the app offline as a precaution.",
+    "nl": "Arriva onderzoekt een mogelijk datalek in de deelfietsapp Xbike en heeft de app voorzorgshalve offline gehaald."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  }
+ },
+ {
+  "id": "87f1fac94ee2",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0508",
+  "title": "NCSC-2026-0508 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP",
+  "excerpt": "F5 heeft meerdere kwetsbaarheden verholpen in F5 BIG-IP, specifiek in componenten zoals de Traffic Management Microkernel (TMM), iControl REST interface, iControl SOAP utility en Access Policy Manager (APM). De kwetsbaarheden bevinden zich voornamelijk in de Traffic Management Microkernel (TMM) die verantwoordelijk is voor de data plane van F5 BIG-IP systemen. Diverse commando's en functies binnen iRules, zoals GENERICMESSAGE::route, PSC::ip_address, MR::message route, DNS::scrape en PEM::subscriber, kunnen een crash van de TMM veroorzaken, wat leidt tot denial-of-service (DoS) condities en…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-19T13:29:37Z",
+  "fetched": "2026-11-19T21:40:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "F5"
+   ],
+   "summary": {
+    "en": "NCSC-NL advises that F5 fixed multiple vulnerabilities in BIG-IP, mainly in the Traffic Management Microkernel data plane.",
+    "nl": "NCSC-NL adviseert dat F5 meerdere kwetsbaarheden in BIG-IP heeft verholpen, vooral in de Traffic Management Microkernel van de data plane."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  },
+  "title_en": "NCSC-2026-0508 [1.00] [M/H] Vulnerabilities fixed in F5 BIG-IP"
+ },
+ {
+  "id": "e721d9a46c69",
+  "url": "https://www.security.nl/posting/962333/HR-systemen+Europe+Commissie+getroffen+door+cyberaanval?channel=rss",
+  "title": "HR-systemen Europe Commissie getroffen door cyberaanval",
+  "excerpt": "Interne HR-systemen van de Europese Commissie zijn getroffen door een cyberaanval. Er wordt nog onderzocht of er gevoelige ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T13:27:53Z",
+  "fetched": "2026-11-19T21:40:23Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The European Commission's internal HR systems were hit by a cyberattack, and an investigation into possible sensitive data exposure is ongoing.",
+    "nl": "De interne HR-systemen van de Europese Commissie zijn getroffen door een cyberaanval, en onderzoek naar mogelijke blootstelling van gevoelige gegevens loopt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  }
+ },
+ {
   "id": "b21af4fa25da",
   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
   "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
@@ -873,6 +1652,117 @@
   }
  },
  {
+  "id": "4ae568cb803e",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+  "title": "ICSA-26-323-03: libumqtt",
+  "excerpt": "Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. Sectors: Critical Manufacturing, Energy, Information Technology, Transportation Systems, Water and Wastewater .",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-19T06:00:00Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [
+   "CVE-2026-125132"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "energy",
+    "transport",
+    "water",
+    "cross_sector"
+   ],
+   "vendors": [
+    "libumqtt"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-323-03 describes libumqtt vulnerabilities enabling denial of service, memory corruption or information disclosure in critical infrastructure sectors.",
+    "nl": "CISA-advies ICSA-26-323-03 beschrijft kwetsbaarheden in libumqtt die denial of service, geheugencorruptie of informatielekken mogelijk maken in kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  }
+ },
+ {
+  "id": "f8589c6b5523",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+  "title": "ICSA-26-323-02: Elecbrakes EB2, VM1, ELBC2000",
+  "excerpt": "Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. Sectors: Transportation Systems.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-19T06:00:00Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [
+   "CVE-2026-124281",
+   "CVE-2026-125273",
+   "CVE-2026-96805"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [
+    "Elecbrakes"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-323-02 reports Elecbrakes EB2, VM1 and ELBC2000 flaws that could let attackers control trailer brakes and disable safety features.",
+    "nl": "CISA-advies ICSA-26-323-02 meldt kwetsbaarheden in Elecbrakes EB2, VM1 en ELBC2000 waardoor aanvallers trailerremmen kunnen overnemen en veiligheidsfuncties kunnen uitschakelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  }
+ },
+ {
+  "id": "865557d41830",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+  "title": "ICSA-26-323-01: Autonomy Logic OpenPLC Runtime",
+  "excerpt": "Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. Sectors: Critical Manufacturing, Energy, Transportation Systems, Water and Wastewater Systems.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-19T06:00:00Z",
+  "fetched": "2026-11-19T21:40:22Z",
+  "cves": [
+   "CVE-2026-126088"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "energy",
+    "transport",
+    "water"
+   ],
+   "vendors": [
+    "Autonomy Logic"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-323-01 reports that exploitation of Autonomy Logic OpenPLC Runtime can let unauthenticated attackers create several admin accounts.",
+    "nl": "CISA-advies ICSA-26-323-01 meldt dat misbruik van OpenPLC Runtime van Autonomy Logic ongeauthenticeerde aanvallers meerdere admin-accounts laat aanmaken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
+  }
+ },
+ {
   "id": "729a99f3841a",
   "url": "https://www.security.nl/posting/962214/AP+waarschuwt+voor+camerabrillen%3A+ernstige+risico%E2%80%99s+voor+gebruikers+en+omstanders?channel=rss",
   "title": "AP waarschuwt voor camerabrillen: ernstige risico’s voor gebruikers en omstanders",
@@ -982,6 +1872,40 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "01f6102d687a",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-810379.html",
+  "title": "SSA-810379 V1.0: Java4Shell Vulnerability in Siemens Products",
+  "excerpt": "On November 17, 2026, the OpenJDK project released security updates addressing a critical vulnerability in the hardware-accelerated Base64 decoder in the OpenJDK HotSpot JVM, commonly referred to as “Java4Shell” (tracked as CVE-2026-114938). The vulnerability is a heap-based out-of-bounds write that could allow a remote, unauthenticated attacker to cause memory corruption and potentially execute arbitrary code. For your system to be exposed to this vulnerability, all of the following conditions must be met: An affected JVM. Including Java runtimes bundled inside products. Intel and AMD chips…",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-19T00:00:00Z",
+  "fetched": "2026-11-19T21:40:21Z",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-810379 covers the Java4Shell OpenJDK HotSpot flaw CVE-2026-114938, which may allow unauthenticated remote code execution in its products under specific conditions.",
+    "nl": "Siemens-advies SSA-810379 beschrijft de Java4Shell-kwetsbaarheid CVE-2026-114938 in OpenJDK HotSpot, die onder bepaalde voorwaarden ongeauthenticeerde remote code execution in Siemens-producten mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T21:40:52Z"
   }
  },
  {
