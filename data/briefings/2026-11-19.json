@@ -1,0 +1,188 @@
+{
+ "date": "2026-11-19",
+ "published": "2026-11-19T13:17:23Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 18,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Siemens flags a new Java4Shell issue in Industrial Edge, while three Phoenix Contact mGuard advisories and fresh research on OT segmentation gaps and state-sponsored actors round out a fairly quiet day."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Siemens meldt een nieuwe Java4Shell-kwetsbaarheid in Industrial Edge. Daarnaast zijn er drie Phoenix Contact mGuard-advisories en nieuw onderzoek naar OT-segmentatiegaten en statelijke actoren."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "4f0523ba69b8",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-272816.html",
+     "title": "SSA-272816 V1.0: Java4Shell Vulnerability in Industrial Edge"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Siemens assesses Java4Shell (CVE-2026-114938) impact on Industrial Edge",
+     "summary": "Siemens ProductCERT published SSA-272816 and is still assessing how Java4Shell (CVE-2026-114938) affects Industrial Edge. It asks users to check their Industrial Edge Management (IEM) setup and the underlying hardware. Exposure requires several conditions, including an affected JVM (also Java runtimes bundled inside products), and Intel and AMD chips are mentioned as affected.",
+     "takeaway": "Check your Industrial Edge deployments against the conditions in SSA-272816 and follow the Siemens advisory as the assessment is updated."
+    },
+    "nl": {
+     "heading": "Siemens beoordeelt impact Java4Shell (CVE-2026-114938) op Industrial Edge",
+     "summary": "Siemens ProductCERT publiceerde SSA-272816 en onderzoekt nog wat de impact is van Java4Shell (CVE-2026-114938) op Industrial Edge. Gebruikers wordt gevraagd hun Industrial Edge Management (IEM)-opstelling en de onderliggende hardware te controleren. Blootstelling vereist meerdere voorwaarden, waaronder een getroffen JVM (ook Java-runtimes die in producten zijn gebundeld), en Intel- en AMD-chips worden als getroffen genoemd.",
+     "takeaway": "Controleer je Industrial Edge-omgevingen aan de hand van de voorwaarden in SSA-272816 en volg de Siemens-advisory voor updates van de beoordeling."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "4975b3b0b8c0",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-122/",
+     "title": "Phoenix Contact: Reliability Layer unbounded TLS Timeout and ACKs for non-outstanding Packets in OpenVPN in FL MGUARD 2xxx and 4xxx firmware"
+    },
+    {
+     "id": "d6c0fe9da45e",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-159/",
+     "title": "Phoenix Contact: Use-after-free vulnerability in Linux kernel IPv4 TCP option handling in FL MGUARD 2xxx and 4xxx firmware"
+    },
+    {
+     "id": "e2d20fbd2583",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-123/",
+     "title": "Phoenix Contact: Multiple StrongSwan Vulnerabilities in FL MGUARD 2xxx and 4xxx Firmware"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Phoenix Contact: three new advisories for FL MGUARD 2xxx and 4xxx firmware",
+     "summary": "CERT@VDE published three advisories on the mGuard firmware. VDE-2026-122 covers an OpenVPN denial of service against the control channel reliability layer, VDE-2026-123 covers multiple StrongSwan flaws that let unauthenticated remote attackers disrupt the IPsec service, and VDE-2026-159 covers a Linux kernel use-after-free in IPv4 TCP option handling.",
+     "takeaway": "If FL MGUARD 2xxx or 4xxx devices protect your network boundaries, review the three advisories and plan firmware updates."
+    },
+    "nl": {
+     "heading": "Phoenix Contact: drie nieuwe advisories voor FL MGUARD 2xxx- en 4xxx-firmware",
+     "summary": "CERT@VDE publiceerde drie advisories over de mGuard-firmware. VDE-2026-122 betreft een OpenVPN denial of service op de control channel reliability layer, VDE-2026-123 betreft meerdere StrongSwan-kwetsbaarheden waarmee ongeauthenticeerde aanvallers op afstand de IPsec-service kunnen verstoren, en VDE-2026-159 betreft een use-after-free in de Linux-kernel bij het verwerken van IPv4 TCP-opties.",
+     "takeaway": "Gebruik je FL MGUARD 2xxx- of 4xxx-apparaten aan je netwerkgrenzen, bekijk dan de drie advisories en plan firmware-updates."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "024d1e47ec1e",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/962221/Noorse+energiegigant+Equinor+getroffen+door+cyberaanval?channel=rss",
+     "title": "Noorse energiegigant Equinor getroffen door cyberaanval"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Equinor cyberattack affects IT applications",
+     "summary": "Security.NL reports that the Norwegian energy company Equinor was hit by a cyberattack that affects the use of IT applications. The excerpt gives no further detail on the extent or any operational impact.",
+     "takeaway": "Energy operators should confirm that IT and OT are properly separated, so an IT incident does not spill over into operations."
+    },
+    "nl": {
+     "heading": "Update: cyberaanval op Equinor raakt it-applicaties",
+     "summary": "Security.NL meldt dat het Noorse energiebedrijf Equinor is getroffen door een cyberaanval die gevolgen heeft voor het gebruik van it-applicaties. Over de omvang of eventuele operationele impact geeft het fragment geen verdere details.",
+     "takeaway": "Energiebedrijven doen er goed aan te controleren of it en OT goed gescheiden zijn, zodat een it-incident niet doorwerkt in de operatie."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "60e0c44f1238",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/claroty-finds-65000-consumer-devices-connected-to-critical-infrastructure-networks-exposing-ot-segmentation-gaps/",
+     "title": "Claroty finds 65,000 consumer devices connected to critical infrastructure networks, exposing OT segmentation gaps"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Claroty: 65,000 consumer devices found on critical infrastructure networks",
+     "summary": "Claroty found more than 65,000 non-essential consumer devices connected to networks supporting critical infrastructure, including OT. Industrial Cyber presents the finding as evidence of OT segmentation gaps.",
+     "takeaway": "Inventory what is actually connected to your OT networks and remove or isolate non-essential devices."
+    },
+    "nl": {
+     "heading": "Claroty: 65.000 consumentenapparaten op netwerken van vitale infrastructuur",
+     "summary": "Claroty trof meer dan 65.000 niet-essentiële consumentenapparaten aan op netwerken die vitale infrastructuur ondersteunen, waaronder OT. Industrial Cyber presenteert de bevinding als bewijs van gaten in OT-segmentatie.",
+     "takeaway": "Breng in kaart wat er daadwerkelijk op je OT-netwerken is aangesloten en verwijder of isoleer niet-essentiële apparaten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "0d93108a0cda",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/attackiq-reports-that-iranian-hackers-leverage-contractors-and-shared-access-to-expand-attacks-on-critical-infrastructure/",
+     "title": "AttackIQ reports that Iranian hackers leverage contractors and shared access to expand attacks on critical infrastructure"
+    },
+    {
+     "id": "5ead55e8571c",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/google-exposes-russian-cold-relics-attack-on-government-officials-defense-contractors-across-europe-north-america/",
+     "title": "Google exposes Russian Cold Relic’s attack on government officials, defense contractors across Europe, North America"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "State-sponsored actors: Iranian groups via contractors, Russian Cold Relic espionage",
+     "summary": "AttackIQ maps 20 Iranian state-sponsored threat groups and reports that they leverage contractors and shared access to expand attacks on critical infrastructure. Separately, Google's Threat Intelligence Group and Mandiant report that the Russian group Cold Relic successfully targeted government officials and defense contractors in Europe and North America.",
+     "takeaway": "Review contractor and third-party access to your OT environment, including shared accounts and remote access paths."
+    },
+    "nl": {
+     "heading": "Statelijke actoren: Iraanse groepen via aannemers, Russische spionagegroep Cold Relic",
+     "summary": "AttackIQ brengt 20 Iraanse statelijke dreigingsgroepen in kaart en meldt dat zij aannemers en gedeelde toegang gebruiken om aanvallen op vitale infrastructuur uit te breiden. Daarnaast melden Google's Threat Intelligence Group en Mandiant dat de Russische groep Cold Relic met succes overheidsfunctionarissen en defensieaannemers in Europa en Noord-Amerika heeft aangevallen.",
+     "takeaway": "Beoordeel de toegang van aannemers en derden tot je OT-omgeving, inclusief gedeelde accounts en toegangspaden op afstand."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "25d57a80bdab",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/961900/Copeland-koelsystemen+via+kritiek+lek+op+afstand+over+te+nemen?channel=rss",
+     "title": "Copeland-koelsystemen via kritiek lek op afstand over te nemen"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Dutch coverage of Copeland cooling system flaws",
+     "summary": "Security.NL reports that researchers found multiple vulnerabilities in Copeland cooling systems that allow the devices to be taken over remotely. This follows the earlier VulnCheck findings on Copeland XWEB EVO.",
+     "takeaway": "Make sure Copeland refrigeration controllers are not reachable from the internet and check the vendor's guidance."
+    },
+    "nl": {
+     "heading": "Update: Nederlandse berichtgeving over kwetsbaarheden in Copeland-koelsystemen",
+     "summary": "Security.NL meldt dat onderzoekers meerdere kwetsbaarheden hebben gevonden in koelsystemen van Copeland waardoor de apparaten op afstand kunnen worden overgenomen. Dit sluit aan op eerdere bevindingen van VulnCheck over Copeland XWEB EVO.",
+     "takeaway": "Zorg dat Copeland-koelregelaars niet vanaf het internet bereikbaar zijn en raadpleeg de richtlijnen van de fabrikant."
+    }
+   }
+  }
+ ]
+}

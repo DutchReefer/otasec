@@ -1,5 +1,934 @@
 [
  {
+  "id": "b21af4fa25da",
+  "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+  "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+  "excerpt": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T13:08:08Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Drupal Security Team patched a critical remote code execution vulnerability that could let attackers take over vulnerable websites.",
+    "nl": "Het Drupal Security Team heeft een kritieke kwetsbaarheid voor remote code execution gepatcht waarmee aanvallers kwetsbare websites kunnen overnemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "1cdb4d7d7f16",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
+  "title": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
+  "excerpt": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details about the in-the-wild attacks have yet to be made public, but the US Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities catalog on Tuesday and ordered US federal civilian agencies to address it by December 1, 2026. Perforce Puppet explained Perforce … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T13:07:41Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [
+   "CVE-2026-115731"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Perforce Puppet"
+   ],
+   "summary": {
+    "en": "Attackers are exploiting CVE-2026-115731, a critical remote code execution flaw in Perforce Puppet Enterprise, and CISA added it to its Known Exploited Vulnerabilities catalog.",
+    "nl": "Aanvallers maken actief misbruik van CVE-2026-115731, een kritieke remote code execution-kwetsbaarheid in Perforce Puppet Enterprise, en CISA heeft deze aan de KEV-catalogus toegevoegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "d0f4fda46f6d",
+  "url": "https://www.security.nl/posting/962325/Microsoft+test+Lockdown+Mode+in+Edge%3A+%27Kan+browser-aanvallen+voorkomen%27?channel=rss",
+  "title": "Microsoft test Lockdown Mode in Edge: 'Kan browser-aanvallen voorkomen'",
+  "excerpt": "Microsoft test een nieuwe beveiligingsmaatregel in Edge die gebruikers tegen browser-aanvallen zou moeten beschermen. De ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T12:57:00Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft is testing a Lockdown Mode in Edge that it says could help prevent browser-based attacks.",
+    "nl": "Microsoft test een Lockdown Mode in Edge die browser-aanvallen zou kunnen voorkomen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "62bed23fdbd1",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/",
+  "title": "Credential stealer slipped into Microsoft’s official Python agent framework",
+  "excerpt": "Two releases of Microsoft’s official agent-framework package on the Python Package Index (PyPI) carried code that steals cloud and CI/CD credentials from developers’ systems. Agent Framework is Microsoft’s open-source toolkit for building AI agents and running them in workflows. Three supply chain security companies, StepSecurity, OX Security and Socket, caught the malicious versions and shared their analysis. “On November 17, 2026, versions 1.26.1 and 1.26.2 of the official Microsoft agent-framework package on PyPI were published … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T12:53:44Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Two releases of Microsoft's agent-framework package on PyPI contained code that steals cloud and CI/CD credentials from developers.",
+    "nl": "Twee versies van het agent-framework-pakket van Microsoft op PyPI bevatten code die cloud- en CI/CD-inloggegevens van ontwikkelaars steelt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "23b21a0e654f",
+  "url": "https://www.security.nl/posting/962310/Synology+waarschuwt+voor+lek+dat+aanvaller+toegang+geeft+tot+NAS-systeem?channel=rss",
+  "title": "Synology waarschuwt voor lek dat aanvaller toegang geeft tot NAS-systeem",
+  "excerpt": "Synology waarschuwt voor een kritieke kwetsbaarheid waardoor een remote aanvaller toegang tot de bestanden op NAS-systemen kan ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T12:26:07Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Synology"
+   ],
+   "summary": {
+    "en": "Synology warns of a critical vulnerability that lets a remote attacker access files on NAS systems.",
+    "nl": "Synology waarschuwt voor een kritieke kwetsbaarheid waarmee een externe aanvaller toegang krijgt tot bestanden op NAS-systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "60e0c44f1238",
+  "url": "https://industrialcyber.co/reports/claroty-finds-65000-consumer-devices-connected-to-critical-infrastructure-networks-exposing-ot-segmentation-gaps/",
+  "title": "Claroty finds 65,000 consumer devices connected to critical infrastructure networks, exposing OT segmentation gaps",
+  "excerpt": "Claroty found more than 65,000 non-essential consumer devices connected to networks supporting critical infrastructure, including OT (operational technology),...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-19T12:00:35Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Claroty"
+   ],
+   "summary": {
+    "en": "Claroty found more than 65,000 non-essential consumer devices connected to networks supporting critical infrastructure, exposing OT segmentation gaps.",
+    "nl": "Claroty ontdekte meer dan 65.000 niet-essentiële consumentenapparaten verbonden met netwerken die kritieke infrastructuur ondersteunen, wat OT-segmentatiezwakheden blootlegt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "0d93108a0cda",
+  "url": "https://industrialcyber.co/reports/attackiq-reports-that-iranian-hackers-leverage-contractors-and-shared-access-to-expand-attacks-on-critical-infrastructure/",
+  "title": "AttackIQ reports that Iranian hackers leverage contractors and shared access to expand attacks on critical infrastructure",
+  "excerpt": "New research from cybersecurity firm AttackIQ maps 20 Iranian state-sponsored threat groups and their ties to government institutions...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-19T11:58:06Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "AttackIQ research maps 20 Iranian state-sponsored threat groups and their use of contractors and shared access to attack critical infrastructure.",
+    "nl": "Onderzoek van AttackIQ brengt 20 door Iran gesteunde dreigingsgroepen in kaart en hun gebruik van contractors en gedeelde toegang om kritieke infrastructuur aan te vallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "5ead55e8571c",
+  "url": "https://industrialcyber.co/ransomware/google-exposes-russian-cold-relics-attack-on-government-officials-defense-contractors-across-europe-north-america/",
+  "title": "Google exposes Russian Cold Relic’s attack on government officials, defense contractors across Europe, North America",
+  "excerpt": "Google’s Threat Intelligence Group and Mandiant report that the Russian state-sponsored cyber espionage group Cold Relic successfully targeted...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-19T11:55:26Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Google and Mandiant report that the Russian group Cold Relic targeted government officials and defense contractors in Europe and North America.",
+    "nl": "Google en Mandiant melden dat de Russische groep Cold Relic overheidsfunctionarissen en defensiecontractors in Europa en Noord-Amerika heeft aangevallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "193208e89084",
+  "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+  "title": "Everything Is a Web Application, Including Your Firewall",
+  "excerpt": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T11:52:23Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Attackers exploited CVE-2026-109618 and CVE-2026-109619 against internet-exposed PAN-OS management interfaces to execute code without authentication.",
+    "nl": "Aanvallers misbruikten CVE-2026-109618 en CVE-2026-109619 op via internet bereikbare PAN-OS-beheerinterfaces om code uit te voeren zonder authenticatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "8bb09f6a08c3",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+  "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+  "excerpt": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T11:46:00Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft is developing an Edge feature that disables WebGL and WebGPU APIs to reduce the browser attack surface.",
+    "nl": "Microsoft ontwikkelt een Edge-functie die WebGL- en WebGPU-API's uitschakelt om het browser-aanvalsoppervlak te verkleinen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "167cda70ef32",
+  "url": "https://www.security.nl/posting/962293/Microsoft+lanceert+nieuwe+veiligheidscheck+voor+Windows+11-computers?channel=rss",
+  "title": "Microsoft lanceert nieuwe veiligheidscheck voor Windows 11-computers",
+  "excerpt": "Microsoft heeft een nieuwe veiligheidscheck voor Windows 11-computers gelanceerd, die moet aangeven of het systeem aan ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T11:32:00Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft launched a new security check for Windows 11 computers to indicate whether a system meets security requirements.",
+    "nl": "Microsoft heeft een nieuwe veiligheidscheck voor Windows 11-computers gelanceerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "83d431ff01d7",
+  "url": "https://www.security.nl/posting/962282/Politie%3A+geweldsincidenten+in+Nederland+te+linken+aan+datalek+Revolut?channel=rss",
+  "title": "Politie: geweldsincidenten in Nederland te linken aan datalek Revolut",
+  "excerpt": "Meerdere geweldsincidenten die in Amsterdam en Den Haag plaatsvonden zijn te linken aan het datalek bij Revolut, zo heeft de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T11:02:00Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police say several violent incidents in Amsterdam and The Hague are linked to the Revolut data breach.",
+    "nl": "De politie zegt dat meerdere geweldsincidenten in Amsterdam en Den Haag verband houden met het datalek bij Revolut."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "ffd1dd4d0cd8",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/backbox-linux-10-penetration-testing/",
+  "title": "BackBox Linux 10 brings new hacking tools and Ubuntu 26.04 support",
+  "excerpt": "BackBox Linux is a free, open source penetration testing distribution made by BackBox, a non-profit community project that keeps its own repositories of ethical hacking tools. On November 19 the project released version 10, codenamed Resolute Raccoon. It’s built for compatibility with Ubuntu 26.04 LTS and ships with the Linux 7.0 kernel and the Xfce 4.20 desktop. It also changes how anonymous mode handles traffic: DNS queries now go through Tor, and IPv6 is blocked … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T11:01:12Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "BackBox Linux 10 was released with new penetration testing tools, Ubuntu 26.04 support and changed anonymous mode behavior.",
+    "nl": "BackBox Linux 10 is uitgebracht met nieuwe pentesttools, ondersteuning voor Ubuntu 26.04 en een gewijzigde anonieme modus."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "5bf3a7c112b9",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/rubrik-configuration-resilience-for-microsoft-365/",
+  "title": "Rubrik Configuration Resilience rolls back unauthorized Microsoft 365 changes",
+  "excerpt": "Rubrik announced Configuration Resilience for Microsoft 365, a new offering that protects the key settings governing Microsoft applications such as Microsoft 365, Purview and Defender, and rolls back changes to them with a single action. By continuously safeguarding Microsoft 365 configurations, Rubrik equips organizations with a one-click undo button to reverse unauthorized system modifications before attackers can steal sensitive data. Rubrik Security Cloud handles recovery of identity, configuration and data for Microsoft 365 from a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T10:56:44Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Rubrik"
+   ],
+   "summary": {
+    "en": "Rubrik announced Configuration Resilience for Microsoft 365, which allows rolling back unauthorized configuration changes in one action.",
+    "nl": "Rubrik heeft Configuration Resilience voor Microsoft 365 aangekondigd, waarmee ongeautoriseerde configuratiewijzigingen in één actie kunnen worden teruggedraaid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "63970647f372",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/sonicwall-gen-6-firewalls-reach-end-of-support/",
+  "title": "SonicWall urges customers to replace Gen 6 firewalls now",
+  "excerpt": "SonicWall is urging customers still running Gen 6 firewalls to replace them immediately and to stop using them at the internet edge. All Gen 6 and Gen 6.5 appliances running SonicOS 6.x have now reached end of support. That means no more firmware updates or security patches, “regardless of severity,” the company said in a product advisory published on Wednesday. Why now? SonicWall calls the Gen 6 fleet a high-risk exposure and expects internet-facing units … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T10:44:29Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "SonicWall"
+   ],
+   "summary": {
+    "en": "SonicWall urges customers to replace Gen 6 firewalls because they have reached end of support and will no longer receive security patches.",
+    "nl": "SonicWall roept klanten op Gen 6-firewalls te vervangen omdat deze end of support zijn en geen beveiligingspatches meer krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "7277ed30b54a",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/bitwarden-windows-macos-passkeys-integration/",
+  "title": "Bitwarden expands passkey support with new Windows and macOS integrations",
+  "excerpt": "Bitwarden announced expanded passkey integrations across Windows and macOS, making it easier to access Bitwarden and use passkeys through native operating system authentication. Users can log in to Bitwarden and unlock their vaults using passkeys verified through Windows Hello or Apple Touch ID. Native operating system integration also enables Windows 11 and macOS to recognize Bitwarden as a passkey provider, allowing users to create and use passkeys that remain securely stored in the Bitwarden vault … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T10:39:33Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Bitwarden"
+   ],
+   "summary": {
+    "en": "Bitwarden expanded passkey support with native Windows and macOS integrations.",
+    "nl": "Bitwarden heeft passkey-ondersteuning uitgebreid met native integraties voor Windows en macOS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "193227a872b7",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+  "title": "Microsoft confirms app installation, launch issues after hotpatch",
+  "excerpt": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T10:35:05Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft confirmed installation and launch issues affecting Office and third-party apps after a Windows 11 hotpatch and shared a workaround.",
+    "nl": "Microsoft bevestigde installatie- en startproblemen met Office- en andere apps na een Windows 11 hotpatch en deelde een workaround."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "feb170ea7a32",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/palo-alto-networks-acquires-applied-compute/",
+  "title": "Palo Alto Networks to acquire Applied Compute for $4.5 billion",
+  "excerpt": "Palo Alto Networks will acquire Applied Compute, a platform for post-training and inference of open-weight AI models. The all-stock transaction is valued at $4.5 billion, subject to adjustments. The acquisition will bring Applied Compute’s platform and world-class AI research team to Palo Alto Networks to help enterprises adopt AI securely, whether they choose open-weight models, closed frontier models, or both. Palo Alto Networks believes the future of enterprise AI is hybrid, and that a large … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T10:23:41Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Palo Alto Networks will acquire Applied Compute, a post-training and inference platform for open-weight AI models, for $4.5 billion in stock.",
+    "nl": "Palo Alto Networks neemt Applied Compute over, een platform voor post-training en inferentie van open-weight AI-modellen, voor 4,5 miljard dollar in aandelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "deb12c57a2a5",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/gta-6-scams-threats/",
+  "title": "GTA 6 scams are after your Google password, money, and crypto wallet",
+  "excerpt": "Scammers are using the GTA 6 launch to steal Google passwords, sell game keys that may never arrive, and get players to connect crypto wallets. Stefan Dasic, a senior malware research engineer at Malwarebytes, tracked the lures. They range from fake giveaways to a phone app that mostly serves ads. The free copy that wants your password One site promises GTA VI to every visitor who meets its “promotion terms.” It then asks them to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T10:09:31Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Scammers use the GTA 6 launch to steal Google passwords, sell fake game keys and get players to connect crypto wallets.",
+    "nl": "Oplichters misbruiken de lancering van GTA 6 om Google-wachtwoorden te stelen, nep-gamesleutels te verkopen en spelers crypto-wallets te laten koppelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "8499c380578e",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/ukraine-ransomware-gang-arrests-fake-it-support-calls/",
+  "title": "Ukraine arrests key members of ransomware gang that extorted $40.5 million posing as IT support",
+  "excerpt": "Four key members of a ransomware group that took more than $40.5 million from at least 28 companies have been detained in Ukraine. The group’s members posed as IT support staff on phone calls to break into corporate networks, according to Ukraine’s National Police. The arrests followed an investigation that Ukrainian police ran with the FBI for more than two years. A phone call to get in Before making contact, the group studied each target’s … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T10:07:30Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ukrainian police arrested four members of a ransomware group that extorted over $40.5 million from at least 28 companies by posing as IT support.",
+    "nl": "De Oekraiense politie heeft vier leden van een ransomwaregroep gearresteerd die meer dan 40,5 miljoen dollar afperste van minstens 28 bedrijven door zich als IT-support voor te doen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:36Z"
+  }
+ },
+ {
+  "id": "203d46151b87",
+  "url": "https://www.security.nl/posting/962275/Nvidia+doet+onderzoek+naar+incident+na+claim+van+ransomwaregroep?channel=rss",
+  "title": "Nvidia doet onderzoek naar incident na claim van ransomwaregroep",
+  "excerpt": "Chipgigant Nvidia doet onderzoek naar een incident nadat een ransomwaregroep de naam van het bedrijf op de eigen dataleksite ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T09:58:51Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Nvidia is investigating an incident after a ransomware group listed the company on its data leak site.",
+    "nl": "Nvidia onderzoekt een incident nadat een ransomwaregroep het bedrijf op haar dataleksite heeft gezet."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "108d3ca5c181",
+  "url": "https://www.security.nl/posting/962274/Chargemap+lekt+persoonlijke+gegevens+en+wachtwoordhashes+gebruikers?channel=rss",
+  "title": "Chargemap lekt persoonlijke gegevens en wachtwoordhashes gebruikers",
+  "excerpt": "Chargemap, een app voor het vinden van laadpalen en laadstations, heeft de persoonlijke informatie van gebruikers gelekt. Het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T09:43:27Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Chargemap, an app for finding charging stations, leaked personal user data and password hashes.",
+    "nl": "Chargemap, een app voor het vinden van laadpalen, heeft persoonlijke gegevens en wachtwoordhashes van gebruikers gelekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "67401cc888fc",
+  "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+  "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+  "excerpt": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said. \"The investigation is ongoing, but at this time we",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T09:31:26Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers breached an N-able Mail Assure and Spam Experts cloud server, disabling management interfaces and APIs in three regions.",
+    "nl": "Aanvallers braken in op een N-able-cloudserver voor Mail Assure en Spam Experts, waardoor beheerinterfaces en API's in drie regio's zijn uitgeschakeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "6f16fce987f1",
+  "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+  "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+  "excerpt": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T09:23:21Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NVIDIA is investigating breach claims after the Gentlemen ransomware group listed the company on its leak site.",
+    "nl": "NVIDIA onderzoekt inbraakclaims nadat de Gentlemen-ransomwaregroep het bedrijf op haar lekssite heeft geplaatst."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "7f218c49b7ad",
+  "url": "https://www.security.nl/posting/962269/NCSC+houdt+rekening+met+grootschalig+misbruik+van+NGINX-lek?channel=rss",
+  "title": "NCSC houdt rekening met grootschalig misbruik van NGINX-lek",
+  "excerpt": "Het Nationaal Cyber Security Centrum (NCSC) houdt rekening met grootschalig misbruik van een kwetsbaarheid in NGINX waarvoor ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T08:44:40Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch NCSC expects large-scale exploitation of a recently disclosed NGINX vulnerability.",
+    "nl": "Het NCSC houdt rekening met grootschalig misbruik van een recent gemelde NGINX-kwetsbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "ef3cecb6fd50",
+  "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+  "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+  "excerpt": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said. The project released fixed versions",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T08:42:11Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Ruby released fixes for seven regex and string flaws, five of which have proof-of-concept code showing possible code execution.",
+    "nl": "Ruby heeft fixes uitgebracht voor zeven regex- en stringkwetsbaarheden, waarvan vijf met proof-of-concept die mogelijk code-uitvoering aantonen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "18035ec21cb3",
+  "url": "https://www.security.nl/posting/962266/PHP+komt+vanmiddag+met+geplande+kritieke+beveiligingsupdate?channel=rss",
+  "title": "PHP komt vanmiddag met geplande kritieke beveiligingsupdate",
+  "excerpt": "De PHP Foundation komt vanmiddag met een geplande beveiligingsupdate die meerdere kritieke kwetsbaarheden in de programmeertaal ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T08:26:21Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The PHP Foundation plans a security update addressing several critical vulnerabilities in the programming language.",
+    "nl": "De PHP Foundation komt met een geplande beveiligingsupdate voor meerdere kritieke kwetsbaarheden in de programmeertaal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "8f06c466b157",
+  "url": "https://www.helpnetsecurity.com/2026/11/19/us-threat-disruption-center-scam-sextortion-funds/",
+  "title": "US enlists private firms to cut scammers off from victims’ cash",
+  "excerpt": "Stopping victims’ money before it reaches foreign scam, cybercrime and sextortion networks is the goal of a new US unit launched by the Homeland Security Task Force (HSTF). The Threat Disruption Center is part of the HSTF’s National Coordination Center (NCC) in Fairfax, Virginia. The task force calls it “a shared technology resource and collaboration hub.” Investigators will get tools to sort incoming victim complaints and map the criminal groups behind them, along with dedicated … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T08:21:15Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A new US Threat Disruption Center aims to stop victims' payments reaching scam and cybercrime networks, using private sector tools.",
+    "nl": "Een nieuw Amerikaans Threat Disruption Center wil betalingen van slachtoffers aan oplichting- en cybercrimenetwerken stoppen, met hulp van particuliere partijen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "3d3c58459056",
+  "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+  "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+  "excerpt": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T08:14:00Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A researcher published proof-of-concept exploits showing low-privilege database accounts can run code on PostgreSQL, MySQL, ClickHouse and Oracle servers.",
+    "nl": "Een onderzoeker publiceerde proof-of-concept-exploits waarmee databasegebruikers met lage rechten code kunnen uitvoeren op PostgreSQL-, MySQL-, ClickHouse- en Oracle-servers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "7b2c191d7530",
+  "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+  "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T08:00:00Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added four actively exploited vulnerabilities in Synology DSM, LiteLLM, Apache Axis and REDCap to its KEV catalog.",
+    "nl": "CISA heeft vier actief misbruikte kwetsbaarheden in Synology DSM, LiteLLM, Apache Axis en REDCap aan zijn KEV-catalogus toegevoegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "729a99f3841a",
+  "url": "https://www.security.nl/posting/962214/AP+waarschuwt+voor+camerabrillen%3A+ernstige+risico%E2%80%99s+voor+gebruikers+en+omstanders?channel=rss",
+  "title": "AP waarschuwt voor camerabrillen: ernstige risico’s voor gebruikers en omstanders",
+  "excerpt": "De Autoriteit Persoonsgegevens (AP) waarschuwt mensen voor camerabrillen en adviseert de apparaten wegens ernstige risico's ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T05:00:00Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Data Protection Authority warns about smart camera glasses, citing serious risks for users and bystanders.",
+    "nl": "De Autoriteit Persoonsgegevens waarschuwt voor camerabrillen vanwege ernstige risico's voor gebruikers en omstanders."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "d1202d3392a4",
+  "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+  "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+  "excerpt": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T04:33:46Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PHP maintainers announced a security release for November 19 addressing critical flaws in all supported PHP versions.",
+    "nl": "De PHP-ontwikkelaars kondigen een beveiligingsrelease voor 19 november aan die kritieke fouten in alle ondersteunde versies oplost."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
   "id": "e6aae7b2d220",
   "url": "https://www.helpnetsecurity.com/2026/11/19/nist-quantum-position-verification/",
   "title": "Quantum position verification could lock remote hackers out, NIST shows",
@@ -25,6 +954,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-19T03:33:20Z"
+  }
+ },
+ {
+  "id": "4811bbf2d34d",
+  "url": "https://therecord.media/russian-charged-with-spying-on-palantir-for-moscow",
+  "title": "Russian charged with spying on Palantir employees for Moscow",
+  "excerpt": "Igor Andreevich D’iu, A Russian national recruited through Telegram, has been charged in the United States with acting as a Moscow agent in a surveillance campaign targeting employees of a defense technology company, understood to be Palantir Technologies.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T00:00:00Z",
+  "fetched": "2026-11-19T13:16:17Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Russian national was charged in the US with spying on Palantir employees for Moscow.",
+    "nl": "Een Russische staatsburger is in de VS aangeklaagd wegens het bespioneren van Palantir-medewerkers voor Moskou."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
   }
  },
  {
@@ -1401,6 +2358,102 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-18T14:04:27Z"
+  }
+ },
+ {
+  "id": "4975b3b0b8c0",
+  "url": "https://certvde.com/en/advisories/VDE-2026-122/",
+  "title": "Phoenix Contact: Reliability Layer unbounded TLS Timeout and ACKs for non-outstanding Packets in OpenVPN in FL MGUARD 2xxx and 4xxx firmware",
+  "excerpt": "[VDE-2026-122] The OpenVPN package used in the affected mGuard products is vulnerable to a denial of service attack against the control channel reliability layer.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-18T10:00:00Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact"
+   ],
+   "summary": {
+    "en": "Phoenix Contact reports a denial of service flaw in the OpenVPN package of FL MGUARD 2xxx and 4xxx firmware, caused by unbounded TLS timeout and ACK handling.",
+    "nl": "Phoenix Contact meldt een denial-of-service-kwetsbaarheid in het OpenVPN-pakket van de FL MGUARD 2xxx- en 4xxx-firmware, door onbegrensde TLS-timeout en ACK-verwerking."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "d6c0fe9da45e",
+  "url": "https://certvde.com/en/advisories/VDE-2026-159/",
+  "title": "Phoenix Contact: Use-after-free vulnerability in Linux kernel IPv4 TCP option handling in FL MGUARD 2xxx and 4xxx firmware",
+  "excerpt": "[VDE-2026-159] The Linux kernel used in the affected mGuard products is vulnerable to a use-after-free in the IPv4 TCP connection request option handling, which can be triggered by concurrent network traffic.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-18T10:00:00Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact"
+   ],
+   "summary": {
+    "en": "Phoenix Contact warns of a use-after-free vulnerability in Linux kernel IPv4 TCP option handling in FL MGUARD 2xxx and 4xxx firmware, triggerable by concurrent traffic.",
+    "nl": "Phoenix Contact waarschuwt voor een use-after-free-kwetsbaarheid in de Linux-kernel bij IPv4 TCP-opties in FL MGUARD 2xxx- en 4xxx-firmware, te activeren via gelijktijdig netwerkverkeer."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
+  }
+ },
+ {
+  "id": "e2d20fbd2583",
+  "url": "https://certvde.com/en/advisories/VDE-2026-123/",
+  "title": "Phoenix Contact: Multiple StrongSwan Vulnerabilities in FL MGUARD 2xxx and 4xxx Firmware",
+  "excerpt": "[VDE-2026-123] Multiple vulnerabilities in the StrongSwan package used in affected mGuard products allow unauthenticated remote attackers to disrupt the availability of the StrongSwan IPsec service via denial of service attacks.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-18T10:00:00Z",
+  "fetched": "2026-11-19T13:16:18Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Phoenix Contact"
+   ],
+   "summary": {
+    "en": "Phoenix Contact reports multiple StrongSwan vulnerabilities in FL MGUARD 2xxx and 4xxx firmware that let unauthenticated remote attackers disrupt the IPsec service.",
+    "nl": "Phoenix Contact meldt meerdere StrongSwan-kwetsbaarheden in FL MGUARD 2xxx- en 4xxx-firmware waardoor ongeauthenticeerde externe aanvallers de IPsec-dienst kunnen verstoren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-19T13:16:56Z"
   }
  },
  {
