@@ -1,5 +1,401 @@
 [
  {
+  "id": "e010061a1eb7",
+  "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+  "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+  "excerpt": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T20:25:00Z",
+  "fetched": "2026-11-20T21:10:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "House Homeland Security Committee investigators criticized US companies for using lower-cost Chinese open weight AI models in certain projects.",
+    "nl": "Onderzoekers van de House Homeland Security Committee bekritiseren Amerikaanse bedrijven die goedkopere Chinese open weight AI-modellen gebruiken voor bepaalde projecten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "edfeced150c6",
+  "url": "https://therecord.media/container-store-restores-systems-cyberattack",
+  "title": "Container Store restores systems after cyberattack",
+  "excerpt": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T19:32:00Z",
+  "fetched": "2026-11-20T21:10:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Container Store restored its website and systems after a cybersecurity incident over the weekend, according to its parent company.",
+    "nl": "The Container Store heeft zijn website en systemen hersteld na een cyberincident in het afgelopen weekend, meldt het moederbedrijf."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "d07c04090412",
+  "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+  "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+  "excerpt": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T18:51:43Z",
+  "fetched": "2026-11-20T21:10:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bell Canada confirmed an agentic threat actor breached its systems on November 17, 2026 and stole enterprise customer data, including circuit ordering information.",
+    "nl": "Bell Canada bevestigt dat een agentic dreiger op 17 november 2026 zijn systemen binnendrong en zakelijke klantgegevens stal, waaronder gegevens over het bestellen van circuits."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "6cc616c5c6e7",
+  "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+  "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+  "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T17:57:20Z",
+  "fetched": "2026-11-20T21:10:03Z",
+  "cves": [
+   "CVE-2026-23871"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "WhatsApp patched three security flaws, including CVE-2026-23871 in its Android app, which may have been used in scam messages.",
+    "nl": "WhatsApp heeft drie beveiligingslekken gedicht, waaronder CVE-2026-23871 in de Android-app, die mogelijk is gebruikt in scamberichten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "8e6cb802468e",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+  "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+  "excerpt": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T17:30:00Z",
+  "fetched": "2026-11-20T21:10:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Threat actors used the open-source AI penetration-testing framework Cairn to find a zero-day in a medical imaging application and take over a server.",
+    "nl": "Dreigingsactoren gebruikten het open-source AI-pentestframework Cairn om een zero-day te vinden in een medische beeldvormingsapplicatie en een server over te nemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "cd038ca0a29b",
+  "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+  "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+  "excerpt": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T17:30:00Z",
+  "fetched": "2026-11-20T21:10:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A China-linked threat actor used the Cairn AI penetration testing tool to attack two universities and possibly discover a zero-day, researchers said.",
+    "nl": "Onderzoekers melden dat een aan China gelieerde dreiger de AI-pentesttool Cairn gebruikte om twee universiteiten aan te vallen en mogelijk een zero-day te vinden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "9dbbebdeb6a3",
+  "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+  "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+  "excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T16:58:16Z",
+  "fetched": "2026-11-20T21:10:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers disclosed Bazuka, an Android malware framework with LLM integration that uses fake screen overlays to steal credentials, found by ThreatFabric.",
+    "nl": "Onderzoekers beschrijven Bazuka, een Android-malwareframework met LLM-integratie dat nepschermoverlays gebruikt om inloggegevens te stelen, ontdekt door ThreatFabric."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "f67114676f56",
+  "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+  "title": "NSA resumes normal operations following internal network disruptions",
+  "excerpt": "Certain facilities remain under “Code Orange” for non-essential employees, meaning delayed openings and some must check in with their supervisors.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T16:06:00Z",
+  "fetched": "2026-11-20T21:10:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NSA resumed normal operations after internal network disruptions, though some facilities remain under Code Orange for non-essential staff.",
+    "nl": "De NSA heeft de normale werkzaamheden hervat na verstoringen in het interne netwerk, al blijven sommige locaties onder Code Orange voor niet-essentieel personeel."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "8aa9f2e23f66",
+  "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+  "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+  "excerpt": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T15:58:06Z",
+  "fetched": "2026-11-20T21:10:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "J.P. Morgan Chase warned that a cyberattack on a third-party service provider exposed customers' personal and marketing data.",
+    "nl": "J.P. Morgan Chase waarschuwt dat een cyberaanval op een externe dienstverlener persoonlijke en marketinggegevens van klanten heeft blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "6985eaf9aae7",
+  "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+  "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+  "excerpt": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T15:00:10Z",
+  "fetched": "2026-11-20T21:10:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A NordPass promotional article promotes centralized password management instead of tracking company passwords in spreadsheets.",
+    "nl": "Een gesponsord NordPass-artikel promoot gecentraliseerd wachtwoordbeheer in plaats van bedrijfswachtwoorden in spreadsheets bij te houden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "57375f482cd6",
+  "url": "https://therecord.media/sean-cairncross-out-as-national-cyber-director",
+  "title": "Cyber Director Cairncross out as White House resets cyber leadership",
+  "excerpt": "Sean Cairncross is leaving the White House as Kirsten Davies, the Pentagon’s chief information officer, has been named the acting cyber czar.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T14:30:00Z",
+  "fetched": "2026-11-20T21:10:04Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Sean Cairncross is leaving the White House, and Kirsten Davies has been named acting cyber czar.",
+    "nl": "Sean Cairncross verlaat het Witte Huis en Kirsten Davies is benoemd tot waarnemend cyberdirecteur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "4fb20df7e396",
+  "url": "https://www.security.nl/posting/962492/Autoriteit+Persoonsgegevens+geeft+On+That+Ass+boete+van+90_000+euro?channel=rss",
+  "title": "Autoriteit Persoonsgegevens geeft On That Ass boete van 90.000 euro",
+  "excerpt": "De Autoriteit Persoonsgegevens (AP) heeft het bedrijf On That Ass wegens het overtreden van de AVG een boete van 90.000 euro ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T13:49:01Z",
+  "fetched": "2026-11-20T21:10:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Data Protection Authority fined On That Ass 90,000 euros for GDPR violations.",
+    "nl": "De Autoriteit Persoonsgegevens heeft On That Ass een boete van 90.000 euro opgelegd wegens overtreding van de AVG."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "23f48ad05290",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+  "title": "N-able says recent security breach led to major service outage",
+  "excerpt": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T13:18:36Z",
+  "fetched": "2026-11-20T21:10:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "N-able said attackers who breached one of its servers caused a worldwide outage affecting Mail Assure and SpamExperts Hosted Cloud services.",
+    "nl": "N-able meldt dat aanvallers die een van zijn servers binnendrongen wereldwijd een grote storing veroorzaakten bij Mail Assure en SpamExperts Hosted Cloud."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
+  "id": "2095ecd14949",
+  "url": "https://industrialcyber.co/utilities-energy-power-water-waste/equinor-thwarts-cyberattack-as-separate-intrusion-at-skagerak-energi-raises-concerns-across-norways-energy-sector/",
+  "title": "Equinor thwarts cyberattack as separate intrusion at Skagerak Energi raises concerns across Norway’s energy sector",
+  "excerpt": "Norwegian energy major Equinor said Friday that the cyberattack it detected on its IT systems earlier in the...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-20T12:58:22Z",
+  "fetched": "2026-11-20T21:10:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "incident",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Equinor said it detected and thwarted a cyberattack on its IT systems, while a separate intrusion at Skagerak Energi raised concerns across Norway's energy sector.",
+    "nl": "Equinor meldt dat het een cyberaanval op zijn IT-systemen heeft gedetecteerd en afgewend, terwijl een afzonderlijke inbraak bij Skagerak Energi zorgen oproept in de Noorse energiesector."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T21:10:19Z"
+  }
+ },
+ {
   "id": "724eced49e7a",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0511",
   "title": "NCSC-2026-0511 [1.00] [M/H] Kwetsbaarheid verholpen in IBM Aspera Faspex",
@@ -60416,68 +60812,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "285b906033f8",
-  "url": "https://securityaffairs.com/199480/ics-scada/foreign-hackers-target-two-colorado-water-utilities.html",
-  "title": "Foreign Hackers Target Two Colorado Water Utilities",
-  "excerpt": "Hackers targeted two Colorado water utilities, changing OT settings and disabling alarms, but causing no impact on water services or safety. Foreign hackers targeted the operational technology (OT) systems of two small private water utilities in Colorado in late August, apparently trying to disrupt operations. Local authorities haven’t identified the affected utilities or the attackers. […]",
-  "source_id": "securityaffairs-ics",
-  "source": "Security Affairs ICS-SCADA",
-  "lang": "en",
-  "kind": "news",
-  "focus": "ot",
-  "published": "2026-09-21T18:09:32Z",
-  "fetched": "2026-10-14T21:44:16Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 75,
-   "category": "incident",
-   "sectors": [
-    "water"
-   ],
-   "vendors": [],
-   "summary": {
-    "en": "Foreign hackers targeted OT systems of two small private Colorado water utilities in late August, changing settings and disabling alarms without impacting water services.",
-    "nl": "Buitenlandse hackers hebben in augustus de OT-systemen van twee kleine private waterbedrijven in Colorado aangevallen, instellingen gewijzigd en alarmen uitgeschakeld zonder impact op de levering."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "ed78bf52233c",
-  "url": "https://certvde.com/en/advisories/VDE-2026-089/",
-  "title": "Lenze: VPN Client Remote Code Execution in combination with Lenze x500 IoT Gateway",
-  "excerpt": "[VDE-2026-089] The Lenze VPN client is vulnerable to a Remote Code Execution. The vulnerability would allow an attacker to perform a remote code execution on the computer running the client with elevated privileges.",
-  "source_id": "certvde",
-  "source": "CERT@VDE Advisories",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-21T16:00:00Z",
-  "fetched": "2026-10-19T09:38:19Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 60,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [
-    "Lenze"
-   ],
-   "summary": {
-    "en": "CERT@VDE reports a remote code execution vulnerability in the Lenze VPN client, affecting the x500 IoT Gateway combination, allowing code execution with elevated privileges.",
-    "nl": "CERT@VDE meldt een remote code execution kwetsbaarheid in de Lenze VPN-client in combinatie met de x500 IoT Gateway, waarmee code met verhoogde rechten kan worden uitgevoerd."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
   }
  }
 ]
