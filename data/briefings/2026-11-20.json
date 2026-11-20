@@ -1,0 +1,204 @@
+{
+ "date": "2026-11-20",
+ "published": "2026-11-20T12:59:12Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 12,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "VMware vCenter exploitation and a Siemens Industrial Edge assessment lead a day with UK action on supermarket cooling systems and fresh threat reports on manufacturing."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Misbruik van VMware vCenter en een Siemens-beoordeling voor Industrial Edge staan vandaag voorop, naast Britse actie rond koelsystemen van supermarkten en nieuwe dreigingsrapporten over de maakindustrie."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "9282de4ceedc",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/962414/VMware+vCenter-lek+sinds+september+misbruikt+bij+aanvallen%2C+patch+nu+beschikbaar?channel=rss",
+     "title": "VMware vCenter-lek sinds september misbruikt bij aanvallen, patch nu beschikbaar"
+    },
+    {
+     "id": "ff3a27cdb586",
+     "name": "NCSC-NL Advisories",
+     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0510",
+     "title": "NCSC-2026-0510 [1.00] [H/H] Kwetsbaarheden verholpen in VMware-producten"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "VMware vCenter flaw exploited since September, patches available",
+     "summary": "Google states that a critical VMware vCenter vulnerability has been exploited in attacks since early September, and Broadcom has released a patch. NCSC-NL rates its advisory on VMware products H/H and reports fixes for vCenter Directory Service, Telco Cloud Platform, SDDC Manager and VMware Tools for Windows, including authentication bypass that allows unauthorized access.",
+     "takeaway": "Check whether vCenter or other VMware components sit in or next to your OT virtualization stack, patch them promptly and review access logs back to early September."
+    },
+    "nl": {
+     "heading": "VMware vCenter-lek sinds september misbruikt, patches beschikbaar",
+     "summary": "Google stelt dat een kritieke kwetsbaarheid in VMware vCenter sinds begin september wordt misbruikt bij aanvallen, en Broadcom heeft een patch uitgebracht. Het NCSC-NL beoordeelt zijn advisory over VMware-producten als H/H en meldt fixes voor vCenter Directory Service, Telco Cloud Platform, SDDC Manager en VMware Tools voor Windows, waaronder een omzeiling van authenticatie die ongeautoriseerde toegang mogelijk maakt.",
+     "takeaway": "Controleer of vCenter of andere VMware-componenten onderdeel zijn van of grenzen aan uw OT-virtualisatieomgeving, patch snel en bekijk toegangslogs terug tot begin september."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "66968e9ff9ee",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-935812.html",
+     "title": "SSA-935812 V1.0: NGINX2Root Vulnerability in Industrial Edge"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-113425",
+    "CVE-2026-121810",
+    "CVE-2026-123007",
+    "CVE-2026-123633",
+    "CVE-2026-123634"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Siemens assesses NGINX2Root impact on Industrial Edge",
+     "summary": "Siemens is assessing the impact of NGINX2Root (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, CVE-2026-113425) on Industrial Edge in advisory SSA-935812. Fixes are being prepared, and specific mitigations are recommended where fixes are not yet available.",
+     "takeaway": "If you run Industrial Edge, apply the Siemens mitigations now and track the advisory for fixes."
+    },
+    "nl": {
+     "heading": "Siemens beoordeelt impact NGINX2Root op Industrial Edge",
+     "summary": "Siemens beoordeelt de impact van NGINX2Root (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, CVE-2026-113425) op Industrial Edge in advisory SSA-935812. Er worden fixes voorbereid en waar die nog niet beschikbaar zijn, adviseert Siemens specifieke mitigaties.",
+     "takeaway": "Gebruikt u Industrial Edge, pas dan nu de mitigaties van Siemens toe en volg het advisory voor beschikbare fixes."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "8abe556ddc76",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/962433/VK+voerde+grote+operatie+uit+om+koelsystemen+supermarkten+te+beveiligen?channel=rss",
+     "title": "VK voerde grote operatie uit om koelsystemen supermarkten te beveiligen"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "UK ran large covert operation to secure supermarket cooling systems",
+     "summary": "The British government carried out a large-scale covert operation to secure cooling systems at supermarkets, warehouses and similar sites. The excerpt gives no further details.",
+     "takeaway": "Review whether your refrigeration and cooling controllers are reachable from the internet and check the exposure of building and cold-chain systems."
+    },
+    "nl": {
+     "heading": "VK voerde grote geheime operatie uit om koelsystemen supermarkten te beveiligen",
+     "summary": "De Britse overheid voerde een grootschalige geheime operatie uit om koelsystemen van supermarkten, magazijnen en vergelijkbare locaties te beveiligen. Verdere details staan niet in het bericht.",
+     "takeaway": "Controleer of uw koel- en vriesregelaars bereikbaar zijn vanaf internet en beoordeel de blootstelling van gebouw- en koudeketensystemen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "f2fa40d60c9f",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/intel-471-exposes-ransomware-groups-iabs-targeting-manufacturing-and-automotive-supply-chains/",
+     "title": "Intel 471 exposes ransomware groups, IABs targeting manufacturing and automotive supply chains"
+    },
+    {
+     "id": "fd685b09db7a",
+     "name": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/20/security-dashboards-tips-video/",
+     "title": "It’s time to retire vanity security dashboards"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Manufacturing: Intel 471 threat report and a call to retire vanity dashboards",
+     "summary": "An Intel 471 report says manufacturing remained a prime target for cybercriminals, naming ransomware groups and initial access brokers targeting manufacturing and automotive supply chains. Separately, an OT security architect argues in a Help Net Security video that teams should retire vanity dashboards, citing a manufacturing site where the same approved maintenance work triggers the same alert weekly.",
+     "takeaway": "Review supplier and remote-access exposure in your supply chain and tune OT alerting so recurring maintenance noise does not hide real threats."
+    },
+    "nl": {
+     "heading": "Maakindustrie: Intel 471-rapport en pleidooi om vanity dashboards te schrappen",
+     "summary": "Een rapport van Intel 471 stelt dat de maakindustrie een geliefd doelwit voor cybercriminelen bleef en noemt ransomwaregroepen en initial access brokers die het op productie- en automotive-toeleveringsketens hebben gemunt. Daarnaast pleit een OT security architect in een Help Net Security-video voor het schrappen van vanity dashboards, met een voorbeeld van een productielocatie waar dezelfde goedgekeurde onderhoudswerkzaamheden wekelijks dezelfde alert veroorzaken.",
+     "takeaway": "Beoordeel de blootstelling via leveranciers en remote toegang in uw keten en stem OT-alerting af zodat terugkerende onderhoudsmeldingen echte dreigingen niet maskeren."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "92306ffba0ea",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/962468/Openbaar+Ministerie+hackte+voor+onderzoek+bedrijfsnetwerk+Tata+Steel?channel=rss",
+     "title": "Openbaar Ministerie hackte voor onderzoek bedrijfsnetwerk Tata Steel"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Dutch prosecutors hacked Tata Steel network during investigation",
+     "summary": "The Dutch Public Prosecution Service hacked Tata Steel's corporate network as part of its criminal investigation into the company.",
+     "takeaway": "Make sure your IT and OT network boundaries are well segmented and monitored, so unexpected access to corporate networks cannot reach process systems."
+    },
+    "nl": {
+     "heading": "Openbaar Ministerie hackte bedrijfsnetwerk Tata Steel voor onderzoek",
+     "summary": "Het Openbaar Ministerie heeft in het strafrechtelijk onderzoek naar Tata Steel het bedrijfsnetwerk van de onderneming gehackt.",
+     "takeaway": "Zorg dat de grenzen tussen IT en OT goed gesegmenteerd en gemonitord zijn, zodat onverwachte toegang tot bedrijfsnetwerken niet doorwerkt naar processystemen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "a5b35b55e803",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/reports/federal-cybersecurity-gaps-leave-us-food-supply-vulnerable-to-ransomware-and-operational-disruptions-gao-warns/",
+     "title": "Federal cybersecurity gaps leave US food supply vulnerable to ransomware and operational disruptions, GAO warns"
+    },
+    {
+     "id": "652891a4018b",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/industrial-cyber-attacks/levelblue-finds-cyberwarfare-increasingly-threatens-critical-infrastructure-and-connected-industrial-systems/",
+     "title": "LevelBlue finds cyberwarfare increasingly threatens critical infrastructure and connected industrial systems"
+    },
+    {
+     "id": "15493f395721",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/texas-cyber-command-adds-63-companies-to-project-watershed-250-to-bolster-water-utility-security/",
+     "title": "Texas Cyber Command adds 63 companies to Project Watershed 250 to bolster water utility security"
+    },
+    {
+     "id": "c0b211086674",
+     "name": "The Record",
+     "url": "https://therecord.media/cisa-losapio-nomination-trump",
+     "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Policy and research: GAO on food sector, LevelBlue on cyberwarfare, Texas water pilot, CISA nominee",
+     "summary": "The US GAO found that federal cybersecurity efforts for the food and agriculture sector leave gaps against ransomware and operational disruption. LevelBlue SpiderLabs says cyber operations have become a standard part of geopolitical conflict, and Texas Cyber Command added 63 companies to its Project Watershed 250 water utility pilot. The nominee to lead CISA pledged to lawmakers to uncover gaps within the agency.",
+     "takeaway": "Use these reports to check your own ransomware recovery and continuity plans for food, water and other critical processes."
+    },
+    "nl": {
+     "heading": "Beleid en onderzoek: GAO over voedselsector, LevelBlue over cyberoorlog, Texaanse waterpilot, CISA-kandidaat",
+     "summary": "De Amerikaanse GAO stelt dat federale cybersecurity-inspanningen voor de voedsel- en landbouwsector hiaten laten bij ransomware en operationele verstoringen. LevelBlue SpiderLabs meldt dat cyberoperaties een standaardonderdeel van geopolitieke conflicten zijn geworden, en Texas Cyber Command voegde 63 bedrijven toe aan het waterbedrijvenpilot Project Watershed 250. De kandidaat voor de leiding van CISA beloofde Congresleden hiaten binnen de organisatie op te sporen.",
+     "takeaway": "Gebruik deze rapporten om uw eigen herstel- en continuïteitsplannen tegen ransomware voor voedsel-, water- en andere kritieke processen te toetsen."
+    }
+   }
+  }
+ ]
+}
