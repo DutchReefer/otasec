@@ -1,5 +1,89 @@
 [
  {
+  "id": "b747ce58ac6e",
+  "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+  "title": "VMware patches vCenter zero-day exploited in attacks since September",
+  "excerpt": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T00:26:25Z",
+  "fetched": "2026-11-20T03:21:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Broadcom released updates for a VMware vCenter Server authentication bypass that Chinese-linked hackers exploited as a zero-day since September 2026.",
+    "nl": "Broadcom heeft updates uitgebracht voor een authenticatie-omzeiling in VMware vCenter Server, die Chinese hackers sinds september 2026 als zero-day misbruikten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T03:21:56Z"
+  }
+ },
+ {
+  "id": "e65087e448f0",
+  "url": "https://www.helpnetsecurity.com/2026/11/20/android-developer-verification-power-users/",
+  "title": "Android developer verification will reach every install source, with a side door for power users",
+  "excerpt": "Google will extend Android developer verification to every country starting in January 2027, a check that already applies at participating app stores in four countries. Developers who have not verified their identity with Google and registered their apps will see those apps lose the normal install experience on certified Android devices. The rollout opens with seven app distributors: Google Play, Galaxy Store, Honor, Oppo, Xiaomi, Transsion and Vivo. Over several months it widens to every … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T23:03:24Z",
+  "fetched": "2026-11-20T03:21:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google will extend Android developer verification to every country from January 2027, with unverified apps losing the normal install experience on certified devices.",
+    "nl": "Google breidt de verificatie van Android-ontwikkelaars vanaf januari 2027 uit naar alle landen, waarbij niet-geverifieerde apps de normale installatie op gecertificeerde toestellen verliezen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T03:21:56Z"
+  }
+ },
+ {
+  "id": "1075c9e0936c",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+  "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+  "excerpt": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-19T22:25:42Z",
+  "fetched": "2026-11-20T03:21:48Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "SBC Medical Group reported to the SEC that two cybersecurity incidents exposed personal data of 1.6 million customers and employees.",
+    "nl": "SBC Medical Group meldde bij de SEC dat twee cyberincidenten persoonsgegevens van 1,6 miljoen klanten en medewerkers blootlegden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-20T03:21:56Z"
+  }
+ },
+ {
   "id": "8dfce1d63ad4",
   "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
   "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
