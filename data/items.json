@@ -1,5 +1,35 @@
 [
  {
+  "id": "f0b8696c25c4",
+  "url": "https://therecord.media/west-virginia-legislature-cyberattack",
+  "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+  "excerpt": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-20T21:34:36Z",
+  "fetched": "2026-11-21T02:20:58Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A cybersecurity incident disrupted IT systems of the West Virginia Legislature and was still ongoing, with no spread to other government entities reported.",
+    "nl": "Een cyberincident heeft de IT-systemen van de West Virginia Legislature verstoord en was nog gaande, zonder dat verspreiding naar andere overheidsinstanties is gemeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T02:21:01Z"
+  }
+ },
+ {
   "id": "e010061a1eb7",
   "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
   "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
@@ -60781,37 +60811,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:28:22Z"
-  }
- },
- {
-  "id": "49ea55f32f27",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-814963.html",
-  "title": "SSA-814963 V1.1 (Last Update: 2026-09-22): Insecure Inherited Permission in Mendix (Revoked)",
-  "excerpt": "This advisory is revoked. Re-investigation confirmed the reported behavior is expected platform configuration and does not expose the protected attribute.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-22T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 5,
-   "category": "advisory",
-   "sectors": [],
-   "vendors": [
-    "Siemens",
-    "Mendix"
-   ],
-   "summary": {
-    "en": "Siemens revoked advisory SSA-814963 on Mendix, stating the reported inherited permission behavior is expected platform configuration.",
-    "nl": "Siemens heeft advisory SSA-814963 over Mendix ingetrokken, omdat het gemelde gedrag van overgeërfde rechten verwachte platformconfiguratie blijkt te zijn."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
   }
  }
 ]
