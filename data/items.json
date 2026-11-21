@@ -1,5 +1,63 @@
 [
  {
+  "id": "069e9d2518d3",
+  "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+  "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+  "excerpt": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T22:59:58Z",
+  "fetched": "2026-11-21T23:22:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Rackspace warned customers that attackers used compromised credentials to breach its Rackspace Spot cloud platform, deploying unauthorized workloads and accessing Kubernetes secrets in customer clusters.",
+    "nl": "Rackspace waarschuwde klanten dat aanvallers met gecompromitteerde inloggegevens het Rackspace Spot cloudplatform binnendrongen, onbevoegde workloads uitrolden en Kubernetes-geheimen in klantclusters benaderden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T23:22:31Z"
+  }
+ },
+ {
+  "id": "7e3153a77bb3",
+  "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+  "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+  "excerpt": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T18:01:58Z",
+  "fetched": "2026-11-21T23:22:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft warned that attackers exploited a flaw in its Entra Connect Health service to access administrator email addresses and tenant configuration information after a data breach.",
+    "nl": "Microsoft waarschuwde dat aanvallers een fout in de Entra Connect Health-dienst misbruikten om toegang te krijgen tot e-mailadressen van beheerders en tenantconfiguratiegegevens na een datalek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T23:22:31Z"
+  }
+ },
+ {
   "id": "96ff9ae23e2c",
   "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
   "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
