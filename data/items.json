@@ -1,5 +1,70 @@
 [
  {
+  "id": "9da47b8efcbb",
+  "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+  "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+  "excerpt": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T08:49:20Z",
+  "fetched": "2026-11-21T11:10:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Signal will restrict screenshots by default to limit AI agents reading private chats on Android and iOS, though it calls the protection incomplete.",
+    "nl": "Signal beperkt standaard screenshots om te voorkomen dat AI-agents privéchats op Android en iOS kunnen lezen, al erkent het dat de bescherming onvolledig is."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T11:11:01Z"
+  }
+ },
+ {
+  "id": "a3eac34b29cf",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+  "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T08:49:13Z",
+  "fetched": "2026-11-21T11:10:56Z",
+  "cves": [
+   "CVE-2026-129448"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 85,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Apache Roller",
+    "Cisco Expressway",
+    "SAP NetWeaver",
+    "Broadcom VMware vCenter"
+   ],
+   "summary": {
+    "en": "CISA added four flaws in Apache Roller, Cisco Expressway, SAP NetWeaver and VMware vCenter to its KEV catalog, citing evidence of active exploitation.",
+    "nl": "CISA heeft vier kwetsbaarheden in Apache Roller, Cisco Expressway, SAP NetWeaver en VMware vCenter toegevoegd aan de KEV-catalogus vanwege bewijs van actieve misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T11:11:01Z"
+  }
+ },
+ {
   "id": "f0b8696c25c4",
   "url": "https://therecord.media/west-virginia-legislature-cyberattack",
   "title": "West Virginia Legislature hit with cyber incident affecting IT systems",

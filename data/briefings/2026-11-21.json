@@ -1,0 +1,146 @@
+{
+ "date": "2026-11-21",
+ "published": "2026-11-21T11:11:22Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 7,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Active exploitation leads today, with CISA adding four flaws to its KEV catalog, while Equinor's attempted intrusion has a second Norwegian energy case alongside it. Siemens and CISA also published advisories for industrial products."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Actieve exploitatie staat vandaag voorop: CISA voegde vier kwetsbaarheden toe aan de KEV-catalogus. Bij Equinor is er naast de afgeslagen aanval nu ook een tweede incident in de Noorse energiesector. Daarnaast verschenen er advisories van Siemens en CISA voor industriële producten."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "a3eac34b29cf",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+     "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-129448"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Update: CISA adds VMware vCenter and three other flaws to KEV",
+     "summary": "CISA added four flaws affecting Apache Roller, Cisco Expressway, SAP NetWeaver and Broadcom VMware vCenter to its Known Exploited Vulnerabilities catalog, citing evidence of active exploitation. One of them, CVE-2026-129448 (CVSS 9.8), is a deserialization of untrusted data vulnerability. The report also mentions emerging espionage attacks.",
+     "takeaway": "Check whether any of these products run in or next to your OT environment, patch them with priority and review exposure of management interfaces."
+    },
+    "nl": {
+     "heading": "Update: CISA voegt VMware vCenter en drie andere kwetsbaarheden toe aan KEV",
+     "summary": "CISA heeft vier kwetsbaarheden in Apache Roller, Cisco Expressway, SAP NetWeaver en Broadcom VMware vCenter toegevoegd aan de Known Exploited Vulnerabilities-catalogus, op basis van aanwijzingen voor actief misbruik. Een daarvan, CVE-2026-129448 (CVSS 9.8), betreft deserialisatie van onbetrouwbare data. Het bericht noemt ook opkomende spionage-aanvallen.",
+     "takeaway": "Controleer of deze producten in of naast je OT-omgeving draaien, patch ze met voorrang en beoordeel de blootstelling van beheerinterfaces."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "2095ecd14949",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/equinor-thwarts-cyberattack-as-separate-intrusion-at-skagerak-energi-raises-concerns-across-norways-energy-sector/",
+     "title": "Equinor thwarts cyberattack as separate intrusion at Skagerak Energi raises concerns across Norway’s energy sector"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Equinor says it thwarted the attack, separate intrusion at Skagerak Energi",
+     "summary": "Equinor said on Friday that it detected and thwarted a cyberattack on its IT systems. Separately, an intrusion at Skagerak Energi is raising concerns across Norway's energy sector.",
+     "takeaway": "Energy operators should check IT/OT segmentation and monitoring, and make sure incident escalation paths are ready."
+    },
+    "nl": {
+     "heading": "Update: Equinor zegt aanval te hebben afgeslagen, apart incident bij Skagerak Energi",
+     "summary": "Equinor meldde vrijdag dat het een cyberaanval op de eigen IT-systemen heeft opgemerkt en afgeslagen. Los daarvan zorgt een inbraak bij Skagerak Energi voor zorgen in de Noorse energiesector.",
+     "takeaway": "Energiebedrijven doen er goed aan de IT/OT-segmentatie en monitoring te controleren en te zorgen dat de escalatieroutes bij incidenten gereed zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "01f6102d687a",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-810379.html",
+     "title": "SSA-810379 V1.0: Java4Shell Vulnerability in Siemens Products"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Siemens publishes SSA-810379 on Java4Shell (CVE-2026-114938)",
+     "summary": "On November 17, 2026, OpenJDK released updates for a critical heap-based out-of-bounds write in the HotSpot JVM Base64 decoder, known as Java4Shell (CVE-2026-114938). It could let a remote, unauthenticated attacker cause memory corruption and potentially execute code. Siemens covers its affected products in advisory SSA-810379 V1.0, following its earlier Industrial Edge assessment.",
+     "takeaway": "Check the Siemens advisory for affected products in your estate and apply the listed fixes or mitigations."
+    },
+    "nl": {
+     "heading": "Siemens publiceert SSA-810379 over Java4Shell (CVE-2026-114938)",
+     "summary": "Op 17 november 2026 bracht OpenJDK updates uit voor een kritieke heap-based out-of-bounds write in de Base64-decoder van de HotSpot JVM, bekend als Java4Shell (CVE-2026-114938). Een externe, niet-geauthenticeerde aanvaller kan hiermee geheugencorruptie veroorzaken en mogelijk code uitvoeren. Siemens behandelt de getroffen producten in advisory SSA-810379 V1.0, na de eerdere beoordeling voor Industrial Edge.",
+     "takeaway": "Raadpleeg het Siemens-advisory voor getroffen producten in je omgeving en pas de genoemde fixes of mitigaties toe."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "f8589c6b5523",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+     "title": "ICSA-26-323-02: Elecbrakes EB2, VM1, ELBC2000"
+    },
+    {
+     "id": "865557d41830",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+     "title": "ICSA-26-323-01: Autonomy Logic OpenPLC Runtime"
+    },
+    {
+     "id": "4ae568cb803e",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+     "title": "ICSA-26-323-03: libumqtt"
+    },
+    {
+     "id": "87f1fac94ee2",
+     "name": "NCSC-NL Advisories",
+     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0508",
+     "title": "NCSC-2026-0508 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-124281",
+    "CVE-2026-125132",
+    "CVE-2026-125273",
+    "CVE-2026-126088",
+    "CVE-2026-96805"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Elecbrakes, OpenPLC Runtime, libumqtt and F5 BIG-IP",
+     "summary": "CISA published advisories for Elecbrakes EB2, VM1 and ELBC2000 (trailer brake control and safety functions), Autonomy Logic OpenPLC Runtime (unauthenticated creation of admin accounts) and libumqtt (denial of service, memory corruption or information disclosure). NCSC-NL reported that F5 fixed multiple vulnerabilities in BIG-IP, mainly in the TMM component. The items do not mention active exploitation.",
+     "takeaway": "Match these products against your asset inventory and schedule patches or compensating controls, starting with anything reachable from outside the plant network."
+    },
+    "nl": {
+     "heading": "Overige advisories: Elecbrakes, OpenPLC Runtime, libumqtt en F5 BIG-IP",
+     "summary": "CISA publiceerde advisories voor Elecbrakes EB2, VM1 en ELBC2000 (remschakeling van trailers en veiligheidsfuncties), Autonomy Logic OpenPLC Runtime (aanmaken van ongeauthenticeerde beheerdersaccounts) en libumqtt (denial of service, geheugencorruptie of informatielekkage). NCSC-NL meldt dat F5 meerdere kwetsbaarheden in BIG-IP heeft verholpen, vooral in de TMM-component. In de berichten wordt geen actief misbruik genoemd.",
+     "takeaway": "Leg deze producten naast je assetinventaris en plan patches of compenserende maatregelen in, te beginnen met alles wat van buiten het plantnetwerk bereikbaar is."
+    }
+   }
+  }
+ ]
+}
