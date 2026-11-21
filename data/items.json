@@ -1,5 +1,151 @@
 [
  {
+  "id": "96ff9ae23e2c",
+  "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+  "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+  "excerpt": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T15:17:27Z",
+  "fetched": "2026-11-21T17:59:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The BADBOX malware on generic Android TV boxes has returned to large-scale ad-fraud operations, reportedly generating record daily ad requests.",
+    "nl": "De BADBOX-malware op generieke Android-tvboxen is teruggekeerd naar grootschalige advertentiefraude, met naar verluidt recordaantallen dagelijkse advertentieverzoeken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T18:00:07Z"
+  }
+ },
+ {
+  "id": "c10c491428fe",
+  "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+  "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+  "excerpt": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T14:26:04Z",
+  "fetched": "2026-11-21T17:59:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "FBI systems were reportedly breached again, this time targeting the National Crime Information Center used by law enforcement agencies.",
+    "nl": "FBI-systemen zouden opnieuw zijn gehackt, ditmaal gericht op het National Crime Information Center dat door opsporingsdiensten wordt gebruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T18:00:07Z"
+  }
+ },
+ {
+  "id": "0ad755f2681c",
+  "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+  "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+  "excerpt": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T11:53:07Z",
+  "fetched": "2026-11-21T17:59:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers demonstrated in a lab that a malicious webpage could extract private chats from the Meta Muse AI assistant without user approval.",
+    "nl": "Onderzoekers toonden in een lab aan dat een kwaadaardige webpagina privéchats uit de Meta Muse AI-assistent kan halen zonder goedkeuring van de gebruiker."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T18:00:07Z"
+  }
+ },
+ {
+  "id": "761885e6c02d",
+  "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+  "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+  "excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T11:05:53Z",
+  "fetched": "2026-11-21T17:59:56Z",
+  "cves": [
+   "CVE-2026-129975"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GnuPG warned of critical flaw CVE-2026-129975 in GPGME, triggered by malicious OpenPGP keys, and released fixed versions for affected applications.",
+    "nl": "GnuPG waarschuwde voor de kritieke kwetsbaarheid CVE-2026-129975 in GPGME, veroorzaakt door kwaadaardige OpenPGP-sleutels, en bracht gepatchte versies uit."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T18:00:07Z"
+  }
+ },
+ {
+  "id": "16765aea3bd9",
+  "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+  "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+  "excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-21T11:03:17Z",
+  "fetched": "2026-11-21T17:59:56Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Suspected China-linked hackers used autonomous AI agents to find a zero-day in the open-source MONAI Label medical imaging server and gain root access to a university server.",
+    "nl": "Vermoedelijk met China gelieerde hackers gebruikten autonome AI-agents om een zero-day te vinden in de open-source medische beeldserver MONAI Label en root-toegang te krijgen tot een universiteitsserver."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-21T18:00:07Z"
+  }
+ },
+ {
   "id": "9da47b8efcbb",
   "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
   "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
