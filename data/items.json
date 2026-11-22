@@ -1,5 +1,65 @@
 [
  {
+  "id": "06c9fa474fde",
+  "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+  "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+  "excerpt": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-22T15:15:25Z",
+  "fetched": "2026-11-22T15:22:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Signal announced protections that block screenshots on iOS 27 and prevent AI assistants from capturing chats on supported Android devices.",
+    "nl": "Signal heeft beveiligingsmaatregelen aangekondigd die screenshots op iOS 27 blokkeren en AI-assistenten verhinderen chats op ondersteunde Android-apparaten vast te leggen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-22T15:22:30Z"
+  }
+ },
+ {
+  "id": "a224638aa1a8",
+  "url": "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
+  "title": "Week in review: Java4Shell proves tricky to exploit, malware planted via Optimizely hits 178 orgs",
+  "excerpt": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Malware spread through Optimizely hits 178 organizations, including BBC, CNN and Zoom An attacker exploited a vulnerability in Optimizely’s web experimentation platform to plant malicious JavaScript on its customers’ websites, the company has confirmed. Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938) CVE-2026-114938, a memory corruption flaw in Open Java Development Kit’s Base64 decoder, can allow … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-22T09:00:25Z",
+  "fetched": "2026-11-22T15:22:25Z",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Optimizely"
+   ],
+   "summary": {
+    "en": "A weekly roundup reports malware planted via an Optimizely web experimentation flaw on 178 organizations and an OpenJDK Java4Shell flaw, CVE-2026-114938.",
+    "nl": "Een wekelijks overzicht meldt malware via een kwetsbaarheid in het webexperimentatieplatform van Optimizely bij 178 organisaties, en een OpenJDK Java4Shell-kwetsbaarheid, CVE-2026-114938."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-22T15:22:30Z"
+  }
+ },
+ {
   "id": "78074d39dfa2",
   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
@@ -61104,38 +61164,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-18T00:11:52Z"
-  }
- },
- {
-  "id": "e56c22ed05e6",
-  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/ot-isolation-self-assessment",
-  "title": "Is Your OT Actually Isolated?A 5-Minute Self-Assessment",
-  "excerpt": "The CI-Fortify guidance asks critical infrastructure operators to prepare to isolate vital OT during a cyber emergency. Answer seven questions to get a clear picture of your isolation readiness — and the gaps worth investigating next.",
-  "source_id": "waterfall",
-  "source": "Waterfall Security",
-  "lang": "en",
-  "kind": "vendor",
-  "focus": "ot",
-  "published": "2026-09-23T07:13:17Z",
-  "fetched": "2026-10-18T00:28:07Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 15,
-   "category": "guidance",
-   "sectors": [
-    "cross_sector"
-   ],
-   "vendors": [
-    "Waterfall Security"
-   ],
-   "summary": {
-    "en": "A Waterfall self-assessment asks seven questions to gauge OT isolation readiness under the CI-Fortify guidance.",
-    "nl": "Een zelfbeoordeling van Waterfall stelt zeven vragen over de isolatiegereedheid van OT volgens de CI-Fortify-richtlijn."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:28:22Z"
   }
  }
 ]
