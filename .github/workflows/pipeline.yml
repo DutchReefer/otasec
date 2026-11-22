@@ -118,12 +118,19 @@ jobs:
           FTP_DIR_EN: ${{ vars.FTP_DIR_EN }}
           FTP_DIR_NL: ${{ vars.FTP_DIR_NL }}
           FTP_DELETE: ${{ vars.FTP_DELETE || 'false' }}
+          # SHA-1 fingerprint of GetHost's self-signed FTP certificate. When
+          # GetHost renews it, set the repo variable FTP_CERT_SHA1 to the new
+          # value (Settings > Secrets and variables > Actions > Variables);
+          # no code change needed. Default: certificate seen since Nov 2026.
+          FTP_CERT_SHA1: ${{ vars.FTP_CERT_SHA1 || '9A:60:84:AA:10:13:43:13:F8:70:F6:29:22:3A:63:35:56:F6:65:0B' }}
         run: |
           set -euo pipefail
           for v in FTP_DIR_EN FTP_DIR_NL; do
             [[ "${!v}" =~ ^/?[A-Za-z0-9._/-]+$ ]] || { echo "Set repo variable $v to a plain path"; exit 1; }
           done
           [[ "$FTP_HOST" =~ ^[A-Za-z0-9.-]+$ ]] || { echo "FTP_HOST must be a host name"; exit 1; }
+          FTP_CERT_SHA1="${FTP_CERT_SHA1^^}"
+          [[ "$FTP_CERT_SHA1" =~ ^([0-9A-F]{2}:){19}[0-9A-F]{2}$ ]] || { echo "::error::FTP_CERT_SHA1 must look like AB:CD:...(20 pairs)"; exit 1; }
           # Install lftp with retries: a runner sometimes has a brief DNS hiccup
           # ("Temporary failure resolving security.ubuntu.com", 11 Nov 2026).
           # Data is already committed at this point, so only the upload waits.
@@ -137,16 +144,18 @@ jobs:
           command -v lftp >/dev/null || { echo "::error::Could not install lftp, the next run deploys again"; exit 1; }
           DEL=""; [ "$FTP_DELETE" = "true" ] && DEL="--delete"
           # Explicit FTPS only: TLS for login and data, and GetHost's self-signed
-          # certificate is pinned by its SHA-1 fingerprint (any other certificate
-          # fails with "certificate is NOT trusted"; update the fingerprint when
-          # GetHost renews it).
+          # certificate is pinned by its SHA-1 fingerprint (FTP_CERT_SHA1). Any
+          # other certificate fails with "certificate is NOT trusted".
           lftp --env-password -u "$FTP_USER" "ftp://$FTP_HOST" -e "
             set ftp:ssl-force yes;
             set ftp:ssl-protect-data yes;
             set ftp:ssl-protect-list yes;
-            set ssl:verify-certificate/AB:53:C4:34:26:DE:BD:C8:7F:F1:B9:A3:27:0E:28:6B:E2:20:77:35 no;
+            set ssl:verify-certificate/$FTP_CERT_SHA1 no;
             set net:max-retries 3;
             set net:timeout 30;
             mirror -R $DEL --parallel=4 --no-symlinks --exclude-glob .well-known/ --exclude-glob cgi-bin/ '$SITE/dist/en' '$FTP_DIR_EN';
             mirror -R $DEL --parallel=4 --no-symlinks --exclude-glob .well-known/ --exclude-glob cgi-bin/ '$SITE/dist/nl' '$FTP_DIR_NL';
-            bye"
+            bye" || {
+            echo "::error::Upload failed. If the log says 'certificate is NOT trusted', GetHost renewed its FTP certificate: check the new fingerprint in the log against the one FileZilla or GetHost shows, then set repo variable FTP_CERT_SHA1 to it. Data is already saved; the next run uploads everything."
+            exit 1
+          }

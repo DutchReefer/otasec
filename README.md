@@ -85,9 +85,12 @@ same folder (as the old PHP site did), create a separate root for one of them
 in your hosting panel first. `otasec.eu` can point at the English root.
 
 Deploys use explicit FTPS only (TLS required for login and data). The host's
-certificate is pinned by fingerprint in `pipeline.yml`; when the host renews
-it, the deploy fails with "certificate is NOT trusted" until the fingerprint is
-updated.
+self-signed certificate is pinned by its SHA-1 fingerprint. When the host
+renews it, the deploy fails with "certificate is NOT trusted" and the log shows
+the new fingerprint. Check it against the one FileZilla (or the host) shows,
+then set the repository variable `FTP_CERT_SHA1` to it (Settings > Secrets and
+variables > Actions > Variables). No code change is needed; without the
+variable, the default in `pipeline.yml` is used.
 
 ### 2. First run
 
