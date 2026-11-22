@@ -1,5 +1,61 @@
 [
  {
+  "id": "78074d39dfa2",
+  "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+  "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+  "excerpt": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-22T05:06:55Z",
+  "fetched": "2026-11-22T06:55:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers stole data from three AI inference providers over several months until researchers at Dragos alerted them, and OpenRouter dropped those providers.",
+    "nl": "Aanvallers stalen maanden gegevens bij drie AI-inferentieproviders totdat onderzoekers van Dragos hen waarschuwden, waarna OpenRouter die providers verwijderde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-22T06:55:12Z"
+  }
+ },
+ {
+  "id": "0be8ff22df4a",
+  "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+  "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+  "excerpt": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-22T05:03:41Z",
+  "fetched": "2026-11-22T06:55:05Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Security firm pwn.ai showed that a now-patched Ghostscript flaw lets crafted uploaded files escape the sandbox and run commands on servers that convert them.",
+    "nl": "Securitybedrijf pwn.ai toonde aan dat een inmiddels gepatchte Ghostscript-fout via speciaal opgemaakte uploadbestanden de sandbox kan omzeilen en commando's op servers kan uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-22T06:55:12Z"
+  }
+ },
+ {
   "id": "069e9d2518d3",
   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
