@@ -1,5 +1,61 @@
 [
  {
+  "id": "d30ef6e5d40a",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+  "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+  "excerpt": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-22T18:45:37Z",
+  "fetched": "2026-11-22T21:49:59Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GL.iNet confirmed hackers exploited a flaw in its cloud remote management service to install malware, backdoors and reverse shells on customer routers and KVM devices.",
+    "nl": "GL.iNet heeft bevestigd dat hackers een kwetsbaarheid in zijn cloud-beheerdienst misbruikten om malware, backdoors en reverse shells op routers en KVM-apparaten van klanten te installeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-22T21:50:04Z"
+  }
+ },
+ {
+  "id": "c5cf84a8db2e",
+  "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+  "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+  "excerpt": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-22T15:43:04Z",
+  "fetched": "2026-11-22T21:49:59Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "E-commerce platform Cleverbridge warns that hackers breached its systems and stole customers' credit card numbers and CVV codes.",
+    "nl": "E-commerceplatform Cleverbridge waarschuwt dat hackers zijn systemen binnendrongen en creditcardnummers en CVV-codes van klanten hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-22T21:50:04Z"
+  }
+ },
+ {
   "id": "06c9fa474fde",
   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
