@@ -1,5 +1,61 @@
 [
  {
+  "id": "abd072a306d6",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+  "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+  "excerpt": "Google lets enterprises put a checkpoint in front of an AI agent‘s actions. Semantic governance policies, in Preview on the Gemini platform, look at each tool call the agent’s model proposes and block it before it runs if the call doesn’t match the user’s request or breaks a company rule. The check sits outside the agent, at an enforcement point such as Agent Gateway. Permissions list the actions an agent is able to take and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T00:27:25Z",
+  "fetched": "2026-11-23T02:49:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Google previews semantic governance policies on Gemini that check and block AI agent tool calls before they run if they do not match user requests or company rules.",
+    "nl": "Google test semantische governancebeleidsregels op Gemini die tool-aanroepen van AI-agents blokkeren voordat ze worden uitgevoerd als ze niet overeenkomen met het verzoek of bedrijfsregels."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T02:49:51Z"
+  }
+ },
+ {
+  "id": "61357bda33c7",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/",
+  "title": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+  "excerpt": "The Debian project released Debian 13.8, the eighth update to its stable “trixie” series. It mainly carries security fixes, plus corrections for a few serious bugs, and it bundles advisories Debian had already published separately. If you run trixie, here is what to check. The security table runs from DSA-6408 to DSA-6629 (a DSA is a Debian Security Advisory). It covers Chromium, Firefox ESR, OpenJDK 25, nginx, BIND 9, Dovecot, rsync, PostgreSQL 17 and the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-22T23:05:09Z",
+  "fetched": "2026-11-23T02:49:46Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Debian released point release 13.8 for its trixie series, bundling security fixes for Chromium, Firefox ESR, OpenJDK, nginx, BIND 9 and other general-purpose packages.",
+    "nl": "Debian bracht point release 13.8 uit voor de trixie-reeks, met beveiligingsfixes voor onder meer Chromium, Firefox ESR, OpenJDK, nginx en BIND 9."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T02:49:51Z"
+  }
+ },
+ {
   "id": "d30ef6e5d40a",
   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
