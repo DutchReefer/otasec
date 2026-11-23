@@ -1,5 +1,961 @@
 [
  {
+  "id": "0be15b6f8c9a",
+  "url": "https://www.security.nl/posting/962760/FBI+lijkt+opnieuw+doelwit%3A+landelijke+politiedatabase+mogelijk+getroffen?channel=rss",
+  "title": "FBI lijkt opnieuw doelwit: landelijke politiedatabase mogelijk getroffen",
+  "excerpt": "De Amerikaanse FBI onderzoekt een mogelijke cyberaanval op het National Crime Information Center (NCIC), een belangrijke ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T12:49:17Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI is investigating a possible cyberattack on the National Crime Information Center, a national law enforcement database.",
+    "nl": "De FBI onderzoekt een mogelijke cyberaanval op het National Crime Information Center, een landelijke politiedatabase."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "651c8fce914e",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/crowdstrike-zscaler-43-9-billion-acquisition/",
+  "title": "CrowdStrike to acquire Zscaler for $43.9 billion",
+  "excerpt": "CrowdStrike has agreed to acquire Zscaler in an all-stock deal with an enterprise value of about $43.9 billion. Deal terms Zscaler shareholders will receive 1.135 CrowdStrike shares for each Zscaler share. Based on CrowdStrike’s November 20, 2026 closing price, that implies approximately $260.41 per Zscaler share, a premium of roughly 34% over Zscaler’s closing share price on the same date. After closing, CrowdStrike shareholders are expected to own approximately 84.1% of the combined company and … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T12:41:18Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "CrowdStrike",
+    "Zscaler"
+   ],
+   "summary": {
+    "en": "CrowdStrike agreed to acquire Zscaler in an all-stock deal with an enterprise value of about $43.9 billion.",
+    "nl": "CrowdStrike heeft ingestemd om Zscaler over te nemen in een volledig in aandelen betaalde deal van circa 43,9 miljard dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "33d65726f50e",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+  "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+  "excerpt": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T12:41:04Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [
+   "CVE-2026-84869"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "ConnectWise ScreenConnect"
+   ],
+   "summary": {
+    "en": "Threat actors are exploiting the patched critical ScreenConnect flaw CVE-2026-84869 to run malicious payloads on MSP technician hosts.",
+    "nl": "Dreigingsactoren misbruiken het gepatchte kritieke ScreenConnect-lek CVE-2026-84869 om kwaadaardige payloads uit te voeren op MSP-technicushosts."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "5ed5a00a0b8d",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/operators-guide-ot-islanding-isolation/",
+  "title": "An Operator’s Guide to OT Islanding/Isolation",
+  "excerpt": "OT islanding/isolation means physically isolating OT networks from IT in a cyber emergency while critical operations keep running. Get the operator's guide.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-11-23T12:32:29Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 25,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Waterfall Security"
+   ],
+   "summary": {
+    "en": "Waterfall Security publishes an operator guide on physically isolating OT networks from IT during cyber emergencies.",
+    "nl": "Waterfall Security publiceert een gids voor operators over het fysiek isoleren van OT-netwerken van IT bij cybernoodsituaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "759d50b40080",
+  "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+  "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+  "excerpt": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T12:28:09Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [
+   "CVE-2026-134624"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "N-able"
+   ],
+   "summary": {
+    "en": "N-able disclosed critical SSRF flaw CVE-2026-134624 in its Mail Assure email filtering service, found during a breach investigation.",
+    "nl": "N-able heeft het kritieke SSRF-lek CVE-2026-134624 gemeld in de e-mailfilterdienst Mail Assure, gevonden tijdens een datalekonderzoek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "250be2868d3c",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+  "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+  "excerpt": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog on Friday, along with CVE-2026-123890, a VMware vCenter authentication bypass vulnerability that has been exploited as a zero-day for months by a suspected China-nexus espionage group. About CVE-2026-76466 An unauthenticated remote attacker with network access … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T12:26:10Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [
+   "CVE-2026-76466",
+   "CVE-2026-123890"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Cisco",
+    "VMware"
+   ],
+   "summary": {
+    "en": "Attackers exploit critical Cisco Expressway flaw CVE-2026-76466 to breach networks, and CISA added it and a VMware vCenter zero-day to its KEV catalog.",
+    "nl": "Aanvallers misbruiken het kritieke Cisco Expressway-lek CVE-2026-76466 om netwerken binnen te dringen, en CISA voegde dit en een VMware vCenter-zero-day toe aan zijn KEV-catalogus."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "f723a3dd6d6c",
+  "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+  "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+  "excerpt": "A Peruvian call center operator was sentenced to eight years in prison for stealing millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T12:02:23Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Peruvian call center operator received an eight-year prison sentence for a government-impersonation fraud that targeted over 30,000 US residents.",
+    "nl": "Een Peruaanse callcenteroperator kreeg acht jaar gevangenisstraf voor een fraudeschema waarbij hij zich voordeed als overheid en meer dan 30.000 Amerikanen benadeelde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "247d0a76432e",
+  "url": "https://www.security.nl/posting/962727/Hackers+zetten+AI-tool+Cairn+in+om+zero-day+kwetsbaarheden+op+te+sporen?channel=rss",
+  "title": "Hackers zetten AI-tool Cairn in om zero-day kwetsbaarheden op te sporen",
+  "excerpt": "Chinese hackers hebben bij cyberaanvallen op meerdere Aziatische universiteiten de Cairn AI tool ingezet om zero-day ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T11:42:01Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Chinese hackers used the Cairn AI tool to search for zero-day vulnerabilities during attacks on several Asian universities.",
+    "nl": "Chinese hackers gebruikten de Cairn AI-tool om zero-days op te sporen bij aanvallen op meerdere Aziatische universiteiten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "607cf118c0e8",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0513",
+  "title": "NCSC-2026-0513 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk SOAR",
+  "excerpt": "Splunk heeft meerdere kwetsbaarheden verholpen in Splunk SOAR (versies eerder dan 8.8.0). De kwetsbaarheden in Splunk SOAR betreffen diverse componenten van het platform, waaronder de REST API, playbook API, container- en artifactbeheer, approval workflows, tenant- en labeltoegangscontrole, app- en dependency management, en audit logging. Geauthenticeerde gebruikers met verschillende permissies kunnen door onvoldoende autorisatiecontroles en validaties onder meer ongeautoriseerde toegang verkrijgen tot gevoelige data, zoals container- en tenantinformatie, callback handles, approval prompts…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-23T10:51:06Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Splunk"
+   ],
+   "summary": {
+    "en": "Splunk fixed multiple vulnerabilities in Splunk SOAR versions before 8.8.0, allowing authenticated users unauthorized access.",
+    "nl": "Splunk heeft meerdere kwetsbaarheden verholpen in Splunk SOAR-versies voor 8.8.0, waardoor geauthenticeerde gebruikers ongeautoriseerde toegang kunnen krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "bb83e18edb21",
+  "url": "https://www.security.nl/posting/962719/Microsoft+Entra+Connect+Health+getroffen+door+datalek?channel=rss",
+  "title": "Microsoft Entra Connect Health getroffen door datalek",
+  "excerpt": "Microsoft heeft bevestigd dat aanvallers misbruik hebben gemaakt van een kwetsbaarheid in Microsoft Entra Connect Health. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T10:50:00Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft confirmed attackers exploited a vulnerability in Microsoft Entra Connect Health to access tenant data.",
+    "nl": "Microsoft heeft bevestigd dat aanvallers een kwetsbaarheid in Microsoft Entra Connect Health hebben misbruikt om tenantgegevens te benaderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "58024f69088f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0512",
+  "title": "NCSC-2026-0512 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise door Splunk Inc.",
+  "excerpt": "Splunk Inc. heeft meerdere kwetsbaarheden verholpen in Splunk Enterprise. De kwetsbaarheden in Splunk Enterprise betreffen onder andere onjuiste toegangscontrole en onvoldoende validatie in de REST API, het Analytics Workspace component, Classic Dashboards, Data Model Acceleration, en andere onderdelen van het platform. Hierdoor kunnen gebruikers met beperkte rechten, zoals de 'power' rol of zelfs niet-geauthenticeerde gebruikers, acties uitvoeren die normaal hogere privileges vereisen. Dit omvat het uitvoeren van kwaadaardige SPL-commando's, het manipuleren van private HTML-views, het…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-23T10:49:45Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Splunk"
+   ],
+   "summary": {
+    "en": "Splunk Inc. fixed multiple vulnerabilities in Splunk Enterprise that let low-privileged or unauthenticated users perform privileged actions.",
+    "nl": "Splunk Inc. heeft meerdere kwetsbaarheden in Splunk Enterprise verholpen waardoor gebruikers met beperkte rechten of niet-geauthenticeerde gebruikers bevoegde acties kunnen uitvoeren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "ac5a977e8d03",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/cairn-ai-agents-autonomous-attacks/",
+  "title": "Open-source AI pentesting framework Cairn keeps turning up in real-world attacks",
+  "excerpt": "Autonomous AI agents run by a Chinese-nexus threat actor spent nearly a full day failing to break into university servers, then found and exploited a zero-day in an open-source medical imaging AI application and gained a foothold. The agents ran on Cairn, an open-source AI penetration testing framework, with little human direction, Amazon Threat Intelligence says. The operator simply gave them a list of target IP addresses and a goal: “obtain shell access.” How the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T10:49:38Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Amazon Threat Intelligence reports a Chinese-nexus actor used the Cairn AI pentesting framework to find and exploit a zero-day in a medical imaging AI application.",
+    "nl": "Amazon Threat Intelligence meldt dat een dreigingsactor met Chinese banden het Cairn AI-framework gebruikte om een zero-day in een medische beeldvormings-AI-applicatie te misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "84d4d79e78a9",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
+  "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
+  "excerpt": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations. Microsoft Entra Connect Health is a cloud-based monitoring service that gives administrators a single view of the health, performance and alerts for their on-premises identity infrastructure in the Microsoft Entra admin center. According to the security notification, received by Help Net Security and shared by an … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T10:34:01Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Attackers exploited a Microsoft Entra Connect Health API flaw to read technical contact emails and configuration details of Entra tenants.",
+    "nl": "Aanvallers misbruikten een lek in de Microsoft Entra Connect Health API om technische contactgegevens en configuratiedetails van Entra-tenants uit te lezen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "65663d33a7c7",
+  "url": "https://certvde.com/en/advisories/VDE-2026-135/",
+  "title": "Wiesemann & Theis GmbH: Multiple Devices are affected by PHP2Shell",
+  "excerpt": "[VDE-2026-135] Critical vulnerabilities in the PHP runtime may allow a remote attacker to execute arbitrary code by exploiting weaknesses in PHP's internal memory and request handling mechanisms. Under specific conditions, specially crafted web requests can trigger unexpected behavior that could compromise the affected web server process. Wiesemann & Theis GmbH controllers with the integrated web server enabled and running an affected PHP version are exposed to these vulnerabilities.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-23T10:30:00Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Wiesemann & Theis"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports critical PHP vulnerabilities (VDE-2026-135) affecting Wiesemann & Theis controllers with the integrated web server enabled.",
+    "nl": "CERT@VDE meldt kritieke PHP-kwetsbaarheden (VDE-2026-135) in Wiesemann & Theis-controllers waarbij de geintegreerde webserver is ingeschakeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "3995134786f5",
+  "url": "https://www.security.nl/posting/962512/%27Nederlander+vindt+zich+digitaal+vaardig%2C+maar+kennis+en+gedrag+blijven+achter%27?channel=rss",
+  "title": "'Nederlander vindt zich digitaal vaardig, maar kennis en gedrag blijven achter'",
+  "excerpt": "Nederlanders vinden zich in grote mate digitaal vaardig, maar hun digitale kennis en online gedrag blijven op belangrijke ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T10:20:34Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A survey finds Dutch people rate their digital skills highly, but their digital knowledge and online behavior lag behind.",
+    "nl": "Een onderzoek stelt vast dat Nederlanders hun digitale vaardigheden hoog inschatten, maar dat hun digitale kennis en online gedrag achterblijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "b0cdf11a9c2d",
+  "url": "https://certvde.com/en/advisories/VDE-2026-096/",
+  "title": "WAGO: Improper Authorization and Privilege Escalation",
+  "excerpt": "[VDE-2026-096] Two vulnerabilities in the Web-Based Management (WBM) interface of WAGO CC100, PFC100 G2, PFC200 G2, TP600, Edge Controller and WP400 devices allow an authenticated low-privileged user to bypass intended privilege boundaries. The issues affect both the routing configuration functionality and the authorization model for PROFIBUS configuration management.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-23T10:00:00Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "WAGO"
+   ],
+   "summary": {
+    "en": "CERT@VDE reports two authorization flaws (VDE-2026-096) in WAGO web management, letting low-privileged users bypass privilege boundaries on several controllers.",
+    "nl": "CERT@VDE meldt twee autorisatiefouten (VDE-2026-096) in het webbeheer van WAGO waardoor gebruikers met lage rechten privilegegrenzen kunnen omzeilen op meerdere controllers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "f270cf1ed468",
+  "url": "https://industrialcyber.co/ai/house-report-flags-chinese-ai-models-embedded-in-us-businesses-cites-cybersecurity-and-national-security-risks/",
+  "title": "House report flags Chinese AI models embedded in US businesses, cites cybersecurity and national security risks",
+  "excerpt": "A joint report by the U.S. House Committee on Homeland Security and the House Select Committee on China...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-23T09:25:58Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A House committee report flags Chinese AI models embedded in US businesses as posing cybersecurity and national security risks.",
+    "nl": "Een rapport van een Amerikaanse Kamercommissie waarschuwt voor Chinese AI-modellen in Amerikaanse bedrijven vanwege cyber- en nationale veiligheidsrisico's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "fe8409de2a8c",
+  "url": "https://industrialcyber.co/product-security/us-fcc-proposes-three-year-cyber-trust-mark-renewal-cycle-seeks-stronger-oversight-of-certified-iot-products/",
+  "title": "US FCC proposes three-year Cyber Trust Mark renewal cycle, seeks stronger oversight of certified IoT products",
+  "excerpt": "The Federal Communications Commission (FCC) published Monday a notice seeking public comment on proposed requirements for the U.S....",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-23T09:23:47Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FCC proposes a three-year renewal cycle for the Cyber Trust Mark and seeks public comment on stronger oversight of certified IoT products.",
+    "nl": "De FCC stelt een vernieuwingscyclus van drie jaar voor het Cyber Trust Mark voor en vraagt publiek commentaar over strengere controle op gecertificeerde IoT-producten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "31afdc96e80b",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+  "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+  "excerpt": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T09:11:56Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [
+   "CVE-2026-131914"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers exploit critical CVE-2026-131914 in the legacy ASP.NET library Idunno.AntiCsrf, enabling unauthenticated remote code execution.",
+    "nl": "Aanvallers misbruiken het kritieke lek CVE-2026-131914 in de verouderde ASP.NET-bibliotheek Idunno.AntiCsrf voor remote code execution zonder authenticatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "29ca38da0d4e",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+  "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+  "excerpt": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T09:11:15Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft",
+    "Forcepoint"
+   ],
+   "summary": {
+    "en": "Microsoft confirmed printing issues on systems running Forcepoint DLP after the KB5132043 Windows 11 hotpatch.",
+    "nl": "Microsoft heeft printproblemen bevestigd op systemen met Forcepoint DLP na de KB5132043 hotpatch voor Windows 11."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:30Z"
+  }
+ },
+ {
+  "id": "134e03c372d2",
+  "url": "https://www.security.nl/posting/962509/Bits+of+Freedom+vindt+waarschuwing+AP+over+camerabril+onvoldoende?channel=rss",
+  "title": "Bits of Freedom vindt waarschuwing AP over camerabril onvoldoende",
+  "excerpt": "Burgerrechtenbeweging Bits of Freedom vindt de waarschuwing van de Autoriteit Persoonsgegevens (AP) over camerabrillen en de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T09:04:19Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bits of Freedom criticises the Dutch Data Protection Authority's warning about camera glasses as insufficient.",
+    "nl": "Bits of Freedom vindt de waarschuwing van de Autoriteit Persoonsgegevens over camerabrillen onvoldoende."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "791422e9c323",
+  "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+  "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+  "excerpt": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T09:04:08Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "GL.iNet"
+   ],
+   "summary": {
+    "en": "Attackers exploited a flaw in GL.iNet's GoodCloud remote management service to install malware on some routers and KVM devices, now fixed.",
+    "nl": "Aanvallers misbruikten een kwetsbaarheid in de GoodCloud-beheerdienst van GL.iNet om malware op sommige routers en KVM-apparaten te installeren, inmiddels verholpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "f561bc8b0cc3",
+  "url": "https://certvde.com/en/advisories/VDE-2026-148/",
+  "title": "ifm: Vulnerability in Camera Products",
+  "excerpt": "[VDE-2026-148] A lack of authentication in ifm camera products could allow unauthorized users to compromise the devices and manipulate their functionality or configurations.",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-23T09:00:00Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "cross_sector"
+   ],
+   "vendors": [
+    "ifm"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-148 reports a lack of authentication in ifm camera products that could let unauthorized users manipulate devices or configurations.",
+    "nl": "CERT@VDE-advisory VDE-2026-148 meldt een ontbrekende authenticatie in ifm-cameraproducten, waardoor onbevoegden apparaten of configuraties kunnen manipuleren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "9676abc77f08",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/signal-blocks-ai-assistants-screenshots/",
+  "title": "Signal blocks AI assistants from peeking at your private messages",
+  "excerpt": "Signal, the encrypted messaging app, is restricting AI assistants built into mobile operating systems from capturing the content of users’ conversations. The protections target Siri AI on iOS 27 and AI assistants on supported Android devices, including Google’s Gemini. These assistants can read the phone’s screen to answer questions and carry out tasks. According to Signal, the process can capture message text and make it accessible to a local database or remote server used by … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T08:53:49Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Signal"
+   ],
+   "summary": {
+    "en": "Signal is restricting mobile operating system AI assistants from capturing the content of users' private messages.",
+    "nl": "Signal beperkt AI-assistenten van mobiele besturingssystemen om de inhoud van privéberichten van gebruikers vast te leggen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "0e7508a1acba",
+  "url": "https://www.security.nl/posting/962502/Mozilla+hekelt+Apple+over+eisen+voor+eigen+browser-engine+op+iOS?channel=rss",
+  "title": "Mozilla hekelt Apple over eisen voor eigen browser-engine op iOS",
+  "excerpt": "Eigenaren van een iPhone kunnen uit allerlei browsers kiezen, maar wat niet iedereen weet is dat die allemaal op Apples ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T08:47:05Z",
+  "fetched": "2026-11-23T12:54:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Mozilla",
+    "Apple"
+   ],
+   "summary": {
+    "en": "Mozilla criticises Apple's requirement that iOS browsers use Apple's own browser engine.",
+    "nl": "Mozilla bekritiseert Apple om de eis dat browsers op iOS Apples eigen browser-engine gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "80927b607c9d",
+  "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+  "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+  "excerpt": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T08:24:15Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CERT-In warns that AI-assisted cyber attacks have caused unauthorized payments at Indian banks and fintech firms.",
+    "nl": "CERT-In waarschuwt dat AI-ondersteunde cyberaanvallen onbevoegde betalingen bij Indiase banken en fintechbedrijven hebben veroorzaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "74702ae4d0bb",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/",
+  "title": "Infected TV boxes in BADBOX 3.0 rent out their owners’ home internet",
+  "excerpt": "HUMAN’s Satori Threat Intelligence and Research Team has disrupted BADBOX 3.0, an operation run mainly from infected low-cost TV boxes that generated roughly 40 billion ad bid requests a day at its peak. That was more than 4% of all connected TV (CTV) traffic HUMAN observed and more than three times the volume of VASTFLUX, the previous record holder. The boxes play video ads in a window the owner never sees, and the requests claim … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T08:06:18Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "HUMAN disrupted BADBOX 3.0, a botnet of infected low-cost TV boxes that generated large volumes of ad requests and used home internet connections.",
+    "nl": "HUMAN heeft BADBOX 3.0 verstoord, een botnet van geïnfecteerde goedkope tv-boxen die grote hoeveelheden advertentieverzoeken genereerde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "0cd020d52939",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+  "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+  "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T07:44:19Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "CISA warned federal agencies that attackers are exploiting a recently patched critical Cisco Expressway remote code execution flaw.",
+    "nl": "CISA waarschuwde federale instanties dat aanvallers een recent verholpen kritieke remote code execution-kwetsbaarheid in Cisco Expressway misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "8d2d4906270f",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/rocco-saviano-istituto-nazionale-tumori-int-hospital-microsegmentation/",
+  "title": "Yes, but securely: A cancer institute’s answer to shadow IT in research",
+  "excerpt": "In this interview with Help Net Security, Rocco Saviano, Director of Digital Transformation, Istituto Nazionale Tumori (INT), talks about keeping a cancer hospital running while protecting it from cyberattacks. He explains what happens when a nurse can’t open a chemotherapy plan, how INT works with smaller partner hospitals in the Rare Cancer Network, and why banning shadow IT in research rarely helps. He also names the EU regulation he finds most burdensome and the one … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T07:00:33Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An interview with the director of digital transformation at a cancer institute discusses shadow IT and cyber protection in research.",
+    "nl": "Een interview met de directeur digitale transformatie van een kankerinstituut gaat over shadow IT en cyberbescherming in onderzoek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "a1776b5e4653",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/xalgorix-ai-penetration-testing-tool/",
+  "title": "Xalgorix: Open-source AI penetration testing tool",
+  "excerpt": "Xalgorix, an open-source AI penetration testing tool, checks its work before it reports anything. When its main agent finds a bug, a second agent has to exploit that bug again. If the second agent can’t prove the bug is real or rule it out, Xalgorix keeps the finding and flags it for a person to review. The check targets false positives, findings that look like vulnerabilities and turn out to be harmless. Krishna Kumar, the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T06:30:08Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Xalgorix is an open-source AI penetration testing tool that verifies findings with a second agent before reporting them.",
+    "nl": "Xalgorix is een open-source AI-pentestideprogramma dat bevindingen door een tweede agent laat verifiëren voordat ze worden gerapporteerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "1fa5ee73336d",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/black-friday-scams-doppel-report/",
+  "title": "Black Friday scams started earlier this year without the usual red flags",
+  "excerpt": "This year’s fake Black Friday deals started appearing on September 1, more than a month earlier than last year, and most of them don’t mention the holiday or use a lookalike address, according to Doppel. The company describes the lure most shoppers are likely to meet this season as “a post in a Facebook group or a page on Google Sites, carrying a retailer’s sale language on behalf of a software, payment, travel, or crypto … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T06:00:16Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Doppel reports that fake Black Friday deals began appearing on September 1, earlier than last year, often without typical red flags.",
+    "nl": "Doppel meldt dat nepaanbiedingen voor Black Friday al op 1 september verschenen, eerder dan vorig jaar, vaak zonder gebruikelijke waarschuwingssignalen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
+  "id": "dc98703a7b99",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/isaca-cobit-7-released/",
+  "title": "COBIT 7 adds AI risk scenarios to ISACA’s governance framework",
+  "excerpt": "To help organizations strengthen how they govern information and technology, ISACA has released COBIT 7, the latest version of its globally recognized framework for information and technology (I&T) governance. COBIT 7 brings together trusted guidance, an intuitive digital platform, customizable resources, and practical tools. Together, these help practitioners turn technology into measurable value, align decisions with strategy, and manage emerging risks, including those posed by AI, with confidence. The update builds on the framework’s long-standing … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T05:30:49Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "ISACA has released COBIT 7, a governance framework version that adds guidance on managing AI-related risks.",
+    "nl": "ISACA heeft COBIT 7 uitgebracht, een versie van het governance-framework met richtlijnen voor het beheersen van AI-gerelateerde risico's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
+  }
+ },
+ {
   "id": "abd072a306d6",
   "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
   "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
@@ -25,6 +981,36 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-23T02:49:51Z"
+  }
+ },
+ {
+  "id": "5e4209ae3740",
+  "url": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+  "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
+  "excerpt": "Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T00:00:00Z",
+  "fetched": "2026-11-23T12:54:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers breached a website of Austria's Foreign Ministry and accessed names and official contact details of employees at headquarters and abroad.",
+    "nl": "Hackers braken in op een website van het Oostenrijkse ministerie van Buitenlandse Zaken en kregen toegang tot namen en contactgegevens van medewerkers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-23T12:54:43Z"
   }
  },
  {

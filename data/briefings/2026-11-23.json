@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-23",
+ "published": "2026-11-23T12:54:57Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 6,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet Monday: three CERT@VDE advisories for industrial controllers and cameras, two US policy items on AI models and IoT labelling, and operator guidance on OT isolation."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige maandag: drie CERT@VDE-advisories voor industriële controllers en camera's, twee Amerikaanse beleidsberichten over AI-modellen en IoT-keurmerken, en praktijkadvies over OT-isolatie."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "65663d33a7c7",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-135/",
+     "title": "Wiesemann & Theis GmbH: Multiple Devices are affected by PHP2Shell"
+    },
+    {
+     "id": "b0cdf11a9c2d",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-096/",
+     "title": "WAGO: Improper Authorization and Privilege Escalation"
+    },
+    {
+     "id": "f561bc8b0cc3",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-148/",
+     "title": "ifm: Vulnerability in Camera Products"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Wiesemann & Theis, WAGO and ifm via CERT@VDE",
+     "summary": "Wiesemann & Theis controllers with an integrated web server are affected by critical PHP runtime flaws (PHP2Shell, VDE-2026-135) that may allow remote code execution via crafted web requests. WAGO CC100, PFC100 G2, PFC200 G2, TP600, Edge Controller and WP400 devices have two WBM flaws (VDE-2026-096) that let an authenticated low-privileged user bypass privilege boundaries. ifm camera products (VDE-2026-148) lack authentication, which could let unauthorized users manipulate device functions or configuration.",
+     "takeaway": "Check whether you run these products, apply vendor fixes where available, and restrict access to their web interfaces to trusted management networks."
+    },
+    "nl": {
+     "heading": "Overige advisories: Wiesemann & Theis, WAGO en ifm via CERT@VDE",
+     "summary": "Controllers van Wiesemann & Theis met geïntegreerde webserver zijn kwetsbaar door kritieke PHP-runtimefouten (PHP2Shell, VDE-2026-135), die via speciaal opgestelde webverzoeken remote code execution kunnen toelaten. Bij WAGO CC100, PFC100 G2, PFC200 G2, TP600, Edge Controller en WP400 zijn twee WBM-kwetsbaarheden gemeld (VDE-2026-096) waarmee een geauthenticeerde gebruiker met lage rechten privilegegrenzen kan omzeilen. ifm-camera's (VDE-2026-148) missen authenticatie, waardoor onbevoegden functies of configuratie kunnen manipuleren.",
+     "takeaway": "Controleer of u deze producten gebruikt, installeer waar beschikbaar de fixes van de leverancier en beperk toegang tot de webinterfaces tot vertrouwde beheernetwerken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "5ed5a00a0b8d",
+     "name": "Waterfall Security",
+     "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/operators-guide-ot-islanding-isolation/",
+     "title": "An Operator’s Guide to OT Islanding/Isolation"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Waterfall publishes operator's guide to OT islanding",
+     "summary": "Waterfall Security published a guide on OT islanding/isolation, meaning the physical separation of OT networks from IT during a cyber emergency while critical operations keep running.",
+     "takeaway": "Review whether your organisation has a defined and tested way to isolate OT from IT in an emergency."
+    },
+    "nl": {
+     "heading": "Waterfall publiceert operatorgids voor OT-islanding",
+     "summary": "Waterfall Security publiceerde een gids over OT-islanding/isolatie: het fysiek scheiden van OT-netwerken van IT tijdens een cybernoodsituatie, terwijl kritieke processen blijven draaien.",
+     "takeaway": "Beoordeel of uw organisatie een vastgelegde en geteste werkwijze heeft om OT in een noodsituatie van IT te isoleren."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "f270cf1ed468",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ai/house-report-flags-chinese-ai-models-embedded-in-us-businesses-cites-cybersecurity-and-national-security-risks/",
+     "title": "House report flags Chinese AI models embedded in US businesses, cites cybersecurity and national security risks"
+    },
+    {
+     "id": "fe8409de2a8c",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/product-security/us-fcc-proposes-three-year-cyber-trust-mark-renewal-cycle-seeks-stronger-oversight-of-certified-iot-products/",
+     "title": "US FCC proposes three-year Cyber Trust Mark renewal cycle, seeks stronger oversight of certified IoT products"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "US policy: House report on Chinese AI models, FCC Cyber Trust Mark renewal",
+     "summary": "A joint report by two US House committees flags Chinese AI models embedded in US businesses and cites cybersecurity and national security risks. Separately, the FCC published a notice seeking public comment on a proposed three-year renewal cycle for the Cyber Trust Mark and stronger oversight of certified IoT products.",
+     "takeaway": "Inventory where third-party AI components and certified IoT devices are used in your environment and ask suppliers about their provenance and security assurance."
+    },
+    "nl": {
+     "heading": "Amerikaans beleid: House-rapport over Chinese AI-modellen en verlenging FCC Cyber Trust Mark",
+     "summary": "Een gezamenlijk rapport van twee Amerikaanse House-commissies waarschuwt voor Chinese AI-modellen die in Amerikaanse bedrijven zijn ingebed en noemt risico's voor cybersecurity en nationale veiligheid. Daarnaast publiceerde de FCC een notitie met openbare consultatie over een voorgestelde driejaarlijkse verlenging van het Cyber Trust Mark en strenger toezicht op gecertificeerde IoT-producten.",
+     "takeaway": "Breng in kaart waar AI-componenten van derden en gecertificeerde IoT-apparaten in uw omgeving worden gebruikt en vraag leveranciers naar herkomst en securityborging."
+    }
+   }
+  }
+ ]
+}
