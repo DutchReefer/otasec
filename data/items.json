@@ -1,5 +1,834 @@
 [
  {
+  "id": "89af620cce7c",
+  "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+  "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+  "excerpt": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-11-24T10:59:14Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC publishes guidance on defending against cyber attacks built with agentic offensive frameworks, focusing on known weaknesses.",
+    "nl": "Het NCSC publiceert richtlijnen over het verdedigen tegen cyberaanvallen die met agentic offensive frameworks worden gemaakt, gericht op bekende zwakke plekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "465d5707cdbe",
+  "url": "https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc",
+  "title": "Introducing CORNERSTONE: delivering external services for the NCSC",
+  "excerpt": "The NCSC is seeking industry feedback on a new delivery model for modernising external cyber security services.",
+  "source_id": "ncsc-uk",
+  "source": "NCSC-UK",
+  "lang": "en",
+  "kind": "guidance",
+  "focus": "broad",
+  "published": "2026-11-24T10:59:14Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The NCSC seeks industry feedback on CORNERSTONE, a new delivery model for external cyber security services.",
+    "nl": "Het NCSC vraagt de industrie om feedback op CORNERSTONE, een nieuw leveringsmodel voor externe cybersecuritydiensten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "9436fc5b47f7",
+  "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+  "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+  "excerpt": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively looking for access tokens, secrets, and named values in APIM,\" NSM said. \"It is still uncertain how",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T10:44:49Z",
+  "fetched": "2026-11-24T10:59:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "incident",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Norway's NSM reports an unknown actor actively searching Azure API Management for access tokens and secrets, affecting several businesses including energy companies Equinor and Skagerak Energi.",
+    "nl": "Het Noorse NSM meldt dat een onbekende actor actief zoekt naar toegangstokens en geheimen in Azure API Management, met gevolgen voor bedrijven waaronder energiebedrijven Equinor en Skagerak Energi."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "bb504824b5c6",
+  "url": "https://www.security.nl/posting/962870/Ransomwaregroep+claimt+hack+van+systemen+marktonderzoeker+Ipsos?channel=rss",
+  "title": "Ransomwaregroep claimt hack van systemen marktonderzoeker Ipsos",
+  "excerpt": "Een ransomwaregroep genaamd Qilin beweert dat het marktonderzoeksbureau Ipsos heeft gehackt, waarbij allerlei bestanden en ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T10:30:00Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Qilin ransomware group claims it hacked market research firm Ipsos and stole files.",
+    "nl": "De ransomwaregroep Qilin beweert marktonderzoeksbureau Ipsos te hebben gehackt en bestanden te hebben buitgemaakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "929a5ca0eb1c",
+  "url": "https://www.security.nl/posting/962868/WordPress_org+blokkeert+backdoor+in+zes+plug-ins+van+WP+connect?channel=rss",
+  "title": "WordPress.org blokkeert backdoor in zes plug-ins van WP connect",
+  "excerpt": "WordPress.org heeft zes backdoors in plug-ins van WP connect geblokkeerd, waardoor werd voorkomen dat de malware op duizenden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T10:13:53Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "WordPress.org blocked six backdoors in WP connect plug-ins that could have spread malware to thousands of sites.",
+    "nl": "WordPress.org heeft zes backdoors in WP connect-plug-ins geblokkeerd die malware naar duizenden websites hadden kunnen verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "b944b4a55e57",
+  "url": "https://certvde.com/en/advisories/VDE-2026-154/",
+  "title": "CODESYS Visualization - multiple vulnerabilities",
+  "excerpt": "[Advisory2026-15_VDE-2026-154] The CODESYS Visualization is an add-on providing visualization functionality for the CODESYS Development System. Multiple vulnerabilities in the affected products allow an unauthenticated attacker controlling a malicious runtime and tricking a user to trust it, or performing a man-in-the-middle attack on the communication between the CODESYS Control runtime and the engineering workstation, to invoke local functionality on the engineering workstation during online visualization monitoring. Successful exploitation may result in arbitrary code execution with the…",
+  "source_id": "certvde",
+  "source": "CERT@VDE Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-24T10:00:00Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "CODESYS"
+   ],
+   "summary": {
+    "en": "CERT@VDE advisory VDE-2026-154 describes multiple CODESYS Visualization vulnerabilities allowing unauthenticated attackers to run local functions on engineering workstations via a malicious runtime or man-in-the-middle attack.",
+    "nl": "CERT@VDE-advisory VDE-2026-154 beschrijft meerdere kwetsbaarheden in CODESYS Visualization waarmee ongeauthenticeerde aanvallers lokale functies op engineeringwerkstations kunnen aanroepen via een kwaadaardige runtime of man-in-the-middle-aanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "7c05972b0598",
+  "url": "https://www.security.nl/posting/962863/Celstraf+voor+fraudeverdachten+die+via+lok-opa+werden+aangehouden?channel=rss",
+  "title": "Celstraf voor fraudeverdachten die via lok-opa werden aangehouden",
+  "excerpt": "Twee mannen uit Rotterdam en Ridderkerk die door middel van een lok-opa werden aangehouden zijn wegens oplichting in vereniging ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T09:54:10Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Two men from Rotterdam and Ridderkerk received prison sentences for fraud after being arrested through a decoy elderly person scheme.",
+    "nl": "Twee mannen uit Rotterdam en Ridderkerk krijgen celstraffen voor oplichting nadat ze zijn aangehouden via een lokop-oudere."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "83cd4681e0f0",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/globetopper-breach-gift-cards/",
+  "title": "GlobeTopper faces up to $2.5 million in lost revenue after hackers steal $70,000 in gift cards",
+  "excerpt": "Hackers breached GlobeTopper, a B2B digital gift card and top-up platform, and stole API credentials belonging to some of its business customers, while gift cards worth about $70,000 were redeemed without authorization. According to a filing with the U.S. Securities and Exchange Commission (SEC), parent company iQSTEL said GlobeTopper detected the intrusion on October 22 and took the platform offline the next morning after spotting further unauthorized activity. GlobeTopper first suspended the platform and, once … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T09:33:33Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers breached GlobeTopper and stole API credentials from business customers, with gift cards worth about $70,000 redeemed.",
+    "nl": "Hackers braken in op GlobeTopper en stalen API-gegevens van zakelijke klanten, waarna cadeaukaarten ter waarde van ongeveer 70.000 dollar zijn verzilverd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "5990e8ac2cb8",
+  "url": "https://www.security.nl/posting/962859/%27Gebruikers+Tor+Browser+willen+surveillance+door+internetprovider+omzeilen%27?channel=rss",
+  "title": "'Gebruikers Tor Browser willen surveillance door internetprovider omzeilen'",
+  "excerpt": "De voornaamste reden dat mensen Tor Browser gebruiken is dat ze de surveillance door hun internetprovider willen omzeilen, zo ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T09:26:35Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Users of Tor Browser mainly want to bypass surveillance by their internet provider, according to a survey.",
+    "nl": "Gebruikers van Tor Browser willen vooral surveillance door hun internetprovider omzeilen, volgens een onderzoek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "c7ad9cf309e4",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/anthropic-claude-ship-beta/",
+  "title": "Claude Ship gives AI a seat on both sides of code review",
+  "excerpt": "Anthropic launched Claude Ship in beta, a suite of agents that reviews pull requests, fixes issues and approves changes permitted by a team’s policy. Teams decide where it runs and which changes require human approval. Anthropic said Claude writes most of the code on its Claude Code team. With Claude Ship, the company aims to help teams “ship code as fast as teams write it.” How Claude Ship works Claude Ship combines Code Review, which … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T09:02:02Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Anthropic launched Claude Ship in beta, an agent suite that reviews pull requests and approves changes under team policy.",
+    "nl": "Anthropic heeft Claude Ship in beta gelanceerd, een reeks agents die pull requests beoordelen en wijzigingen goedkeuren volgens teambeleid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "faf0bf0894d7",
+  "url": "https://www.security.nl/posting/962858/Politie+zoekt+slachtoffers+nep-webshops%3A+%27Minstens+47_000+euro+buitgemaakt%27?channel=rss",
+  "title": "Politie zoekt slachtoffers nep-webshops: 'Minstens 47.000 euro buitgemaakt'",
+  "excerpt": "De politie zoekt mensen die eerder dit jaar via tientallen nep-webshops zijn opgelicht. Het gaat vermoedelijk om honderden ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T08:58:54Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police seek victims of fake webshops who lost at least 47,000 euros to scams this year.",
+    "nl": "De politie zoekt slachtoffers van nep-webshops die dit jaar minstens 47.000 euro zijn kwijtgeraakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "3f24dbd2da37",
+  "url": "https://www.security.nl/posting/962855/VS+meldt+misbruik+van+hardcoded+credentials+in+Cisco+Expressway?channel=rss",
+  "title": "VS meldt misbruik van hardcoded credentials in Cisco Expressway",
+  "excerpt": "Aanvallers maken actief misbruik van hardcoded credentials in Cisco Expressway, zo meldt het Amerikaanse cyberagentschap CISA. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T08:40:09Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Cisco"
+   ],
+   "summary": {
+    "en": "CISA reports active exploitation of hardcoded credentials in Cisco Expressway, an enterprise video collaboration platform.",
+    "nl": "CISA meldt actief misbruik van hardcoded credentials in Cisco Expressway, een zakelijk platform voor videocollaboratie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "06ddd1a68807",
+  "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+  "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+  "excerpt": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed. The company disclosed the SQL injection yesterday along with two other flaws that need a logged-in client, and released",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T08:34:20Z",
+  "fetched": "2026-11-24T10:59:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A SQL injection flaw in WHMCS billing software could expose customer records and admin password hashes without login.",
+    "nl": "Een SQL-injectiekwetsbaarheid in WHMCS-facturatiesoftware kan klantgegevens en admin-wachtwoordhashes zonder login blootstellen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "6f1bf7d5c08f",
+  "url": "https://industrialcyber.co/features/mythos-changes-the-clock-what-anthropics-cyber-capable-ai-models-mean-for-ot-critical-infrastructure-security/",
+  "title": "Mythos changes the clock: What Anthropic’s cyber-capable AI models mean for OT, critical infrastructure security",
+  "excerpt": "Anthropic’s cyber-capable artificial intelligence (AI) capabilities are reshaping the speed and cost of finding and fixing software vulnerabilities...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-24T07:45:21Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "An Industrial Cyber article examines how Anthropic's cyber-capable AI models change the speed and cost of finding and fixing vulnerabilities for OT and critical infrastructure.",
+    "nl": "Een artikel van Industrial Cyber bekijkt hoe cyber-capabele AI-modellen van Anthropic de snelheid en kosten van het vinden en oplossen van kwetsbaarheden in OT en kritieke infrastructuur veranderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "faeec526160b",
+  "url": "https://industrialcyber.co/news/crowdstrike-to-acquire-zscaler-in-43-9-billion-all-stock-deal-to-expand-zero-trust-security-and-ai-protection/",
+  "title": "CrowdStrike to acquire Zscaler in $43.9 billion all-stock deal to expand Zero Trust security and AI protection",
+  "excerpt": "CrowdStrike and Zscaler announced that they have entered into a definitive agreement under which CrowdStrike will acquire Zscaler...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-24T07:14:59Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "CrowdStrike",
+    "Zscaler"
+   ],
+   "summary": {
+    "en": "CrowdStrike announced a definitive agreement to acquire Zscaler in an all-stock deal valued at 43.9 billion dollars.",
+    "nl": "CrowdStrike heeft een definitieve overeenkomst aangekondigd om Zscaler over te nemen in een volledig aandelendeal van 43,9 miljard dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "d50a3894d17f",
+  "url": "https://industrialcyber.co/news/threatgen-releases-autotabletop-2-6-2-expands-ai-powered-cyber-exercises-into-enterprise-wide-exercise-management/",
+  "title": "ThreatGEN releases AutoTableTop 2.6.2, expands AI-powered cyber exercises into enterprise-wide exercise management",
+  "excerpt": "ThreatGEN announced general availability of AutoTableTop 2.6.2, the latest release of its generative AI tabletop exercise (TTX) platform,...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-24T07:12:03Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ThreatGEN"
+   ],
+   "summary": {
+    "en": "ThreatGEN made AutoTableTop 2.6.2 generally available, a generative AI tabletop exercise platform for enterprise exercise management.",
+    "nl": "ThreatGEN heeft AutoTableTop 2.6.2 algemeen beschikbaar gemaakt, een generatief AI-platform voor tabletop-oefeningen met beheer op ondernemingsniveau."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "85717d87a687",
+  "url": "https://industrialcyber.co/news/emerson-databricks-target-it-ot-data-gap-through-native-integration-of-industrial-data-fabric-with-enterprise-ai-platform/",
+  "title": "Emerson, Databricks target IT/OT data gap through native integration of industrial data fabric with enterprise AI platform",
+  "excerpt": "Emerson announced a collaboration with Databricks to make operational technology (OT) data more accessible, contextualized and AI-ready across...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-24T07:09:01Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Emerson",
+    "Databricks"
+   ],
+   "summary": {
+    "en": "Emerson and Databricks announced a collaboration to make OT data more accessible and AI-ready through an integrated industrial data fabric.",
+    "nl": "Emerson en Databricks kondigden een samenwerking aan om OT-data toegankelijker en geschikt voor AI te maken via een geïntegreerde industriële datalaag."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "a0fccc6d3fc8",
+  "url": "https://industrialcyber.co/news/belden-expands-industrial-networking-portfolio-with-new-cabling-firmware-and-security-updates-to-strengthen-ot-resilience/",
+  "title": "Belden expands industrial networking portfolio with new cabling, firmware and security updates to strengthen OT resilience",
+  "excerpt": "Belden Inc., provider of complete connection solutions, recently announced the launch of new products and portfolio updates designed...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-24T07:04:30Z",
+  "fetched": "2026-11-24T10:59:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [
+    "manufacturing"
+   ],
+   "vendors": [
+    "Belden"
+   ],
+   "summary": {
+    "en": "Belden launched new cabling, firmware and security updates in its industrial networking portfolio.",
+    "nl": "Belden heeft nieuwe kabels, firmware- en beveiligingsupdates gelanceerd voor zijn portfolio industriële netwerkoplossingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "b362fc1b5622",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/chris-betz-google-agentic-ai-security/",
+  "title": "Google Cloud CISO talks agentic AI security and the future of the SOC",
+  "excerpt": "In this interview with Help Net Security, Chris Betz, CISO of Google Cloud, answers five questions about security as AI agents spread. He says the old belief that human-led workflows would stay the norm has aged badly, since attackers use automation to move through networks in minutes. Betz explains how agents could change the junior analyst role, why espionage groups can be hard to spot, which controls companies should drop, and what boards should ask … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T07:00:16Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google Cloud"
+   ],
+   "summary": {
+    "en": "Google Cloud's CISO discusses agentic AI security, changes to the SOC and attackers using automation to move through networks.",
+    "nl": "De CISO van Google Cloud bespreekt beveiliging van agentic AI, de toekomst van de SOC en aanvallers die automatisering gebruiken om netwerken snel te doorkruisen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "fdc2bebcefd6",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/check-point-ransomware-attacks-q3-2026-report/",
+  "title": "Ransomware gangs keep multiplying, even as fewer victims pay",
+  "excerpt": "Ransomware groups listed 2,830 victims on data leak sites in the third quarter of 2026, the highest quarterly total on record, according to Check Point Research’s State of Ransomware Q3 2026 report. July accounted for 964 victims, August for 1,042 and September for 824. “The scale of activity was accompanied by a significant expansion in the number of active groups. Q3 combined sustained activity from established operators with a wider pool of ransomware brands claiming … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T06:30:26Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point reports a record 2,830 ransomware victims on leak sites in Q3 2026, even as fewer victims pay.",
+    "nl": "Check Point meldt een record van 2.830 ransomware-slachtoffers op leksites in Q3 2026, terwijl minder slachtoffers betalen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:34Z"
+  }
+ },
+ {
+  "id": "ff50b9ebc098",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/aws-european-sovereign-cloud-details/",
+  "title": "AWS European Sovereign Cloud: Architecture, assurance, and compliance",
+  "excerpt": "How to evaluate sovereign cloud infrastructure beyond certifications An overview of AWS European Sovereign Cloud: architecture, sovereignty assurances, compliance, available services, and use cases for organizations seeking innovation with full data control. Introduction Hi, I’m Mustafa Isik, Chief Technologist, Sovereign Cloud, Amazon Web Services. I lead a team of technology and compliance specialists focused on digital sovereignty, working closely with customers, partners, regulators, but also national and international cybersecurity authorities in Europe and globally. In … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T06:15:37Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "AWS"
+   ],
+   "summary": {
+    "en": "AWS publishes an overview of its European Sovereign Cloud covering architecture, sovereignty assurances, compliance and available services.",
+    "nl": "AWS beschrijft zijn European Sovereign Cloud met aandacht voor architectuur, soevereiniteitsgaranties, compliance en beschikbare diensten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
+  "id": "a0a25e5ec068",
+  "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+  "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+  "excerpt": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches,\" OpenAI said in a post on X. The AI upstart called the initiative a",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T06:02:57Z",
+  "fetched": "2026-11-24T10:59:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "OpenAI",
+    "Cisco"
+   ],
+   "summary": {
+    "en": "OpenAI and Cisco released Shirudo, an open-source Linux runtime that uses AI agents and eBPF controls to block exploits before patches.",
+    "nl": "OpenAI en Cisco brachten Shirudo uit, een open-source Linux-runtime die AI-agents eBPF-controles laat inzetten om exploits te blokkeren voordat patches beschikbaar zijn."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
+  "id": "14a00d8221c4",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+  "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T06:02:45Z",
+  "fetched": "2026-11-24T10:59:13Z",
+  "cves": [
+   "CVE-2026-134624"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "N-able",
+    "MONAI"
+   ],
+   "summary": {
+    "en": "CISA added flaws in N-able MailAssure and MONAI Label to its KEV catalog after evidence of active exploitation.",
+    "nl": "CISA heeft kwetsbaarheden in N-able MailAssure en MONAI Label aan de KEV-catalogus toegevoegd na bewijs van actief misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
+  "id": "60b4afe1f0a3",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/",
+  "title": "Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime",
+  "excerpt": "OpenAI and Cisco released Shirudo, an open-source tool that puts temporary protections on running Linux systems while their owners work on a patch. Shirudo is Japanese for “shield,” which is also what each protection is called: a small program that blocks the specific behavior a vulnerability depends on, with no restart needed. Testing and deploying a patch can still take days or weeks, and the vulnerable service stays exposed in the meantime. Blocking a risky … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T06:00:50Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "OpenAI",
+    "Cisco"
+   ],
+   "summary": {
+    "en": "Shirudo, an open-source tool from OpenAI and Cisco, applies temporary runtime protections on Linux systems while patches are pending.",
+    "nl": "Shirudo, een open-source tool van OpenAI en Cisco, biedt tijdelijke runtime-bescherming op Linux-systemen totdat een patch is uitgerold."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
+  "id": "bd43358b607d",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/passwork-enterprise-password-management/",
+  "title": "How IT can delegate password management without losing control",
+  "excerpt": "IT is expected to secure company accounts, but it doesn’t always control how they’re created or shared. Departments manage their own tools and grant access to colleagues or contractors, often without involving IT. This leaves IT responsible for accounts it may not even know about. Consider a hypothetical marketing account purchased by a department, used by several colleagues and an external agency, and tied to an employee’s recovery email. When a personnel change occurs, the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T05:30:07Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Article describes how IT can delegate password management to departments while keeping oversight of shared and unmanaged accounts.",
+    "nl": "Het artikel beschrijft hoe IT wachtwoordbeheer kan delegeren aan afdelingen en toch zicht houdt op gedeelde accounts."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
+  "id": "3b2942d425f7",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/stalwart-microsoft-exchange-replacement/",
+  "title": "Stalwart: Open-source Microsoft Exchange replacement",
+  "excerpt": "Stalwart, an open source mail server, shipped version 1.2.0 with support for the protocols Exchange clients speak: MAPI over HTTP, Exchange Web Services (EWS), Exchange ActiveSync and Autodiscover. Outlook, Apple Mail and the built-in apps on phones connect to it as they would to an Exchange server, with mail, calendars, contacts, tasks and notes in one account. The feature is part of the free Community edition, licensed under the AGPL. If you still run Exchange … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T05:00:26Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Stalwart 1.2.0, an open-source mail server, adds support for Exchange client protocols such as MAPI over HTTP, EWS and ActiveSync.",
+    "nl": "Stalwart 1.2.0, een open-source mailserver, ondersteunt nu Exchange-clientprotocollen zoals MAPI over HTTP, EWS en ActiveSync."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
+  "id": "670f8cdb3eab",
+  "url": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
+  "title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
+  "excerpt": "Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T00:00:00Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Spanish football league LaLiga confirmed hackers stole fans' personal data from its digital services and several clubs.",
+    "nl": "De Spaanse voetbalcompetitie LaLiga bevestigde dat hackers persoonsgegevens van fans hebben gestolen uit digitale diensten en van clubs."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
+  "id": "3e9064fe72c0",
+  "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+  "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
+  "excerpt": "A British cybercriminal who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced Monday to seven years in prison, and then released on license because of time served.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T00:00:00Z",
+  "fetched": "2026-11-24T10:59:14Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A British hacker who breached Rockstar Games and leaked Grand Theft Auto VI footage was sentenced to seven years, then released on license.",
+    "nl": "Een Britse hacker die Rockstar Games heeft gehackt en beelden van Grand Theft Auto VI lekte, is veroordeeld tot zeven jaar en daarna op voorwaarde vrijgelaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
   "id": "fe7c54f1f1e7",
   "url": "https://www.helpnetsecurity.com/2026/11/24/cybersecurity-jobs-available-right-now-november-24-2026/",
   "title": "Cybersecurity jobs available right now: November 24, 2026",

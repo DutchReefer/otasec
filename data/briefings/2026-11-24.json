@@ -1,0 +1,161 @@
+{
+ "date": "2026-11-24",
+ "published": "2026-11-24T11:00:05Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 8,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Norwegian authorities now tie the earlier Equinor and Skagerak Energi intrusions to an Azure API Management flaw, while KEPCO confirms a data breach and CODESYS Visualization gets a new advisory."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Noorse autoriteiten koppelen de eerdere inbraken bij Equinor en Skagerak Energi nu aan een kwetsbaarheid in Azure API Management. Daarnaast bevestigt KEPCO een datalek en is er een nieuwe advisory voor CODESYS Visualization."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "563deacc79f5",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+     "title": "Microsoft Azure flaw exploited to steal customers' API credentials"
+    },
+    {
+     "id": "bcc6ff74f523",
+     "name": "The Record",
+     "url": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+     "title": "Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi"
+    },
+    {
+     "id": "9436fc5b47f7",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+     "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets"
+    }
+   ],
+   "source_count": 3,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Azure API Management flaw behind attacks on Equinor and Skagerak Energi",
+     "summary": "New today: Norway's authorities link the Equinor and Skagerak Energi incidents to a vulnerability in Azure API Management (APIM) Classic tiers, which was exploited to steal stored API credentials. Norway's NSM says an unknown actor was actively looking for access tokens, secrets and named values in APIM, and that multiple businesses in the country were affected. Microsoft has fixed the flaw and is warning customers.",
+     "takeaway": "If you use Azure APIM Classic tiers, confirm the fix is applied and rotate any tokens, secrets and named values stored there, especially where they touch OT-connected services."
+    },
+    "nl": {
+     "heading": "Update: kwetsbaarheid in Azure API Management achter aanvallen op Equinor en Skagerak Energi",
+     "summary": "Nieuw vandaag: Noorse autoriteiten koppelen de incidenten bij Equinor en Skagerak Energi aan een kwetsbaarheid in de Classic-tiers van Azure API Management (APIM), die is misbruikt om opgeslagen API-gegevens te stelen. Volgens de Noorse NSM zocht een onbekende actor actief naar access tokens, secrets en named values in APIM, en zijn meerdere bedrijven in Noorwegen getroffen. Microsoft heeft de kwetsbaarheid verholpen en waarschuwt klanten.",
+     "takeaway": "Gebruikt u Azure APIM Classic tiers, controleer dan of de fix is doorgevoerd en vervang opgeslagen tokens, secrets en named values, zeker waar die raken aan OT-gekoppelde diensten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "37d815c4a561",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+     "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "KEPCO confirms data breach affecting 1.5 million",
+     "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems holding customer, employee and contractor data. KEPCO confirmed the breach affects 1.5 million people.",
+     "takeaway": "Review how corporate IT networks at utilities are separated from OT, and check what contractor and employee data your suppliers and partners hold."
+    },
+    "nl": {
+     "heading": "KEPCO bevestigt datalek bij 1,5 miljoen betrokkenen",
+     "summary": "Een dreigingsactor drong binnen op het interne netwerk van Korea Electric Power Corporation (KEPCO) en kreeg toegang tot twee systemen met klant-, medewerker- en aannemersgegevens. KEPCO bevestigt dat het lek 1,5 miljoen mensen raakt.",
+     "takeaway": "Controleer hoe het zakelijke IT-netwerk bij energiebedrijven is gescheiden van OT en welke medewerkers- en aannemersgegevens uw leveranciers en partners bewaren."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "b944b4a55e57",
+     "name": "CERT@VDE Advisories",
+     "url": "https://certvde.com/en/advisories/VDE-2026-154/",
+     "title": "CODESYS Visualization - multiple vulnerabilities"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CERT@VDE: multiple vulnerabilities in CODESYS Visualization",
+     "summary": "CERT@VDE published advisory VDE-2026-154 for CODESYS Visualization, an add-on for the CODESYS Development System. The flaws could be abused by an unauthenticated attacker controlling a malicious runtime who tricks a user into trusting it, or by a man-in-the-middle attack on communication with the CODESYS Control runtime.",
+     "takeaway": "Check whether CODESYS Visualization is used in your projects, apply the vendor's guidance, and make sure engineering workstations only trust known runtimes on protected networks."
+    },
+    "nl": {
+     "heading": "CERT@VDE: meerdere kwetsbaarheden in CODESYS Visualization",
+     "summary": "CERT@VDE publiceerde advisory VDE-2026-154 voor CODESYS Visualization, een add-on voor de CODESYS Development System. De kwetsbaarheden zijn te misbruiken door een niet-geauthenticeerde aanvaller met een kwaadaardige runtime die een gebruiker laat vertrouwen, of via een man-in-the-middle-aanval op de communicatie met de CODESYS Control runtime.",
+     "takeaway": "Controleer of CODESYS Visualization in uw projecten wordt gebruikt, volg de aanwijzingen van de leverancier en zorg dat engineeringstations alleen bekende runtimes vertrouwen op beveiligde netwerken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6f1bf7d5c08f",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/features/mythos-changes-the-clock-what-anthropics-cyber-capable-ai-models-mean-for-ot-critical-infrastructure-security/",
+     "title": "Mythos changes the clock: What Anthropic’s cyber-capable AI models mean for OT, critical infrastructure security"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Anthropic's cyber-capable AI models and what they mean for OT",
+     "summary": "Industrial Cyber looks at how Anthropic's cyber-capable AI models are changing the speed and cost of finding and fixing software vulnerabilities. The piece discusses the implications for OT and critical infrastructure security.",
+     "takeaway": "Make sure your patch and vulnerability handling process can cope with a faster flow of disclosures, including for legacy OT products."
+    },
+    "nl": {
+     "heading": "Cyberbekwame AI-modellen van Anthropic en de gevolgen voor OT",
+     "summary": "Industrial Cyber bespreekt hoe de cyberbekwame AI-modellen van Anthropic de snelheid en kosten van het vinden en verhelpen van softwarekwetsbaarheden veranderen. Het artikel gaat in op de gevolgen voor OT en de beveiliging van kritieke infrastructuur.",
+     "takeaway": "Zorg dat uw patch- en kwetsbaarhedenproces een hoger tempo van meldingen aankan, ook voor verouderde OT-producten."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "85717d87a687",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/emerson-databricks-target-it-ot-data-gap-through-native-integration-of-industrial-data-fabric-with-enterprise-ai-platform/",
+     "title": "Emerson, Databricks target IT/OT data gap through native integration of industrial data fabric with enterprise AI platform"
+    },
+    {
+     "id": "a0fccc6d3fc8",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/news/belden-expands-industrial-networking-portfolio-with-new-cabling-firmware-and-security-updates-to-strengthen-ot-resilience/",
+     "title": "Belden expands industrial networking portfolio with new cabling, firmware and security updates to strengthen OT resilience"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Vendor news: Emerson with Databricks, Belden portfolio updates",
+     "summary": "Emerson announced a collaboration with Databricks to make OT data more accessible, contextualized and AI-ready through integration with an enterprise AI platform. Belden launched new products and portfolio updates, including cabling, firmware and security updates for industrial networking.",
+     "takeaway": "When connecting OT data to enterprise or cloud platforms, review the data flows, access paths and segmentation before going live."
+    },
+    "nl": {
+     "heading": "Leveranciersnieuws: Emerson met Databricks, portfolio-updates van Belden",
+     "summary": "Emerson kondigde een samenwerking met Databricks aan om OT-data toegankelijker, beter van context voorzien en geschikt voor AI te maken via integratie met een enterprise AI-platform. Belden lanceerde nieuwe producten en portfolio-updates, waaronder bekabeling, firmware en beveiligingsupdates voor industriële netwerken.",
+     "takeaway": "Beoordeel bij het koppelen van OT-data aan enterprise- of cloudplatforms vooraf de datastromen, toegangspaden en segmentatie."
+    }
+   }
+  }
+ ]
+}
