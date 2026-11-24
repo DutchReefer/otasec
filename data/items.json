@@ -1,5 +1,583 @@
 [
  {
+  "id": "fe7c54f1f1e7",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/cybersecurity-jobs-available-right-now-november-24-2026/",
+  "title": "Cybersecurity jobs available right now: November 24, 2026",
+  "excerpt": "Applied Cyber, Detections Doppel | USA | Remote – View job details As an Applied Cyber, Detections, you will support customer detection operations, implement and optimize detection logic, and automate alert triage across web domains, social media, and other digital channels. You will investigate detection gaps, false positives, and alert issues, support customer onboarding and configurations, and collaborate with customer-facing, Engineering, and Product teams to improve detection capabilities and address cyber threats. AVP, Information Security … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T23:30:54Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 0,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A job posting for a cyber detections role at Doppel is listed.",
+    "nl": "Een vacature voor een cyber detections-functie bij Doppel wordt vermeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "37d815c4a561",
+  "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+  "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+  "excerpt": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T20:54:51Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "incident",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A threat actor breached internal network of KEPCO, a South Korean power utility, accessing customer, employee and contractor data on two systems.",
+    "nl": "Een dreigingsactor drong in het interne netwerk van KEPCO, een Zuid-Koreaans energiebedrijf, in en benaderde twee systemen met klant-, medewerkers- en contractorgegevens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "8cd483a8f794",
+  "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+  "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+  "excerpt": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T20:00:20Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "OpenRouter removed three AI providers after they violated data-handling policies and exposed sensitive data.",
+    "nl": "OpenRouter heeft drie AI-providers verwijderd nadat zij het gegevensbeleid schonden en gevoelige gegevens blootstelden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "563deacc79f5",
+  "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+  "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+  "excerpt": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T19:42:20Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft warns that a vulnerability in Azure API Management Classic tiers was exploited to steal stored API credentials, linked by Norway to attacks on energy companies.",
+    "nl": "Microsoft waarschuwt dat een kwetsbaarheid in Azure API Management Classic is misbruikt om opgeslagen API-credentials te stelen, die Noorwegen koppelt aan aanvallen op energiebedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "b58be3854e99",
+  "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+  "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+  "excerpt": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T18:38:40Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "LaLiga disclosed a data breach exposing personal information of service users and some affiliated clubs.",
+    "nl": "LaLiga heeft een datalek gemeld waarbij persoonsgegevens van gebruikers en van enkele aangesloten clubs zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "6edcda57ebae",
+  "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+  "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+  "excerpt": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T18:37:00Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Signal blocks screenshots on Apple and Google operating systems to protect data from AI agents.",
+    "nl": "Signal blokkeert screenshots op Apple- en Google-besturingssystemen om gegevens tegen AI-agents te beschermen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "4ca5a6cc42e6",
+  "url": "https://therecord.media/fbi-cyberattack-data-breach",
+  "title": "FBI reportedly facing second data breach involving National Crime Information Center",
+  "excerpt": "The FBI is reportedly investigating a data breach involving the National Crime Information Center, a database used by U.S. law enforcement agencies that contains information on criminals, fugitives and missing people.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T18:30:00Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The FBI is reportedly investigating a data breach involving the National Crime Information Center database.",
+    "nl": "De FBI onderzoekt naar verluidt een datalek bij de National Crime Information Center-database."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "1ab128c432ff",
+  "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+  "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+  "excerpt": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks. The modified variant \"implements various tricks to hide itself from security tools,\"",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T17:45:15Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "China-aligned Webworm is suspected of using a modified SoftEther VPN Bridge to hide remote access to compromised networks.",
+    "nl": "Webworm, met banden met China, zou een aangepaste SoftEther VPN Bridge gebruiken om externe toegang tot gecompromitteerde netwerken te verbergen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "c23cd2a7d9a6",
+  "url": "https://therecord.media/crowdstrike-zscaler",
+  "title": "CrowdStrike to purchase Zscaler for $43.9 billion",
+  "excerpt": "“We see a path to become the largest AI safety and security company the world has ever seen,” CrowdStrike CEO George Kurtz said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T17:14:00Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CrowdStrike agreed to acquire Zscaler for $43.9 billion, according to its CEO's statements.",
+    "nl": "CrowdStrike neemt Zscaler over voor 43,9 miljard dollar, aldus de CEO van CrowdStrike."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "2cb056b9a323",
+  "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+  "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+  "excerpt": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T16:50:01Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack disrupted GlobeTopper operations, causing about $2.5 million in lost revenue and $70,000 in stolen gift cards.",
+    "nl": "Een cyberaanval verstoorde de activiteiten van GlobeTopper, met naar schatting 2,5 miljoen dollar aan gemiste omzet en gifcards ter waarde van 70.000 dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "bcc6ff74f523",
+  "url": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+  "title": "Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi",
+  "excerpt": "Norwegian energy companies Equinor and Skagerak Energi were affected by a Microsoft cloud security vulnerability that hackers have exploited to target sensitive credentials, Norway's cybersecurity authorities said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T15:45:00Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "incident",
+   "sectors": [
+    "energy"
+   ],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Norwegian authorities say hackers exploited a Microsoft cloud vulnerability to target credentials at energy firms Equinor and Skagerak Energi.",
+    "nl": "Noorse autoriteiten melden dat hackers een Microsoft-cloudkwetsbaarheid misbruikten om credentials te stelen bij energiebedrijven Equinor en Skagerak Energi."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "ca0d1bdeb307",
+  "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+  "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+  "excerpt": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T15:10:48Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A weekly recap covers several security stories including a VMware zero-day, Java and NGINX issues.",
+    "nl": "Een wekelijks overzicht behandelt diverse beveiligingsverhalen, waaronder een VMware zero-day en problemen met Java en NGINX."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "16dab313e720",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+  "title": "GL.iNet cloud compromise hits routers and KVMs, older backdoors also found",
+  "excerpt": "Attackers compromised GoodCloud, GL.iNet’s cloud remote management service, and used it to install malware on routers and KVM (keyboard, video and mouse) devices connected to it. The Chinese company, best known for its small travel routers, is still investigating, and it’s not yet known how many devices have been affected. The incident has also sparked additional research by RemoteToHome Consulting (RTH), a GL.iNet Services Partner, and a number of users, some of whom reported finding … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T15:05:50Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "GL.iNet"
+   ],
+   "summary": {
+    "en": "Attackers compromised GL.iNet's GoodCloud service and installed malware on connected routers and KVM devices, with the scope still unknown.",
+    "nl": "Aanvallers compromitteerden de GoodCloud-dienst van GL.iNet en installeerden malware op verbonden routers en KVM-apparaten, de omvang is nog onbekend."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "57efa6c9bb78",
+  "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+  "title": "AI Agents Are Creating a Shared Responsibility Gap",
+  "excerpt": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T15:00:10Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article examines shared responsibility gaps in managing AI agent identities, permissions and accountability across platforms.",
+    "nl": "Een artikel onderzoekt hiaten in gedeelde verantwoordelijkheid bij het beheren van identiteiten, rechten en verantwoording van AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "10cf09562e70",
+  "url": "https://www.security.nl/posting/962790/CrowdStrike+neemt+Zscaler+over+en+bouwt+aan+ge%C3%AFntegreerd+securityplatform?channel=rss",
+  "title": "CrowdStrike neemt Zscaler over en bouwt aan geïntegreerd securityplatform",
+  "excerpt": "CrowdStrike heeft aangekondigd Zscaler over te nemen voor ongeveer 43,9 miljard dollar. Met de overname wil het bedrijf ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T14:51:04Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CrowdStrike announced its acquisition of Zscaler for about $43.9 billion to build an integrated security platform.",
+    "nl": "CrowdStrike heeft de overname van Zscaler aangekondigd voor ongeveer 43,9 miljard dollar om een geïntegreerd securityplatform te bouwen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "fa9072a2a2a1",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+  "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+  "excerpt": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T13:28:45Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft is testing a fix for a long-standing Windows 11 issue causing Bluetooth headphone audio quality drops.",
+    "nl": "Microsoft test een oplossing voor een langlopend Windows 11-probleem dat de audiokwaliteit van Bluetooth-koptelefoons verslechtert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "cb673b121b80",
+  "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+  "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+  "excerpt": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. \"Binary-parser before 2.3.1 contains a code injection vulnerability that allows",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T13:22:20Z",
+  "fetched": "2026-11-24T00:55:50Z",
+  "cves": [
+   "CVE-2026-134814"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A critical code injection flaw, CVE-2026-134814, in binary-parser before 2.3.1 could allow code execution via malicious parser definitions.",
+    "nl": "Een kritieke code-injectiekwetsbaarheid, CVE-2026-134814, in binary-parser voor 2.3.1 kan codeuitvoering toestaan via kwaadaardige parserdefinities."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "4ce9a256cb4e",
+  "url": "https://www.security.nl/posting/962769/Creditcardgegevens+en+beveiligingscodes+gestolen+bij+betalingsplatform+Cleverbridge?channel=rss",
+  "title": "Creditcardgegevens en beveiligingscodes gestolen bij betalingsplatform Cleverbridge",
+  "excerpt": "Het Duitse betalingsplatform Cleverbridge is getroffen door een cyberaanval waarbij hackers gevoelige betaalgegevens van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T13:17:36Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers stole credit card data and security codes from German payment platform Cleverbridge in a cyberattack.",
+    "nl": "Hackers hebben creditcardgegevens en beveiligingscodes gestolen bij het Duitse betalingsplatform Cleverbridge."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "799fd7f747a7",
+  "url": "https://www.helpnetsecurity.com/2026/11/23/cleverbridge-data-breach-card-numbers-cvv/",
+  "title": "Cleverbridge alerts customers that hackers stole their credit card and CVV numbers",
+  "excerpt": "Hackers breached e-commerce platform Cleverbridge and made off with payment card data stored on it, the company has confirmed. Cleverbridge handles purchases, payments and subscriptions for other businesses, and its website lists Red Hat, Sony, SUSE, Veeam, Tenable and Jamf among its clients. The company has not said which of them, if any, had customers affected by the breach. “On 4 November 2026, Cleverbridge detected unauthorised activity in our platform and took immediate steps to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T13:00:14Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cleverbridge confirmed hackers breached its platform and stole stored payment card data, affecting its business clients.",
+    "nl": "Cleverbridge heeft bevestigd dat hackers zijn platform zijn binnengedrongen en opgeslagen betaalkaartgegevens hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
+  "id": "1ecb7219ab8e",
+  "url": "https://www.security.nl/posting/962764/Nieuwe+bewustwordingscampagne+van+de+politie%3A+Je+trapte+er+%28bijna%29+in?channel=rss",
+  "title": "Nieuwe bewustwordingscampagne van de politie: Je trapte er (bijna) in",
+  "excerpt": "Sinds 16 september is hij online: Deckdeals.nl, een nieuwe website waar je voor een leuke prijs Pokémon kaarten kunt ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-23T12:54:47Z",
+  "fetched": "2026-11-24T00:55:51Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch police launched an awareness campaign with a website featuring Pokémon card deals used to illustrate online scams.",
+    "nl": "De Nederlandse politie is gestart met een bewustwordingscampagne met een website met Pokémon-kaartaanbiedingen om online fraude te illustreren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T00:56:12Z"
+  }
+ },
+ {
   "id": "0be15b6f8c9a",
   "url": "https://www.security.nl/posting/962760/FBI+lijkt+opnieuw+doelwit%3A+landelijke+politiedatabase+mogelijk+getroffen?channel=rss",
   "title": "FBI lijkt opnieuw doelwit: landelijke politiedatabase mogelijk getroffen",
