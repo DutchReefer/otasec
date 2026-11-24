@@ -1,5 +1,1131 @@
 [
  {
+  "id": "2f99e3ac2673",
+  "url": "https://therecord.media/mycolorado-app-down-data-breach",
+  "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+  "excerpt": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T20:52:00Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Colorado state reports a cyberattack took down the myColorado app and that data of about 150,000 users was likely stolen.",
+    "nl": "Colorado meldt dat een cyberaanval de myColorado-app heeft platgelegd en dat gegevens van naar schatting 150.000 gebruikers waarschijnlijk zijn gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "d0dd54800f0f",
+  "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+  "title": "New Inception extortion gang launches large-scale vishing campaign",
+  "excerpt": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T20:21:20Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A new data extortion group called Inception is linked to a vishing campaign targeting single sign-on credentials at multiple global firms.",
+    "nl": "Een nieuwe afpersingsgroep genaamd Inception wordt gekoppeld aan een vishingcampagne die single sign-on-gegevens van meerdere wereldwijde bedrijven doelwit maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "8a279dc69383",
+  "url": "https://therecord.media/california-privacy-agency-kemp",
+  "title": "California privacy agency director Kemp to leave after two-year tenure",
+  "excerpt": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T19:30:00Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The director of the California Privacy Protection Agency announced his departure after a two-year tenure.",
+    "nl": "De directeur van het California Privacy Protection Agency kondigt zijn vertrek aan na een ambtstermijn van twee jaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "0466d8f183e4",
+  "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+  "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+  "excerpt": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T18:59:52Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Turnitin discloses unauthorized activity involving certain customer-facing systems.",
+    "nl": "Turnitin meldt ongeautoriseerde activiteit in bepaalde klantgerichte systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "3aaf5dcdac41",
+  "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+  "title": "Radware discloses breach exposing customer cloud access keys",
+  "excerpt": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T17:49:05Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Radware"
+   ],
+   "summary": {
+    "en": "Radware says attackers accessed customer account details and cloud access keys through an exposed internal Cloud WAF management API.",
+    "nl": "Radware meldt dat aanvallers via een blootgestelde interne Cloud WAF-beheer-API toegang kregen tot accountgegevens en cloudtoegangssleutels van klanten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "2db8a6398bac",
+  "url": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+  "title": "Lawmakers warn ID verification companies to bolster security after September hack",
+  "excerpt": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T17:49:00Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Bipartisan lawmakers urge identity verification companies to strengthen security following a breach at IDscan.",
+    "nl": "Wetgevers uit beide partijen roepen bedrijven voor identiteitsverificatie op hun beveiliging te verbeteren na een datalek bij IDscan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "6b48789d1147",
+  "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+  "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+  "excerpt": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for command-and-control (C2) and deploys Homa, a post-compromise framework that's a reimplementation of",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T16:54:07Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Iran-aligned group Volant Manticore targeted telecoms, airlines and critical infrastructure in Cyprus using the KuboShell backdoor, which uses IPFS for command-and-control.",
+    "nl": "De Iran-gelieerde groep Volant Manticore viel telecombedrijven, luchtvaartmaatschappijen en kritieke infrastructuur in Cyprus aan met de KuboShell-backdoor, die IPFS gebruikt voor command-and-control."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "0702c2231a4b",
+  "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+  "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+  "excerpt": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T16:30:19Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The ShinyHunters extortion gang claims to have returned on a new leak site after recent arrests of alleged members.",
+    "nl": "De afpersingsgroep ShinyHunters beweert terug te zijn op een nieuwe leaksite na recente arrestaties van vermeende leden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "db1576441bfa",
+  "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+  "title": "European Commission confirms data theft in EU Academy breach",
+  "excerpt": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T16:22:44Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The European Commission confirms attackers stole personal data of an undisclosed number of users from its EU Academy learning hub.",
+    "nl": "De Europese Commissie bevestigt dat aanvallers persoonsgegevens van een onbekend aantal gebruikers uit de EU Academy-leeromgeving hebben gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "9619b3178437",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+  "title": "Hackers compromise Check Point Servers in 22 organizations",
+  "excerpt": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T16:15:23Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Check Point"
+   ],
+   "summary": {
+    "en": "Threat actors exploited multiple vulnerabilities to compromise about two dozen Check Point Security management servers at 22 organizations.",
+    "nl": "Dreigingsactoren misbruikten meerdere kwetsbaarheden om ongeveer twee dutjes Check Point Security-beheerservers te compromitteren bij 22 organisaties."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "c404df7a53b5",
+  "url": "https://www.security.nl/posting/962992/Danfoss-koelsystemen+via+kritiek+lek+op+afstand+over+te+nemen?channel=rss",
+  "title": "Danfoss-koelsystemen via kritiek lek op afstand over te nemen",
+  "excerpt": "Koelsystemen van leverancier Danfoss zijn via een kritieke kwetsbaarheid op afstand over te nemen en een beveiligingsupdate ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T16:09:00Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "food"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Danfoss cooling systems can be taken over remotely through a critical vulnerability, and a security update is available.",
+    "nl": "Koelsystemen van Danfoss kunnen via een kritieke kwetsbaarheid op afstand worden overgenomen, en er is een beveiligingsupdate beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  },
+  "title_en": "Danfoss cooling systems can be taken over remotely via critical flaw"
+ },
+ {
+  "id": "076062d7e09e",
+  "url": "https://therecord.media/carnegie-endowment-data-breach",
+  "title": "Carnegie Endowment for International Peace says third-party breach leaked donation info",
+  "excerpt": "Some donors to the Carnegie Endowment for International Peace had their information leaked due to a cyberattack on a third-party vendor named Soapbox Engage.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T16:00:00Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Carnegie Endowment for International Peace says donor information leaked after a cyberattack on third-party vendor Soapbox Engage.",
+    "nl": "Carnegie Endowment for International Peace meldt dat donorgegevens zijn gelekt na een cyberaanval op leverancier Soapbox Engage."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "4735e2583095",
+  "url": "https://www.security.nl/posting/962987/Mozilla+dicht+ruimt+honderd+Firefox-lekken%2C+biedt+vpn-optie+per+website?channel=rss",
+  "title": "Mozilla dicht ruimt honderd Firefox-lekken, biedt vpn-optie per website",
+  "excerpt": "Mozilla heeft een nieuwe versie van Firefox uitgebracht waarmee meer dan honderd beveiligingslekken in de browser zijn gedicht. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T15:40:39Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Mozilla"
+   ],
+   "summary": {
+    "en": "Mozilla released a new Firefox version fixing more than one hundred security vulnerabilities.",
+    "nl": "Mozilla heeft een nieuwe Firefox-versie uitgebracht die meer dan honderd beveiligingslekken dicht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "e2a3c45c428f",
+  "url": "https://industrialcyber.co/ransomware/check-point-tracks-q3-ransomware-activity-declining-ransom-payments-growing-fragmentation-across-117-brands/",
+  "title": "Check Point tracks Q3 ransomware activity, declining ransom payments, growing fragmentation across 117 brands",
+  "excerpt": "New Check Point data reported that ransomware activity hit a record 2,830 victims in the third quarter of...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-24T15:11:54Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Check Point"
+   ],
+   "summary": {
+    "en": "Check Point reports record ransomware victim numbers in Q3 with declining ransom payments and growing fragmentation.",
+    "nl": "Check Point rapporteert een record aantal ransomware-slachtoffers in het derde kwartaal, met dalende losgeldbetalingen en meer fragmentatie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "ec1103993ff6",
+  "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+  "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+  "excerpt": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T15:10:10Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Law enforcement from 11 countries disrupted 57 illegal streaming services with millions of yearly visits.",
+    "nl": "Opsporingsinstanties uit 11 landen hebben 57 illegale streamingdiensten offline gehaald die jaarlijks miljoenen bezoeken trokken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "6687a98c06ef",
+  "url": "https://industrialcyber.co/threats-attacks/osaki-electric-ransomware-attack-disrupts-smart-meter-production-raising-supplier-continuity-concerns-across-asia-pacific/",
+  "title": "Osaki Electric ransomware attack disrupts smart meter production, raising supplier continuity concerns across Asia-Pacific",
+  "excerpt": "The OT Information Sharing and Analysis Center (OT-ISAC) published a report on the ransomware attack against Japan-based electrical...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-24T15:08:37Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "incident",
+   "sectors": [
+    "manufacturing",
+    "energy"
+   ],
+   "vendors": [
+    "Osaki Electric"
+   ],
+   "summary": {
+    "en": "A ransomware attack on Japanese electrical equipment maker Osaki Electric disrupted smart meter production, according to an OT-ISAC report.",
+    "nl": "Een ransomwareaanval op de Japanse elektrotechnische fabrikant Osaki Electric heeft de productie van slimme meters verstoord, volgens een rapport van OT-ISAC."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "e9abaee561eb",
+  "url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+  "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+  "excerpt": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce vulnerability noise and improve software resilience. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T15:01:11Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "RapidFort"
+   ],
+   "summary": {
+    "en": "RapidFort promotes runtime visibility and container hardening to reduce vulnerability noise in software supply chains.",
+    "nl": "RapidFort promoot runtime-zichtbaarheid en container-hardening om kwetsbaarheidsruis in softwareketens te verminderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "8476cf372163",
+  "url": "https://therecord.media/cisa-nable-cybersecurity-bug",
+  "title": "CISA warns of exploited N-able bug as company restores email platform",
+  "excerpt": "The U.S. cyber agency is giving government departments until Thanksgiving to patch a vulnerability impacting a critical email security platform that blocks spam, malware and other threats.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T15:00:00Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "N-able"
+   ],
+   "summary": {
+    "en": "CISA gives federal agencies until Thanksgiving to patch an exploited N-able email security platform vulnerability.",
+    "nl": "CISA geeft overheidsinstanties tot Thanksgiving om een actief misbruikte kwetsbaarheid in het N-able e-mailbeveiligingsplatform te patchen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "37b298b96b98",
+  "url": "https://www.security.nl/posting/962970/VMware+waarschuwt+voor+kritieke+kwetsbaarheden%3A+%27Geven+aanvaller+toegang%27?channel=rss",
+  "title": "VMware waarschuwt voor kritieke kwetsbaarheden: 'Geven aanvaller toegang'",
+  "excerpt": "VMware waarschuwt voor meerdere kritieke kwetsbaarheden in verschillende producten, waardoor aanvallers toegang tot systemen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T14:56:59Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "VMware"
+   ],
+   "summary": {
+    "en": "VMware warns of multiple critical vulnerabilities in several products that could let attackers gain access to systems.",
+    "nl": "VMware waarschuwt voor meerdere kritieke kwetsbaarheden in verschillende producten waardoor aanvallers toegang tot systemen kunnen krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "61159764af35",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/cloudera-digital-sovereignty/",
+  "title": "Cloudera helps enterprises deploy sovereign AI without proprietary lock-in",
+  "excerpt": "Cloudera has announced Cloudera for Digital Sovereignty, a solution and partner ecosystem designed to give organizations jurisdictional, operational, and technical control across their data, cloud, and AI lifecycle. Bringing together Cloudera Anywhere Cloud, Cloudera’s Open Data Lakehouse and Unified Data Fabric, and natively integrated Mistral open-weight models and Mistral Forge, the solution enables organizations to deploy governed data and private AI across sovereign clouds, private data centers, and fully air-gapped environments. Built on open standards … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T14:33:35Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Cloudera",
+    "Mistral"
+   ],
+   "summary": {
+    "en": "Cloudera announces a sovereign AI solution with data, cloud and AI controls for enterprises.",
+    "nl": "Cloudera kondigt een soevereine AI-oplossing aan met data-, cloud- en AI-controle voor bedrijven."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:15:59Z"
+  }
+ },
+ {
+  "id": "6561d3ddaba6",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/astelia-autonomous-network-mitigation/",
+  "title": "Astelia blocks attack paths to vulnerabilities without waiting for patches",
+  "excerpt": "Astelia has announced autonomous network mitigation, a new capability that defends against AI-driven exploits by blocking attack paths to reachable vulnerabilities at the network level. Organizations can now eliminate the 1% of vulnerabilities attackers can reach without waiting for a patch. The mitigation workflow · 6 steps, 1 approval branch (Source: Astelia) Frontier AI models have cut the time to exploit to almost zero. Manual triage and remediation can’t keep up, so organizations need to … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T14:24:11Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Astelia"
+   ],
+   "summary": {
+    "en": "Astelia announced an autonomous network mitigation product that blocks attack paths to reachable vulnerabilities.",
+    "nl": "Astelia kondigde een product voor autonome netwerkmitigatie aan dat aanvalspaden naar bereikbare kwetsbaarheden blokkeert."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "02985f084c08",
+  "url": "https://www.security.nl/posting/962946/Bluetooth-lek+geeft+aanvaller+toegang+tot+remmen+caravans+en+aanhangwagens?channel=rss",
+  "title": "Bluetooth-lek geeft aanvaller toegang tot remmen caravans en aanhangwagens",
+  "excerpt": "Onderzoekers hebben verschillende kritieke bluetooth-lekken ontdekt waardoor aanvallers toegang tot het remsysteem van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T14:17:00Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "research",
+   "sectors": [
+    "transport"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found several critical Bluetooth vulnerabilities that could give attackers access to the braking system of caravans and trailers.",
+    "nl": "Onderzoekers vonden meerdere kritieke Bluetooth-kwetsbaarheden waarmee aanvallers toegang kunnen krijgen tot het remsysteem van caravans en aanhangwagens."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "f9736116829f",
+  "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+  "title": "McDonald's Japan data breach exposes customer location information",
+  "excerpt": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T14:09:37Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "McDonald's Japan disclosed a data breach in which attackers accessed a database with customer data from its smartphone app.",
+    "nl": "McDonald's Japan meldde een datalek waarbij aanvallers toegang kregen tot een database met klantgegevens van de smartphone-app."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "787d8122158f",
+  "url": "https://www.security.nl/posting/962942/%27Vooral+laaghangend+fruit+misbruikt+bij+cyberaanvallen+door+AI-agents%27?channel=rss",
+  "title": "'Vooral laaghangend fruit misbruikt bij cyberaanvallen door AI-agents'",
+  "excerpt": "Bij cyberaanvallen door AI-agents en AI-frameworks wordt vooral laaghangend fruit misbruikt, zoals credentials in publieke ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T13:45:13Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Cyberattacks by AI agents and AI frameworks mostly exploit easy targets such as credentials exposed in public places.",
+    "nl": "Cyberaanvallen door AI-agents en AI-frameworks misbruiken vooral eenvoudige doelwitten, zoals credentials die openbaar staan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "6f9c49c9eead",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/",
+  "title": "GTA 6 hacker sentenced to seven years and released the same day",
+  "excerpt": "The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced. Arion Kurtaj, 21, formerly of Oxfordshire, pleaded guilty to six charges, including fraud and computer misuse offences, at Woolwich Crown Court on 16 November. The court set a nine-year term and then took off two years for the time … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T13:35:37Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Lapsus$ member who leaked GTA 6 footage was sentenced to seven years in prison and released on licence the same day.",
+    "nl": "Een Lapsus$-lid dat beelden van GTA 6 lekte, kreeg zeven jaar gevangenisstraf en werd dezelfde dag op voorwaarde vrijgelaten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "e3bc9e96af71",
+  "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+  "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+  "excerpt": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T13:34:23Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Cisco",
+    "OpenAI"
+   ],
+   "summary": {
+    "en": "OpenAI and Cisco released Shirudo, an open-source Linux tool that applies temporary runtime protections against exploits until patches are installed.",
+    "nl": "OpenAI en Cisco brachten Shirudo uit, een open-source Linux-tool die tijdelijke runtime-beveiliging biedt tot patches zijn geinstalleerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "db22ce6bdf49",
+  "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+  "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+  "excerpt": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T13:28:26Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [
+   "CVE-2026-123903"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 40,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "VMware",
+    "Broadcom"
+   ],
+   "summary": {
+    "en": "Broadcom patched 23 VMware vulnerabilities, including critical flaw CVE-2026-123903 that allows authentication bypass in vCenter, after prior zero-day exploitation.",
+    "nl": "Broadcom heeft 23 VMware-kwetsbaarheden verholpen, waaronder de kritieke fout CVE-2026-123903 die authenticatie-omzeiling in vCenter mogelijk maakt, na eerder zero-day misbruik."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "0c4445d4ccaf",
+  "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+  "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+  "excerpt": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T13:28:21Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Okta linked the ShinyHunters-associated vishing cluster O-UNC-053 to a new data leak site called INCEPTION.",
+    "nl": "Okta koppelde het aan ShinyHunters gelieerde vishing-cluster O-UNC-053 aan een nieuwe dataleaksite genaamd INCEPTION."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "6f6d32f0ca12",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0514",
+  "title": "NCSC-2026-0514 [1.00] [M/H] Kwetsbaarheden verholpen in Mitel MiCollab",
+  "excerpt": "Mitel heeft meerdere kwetsbaarheden verholpen in Mitel MiCollab, specifiek in de Audio, Web en Video Conferencing component, voor versies tot en met 10.3.0.18. De kwetsbaarheden bevinden zich in de Audio, Web en Video Conferencing component van Mitel MiCollab. Ongeauthenticeerde aanvallers kunnen door onvoldoende validatie van geüploade bestandstypen willekeurige bestanden uploaden, wat kan leiden tot het uitvoeren van kwaadaardige code of verstoring van systeemprocessen. Daarnaast kunnen zij XML-injectie aanvallen uitvoeren door gebruik te maken van vooraf geplaatste kwaadaardige inhoud…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-24T13:25:44Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Mitel"
+   ],
+   "summary": {
+    "en": "Mitel fixed multiple vulnerabilities in MiCollab up to version 10.3.0.18, allowing unauthenticated file uploads and possible code execution.",
+    "nl": "Mitel heeft meerdere kwetsbaarheden verholpen in MiCollab tot en met versie 10.3.0.18, waarmee ongeauthenticeerde bestandsuploads en mogelijke codeuitvoering mogelijk waren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "6bdbac6b2795",
+  "url": "https://www.security.nl/posting/962928/CNV%3A+werknemer+wil+dat+camerabril+op+werkvloer+wordt+verboden?channel=rss",
+  "title": "CNV: werknemer wil dat camerabril op werkvloer wordt verboden",
+  "excerpt": "Een groot deel van de werknemers maakt zich zorgen over het gebruik van camerabrillen op de werkvloer en wil een verbod, zo ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T13:14:20Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A large share of Dutch employees is worried about camera glasses in the workplace and wants a ban, according to the CNV union.",
+    "nl": "Een groot deel van de Nederlandse werknemers maakt zich zorgen over camerabrillen op de werkvloer en wil volgens vakbond CNV een verbod."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "32d784244c7b",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/",
+  "title": "ShinyHunters-linked crew resurfaces on new leak site",
+  "excerpt": "The ShinyHunters leak site went dark in September, but a crew that supplied it with victims seems to have found a new home under the “Inception” name, Okta’s threat intelligence team has discovered. Okta tracks the crew as O-UNC-053, a cluster that has been running social engineering and credential-harvesting campaigns since March 2026. Its targets include companies in technology, healthcare, biotech, financial services, insurance, entertainment, gaming, retail, transportation, hospitality and the legal sector. “While this … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T12:47:07Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Okta reports that the crew behind the ShinyHunters leak site, tracked as O-UNC-053, has moved to a new Inception leak site.",
+    "nl": "Okta meldt dat de groep achter de ShinyHunters-leaksite, gevolgd als O-UNC-053, is verhuisd naar een nieuwe Inception-leaksite."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "0b51fd0def8c",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/bedrock-data-agent-dlp/",
+  "title": "Bedrock Data enhances AI agent governance with intent-aware DLP",
+  "excerpt": "Bedrock Data has announced that Agent DLP, its runtime data loss prevention for AI agents, now infers a user’s intent (the business purpose behind the task) and evaluates the agent’s behavior (the sum of its actions across every tool and LLM call) against that intent and the organization’s policy. By weighing both intent and behavior, Agent DLP lets employees keep working with AI agents while sensitive data stays protected. Agent DLP adds support for off-the-shelf … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T12:34:02Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Bedrock Data"
+   ],
+   "summary": {
+    "en": "Bedrock Data announced an update to its Agent DLP product that evaluates AI agent behavior against user intent and policy.",
+    "nl": "Bedrock Data kondigde een update van zijn Agent DLP-product aan die gedrag van AI-agents toetst aan gebruikersintentie en beleid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "c896d917ef1a",
+  "url": "https://www.security.nl/posting/962900/Rabobank-klant+krijgt+betaaltransacties+met+gestolen+telefoon+niet+vergoed?channel=rss",
+  "title": "Rabobank-klant krijgt betaaltransacties met gestolen telefoon niet vergoed",
+  "excerpt": "Een klant van de Rabobank krijgt niet-toegestane betaaltransacties die met zijn gestolen telefoon werden uitgevoerd niet ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T12:34:00Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Rabobank customer is not reimbursed for unauthorized payments made with a stolen phone.",
+    "nl": "Een Rabobank-klant krijgt niet-toegestane betalingen die met een gestolen telefoon zijn gedaan niet vergoed."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "07731621ec00",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/elastic-security-9-6-features/",
+  "title": "Elastic puts AI agents to work on the SOC alert backlog",
+  "excerpt": "Elastic announced Elastic Security 9.6, which introduces AlertZero, a set of AI agents that triage alerts, hunt threats and tune detection rules in the background. The release also adds ransomware protection for Linux, expanded entity resolution and an expanded set of 143 detection rules covering AI agents and large language model platforms. AlertZero takes on the alert queue AlertZero organizes its agents, called Workers, into four teams known as Watches: triage, threat hunting, detection engineering … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T12:27:45Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Elastic"
+   ],
+   "summary": {
+    "en": "Elastic released Security 9.6 with AlertZero AI agents that triage alerts and add Linux ransomware protection and 143 detection rules.",
+    "nl": "Elastic bracht Security 9.6 uit met AlertZero AI-agents die meldingen triëren, Linux-ransomwarebescherming en 143 detectieregels."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "a357e7a402aa",
+  "url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/",
+  "title": "Azure API Management vulnerability exploited to steal customers’ secrets",
+  "excerpt": "Attackers have exploited a vulnerability in Azure API Management (APIM) to steal credentials stored in customers’ instances, Microsoft has warned. Among the victims are several Norwegian organizations, including energy companies Equinor and Skagerak Energi, and organizations in other sectors and outside Norway, the country’s National Security Authority (NSM) confirmed. APIM Classic tiers affected APIM is a gateway that sits in front of an organization’s APIs and handles authentication, routing and rate limiting. To call the … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T12:04:37Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "energy",
+    "cross_sector"
+   ],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Attackers exploited a vulnerability in Azure API Management to steal stored customer credentials, with Norwegian energy firms Equinor and Skagerak Energi among the victims.",
+    "nl": "Aanvallers misbruikten een kwetsbaarheid in Azure API Management om opgeslagen credentials van klanten te stelen, waaronder de Noorse energiebedrijven Equinor en Skagerak Energi."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "bb2efaa9d0e6",
+  "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+  "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+  "excerpt": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268, and Windows code integrity, tracked",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T12:02:00Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [
+   "CVE-2026-87268"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Oracle"
+   ],
+   "summary": {
+    "en": "Google researcher James Forshaw showed a .NET loading quirk that bypassed Windows code integrity and VirtualBox hardening, tracked as CVE-2026-87268.",
+    "nl": "Google-onderzoeker James Forshaw toonde een .NET-laadprobleem aan dat Windows code-integriteit en VirtualBox-beveiliging omzeilt, gevolgd als CVE-2026-87268."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "bb2aa84be511",
+  "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+  "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+  "excerpt": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual investigations, repeated checks, and unnecessary escalations continue to drain resources. As",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T12:01:54Z",
+  "fetched": "2026-11-24T21:15:37Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "ANY.RUN"
+   ],
+   "summary": {
+    "en": "ANY.RUN estimates that SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis.",
+    "nl": "ANY.RUN schat dat SOC-teams per 1.000 onderzochte meldingen 450 analistenuren kunnen terugwinnen via snellere dreigingsanalyse."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "b16bcfc32d82",
+  "url": "https://www.security.nl/posting/962877/%27Bedrijven+proberen+datalekken+nog+steeds+te+verzwijgen+en+bagatelliseren%27?channel=rss",
+  "title": "'Bedrijven proberen datalekken nog steeds te verzwijgen en bagatelliseren'",
+  "excerpt": "Bedrijven proberen datalekken nog steeds te verzwijgen en bagatelliseren, waarbij ze hun eigen belang boven dat van getroffen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T11:00:07Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Companies still try to conceal and downplay data breaches, putting their own interests above those of affected people.",
+    "nl": "Bedrijven proberen datalekken nog steeds te verzwijgen en te bagatelliseren, waarbij ze hun eigen belang boven dat van getroffenen stellen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
   "id": "89af620cce7c",
   "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
   "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
@@ -712,6 +1838,76 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-24T10:59:45Z"
+  }
+ },
+ {
+  "id": "48d3fd7dcdaf",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+  "title": "ICSA-26-328-03: Danfoss AK-SM 8xxA Series",
+  "excerpt": "Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. Sectors: Commercial Facilities.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-24T06:00:00Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [
+   "CVE-2026-129713"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "advisory",
+   "sectors": [
+    "building"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "Danfoss advisory ICSA-26-328-03 describes a flaw in AK-SM 8xxA series controllers that could allow arbitrary code execution with webserver privileges.",
+    "nl": "Danfoss-advisory ICSA-26-328-03 beschrijft een fout in AK-SM 8xxA-regelaars waarmee code met webserverrechten kan worden uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
+  }
+ },
+ {
+  "id": "e51774e82e31",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+  "title": "ICSA-26-328-01: AutomationDirect C-More EA9 Programming Software",
+  "excerpt": "Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. Sectors: Critical Manufacturing, Energy, Water and Wastewater Systems.",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-24T06:00:00Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [
+   "CVE-2026-127280"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "manufacturing",
+    "energy",
+    "water"
+   ],
+   "vendors": [
+    "AutomationDirect"
+   ],
+   "summary": {
+    "en": "CISA advisory ICSA-26-328-01 describes a memory corruption flaw in AutomationDirect C-More EA9 software that can cause crashes or code execution via a malicious file.",
+    "nl": "CISA-advisory ICSA-26-328-01 beschrijft een geheugenfout in AutomationDirect C-More EA9-software die crashes of codeuitvoering kan veroorzaken via een kwaadaardig bestand."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:17Z"
   }
  },
  {
@@ -20026,6 +21222,41 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-10T09:55:23Z"
+  }
+ },
+ {
+  "id": "8a9341bb4ce7",
+  "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+  "title": "ICSA-26-328-02: Schneider Electric EcoStruxure Power Build Rapsody software",
+  "excerpt": "Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your switchboard, including all devices, connection items, and mounting components Failure to apply the remediations provided below may risk memory corruption, heap-based buffer overflow, and/or stack-based buffer overflow, which could result in local attackers being able to exploit these issues to potentially execute arbitrary code. Sectors: Energy, Critical…",
+  "source_id": "cisa-ics",
+  "source": "CISA ICS Advisories",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-10T08:00:00Z",
+  "fetched": "2026-11-24T21:15:38Z",
+  "cves": [
+   "CVE-2026-119055"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "energy",
+    "manufacturing"
+   ],
+   "vendors": [
+    "Schneider Electric"
+   ],
+   "summary": {
+    "en": "CISA published advisory ICSA-26-328-02 on a vulnerability in Schneider Electric EcoStruxure Power Build Rapsody that may allow memory corruption and buffer overflows by local attackers.",
+    "nl": "CISA publiceerde advisory ICSA-26-328-02 over een kwetsbaarheid in Schneider Electric EcoStruxure Power Build Rapsody die geheugencorruptie en buffer-overflows door lokale aanvallers mogelijk maakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-24T21:16:18Z"
   }
  },
  {
