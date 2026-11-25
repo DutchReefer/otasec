@@ -1,5 +1,33 @@
 [
  {
+  "id": "7630d9330923",
+  "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+  "title": "Rackspace shuts down Spot cloud platform after security breach",
+  "excerpt": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-24T21:37:30Z",
+  "fetched": "2026-11-25T04:18:49Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Rackspace is shutting down its Spot cloud platform after a breach gave hackers access to customer Kubernetes clusters and secrets, with customers given until December 8 to migrate.",
+    "nl": "Rackspace sluit zijn Spot-cloudplatform na een datalek waarbij hackers toegang kregen tot Kubernetes-clusters en geheimen van klanten, met tot 8 december om te migreren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T04:18:53Z"
+  }
+ },
+ {
   "id": "2f99e3ac2673",
   "url": "https://therecord.media/mycolorado-app-down-data-breach",
   "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
