@@ -1,5 +1,1295 @@
 [
  {
+  "id": "c40bac75cb7f",
+  "url": "https://www.security.nl/posting/963145/Schoenenwinkel+vanHaren+waarschuwt+klanten+voor+datalek?channel=rss",
+  "title": "Schoenenwinkel vanHaren waarschuwt klanten voor datalek",
+  "excerpt": "Schoenenwinkel vanHaren heeft klanten vandaag gewaarschuwd voor een datalek, waarbij allerlei persoonsgegevens zijn gestolen. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T15:24:00Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Shoe retailer vanHaren warned customers about a data breach in which personal data was stolen.",
+    "nl": "Schoenenwinkel vanHaren heeft klanten gewaarschuwd voor een datalek waarbij persoonsgegevens zijn gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "63a73908b67d",
+  "url": "https://www.security.nl/posting/963137/Belgische+politie+adviseert+uitschakelen+admin-gebruiker+op+slimme+apparaten?channel=rss",
+  "title": "Belgische politie adviseert uitschakelen admin-gebruiker op slimme apparaten",
+  "excerpt": "De Belgische politie adviseert mensen om de admin-gebruiker op slimme apparaten uit te schakelen en een account met een andere ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T15:10:34Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Belgian police advise users to disable the admin user on smart devices and use an account with different rights.",
+    "nl": "De Belgische politie adviseert gebruikers de admin-gebruiker op slimme apparaten uit te schakelen en een account met andere rechten te gebruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "e51879cf88df",
+  "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+  "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+  "excerpt": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T15:00:10Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "PentestPad describes how AI can reduce documentation and reporting workload for penetration testers.",
+    "nl": "PentestPad beschrijft hoe AI de documentatie- en rapportagewerkzaamheden van pentesters kan verminderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "7560054da608",
+  "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+  "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+  "excerpt": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T15:00:00Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "research",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Eclypsium's InfraTrust report finds most recently exploited infrastructure advisories involve third-party software bundled in network appliances.",
+    "nl": "Het InfraTrust-rapport van Eclypsium stelt dat de meeste recente advisories over actief misbruikte infrastructuurlekken te maken hebben met third-party software in netwerkappliances."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "1c9f606d62f0",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/shufti-fraud-hub/",
+  "title": "Shufti Fraud Hub exposes suspicious links between seemingly legitimate accounts",
+  "excerpt": "Shufti has announced the launch of its Fraud Hub, a connected fraud intelligence layer designed to detect suspicious verification attempts, identify coordinated fraud networks and monitor emerging risks across the user lifecycle. Shufti Fraud Hub connects identity, device, biometric, and behavioural signals to help businesses spot threats that individual checks may miss and make context-aware decisions before fraud escalates. Traditional fraud prevention often relies on assessing accounts individually, particularly during onboarding. Yet passing identity verification … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T14:45:00Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Shufti has launched a Fraud Hub product that connects identity and behavioural signals to detect fraud networks.",
+    "nl": "Shufti heeft Fraud Hub gelanceerd, een productlaag die identiteits- en gedragssignalen koppelt om fraudenetwerken te detecteren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "ce27cf3482e1",
+  "url": "https://www.security.nl/posting/963124/DIVD+publiceert+onderzoek+naar+hack%3A+%27Aanvaller+voerde+ARP+spoofing-aanval+uit%27?channel=rss",
+  "title": "DIVD publiceert onderzoek naar hack: 'Aanvaller voerde ARP spoofing-aanval uit'",
+  "excerpt": "Het Dutch Institute for Vulnerability Disclosure (DIVD) heeft het rapport gepubliceerd van het forensisch onderzoek dat naar ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T14:40:10Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "DIVD published a forensic report on a hack in which the attacker carried out an ARP spoofing attack.",
+    "nl": "DIVD heeft een forensisch rapport gepubliceerd over een hack waarbij de aanvaller een ARP spoofing-aanval uitvoerde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "f04132997095",
+  "url": "https://www.security.nl/posting/963116/Britse+overheid+overweegt+verplichte+leeftijdsverificatie+voor+eBay+en+Vinted?channel=rss",
+  "title": "Britse overheid overweegt verplichte leeftijdsverificatie voor eBay en Vinted",
+  "excerpt": "De Britse overheid overweegt of de verplichte leeftijdsverificatie voor social media naar eBay, Vinted en andere websites moet ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T13:42:18Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The UK government is considering mandatory age verification for eBay, Vinted and other websites.",
+    "nl": "De Britse overheid overweegt verplichte leeftijdsverificatie voor eBay, Vinted en andere websites."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "9f004b683c52",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
+  "title": "Critical Drupal installer flaw under active attack (CVE-2026-132165)",
+  "excerpt": "Attackers have been exploiting CVE-2026-132165, a flaw that lets them take over unpatched Drupal sites without logging in, since at least November 19, the Drupal Security Team has warned. Drupal is a free and open-source web content management system used by government agencies, universities, media outlets and large enterprises. The vulnerability is one of three that the US Cybersecurity and Infrastructure Security Agency (CISA) added to its Known Exploited Vulnerabilities catalog on Tuesday, and federal … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T13:37:28Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [
+   "CVE-2026-132165"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are exploiting CVE-2026-132165 to take over unpatched Drupal sites without logging in, and CISA added it to its KEV catalog.",
+    "nl": "Aanvallers misbruiken CVE-2026-132165 om onbeveiligde Drupal-sites over te nemen zonder in te loggen, en CISA heeft de kwetsbaarheid aan de KEV-catalogus toegevoegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "fa1f50764b02",
+  "url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+  "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+  "excerpt": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to pen and paper.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T13:30:00Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A suspected ransomware attack disrupted systems at the University Hospital of Guadeloupe, forcing postponed surgeries, suspended cancer treatments and paper-based workflows.",
+    "nl": "Een vermoedelijke ransomware-aanval heeft de systemen van het Universitair Ziekenhuis van Guadeloupe verstoord, waardoor operaties werden uitgesteld, kankerbehandelingen werden opgeschort en er op papier moest worden gewerkt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "930fc1542b15",
+  "url": "https://www.security.nl/posting/963105/%27Data+1%2C2+miljoen+Belgen+gestolen+door+aanvaller+met+nauwelijks+technische+kennis%27?channel=rss",
+  "title": "'Data 1,2 miljoen Belgen gestolen door aanvaller met nauwelijks technische kennis'",
+  "excerpt": "Een aanvaller met 'nauwelijks technische kennis' heeft met behulp van een AI-agent de persoonsgegevens van 1,2 miljoen Belgen ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T12:55:00Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An attacker with limited technical skill used an AI agent to steal personal data of 1.2 million Belgians.",
+    "nl": "Een aanvaller met beperkte technische kennis heeft met behulp van een AI-agent persoonsgegevens van 1,2 miljoen Belgen gestolen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "92db407f26f0",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+  "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+  "excerpt": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T12:48:54Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [
+   "CVE-2026-120705",
+   "CVE-2026-129243"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Threat actors are actively exploiting two patched GeoServer flaws, CVE-2026-120705 and CVE-2026-129243, according to watchTowr.",
+    "nl": "Dreigingsactoren misbruiken actief twee gepatchte GeoServer-kwetsbaarheden, CVE-2026-120705 en CVE-2026-129243, volgens watchTowr."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "851806c24f2d",
+  "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+  "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+  "excerpt": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline. The bureau collects suspicious activity reports and other Bank Secrecy Act (BSA) filings from banks and other financial",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T12:30:08Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The US Treasury's FinCEN took some systems offline after unauthorized access to a limited subset of its systems.",
+    "nl": "FinCEN van het Amerikaanse Ministerie van Financiën heeft enkele systemen offline gehaald na ongeautoriseerde toegang tot een beperkt deel ervan."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "6a8ceb0f7d1b",
+  "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+  "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+  "excerpt": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T11:51:48Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GitGuardian data shows most leaked secrets remain valid, and teams hesitate to revoke them because of possible breakage.",
+    "nl": "Gegevens van GitGuardian tonen dat de meeste gelekte geheimen geldig blijven, omdat teams aarzelen ze in te trekken uit angst voor storingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "d52cc031d711",
+  "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+  "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T11:23:26Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [
+   "CVE-2026-132165"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CISA added the critical Drupal RCE flaw CVE-2026-132165 (Fail2Install) to its KEV catalog as exploit details emerge.",
+    "nl": "CISA heeft de kritieke Drupal RCE-kwetsbaarheid CVE-2026-132165 (Fail2Install) aan de KEV-catalogus toegevoegd terwijl exploitdetails naar buiten komen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "35351ba93982",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/",
+  "title": "Bots exploited leaked AWS key from Docker image in under 8 seconds",
+  "excerpt": "A cloud access key left inside a newly published Docker image can be found and used by bots in less than eight seconds, Billy Tsouvalas and Nick Nikiforakis of Stony Brook University discovered after planting 300 decoy images on public container registries. Docker images are packaged copies of software, bundled with everything needed to run it, and developers publish them to public registries such as Docker Hub, which hosts over 14 million of them, so … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T11:22:32Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found bots used a cloud access key leaked in a Docker image within eight seconds.",
+    "nl": "Onderzoekers ontdekten dat bots een cloudtoegangssleutel uit een Docker-image binnen acht seconden misbruikten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "ae777670299b",
+  "url": "https://www.security.nl/posting/963087/Experts+hekelen+biometrische+gezichtsscans+door+bedrijven%3A+%27Dit+is+illegaal%27?channel=rss",
+  "title": "Experts hekelen biometrische gezichtsscans door bedrijven: 'Dit is illegaal'",
+  "excerpt": "Verschillende experts zijn kritisch op de biometrische gezichtsscans die bedrijven zoals DHL, YoungCapital en Randstad bij ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T11:18:00Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Experts criticize biometric face scans used by companies such as DHL, YoungCapital and Randstad, calling them illegal.",
+    "nl": "Experts uiten kritiek op biometrische gezichtsscans door bedrijven zoals DHL, YoungCapital en Randstad en noemen die illegaal."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "7173002f9364",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+  "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+  "excerpt": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T11:16:32Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft resolved a known issue that blocked some Microsoft 365 customers from accessing Office apps.",
+    "nl": "Microsoft heeft een bekend probleem opgelost waardoor sommige Microsoft 365-klanten geen toegang hadden tot Office-apps."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "3885183f3278",
+  "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+  "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+  "excerpt": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for allegedly bugging the artificial intelligence (AI) company's offices with the aim",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T10:43:07Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A former OpenAI employee accused of bugging company offices was granted a $1 million bond.",
+    "nl": "Een voormalige OpenAI-medewerker die ervan wordt beschuldigd de kantoren van het bedrijf te hebben afgeluisterd, kreeg een borgtocht van 1 miljoen dollar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "70e384427ba3",
+  "url": "https://www.security.nl/posting/963084/Microsoft+meldt+kritiek+Visio-lek+dat+via+Exchange-servers+is+te+misbruiken?channel=rss",
+  "title": "Microsoft meldt kritiek Visio-lek dat via Exchange-servers is te misbruiken",
+  "excerpt": "Een kritieke kwetsbaarheid in Microsoft Office Visio die remote code execution mogelijk maakt is zonder interactie van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T10:42:52Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft reported a critical Visio vulnerability enabling remote code execution that can be exploited via Exchange servers.",
+    "nl": "Microsoft heeft een kritieke Visio-kwetsbaarheid gemeld die remote code execution mogelijk maakt en via Exchange-servers misbruikt kan worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "44ee8f3c7483",
+  "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+  "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+  "excerpt": "The Treasury Department has taken some systems offline after a cybersecurity incident that “resulted in unauthorized access to a limited subset of its systems.”",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T10:15:00Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The US Treasury took some systems offline after a cybersecurity incident involving unauthorized access to a limited subset of systems.",
+    "nl": "Het Amerikaanse Ministerie van Financiën heeft enkele systemen offline gehaald na een cyberincident met ongeautoriseerde toegang tot een beperkt deel van de systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:34Z"
+  }
+ },
+ {
+  "id": "8838c1edeada",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+  "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+  "excerpt": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T10:10:20Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Attackers are actively exploiting a critical Drupal remote code execution flaw to hijack unpatched websites.",
+    "nl": "Aanvallers misbruiken actief een kritieke Drupal-kwetsbaarheid voor remote code execution om niet-gepatchte websites over te nemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "0150236c95b6",
+  "url": "https://industrialcyber.co/utilities-energy-power-water-waste/nrwas-water-watch-center-supports-nearly-100-water-utilities-with-free-cybersecurity-monitoring-across-26-us-states/",
+  "title": "NRWA’s Water Watch Center supports nearly 100 water utilities with free cybersecurity monitoring across 26 US states",
+  "excerpt": "The National Rural Water Association (NRWA) reported growing demand for cybersecurity assistance among small and rural water and...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-25T10:09:46Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 40,
+   "category": "industry",
+   "sectors": [
+    "water"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The National Rural Water Association reports that its Water Watch Center offers free cybersecurity monitoring to nearly 100 water utilities in 26 US states.",
+    "nl": "De National Rural Water Association meldt dat het Water Watch Center gratis cybersecuritymonitoring biedt aan bijna 100 waterbedrijven in 26 Amerikaanse staten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "ed3c323d30dd",
+  "url": "https://www.security.nl/posting/963081/Wanneer+is+het+nodig+om+klanten+opnieuw+te+mailen+met+updates+over+een+datalek%3F?channel=rss",
+  "title": "Wanneer is het nodig om klanten opnieuw te mailen met updates over een datalek?",
+  "excerpt": "Juridische vraag: We hebben een datalek gehad en meteen al onze klanten gewaarschuwd en melding gedaan bij de Autoriteit ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T10:09:01Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A legal question asks when organizations must notify customers again with updates after a data breach.",
+    "nl": "Een juridische vraag gaat over wanneer organisaties klanten opnieuw moeten informeren na een datalek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "ce540fe3c3f1",
+  "url": "https://industrialcyber.co/ai/ncsc-warns-agentic-ai-frameworks-boost-cyberattacks-by-exploiting-exposed-credentials-api-flaws-security-gaps/",
+  "title": "NCSC warns agentic AI frameworks boost cyberattacks by exploiting exposed credentials, API flaws, security gaps",
+  "excerpt": "The U.K. National Cyber Security Centre (NCSC) reported a marked increase in artificial intelligence (AI)-assisted cyberattacks since September...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-25T10:03:59Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The UK NCSC reports a marked increase in AI-assisted cyberattacks that exploit exposed credentials and API flaws.",
+    "nl": "Het Britse NCSC meldt een sterke toename van door AI ondersteunde cyberaanvallen die blootgestelde credentials en API-zwakheden misbruiken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "9a77e93e8f47",
+  "url": "https://www.security.nl/posting/963075/Optimizely%3A+malafide+code+op+populaire+sites+via+lek+in+accountregistratie?channel=rss",
+  "title": "Optimizely: malafide code op populaire sites via lek in accountregistratie",
+  "excerpt": "De aanvallers die onlangs malafide code op allerlei populaire websites wisten te injecteren, waaronder ABN Amro, ICS Cards, ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T10:02:54Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Optimizely"
+   ],
+   "summary": {
+    "en": "Attackers injected malicious code into popular websites through a flaw in Optimizely account registration.",
+    "nl": "Aanvallers injecteerden kwaadaardige code in populaire websites via een lek in de accountregistratie van Optimizely."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "95c51f34be17",
+  "url": "https://industrialcyber.co/pharma/cyfirma-maps-pharmaceutical-cyber-threats-as-hackers-target-drug-research-vaccine-development-and-manufacturing/",
+  "title": "Cyfirma maps pharmaceutical cyber threats as hackers target drug research, vaccine development and manufacturing",
+  "excerpt": "New Cyfirma data reported that pharmaceutical and biotechnology organizations faced sustained cyber threats from nation-state espionage, intellectual property...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-25T09:56:30Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "threat",
+   "sectors": [
+    "healthcare",
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Cyfirma data shows pharmaceutical and biotech firms face sustained nation-state espionage targeting drug research, vaccine development and manufacturing.",
+    "nl": "Cyfirma-gegevens tonen aan dat farmaceutische en biotechbedrijven te maken hebben met langdurige spionage door staten gericht op onderzoek, vaccinontwikkeling en productie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "a7903b6f43be",
+  "url": "https://www.security.nl/posting/963072/AP%3A+gemeenten+moeten+bedreigde+mensen+op+mogelijkheid+briefadres+wijzen?channel=rss",
+  "title": "AP: gemeenten moeten bedreigde mensen op mogelijkheid briefadres wijzen",
+  "excerpt": "Gemeenten moeten inwoners die worden bedreigd actief wijzen op de mogelijkheid een briefadres te krijgen, zo vindt de ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T09:41:15Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch data protection authority says municipalities must point threatened residents to the option of a letter address.",
+    "nl": "De Autoriteit Persoonsgegevens stelt dat gemeenten bedreigde inwoners moeten wijzen op de mogelijkheid van een briefadres."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "7e3476f0faae",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/anthropic-enterprise-frontier-safeguards-public-beta/",
+  "title": "Anthropic wants to catch rogue AI activity without retaining your data",
+  "excerpt": "Anthropic has launched a public beta of Enterprise Frontier Safeguards (EFS), enabling organizations to detect potentially harmful AI activity across multiple interactions while maintaining zero data retention (ZDR). The capability uses automated safety systems to analyze conversations stored in customer-controlled cloud environments and flag suspicious behavior for security teams to investigate. “With EFS, customers can keep sensitive data in their own environments, protected with their own encryption keys, while still preserving the specialized safety mechanisms … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T09:20:14Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Anthropic"
+   ],
+   "summary": {
+    "en": "Anthropic launched a public beta of a safeguard that detects harmful AI activity while retaining no customer data.",
+    "nl": "Anthropic lanceerde een publieke beta van een beveiligingsfunctie die schadelijke AI-activiteit detecteert zonder klantgegevens te bewaren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "4f099e09f0b8",
+  "url": "https://www.security.nl/posting/963063/Palo+Alto+Networks+dicht+Linux-lek+gebruikt+voor+rooten+van+firewalls?channel=rss",
+  "title": "Palo Alto Networks dicht Linux-lek gebruikt voor rooten van firewalls",
+  "excerpt": "Palo Alto Networks heeft updates uitgebracht voor een kwetsbaarheid in de Linux-kernel die is gebruikt voor het rooten van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T09:09:00Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 35,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Palo Alto Networks released updates for a Linux kernel flaw that attackers used to gain root access on firewalls.",
+    "nl": "Palo Alto Networks heeft updates uitgebracht voor een Linux-kernelkwetsbaarheid die aanvallers gebruikten om root-toegang op firewalls te krijgen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "916629091cfd",
+  "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+  "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+  "excerpt": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had every server on a patched build within about 15 minutes of the first malicious request. Checks",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T09:06:59Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "Hex.pm"
+   ],
+   "summary": {
+    "en": "Attackers ran operating system commands on six production servers of the Hex.pm package registry through a CVSS 10.0 flaw.",
+    "nl": "Aanvallers voerden besturingssysteemcommando's uit op zes productieservers van het pakketregister Hex.pm via een CVSS 10.0-kwetsbaarheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "9d73f68ea0c0",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+  "title": "Microsoft confirms authentication issues after November updates",
+  "excerpt": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T09:02:57Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Microsoft"
+   ],
+   "summary": {
+    "en": "Microsoft confirmed authentication issues after installing its November security updates.",
+    "nl": "Microsoft heeft authenticatieproblemen bevestigd na het installeren van de beveiligingsupdates van november."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "e998cab3309d",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/illegal-iptv-disrupted-europol-crypto/",
+  "title": "Police disrupt 57 illegal IPTV services and trace €26 million in crypto",
+  "excerpt": "A crackdown involving police from 11 countries has disrupted 57 illegal IPTV services and identified 321 pirate websites that draw more than 7.3 million visits a year. Europol coordinated the five-day operation in Seville, Spain, where investigators worked with the cryptocurrency industry and traced more than €26 million in crypto. So far, no arrests have been announced, and analysis of the transactions is still ongoing. Big profits behind cheap subscriptions For a few euros a … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T08:59:36Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Police from 11 countries disrupted 57 illegal IPTV services and traced more than 26 million euros in crypto.",
+    "nl": "Politie uit 11 landen heeft 57 illegale IPTV-diensten verstoord en meer dan 26 miljoen euro aan crypto getraceerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "c3752bcc430f",
+  "url": "https://www.security.nl/posting/963060/Kritiek+Drupal-lek+misbruikt+bij+aanvallen+op+websites%2C+waarschuwt+VS?channel=rss",
+  "title": "Kritiek Drupal-lek misbruikt bij aanvallen op websites, waarschuwt VS",
+  "excerpt": "Aanvallers maken actief misbruik van een kritieke kwetsbaarheid in contentmanagementsysteem (CMS) Drupal voor het aanvallen van ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T08:41:00Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "US authorities warn that attackers are actively exploiting a critical Drupal vulnerability to attack websites.",
+    "nl": "Amerikaanse autoriteiten waarschuwen dat aanvallers actief een kritieke Drupal-kwetsbaarheid misbruiken om websites aan te vallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "fe54c04d810a",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/webinar-top10-cyberattacks-2026/",
+  "title": "Top 10 OT Cyber Attacks of 2026",
+  "excerpt": "Our traditional December webinar on the year's most important OT cyber attacks, from Stryker and West Pharmaceutical to Coca-Cola's Fairlife Dairy and port shutdowns, with a preview of the Waterfall / ICS Strive 2027 OT Cyber Threat Report.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-11-25T08:12:43Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Waterfall Security"
+   ],
+   "summary": {
+    "en": "Waterfall Security announces a December webinar reviewing the year's major OT cyber attacks and previews a threat report.",
+    "nl": "Waterfall Security kondigt een webinar in december aan over de belangrijkste OT-cyberaanvallen van het jaar en geeft een voorproefje van een dreigingsrapport."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "fd4406eec62a",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0515",
+  "title": "NCSC-2026-0515 [1.00] [M/H] Kwetsbaarheid verholpen in OTRS",
+  "excerpt": "OTRS heeft een kwetsbaarheid verholpen in de Survey endpoint van versies 2024.3.1 tot en met 2026.8.1. De kwetsbaarheid betreft een SQL-injectie in de Survey endpoint, waardoor ongeauthenticeerde externe aanvallers willekeurige SQL-queries kunnen injecteren. Dit gebeurt zonder dat authenticatie of een geldige survey key vereist is. Door misbruik van deze kwetsbaarheid kan een aanvaller ticketinformatie opvragen en gevoelige data uit de backend database extraheren. Dit beïnvloedt de integriteit en vertrouwelijkheid van de gegevens in het ticketingsysteem.",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-25T07:50:18Z",
+  "fetched": "2026-11-25T15:39:16Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "OTRS"
+   ],
+   "summary": {
+    "en": "OTRS fixed an unauthenticated SQL injection in its Survey endpoint affecting versions 2024.3.1 through 2026.8.1.",
+    "nl": "OTRS heeft een ongeauthenticeerde SQL-injectie in het Survey-endpoint verholpen die versies 2024.3.1 tot en met 2026.8.1 treft."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "7ef8b6638eb5",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+  "title": "Hackers reportedly breached CIA intelligence analysis system",
+  "excerpt": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T07:45:03Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Unknown attackers reportedly breached an open-source intelligence analysis system at the US CIA.",
+    "nl": "Onbekende aanvallers zouden een open-source inlichtingenanalysesysteem van de Amerikaanse CIA hebben gekraakt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "cd2598a756bc",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/",
+  "title": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)",
+  "excerpt": "The US Cybersecurity and Infrastructure Security Agency added three new vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-132224, an Optimizely Web Experimentation vulnerability attackers leveraged to plant malicious JavaScript on high-profile websites; a Drupal core remote code execution bug (CVE-2026-132165); and CVE-2026-131914, a deserialization of untrusted data vulnerability in Idunno AntiCsrf, a legacy ASP.NET anti-CSRF library. CVE-2026-131914 exploitation detected ASP.NET is a server-side web-application framework used for building dynamic web sites, apps and…",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T07:22:32Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [
+   "CVE-2026-131914",
+   "CVE-2026-132224",
+   "CVE-2026-132165"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Optimizely",
+    "Idunno"
+   ],
+   "summary": {
+    "en": "CISA added three exploited vulnerabilities to its KEV catalog, including CVE-2026-131914 in the legacy Idunno AntiCsrf library.",
+    "nl": "CISA heeft drie actief misbruikte kwetsbaarheden aan de KEV-catalogus toegevoegd, waaronder CVE-2026-131914 in de verouderde Idunno AntiCsrf-bibliotheek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "be8229fa8688",
+  "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+  "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+  "excerpt": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13), is assessed to have targeted organizations in the financial services, energy, government,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T06:50:19Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 55,
+   "category": "incident",
+   "sectors": [
+    "energy",
+    "government"
+   ],
+   "vendors": [
+    "Check Point"
+   ],
+   "summary": {
+    "en": "An unknown actor using AI-driven tooling compromised 24 Check Point Security Management servers, affecting 22 organizations including energy and government targets.",
+    "nl": "Een onbekende dader die AI-gestuurde tools gebruikt, heeft 24 Check Point Security Management-servers gecompromitteerd, met 22 getroffen organisaties waaronder energie- en overheidsdoelwitten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "7a5ea8907df3",
+  "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+  "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+  "excerpt": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and legal services located in the U.S., the U.K., and Australia. Other targets include construction,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T06:37:06Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Unit 42 reports vishing attacks by Com-affiliated actors since August 2026 that led to cloud account theft and extortion.",
+    "nl": "Unit 42 meldt vishing-aanvallen door aan Com gelieerde dadergroepen sinds augustus 2026 die leidden tot diefstal van clouddata en afpersing."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "13691a225bd6",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/vulncheck-credential-harvesting-exploitat-records/",
+  "title": "Credential harvesting goes from fringe activity to major exploitation trend",
+  "excerpt": "Requests to steal credentials made up 13% of all vulnerability exploitation recorded between January and November 2026. Their monthly share climbed from about 1% in January to between 25% and 35% in September and October, data from VulnCheck’s canary network shows. The company tracked 694 exploited CVEs during those eleven months. Attackers used 127 of them (18%) at least once to go after database passwords, cloud keys, API tokens or SSH keys. “Credential harvesting has … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T06:30:47Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "VulnCheck"
+   ],
+   "summary": {
+    "en": "VulnCheck data shows credential harvesting rose to 13% of vulnerability exploitation between January and November 2026.",
+    "nl": "Gegevens van VulnCheck tonen aan dat credential harvesting tussen januari en november 2026 goed was voor 13% van het misbruik van kwetsbaarheden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:52Z"
+  }
+ },
+ {
+  "id": "d52512d72b3d",
+  "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+  "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+  "excerpt": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has proactively detected and blocked the threat before it could be officially released. Visiting each plugin listing now",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T06:21:12Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "WordPress removed six WP Connect plugins after they were backdoored on November 22, 2026, enabling arbitrary code execution on sites that installed them.",
+    "nl": "WordPress heeft zes WP Connect-plugins verwijderd nadat ze op 22 november 2026 met een backdoor waren gecompromitteerd, waardoor code op geinstalleerde sites kon worden uitgevoerd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:56Z"
+  }
+ },
+ {
+  "id": "c10f94d59961",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/gputaskman-open-source-gpu-task-manager/",
+  "title": "gputaskman: Open-source task manager for GPUs",
+  "excerpt": "gputaskman is an open-source task manager for GPUs that runs in a terminal on Windows, Linux, WSL, and Apple Silicon Macs. It shows which process is holding a machine’s GPU memory, how busy each process keeps the card, and which AI model sits behind the numbers, where it can find evidence for one. Windows Task Manager can report a figure like 15 GB used. It cannot say whether those bytes are model weights, KV cache … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T06:00:00Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An open-source terminal tool called gputaskman shows GPU memory use and load per process on Windows, Linux, WSL and Apple Silicon Macs.",
+    "nl": "Een open-source terminaltool genaamd gputaskman toont GPU-geheugengebruik en belasting per proces op Windows, Linux, WSL en Apple Silicon Macs."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:56Z"
+  }
+ },
+ {
+  "id": "6c78b64a2635",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/isc2-systems-security-certified-practitioner-sscp-certification/",
+  "title": "Security+ builds the foundation. SSCP proves you can execute",
+  "excerpt": "Cybersecurity knowledge and operational readiness: why both matter Consider this threat scenario: Systems go down, alerts escalate, response windows shrink. In today’s high-stakes world, cybersecurity professionals need more than theoretical knowledge — they need operational readiness. For many practitioners, the journey begins with building a solid conceptual foundation, but the true test of a professional lies in their ability to maintain a “ready state,” evolving from a student of the craft to a mission-ready practitioner … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T05:30:30Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article promotes the SSCP certification as a complement to Security+ for operational cybersecurity readiness.",
+    "nl": "Een artikel promoot het SSCP-certificaat als aanvulling op Security+ voor operationele cyberbeveiligingsgereedheid."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:56Z"
+  }
+ },
+ {
+  "id": "e9f71ae124a5",
+  "url": "https://www.helpnetsecurity.com/2026/11/25/mcafee-holiday-shopping-scams-report/",
+  "title": "Holiday scam losses force some victims to cut back on essentials",
+  "excerpt": "The proportion of Americans who say they have fallen victim to a holiday shopping scam has nearly doubled since last year, according to new research from McAfee. Forty-two percent say they have fallen for one, up from 22% in 2025. Confidence in spotting scams drops Shoppers are less confident in their ability to detect scams than they were a year ago. Seventy-five percent of Americans say they can recognize an online scam, down from 90% … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T05:00:00Z",
+  "fetched": "2026-11-25T15:39:15Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 4,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "McAfee research finds that 42% of Americans say they fell victim to a holiday shopping scam, up from 22% in 2025.",
+    "nl": "Onderzoek van McAfee toont dat 42% van de Amerikanen zegt het slachtoffer te zijn geworden van een feestdagenshoppingfraude, tegenover 22% in 2025."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-25T15:39:56Z"
+  }
+ },
+ {
   "id": "7630d9330923",
   "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
   "title": "Rackspace shuts down Spot cloud platform after security breach",

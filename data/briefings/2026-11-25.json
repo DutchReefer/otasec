@@ -1,0 +1,193 @@
+{
+ "date": "2026-11-25",
+ "published": "2026-11-25T15:40:22Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 9,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A suspected ransomware attack has disrupted patient care at a hospital in Guadeloupe, and a reported AI-driven campaign hit Check Point management servers, including in energy. A critical flaw in Danfoss cooling systems also stands out."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een vermoedelijke ransomware-aanval verstoort de patiëntenzorg in een ziekenhuis op Guadeloupe, en een gemeld AI-gedreven campagne trof Check Point-managementservers, ook in de energiesector. Daarnaast springt een kritieke kwetsbaarheid in Danfoss-koelsystemen eruit."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "fa1f50764b02",
+     "name": "The Record",
+     "url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+     "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Suspected ransomware disrupts Guadeloupe university hospital",
+     "summary": "France's national cybersecurity agency is investigating a suspected ransomware attack on the University Hospital of Guadeloupe. Doctors have postponed surgeries, suspended some cancer treatments and reverted to pen and paper.",
+     "takeaway": "Check that clinical and facility systems can keep running in manual mode and that offline backups and recovery have been tested recently."
+    },
+    "nl": {
+     "heading": "Vermoedelijke ransomware legt ziekenhuis Guadeloupe deels plat",
+     "summary": "De Franse nationale cyberveiligheidsautoriteit onderzoekt een vermoedelijke ransomware-aanval op het universitair ziekenhuis van Guadeloupe. Artsen hebben operaties uitgesteld, sommige kankerbehandelingen opgeschort en werken weer met pen en papier.",
+     "takeaway": "Controleer of klinische systemen en gebouwbeheersystemen handmatig kunnen blijven draaien en of offline back-ups en herstelprocedures recent zijn getest."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "be8229fa8688",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+     "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "AI-driven campaign compromises Check Point management servers",
+     "summary": "An unknown actor, tracked by GreyNoise as GT13, used AI-driven offensive tooling against Check Point Security Management servers, compromising 24 servers and affecting 22 organizations worldwide. Targets included the financial services, energy and government sectors.",
+     "takeaway": "If Check Point management servers protect your IT/OT boundary, review their exposure, access logs and administrative access now."
+    },
+    "nl": {
+     "heading": "AI-gedreven campagne treft Check Point-managementservers",
+     "summary": "Een onbekende actor, door GreyNoise gevolgd als GT13, zette AI-gedreven aanvalstooling in tegen Check Point Security Management-servers. Er werden 24 servers gecompromitteerd bij 22 organisaties wereldwijd, onder meer in de financiële sector, energie en overheid.",
+     "takeaway": "Beschermen Check Point-managementservers de grens tussen IT en OT, controleer dan nu hun blootstelling, toegangslogs en beheertoegang."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "c404df7a53b5",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/962992/Danfoss-koelsystemen+via+kritiek+lek+op+afstand+over+te+nemen?channel=rss",
+     "title": "Danfoss-koelsystemen via kritiek lek op afstand over te nemen"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Critical flaw allows remote takeover of Danfoss cooling systems",
+     "summary": "Danfoss cooling systems can be taken over remotely through a critical vulnerability, according to Security.NL. The report also refers to a security update from the vendor.",
+     "takeaway": "Identify Danfoss cooling equipment in your estate, keep it off direct internet exposure and plan the vendor update."
+    },
+    "nl": {
+     "heading": "Kritieke kwetsbaarheid maakt Danfoss-koelsystemen op afstand over te nemen",
+     "summary": "Koelsystemen van Danfoss zijn via een kritieke kwetsbaarheid op afstand over te nemen, meldt Security.NL. Het bericht verwijst ook naar een beveiligingsupdate van de leverancier.",
+     "takeaway": "Breng Danfoss-koelapparatuur in kaart, houd die buiten directe internetblootstelling en plan de update van de leverancier in."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6b48789d1147",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+     "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Iran-aligned Volant Manticore targets critical infrastructure in Cyprus",
+     "summary": "A previously undocumented Iran-aligned espionage group, Volant Manticore, has targeted telecommunications companies, airlines and critical infrastructure in Cyprus. It uses the KuboShell backdoor, which relies on IPFS for command-and-control, and deploys the Homa post-compromise framework.",
+     "takeaway": "Consider monitoring for IPFS-based outbound traffic from IT and OT-adjacent networks."
+    },
+    "nl": {
+     "heading": "Iraans-gelieerde groep Volant Manticore richt zich op kritieke infrastructuur op Cyprus",
+     "summary": "Een voorheen onbekende Iraans-gelieerde spionagegroep, Volant Manticore, richtte zich op telecombedrijven, luchtvaartmaatschappijen en kritieke infrastructuur op Cyprus. De groep gebruikt de KuboShell-backdoor, die IPFS gebruikt voor command-and-control, en zet het post-compromise framework Homa in.",
+     "takeaway": "Overweeg uitgaand IPFS-verkeer vanuit IT-netwerken en netwerken grenzend aan OT te monitoren."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "7560054da608",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+     "title": "InfraTrust warns of exploited supply chain flaws in network appliances"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "InfraTrust: exploited flaws mostly sit in bundled third-party software",
+     "summary": "Eclypsium's November InfraTrust report finds that most advisories for exploited vulnerabilities over the past month involve third-party software bundled into products, not code written by the vendors themselves.",
+     "takeaway": "Ask suppliers for software bills of materials and how they track third-party components in network appliances."
+    },
+    "nl": {
+     "heading": "InfraTrust: misbruikte kwetsbaarheden zitten vooral in meegeleverde software van derden",
+     "summary": "Uit het InfraTrust-rapport van Eclypsium over november blijkt dat de meeste adviezen over misbruikte kwetsbaarheden van de afgelopen maand gaan over software van derden die in producten is meegeleverd, en niet over code van de leveranciers zelf.",
+     "takeaway": "Vraag leveranciers om software bills of materials en naar hun aanpak voor het volgen van componenten van derden in netwerkapparatuur."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "ce540fe3c3f1",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ai/ncsc-warns-agentic-ai-frameworks-boost-cyberattacks-by-exploiting-exposed-credentials-api-flaws-security-gaps/",
+     "title": "NCSC warns agentic AI frameworks boost cyberattacks by exploiting exposed credentials, API flaws, security gaps"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "NCSC: agentic AI frameworks fuel more cyberattacks",
+     "summary": "The UK NCSC reports a marked increase in AI-assisted cyberattacks since September. It warns that agentic AI frameworks exploit exposed credentials, API flaws and security gaps.",
+     "takeaway": "Review exposed credentials and APIs, including remote access and vendor portals, since automated attackers find them quickly."
+    },
+    "nl": {
+     "heading": "NCSC: agentic AI-frameworks zorgen voor meer cyberaanvallen",
+     "summary": "De Britse NCSC meldt sinds september een duidelijke toename van AI-ondersteunde cyberaanvallen. Volgens de waarschuwing misbruiken agentic AI-frameworks blootgestelde inloggegevens, API-kwetsbaarheden en andere beveiligingslekken.",
+     "takeaway": "Controleer blootgestelde inloggegevens en API's, inclusief remote toegang en leveranciersportalen, want geautomatiseerde aanvallers vinden deze snel."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "0150236c95b6",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/utilities-energy-power-water-waste/nrwas-water-watch-center-supports-nearly-100-water-utilities-with-free-cybersecurity-monitoring-across-26-us-states/",
+     "title": "NRWA’s Water Watch Center supports nearly 100 water utilities with free cybersecurity monitoring across 26 US states"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "NRWA Water Watch Center monitors nearly 100 small water utilities",
+     "summary": "The National Rural Water Association reports growing demand for cybersecurity help among small and rural water utilities. Its Water Watch Center now offers free monitoring to nearly 100 utilities across 26 US states.",
+     "takeaway": "Small operators without a dedicated security team should look into shared or sector-led monitoring services."
+    },
+    "nl": {
+     "heading": "NRWA Water Watch Center monitort bijna 100 kleine watervoorzieningsbedrijven",
+     "summary": "De National Rural Water Association meldt een groeiende vraag naar cyberveiligheidshulp bij kleine en landelijke watervoorzieningsbedrijven. Het Water Watch Center biedt nu gratis monitoring aan bijna 100 bedrijven in 26 Amerikaanse staten.",
+     "takeaway": "Kleine operators zonder eigen securityteam kunnen kijken naar gedeelde of sectorgedreven monitoringdiensten."
+    }
+   }
+  }
+ ]
+}
