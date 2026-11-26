@@ -1,5 +1,712 @@
 [
  {
+  "id": "ed449d6a11d8",
+  "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+  "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+  "excerpt": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T17:58:42Z",
+  "fetched": "2026-11-26T19:39:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "NordVPN announces a Black Friday and Cyber Monday discount on its VPN subscriptions.",
+    "nl": "NordVPN kondigt een Black Friday- en Cyber Monday-korting aan op zijn VPN-abonnementen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "140aa9429462",
+  "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+  "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+  "excerpt": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T17:15:27Z",
+  "fetched": "2026-11-26T19:39:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Google",
+    "Okta"
+   ],
+   "summary": {
+    "en": "A phishing campaign called GoodGuys impersonates well-known brands to steal corporate Google and Okta credentials.",
+    "nl": "Een phishingcampagne genaamd GoodGuys doet zich voor als bekende merken om zakelijke Google- en Okta-inloggegevens te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "887609339e70",
+  "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+  "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+  "excerpt": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T15:23:28Z",
+  "fetched": "2026-11-26T19:39:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Remus infostealer uses a malicious Chrome extension to steal Gmail messages.",
+    "nl": "De Remus-infostealer steelt Gmail-berichten via een kwaadaardige Chrome-extensie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "f5eee8a53f92",
+  "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+  "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+  "excerpt": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T15:13:41Z",
+  "fetched": "2026-11-26T19:39:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The North Korea-linked PolinRider campaign plants a Python loader in over 7,600 GitHub repositories to spread malware.",
+    "nl": "De aan Noord-Korea gelinkte PolinRider-campagne plaatst een Python-loader in meer dan 7.600 GitHub-repositories om malware te verspreiden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "bdc2d9778bb8",
+  "url": "https://www.security.nl/posting/963303/Drupal+waarschuwt+voor+misbruik+van+nieuw%2C+zeer+kritiek+beveiligingslek?channel=rss",
+  "title": "Drupal waarschuwt voor misbruik van nieuw, zeer kritiek beveiligingslek",
+  "excerpt": "De makers van contentmanagementsysteem (CMS) Drupal waarschuwen voor misbruik van een nieuw, zeer kritiek beveiligingslek ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T14:19:11Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "The Drupal project warns of active exploitation of a new critical vulnerability in its content management system.",
+    "nl": "Het Drupal-project waarschuwt voor misbruik van een nieuw kritiek lek in zijn contentmanagementsysteem."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "8687b8b0c089",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0524",
+  "title": "NCSC-2026-0524 [1.00] [H/H] Kwetsbaarheid verholpen in Drupal core",
+  "excerpt": "Drupal heeft een nieuwe kwetsbaarheid verholpen in Drupal core, specifiek in het install.php bestand en in versies tot 10.6.23 en van 11.0.0 tot 11.4.14. Het install.php bestand bevatte kwetsbaarheden die konden leiden tot overname van de site indien het bestand toegankelijk bleef na de SA-CORE-2026-017 advisory, warvoor het NCSC de eerdere advisory NCSC-2026-0507 heeft gepubliceerd. Daarnaast is er een Improper Check for Unusual or Exceptional Conditions kwetsbaarheid aanwezig in de genoemde versies, die Forceful Browsing aanvallen mogelijk maakt. Deze kwetsbaarheden betreffen…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T13:56:03Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "NCSC publishes an advisory on Drupal core vulnerabilities in install.php that could allow site takeover.",
+    "nl": "Het NCSC publiceert een advisory over kwetsbaarheden in het install.php-bestand van Drupal core die overname van de site mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "ea44f0cf82c7",
+  "url": "https://www.security.nl/posting/963285/Kamervragen+over+impact+van+AI-modus+Google+Search+op+basisscholieren?channel=rss",
+  "title": "Kamervragen over impact van AI-modus Google Search op basisscholieren",
+  "excerpt": "In de Tweede Kamer zijn vragen aan staatssecretaris Tielen van Onderwijs gesteld over de impact van de AI-modus in Google ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T13:24:00Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Dutch parliamentary questions ask about the impact of Google Search AI mode on primary school pupils.",
+    "nl": "Kamervragen stellen vragen over de impact van de AI-modus van Google Search op basisschoolleerlingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "0162794a281e",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/keenadu-malware-android-devices/",
+  "title": "Preinstalled Keenadu malware turns up on 220,000+ Android devices",
+  "excerpt": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one of the two families behind most of these infections, landed on more than 220,000 devices in the first ten months of 2026. Together with the older Triada family, it turned up on 88% of devices … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T12:57:58Z",
+  "fetched": "2026-11-26T19:39:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kaspersky reports preinstalled Keenadu and Triada malware on over 220,000 Android devices in 2026.",
+    "nl": "Kaspersky meldt dat vooraf geïnstalleerde Keenadu- en Triada-malware in 2026 op meer dan 220.000 Android-toestellen is aangetroffen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "a6f5fcc45a29",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0523",
+  "title": "NCSC-2026-0523 [1.00] [M/H] Kwetsbaarheden verholpen in VMware vCenter en aanverwante producten",
+  "excerpt": "VMware heeft meerdere kwetsbaarheden verholpen in VMware vCenter Server, VMware Cloud Foundation, VMware Telco Cloud Platform, VMware ESX, ESXi, Fusion en VMware Tools. De kwetsbaarheden betreffen onder andere een bypass van authenticatie in de VMware Directory Service, een arbitrary file write via specifieke archive-bestanden, meerdere denial-of-service kwetsbaarheden in de Directory Service en guest RPC component, een local privilege escalation in de vpxd service script, en een failure in policy enforcement binnen de vSphere Distributed Switch. Daarnaast zijn er kritieke heap out-of-bounds…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T12:56:57Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "VMware"
+   ],
+   "summary": {
+    "en": "NCSC publishes an advisory on multiple VMware vCenter, ESXi and related product vulnerabilities, including an authentication bypass.",
+    "nl": "Het NCSC publiceert een advisory over meerdere kwetsbaarheden in VMware vCenter, ESXi en verwante producten, waaronder een authenticatiebypass."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "15aac453aea7",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0522",
+  "title": "NCSC-2026-0522 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab Enterprise Edition",
+  "excerpt": "GitLab heeft meerdere kwetsbaarheden verholpen in GitLab Enterprise Edition (versies voorafgaand aan 19.4.11, 19.5.9 en 19.6.2). De kwetsbaarheden betreffen verschillende onderdelen van GitLab Enterprise Edition. - Zo kunnen gebruikers met de rol developer zichzelf goedkeuring geven voor merge requests, waardoor zij wijzigingen direct in beschermde branches kunnen samenvoegen zonder de vereiste goedkeuring. - Daarnaast is een probleem opgelost waarbij een gebruiker met Maintainer-privileges via onjuiste sessiebehandeling in de dependency proxy authenticatie toegang kon krijgen tot…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T12:48:37Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "GitLab"
+   ],
+   "summary": {
+    "en": "NCSC publishes an advisory on several GitLab Enterprise Edition vulnerabilities, including merge request approval bypasses.",
+    "nl": "Het NCSC publiceert een advisory over meerdere kwetsbaarheden in GitLab Enterprise Edition, waaronder omzeiling van merge-goedkeuringen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "5b9cc3f84923",
+  "url": "https://www.security.nl/posting/963260/Frans+ziekenhuis+staakt+kankerbehandelingen+wegens+cyberaanval?channel=rss",
+  "title": "Frans ziekenhuis staakt kankerbehandelingen wegens cyberaanval",
+  "excerpt": "Een Frans ziekenhuis wegens een cyberaanval besloten om tijdelijk geen kankerbehandelingen uit te voeren. Het gaat om het ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T12:34:39Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "incident",
+   "sectors": [
+    "healthcare"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A French hospital temporarily suspended cancer treatments following a cyberattack.",
+    "nl": "Een Frans ziekenhuis heeft na een cyberaanval tijdelijk kankerbehandelingen stilgelegd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  },
+  "title_en": "French hospital halts cancer treatments due to cyberattack"
+ },
+ {
+  "id": "faa6af9181a1",
+  "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+  "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+  "excerpt": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T11:50:17Z",
+  "fetched": "2026-11-26T19:39:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 6,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A new SYS01 infostealer version enrolls browsers into enterprise-style management to steal Gmail and Outlook emails.",
+    "nl": "Een nieuwe versie van de SYS01-infostealer schrijft browsers in voor zakelijk beheer om Gmail- en Outlook-e-mails te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "463c6f84da6b",
+  "url": "https://www.security.nl/posting/963236/%27Leeftijdsgrens+maakt+social+media+niet+vanzelf+veiliger+en+lost+probleem+niet+op%27?channel=rss",
+  "title": "'Leeftijdsgrens maakt social media niet vanzelf veiliger en lost probleem niet op'",
+  "excerpt": "Steeds meer landen voeren leeftijdsgrenzen en leeftijdsverificatie voor social media en andere platforms in, maar deze ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T11:06:55Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An opinion piece argues that age limits do not automatically make social media safer.",
+    "nl": "Een opiniestuk stelt dat leeftijdsgrenzen social media niet vanzelf veiliger maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "ad7320d40ff0",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+  "title": "US agency tracking money laundering is latest casualty in string of federal breaches",
+  "excerpt": "An intrusion at the US Treasury’s Financial Crimes Enforcement Network (FinCEN) has forced the agency to take some systems offline and extend reporting deadlines for financial institutions. The bureau serves as the US government’s financial intelligence unit, collecting suspicious activity reports and other Bank Secrecy Act filings from banks and other financial institutions and sharing the intelligence with law enforcement. “FinCEN is investigating a cybersecurity incident that resulted in unauthorized access to a limited subset … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T11:05:01Z",
+  "fetched": "2026-11-26T19:39:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "An intrusion at US Treasury's FinCEN forced some systems offline and extended reporting deadlines for financial institutions.",
+    "nl": "Een inbraak bij FinCEN van het Amerikaanse Ministerie van Financiën heeft systemen offline gehaald en rapportagetermijnen doen verlengen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "27c41b73faa5",
+  "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+  "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+  "excerpt": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user. How an",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T10:57:55Z",
+  "fetched": "2026-11-26T19:39:01Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 4,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Push Security measures which phishing kits most often bypass email security, web filtering and safe browsing.",
+    "nl": "Push Security meet welke phishingkits het vaakst langs e-mailbeveiliging, webfiltering en veilig browsen komen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "4d9fd839c79b",
+  "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/what-a-week-of-outages-teaches-us/",
+  "title": "What a Week of Outages Teaches Us",
+  "excerpt": "US air traffic control, major banks and Microsoft 365 all went down within six days. Lior Frenkel on deliberate attacks on physical systems, how AI is changing attack economics, and hardware-enforced protection.",
+  "source_id": "waterfall",
+  "source": "Waterfall Security",
+  "lang": "en",
+  "kind": "vendor",
+  "focus": "ot",
+  "published": "2026-11-26T10:46:44Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 35,
+   "category": "industry",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Waterfall Security"
+   ],
+   "summary": {
+    "en": "Waterfall Security reflects on recent outages affecting air traffic control, banks and Microsoft 365, and on attacks against physical systems.",
+    "nl": "Waterfall Security blikt terug op recente storingen bij luchtverkeersleiding, banken en Microsoft 365, en op aanvallen op fysieke systemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "990e44d17138",
+  "url": "https://www.security.nl/posting/963226/Overheid+trekt+250_000+euro+uit+voor+weerbare+digitale+tijdvoorziening?channel=rss",
+  "title": "Overheid trekt 250.000 euro uit voor weerbare digitale tijdvoorziening",
+  "excerpt": "Het ministerie van Economische Zaken trekt 250.000 euro uit voor de ontwikkeling van een 'weerbare digitale tijdvoorziening'. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T10:26:03Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "industry",
+   "sectors": [
+    "government",
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch Ministry of Economic Affairs allocates 250,000 euro to develop a resilient digital time service.",
+    "nl": "Het Nederlandse ministerie van Economische Zaken trekt 250.000 euro uit voor de ontwikkeling van een weerbare digitale tijdvoorziening."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  },
+  "title_en": "Government allocates 250,000 euros for resilient digital time service"
+ },
+ {
+  "id": "48f64acefdc0",
+  "url": "https://industrialcyber.co/ransomware/volant-manticore-expands-iran-linked-cyber-espionage-from-cyprus-to-saudi-arabia-targeting-critical-sectors/",
+  "title": "Volant Manticore expands Iran-linked cyber espionage from Cyprus to Saudi Arabia, targeting critical sectors",
+  "excerpt": "New research from Check Point uncovers Volant Manticore, a previously undocumented Iran-nexus cyber espionage group active since at...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-26T10:06:16Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Check Point describes Volant Manticore, an Iran-linked espionage group expanding from Cyprus to Saudi Arabia and targeting critical sectors.",
+    "nl": "Check Point beschrijft Volant Manticore, een aan Iran gelinkte spionagegroep die van Cyprus naar Saudi-Arabië uitbreidt en kritieke sectoren aanvalt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "5f41815abf1d",
+  "url": "https://industrialcyber.co/regulation-standards-and-compliance/eu-proposes-quantum-act-to-strengthen-industrial-capabilities-secure-supply-chains-advance-post-quantum-readiness/",
+  "title": "EU proposes Quantum Act to strengthen industrial capabilities, secure supply chains, advance post-quantum readiness",
+  "excerpt": "The European Commission proposed on Wednesday a Quantum Act aimed at translating Europe’s research strengths in quantum technologies...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-26T10:05:00Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 30,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector",
+    "manufacturing"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The European Commission proposes a Quantum Act to strengthen industrial quantum capabilities, supply chains and post-quantum readiness.",
+    "nl": "De Europese Commissie stelt een Quantum Act voor om industriële quantumcapaciteiten, toeleveringsketens en post-quantumgereedheid te versterken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "0266fccae250",
+  "url": "https://industrialcyber.co/critical-infrastructure/fdd-urges-us-congress-to-designate-space-systems-as-critical-infrastructure-sector-citing-cyber-and-counterspace-threats/",
+  "title": "FDD urges US Congress to designate space systems as critical infrastructure sector, citing cyber and counterspace threats",
+  "excerpt": "The Foundation for Defense of Democracies (FDD) has called on the U.S. Congress to designate space-based systems as...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-26T10:03:27Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 12,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The FDD urges US Congress to designate space-based systems as a critical infrastructure sector, citing cyber and counterspace threats.",
+    "nl": "De FDD roept het Amerikaanse Congres op om ruimtesystemen als kritieke infrastructuursector aan te wijzen, vanwege cyber- en counterspace-dreigingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:21Z"
+  }
+ },
+ {
+  "id": "b8cd12659120",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/ransomware-recovery-fraud-florida-firm-co-founder-charged/",
+  "title": "Data recovery firm co-founder accused of cashing in on ransomware victims",
+  "excerpt": "The co-founder of a Florida data recovery firm has been indicted on charges that he secretly paid ransomware gangs while telling victims his company never did. Juan Ricardo Palacio Escobar, a 52-year-old Colombian national, was arrested in Las Vegas on October 22 and has been charged by a federal grand jury in the District of Rhode Island with three counts of wire fraud, each carrying a maximum of 20 years in prison, the US Department … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T09:59:07Z",
+  "fetched": "2026-11-26T19:39:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A Florida data recovery firm co-founder has been indicted for secretly paying ransomware gangs while telling victims the company did not.",
+    "nl": "De medeoprichter van een data recoverybedrijf in Florida is aangeklaagd omdat hij in het geheim ransomwarebendes betaalde, terwijl hij slachtoffers het tegendeel vertelde."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:27Z"
+  }
+ },
+ {
+  "id": "527bf495adef",
+  "url": "https://industrialcyber.co/news/ptc-expands-fedramp-offerings-with-windchill-and-onshape-government-federal-for-defense-contractors/",
+  "title": "PTC expands FedRAMP offerings with Windchill+ and Onshape Government Federal for defense contractors",
+  "excerpt": "PTC announced an expansion of its FedRAMP offerings for U.S. federal agencies and contractors. PTC’s Windchill+ product lifecycle...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-26T09:51:24Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "PTC"
+   ],
+   "summary": {
+    "en": "PTC announced an expansion of its FedRAMP offerings, including Windchill+ and Onshape Government Federal, for US federal agencies and contractors.",
+    "nl": "PTC kondigde een uitbreiding van zijn FedRAMP-aanbod aan, waaronder Windchill+ en Onshape Government Federal, voor Amerikaanse federale instanties en contractors."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:27Z"
+  }
+ },
+ {
+  "id": "cea229dfbe8f",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0521",
+  "title": "NCSC-2026-0521 [1.00] [M/H] Kwetsbaarheden verholpen in JetBrains TeamCity",
+  "excerpt": "JetBrains heeft meerdere kwetsbaarheden verholpen in TeamCity, een continuous integration en deployment platform. De kwetsbaarheden in JetBrains TeamCity betreffen onder andere remote code execution (RCE) via verschillende aanvalsvectoren zoals build attribute injection, argument injection in Perforce instellingen, Kotlin DSL scripts en sandbox componenten, Git submodule URL's, URL stream handler en time zone callbacks. Daarnaast zijn er privilege escalation problemen door onjuiste gebruikersnaamverwerking in het token authenticatiemechanisme. Verder kunnen via de REST API en change viewer…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T09:39:59Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "JetBrains"
+   ],
+   "summary": {
+    "en": "JetBrains fixed multiple vulnerabilities in TeamCity, including remote code execution and privilege escalation flaws.",
+    "nl": "JetBrains heeft meerdere kwetsbaarheden in TeamCity verholpen, waaronder remote code execution en privilege escalation."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:27Z"
+  }
+ },
+ {
+  "id": "f361d6986df2",
+  "url": "https://www.security.nl/posting/963206/Nederland+krijgt+mogelijk+standaard+ingeschakeld+phishingfilter?channel=rss",
+  "title": "Nederland krijgt mogelijk standaard ingeschakeld phishingfilter",
+  "excerpt": "Nederland krijgt mogelijk een dns-gebaseerd phishingfilter dat standaard voor iedereen staat ingeschakeld, waarbij ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T09:33:00Z",
+  "fetched": "2026-11-26T19:39:03Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Netherlands may introduce a DNS-based phishing filter that would be enabled by default for everyone.",
+    "nl": "Nederland krijgt mogelijk een op DNS gebaseerd phishingfilter dat standaard voor iedereen is ingeschakeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:27Z"
+  }
+ },
+ {
   "id": "bc163c84de8a",
   "url": "https://www.security.nl/posting/963199/Vijf+beveiligingslekken+in+voip-platform+Mitel+MiCollab+misbruikt+bij+aanvallen?channel=rss",
   "title": "Vijf beveiligingslekken in voip-platform Mitel MiCollab misbruikt bij aanvallen",
@@ -542,6 +1249,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "c0ff4a7ff77a",
+  "url": "https://therecord.media/britain-delays-national-cyber-action-plan-again",
+  "title": "UK’s long-awaited National Cyber Action Plan delayed until December",
+  "excerpt": "Officials, who had planned to publish the document in mid-November, now aim to unveil the strategy for defending the wider economy against state-backed and criminal hackers on December 9.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T00:00:00Z",
+  "fetched": "2026-11-26T19:39:02Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The UK National Cyber Action Plan, covering defense of the wider economy against state-backed and criminal hackers, has been delayed until December 9.",
+    "nl": "Het Britse National Cyber Action Plan, gericht op verdediging van de bredere economie tegen statelijke en criminele hackers, is uitgesteld tot 9 december."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T19:39:27Z"
   }
  },
  {
