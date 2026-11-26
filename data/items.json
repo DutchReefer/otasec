@@ -1,5 +1,550 @@
 [
  {
+  "id": "bc163c84de8a",
+  "url": "https://www.security.nl/posting/963199/Vijf+beveiligingslekken+in+voip-platform+Mitel+MiCollab+misbruikt+bij+aanvallen?channel=rss",
+  "title": "Vijf beveiligingslekken in voip-platform Mitel MiCollab misbruikt bij aanvallen",
+  "excerpt": "Aanvallers maken misbruik van vijf verschillende kwetsbaarheden in voip-platform Mitel MiCollab, zo meldt het Cybersecurity and ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T09:12:20Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Mitel"
+   ],
+   "summary": {
+    "en": "Attackers are exploiting five vulnerabilities in the Mitel MiCollab voip platform, according to the Cybersecurity and Infrastructure Security Agency.",
+    "nl": "Aanvallers misbruiken vijf kwetsbaarheden in het voip-platform Mitel MiCollab, meldt het Cybersecurity and Infrastructure Security Agency."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "a0818b63f7fe",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0520",
+  "title": "NCSC-2026-0520 [1.00] [M/H] Kwetsbaarheden verholpen in SolarWinds Serv-U",
+  "excerpt": "SolarWinds heeft meerdere kwetsbaarheden verholpen in Serv-U. De kwetsbaarheden in SolarWinds Serv-U betreffen verschillende aspecten van het product. - Er is een ongeauthenticeerde HTTP response header injection die het mogelijk maakt om kwaadaardige inhoud in HTTP-headers te injecteren, wat kan leiden tot manipulatie van browser sessies. - Daarnaast is er een command injection kwetsbaarheid op Windows-platforms waarbij onvoldoende validatie van gebruikersinvoer het uitvoeren van willekeurige commando's mogelijk maakt. - Verder zijn er meerdere privilege escalatie kwetsbaarheden die het…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T09:03:45Z",
+  "fetched": "2026-11-26T09:34:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "SolarWinds"
+   ],
+   "summary": {
+    "en": "SolarWinds fixed several vulnerabilities in Serv-U, including header injection and a command injection on Windows.",
+    "nl": "SolarWinds heeft meerdere kwetsbaarheden in Serv-U verholpen, waaronder header injection en command injection op Windows."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "b563a10b9413",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0519",
+  "title": "NCSC-2026-0519 [1.00] [M/H] Kwetsbaarheden verholpen in Tanium producten",
+  "excerpt": "Tanium heeft meerdere kwetsbaarheden verholpen in verschillende componenten van haar product suite, waaronder Comply, Connect, Threat Response, Core Content, Default Content, Emerging Issues Content, Engage, Enforce Recovery Key Portal, Tanium Server, Tanium Zone Server en Partner Integration. De kwetsbaarheden betreffen onder andere command injection, unauthorized code execution, improper input validation, argument injection, path traversal, information disclosure, local privilege escalation, denial of service en server-side request forgery (SSRF). Aanvallers kunnen deze kwetsbaarheden…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T09:02:42Z",
+  "fetched": "2026-11-26T09:34:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Tanium"
+   ],
+   "summary": {
+    "en": "Tanium fixed multiple vulnerabilities across its product suite, including command injection and unauthorized code execution.",
+    "nl": "Tanium heeft meerdere kwetsbaarheden in zijn productsuite verholpen, waaronder command injection en ongeautoriseerde codeuitvoering."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "ee8853bb6575",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0518",
+  "title": "NCSC-2026-0518 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager",
+  "excerpt": "Adobe heeft meerdere kwetsbaarheden verholpen in Adobe Experience Manager. De kwetsbaarheden betreffen verschillende vormen van Cross-Site Scripting (XSS), waaronder DOM-based, stored en reflected XSS. Hierbij kan een aanvaller kwaadaardige JavaScript-code uitvoeren binnen de browser van een slachtoffer, bijvoorbeeld door het bezoeken en interactie met speciaal vervaardigde webpagina's of het invullen van gemanipuleerde formuliervelden. Dit kan leiden tot ongeautoriseerde acties binnen de sessie van het slachtoffer. Daarnaast zijn er kwetsbaarheden die betrekking hebben op incorrecte…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T09:01:39Z",
+  "fetched": "2026-11-26T09:34:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Adobe"
+   ],
+   "summary": {
+    "en": "Adobe fixed several cross-site scripting vulnerabilities in Adobe Experience Manager.",
+    "nl": "Adobe heeft meerdere cross-site scripting kwetsbaarheden in Adobe Experience Manager verholpen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "2bf442f30bab",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0517",
+  "title": "NCSC-2026-0517 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Campaign Classic",
+  "excerpt": "Adobe heeft meerdere kwetsbaarheden verholpen in Adobe Campaign Classic (ACC). De kwetsbaarheden in Adobe Campaign Classic betreffen onder andere code-injectie, incorrecte autorisatie, SQL-injectie en Cross-Site Scripting (XSS). Een aanvaller met lage privileges kan hierdoor op afstand willekeurige code uitvoeren zonder gebruikersinteractie, privileges escaleren, en toegang krijgen tot gevoelige data en functionaliteiten. De code-injectie kwetsbaarheid wijzigt de uitvoering scope binnen ACC, wat ongeautoriseerde code-uitvoering mogelijk maakt. De incorrecte autorisatie kwetsbaarheid maakt het…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T09:00:26Z",
+  "fetched": "2026-11-26T09:34:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Adobe"
+   ],
+   "summary": {
+    "en": "Adobe fixed multiple vulnerabilities in Adobe Campaign Classic, including code injection and SQL injection.",
+    "nl": "Adobe heeft meerdere kwetsbaarheden in Adobe Campaign Classic verholpen, waaronder code-injectie en SQL-injectie."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "fb274980fef7",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0516",
+  "title": "NCSC-2026-0516 [1.00] [M/H] Kwetsbaarheden verholpen in Joomla! Core door Joomla",
+  "excerpt": "Joomla heeft meerdere kwetsbaarheden verholpen in Joomla! Core, inclusief componenten zoals com_newsfeeds, com_contact, com_media, com_menus, com_workflow, com_fields, com_scheduler, com_finder, com_associations, com_banners, com_modules, com_installer, com_guidedtours, mod_articles_popular, en de webservice endpoints, verspreid over versies 1.5.0 tot en met 6.2.0. De kwetsbaarheden betreffen onder andere improper Access Control List (ACL) checks die leiden tot het omzeilen van permissiebeperkingen, waardoor ongeautoriseerde gebruikers toegang kunnen krijgen tot beschermde content…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-26T08:58:13Z",
+  "fetched": "2026-11-26T09:34:26Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Joomla"
+   ],
+   "summary": {
+    "en": "Joomla fixed multiple access control vulnerabilities in Joomla Core across versions 1.5.0 to 6.2.0.",
+    "nl": "Joomla heeft meerdere toegangscontrole kwetsbaarheden in Joomla Core verholpen voor versies 1.5.0 tot en met 6.2.0."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "6d484f7aab13",
+  "url": "https://www.security.nl/posting/963194/CBS%3A+Nederlandse+bedrijven+maken+steeds+vaker+gebruik+van+AI?channel=rss",
+  "title": "CBS: Nederlandse bedrijven maken steeds vaker gebruik van AI",
+  "excerpt": "Het gebruik van AI door Nederlandse bedrijven is in jaar tijd ruim verdubbeld, zo laat het Centraal Bureau voor de Statistiek ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T08:49:59Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Statistics Netherlands reports that Dutch companies have roughly doubled their use of AI within a year.",
+    "nl": "Het CBS meldt dat het AI-gebruik door Nederlandse bedrijven binnen een jaar ruim is verdubbeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "13824bb85450",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+  "title": "1Password breached through hijacked employee GitHub account, customer names and emails stolen",
+  "excerpt": "An attacker who got into a 1Password employee’s corporate GitHub account went on to copy account records for some of the company’s users and source code from private repositories, the password manager maker disclosed on Wednesday. “1Password identified a security incident involving some of our backend systems,” the company wrote in a post it plans to keep updated. “On November 19, 2026, 1Password began investigating indications that an attacker gained access to an employee’s corporate … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T08:42:32Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "1Password",
+    "GitHub"
+   ],
+   "summary": {
+    "en": "An attacker used a hijacked 1Password employee GitHub account to copy customer account records and private source code.",
+    "nl": "Een aanvaller gebruikte een gekaapt GitHub-account van een 1Password-medewerker om klantgegevens en broncode te kopiëren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "37d7fa25252e",
+  "url": "https://www.security.nl/posting/963190/Datalek+1Password+raakt+gegevens+van+gebruikers+en+broncode?channel=rss",
+  "title": "Datalek 1Password raakt gegevens van gebruikers en broncode",
+  "excerpt": "Aanvallers zijn erin geslaagd om toegang te krijgen tot systemen van wachtwoordmanager 1Password en hebben daarbij persoonlijke ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T08:37:18Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "1Password"
+   ],
+   "summary": {
+    "en": "Attackers gained access to 1Password systems and obtained personal user data and source code.",
+    "nl": "Aanvallers kregen toegang tot systemen van 1Password en verkregen persoonlijke gebruikersgegevens en broncode."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "457c08cf27ea",
+  "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+  "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+  "excerpt": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T07:02:34Z",
+  "fetched": "2026-11-26T09:34:24Z",
+  "cves": [
+   "CVE-2026-136716",
+   "CVE-2026-132165"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [
+    "Drupal"
+   ],
+   "summary": {
+    "en": "Drupal warned of a highly critical site takeover vulnerability in Drupal core that is being exploited in the wild.",
+    "nl": "Drupal waarschuwt voor een zeer kritieke kwetsbaarheid in Drupal core waarmee sites overgenomen kunnen worden en die actief wordt misbruikt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "1d57aa7ac03a",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+  "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T06:44:46Z",
+  "fetched": "2026-11-26T09:34:24Z",
+  "cves": [
+   "CVE-2026-133275"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Mitel",
+    "Juniper",
+    "Vates",
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "CISA added ten flaws to its KEV catalog, including five Mitel MiCollab bugs and vulnerabilities in Juniper, Vates and Danfoss products.",
+    "nl": "CISA heeft tien kwetsbaarheden aan de KEV-catalogus toegevoegd, waaronder vijf in Mitel MiCollab en kwetsbaarheden in producten van Juniper, Vates en Danfoss."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "8bed0b81ad7c",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/black-friday-2026-cybersecurity-deals/",
+  "title": "Black Friday cybersecurity deals 2026: Stay safe, spend less",
+  "excerpt": "Black Friday is here again, and for once your inbox full of “limited time offer” emails might be worth opening. Every year, security vendors join the sales rush with discounts on the tools we rely on every day. Below you’ll find some great Black Friday 2026 cybersecurity deals. Grab a coffee, check the fine print and maybe pick up a little extra peace of mind while it’s on sale. Passwork Passwork is a self-hosted password … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T06:30:33Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A roundup of Black Friday 2026 discounts on cybersecurity tools from various vendors.",
+    "nl": "Een overzicht van Black Friday-aanbiedingen in 2026 op cybersecuritytools van verschillende leveranciers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "9e49f91ec1c2",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/proxmox-9-3-adds-production-snapshots-for-san-backed-vms/",
+  "title": "Proxmox 9.3 adds production snapshots for SAN-backed VMs",
+  "excerpt": "Proxmox Virtual Environment 9.3 adds production support for snapshots on shared LVM storage over iSCSI and Fibre Channel SANs. The open-source virtualization platform also gives each guest an identity that survives migration, backup and restore. If your VMs sit on a SAN, you can now snapshot them before a risky change in a setup the vendor supports for production. The snapshots work as volume chains on thick-provisioned LVM, the layer that carves SAN disks into … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T06:07:23Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Proxmox"
+   ],
+   "summary": {
+    "en": "Proxmox Virtual Environment 9.3 adds production support for snapshots on shared LVM storage over iSCSI and Fibre Channel SANs.",
+    "nl": "Proxmox Virtual Environment 9.3 voegt productieondersteuning toe voor snapshots op gedeelde LVM-opslag over iSCSI- en Fibre Channel-SAN's."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "8b7022f6e994",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/fortinet-holiday-shopping-cyber-threats-report/",
+  "title": "More than 4,400 malicious domains are waiting for holiday shoppers",
+  "excerpt": "Cybercriminals are positioned to exploit the holiday shopping season through fraudulent storefronts, retailer impersonation, payment fraud and account takeover attacks, according to FortiGuard Labs’ Holiday Season Cyber Threats Report 2026. Researchers identified more than 24,000 newly registered domains containing keywords associated with seasonal shopping over a 90-day period, including more than 4,400 classified as malicious. Underground marketplaces are facilitating the trade in stolen customer information, access to e-commerce infrastructure and services that support financial fraud. ……",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T06:00:53Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "FortiGuard Labs"
+   ],
+   "summary": {
+    "en": "FortiGuard Labs reports over 4,400 malicious domains targeting holiday shoppers in a 90-day period.",
+    "nl": "FortiGuard Labs meldt meer dan 4.400 kwaadaardige domeinen gericht op kerstshoppers in een periode van negentig dagen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "011e79ca1690",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+  "title": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
+  "excerpt": "Google has announced security controls across Google Workspace and Google Cloud to address the risks associated with autonomous AI agents accessing enterprise data, executing tasks, and interacting with cloud infrastructure. The measures include dedicated agent identities, human approval controls for sensitive operations, prompt injection screening, and restrictions on how third-party AI tools access and process organizational data. The company also announced the general availability of its Workspace Model Context Protocol (MCP) servers and command-line interface … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T05:30:05Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Google"
+   ],
+   "summary": {
+    "en": "Google announced security controls for autonomous AI agents in Workspace and Google Cloud, including agent identities and approval controls.",
+    "nl": "Google heeft beveiligingsmaatregelen aangekondigd voor autonome AI-agents in Workspace en Google Cloud, waaronder agent-identiteiten en goedkeuringscontroles."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "44fcedad341c",
+  "url": "https://www.helpnetsecurity.com/2026/11/26/incogni-online-privacy-concerns-report/",
+  "title": "People are willing to pay to vanish from search results",
+  "excerpt": "More than half of U.S. adults would like to see a log of everyone who has searched for their name online. In a survey of 1,008 adults by Incogni, 53% said they would like that record to cover the past five years, and 55% said they would pay to have their personal information permanently removed from all public search results. “You can learn an extraordinary amount about someone without ever speaking to them. Their address, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T05:00:06Z",
+  "fetched": "2026-11-26T09:34:25Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "research",
+   "sectors": [],
+   "vendors": [
+    "Incogni"
+   ],
+   "summary": {
+    "en": "A survey by Incogni found that over half of US adults would pay to have personal information removed from search results.",
+    "nl": "Een enquête van Incogni toont dat meer dan de helft van de Amerikaanse volwassenen zou betalen om persoonlijke gegevens uit zoekresultaten te laten verwijderen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "420627cd7e6f",
+  "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+  "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+  "excerpt": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T04:20:22Z",
+  "fetched": "2026-11-26T09:34:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "1Password"
+   ],
+   "summary": {
+    "en": "1Password disclosed unauthorized access to backend systems exposing some customer information, but states password vaults were not accessed.",
+    "nl": "1Password meldt ongeautoriseerde toegang tot backendsystemen met klantgegevens, maar stelt dat wachtwoordkluizen niet zijn benaderd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
+  "id": "98bf0c432201",
+  "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+  "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+  "excerpt": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher Kush Pandya said in a technical write-up. \"In the versions we analyzed, building or running a",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T03:48:52Z",
+  "fetched": "2026-11-26T09:34:24Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found 13 malicious NuGet packages disguised as .NET job assessments that deliver malware to Windows developers.",
+    "nl": "Onderzoekers ontdekten 13 kwaadaardige NuGet-pakketten, vermomd als .NET-sollicitatietests, die malware verspreiden naar Windows-ontwikkelaars."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T09:34:41Z"
+  }
+ },
+ {
   "id": "710485a0c6f3",
   "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",

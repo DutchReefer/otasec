@@ -1,0 +1,222 @@
+{
+ "date": "2026-11-26",
+ "published": "2026-11-26T09:35:15Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 12,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Refrigeration controllers dominate today's briefing, with an update on the Danfoss flaw and a new exploited Copeland vulnerability. Also: PAN-OS exploitation, a ransomware hit on a smart meter maker and new warnings about AI-driven attacks."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Koelsystemen staan vandaag centraal: een update over de Danfoss-kwetsbaarheid en een nieuw misbruikt lek bij Copeland. Verder aandacht voor misbruik van PAN-OS, ransomware bij een fabrikant van slimme meters en nieuwe waarschuwingen over AI-gedreven aanvallen."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "94e001fb831d",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers"
+    },
+    {
+     "id": "48d3fd7dcdaf",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+     "title": "ICSA-26-328-03: Danfoss AK-SM 8xxA Series"
+    },
+    {
+     "id": "1d57aa7ac03a",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+     "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products"
+    }
+   ],
+   "source_count": 3,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-129713",
+    "CVE-2026-133275"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Update: CISA flags unpatched Danfoss AK-SM 8xxA flaw, Danfoss added to KEV",
+     "summary": "CISA published advisory ICSA-26-328-03 and warned that a critical flaw in Danfoss AK-SM 8xxA Series controllers, used by food retailers for refrigeration, HVAC and lighting, remains unpatched. Exploitation (CVE-2026-129713) could let an attacker execute arbitrary code with webserver privileges. CISA also added 10 flaws to its Known Exploited Vulnerabilities catalog, covering Mitel, Juniper, Vates and Danfoss products.",
+     "takeaway": "Check whether AK-SM 8xxA controllers are in your estate, keep them off the internet and behind segmentation, and follow up with Danfoss on mitigations."
+    },
+    "nl": {
+     "heading": "Update: CISA waarschuwt voor ongepatcht Danfoss AK-SM 8xxA-lek, Danfoss op KEV-lijst",
+     "summary": "CISA publiceerde advisory ICSA-26-328-03 en waarschuwde dat een kritiek lek in Danfoss AK-SM 8xxA Series-controllers, die door foodretailers worden gebruikt voor koeling, HVAC en verlichting, nog niet is gepatcht. Misbruik (CVE-2026-129713) kan een aanvaller willekeurige code laten uitvoeren met webserverrechten. CISA voegde daarnaast 10 kwetsbaarheden toe aan de Known Exploited Vulnerabilities-catalogus, voor producten van Mitel, Juniper, Vates en Danfoss.",
+     "takeaway": "Controleer of AK-SM 8xxA-controllers in uw omgeving staan, houd ze van internet af en achter segmentatie, en vraag Danfoss naar mitigerende maatregelen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "c7dc59c19875",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/963152/Kritiek+beveiligingslek+in+koelsystemen+Copeland+misbruikt+bij+aanvallen?channel=rss",
+     "title": "Kritiek beveiligingslek in koelsystemen Copeland misbruikt bij aanvallen"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Critical flaw in Copeland cooling systems exploited in attacks",
+     "summary": "Security.NL reports that attackers are exploiting a critical vulnerability in cooling systems from supplier Copeland. The item is tagged for the food and building sectors.",
+     "takeaway": "Identify any Copeland cooling equipment you operate, check its network exposure and ask the supplier for patch or mitigation guidance."
+    },
+    "nl": {
+     "heading": "Kritiek lek in Copeland-koelsystemen misbruikt bij aanvallen",
+     "summary": "Security.NL meldt dat aanvallers misbruik maken van een kritieke kwetsbaarheid in koelsystemen van leverancier Copeland. Het bericht is gelabeld voor de sectoren voeding en gebouwen.",
+     "takeaway": "Breng in kaart welke Copeland-koelapparatuur u beheert, controleer de netwerkblootstelling en vraag de leverancier om patch- of mitigatieadvies."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "710485a0c6f3",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+     "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "PAN-OS devices targeted with chained PHP2Shell and Fragnesia exploits",
+     "summary": "Palo Alto Networks warns that threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities. The attacks target devices whose management interfaces are exposed to the internet.",
+     "takeaway": "Make sure firewall management interfaces are not reachable from the internet, including those at the IT/OT boundary, and apply Palo Alto Networks guidance."
+    },
+    "nl": {
+     "heading": "PAN-OS-apparaten doelwit van gekoppelde PHP2Shell- en Fragnesia-exploits",
+     "summary": "Palo Alto Networks waarschuwt dat aanvallers exploits voor de kwetsbaarheden PHP2Shell en Fragnesia aan elkaar koppelen. De aanvallen richten zich op apparaten waarvan de beheerinterface aan het internet blootstaat.",
+     "takeaway": "Zorg dat beheerinterfaces van firewalls niet vanaf internet bereikbaar zijn, ook op de grens tussen IT en OT, en pas de adviezen van Palo Alto Networks toe."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "6687a98c06ef",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/threats-attacks/osaki-electric-ransomware-attack-disrupts-smart-meter-production-raising-supplier-continuity-concerns-across-asia-pacific/",
+     "title": "Osaki Electric ransomware attack disrupts smart meter production, raising supplier continuity concerns across Asia-Pacific"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Ransomware at Osaki Electric disrupts smart meter production",
+     "summary": "OT-ISAC published a report on a ransomware attack against Japan-based Osaki Electric. The attack disrupted smart meter production and raises supplier continuity concerns across Asia-Pacific.",
+     "takeaway": "Review your dependency on metering and other critical suppliers and check their continuity and incident-notification arrangements."
+    },
+    "nl": {
+     "heading": "Ransomware bij Osaki Electric verstoort productie van slimme meters",
+     "summary": "OT-ISAC publiceerde een rapport over een ransomware-aanval op het Japanse Osaki Electric. De aanval verstoorde de productie van slimme meters en roept zorgen op over leveringscontinuïteit in Azië-Pacific.",
+     "takeaway": "Beoordeel uw afhankelijkheid van leveranciers van meters en andere kritieke onderdelen en controleer hun continuïteitsplannen en afspraken over incidentmelding."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "ae92326f2550",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+     "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Italy and Switzerland warn of autonomous AI-driven attacks on critical infrastructure",
+     "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents that target critical infrastructure organizations. This follows yesterday's NCSC warning on agentic AI frameworks.",
+     "takeaway": "Assume attacks may run faster and at larger scale, and verify that patching, exposure management and OT monitoring can keep up."
+    },
+    "nl": {
+     "heading": "Italië en Zwitserland waarschuwen voor autonome AI-aanvallen op vitale infrastructuur",
+     "summary": "Zwitserse en Italiaanse cyberveiligheidsautoriteiten waarschuwen voor geautomatiseerde cyberaanvallen met AI-agents die zich richten op organisaties in vitale sectoren. Dit sluit aan op de waarschuwing van het NCSC van gisteren over agentic AI-frameworks.",
+     "takeaway": "Ga ervan uit dat aanvallen sneller en op grotere schaal kunnen verlopen, en controleer of patching, beheer van blootstelling en OT-monitoring dat bijhouden."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "e51774e82e31",
+     "name": "CISA ICS Advisories",
+     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+     "title": "ICSA-26-328-01: AutomationDirect C-More EA9 Programming Software"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [
+    "CVE-2026-127280"
+   ],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: AutomationDirect C-More EA9 programming software",
+     "summary": "CISA advisory ICSA-26-328-01 covers a memory corruption flaw (CVE-2026-127280) in AutomationDirect C-More EA9 Programming Software. It could cause a crash or arbitrary code execution if a user is convinced to open a malicious file. Affected sectors include Critical Manufacturing, Energy, and Water and Wastewater Systems.",
+     "takeaway": "Update the programming software where used and train engineers not to open project files from untrusted sources."
+    },
+    "nl": {
+     "heading": "Overige advisories: AutomationDirect C-More EA9-programmeersoftware",
+     "summary": "CISA-advisory ICSA-26-328-01 beschrijft een geheugenbeschadigingslek (CVE-2026-127280) in AutomationDirect C-More EA9 Programming Software. Dit kan leiden tot een crash of het uitvoeren van willekeurige code als een gebruiker een kwaadaardig bestand opent. Getroffen sectoren zijn onder meer kritieke maakindustrie, energie en water en afvalwater.",
+     "takeaway": "Werk de programmeersoftware bij waar die wordt gebruikt en instrueer engineers om geen projectbestanden uit onbetrouwbare bronnen te openen."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "e2a3c45c428f",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/check-point-tracks-q3-ransomware-activity-declining-ransom-payments-growing-fragmentation-across-117-brands/",
+     "title": "Check Point tracks Q3 ransomware activity, declining ransom payments, growing fragmentation across 117 brands"
+    },
+    {
+     "id": "95c51f34be17",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/pharma/cyfirma-maps-pharmaceutical-cyber-threats-as-hackers-target-drug-research-vaccine-development-and-manufacturing/",
+     "title": "Cyfirma maps pharmaceutical cyber threats as hackers target drug research, vaccine development and manufacturing"
+    },
+    {
+     "id": "fe54c04d810a",
+     "name": "Waterfall Security",
+     "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/webinar-top10-cyberattacks-2026/",
+     "title": "Top 10 OT Cyber Attacks of 2026"
+    }
+   ],
+   "source_count": 2,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Threat reports: record ransomware quarter, pharma threats, top OT attacks of 2026",
+     "summary": "Check Point data shows ransomware activity hit a record 2,830 victims in Q3 across 117 brands. Cyfirma reports sustained threats against pharmaceutical and biotech organizations, including nation-state espionage. Waterfall announced a webinar on the top 10 OT cyber attacks of 2026.",
+     "takeaway": "Use these reports to test whether your ransomware and OT incident scenarios reflect current threat activity."
+    },
+    "nl": {
+     "heading": "Dreigingsrapporten: recordkwartaal ransomware, farmabedreigingen en top OT-aanvallen van 2026",
+     "summary": "Uit data van Check Point blijkt dat ransomware in Q3 een record van 2.830 slachtoffers bereikte, verdeeld over 117 merken. Cyfirma meldt aanhoudende dreiging voor farmaceutische en biotechbedrijven, waaronder spionage door statelijke actoren. Waterfall kondigde een webinar aan over de tien belangrijkste OT-cyberaanvallen van 2026.",
+     "takeaway": "Gebruik deze rapporten om te toetsen of uw ransomware- en OT-incidentscenario's aansluiten op de actuele dreiging."
+    }
+   }
+  }
+ ]
+}
