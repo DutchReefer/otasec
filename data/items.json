@@ -1,5 +1,302 @@
 [
  {
+  "id": "710485a0c6f3",
+  "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+  "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+  "excerpt": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T22:05:09Z",
+  "fetched": "2026-11-26T00:25:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "threat",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Palo Alto Networks"
+   ],
+   "summary": {
+    "en": "Threat actors are chaining PHP2Shell and Fragnesia flaws to attack PAN-OS devices with internet-exposed management interfaces.",
+    "nl": "Dreigactoren combineren de PHP2Shell- en Fragnesia-kwetsbaarheden om PAN-OS-apparaten met extern bereikbare beheerinterfaces aan te vallen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
+  "id": "0e1943b5e4da",
+  "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+  "title": "1Password customer data stolen after employee GitHub account breach",
+  "excerpt": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T21:33:33Z",
+  "fetched": "2026-11-26T00:25:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "1Password disclosed a breach in which an employee's GitHub account was used to deploy malicious code and steal customer data.",
+    "nl": "1Password meldde een datalek waarbij een gekaapt GitHub-account van een medewerker is gebruikt om kwaadaardige code te plaatsen en klantgegevens te stelen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
+  "id": "17a805c0d69c",
+  "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+  "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+  "excerpt": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T21:18:00Z",
+  "fetched": "2026-11-26T00:25:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft said Chinese and North Korean hacking groups are rapidly integrating an AI tool called Artex, implicated in several breaches.",
+    "nl": "Microsoft meldt dat hackergroepen uit China en Noord-Korea de AI-tool Artex snel integreren in hun aanvalssuites."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
+  "id": "dbfa2402c895",
+  "url": "https://therecord.media/fifa-data-breach-limited",
+  "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+  "excerpt": "The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T20:40:00Z",
+  "fetched": "2026-11-26T00:25:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "FIFA says hackers accessed a limited set of personal and business information and is investigating the breach with authorities.",
+    "nl": "FIFA meldt dat hackers toegang hebben gehad tot een beperkte set persoonlijke en zakelijke gegevens en onderzoekt de inbreuk samen met autoriteiten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
+  "id": "ae92326f2550",
+  "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+  "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+  "excerpt": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T19:39:31Z",
+  "fetched": "2026-11-26T00:25:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 65,
+   "category": "guidance",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Swiss and Italian cybersecurity agencies warn of automated attacks driven by AI agents targeting critical infrastructure organizations.",
+    "nl": "De Zwitserse en Italiaanse cyberautoriteiten waarschuwen voor geautomatiseerde aanvallen door AI-agents op organisaties in de kritieke infrastructuur."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
+  "id": "4fcf01c31362",
+  "url": "https://therecord.media/ransomware-doj-indictment-recovery",
+  "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+  "excerpt": "The CEO of a ransomware recovery firm was indicted by a federal grand jury over allegations he lied about his services and paid out ransoms to cybercriminals.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T17:30:00Z",
+  "fetched": "2026-11-26T00:25:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A federal grand jury indicted the CEO of a ransomware recovery firm for allegedly lying about services and paying ransoms.",
+    "nl": "Een federale jury heeft de CEO van een ransomware-herstelbedrijf aangeklaagd wegens vermeend liegen over diensten en het betalen van losgeld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
+  "id": "b93540ef2a5b",
+  "url": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+  "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+  "excerpt": "The Digital Duty of Care Act sailed through Australia's Parliament. It will mandate that online providers establish protocols to protect users from threats of violence and rape as well as behavior that could cause significant harms.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T17:07:00Z",
+  "fetched": "2026-11-26T00:25:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "regulation",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Australia's Parliament passed the Digital Duty of Care Act, requiring online providers to protect users from harms.",
+    "nl": "Het Australische parlement heeft de Digital Duty of Care Act aangenomen, die online aanbieders verplicht gebruikers te beschermen tegen schade."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
+  "id": "c7dc59c19875",
+  "url": "https://www.security.nl/posting/963152/Kritiek+beveiligingslek+in+koelsystemen+Copeland+misbruikt+bij+aanvallen?channel=rss",
+  "title": "Kritiek beveiligingslek in koelsystemen Copeland misbruikt bij aanvallen",
+  "excerpt": "Aanvallers maken misbruik van een kritieke kwetsbaarheid in koelsystemen van leverancier Copeland waardoor de apparaten op ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T16:19:35Z",
+  "fetched": "2026-11-26T00:25:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "incident",
+   "sectors": [
+    "food",
+    "building"
+   ],
+   "vendors": [
+    "Copeland"
+   ],
+   "summary": {
+    "en": "Attackers are exploiting a critical vulnerability in Copeland cooling systems.",
+    "nl": "Aanvallers maken misbruik van een kritieke kwetsbaarheid in koelsystemen van Copeland."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  },
+  "title_en": "Critical security flaw in Copeland cooling systems exploited in attacks"
+ },
+ {
+  "id": "94e001fb831d",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+  "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T16:13:40Z",
+  "fetched": "2026-11-26T00:25:12Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 75,
+   "category": "advisory",
+   "sectors": [
+    "food",
+    "building"
+   ],
+   "vendors": [
+    "Danfoss"
+   ],
+   "summary": {
+    "en": "CISA warns of a critical unpatched vulnerability in Danfoss AK-SM 8xxA series controllers used for commercial refrigeration, HVAC and lighting.",
+    "nl": "CISA waarschuwt voor een kritieke, nog niet gepatchte kwetsbaarheid in Danfoss AK-SM 8xxA-controllers voor commerciële koeling, HVAC en verlichting."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
+  "id": "03679dacfdf7",
+  "url": "https://www.security.nl/posting/963142/Todoist+lekt+wachtwoordhashes%2C+tokens+en+e-mailadressen+gebruikers?channel=rss",
+  "title": "Todoist lekt wachtwoordhashes, tokens en e-mailadressen gebruikers",
+  "excerpt": "Taken-app Todoist is getroffen door een hack, waarbij een aanvaller toegang wist te krijgen tot productiesystemen en gegevens ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-25T15:52:08Z",
+  "fetched": "2026-11-26T00:25:13Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Todoist app was hacked, with attackers gaining access to production systems and exposing password hashes, tokens and email addresses.",
+    "nl": "De Todoist-app is gehackt, waarbij aanvallers toegang kregen tot productiesystemen en wachtwoordhashes, tokens en e-mailadressen zijn gelekt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-26T00:25:25Z"
+  }
+ },
+ {
   "id": "c40bac75cb7f",
   "url": "https://www.security.nl/posting/963145/Schoenenwinkel+vanHaren+waarschuwt+klanten+voor+datalek?channel=rss",
   "title": "Schoenenwinkel vanHaren waarschuwt klanten voor datalek",
