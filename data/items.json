@@ -1,5 +1,383 @@
 [
  {
+  "id": "1fb658de3739",
+  "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+  "title": "pCloud confirms password manager hack after suspicious login alerts",
+  "excerpt": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T19:26:04Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The pCloud Pass password manager suffered a cyberattack, and users reported unknown devices accessing accounts despite 2FA being enabled.",
+    "nl": "De wachtwoordmanager pCloud Pass is gehackt, en gebruikers meldden onbekende apparaten op hun accounts ondanks ingeschakelde 2FA."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "8b082e360c9e",
+  "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+  "title": "New Boston Scientific data breach exposes personal, medical info",
+  "excerpt": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T18:57:42Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Boston Scientific is sending breach notices to individuals whose personal and medical information was exposed in a cyberattack on the company.",
+    "nl": "Boston Scientific stuurt meldingen van een datalek naar getroffenen, waarbij persoonlijke en medische gegevens zijn blootgesteld door een cyberaanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "30b0f99624be",
+  "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+  "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+  "excerpt": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T17:06:13Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 60,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "A zero-day in the Cacti network monitoring platform has been publicly disclosed with a proof-of-concept exploit enabling unauthenticated remote code execution, and no patch is available.",
+    "nl": "Een zero-day in het netwerkmonitoringplatform Cacti is openbaar gemaakt met een proof-of-concept exploit voor remote code execution zonder authenticatie, zonder beschikbare patch."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "e806fe8ae295",
+  "url": "https://www.security.nl/posting/963458/Wereldvoetbalbond+FIFA+getroffen+door+cyberaanval?channel=rss",
+  "title": "Wereldvoetbalbond FIFA getroffen door cyberaanval",
+  "excerpt": "Wereldvoetbalbond FIFA heeft in een verklaring die naar diverse mediaplatformen is verstuurd, bevestigd dat het slachtoffer is ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T17:05:29Z",
+  "fetched": "2026-11-27T21:59:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "FIFA confirmed that it was the victim of a cyberattack.",
+    "nl": "FIFA heeft bevestigd het slachtoffer te zijn van een cyberaanval."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "f01224df1f54",
+  "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+  "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+  "excerpt": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveLotus. The activity is assessed to have comprised five intrusions in Thailand",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T16:36:11Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "threat",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers attributed a previously undocumented espionage campaign by a Vietnam-linked group to intrusions at Southeast Asian military and government organizations.",
+    "nl": "Onderzoekers koppelen een eerder onbekende spionagecampagne van een aan Vietnam gelieerde groep aan inbraken bij militaire en overheidsorganisaties in Zuidoost-Azië."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "ffd015cfc374",
+  "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+  "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+  "excerpt": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T15:09:40Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Hackers reportedly breached the US Air Force Cloud One computing platform, part of a wave of attacks on US federal agencies.",
+    "nl": "Hackers zouden het cloudplatform Cloud One van de Amerikaanse luchtmacht hebben gekraakt, onderdeel van een golf aanvallen op federale instanties in de VS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "40aa7f507fa8",
+  "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+  "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+  "excerpt": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T15:00:10Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A sponsored article describes how centralized management and access controls can reduce risks from unmanaged virtual machines.",
+    "nl": "Een gesponsord artikel beschrijft hoe centraal beheer en toegangscontrole risico's van onbeheerde virtuele machines kunnen verkleinen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "970e8b59b9f5",
+  "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+  "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+  "excerpt": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T14:22:06Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Malwarebytes is offering 50% discounts on its security subscriptions during its Black Friday 2026 sale.",
+    "nl": "Malwarebytes biedt tijdens de Black Friday-actie van 2026 50% korting op zijn beveiligingsabonnementen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "4a82d3723014",
+  "url": "https://therecord.media/japan-education-ministry-cyberattack",
+  "title": "Japan’s education ministry discloses breach of government procurement system",
+  "excerpt": "Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T14:15:00Z",
+  "fetched": "2026-11-27T21:59:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Japan's education ministry disclosed that hackers breached its government procurement system, potentially exposing business information and email addresses.",
+    "nl": "Het Japanse ministerie van Onderwijs meldt dat hackers zijn procurementsysteem hebben gekraakt, waardoor zakelijke gegevens en e-mailadressen mogelijk zijn blootgesteld."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "466abe2e05d9",
+  "url": "https://www.security.nl/posting/963438/Softwarebedrijf+SAP+bevestigt+cybersecurity-incident?channel=rss",
+  "title": "Softwarebedrijf SAP bevestigt cybersecurity-incident",
+  "excerpt": "Softwarebedrijf SAP heeft vandaag bevestigd dat het onlangs gehackt is. Gisteren schreef het Duitse Der Spiegel al over een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T14:05:00Z",
+  "fetched": "2026-11-27T21:59:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "SAP"
+   ],
+   "summary": {
+    "en": "SAP confirmed it was recently hacked in a cybersecurity incident.",
+    "nl": "SAP heeft bevestigd recentelijk gehackt te zijn in een cybersecurity-incident."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "463990d23fb3",
+  "url": "https://www.security.nl/posting/963426/Reuters%3A+%E2%80%98Hackers+braken+in+op+cloudplatform+Amerikaanse+luchtmacht%E2%80%99_?channel=rss",
+  "title": "Reuters: ‘Hackers braken in op cloudplatform Amerikaanse luchtmacht’.",
+  "excerpt": "Persbureau Reuters meldt dat hackers toegang hebben gekregen tot het belangrijkste cloudplatform van de Amerikaanse ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T13:22:06Z",
+  "fetched": "2026-11-27T21:59:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Reuters reports that hackers gained access to the main cloud platform of the US Air Force.",
+    "nl": "Reuters meldt dat hackers toegang hebben gekregen tot het belangrijkste cloudplatform van de Amerikaanse luchtmacht."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "d38978379f4f",
+  "url": "https://www.helpnetsecurity.com/2026/11/27/fifa-cyberattack-data-leak/",
+  "title": "FIFA hacked, cybercriminals claim access to sensitive internal records",
+  "excerpt": "Cybercriminals broke into FIFA’s systems and gained access to “a limited set of personal and business information,” world football’s governing body confirmed on Thursday. “FIFA is working closely with the relevant authorities, including law enforcement,” the Zurich-based football governing body told The Associated Press, without saying when the attack happened or what kind of information the intruders took. “FIFA condemns in the strongest possible terms the unlawful acquisition and publication of information, particularly personal data. … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T13:21:50Z",
+  "fetched": "2026-11-27T21:59:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "FIFA confirmed that cybercriminals accessed a limited set of personal and business information and that it is working with law enforcement.",
+    "nl": "FIFA bevestigt dat cybercriminelen toegang kregen tot een beperkte set persoonlijke en zakelijke gegevens en werkt met de autoriteiten samen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "9a79f6f175db",
+  "url": "https://therecord.media/sap-germany-cyberattack-github",
+  "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+  "excerpt": "German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure, potentially gaining access to the company’s source code.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T13:15:00Z",
+  "fetched": "2026-11-27T21:59:35Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [
+    "SAP"
+   ],
+   "summary": {
+    "en": "SAP confirmed a cybersecurity incident after reports that hackers may have accessed its software development infrastructure and source code.",
+    "nl": "SAP bevestigt een cybersecurity-incident na berichten dat hackers mogelijk toegang hebben gekregen tot zijn softwareontwikkelomgeving en broncode."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
   "id": "cba0043348bb",
   "url": "https://www.security.nl/posting/963294/Ceo+recoverybedrijf+aangeklaagd+voor+oplichten+ransomware-slachtoffers?channel=rss",
   "title": "Ceo recoverybedrijf aangeklaagd voor oplichten ransomware-slachtoffers",
@@ -25,6 +403,34 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "4895aa5a5bc0",
+  "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+  "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+  "excerpt": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T11:49:34Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Researchers found a Microsoft Store application delivering the Vinci RAT remote access trojan through a fake snipping tool site.",
+    "nl": "Onderzoekers ontdekten een Microsoft Store-app die de Vinci RAT-trojan verspreidt via een nepsite van een knipprogramma."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
   }
  },
  {
@@ -834,6 +1240,72 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "1b01639ae52b",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-579716.html",
+  "title": "SSA-579716 V1.0: Insufficient Session Expiration Vulnerability in Mendix Runtime",
+  "excerpt": "The products listed below contain a session management vulnerability that could allow a deactivated user to continue using an existing session to access and modify data within their previously granted permissions. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-27T00:00:00Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 45,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Mendix"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-579716 describes a session expiration flaw in Mendix Runtime that lets deactivated users keep accessing data, and fixed versions are available.",
+    "nl": "Siemens-advisory SSA-579716 beschrijft een zwakke sessieverloop in Mendix Runtime waardoor gedeactiveerde gebruikers data kunnen blijven benaderen, en er zijn opgeloste versies beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
+  }
+ },
+ {
+  "id": "a514e21dea37",
+  "url": "https://cert-portal.siemens.com/productcert/html/ssa-545865.html",
+  "title": "SSA-545865 V1.0: Improper Token Verification Vulnerability in Mendix OIDC Provider Module",
+  "excerpt": "Mendix OIDC Provider contains a token verification vulnerability that could allow an remote attack to hijack an Account. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
+  "source_id": "siemens-productcert",
+  "source": "Siemens ProductCERT",
+  "lang": "en",
+  "kind": "advisory",
+  "focus": "ot",
+  "published": "2026-11-27T00:00:00Z",
+  "fetched": "2026-11-27T21:59:34Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 50,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Siemens",
+    "Mendix"
+   ],
+   "summary": {
+    "en": "Siemens advisory SSA-545865 reports a token verification flaw in the Mendix OIDC Provider module that could allow remote account hijacking, and updates are available.",
+    "nl": "Siemens-advisory SSA-545865 meldt een fout in de tokenverificatie van de Mendix OIDC Provider-module waardoor accounts op afstand gekaapt kunnen worden, en er zijn updates beschikbaar."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T21:59:52Z"
   }
  },
  {
