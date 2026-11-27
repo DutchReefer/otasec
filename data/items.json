@@ -1,5 +1,842 @@
 [
  {
+  "id": "cba0043348bb",
+  "url": "https://www.security.nl/posting/963294/Ceo+recoverybedrijf+aangeklaagd+voor+oplichten+ransomware-slachtoffers?channel=rss",
+  "title": "Ceo recoverybedrijf aangeklaagd voor oplichten ransomware-slachtoffers",
+  "excerpt": "De oprichter en ceo van een Amerikaans recoverybedrijf is in de Verenigde Staten aangeklaagd voor het oplichten van bedrijven ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T12:05:00Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 8,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The founder and CEO of a US recovery company has been charged for defrauding companies hit by ransomware.",
+    "nl": "De oprichter en ceo van een Amerikaans recoverybedrijf is aangeklaagd voor het oplichten van bedrijven die door ransomware zijn getroffen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "fa54dfef26a9",
+  "url": "https://www.security.nl/posting/963395/NCSC+waarschuwt+voor+gevaren+van+toegenomen+gebruik+van+AI+door+bedrijven?channel=rss",
+  "title": "NCSC waarschuwt voor gevaren van toegenomen gebruik van AI door bedrijven",
+  "excerpt": "Naar aanleiding van de bevindingen van het CBS over het toegenomen gebruik van AI door bedrijven benadrukt het NCSC in een ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T11:28:55Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Dutch NCSC warns of risks from growing business use of AI, following CBS findings on increased adoption.",
+    "nl": "Het NCSC waarschuwt voor de risico's van het toenemende gebruik van AI door bedrijven, na bevindingen van het CBS."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "2d084251a8a9",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+  "title": "Microsoft removes WSUS server role in Windows Server 2028",
+  "excerpt": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T11:18:36Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 12,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system.",
+    "nl": "Microsoft verwijdert de WSUS-serverrol uit Windows Server 2028, de volgende grote release van het serverbesturingssysteem."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "aa7dfca7fc80",
+  "url": "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/",
+  "title": "Chinese and North Korean state hackers add ARTEX AI framework to their arsenal",
+  "excerpt": "State-sponsored hacking groups tied to Beijing and Pyongyang have started running the ARTEX pentesting tool in attacks, Microsoft Threat Intelligence warned this week. Published on GitHub in July 2026 by a user going by Autumn-27, ARTEX is an LLM-driven open-source penetration testing framework that runs attacks largely on its own, with the operator setting a goal and AI agents planning and carrying out the steps needed to reach it. In November, China-based cybersecurity company ThreatBook … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T11:06:57Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "State-sponsored groups linked to China and North Korea have started using the ARTEX open-source LLM-driven pentesting framework in attacks, according to Microsoft.",
+    "nl": "Door staat gesteunde groepen uit China en Noord-Korea gebruiken het open-source, LLM-gestuurde pentestframework ARTEX in aanvallen, meldt Microsoft."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "b12e8d670d46",
+  "url": "https://www.security.nl/posting/963289/%27Papieren+wachtwoordboeken+wegens+vele+datalekken+populair+in+Japan%27?channel=rss",
+  "title": "'Papieren wachtwoordboeken wegens vele datalekken populair in Japan'",
+  "excerpt": "In Japan is de verkoop van wachtwoordboeken, waarin mensen hun inloggegevens kunnen opschrijven, wegens het toenemend aantal ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T11:02:00Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 3,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Paper password books are selling well in Japan due to a rising number of data breaches.",
+    "nl": "Papieren wachtwoordboeken verkopen goed in Japan vanwege het toenemend aantal datalekken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "2830add4eb55",
+  "url": "https://www.security.nl/posting/963387/Duitse+cyberbeveiligingsauthoriteit+waarschuwt+voor+toenemende+dreiging+zelfstandig+opererende+AI?channel=rss",
+  "title": "Duitse cyberbeveiligingsauthoriteit waarschuwt voor toenemende dreiging zelfstandig opererende AI",
+  "excerpt": "Het BSI (Bundesamt für Sicherheit in der Informationstechnik), de Duitse tegenhanger van het NCSC, waarschuwde donderdag in ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T10:37:43Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Germany's BSI warns that autonomous AI systems pose a growing threat to cybersecurity.",
+    "nl": "Het Duitse BSI waarschuwt dat zelfstandig opererende AI een toenemende dreiging voor cyberveiligheid vormt."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "415efee3262b",
+  "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+  "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+  "excerpt": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is,",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T10:32:18Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "guidance",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "An article on keeping security metrics current as attacks accelerate with AI.",
+    "nl": "Een artikel over het actueel houden van securitymetrics nu aanvallers met AI-snelheid opereren."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "6f6ebf2a056f",
+  "url": "https://www.security.nl/posting/963306/Kaspersky+meldt+toename+van+Android-apparaten+geleverd+met+malware?channel=rss",
+  "title": "Kaspersky meldt toename van Android-apparaten geleverd met malware",
+  "excerpt": "Er is een sterke toename van het aantal Android-apparaten dat met malware wordt geleverd, zo stelt antivirusbedrijf Kaspersky. ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T10:17:00Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Kaspersky reports a sharp rise in Android devices shipped with preinstalled malware.",
+    "nl": "Kaspersky meldt een sterke stijging van Android-apparaten die al met malware zijn geleverd."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "78b38f09dd17",
+  "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+  "title": "Drupal warns of new site takeover flaw exploited in attacks",
+  "excerpt": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T10:10:15Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers are exploiting a second critical Drupal vulnerability to take over unpatched websites.",
+    "nl": "Aanvallers misbruiken een tweede kritieke Drupal-kwetsbaarheid om ongepatchte websites over te nemen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "62bc0a315180",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0526",
+  "title": "NCSC-2026-0526 [1.01] [M/H] Kwetsbaarheden verholpen in GeoServer",
+  "excerpt": "GeoServer heeft 17 kwetsbaarheden verholpen, waarvan GeoServer er één als kritiek en twaalf als hoog heeft beoordeeld. De kwetsbaarheid met kenmerk CVE-2026-129245 heeft een CVSS-score van 9.2 en betreft een voorspelbare cryptografische sleutel binnen de 'remember-me'-functionaliteit. Een kwaadwillende die beschikt over de benodigde gegevens kan de kwetsbaarheid misbruiken om een geldige beheerderssessie te vervalsen en daarmee administratieve toegang te verkrijgen. GeoServer beschrijft daarnaast een aanvalsketen waarbij vijf kwetsbaarheden worden gecombineerd. Naast CVE-2026-129245 betreft…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-27T10:01:48Z",
+  "fetched": "2026-11-27T12:30:08Z",
+  "cves": [
+   "CVE-2026-129245"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "GeoServer fixed 17 vulnerabilities, including critical flaw CVE-2026-129245 with CVSS 9.2 allowing forged admin sessions.",
+    "nl": "GeoServer heeft 17 kwetsbaarheden verholpen, waaronder CVE-2026-129245 met CVSS 9.2 waarmee een beheerderssessie vervalst kan worden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "43fc0fc479ab",
+  "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+  "title": "SAP confirms security incident after suspicious GitHub activity",
+  "excerpt": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T09:56:36Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "SAP confirmed a security incident and took urgent action to protect customers after suspicious activity in its IT environment.",
+    "nl": "SAP bevestigde een beveiligingsincident en nam dringende maatregelen om klanten te beschermen na verdachte activiteit in de IT-omgeving."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "fe1878ce1996",
+  "url": "https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/",
+  "title": "Flight Centre Travel Group warns of customer data breach involving some passport details",
+  "excerpt": "Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T09:31:44Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Flight Centre disclosed that customer names and, in rare cases, passport and health details may have been accessed in a booking system breach.",
+    "nl": "Flight Centre meldt dat namen en in zeldzame gevallen paspoort- en gezondheidsgegevens van klanten mogelijk zijn ingezien na een datalek."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "99bc87f8212c",
+  "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+  "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+  "excerpt": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T09:29:30Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Attackers trojanized official Q-Dir and DesktopOK installers on the SoftwareOK site, delivering remote access malware.",
+    "nl": "Aanvallers hebben officiële Q-Dir- en DesktopOK-installatiebestanden op de SoftwareOK-site gemanipuleerd en leveren remote access-malware."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "cf1728ed9716",
+  "url": "https://www.security.nl/posting/963326/Dief+doet+voor+22_000+euro+aan+frauduleuze+transacties+met+gestolen+iPhone?channel=rss",
+  "title": "Dief doet voor 22.000 euro aan frauduleuze transacties met gestolen iPhone",
+  "excerpt": "Een gestolen iPhone is gebruikt voor het uitvoeren van meer dan 22.000 euro aan frauduleuze betaaltransacties. De vrouw van wie ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T09:10:00Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A stolen iPhone was used for more than 22,000 euros in fraudulent payment transactions.",
+    "nl": "Een gestolen iPhone is gebruikt voor meer dan 22.000 euro aan frauduleuze betalingen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "94bc0b958e6f",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+  "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+  "excerpt": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T09:08:16Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Microsoft released an emergency hotpatch fixing Windows Server 2025 crashes caused by the KB5131077 security hotpatch.",
+    "nl": "Microsoft bracht een noodhotpatch uit tegen crashes van Windows Server 2025 na de beveiligingshotpatch KB5131077."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "fe84f7d27ffc",
+  "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0525",
+  "title": "NCSC-2026-0525 [1.00] [M/H] Kwetsbaarheden verholpen in Linux kernel",
+  "excerpt": "De Linux kernel ontwikkelaars hebben meerdere kwetsbaarheden verholpen in diverse subsystemen en drivers, waaronder IPv6, KVM, SUNRPC, NFS, SMB, XFS, overlayfs, OCFS2, media drivers, netwerkdrivers, geheugenbeheer, en meer. De kwetsbaarheden betreffen onder andere use-after-free, race conditions, out-of-bounds reads/writes, null pointer dereferences, deadlocks, en improper synchronisatie. Aanvallers kunnen deze kwetsbaarheden lokaal of, in enkele gevallen, via netwerktoegang misbruiken om denial of service te veroorzaken, kernel crashes te triggeren, geheugen corruptie te bewerkstelligen, of…",
+  "source_id": "ncsc-nl",
+  "source": "NCSC-NL Advisories",
+  "lang": "nl",
+  "kind": "advisory",
+  "focus": "broad",
+  "published": "2026-11-27T09:04:58Z",
+  "fetched": "2026-11-27T12:30:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Linux kernel developers fixed multiple vulnerabilities across subsystems, some exploitable locally or over network access.",
+    "nl": "Linux-kerneldevelopers hebben meerdere kwetsbaarheden in diverse subsystemen verholpen, sommige misbruikbaar via netwerktoegang."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "ca3bc6ffe83b",
+  "url": "https://www.security.nl/posting/963316/Bits+of+Freedom+kritisch+op+Autoriteit+Persoonsgegevens%3A+%27Falende+toezichthouder%27?channel=rss",
+  "title": "Bits of Freedom kritisch op Autoriteit Persoonsgegevens: 'Falende toezichthouder'",
+  "excerpt": "Burgerrechtenbeweging Bits of Freedom (BoF) heeft zich opnieuw kritisch uitgelaten over de Autoriteit Persoonsgegevens (AP). In ...",
+  "source_id": "securitynl",
+  "source": "Security.NL",
+  "lang": "nl",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T08:31:00Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Civil rights group Bits of Freedom again criticised the Dutch Data Protection Authority as a failing regulator.",
+    "nl": "Burgerrechtenbeweging Bits of Freedom uitte opnieuw kritiek op de Autoriteit Persoonsgegevens als falende toezichthouder."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "1d7e87ba13cb",
+  "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+  "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+  "excerpt": "A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T08:06:58Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [
+   "CVE-2026-99362"
+  ],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "advisory",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A 12-year-old critical Linux kernel NFS server flaw, CVE-2026-99362, allows remote attackers to gain root privileges.",
+    "nl": "Een twaalf jaar oude kritieke kwetsbaarheid in de NFS-server van de Linux-kernel, CVE-2026-99362, geeft externe aanvallers root-rechten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "5889d05bcb59",
+  "url": "https://industrialcyber.co/threats-attacks/booba-ransomware-spreads-from-us-water-treatment-plant-to-local-government-network-exposing-it-ot-network-security-gap/",
+  "title": "Booba ransomware spreads from US water treatment plant to local government network, exposing IT/OT network security gap",
+  "excerpt": "New data from ThreatDown reported that Booba ransomware hit an East Coast water treatment plant in November and...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-27T07:39:03Z",
+  "fetched": "2026-11-27T12:30:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 80,
+   "category": "incident",
+   "sectors": [
+    "water",
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Booba ransomware hit a US East Coast water treatment plant in November and spread to a local government network, exposing an IT/OT gap.",
+    "nl": "Booba-ransomware trof in november een waterzuiveringsinstallatie aan de Amerikaanse oostkust en verspreidde zich naar een lokaal overheidsnetwerk."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "8065f3e3744d",
+  "url": "https://industrialcyber.co/regulation-standards-and-compliance/bsi-publishes-first-standards-supporting-eu-cyber-resilience-act-gives-manufacturers-product-security-risk-framework/",
+  "title": "BSI publishes first standards supporting EU Cyber Resilience Act, gives manufacturers product security risk framework",
+  "excerpt": "The British Standards Institution (BSI), the U.K.’s national standards body, this week published the first two standards supporting...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-27T07:37:52Z",
+  "fetched": "2026-11-27T12:30:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "regulation",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The British Standards Institution published the first two standards supporting the EU Cyber Resilience Act, providing a product security risk framework for manufacturers.",
+    "nl": "Het British Standards Institution publiceerde de eerste twee normen ter ondersteuning van de EU Cyber Resilience Act, met een kader voor productbeveiligingsrisico's voor fabrikanten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:34Z"
+  }
+ },
+ {
+  "id": "b71770cec5ee",
+  "url": "https://industrialcyber.co/cisa/cisa-flags-critical-vulnerabilities-in-danfoss-schneider-electric-and-automationdirect-industrial-products/",
+  "title": "CISA flags critical vulnerabilities in Danfoss, Schneider Electric and AutomationDirect industrial products",
+  "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) published three ICS (industrial control systems) advisories this week covering...",
+  "source_id": "industrialcyber",
+  "source": "Industrial Cyber",
+  "lang": "en",
+  "kind": "news",
+  "focus": "ot",
+  "published": "2026-11-27T07:36:59Z",
+  "fetched": "2026-11-27T12:30:08Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 70,
+   "category": "advisory",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [
+    "Danfoss",
+    "Schneider Electric",
+    "AutomationDirect"
+   ],
+   "summary": {
+    "en": "CISA published three ICS advisories covering critical vulnerabilities in industrial products from Danfoss, Schneider Electric and AutomationDirect.",
+    "nl": "CISA heeft drie ICS-adviezen gepubliceerd over kritieke kwetsbaarheden in industriële producten van Danfoss, Schneider Electric en AutomationDirect."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "4095c2b866b9",
+  "url": "https://www.helpnetsecurity.com/2026/11/27/sailpoint-2027-ai-identity-security-predictions-report/",
+  "title": "In 2027, “the agent did it” stops being an excuse",
+  "excerpt": "Enterprises will come under growing pressure to establish accountability for autonomous AI agents in 2027, with regulators, corporate boards and insurers demanding evidence of how organizations govern automated decisions, manage access privileges and prevent operational disruption, according to SailPoint’s 2027 Identity Security Predictions. The company’s Horizons of Identity Security 2026–2027 research found that 79% of enterprises have deployed AI agents in production, while just 2% have implemented identity security controls designed for them, creating what … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T06:30:14Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 15,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "SailPoint"
+   ],
+   "summary": {
+    "en": "SailPoint's 2027 identity security predictions say enterprises will face pressure to account for autonomous AI agents.",
+    "nl": "De 2027-voorspellingen van SailPoint stellen dat bedrijven onder druk komen te staan om verantwoording af te leggen voor autonome AI-agents."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "bdba96d745bb",
+  "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+  "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+  "excerpt": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T06:04:20Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": true,
+   "score": 72,
+   "category": "incident",
+   "sectors": [
+    "cross_sector"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "Swiss cybersecurity authorities confirmed AI-agent-assisted attacks breached systems at organizations, including two critical infrastructure operators, with no major disruptions reported.",
+    "nl": "De Zwitserse cyberautoriteit bevestigde dat AI-agents zijn ingezet bij aanvallen op organisaties, waaronder twee exploitanten van kritieke infrastructuur, zonder grote verstoringen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "eb4ace68efbb",
+  "url": "https://www.helpnetsecurity.com/2026/11/27/product-showcase-norton-claude-scam-detection/",
+  "title": "Product showcase: Norton helps Claude users uncover the telltale signs of fraud",
+  "excerpt": "The Norton connector for Claude brings the company’s Genie AI-powered scam detection capabilities into the chatbot. Users can submit suspicious emails, text messages, screenshots, and links for analysis, as well as ask questions about cybersecurity, privacy, and identity protection. The integration does not require a Norton account or a separate application. Setting up the connector I tested the Norton connector using Claude on an iPhone. The integration provides three tools. The first checks links, messages, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T06:00:59Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 5,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "Norton"
+   ],
+   "summary": {
+    "en": "Norton released a connector that adds its scam detection capabilities to the Claude chatbot.",
+    "nl": "Norton heeft een connector uitgebracht die zijn scamdetectie toevoegt aan de Claude-chatbot."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "706168821faa",
+  "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+  "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+  "excerpt": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T05:48:20Z",
+  "fetched": "2026-11-27T12:30:06Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 30,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [
+    "Cacti"
+   ],
+   "summary": {
+    "en": "A new unpatched zero-day in the open-source network monitoring tool Cacti could allow remote code execution via guest access.",
+    "nl": "Een nieuwe ongepatchte zero-day in de open-source netwerkmonitoringtool Cacti kan via gastentoegang remote code execution mogelijk maken."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "0be1cfba8b75",
+  "url": "https://www.helpnetsecurity.com/2026/11/27/doj-scam-crackdown-800-scammers/",
+  "title": "US seizes nearly $17 billion in global war on scam rings",
+  "excerpt": "The US government has gone after more than 800 alleged scammers in what it calls its largest-ever crackdown on scams targeting Americans. The Department of Justice announced that the effort covers more than 400 cases in 85 federal districts, including new charges, guilty verdicts and sentences, and 30 defendants were extradited to the United States. American prosecutors and agents joined police in more than 10 countries to raid scam call centers and compounds abroad. The … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T05:30:28Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "US authorities charged and prosecuted more than 800 alleged scammers in a large crackdown on scams targeting Americans.",
+    "nl": "Amerikaanse autoriteiten hebben meer dan 800 vermeende oplichters vervolgd in een grootschalige aanpak van oplichting van Amerikanen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "72004c9924f5",
+  "url": "https://www.helpnetsecurity.com/2026/11/27/crest-ai-threat-led-penetration-testing/",
+  "title": "AI raises new questions about what penetration testing proves",
+  "excerpt": "AI is becoming an established part of threat-led penetration testing (TLPT), with 81% of surveyed providers using the technology beyond experimentation, according to research from CREST. The study, AI and the Future of Threat-Led Penetration Testing: Capability, Control and Credible Assurance, draws on responses from 26 providers and insights from two industry roundtables involving cybersecurity professionals and institutional stakeholders, with a focus on financial services. AI expands threat emulation capabilities Over the next 12 months, … More →",
+  "source_id": "helpnetsecurity",
+  "source": "Help Net Security",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T05:00:32Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "research",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "CREST research finds 81% of surveyed penetration testing providers use AI beyond experimentation, with a focus on financial services.",
+    "nl": "Onderzoek van CREST toont aan dat 81% van de ondervraagde pentestaanbieders AI buiten de experimentfase gebruikt, met focus op financiële diensten."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "f9571136225a",
+  "url": "https://therecord.media/france-afp-hit-by-cyberattack",
+  "title": "Cyberattack disrupts global news distribution platform at France’s AFP",
+  "excerpt": "French international news agency Agence France-Presse was hit by a cyberattack Thursday, forcing it to take offline one of its main platforms for distributing news content to media organizations worldwide.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T00:00:00Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 20,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "A cyberattack forced French news agency AFP to take offline one of its main platforms for distributing news to media worldwide.",
+    "nl": "Een cyberaanval dwong het Franse nieuwsagentschap AFP om een van zijn belangrijkste platforms voor nieuwsdistributie offline te halen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
+  "id": "875b913eba13",
+  "url": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+  "title": "British government takes services offline following ‘cyber incident’",
+  "excerpt": "The Department for Work and Pensions said Friday that it had experienced a cyber incident, with several services taken down as a precaution.",
+  "source_id": "therecord",
+  "source": "The Record",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-27T00:00:00Z",
+  "fetched": "2026-11-27T12:30:07Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 25,
+   "category": "incident",
+   "sectors": [
+    "government"
+   ],
+   "vendors": [],
+   "summary": {
+    "en": "The UK Department for Work and Pensions reported a cyber incident and took several services offline as a precaution.",
+    "nl": "Het Britse ministerie van Werk en Pensioenen meldde een cyberincident en haalde voorzorgshalve enkele diensten offline."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T12:30:43Z"
+  }
+ },
+ {
   "id": "ea60fe9b9fc1",
   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
@@ -67787,36 +68624,6 @@
    "summary": {
     "en": "Kaspersky ICS CERT reports a privilege escalation vulnerability in Rockwell Automation FactoryTalk Activation Manager.",
     "nl": "Kaspersky ICS CERT meldt een privilege escalatie kwetsbaarheid in Rockwell Automation FactoryTalk Activation Manager."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "df743cea917f",
-  "url": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
-  "title": "Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway",
-  "excerpt": "The NCSC is urging UK organisations to promptly mitigate vulnerabilities affecting Citrix NetScaler ADC and Gateway, two of which are being actively exploited.",
-  "source_id": "ncsc-uk",
-  "source": "NCSC-UK",
-  "lang": "en",
-  "kind": "guidance",
-  "focus": "broad",
-  "published": "2026-09-28T12:00:00Z",
-  "fetched": "2026-10-19T09:38:18Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": false,
-   "score": 30,
-   "category": "advisory",
-   "sectors": [],
-   "vendors": [
-    "Citrix"
-   ],
-   "summary": {
-    "en": "NCSC urges UK organisations to mitigate Citrix NetScaler ADC and Gateway vulnerabilities, two of which are being actively exploited.",
-    "nl": "De NCSC roept Britse organisaties op om kwetsbaarheden in Citrix NetScaler ADC en Gateway te verhelpen, waarvan er twee actief worden misbruikt."
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"

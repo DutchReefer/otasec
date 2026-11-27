@@ -1,0 +1,211 @@
+{
+ "date": "2026-11-27",
+ "published": "2026-11-27T12:31:12Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 10,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "Ransomware moving from a US water treatment plant into a municipal network leads today, alongside Swiss confirmation of AI-assisted attacks on critical infrastructure. New CISA advisories and the first standards supporting the EU Cyber Resilience Act round out the day."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Vandaag staat ransomware centraal die van een Amerikaanse waterzuivering doorsijpelde naar een gemeentelijk netwerk, naast Zwitserse bevestiging van AI-ondersteunde aanvallen op vitale infrastructuur. Nieuwe CISA-advisories en de eerste standaarden voor de EU Cyber Resilience Act vullen het beeld aan."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "5889d05bcb59",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/threats-attacks/booba-ransomware-spreads-from-us-water-treatment-plant-to-local-government-network-exposing-it-ot-network-security-gap/",
+     "title": "Booba ransomware spreads from US water treatment plant to local government network, exposing IT/OT network security gap"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Booba ransomware spreads from US water plant to local government network",
+     "summary": "ThreatDown reported that Booba ransomware hit an East Coast water treatment plant in November. The infection spread to a local government network, exposing a gap between IT and OT network security.",
+     "takeaway": "Check the segmentation and trust relationships between plant OT networks and shared municipal IT, and make sure remote access paths are controlled and monitored."
+    },
+    "nl": {
+     "heading": "Booba-ransomware verspreidt zich van Amerikaanse waterzuivering naar gemeentenetwerk",
+     "summary": "ThreatDown meldt dat Booba-ransomware in november een waterzuivering aan de Amerikaanse oostkust trof. De infectie verspreidde zich naar het netwerk van een lokale overheid, wat een gat tussen IT- en OT-netwerkbeveiliging blootlegt.",
+     "takeaway": "Controleer de segmentatie en vertrouwensrelaties tussen OT-netwerken van installaties en gedeelde gemeentelijke IT, en zorg dat toegang op afstand beheerst en gemonitord is."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "bdba96d745bb",
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+     "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Switzerland confirms AI-assisted attacks breached critical infrastructure operators",
+     "summary": "Switzerland's cybersecurity agency confirmed that attackers using AI agents broke into systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country. Three attacks targeted critical infrastructure operators and two of those succeeded, with no major disruptions reported. The victims have not been named.",
+     "takeaway": "Review detection and response coverage for fast, automated intrusion activity on the IT side that could reach OT."
+    },
+    "nl": {
+     "heading": "Update: Zwitserland bevestigt AI-ondersteunde aanvallen op vitale infrastructuur",
+     "summary": "Het Zwitserse cybersecurityagentschap bevestigt dat aanvallers met AI-agents bij Zwitserse organisaties inbraken in vier van de vijf bevestigde aanvallen, de eerste van dit soort gevallen in het land. Drie aanvallen richtten zich op exploitanten van vitale infrastructuur en twee daarvan slaagden, zonder grote verstoringen. De slachtoffers zijn niet genoemd.",
+     "takeaway": "Beoordeel of detectie en respons voldoende dekking bieden tegen snelle, geautomatiseerde inbraken aan de IT-kant die OT kunnen bereiken."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "b71770cec5ee",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/cisa/cisa-flags-critical-vulnerabilities-in-danfoss-schneider-electric-and-automationdirect-industrial-products/",
+     "title": "CISA flags critical vulnerabilities in Danfoss, Schneider Electric and AutomationDirect industrial products"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "CISA flags critical flaws in Danfoss, Schneider Electric and AutomationDirect products",
+     "summary": "CISA published three ICS advisories this week covering critical vulnerabilities in industrial products from Danfoss, Schneider Electric and AutomationDirect. Danfoss and AutomationDirect issues were already in the news earlier this week.",
+     "takeaway": "Check your asset inventory for these vendors' products and apply vendor mitigations, keeping affected devices off exposed networks."
+    },
+    "nl": {
+     "heading": "CISA meldt kritieke kwetsbaarheden in producten van Danfoss, Schneider Electric en AutomationDirect",
+     "summary": "CISA publiceerde deze week drie ICS-advisories over kritieke kwetsbaarheden in industriële producten van Danfoss, Schneider Electric en AutomationDirect. Over de kwesties bij Danfoss en AutomationDirect werd eerder deze week al bericht.",
+     "takeaway": "Controleer uw assetinventaris op producten van deze leveranciers, pas de mitigaties van de leverancier toe en houd getroffen apparaten van blootgestelde netwerken af."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "48f64acefdc0",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/ransomware/volant-manticore-expands-iran-linked-cyber-espionage-from-cyprus-to-saudi-arabia-targeting-critical-sectors/",
+     "title": "Volant Manticore expands Iran-linked cyber espionage from Cyprus to Saudi Arabia, targeting critical sectors"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Update: Volant Manticore expands from Cyprus to Saudi Arabia",
+     "summary": "New Check Point research describes Volant Manticore as a previously undocumented Iran-nexus espionage group. It has now expanded from Cyprus to Saudi Arabia, targeting critical sectors.",
+     "takeaway": "If you operate in the Middle East or Mediterranean region, review the published indicators and hunt for them in your environment."
+    },
+    "nl": {
+     "heading": "Update: Volant Manticore breidt activiteiten uit van Cyprus naar Saoedi-Arabië",
+     "summary": "Nieuw onderzoek van Check Point beschrijft Volant Manticore als een voorheen onbekende spionagegroep met banden met Iran. De groep is nu van Cyprus uitgebreid naar Saoedi-Arabië en richt zich op kritieke sectoren.",
+     "takeaway": "Opereert u in het Midden-Oosten of het Middellandse Zeegebied, neem dan de gepubliceerde indicatoren door en zoek er actief naar in uw omgeving."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "5b9cc3f84923",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/963260/Frans+ziekenhuis+staakt+kankerbehandelingen+wegens+cyberaanval?channel=rss",
+     "title": "Frans ziekenhuis staakt kankerbehandelingen wegens cyberaanval"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "French hospital halts cancer treatments after cyberattack",
+     "summary": "A French hospital has decided to temporarily stop performing cancer treatments because of a cyberattack, according to Security.NL. This follows other recent reports of a suspected ransomware incident at a French hospital.",
+     "takeaway": "Verify that clinical and building systems can keep running safely in manual mode and that recovery plans have been tested."
+    },
+    "nl": {
+     "heading": "Frans ziekenhuis staakt kankerbehandelingen na cyberaanval",
+     "summary": "Een Frans ziekenhuis heeft besloten tijdelijk geen kankerbehandelingen uit te voeren vanwege een cyberaanval, meldt Security.NL. Dit volgt op eerdere berichten over een vermoedelijk ransomware-incident bij een Frans ziekenhuis.",
+     "takeaway": "Controleer of klinische systemen en gebouwbeheersystemen veilig handmatig kunnen doordraaien en of herstelplannen getest zijn."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "8065f3e3744d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/regulation-standards-and-compliance/bsi-publishes-first-standards-supporting-eu-cyber-resilience-act-gives-manufacturers-product-security-risk-framework/",
+     "title": "BSI publishes first standards supporting EU Cyber Resilience Act, gives manufacturers product security risk framework"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "BSI publishes first standards supporting the EU Cyber Resilience Act",
+     "summary": "The British Standards Institution published the first two standards supporting the EU Cyber Resilience Act this week. They give manufacturers a product security risk framework.",
+     "takeaway": "Ask your suppliers how they are preparing for Cyber Resilience Act requirements and build this into procurement criteria."
+    },
+    "nl": {
+     "heading": "BSI publiceert eerste standaarden ter ondersteuning van de EU Cyber Resilience Act",
+     "summary": "De British Standards Institution publiceerde deze week de eerste twee standaarden ter ondersteuning van de EU Cyber Resilience Act. Ze bieden fabrikanten een raamwerk voor productbeveiligingsrisico's.",
+     "takeaway": "Vraag uw leveranciers hoe zij zich voorbereiden op de eisen van de Cyber Resilience Act en neem dit mee in inkoopcriteria."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "5f41815abf1d",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/regulation-standards-and-compliance/eu-proposes-quantum-act-to-strengthen-industrial-capabilities-secure-supply-chains-advance-post-quantum-readiness/",
+     "title": "EU proposes Quantum Act to strengthen industrial capabilities, secure supply chains, advance post-quantum readiness"
+    },
+    {
+     "id": "0266fccae250",
+     "name": "Industrial Cyber",
+     "url": "https://industrialcyber.co/critical-infrastructure/fdd-urges-us-congress-to-designate-space-systems-as-critical-infrastructure-sector-citing-cyber-and-counterspace-threats/",
+     "title": "FDD urges US Congress to designate space systems as critical infrastructure sector, citing cyber and counterspace threats"
+    },
+    {
+     "id": "990e44d17138",
+     "name": "Security.NL",
+     "url": "https://www.security.nl/posting/963226/Overheid+trekt+250_000+euro+uit+voor+weerbare+digitale+tijdvoorziening?channel=rss",
+     "title": "Overheid trekt 250.000 euro uit voor weerbare digitale tijdvoorziening"
+    },
+    {
+     "id": "4d9fd839c79b",
+     "name": "Waterfall Security",
+     "url": "https://waterfall-security.com/ot-insights-center/ot-cybersecurity-insights-center/what-a-week-of-outages-teaches-us/",
+     "title": "What a Week of Outages Teaches Us"
+    }
+   ],
+   "source_count": 3,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Policy and resilience: EU Quantum Act, space as critical infrastructure, Dutch time service, outage lessons",
+     "summary": "The European Commission proposed a Quantum Act to strengthen industrial capabilities, secure supply chains and advance post-quantum readiness. FDD urged the US Congress to designate space systems as a critical infrastructure sector, and the Dutch Ministry of Economic Affairs set aside 250,000 euros for a resilient digital time service. Waterfall Security also discussed a week of outages at US air traffic control, major banks and Microsoft 365, including deliberate attacks on physical systems.",
+     "takeaway": "Note dependencies on time synchronization, cloud services and post-quantum planning in your resilience and supplier reviews."
+    },
+    "nl": {
+     "heading": "Beleid en weerbaarheid: Europese Quantum Act, ruimtevaart als vitale sector, Nederlandse tijdvoorziening, lessen uit storingen",
+     "summary": "De Europese Commissie stelde een Quantum Act voor om industriële capaciteiten te versterken, toeleveringsketens te beveiligen en post-quantumgereedheid te bevorderen. FDD riep het Amerikaanse Congres op ruimtesystemen aan te merken als vitale sector, en het ministerie van Economische Zaken trekt 250.000 euro uit voor een weerbare digitale tijdvoorziening. Waterfall Security besprak daarnaast een week met storingen bij Amerikaanse luchtverkeersleiding, grote banken en Microsoft 365, waaronder bewuste aanvallen op fysieke systemen.",
+     "takeaway": "Neem afhankelijkheden van tijdsynchronisatie, clouddiensten en post-quantumplanning mee in uw weerbaarheids- en leveranciersbeoordelingen."
+    }
+   }
+  }
+ ]
+}
