@@ -47,10 +47,11 @@ def view_item(it: dict, lang: str, tz: ZoneInfo, show_x: bool = True) -> dict:
     summary = no_em_dash((cls.get("summary") or {}).get(lang) or "")
     if not summary and it.get("lang") == lang:
         summary = it.get("excerpt", "")
-    # otasec.com shows Dutch-source articles with their English title (translate_titles).
+    # Each site shows articles from the other language with a translated title
+    # (translate_titles): title_en on otasec.com, title_nl on otasec.nl.
     title = it["title"]
-    if lang == "en" and it.get("lang", "en") != "en" and it.get("title_en"):
-        title = it["title_en"]
+    if it.get("lang", "en") != lang and it.get(f"title_{lang}"):
+        title = it[f"title_{lang}"]
     return {
         "id": it["id"],
         "url": safe_url(it["url"]),

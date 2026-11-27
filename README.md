@@ -5,7 +5,11 @@ A bilingual news aggregator for OT/ICS security: **otasec.com** (English) and
 
 - **Live feed**: every OT/ICS-relevant story from dedicated OT outlets, vendor and
   government advisories and the broader security press. It's updated
-  hourly, tagged by type, sector, vendor and CVE, and filterable.
+  hourly, tagged by type, sector, vendor and CVE, and filterable. Each item
+  gets a one-line summary in English and Dutch, and headlines from the other
+  language are translated (Dutch sources get an English title on otasec.com,
+  English sources a Dutch title on otasec.nl; the link still goes to the
+  original article).
 - **Daily briefing**: each morning, the day's most-covered stories clustered
   into one post. Each story gets a summary, a takeaway for asset owners and links
   to every source.

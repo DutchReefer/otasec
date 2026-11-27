@@ -77,7 +77,10 @@ def run(cfg: Config, *, fetch: bool = True, classify: bool = True, do_briefing: 
         classify_items(items, cfg.anthropic_key, cfg.models["classify"],
                        batch_size=cfg.site["classify"]["batch_size"],
                        max_items=cfg.site["classify"]["max_items_per_run"])
-        translate_titles(items, cfg.anthropic_key, cfg.models["classify"])
+        # Translated headlines for the other site, only for the live-feed window.
+        since = iso(utcnow() - timedelta(days=cfg.site["feed"]["window_days"]))
+        for target in ("en", "nl"):
+            translate_titles(items, cfg.anthropic_key, cfg.models["classify"], target=target, since=since)
     items = store.save_items(items, cfg.site["feed"]["retention_days"])
 
     if do_briefing:
