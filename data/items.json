@@ -1,5 +1,63 @@
 [
  {
+  "id": "ea60fe9b9fc1",
+  "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+  "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+  "excerpt": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
+  "source_id": "bleepingcomputer",
+  "source": "BleepingComputer",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T21:06:22Z",
+  "fetched": "2026-11-27T02:52:53Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 2,
+   "category": "industry",
+   "sectors": [],
+   "vendors": [
+    "OpenAI"
+   ],
+   "summary": {
+    "en": "OpenAI says it fixed a bug that wrongly discounted GPT-6.2 usage, so users will reach usage limits 40% faster.",
+    "nl": "OpenAI meldt dat een bug die het GPT-6.2-gebruik onterecht verlaagde is opgelost, waardoor gebruikers sneller aan hun limieten komen."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T02:52:58Z"
+  }
+ },
+ {
+  "id": "2cde4a64c5de",
+  "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+  "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+  "excerpt": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much. Then there’s the question of who gets to use what. Stolen logins are opening",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-26T19:39:57Z",
+  "fetched": "2026-11-27T02:52:52Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "threat",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "The Hacker News weekly roundup covers several general threats, including 10M NGINX services at risk, malicious browser extensions and AI server hijacking.",
+    "nl": "Wekelijks overzicht van The Hacker News met diverse algemene dreigingen, waaronder 10 miljoen NGINX-services in gevaar, kwaadaardige browserextensies en het kapen van AI-servers."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-27T02:52:58Z"
+  }
+ },
+ {
   "id": "ed449d6a11d8",
   "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
   "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
@@ -67762,39 +67820,6 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-10-19T09:38:57Z"
-  }
- },
- {
-  "id": "218dd02811c6",
-  "url": "https://cert-portal.siemens.com/productcert/html/ssa-627195.html",
-  "title": "SSA-627195 V1.2 (Last Update: 2026-09-28): Zip Path Traversal Vulnerability in Mendix Studio Pro's Module Installation Process",
-  "excerpt": "Mendix Studio Pro contains a vulnerability in the module installation process, that could allow an attacker to write or modify arbitrary files in directories outside a developer’s project directory. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-  "source_id": "siemens-productcert",
-  "source": "Siemens ProductCERT",
-  "lang": "en",
-  "kind": "advisory",
-  "focus": "ot",
-  "published": "2026-09-28T00:00:00Z",
-  "fetched": "2026-10-14T21:44:15Z",
-  "cves": [],
-  "x_mentions": 0,
-  "cls": {
-   "relevant": true,
-   "score": 40,
-   "category": "advisory",
-   "sectors": [
-    "manufacturing"
-   ],
-   "vendors": [
-    "Siemens",
-    "Mendix"
-   ],
-   "summary": {
-    "en": "Siemens advisory SSA-627195 describes a zip path traversal flaw in Mendix Studio Pro that allows writing files outside the project directory; updates are available.",
-    "nl": "Siemens-advisory SSA-627195 beschrijft een zip path traversal-fout in Mendix Studio Pro waarmee bestanden buiten de projectmap geschreven kunnen worden; updates zijn beschikbaar."
-   },
-   "model": "claude-haiku-5-5",
-   "at": "2026-10-18T00:11:52Z"
   }
  }
 ]
