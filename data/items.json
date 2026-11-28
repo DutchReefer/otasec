@@ -1,5 +1,33 @@
 [
  {
+  "id": "ed56aac972a3",
+  "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+  "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+  "excerpt": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+  "source_id": "thehackernews",
+  "source": "The Hacker News",
+  "lang": "en",
+  "kind": "news",
+  "focus": "broad",
+  "published": "2026-11-28T08:08:11Z",
+  "fetched": "2026-11-28T13:04:27Z",
+  "cves": [],
+  "x_mentions": 0,
+  "cls": {
+   "relevant": false,
+   "score": 10,
+   "category": "incident",
+   "sectors": [],
+   "vendors": [],
+   "summary": {
+    "en": "Consumer password manager pCloud Pass confirmed a cyber attack exposed some user email addresses and triggered unknown login attempts.",
+    "nl": "Consumentenwachtwoordmanager pCloud Pass bevestigde een cyberaanval waarbij e-mailadressen van enkele gebruikers zijn blootgesteld en onbekende inlogpogingen plaatsvonden."
+   },
+   "model": "claude-haiku-5-5",
+   "at": "2026-11-28T13:04:31Z"
+  }
+ },
+ {
   "id": "1fb658de3739",
   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
   "title": "pCloud confirms password manager hack after suspicious login alerts",

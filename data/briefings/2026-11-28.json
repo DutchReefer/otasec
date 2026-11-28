@@ -1,0 +1,74 @@
+{
+ "date": "2026-11-28",
+ "published": "2026-11-28T13:05:55Z",
+ "model": "claude-sonnet-5-5",
+ "item_count": 3,
+ "i18n": {
+  "en": {
+   "title": "",
+   "intro": "A quiet day: one unpatched Cacti zero-day with a public exploit, plus two new Siemens advisories for Mendix."
+  },
+  "nl": {
+   "title": "",
+   "intro": "Een rustige dag: een ongepatchte zero-day in Cacti met publieke exploit, en twee nieuwe Siemens-advisories voor Mendix."
+  }
+ },
+ "stories": [
+  {
+   "sources": [
+    {
+     "id": "30b0f99624be",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+     "title": "Unpatched Cacti zero-day with public PoC gives remote code execution"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Unpatched Cacti zero-day with public PoC allows remote code execution",
+     "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed together with a proof-of-concept exploit. It lets unauthenticated attackers execute commands on vulnerable servers. No patch is mentioned in the report.",
+     "takeaway": "Check whether Cacti is used to monitor your OT or plant networks, and restrict access to those servers to trusted management networks until a fix is available."
+    },
+    "nl": {
+     "heading": "Ongepatchte Cacti zero-day met publieke PoC maakt remote code execution mogelijk",
+     "summary": "Er is een zero-day in het netwerkmonitoringplatform Cacti openbaar gemaakt, samen met een proof-of-concept exploit. Daarmee kunnen niet-geauthenticeerde aanvallers commando's uitvoeren op kwetsbare servers. In het bericht wordt geen patch genoemd.",
+     "takeaway": "Controleer of Cacti wordt gebruikt voor het monitoren van OT- of fabrieksnetwerken en beperk de toegang tot die servers tot vertrouwde beheernetwerken totdat er een fix beschikbaar is."
+    }
+   }
+  },
+  {
+   "sources": [
+    {
+     "id": "a514e21dea37",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-545865.html",
+     "title": "SSA-545865 V1.0: Improper Token Verification Vulnerability in Mendix OIDC Provider Module"
+    },
+    {
+     "id": "1b01639ae52b",
+     "name": "Siemens ProductCERT",
+     "url": "https://cert-portal.siemens.com/productcert/html/ssa-579716.html",
+     "title": "SSA-579716 V1.0: Insufficient Session Expiration Vulnerability in Mendix Runtime"
+    }
+   ],
+   "source_count": 1,
+   "x_mentions": 0,
+   "cves": [],
+   "i18n": {
+    "en": {
+     "heading": "Other advisories: Siemens Mendix OIDC Provider and Runtime flaws",
+     "summary": "Siemens published SSA-545865, describing a token verification flaw in the Mendix OIDC Provider module that could let a remote attacker hijack an account. SSA-579716 covers insufficient session expiration in Mendix Runtime, where a deactivated user could keep using an existing session within previously granted permissions. Siemens has released new versions for the affected products.",
+     "takeaway": "If you run Mendix applications, for example in operations dashboards, update to the latest versions recommended by Siemens."
+    },
+    "nl": {
+     "heading": "Overige advisories: Siemens Mendix OIDC Provider en Runtime kwetsbaarheden",
+     "summary": "Siemens publiceerde SSA-545865 over een tokenverificatiefout in de Mendix OIDC Provider-module, waarmee een aanvaller op afstand een account zou kunnen overnemen. SSA-579716 betreft onvoldoende sessieverloop in Mendix Runtime, waardoor een gedeactiveerde gebruiker een bestaande sessie kan blijven gebruiken binnen eerder verleende rechten. Siemens heeft nieuwe versies van de getroffen producten uitgebracht.",
+     "takeaway": "Gebruikt u Mendix-applicaties, bijvoorbeeld voor operationele dashboards, werk dan bij naar de nieuwste door Siemens aanbevolen versies."
+    }
+   }
+  }
+ ]
+}
