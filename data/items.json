@@ -14888,7 +14888,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:29:43Z"
-  }
+  },
+  "title_nl": "Dragos: industriële ransomware-aanvallen namen in Q3 2026 met 11% toe, productie goed voor 69% van de slachtoffers"
  },
  {
   "id": "6085ef54790f",
@@ -15157,7 +15158,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:30:03Z"
-  }
+  },
+  "title_nl": "Pilz: kwetsbaarheden in 'PHP' (PHP2Shell) voor industriële pc IndustrialPI"
  },
  {
   "id": "88a7359ab97b",
@@ -15188,7 +15190,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:30:03Z"
-  }
+  },
+  "title_nl": "FBI waarschuwt dat hackers het ARTEX AI-framework inzetten om aanvallen op energie, productie en telecom te automatiseren"
  },
  {
   "id": "8bb938fbc842",
@@ -15220,7 +15223,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:30:03Z"
-  }
+  },
+  "title_nl": "VulnCheck vindt 14 kwetsbaarheden in Copeland XWEB EVO koelsystemen, twee daarvan actief misbruikt"
  },
  {
   "id": "62ac097740d6",
@@ -15250,7 +15254,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:30:03Z"
-  }
+  },
+  "title_nl": "Achter de fundamentele kloof in OT: een PLC-fout, een AI-exploit en gelekte identiteiten"
  },
  {
   "id": "623605cd3beb",
@@ -15342,7 +15347,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:30:03Z"
-  }
+  },
+  "title_nl": "CODESYS Automation Server Connector en CODESYS Service Tool: meerdere kwetsbaarheden"
  },
  {
   "id": "1c0981ac6016",
@@ -15374,7 +15380,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:30:03Z"
-  }
+  },
+  "title_nl": "CODESYS Automation Server Connector: path traversal"
  },
  {
   "id": "7a28afcc0919",
@@ -15518,7 +15525,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:30:03Z"
-  }
+  },
+  "title_nl": "DURAG: PHP2Shell- en Brotli-kwetsbaarheden in D-ESI 100"
  },
  {
   "id": "0dfc56680bc3",
@@ -15662,7 +15670,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T14:30:03Z"
-  }
+  },
+  "title_nl": "Verdachte van ransomware-samenwerking uitgeleverd aan VS, risico op 27 jaar gevangenisstraf"
  },
  {
   "id": "50868e3a64c2",
@@ -15759,7 +15768,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-17T22:55:21Z"
-  }
+  },
+  "title_nl": "ICSA-26-321-01: Dorsett Controls InfoScan"
  },
  {
   "id": "1ef65dbe395d",
@@ -16303,7 +16313,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T22:09:52Z"
-  }
+  },
+  "title_nl": "Netskope: AI-gebruik in de productie verdubbelt, terwijl hiaten in datagovernance, shadow AI en nieuwe cyberdreigingen toenemen"
  },
  {
   "id": "5adf36e942de",
@@ -16389,7 +16400,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T22:09:52Z"
-  }
+  },
+  "title_nl": "Liberty Eclipse van het DoE test onder echte omstandigheden incidentrespons bij energiebedrijven, IT-OT-coördinatie en herstel van het stroomnet"
  },
  {
   "id": "f9828b77234b",
@@ -16541,7 +16553,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T22:10:02Z"
-  }
+  },
+  "title_nl": "Zes ongepatchte kwetsbaarheden in Danfoss koelregelaars kunnen zonder login overname op afstand mogelijk maken"
  },
  {
   "id": "8c37ef3c2776",
@@ -16687,7 +16700,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T11:28:39Z"
-  }
+  },
+  "title_nl": "Welotec: PKfail in RSAPC UEFI-firmware"
  },
  {
   "id": "31b206eabdbf",
@@ -16719,7 +16733,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T11:28:39Z"
-  }
+  },
+  "title_nl": "Welotec: IPv4 TCP use-after-free in egOS"
  },
  {
   "id": "884b5e801d44",
@@ -16831,7 +16846,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T11:28:39Z"
-  }
+  },
+  "title_nl": "Check Point: ransomware op recordniveau, n0n stijgt naar de top drie en risicovolle GenAI-prompts nemen toe"
  },
  {
   "id": "8e46922ad0ca",
@@ -16863,7 +16879,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T11:28:39Z"
-  }
+  },
+  "title_nl": "Marlink roept energiebedrijven op de connectiviteitsveerkracht te versterken voor offshore- en afgelegen installaties"
  },
  {
   "id": "cf3541a76f19",
@@ -16895,7 +16912,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T11:28:39Z"
-  }
+  },
+  "title_nl": "Ongepatchte GeoVision-cameratsoftware gaf cryptojackers een achterdeur naar 13 organisaties"
  },
  {
   "id": "d7a5d3b6169e",
@@ -17068,7 +17086,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T11:28:39Z"
-  }
+  },
+  "title_nl": "Endress+Hauser: meerdere producten getroffen door kwetsbaarheid in Wibu-Systems CodeMeter"
  },
  {
   "id": "677f8ec8c280",
@@ -17210,7 +17229,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T11:28:46Z"
-  }
+  },
+  "title_nl": "BO Team misbruikt Log4Shell in VMware vCenter en compromitteert code-signing-server van Russisch bedrijf"
  },
  {
   "id": "ccb385c95765",
@@ -17328,7 +17348,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-16T11:28:46Z"
-  }
+  },
+  "title_nl": "AI vindt fouten in stopgezette apparaten waarvoor geen leverancier meer is om ze te patchen"
  },
  {
   "id": "29c8bcf132e2",
@@ -17876,7 +17897,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-13T22:40:43Z"
-  }
+  },
+  "title_nl": "Duitse militaire droneoperaties verstoord door cyberaanval"
  },
  {
   "id": "4c8fe02bd04c",
@@ -18408,7 +18430,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-13T16:29:10Z"
-  }
+  },
+  "title_nl": "AI haalt legacy TCP/IP-stacks onderuit en legt kwetsbaarheden bloot in kritieke infrastructuur, OT- en IoT-apparaten"
  },
  {
   "id": "18121150fd73",
@@ -18501,7 +18524,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-13T16:29:10Z"
-  }
+  },
+  "title_nl": "DOE zet AI-FORTS-programma voort om met superintelligentie aangedreven cybersecuritytools te ontwikkelen voor kritieke energie-infrastructuur"
  },
  {
   "id": "22fdda936d49",
@@ -18531,7 +18555,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-13T16:29:10Z"
-  }
+  },
+  "title_nl": "NCSC lanceert CyAS-regeling om de cyberweerbaarheid van kritieke infrastructuur te versterken via adversary simulation en testen"
  },
  {
   "id": "fe3ab0485c82",
@@ -18727,7 +18752,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-13T16:29:29Z"
-  }
+  },
+  "title_nl": "JBL: DoS-kwetsbaarheid in Flip 4"
  },
  {
   "id": "5df4bf07aed5",
@@ -19121,7 +19147,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-13T08:03:26Z"
-  }
+  },
+  "title_nl": "SANS-enquête 2026: sterke stijging van ICS/OT-cyberincidenten, tragere detectie en ernstigere operationele gevolgen"
  },
  {
   "id": "ca21fa6e658c",
@@ -19149,7 +19176,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-13T08:03:26Z"
-  }
+  },
+  "title_nl": "Patero en Horizen Labs werken samen om organisaties te helpen de migratie naar post-quantumcryptografie te prioriteren"
  },
  {
   "id": "7683b44038cf",
@@ -19637,7 +19665,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T19:58:24Z"
-  }
+  },
+  "title_nl": "Scheepvaartreus Maersk meldt dat recent cyberincident een legacy-systeem trof"
  },
  {
   "id": "950205e16691",
@@ -20105,7 +20134,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T19:58:24Z"
-  }
+  },
+  "title_nl": "Aanvallers braken in bij 10 organisaties via een open-source AI-pentestframework"
  },
  {
   "id": "3eb3dda3413b",
@@ -20720,7 +20750,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T19:58:49Z"
-  }
+  },
+  "title_nl": "PTC patcht kritieke kwetsbaarheid in Windchill en FlexPLM die remote code execution mogelijk maakt"
  },
  {
   "id": "0df3b4df844f",
@@ -20862,7 +20893,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T11:21:03Z"
-  }
+  },
+  "title_nl": "ENISA: cyberbeveiligingsvolwassenheid in de EU verbetert, maar persistente dreigingen, ongelijke capaciteiten en supply-chainrisico's blijven"
  },
  {
   "id": "d3228bec9681",
@@ -20951,7 +20983,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T11:21:03Z"
-  }
+  },
+  "title_nl": "Maersk onderzoekt inbraak in legacy-systeem nadat ransomwaregroep WhiteArmor claimt 100GB aan logistieke data te hebben gestolen"
  },
  {
   "id": "e23de8152b62",
@@ -20979,7 +21012,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T11:21:03Z"
-  }
+  },
+  "title_nl": "Cloud Range OT Cyber Readiness Assessment richt zich op IT-OT-coördinatie en hiaten in incidentrespons bij industriële operaties"
  },
  {
   "id": "9714eef9dc0d",
@@ -21007,7 +21041,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T11:21:03Z"
-  }
+  },
+  "title_nl": "Finite State haalt 27 miljoen dollar op voor AI-gedreven productbeveiliging en aanpak van software-supplychainrisico's bij verbonden apparaten"
  },
  {
   "id": "c2206020f6fc",
@@ -21035,7 +21070,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T11:21:03Z"
-  }
+  },
+  "title_nl": "Redspin behaalt ISO/IEC 17020-accreditatie en wordt erkend C3PAO voor CMMC-beoordelingen"
  },
  {
   "id": "95b0e9376649",
@@ -21517,7 +21553,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T11:21:18Z"
-  }
+  },
+  "title_nl": "CISO's zeggen dat OT een cyberaanval overleeft, maar hun engineers zijn er niet zo zeker van"
  },
  {
   "id": "8b748363b7cc",
@@ -21721,7 +21758,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-12T11:21:18Z"
-  }
+  },
+  "title_nl": "Welotec: vertrouwen in gecompromitteerde intermediate certificaten in egOS"
  },
  {
   "id": "d62040292e65",
@@ -22495,7 +22533,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-11T15:17:46Z"
-  }
+  },
+  "title_nl": "NCSC-regeling helpt kritieke organisaties hun cyberverdediging te testen"
  },
  {
   "id": "e27caf097771",
@@ -22766,7 +22805,8 @@
    },
    "model": "claude-haiku-5-5",
    "at": "2026-11-11T15:17:46Z"
-  }
+  },
+  "title_nl": "Beckhoff: blootgestelde IOCTL's met onvoldoende toegangscontrole in TcRouter.sys"
  },
  {
   "id": "2519a28cef68",
